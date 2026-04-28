@@ -10,6 +10,7 @@ authors = [{ name = "Cătălin Popa" }]
 [tool.ruff]
 line-length = 100
 target-version = "py311"
+extend-exclude = ["actions-runner", "pages", "pagefind"]
 
 [tool.ruff.lint]
 # Un set strict dar rezonabil; adăugăm reguli pe măsură ce codul crește.

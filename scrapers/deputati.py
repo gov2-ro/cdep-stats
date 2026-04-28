@@ -16,7 +16,6 @@ import hashlib
 import logging
 import os
 import re
-import string
 import unicodedata
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date

@@ -14,12 +14,10 @@ from __future__ import annotations
 
 import hashlib
 import logging
-import re
 import unicodedata
 import xml.etree.ElementTree as ET
 from collections.abc import Iterator
 from datetime import date, datetime, timedelta
-from urllib.parse import urljoin
 
 from parsel import Selector
 
