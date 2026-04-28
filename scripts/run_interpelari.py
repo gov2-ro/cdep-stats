@@ -42,7 +42,9 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--year", type=int, default=None, help="An (default: anul curent)")
     parser.add_argument("--years", type=int, nargs="+", help="Multiple ani: --years 2024 2025 2026")
-    parser.add_argument("--leg", type=int, default=None, help="Legislatura (default: detect din year)")
+    parser.add_argument(
+        "--leg", type=int, default=None, help="Legislatura (default: detect din year)"
+    )
     parser.add_argument("--verbose", "-v", action="store_true")
     args = parser.parse_args()
 
@@ -86,7 +88,7 @@ def main() -> int:
     new_dicts = [i.model_dump(mode="json", exclude_none=False) for i in all_new]
     all_data = existing_data + new_dicts
     # Sortez după data_inregistrare descrescător
-    all_data.sort(key=lambda x: (x.get("data_inregistrare") or ""), reverse=True)
+    all_data.sort(key=lambda x: x.get("data_inregistrare") or "", reverse=True)
 
     meta = Meta(
         generated_at=datetime.now(UTC),

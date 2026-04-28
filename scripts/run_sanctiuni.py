@@ -1,8 +1,8 @@
 """Rulează scraperul de sancțiuni și salvează JSON.
 
-    python scripts/run_sanctiuni.py                  # leg=2024
-    python scripts/run_sanctiuni.py --leg 2020
-    python scripts/run_sanctiuni.py --all            # toate legislaturile (2024+2020+2016)
+python scripts/run_sanctiuni.py                  # leg=2024
+python scripts/run_sanctiuni.py --leg 2020
+python scripts/run_sanctiuni.py --all            # toate legislaturile (2024+2020+2016)
 """
 
 from __future__ import annotations

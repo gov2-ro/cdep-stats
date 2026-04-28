@@ -108,7 +108,10 @@ def parse_detail(idi: int, legislatura: int) -> Interpelare | None:
 
     # Câmpuri specifice — pattern „Label: value"
     def field(label: str, after: str = "") -> str | None:
-        pattern = re.escape(label) + r"\s*:?\s*(.+?)(?=\s+(?:Nr\.|Data|Termen|Mod|Adresant|Destinatar|Textul|R[ăa]spuns|Camera|Informa|$))"
+        pattern = (
+            re.escape(label)
+            + r"\s*:?\s*(.+?)(?=\s+(?:Nr\.|Data|Termen|Mod|Adresant|Destinatar|Textul|R[ăa]spuns|Camera|Informa|$))"
+        )
         m = re.search(pattern, text)
         return m.group(1).strip() if m else None
 
@@ -134,8 +137,10 @@ def parse_detail(idi: int, legislatura: int) -> Interpelare | None:
 
     # Text PDF link
     text_pdf = None
-    for href in sel.css('a::attr(href)').getall():
-        if "pdf" in href.lower() and "Text" in (sel.css(f'a[href="{href}"]::text').get() or "") + str(href):
+    for href in sel.css("a::attr(href)").getall():
+        if "pdf" in href.lower() and "Text" in (
+            sel.css(f'a[href="{href}"]::text').get() or ""
+        ) + str(href):
             text_pdf = urljoin(BASE, href)
             break
     # Mai simplu: primul PDF din pagină = textul interpelării

@@ -34,7 +34,9 @@ class VoteIndividual(BaseModel):
         None, description="Canonical ID al deputatului (cross-link cu /deputati)"
     )
     voter_name: str = Field(..., description="Nume complet")
-    party: str | None = Field(None, description='Grup parlamentar la momentul votului (ex: "PSD", "AUR")')
+    party: str | None = Field(
+        None, description='Grup parlamentar la momentul votului (ex: "PSD", "AUR")'
+    )
     option: VoteOption = Field(..., description="Opțiunea votului: yes/no/abstain/not_voting")
 
 
@@ -51,7 +53,9 @@ class VoteEvent(BaseModel):
 
     # --- Conținut ---
     timestamp: datetime = Field(..., description="Data + ora exactă a votului")
-    descriere: str = Field(..., description="Descriere scurtă (ex: 'PH CD 23/2026 - Vot final adoptare')")
+    descriere: str = Field(
+        ..., description="Descriere scurtă (ex: 'PH CD 23/2026 - Vot final adoptare')"
+    )
 
     # --- Rezultate agregate ---
     counts: VoteCounts
@@ -82,4 +86,6 @@ class VoteEventSummary(BaseModel):
     timestamp: datetime
     descriere: str
     counts: VoteCounts
-    detail_url: str = Field(..., description='Path relativ către detaliu (ex: "voturi/2024/36875.json")')
+    detail_url: str = Field(
+        ..., description='Path relativ către detaliu (ex: "voturi/2024/36875.json")'
+    )

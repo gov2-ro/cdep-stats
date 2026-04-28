@@ -33,9 +33,18 @@ BASE = "https://www.cdep.ro"
 LIST_URL = BASE + "/pls/parlam/sanctiuni_parlam.lista_sanctionati?leg={leg}&cam={cam}"
 
 ROMANIAN_MONTHS = {
-    "ianuarie": 1, "februarie": 2, "martie": 3, "aprilie": 4,
-    "mai": 5, "iunie": 6, "iulie": 7, "august": 8,
-    "septembrie": 9, "octombrie": 10, "noiembrie": 11, "decembrie": 12,
+    "ianuarie": 1,
+    "februarie": 2,
+    "martie": 3,
+    "aprilie": 4,
+    "mai": 5,
+    "iunie": 6,
+    "iulie": 7,
+    "august": 8,
+    "septembrie": 9,
+    "octombrie": 10,
+    "noiembrie": 11,
+    "decembrie": 12,
 }
 
 # Header pattern: "23 martie 2026 - DECIZIE privind aplicarea unei sancțiuni domnului|doamnei deputat NUME"
@@ -208,7 +217,9 @@ def scrape(leg: int = 2024, cam: int = 2) -> list[Sanctiune]:
             sanctiune = parse_block(block, leg=leg)
             if sanctiune:
                 results.append(sanctiune)
-                logger.info(f"  [{len(results)}] {sanctiune.data} - {sanctiune.deputat_nume} ({sanctiune.tip})")
+                logger.info(
+                    f"  [{len(results)}] {sanctiune.data} - {sanctiune.deputat_nume} ({sanctiune.tip})"
+                )
         except Exception as e:
             logger.warning(f"  block {i} failed: {e}")
 

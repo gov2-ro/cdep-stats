@@ -80,17 +80,19 @@ def fetch_day_xml(d: date) -> list[dict]:
     rows = []
     for row in root.findall("ROW"):
         try:
-            rows.append({
-                "idv": int(row.findtext("VOTID", "0")),
-                "time_vot": row.findtext("TIME_VOT", ""),
-                "descriere": row.findtext("DESCRIERE", "").strip(),
-                "camera": int(row.findtext("CAMERA", "0")),
-                "prezenti": int(row.findtext("PREZENTI", "0")),
-                "da": int(row.findtext("AU_VOTAT_DA", "0")),
-                "nu": int(row.findtext("AU_VOTAT_NU", "0")),
-                "ab": int(row.findtext("AU_VOTAT_AB", "0")),
-                "nu_au_votat": int(row.findtext("NU_AU_VOTAT", "0")),
-            })
+            rows.append(
+                {
+                    "idv": int(row.findtext("VOTID", "0")),
+                    "time_vot": row.findtext("TIME_VOT", ""),
+                    "descriere": row.findtext("DESCRIERE", "").strip(),
+                    "camera": int(row.findtext("CAMERA", "0")),
+                    "prezenti": int(row.findtext("PREZENTI", "0")),
+                    "da": int(row.findtext("AU_VOTAT_DA", "0")),
+                    "nu": int(row.findtext("AU_VOTAT_NU", "0")),
+                    "ab": int(row.findtext("AU_VOTAT_AB", "0")),
+                    "nu_au_votat": int(row.findtext("NU_AU_VOTAT", "0")),
+                }
+            )
         except (ValueError, TypeError) as e:
             logger.warning(f"  skip row in {d}: {e}")
     return rows

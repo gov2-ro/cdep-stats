@@ -50,9 +50,15 @@ def detect_legislatura(d: date) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--days", type=int, default=7, help="Zile înapoi (default 7)")
-    parser.add_argument("--from", dest="from_date", type=str, help="Data de start (YYYY-MM-DD), override --days")
-    parser.add_argument("--to", dest="to_date", type=str, help="Data de sfârșit (YYYY-MM-DD), default azi")
-    parser.add_argument("--leg", type=int, default=None, help="Legislatura (default = detect din to_date)")
+    parser.add_argument(
+        "--from", dest="from_date", type=str, help="Data de start (YYYY-MM-DD), override --days"
+    )
+    parser.add_argument(
+        "--to", dest="to_date", type=str, help="Data de sfârșit (YYYY-MM-DD), default azi"
+    )
+    parser.add_argument(
+        "--leg", type=int, default=None, help="Legislatura (default = detect din to_date)"
+    )
     parser.add_argument("--cam", type=int, default=2)
     parser.add_argument("--verbose", "-v", action="store_true")
     args = parser.parse_args()
@@ -89,7 +95,9 @@ def main() -> int:
             pass
 
     # Scrape interval
-    events = scrape_range(start=start, end=end, legislatura=leg, cam=args.cam, progress=args.verbose)
+    events = scrape_range(
+        start=start, end=end, legislatura=leg, cam=args.cam, progress=args.verbose
+    )
 
     # Filter doar voturi noi
     new_events = [ev for ev in events if ev.cdep_idv not in existing_ids]
@@ -111,9 +119,7 @@ def main() -> int:
             ).model_dump(mode="json"),
             "data": ev.model_dump(mode="json"),
         }
-        detail_path.write_text(
-            json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
-        )
+        detail_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
     # Actualizăm index
     new_summaries = [
@@ -143,9 +149,7 @@ def main() -> int:
         ).model_dump(mode="json"),
         "data": all_summaries,
     }
-    index_path.write_text(
-        json.dumps(index_payload, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    index_path.write_text(json.dumps(index_payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"OK +{len(new_events)} voturi noi. Total în index: {len(all_summaries)}.")
     print(f"   {out_dir}/")

@@ -33,9 +33,7 @@ class Interpelare(BaseModel):
 
     # --- Adresant (deputatul care întreabă) ---
     adresant_nume: str
-    adresant_canonical_id: str | None = Field(
-        None, description="Cross-link cu /deputati"
-    )
+    adresant_canonical_id: str | None = Field(None, description="Cross-link cu /deputati")
     adresant_grup: str | None = Field(None, description="Grup parlamentar la moment")
 
     # --- Destinatar ---
