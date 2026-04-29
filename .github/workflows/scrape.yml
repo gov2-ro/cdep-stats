@@ -68,6 +68,11 @@ jobs:
           $year = (Get-Date).Year
           python scripts/run_interpelari.py --year $year --verbose
 
+      - name: Run scraper — proiecte legislative (anul curent)
+        run: |
+          $year = (Get-Date).Year
+          python scripts/run_proiecte.py --year $year --verbose
+
       - name: Build comisii (agregat din deputați)
         run: |
           $leg = if ('${{ github.event.inputs.leg }}') { '${{ github.event.inputs.leg }}' } else { '2024' }

@@ -248,6 +248,69 @@ def generate_interpelari() -> int:
     return count
 
 
+def generate_proiecte() -> int:
+    count = 0
+    for leg in [2024, 2020, 2016]:
+        f = DATA / "proiecte" / f"legislatura-{leg}.json"
+        if not f.exists():
+            continue
+        data = json.loads(f.read_text(encoding="utf-8"))
+        for p in data["data"]:
+            year = (p.get("data_inregistrare_cd") or p.get("data_prezentare") or "")[:4] or "?"
+            stadiu = p.get("stadiu") or "necunoscut"
+            stadiu_filter = (
+                "promulgat"
+                if p.get("lege_nr")
+                else (
+                    "respins"
+                    if "respins" in stadiu.lower()
+                    else ("retras" if "retras" in stadiu.lower() else "în lucru")
+                )
+            )
+            initiator = p.get("initiator") or "necunoscut"
+            urgent = "urgenta" if p.get("procedura_urgenta") else "ordinara"
+
+            timeline_html = ""
+            if p.get("timeline"):
+                timeline_html = "<h2>Timeline</h2><ul>"
+                for ev in p["timeline"][:30]:
+                    timeline_html += (
+                        f"<li>{safe(ev.get('data') or '')}: {safe(ev.get('eveniment') or '')}</li>"
+                    )
+                timeline_html += "</ul>"
+
+            vot_html = ""
+            if p.get("vot_pentru") is not None:
+                vot_html = (
+                    f"<p>Vot final: pentru={p['vot_pentru']}, "
+                    f"contra={p.get('vot_contra', 0)}, "
+                    f"abțineri={p.get('vot_abtineri', 0)}</p>"
+                )
+
+            body = f"""
+<p data-pagefind-filter="tip:proiect" data-pagefind-meta="tip:proiect">
+<strong data-pagefind-filter="an:{year}">{safe(p.get("nr_camera_deputati") or p.get("nr_inregistrare") or "")}</strong>
+&middot; Legislatura {p["legislatura"]}
+&middot; <span data-pagefind-filter="stadiu:{stadiu_filter}">{safe(stadiu)}</span>
+&middot; <span data-pagefind-filter="initiator:{safe(initiator[:30])}">{safe(initiator)}</span>
+&middot; <span data-pagefind-filter="procedura:{urgent}">{urgent}</span>
+</p>
+<p>Caracter: {safe(p.get("caracter") or "")} &middot; Cameră decizională: {safe(p.get("camera_decizionala") or "-")}</p>
+{f"<p>Lege: <strong>{safe(p['lege_nr'])}</strong> (Decret {safe(p.get('decret_nr') or '-')})</p>" if p.get("lege_nr") else ""}
+{vot_html}
+{timeline_html}
+"""
+            page_path = PAGES / "proiecte" / f"{p['cam']}-{p['cdep_idp']}.html"
+            write_page(
+                page_path,
+                p["titlu"],
+                body,
+                f"/data/v1/proiecte/legislatura-{leg}.json",
+            )
+            count += 1
+    return count
+
+
 def generate_comisii() -> int:
     count = 0
     for leg in [2024, 2020, 2016]:
@@ -308,7 +371,9 @@ def main() -> int:
     print(f"  interpelări: {n_int}")
     n_com = generate_comisii()
     print(f"  comisii: {n_com}")
-    total = n_dep + n_vot + n_san + n_int + n_com
+    n_pro = generate_proiecte()
+    print(f"  proiecte: {n_pro}")
+    total = n_dep + n_vot + n_san + n_int + n_com + n_pro
     print(f"\nTotal: {total} pagini HTML generate")
     return 0
 

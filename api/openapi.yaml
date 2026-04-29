@@ -46,6 +46,8 @@ tags:
     description: Interpelări și întrebări parlamentare adresate Guvernului
   - name: Comisii
     description: Comisii parlamentare (permanente, speciale comune) cu lista membrilor
+  - name: Proiecte
+    description: Proiecte legislative cu stadiu, inițiator, timeline, voturi
   - name: Propuse
     description: Endpoint-uri propuse, încă neimplementate
 
@@ -196,16 +198,27 @@ paths:
               schema:
                 $ref: "#/components/schemas/ComisiiResponse"
 
-  /proiecte-lege:
+  /proiecte/legislatura-{legislatura}.json:
     get:
-      tags: [Propuse]
-      summary: "[propus] Proiecte de lege"
+      tags: [Proiecte]
+      summary: Proiecte legislative
       description: |
-        **Neimplementat în POC.** Va expune proiectele de lege din `pls/proiecte/`
-        cu stadiu, inițiator, comisie sesizată.
+        Lista proiectelor și propunerilor legislative depuse într-o legislatură,
+        cu stadiu, inițiator, timeline procedural și (când există) rezultatul votului final.
+      parameters:
+        - name: legislatura
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 2024
       responses:
-        "501":
-          description: Not Implemented (în POC)
+        "200":
+          description: Succes
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProiecteResponse"
 
 components:
   schemas:
@@ -610,3 +623,121 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/Comisie"
+
+    TimelineEvent:
+      type: object
+      properties:
+        data:
+          type: string
+          format: date
+          nullable: true
+        eveniment:
+          type: string
+
+    Proiect:
+      type: object
+      properties:
+        id:
+          type: string
+        cdep_idp:
+          type: integer
+          example: 22201
+        cam:
+          type: integer
+          enum: [0, 1, 2]
+          description: 1=Senat, 2=Camera Deputaților, 0=ambele
+        legislatura:
+          type: integer
+        nr_inregistrare:
+          type: string
+          nullable: true
+          example: "1/01.02.2025"
+        nr_camera_deputati:
+          type: string
+          nullable: true
+        nr_senat:
+          type: string
+          nullable: true
+        nr_guvern:
+          type: string
+          nullable: true
+        nr_bpi:
+          type: string
+          nullable: true
+        titlu:
+          type: string
+        tip:
+          type: string
+          enum: [proiect_lege, propunere_legislativa, ordonanta_urgenta, ordonanta_guvern, other]
+        caracter:
+          type: string
+          enum: [ordinar, organic, other]
+        procedura_urgenta:
+          type: boolean
+        initiator:
+          type: string
+          nullable: true
+        camera_decizionala:
+          type: string
+          nullable: true
+        stadiu:
+          type: string
+          nullable: true
+          example: "Lege 9/2025"
+        lege_nr:
+          type: string
+          nullable: true
+        decret_nr:
+          type: string
+          nullable: true
+        data_prezentare:
+          type: string
+          format: date
+          nullable: true
+        data_inregistrare_cd:
+          type: string
+          format: date
+          nullable: true
+        data_adoptare_cd:
+          type: string
+          format: date
+          nullable: true
+        data_adoptare_senat:
+          type: string
+          format: date
+          nullable: true
+        data_promulgare:
+          type: string
+          format: date
+          nullable: true
+        vot_pentru:
+          type: integer
+          nullable: true
+        vot_contra:
+          type: integer
+          nullable: true
+        vot_abtineri:
+          type: integer
+          nullable: true
+        timeline:
+          type: array
+          items:
+            $ref: "#/components/schemas/TimelineEvent"
+        documente_pdf:
+          type: array
+          items:
+            type: string
+            format: uri
+        source_url:
+          type: string
+          format: uri
+
+    ProiecteResponse:
+      type: object
+      properties:
+        meta:
+          $ref: "#/components/schemas/Meta"
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/Proiect"
