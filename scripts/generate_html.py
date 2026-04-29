@@ -14,12 +14,57 @@ from __future__ import annotations
 
 import html
 import json
+import re
 import sys
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "v1"
 PAGES = ROOT / "pages"
+
+
+def normalize_grup(raw: str | None) -> str:
+    """Normalizează adresant_grup la abreviere standard.
+
+    Datele din cdep.ro sunt murdare: scraperul prinde uneori 'AUR Destinatar' sau
+    'Neafiliaţi Destinatari' din cauza câmpului următor. Aici curățăm.
+    """
+    if not raw:
+        return "Neafiliat"
+    # Strip ":" și cuvinte spurioase ("Destinatar", "Destinatari")
+    cleaned = re.sub(r"[:;,]+", " ", raw)
+    cleaned = re.sub(r"\bDestinatar[ie]?\b", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+
+    if not cleaned:
+        return "Neafiliat"
+
+    # Strip diacritice pentru matching robust
+    norm = unicodedata.normalize("NFD", cleaned).encode("ascii", "ignore").decode("ascii").lower()
+
+    if "fara adeziune" in norm or "fara grup" in norm:
+        return "Neafiliat"
+    if "social democrat" in norm or norm == "psd":
+        return "PSD"
+    if "national liberal" in norm or norm == "pnl":
+        return "PNL"
+    if "salvati romania" in norm or norm == "usr":
+        return "USR"
+    if "alianta pentru unirea" in norm or norm == "aur":
+        return "AUR"
+    if "democrata maghiara" in norm or norm == "udmr":
+        return "UDMR"
+    if "s.o.s" in norm or norm.startswith("sos"):
+        return "S.O.S."
+    if "oamenilor tineri" in norm or norm == "pot":
+        return "POT"
+    if "minorit" in norm:
+        return "Minorități"
+    if "neafiliat" in norm:
+        return "Neafiliat"
+    # Fallback: ia primul cuvânt curățat
+    return cleaned.split()[0]
 
 
 def safe(s: str | None) -> str:
@@ -178,7 +223,7 @@ def generate_interpelari() -> int:
 """
             year = (i.get("data_inregistrare") or "")[:4] or "necunoscut"
             raspuns_filter = "primit" if i.get("raspuns_primit") else "nu"
-            grup = i.get("adresant_grup") or "Neafiliat"
+            grup = normalize_grup(i.get("adresant_grup"))
             body = f"""
 <p data-pagefind-filter="tip:interpelare" data-pagefind-meta="tip:interpelare">
 <strong data-pagefind-filter="an:{year}" data-pagefind-meta="data">{safe(i.get("data_inregistrare") or "")}</strong>
