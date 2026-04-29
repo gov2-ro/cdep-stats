@@ -194,11 +194,12 @@ a:hover{text-decoration:underline}
 
 <div class="stats-bar">
   <div class="stats-inner">
-    <div class="stat"><div class="stat-num" id="stat-deputati">…</div><div class="stat-lbl">Deputați activi</div></div>
-    <div class="stat"><div class="stat-num" id="stat-voturi">…</div><div class="stat-lbl">Voturi în plen</div></div>
+    <div class="stat"><div class="stat-num" id="stat-deputati">…</div><div class="stat-lbl">Deputați</div></div>
+    <div class="stat"><div class="stat-num" id="stat-voturi">…</div><div class="stat-lbl">Voturi</div></div>
+    <div class="stat"><div class="stat-num" id="stat-proiecte">…</div><div class="stat-lbl">Proiecte de lege</div></div>
     <div class="stat"><div class="stat-num" id="stat-interpelari">…</div><div class="stat-lbl">Interpelări</div></div>
+    <div class="stat"><div class="stat-num" id="stat-comisii">…</div><div class="stat-lbl">Comisii</div></div>
     <div class="stat"><div class="stat-num" id="stat-sanctiuni">…</div><div class="stat-lbl">Sancțiuni</div></div>
-    <div class="stat"><div class="stat-num">JSON</div><div class="stat-lbl">Format răspuns</div></div>
   </div>
 </div>
 
@@ -608,9 +609,11 @@ a:hover{text-decoration:underline}
         <p>Ce poate construi oricine folosind acest API.</p>
       </div>
       <div class="stats-grid-main">
-        <div class="stat-card"><div class="num" id="stats-deputati">…</div><div class="lbl">Deputați activi</div></div>
-        <div class="stat-card"><div class="num" id="stats-voturi">…</div><div class="lbl">Voturi în plen</div></div>
+        <div class="stat-card"><div class="num" id="stats-deputati">…</div><div class="lbl">Deputați</div></div>
+        <div class="stat-card"><div class="num" id="stats-voturi">…</div><div class="lbl">Voturi</div></div>
+        <div class="stat-card"><div class="num" id="stats-proiecte">…</div><div class="lbl">Proiecte lege</div></div>
         <div class="stat-card"><div class="num" id="stats-interpelari">…</div><div class="lbl">Interpelări</div></div>
+        <div class="stat-card"><div class="num" id="stats-comisii">…</div><div class="lbl">Comisii</div></div>
         <div class="stat-card"><div class="num" id="stats-sanctiuni">…</div><div class="lbl">Sancțiuni</div></div>
       </div>
       <div class="demo-grid">
@@ -678,18 +681,26 @@ let DEPUTATI = [];
 let VOTURI = [];
 let SANCTIUNI = [];
 let INTERPELARI_TOTAL = 0;
+let COMISII_TOTAL = 0;
+let PROIECTE = [];
+let PROIECTE_TOTAL = 0;
 
 async function loadData() {
-  const [dep, vot, san, intp] = await Promise.all([
+  const [dep, vot, san, intp, com, pro] = await Promise.all([
     fetch('data/v1/deputati/legislatura-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/voturi/2024/_index.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/sanctiuni/legislatura-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/interpelari/legislatura-2024.json').then(r => r.json()).catch(() => null),
+    fetch('data/v1/comisii/legislatura-2024.json').then(r => r.json()).catch(() => null),
+    fetch('data/v1/proiecte/legislatura-2024.json').then(r => r.json()).catch(() => null),
   ]);
   DEPUTATI = dep?.data || [];
   VOTURI = vot?.data || [];
   SANCTIUNI = san?.data || [];
   INTERPELARI_TOTAL = intp?.meta?.count || intp?.data?.length || 0;
+  COMISII_TOTAL = com?.meta?.count || com?.data?.length || 0;
+  PROIECTE = pro?.data || [];
+  PROIECTE_TOTAL = pro?.meta?.count || PROIECTE.length || 0;
 
   renderStats();
   renderDeps(DEPUTATI);
@@ -705,10 +716,14 @@ function renderStats() {
   set('stat-voturi', VOTURI.length);
   set('stat-interpelari', INTERPELARI_TOTAL);
   set('stat-sanctiuni', SANCTIUNI.length);
+  set('stat-comisii', COMISII_TOTAL);
+  set('stat-proiecte', PROIECTE_TOTAL);
   set('stats-deputati', DEPUTATI.length);
   set('stats-voturi', VOTURI.length);
   set('stats-interpelari', INTERPELARI_TOTAL);
   set('stats-sanctiuni', SANCTIUNI.length);
+  set('stats-comisii', COMISII_TOTAL);
+  set('stats-proiecte', PROIECTE_TOTAL);
 }
 
 function renderDeps(list) {
@@ -791,6 +806,14 @@ function renderIndicators() {
   const adopted = VOTURI.filter(v => (v.counts?.pentru || 0) > (v.counts?.contra || 0)).length;
   const pctAdopted = VOTURI.length ? Math.round(adopted / VOTURI.length * 100) : 0;
 
+  // Proiecte promulgate
+  const promulgate = PROIECTE.filter(p => p.lege_nr).length;
+  const pctPromulgate = PROIECTE.length ? Math.round(promulgate / PROIECTE.length * 100) : 0;
+
+  // Inițiator Guvern vs parlamentari
+  const initGuv = PROIECTE.filter(p => (p.initiator || '').toLowerCase().includes('guvern')).length;
+  const pctGuv = PROIECTE.length ? Math.round(initGuv / PROIECTE.length * 100) : 0;
+
   el.innerHTML = `
     <div class="progress-row">
       <div class="progress-label"><span>Deputați cu cel puțin o lege promulgată</span><span>${pctLegi}%</span></div>
@@ -801,8 +824,16 @@ function renderIndicators() {
       <div class="progress-bar"><div class="progress-fill" style="width:${pctInterpelari}%;background:#378ADD"></div></div>
     </div>
     <div class="progress-row">
+      <div class="progress-label"><span>Proiecte promulgate ca lege</span><span>${pctPromulgate}%</span></div>
+      <div class="progress-bar"><div class="progress-fill" style="width:${pctPromulgate}%;background:#1D9E75"></div></div>
+    </div>
+    <div class="progress-row">
+      <div class="progress-label"><span>Proiecte inițiate de Guvern (vs. parlamentari)</span><span>${pctGuv}%</span></div>
+      <div class="progress-bar"><div class="progress-fill" style="width:${pctGuv}%;background:#BA7517"></div></div>
+    </div>
+    <div class="progress-row">
       <div class="progress-label"><span>Voturi adoptate (pentru &gt; contra)</span><span>${pctAdopted}%</span></div>
-      <div class="progress-bar"><div class="progress-fill" style="width:${pctAdopted}%;background:#BA7517"></div></div>
+      <div class="progress-bar"><div class="progress-fill" style="width:${pctAdopted}%;background:#553378"></div></div>
     </div>
     <div style="margin-top:12px;font-size:12px;color:var(--text2);line-height:1.6">
       <strong>${mediaProp}</strong> propuneri legislative în medie / deputat (max <strong>${maxProp}</strong>).
