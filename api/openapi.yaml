@@ -50,6 +50,8 @@ tags:
     description: Proiecte legislative cu stadiu, inițiator, timeline, voturi
   - name: Amendamente
     description: View derivat — proiectele cele mai disputate (cu cele mai multe amendamente)
+  - name: Feeds
+    description: Atom + JSON Feed cu ultimele 50 evenimente, pentru abonare RSS
   - name: Propuse
     description: Endpoint-uri propuse, încă neimplementate
 
@@ -222,6 +224,36 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/ProiecteResponse"
+
+  /feed.atom:
+    get:
+      tags: [Feeds]
+      summary: Atom feed (RFC 4287)
+      description: |
+        Ultimele 50 de evenimente din toate endpoint-urile (voturi, proiecte, interpelări,
+        sancțiuni), sortate descrescător după dată. Compatibil cu cititoare RSS standard
+        (Feedly, Inoreader, NetNewsWire, etc.).
+      responses:
+        "200":
+          description: Atom feed XML
+          content:
+            application/atom+xml:
+              schema:
+                type: string
+
+  /feed.json:
+    get:
+      tags: [Feeds]
+      summary: JSON Feed v1.1 (https://jsonfeed.org)
+      description: |
+        Aceleași evenimente ca Atom feed, dar în format JSON Feed v1.1.
+      responses:
+        "200":
+          description: JSON Feed v1.1
+          content:
+            application/feed+json:
+              schema:
+                type: object
 
   /amendamente/legislatura-{legislatura}.json:
     get:

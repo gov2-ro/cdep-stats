@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Camera Deputaților — API Deschis · Proof of Concept</title>
+<link rel="alternate" type="application/atom+xml" title="Camera Deputaților — Atom feed" href="data/v1/feed.atom">
+<link rel="alternate" type="application/feed+json" title="Camera Deputaților — JSON Feed" href="data/v1/feed.json">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -218,6 +220,8 @@ a:hover{text-decoration:underline}
     <div class="sidebar-section">
       <div class="sidebar-label">Resurse</div>
       <a class="sidebar-item" href="search.html" style="display:block;text-decoration:none">Caută în date</a>
+      <a class="sidebar-item" href="data/v1/feed.atom" style="display:block;text-decoration:none">Atom feed (RSS)</a>
+      <a class="sidebar-item" href="data/v1/feed.json" style="display:block;text-decoration:none">JSON Feed</a>
       <a class="sidebar-item" href="api/openapi.yaml" style="display:block;text-decoration:none" download>OpenAPI 3.0 YAML</a>
       <a class="sidebar-item" href="docs/swagger.html" style="display:block;text-decoration:none">Swagger UI</a>
       <a class="sidebar-item" href="https://cdep.ro" style="display:block;text-decoration:none" target="_blank">cdep.ro ↗</a>

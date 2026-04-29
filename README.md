@@ -23,6 +23,7 @@ Un API REST public, gratuit, care expune datele parlamentare ale **Camerei Deput
 | `/comisii` (agregat) | **37** | [legislatura-2024.json](https://endimion2k.github.io/cdep-api-poc/data/v1/comisii/legislatura-2024.json) |
 | `/proiecte-lege` (2024–2026) | **1.641** | [legislatura-2024.json](https://endimion2k.github.io/cdep-api-poc/data/v1/proiecte/legislatura-2024.json) |
 | `/amendamente` (derived) | **154 proiecte / 1.820 amend.** | [legislatura-2024.json](https://endimion2k.github.io/cdep-api-poc/data/v1/amendamente/legislatura-2024.json) |
+| `/feed.atom` + `/feed.json` | **ultimele 50 evenimente** | [feed.atom](https://endimion2k.github.io/cdep-api-poc/data/v1/feed.atom) · [feed.json](https://endimion2k.github.io/cdep-api-poc/data/v1/feed.json) |
 | **Search full-text** | **~12.500 entități indexate** | [/search](https://endimion2k.github.io/cdep-api-poc/search.html) |
 
 Datele se actualizează automat zilnic la 04:00 UTC printr-un workflow GitHub Actions.
@@ -57,6 +58,8 @@ Acest API transformă HTML-ul public în JSON structurat, versionat și document
 | `GET /comisii/legislatura-{leg}.json` | JSON | Comisii permanente + speciale comune cu lista membrilor și conducerea |
 | `GET /proiecte/legislatura-{leg}.json` | JSON | Proiecte legislative cu stadiu, inițiator, timeline, voturi, decret promulgare, metadate amendamente |
 | `GET /amendamente/legislatura-{leg}.json` | JSON | View derivat — cele mai disputate proiecte sortate după număr amendamente |
+| `GET /feed.atom` | XML | Atom feed (RFC 4287) cu ultimele 50 evenimente |
+| `GET /feed.json` | JSON | JSON Feed v1.1 cu aceleași evenimente |
 | `GET /search.html?q=` | HTML | Căutare full-text (Pagefind) peste toate cele de mai sus |
 
 ### 🔜 Propuse (neimplementate)
@@ -64,8 +67,8 @@ Acest API transformă HTML-ul public în JSON structurat, versionat și document
 | Endpoint | Status |
 |---|---|
 | `GET /motiuni`, `/declaratii-politice`, `/stenograme` | viitor |
-| `GET /feed.atom`, `/feed.json` | viitor (notificări modificări) |
 | Texte complete amendamente (PDF parsing) | viitor — momentan link-ul la `raport_comisie_pdf` |
+| Bootstrap legislaturile 2016 + 2020 | viitor — date istorice pentru comparații |
 
 Vezi [`api/openapi.yaml`](./api/openapi.yaml) pentru schema completă.
 

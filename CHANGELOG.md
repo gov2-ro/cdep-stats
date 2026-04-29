@@ -17,6 +17,8 @@ Prima versiune funcțională a API-ului. 7 endpoint-uri live cu date reale, sear
 - `/comisii/legislatura-{leg}.json` — 37 comisii (32 permanente + 5 speciale comune) cu lista completă a membrilor și conducerea.
 - `/proiecte/legislatura-{leg}.json` — 1.641 proiecte legislative 2024–2026 cu stadiu, inițiator, cameră decizională, timeline procedural complet, vot final, decret promulgare, **metadate amendamente** (admise/respinse, termen depunere, link PDF raport comisie).
 - `/amendamente/legislatura-{leg}.json` — view derivat: 154 proiecte cu cele mai multe amendamente (1.669 admise + 151 respinse = 1.820 trackate), sortate descrescător. Util pentru identificarea celor mai disputate proiecte legislative.
+- `/feed.atom` — Atom feed (RFC 4287) cu ultimele 50 evenimente cross-endpoint (voturi, proiecte, interpelări, sancțiuni). Auto-discovery prin `<link rel="alternate">` în landing page.
+- `/feed.json` — JSON Feed v1.1 (https://jsonfeed.org/version/1.1/) cu aceleași evenimente.
 - `/search.html` — căutare full-text peste ~12.500 entități, cu filter-e faceted (tip, partid, județ, an, stadiu, etc.).
 
 **Infrastructură**
