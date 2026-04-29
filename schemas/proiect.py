@@ -83,6 +83,20 @@ class Proiect(BaseModel):
     vot_contra: int | None = None
     vot_abtineri: int | None = None
 
+    # Amendamente — metadate (lista completă e doar în PDF-ul raportului comisiei)
+    amendamente_termen_depunere: date | None = Field(
+        None, description="Deadline pentru depunere amendamente"
+    )
+    amendamente_admise: int | None = Field(
+        None, description="Număr amendamente admise în raportul comisiei"
+    )
+    amendamente_respinse: int | None = Field(
+        None, description="Număr amendamente respinse în raportul comisiei"
+    )
+    raport_comisie_pdf: HttpUrl | None = Field(
+        None, description="URL-ul PDF cu raportul comisiei (conține lista completă de amendamente)"
+    )
+
     # Timeline complet
     timeline: list[TimelineEvent] = Field(default_factory=list)
 

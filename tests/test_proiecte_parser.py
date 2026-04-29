@@ -96,3 +96,18 @@ def test_parse_detail_handles_missing_fixture() -> None:
     """Fixture-ul trebuie să existe — sanity check pentru CI."""
     assert FIXTURE.exists(), f"Fixture lipsă: {FIXTURE}"
     assert FIXTURE.stat().st_size > 10_000, "Fixture pare incomplet"
+
+
+def test_amendamente_metadata_extracted() -> None:
+    """Bugetul 2025 are termen amendamente în timeline ('03.02.2025, ora 16:00')."""
+    from scrapers.proiecte import parse_detail
+
+    html = FIXTURE.read_text(encoding="utf-8")
+    with patch("scrapers.proiecte.get", return_value=_FakeResponse(html)):
+        p = parse_detail(idp=22201, legislatura=2024, cam=2)
+
+    assert p is not None
+    # Bugetul 2025 a primit raport favorabil fără mențiune de „X amend. admise"
+    # (e o procedură specială), deci amendamente_admise poate fi None.
+    # Dar termenul de depunere ar trebui să fie populat:
+    assert str(p.amendamente_termen_depunere) == "2025-02-03"

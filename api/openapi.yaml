@@ -48,6 +48,8 @@ tags:
     description: Comisii parlamentare (permanente, speciale comune) cu lista membrilor
   - name: Proiecte
     description: Proiecte legislative cu stadiu, inițiator, timeline, voturi
+  - name: Amendamente
+    description: View derivat — proiectele cele mai disputate (cu cele mai multe amendamente)
   - name: Propuse
     description: Endpoint-uri propuse, încă neimplementate
 
@@ -204,7 +206,8 @@ paths:
       summary: Proiecte legislative
       description: |
         Lista proiectelor și propunerilor legislative depuse într-o legislatură,
-        cu stadiu, inițiator, timeline procedural și (când există) rezultatul votului final.
+        cu stadiu, inițiator, timeline procedural, rezultatul votului final și
+        metadate amendamente (admise/respinse, termen depunere, link raport comisie).
       parameters:
         - name: legislatura
           in: path
@@ -219,6 +222,32 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/ProiecteResponse"
+
+  /amendamente/legislatura-{legislatura}.json:
+    get:
+      tags: [Amendamente]
+      summary: Proiectele cu cele mai multe amendamente
+      description: |
+        View derivat din `/proiecte` — doar proiectele cu amendamente admise sau respinse,
+        sortate descrescător după total amendamente. Util pentru identificarea proiectelor
+        celor mai disputate.
+
+        **Notă**: lista completă a textelor amendamentelor e disponibilă doar în PDF-ul
+        raportului comisiei (`raport_comisie_pdf`); aici sunt doar metadatele agregate.
+      parameters:
+        - name: legislatura
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 2024
+      responses:
+        "200":
+          description: Succes
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AmendamenteResponse"
 
 components:
   schemas:
@@ -719,6 +748,21 @@ components:
         vot_abtineri:
           type: integer
           nullable: true
+        amendamente_termen_depunere:
+          type: string
+          format: date
+          nullable: true
+        amendamente_admise:
+          type: integer
+          nullable: true
+        amendamente_respinse:
+          type: integer
+          nullable: true
+        raport_comisie_pdf:
+          type: string
+          format: uri
+          nullable: true
+          description: PDF cu lista completă de amendamente (admise + respinse)
         timeline:
           type: array
           items:
@@ -741,3 +785,58 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/Proiect"
+
+    AmendamentSummary:
+      type: object
+      description: View derivat — un proiect cu amendamente, slim
+      properties:
+        proiect_id:
+          type: string
+        cdep_idp:
+          type: integer
+        cam:
+          type: integer
+        legislatura:
+          type: integer
+        nr_inregistrare:
+          type: string
+          nullable: true
+        titlu:
+          type: string
+          nullable: true
+        initiator:
+          type: string
+          nullable: true
+        stadiu:
+          type: string
+          nullable: true
+        lege_nr:
+          type: string
+          nullable: true
+        amendamente_termen_depunere:
+          type: string
+          format: date
+          nullable: true
+        amendamente_admise:
+          type: integer
+        amendamente_respinse:
+          type: integer
+        amendamente_total:
+          type: integer
+        raport_comisie_pdf:
+          type: string
+          format: uri
+          nullable: true
+        source_url:
+          type: string
+          format: uri
+
+    AmendamenteResponse:
+      type: object
+      properties:
+        meta:
+          $ref: "#/components/schemas/Meta"
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/AmendamentSummary"

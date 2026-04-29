@@ -243,6 +243,11 @@ def parse_detail(idp: int, legislatura: int, cam: int = 2) -> Proiect | None:
     data_adopt_sen = None
     data_promulgare = None
 
+    # Amendamente metadata
+    amend_termen: date | None = None
+    amend_admise: int | None = None
+    amend_respinse: int | None = None
+
     for ev in timeline:
         # Strip diacritice pentru matching robust
         e = (
@@ -267,6 +272,32 @@ def parse_detail(idp: int, legislatura: int, cam: int = 2) -> Proiect | None:
             data_adopt_sen = ev.data
         elif "promulgat" in e and not data_promulgare:
             data_promulgare = ev.data
+
+        # Termen depunere amendamente: "termen depunere amendamente: 03.02.2025, ora 16:00"
+        if "termen depunere amendament" in e and amend_termen is None:
+            m_term = re.search(r"(\d{1,2}\.\d{1,2}\.\d{4})", ev.eveniment)
+            if m_term:
+                amend_termen = _parse_iso_date(m_term.group(1))
+
+        # Amendamente admise/respinse din "primire raport favorabil (25 amend. admise)"
+        if "amend" in e:
+            m_admise = re.search(
+                r"\((\d+)\s*amend(?:amente)?\.?\s*admise\)", ev.eveniment, re.IGNORECASE
+            )
+            if m_admise and amend_admise is None:
+                amend_admise = int(m_admise.group(1))
+            m_respinse = re.search(
+                r"\((\d+)\s*amend(?:amente)?\.?\s*respinse\)", ev.eveniment, re.IGNORECASE
+            )
+            if m_respinse and amend_respinse is None:
+                amend_respinse = int(m_respinse.group(1))
+
+    # Raport comisie PDF: caut printre PDF-uri unul cu pattern „rp\d+.pdf" în /comisii/
+    raport_pdf: str | None = None
+    for u in pdfs:
+        if "/comisii/" in u and u.endswith(".pdf") and re.search(r"rp\d+\.pdf", u, re.IGNORECASE):
+            raport_pdf = u
+            break
 
     return Proiect(
         id=_proiect_id(cam, idp),
@@ -295,6 +326,10 @@ def parse_detail(idp: int, legislatura: int, cam: int = 2) -> Proiect | None:
         vot_pentru=vot_pentru,
         vot_contra=vot_contra,
         vot_abtineri=vot_abtineri,
+        amendamente_termen_depunere=amend_termen,
+        amendamente_admise=amend_admise,
+        amendamente_respinse=amend_respinse,
+        raport_comisie_pdf=raport_pdf,
         timeline=timeline,
         documente_pdf=pdfs[:30],  # cap la 30 PDF-uri ca să nu explodeze
         source_url=url,
