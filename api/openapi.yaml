@@ -44,6 +44,8 @@ tags:
     description: Sancțiuni disciplinare aplicate deputaților
   - name: Interpelări
     description: Interpelări și întrebări parlamentare adresate Guvernului
+  - name: Comisii
+    description: Comisii parlamentare (permanente, speciale comune) cu lista membrilor
   - name: Propuse
     description: Endpoint-uri propuse, încă neimplementate
 
@@ -169,6 +171,31 @@ paths:
               schema:
                 $ref: "#/components/schemas/InterpelariResponse"
 
+  /comisii/legislatura-{legislatura}.json:
+    get:
+      tags: [Comisii]
+      summary: Lista comisiilor parlamentare
+      description: |
+        Lista comisiilor permanente și speciale comune ale Camerei Deputaților,
+        cu membrii și conducerea fiecăreia.
+
+        **Sursa**: agregat derivat din `/deputati/legislatura-{legislatura}.json`
+        — datele despre apartenența la comisii sunt incluse în profilurile deputaților.
+      parameters:
+        - name: legislatura
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 2024
+      responses:
+        "200":
+          description: Succes
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ComisiiResponse"
+
   /proiecte-lege:
     get:
       tags: [Propuse]
@@ -176,17 +203,6 @@ paths:
       description: |
         **Neimplementat în POC.** Va expune proiectele de lege din `pls/proiecte/`
         cu stadiu, inițiator, comisie sesizată.
-      responses:
-        "501":
-          description: Not Implemented (în POC)
-
-  /comisii:
-    get:
-      tags: [Propuse]
-      summary: "[propus] Lista comisiilor parlamentare"
-      description: |
-        **Neimplementat ca endpoint dedicat.** Datele despre comisii sunt în prezent
-        nested în obiectul `Deputat.comisii`. Endpoint dedicat va fi adăugat ulterior.
       responses:
         "501":
           description: Not Implemented (în POC)
@@ -535,3 +551,62 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/Interpelare"
+
+    ComisieMembru:
+      type: object
+      properties:
+        deputat_canonical_id:
+          type: string
+          description: Match cu `Deputat.id`
+        deputat_nume:
+          type: string
+        deputat_cdep_idm:
+          type: integer
+        partid:
+          type: string
+          nullable: true
+        rol:
+          type: string
+          enum: [Președinte, Vicepreședinte, Secretar, Membru]
+
+    Comisie:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Hash stabil pe (legislatură, nume, tip)
+        nume:
+          type: string
+          example: "Comisia pentru tehnologia informaţiei şi comunicaţiilor"
+        tip:
+          type: string
+          enum: [permanenta, speciala, comuna, speciala_comuna]
+        legislatura:
+          type: integer
+        nr_membri:
+          type: integer
+        presedinte:
+          type: string
+          nullable: true
+        vicepresedinti:
+          type: array
+          items:
+            type: string
+        secretari:
+          type: array
+          items:
+            type: string
+        membri:
+          type: array
+          items:
+            $ref: "#/components/schemas/ComisieMembru"
+
+    ComisiiResponse:
+      type: object
+      properties:
+        meta:
+          $ref: "#/components/schemas/Meta"
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/Comisie"

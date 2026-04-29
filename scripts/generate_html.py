@@ -248,6 +248,53 @@ def generate_interpelari() -> int:
     return count
 
 
+def generate_comisii() -> int:
+    count = 0
+    for leg in [2024, 2020, 2016]:
+        f = DATA / "comisii" / f"legislatura-{leg}.json"
+        if not f.exists():
+            continue
+        data = json.loads(f.read_text(encoding="utf-8"))
+        for c in data["data"]:
+            membri_html = ""
+            if c.get("membri"):
+                membri_html = "<h2>Membri</h2><ul>"
+                for m in c["membri"]:
+                    rol = f" — {safe(m.get('rol') or '')}" if m.get("rol") else ""
+                    partid = f" ({safe(m.get('partid') or '')})" if m.get("partid") else ""
+                    membri_html += f"<li>{safe(m.get('deputat_nume'))}{rol}{partid}</li>"
+                membri_html += "</ul>"
+            conducere_html = ""
+            if c.get("presedinte") or c.get("vicepresedinti") or c.get("secretari"):
+                conducere_html = "<h2>Conducere</h2>"
+                if c.get("presedinte"):
+                    conducere_html += f"<p>Președinte: <strong>{safe(c['presedinte'])}</strong></p>"
+                if c.get("vicepresedinti"):
+                    conducere_html += (
+                        f"<p>Vicepreședinți: {safe(', '.join(c['vicepresedinti']))}</p>"
+                    )
+                if c.get("secretari"):
+                    conducere_html += f"<p>Secretari: {safe(', '.join(c['secretari']))}</p>"
+            body = f"""
+<p data-pagefind-filter="tip:comisie" data-pagefind-meta="tip:comisie">
+<strong data-pagefind-filter="legislatura:{c["legislatura"]}">Legislatura {c["legislatura"]}</strong>
+&middot; <span data-pagefind-filter="tip_comisie:{safe(c["tip"])}">{safe(c["tip"])}</span>
+&middot; {c["nr_membri"]} membri
+</p>
+{conducere_html}
+{membri_html}
+"""
+            page_path = PAGES / "comisii" / f"{c['id']}.html"
+            write_page(
+                page_path,
+                c["nume"],
+                body,
+                f"/data/v1/comisii/legislatura-{leg}.json",
+            )
+            count += 1
+    return count
+
+
 def main() -> int:
     PAGES.mkdir(parents=True, exist_ok=True)
     print(f"Generating HTML pages in {PAGES}/")
@@ -259,7 +306,9 @@ def main() -> int:
     print(f"  sancțiuni: {n_san}")
     n_int = generate_interpelari()
     print(f"  interpelări: {n_int}")
-    total = n_dep + n_vot + n_san + n_int
+    n_com = generate_comisii()
+    print(f"  comisii: {n_com}")
+    total = n_dep + n_vot + n_san + n_int + n_com
     print(f"\nTotal: {total} pagini HTML generate")
     return 0
 
