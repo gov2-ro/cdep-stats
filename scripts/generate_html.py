@@ -64,11 +64,13 @@ def generate_deputati() -> int:
                     rol = f" — {safe(c.get('rol') or '')}" if c.get("rol") else ""
                     comisii_html += f"<li>{safe(c.get('comisia'))}{rol}</li>"
                 comisii_html += "</ul>"
+            partid = d.get("current_party") or "fără partid"
+            judet = d.get("judet") or "necunoscut"
             body = f"""
-<p data-pagefind-meta="tip:deputat">
-<strong data-pagefind-meta="leg">Legislatura {d["legislatura"]}</strong>
-&middot; <span data-pagefind-meta="party">{safe(d.get("current_party") or "fără partid")}</span>
-&middot; <span data-pagefind-meta="judet">{safe(d.get("judet") or "")}</span>
+<p data-pagefind-filter="tip:deputat" data-pagefind-meta="tip:deputat">
+<strong data-pagefind-filter="legislatura:{d["legislatura"]}">Legislatura {d["legislatura"]}</strong>
+&middot; <span data-pagefind-filter="partid:{safe(partid)}" data-pagefind-meta="partid">{safe(partid)}</span>
+&middot; <span data-pagefind-filter="judet:{safe(judet)}" data-pagefind-meta="judet">{safe(judet)}</span>
 {f"&middot; circumscripția {d['circumscriptie']}" if d.get("circumscriptie") else ""}
 </p>
 <p>Grup parlamentar: {safe(d.get("current_group") or "-")}</p>
@@ -99,10 +101,13 @@ def generate_voturi() -> int:
         for v in idx["data"]:
             counts = v.get("counts", {})
             ts = v.get("timestamp", "")[:16].replace("T", " ")
+            year = (v.get("timestamp") or "")[:4] or "necunoscut"
+            adoptat = "adoptat" if counts.get("pentru", 0) > counts.get("contra", 0) else "respins"
             body = f"""
-<p data-pagefind-meta="tip:vot">
-<strong data-pagefind-meta="data">{safe(ts)}</strong>
+<p data-pagefind-filter="tip:vot" data-pagefind-meta="tip:vot">
+<strong data-pagefind-filter="an:{year}" data-pagefind-meta="data">{safe(ts)}</strong>
 &middot; Legislatura {v["legislatura"]}
+&middot; <span data-pagefind-filter="rezultat:{adoptat}">{adoptat}</span>
 </p>
 <p>
 <span data-pagefind-meta="rezultat">
@@ -132,11 +137,12 @@ def generate_sanctiuni() -> int:
             continue
         data = json.loads(f.read_text(encoding="utf-8"))
         for s in data["data"]:
+            tip_sanc = s.get("tip") or "OTHER"
             body = f"""
-<p data-pagefind-meta="tip:sanctiune">
+<p data-pagefind-filter="tip:sanctiune" data-pagefind-meta="tip:sanctiune">
 <strong data-pagefind-meta="data">{safe(s.get("data") or "")}</strong>
 &middot; Legislatura {s["legislatura"]}
-&middot; <span data-pagefind-meta="tip_sanctiune">{safe(s.get("tip") or "")}</span>
+&middot; <span data-pagefind-filter="tip_sanctiune:{safe(tip_sanc)}" data-pagefind-meta="tip_sanctiune">{safe(tip_sanc)}</span>
 </p>
 <p>Deputat: {safe(s.get("deputat_nume"))}</p>
 {f"<p>Procent: {s['procent']}% pe {s['durata_luni']} luni</p>" if s.get("procent") else ""}
@@ -170,17 +176,20 @@ def generate_interpelari() -> int:
 <p>De la: {safe(i.get("raspuns_sursa") or "")}</p>
 {f"<p>Comunicat de: {safe(i['raspuns_comunicat_de'])}</p>" if i.get("raspuns_comunicat_de") else ""}
 """
+            year = (i.get("data_inregistrare") or "")[:4] or "necunoscut"
+            raspuns_filter = "primit" if i.get("raspuns_primit") else "nu"
+            grup = i.get("adresant_grup") or "Neafiliat"
             body = f"""
-<p data-pagefind-meta="tip:interpelare">
-<strong data-pagefind-meta="data">{safe(i.get("data_inregistrare") or "")}</strong>
+<p data-pagefind-filter="tip:interpelare" data-pagefind-meta="tip:interpelare">
+<strong data-pagefind-filter="an:{year}" data-pagefind-meta="data">{safe(i.get("data_inregistrare") or "")}</strong>
 &middot; nr. {safe(i.get("nr_inregistrare"))}
 &middot; Legislatura {i["legislatura"]}
 </p>
-<p>Adresant: <strong>{safe(i.get("adresant_nume"))}</strong>
+<p>Adresant: <strong data-pagefind-filter="grup:{safe(grup)}">{safe(i.get("adresant_nume"))}</strong>
 {f"({safe(i.get('adresant_grup'))})" if i.get("adresant_grup") else ""}</p>
 <p>Destinatar: <span data-pagefind-meta="destinatar">{safe(i.get("destinatar"))}</span></p>
 {f"<p>Mod: {safe(i.get('mod_adresare'))}</p>" if i.get("mod_adresare") else ""}
-<p>Răspuns primit: {"da" if i.get("raspuns_primit") else "nu"}</p>
+<p>Răspuns: <span data-pagefind-filter="raspuns:{raspuns_filter}">{"primit" if i.get("raspuns_primit") else "nu"}</span></p>
 {raspuns_section}
 """
             page_path = PAGES / "interpelari" / f"{i['legislatura']}-{i['cdep_idi']}.html"
