@@ -223,10 +223,33 @@ def to_json_feed(events: list[dict], leg: int) -> dict:
     }
 
 
+def balance_per_type(events: list[dict], max_per_type: int) -> list[dict]:
+    """Returnează top `max_per_type` evenimente per tip, apoi sortat global descrescător."""
+    from collections import defaultdict
+
+    by_tip: dict[str, list[dict]] = defaultdict(list)
+    for e in events:
+        by_tip[e["tip"]].append(e)
+    balanced: list[dict] = []
+    for items in by_tip.values():
+        # `items` e deja sortat descrescător (events e sortat global)
+        balanced.extend(items[:max_per_type])
+    balanced.sort(key=lambda e: e["timestamp"], reverse=True)
+    return balanced
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--leg", type=int, default=2024, help="Legislatură (default: 2024)")
-    parser.add_argument("--limit", type=int, default=50, help="Număr maxim de items (default: 50)")
+    parser.add_argument(
+        "--limit", type=int, default=60, help="Număr maxim total items (default: 60)"
+    )
+    parser.add_argument(
+        "--per-type",
+        type=int,
+        default=15,
+        help="Max items per tip (default: 15) — asigură reprezentare echilibrată",
+    )
     parser.add_argument("--verbose", "-v", action="store_true")
     args = parser.parse_args()
 
@@ -239,8 +262,10 @@ def main() -> int:
     events = collect_events(args.leg)
     print(f"  {len(events)} evenimente totale găsite")
 
+    # Balansare per tip ca toate cele 4 tipuri să apară în feed
+    events = balance_per_type(events, args.per_type)
     events = events[: args.limit]
-    print(f"  păstrăm primele {len(events)} (cele mai recente)")
+    print(f"  păstrăm {len(events)} (max {args.per_type} per tip, total {args.limit})")
 
     out_dir = ROOT / "data" / "v1"
     out_dir.mkdir(parents=True, exist_ok=True)

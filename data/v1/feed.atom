@@ -3,7 +3,7 @@
   <id>https://endimion2k.github.io/cdep-api-poc/data/v1/feed.atom</id>
   <title>Camera Deputaților — flux date deschise (legislatura 2024)</title>
   <subtitle>Voturi, proiecte legislative, interpelări, sancțiuni — actualizat zilnic.</subtitle>
-  <updated>2026-04-29T19:08:36.098419+00:00</updated>
+  <updated>2026-04-29T19:12:48.950631+00:00</updated>
   <link rel="self" href="https://endimion2k.github.io/cdep-api-poc/data/v1/feed.atom" type="application/atom+xml"/>
   <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/" type="text/html"/>
   <author>
@@ -148,87 +148,6 @@
     <summary>PL-x nr. 283/2026 · Inițiator: Guvern · Stadiu: la Senat</summary>
   </entry>
   <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#proiect-22864-data_adoptare_cd</id>
-    <title>Proiect adoptat de Camera Deputaților: Propunere legislativă pentru abrogarea art.290 din Legea nr.303 din 15 noiembrie 2022 privind statutul judecătorilor şi </title>
-    <updated>2026-04-29T00:00:00+00:00</updated>
-    <published>2026-04-29T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&amp;idp=22864"/>
-    <category term="proiect"/>
-    <summary>Pl-x nr. 567/2025 · Inițiator: 17 deputati+senatori, din care: deputati - USR: Alecsandru Marius-Nicolae , Atanasiu Corina , Bulearcă Marius-Felix , Coliban Allen , Echert Adrian , Gheorghiu Andrei-Florin , Gima George , Giurgiu Adrian , Hangan Pollyanna-Hanellore , Murariu Oana , Plujar Andrei George , Rigman Ciprian-Doru , Stoica Alin-Bogdan , Şendroiu Vlad-Ioan , Ungureanu Emanuel-Dumitru senatori - USR: Ghinea Cristian , Rus Vasile-Ciprian · Stadiu: la Senat</summary>
-  </entry>
-  <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#proiect-22657-data_adoptare_cd</id>
-    <title>Proiect adoptat de Camera Deputaților: Proiect de Lege privind aprobarea Ordonanţei de urgenţă a Guvernului nr.48/2025 pentru modificarea art.8 din Ordonanţa d</title>
-    <updated>2026-04-29T00:00:00+00:00</updated>
-    <published>2026-04-29T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&amp;idp=22657"/>
-    <category term="proiect"/>
-    <summary>PL-x nr. 384/2025 · Inițiator: Guvern · Stadiu: Proiectul de lege pentru aprobarea ordonantei adoptat de catre Camera Deputatilo</summary>
-  </entry>
-  <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#proiect-22652-data_adoptare_cd</id>
-    <title>Proiect adoptat de Camera Deputaților: Proiectul de lege privind aprobarea Ordonanţei Guvernului nr.19/2025 pentru modificarea şi completarea unor acte normati</title>
-    <updated>2026-04-29T00:00:00+00:00</updated>
-    <published>2026-04-29T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&amp;idp=22652"/>
-    <category term="proiect"/>
-    <summary>PL-x nr. 395/2025 · Inițiator: Guvern · Stadiu: Proiectul de lege pentru aprobarea ordonantei adoptat de catre Camera Deputatilo</summary>
-  </entry>
-  <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#proiect-22628-data_adoptare_cd</id>
-    <title>Proiect adoptat de Camera Deputaților: Propunere legislativă pentru modificarea şi completarea Legii nr.272/2004 privind protecţia şi promovarea drepturilor co</title>
-    <updated>2026-04-29T00:00:00+00:00</updated>
-    <published>2026-04-29T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&amp;idp=22628"/>
-    <category term="proiect"/>
-    <summary>Pl-x nr. 360/2025 · Inițiator: 14 deputati, din care: - PSD: Vuşcan Voicu - PNL: Andronache Gabriel , Ciobanu Adrian-Virgil , Cotinescu Ilie-Aurelian , Gal Călin-Graţian , Huţucă Bogdan-Iulian , Moş Patricia-Simina-Arina , Năcuţă Sorin , Pistru-Popa Simona-Geanina , Prişcă Răzvan Sorin , Roman Florin-Claudiu , Stănescu Vetuţa , Turcan Raluca , Ţiplea Dumitru · Stadiu: adoptata de catre Camera Deputatilor</summary>
-  </entry>
-  <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#proiect-22617-data_adoptare_cd</id>
-    <title>Proiect adoptat de Camera Deputaților: Proiect de Lege privind aprobarea Ordonanţei Guvernului nr.17/2025 pentru aprobarea unor măsuri în vederea asigurării în</title>
-    <updated>2026-04-29T00:00:00+00:00</updated>
-    <published>2026-04-29T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&amp;idp=22617"/>
-    <category term="proiect"/>
-    <summary>PL-x nr. 366/2025 · Inițiator: Guvern · Stadiu: Proiectul de lege pentru aprobarea ordonantei adoptat de catre Camera Deputatilo</summary>
-  </entry>
-  <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#proiect-22576-data_adoptare_cd</id>
-    <title>Proiect adoptat de Camera Deputaților: Proiect de Lege privind aprobarea Ordonanţei Guvernului nr.23/2025 pentru modificarea şi completarea Ordonanţei Guvernul</title>
-    <updated>2026-04-29T00:00:00+00:00</updated>
-    <published>2026-04-29T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&amp;idp=22576"/>
-    <category term="proiect"/>
-    <summary>PL-x nr. 308/2025 · Inițiator: Guvern · Stadiu: Proiectul de lege pentru aprobarea ordonantei adoptat de catre Camera Deputatilo</summary>
-  </entry>
-  <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#proiect-21973-data_adoptare_cd</id>
-    <title>Proiect adoptat de Camera Deputaților: Proiect de Lege privind aprobarea Ordonanţei de urgenţã a Guvernului nr.104/2024 pentru modificarea şi completarea Ordon</title>
-    <updated>2026-04-29T00:00:00+00:00</updated>
-    <published>2026-04-29T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&amp;idp=21973"/>
-    <category term="proiect"/>
-    <summary>PL-x nr. 496/2024 · Inițiator: Guvern · Stadiu: Proiectul de lege pentru aprobarea ordonantei adoptat de catre Camera Deputatilo</summary>
-  </entry>
-  <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#proiect-21531-data_adoptare_cd</id>
-    <title>Proiect adoptat de Camera Deputaților: Proiect de Lege privind aprobarea Ordonanţei de urgenţă a Guvernului nr.3/2024 pentru modificarea şi completarea Ordonan</title>
-    <updated>2026-04-29T00:00:00+00:00</updated>
-    <published>2026-04-29T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&amp;idp=21531"/>
-    <category term="proiect"/>
-    <summary>PL-x nr. 69/2024 · Inițiator: Guvern · Stadiu: Proiectul de lege pentru aprobarea ordonantei adoptat de catre Camera Deputatilo</summary>
-  </entry>
-  <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#proiect-21494-data_adoptare_cd</id>
-    <title>Proiect adoptat de Camera Deputaților: Proiect de Lege privind aprobarea Ordonanţei de urgenţă a Guvernului nr.114/2023 pentru modificarea şi completarea Ordon</title>
-    <updated>2026-04-29T00:00:00+00:00</updated>
-    <published>2026-04-29T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&amp;idp=21494"/>
-    <category term="proiect"/>
-    <summary>PL-x nr. 32/2024 · Inițiator: Guvern · Stadiu: Proiectul de lege pentru aprobarea ordonantei adoptat de catre Camera Deputatilo</summary>
-  </entry>
-  <entry>
     <id>https://endimion2k.github.io/cdep-api-poc/feed#interpelare-83943</id>
     <title>Interpelare: Demisiile cadrelor didactice și impactul măsurilor adoptate prin Legea nr. 141/2025 asupra sustenabilității sistemului d</title>
     <updated>2026-04-28T00:00:00+00:00</updated>
@@ -319,15 +238,6 @@
     <summary>Adresant: Ovidiu-Romulus Paraschivescu - deputat USR · Destinatar: Ministerul Sănătăţii · Răspuns: nu</summary>
   </entry>
   <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#proiect-23228-data_prezentare</id>
-    <title>Proiect prezentat: Propunere legislativă privind trecerea oraşului Căzăneşti la rangul de comună şi pentru modificarea şi completarea unor </title>
-    <updated>2026-04-27T00:00:00+00:00</updated>
-    <published>2026-04-27T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&amp;idp=23228"/>
-    <category term="proiect"/>
-    <summary>Pl-x nr. 343/2026 · Inițiator: 20 deputati+senatori, din care: deputati - neafiliati: Făget Mădălin-Laurenţiu deputati - PSD: Ţintă Ştefan deputati - AUR: Oancea Silviu-Florin deputati - SOS RO: Baş Ana-Marcela , Caragaţă Florin , Ionescu Tudor , Lăzăroi Ioan , Macovei Ilie Simona-Elena , Nagy Vasile , Oltenaşu Sorin-George , Toader Elena-Laura , Ţiu Mihai-Adrian , Vidra Vlad-Andrei senatori - PACE: Cuşnir Rodica , Fodoca Liviu-Iulian , Onea Olga , Peia Ninel , Peiu Grigore-Adrian , Petrea Dorin Silviu , Sava Clement · Stadiu: în termenul acordat pentru avize si puncte de vedere solicitate</summary>
-  </entry>
-  <entry>
     <id>https://endimion2k.github.io/cdep-api-poc/feed#interpelare-83921</id>
     <title>Interpelare: Solicitare comunicare informații proiecte PNRR Municipiul Brașov</title>
     <updated>2026-04-27T00:00:00+00:00</updated>
@@ -373,93 +283,192 @@
     <summary>Adresant: Ştefan Ţintă · Destinatar: Ministerul Apărării Naţionale în atenţia: domnului Radu-Dinel Miruţă - Ministru · Răspuns: nu</summary>
   </entry>
   <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#interpelare-83926</id>
-    <title>Interpelare: Planul operațional pentru repunerea în funcțiune a hidrocentralelor de la Vidraru și Paltinu</title>
-    <updated>2026-04-27T00:00:00+00:00</updated>
-    <published>2026-04-27T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/parlam/interpelari2015.detalii?idi=83926&amp;idl=1"/>
-    <category term="interpelare"/>
-    <summary>Adresant: Ştefan Ţintă · Destinatar: Ministerul Mediului, Apelor şi Pădurilor în atenţia: doamnei Diana-Anda Buzoianu · Răspuns: nu</summary>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36892</id>
+    <title>Vot: PL-x 218/2026 - Vot final adoptare</title>
+    <updated>2026-04-22T10:10:00+00:00</updated>
+    <published>2026-04-22T10:10:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36892.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 246 · Contra: 4 · Abțineri: 22 · adoptat</summary>
   </entry>
   <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#interpelare-83927</id>
-    <title>Interpelare: Listarea la bursă a companiilor strategice deja listate</title>
-    <updated>2026-04-27T00:00:00+00:00</updated>
-    <published>2026-04-27T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/parlam/interpelari2015.detalii?idi=83927&amp;idl=1"/>
-    <category term="interpelare"/>
-    <summary>Adresant: Maricel Popa · Destinatar: Guvernul României în atenţia: domnului Ilie Bolojan - Prim-Ministru al României · Răspuns: nu</summary>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36891</id>
+    <title>Vot: PL-x 545/2025 - Vot final adoptare</title>
+    <updated>2026-04-22T10:08:00+00:00</updated>
+    <published>2026-04-22T10:08:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36891.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 204 · Contra: 2 · Abțineri: 14 · adoptat</summary>
   </entry>
   <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#interpelare-83928</id>
-    <title>Interpelare: Eficiența soluționării cauzelor penale și raportul dintre sesizări și soluțiile pronunțate în instanță</title>
-    <updated>2026-04-27T00:00:00+00:00</updated>
-    <published>2026-04-27T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/parlam/interpelari2015.detalii?idi=83928&amp;idl=1"/>
-    <category term="interpelare"/>
-    <summary>Adresant: Petru-Bogdan Cojocaru - deputat PSD · Destinatar: Ministerul Afacerilor Interne în atenţia: domnului Marian-Cătălin Predoiu - Mini · Răspuns: nu</summary>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36890</id>
+    <title>Vot: PL-x 637/2024 - Vot final adoptare</title>
+    <updated>2026-04-22T10:05:00+00:00</updated>
+    <published>2026-04-22T10:05:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36890.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 202 · Contra: 55 · Abțineri: 13 · adoptat</summary>
   </entry>
   <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#interpelare-83929</id>
-    <title>Interpelare: Ce câștigă România din listarea suplimentară a companiilor de stat profitabile?</title>
-    <updated>2026-04-27T00:00:00+00:00</updated>
-    <published>2026-04-27T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/parlam/interpelari2015.detalii?idi=83929&amp;idl=1"/>
-    <category term="interpelare"/>
-    <summary>Adresant: Petru-Bogdan Cojocaru - deputat PSD · Destinatar: Guvernul României în atenţia: domnului Ilie Bolojan - Prim-Ministru al României · Răspuns: nu</summary>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36889</id>
+    <title>Vot: PL-x 465/2024 - Vot final adoptare</title>
+    <updated>2026-04-22T10:02:00+00:00</updated>
+    <published>2026-04-22T10:02:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36889.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 205 · Contra: 0 · Abțineri: 22 · adoptat</summary>
   </entry>
   <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#interpelare-83930</id>
-    <title>Interpelare: Programele naționale de investiții publice – situația proiectelor la nivelul județului Buzău</title>
-    <updated>2026-04-27T00:00:00+00:00</updated>
-    <published>2026-04-27T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/parlam/interpelari2015.detalii?idi=83930&amp;idl=1"/>
-    <category term="interpelare"/>
-    <summary>Adresant: Adrian Mocanu · Destinatar: Ministerul Dezvoltării Regionale şi Administraţiei Publice în atenţia: domnului  · Răspuns: nu</summary>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36888</id>
+    <title>Vot: PL-x 460/2024 - Vot final adoptare</title>
+    <updated>2026-04-22T10:01:00+00:00</updated>
+    <published>2026-04-22T10:01:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36888.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 209 · Contra: 1 · Abțineri: 15 · adoptat</summary>
   </entry>
   <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#interpelare-83931</id>
-    <title>Interpelare: Necesitatea identificării unor măsuri pentru accelerarea rambursărilor/compensărilor, către angajatori, a sumelor pentru</title>
-    <updated>2026-04-27T00:00:00+00:00</updated>
-    <published>2026-04-27T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/parlam/interpelari2015.detalii?idi=83931&amp;idl=1"/>
-    <category term="interpelare"/>
-    <summary>Adresant: Adrian Mocanu · Destinatar: Ministerul Finanțelor în atenţia: domnului Alexandru Nazare - Ministru · Răspuns: nu</summary>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36887</id>
+    <title>Vot: PL-x 319/2025 - Vot final adoptare</title>
+    <updated>2026-04-22T10:00:00+00:00</updated>
+    <published>2026-04-22T10:00:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36887.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 208 · Contra: 1 · Abțineri: 15 · adoptat</summary>
   </entry>
   <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#interpelare-83932</id>
-    <title>Interpelare: Precizări privind riscul pierderii finanțării din PNRR pentru centru integrat de colectare separată a deșeurilor prin ap</title>
-    <updated>2026-04-27T00:00:00+00:00</updated>
-    <published>2026-04-27T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/parlam/interpelari2015.detalii?idi=83932&amp;idl=1"/>
-    <category term="interpelare"/>
-    <summary>Adresant: Adrian Mocanu · Destinatar: Ministerul Mediului, Apelor şi Pădurilor în atenţia: doamnei Diana-Anda Buzoianu · Răspuns: nu</summary>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36886</id>
+    <title>Vot: PL-x 126/2025 - Vot final adoptare</title>
+    <updated>2026-04-22T09:59:00+00:00</updated>
+    <published>2026-04-22T09:59:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36886.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 193 · Contra: 3 · Abțineri: 34 · adoptat</summary>
   </entry>
   <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#interpelare-83933</id>
-    <title>Interpelare: Precizări privind stadiul înființării și dotării cabinetelor medicale/cabinete stomatologice şcolare autorizate sanitar</title>
-    <updated>2026-04-27T00:00:00+00:00</updated>
-    <published>2026-04-27T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/parlam/interpelari2015.detalii?idi=83933&amp;idl=1"/>
-    <category term="interpelare"/>
-    <summary>Adresant: Dumitru Ţiplea · Destinatar: Ministerul Educaţiei şi Cercetării în atenţia: domnului Mihai Dimian - Ministru · Răspuns: nu</summary>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36885</id>
+    <title>Vot: PL-x 222/2019 - Vot final adoptare</title>
+    <updated>2026-04-22T09:58:00+00:00</updated>
+    <published>2026-04-22T09:58:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36885.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 213 · Contra: 58 · Abțineri: 8 · adoptat</summary>
   </entry>
   <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#interpelare-83934</id>
-    <title>Interpelare: Stadiul implementării reformelor prevăzute de Ordonanța de urgență a Guvernului nr.7/2026</title>
-    <updated>2026-04-27T00:00:00+00:00</updated>
-    <published>2026-04-27T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/parlam/interpelari2015.detalii?idi=83934&amp;idl=1"/>
-    <category term="interpelare"/>
-    <summary>Adresant: ? · Destinatar: Ministerul Dezvoltării, Lucrărilor Publice si Administrației în atenţia: domnulu · Răspuns: nu</summary>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36884</id>
+    <title>Vot: PL-x 147/2026 - Vot final adoptare</title>
+    <updated>2026-04-22T09:57:00+00:00</updated>
+    <published>2026-04-22T09:57:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36884.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 264 · Contra: 14 · Abțineri: 3 · adoptat</summary>
   </entry>
   <entry>
-    <id>https://endimion2k.github.io/cdep-api-poc/feed#interpelare-83935</id>
-    <title>Interpelare: Proiecte de investiții din județul Suceava care ar putea fi afectate de criza guvernamentală</title>
-    <updated>2026-04-27T00:00:00+00:00</updated>
-    <published>2026-04-27T00:00:00+00:00</published>
-    <link rel="alternate" href="https://www.cdep.ro/pls/parlam/interpelari2015.detalii?idi=83935&amp;idl=1"/>
-    <category term="interpelare"/>
-    <summary>Adresant: Ioan Balan · Destinatar: ? · Răspuns: nu</summary>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36883</id>
+    <title>Vot: PL-x 368/2025 - Vot final adoptare</title>
+    <updated>2026-04-22T09:56:00+00:00</updated>
+    <published>2026-04-22T09:56:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36883.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 274 · Contra: 1 · Abțineri: 2 · adoptat</summary>
+  </entry>
+  <entry>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36882</id>
+    <title>Vot: PL-x 494/2025 - Vot final adoptare</title>
+    <updated>2026-04-22T09:55:00+00:00</updated>
+    <published>2026-04-22T09:55:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36882.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 258 · Contra: 1 · Abțineri: 15 · adoptat</summary>
+  </entry>
+  <entry>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36881</id>
+    <title>Vot: PH CD 20/2026 - Vot final adoptare</title>
+    <updated>2026-04-22T09:54:00+00:00</updated>
+    <published>2026-04-22T09:54:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36881.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 259 · Contra: 11 · Abțineri: 5 · adoptat</summary>
+  </entry>
+  <entry>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36879</id>
+    <title>Vot: PH CD 18/2026 - Vot final adoptare</title>
+    <updated>2026-04-22T09:53:00+00:00</updated>
+    <published>2026-04-22T09:53:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36879.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 254 · Contra: 9 · Abțineri: 7 · adoptat</summary>
+  </entry>
+  <entry>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36880</id>
+    <title>Vot: PH CD 19/2026 - Vot final adoptare</title>
+    <updated>2026-04-22T09:53:00+00:00</updated>
+    <published>2026-04-22T09:53:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36880.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 201 · Contra: 15 · Abțineri: 62 · adoptat</summary>
+  </entry>
+  <entry>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#vot-36878</id>
+    <title>Vot: PH CD 15/2026 - Vot final adoptare</title>
+    <updated>2026-04-22T09:52:00+00:00</updated>
+    <published>2026-04-22T09:52:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/36878.json"/>
+    <category term="vot"/>
+    <summary>Pentru: 270 · Contra: 10 · Abțineri: 1 · adoptat</summary>
+  </entry>
+  <entry>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#sanctiune-fda9ebc9328079bb</id>
+    <title>Sancțiune: Nini-Alexandru PASCALINI (other)</title>
+    <updated>2026-03-23T00:00:00+00:00</updated>
+    <published>2026-03-23T00:00:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/sanctiuni/legislatura-2024.json"/>
+    <category term="sanctiune"/>
+    <summary>23 martie 2026 - DECIZIE privind aplicarea unei sancţiuni domnului deputat Nini-Alexandru PASCALINI de diminuare a indemnizației cu 50% pe o perioadă de 3 luni.</summary>
+  </entry>
+  <entry>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#sanctiune-3ca4cfd7099655bb</id>
+    <title>Sancțiune: Andreea-Petronela CÎMPIANU (other)</title>
+    <updated>2026-03-23T00:00:00+00:00</updated>
+    <published>2026-03-23T00:00:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/sanctiuni/legislatura-2024.json"/>
+    <category term="sanctiune"/>
+    <summary>23 martie 2026 - DECIZIE privind aplicarea unei sancţiuni doamnei deputat Andreea-Petronela CÎMPIANU de diminuare a indemnizației cu 50% pe o perioadă de 3 luni.</summary>
+  </entry>
+  <entry>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#sanctiune-70521caa2dcf6747</id>
+    <title>Sancțiune: Elena-Laura TOADER (other)</title>
+    <updated>2026-03-23T00:00:00+00:00</updated>
+    <published>2026-03-23T00:00:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/sanctiuni/legislatura-2024.json"/>
+    <category term="sanctiune"/>
+    <summary>23 martie 2026 - DECIZIE privind aplicarea unei sancţiuni doamnei deputat Elena-Laura TOADER e diminuare a indemnizației cu 50% pe o perioadă de 3 luni.</summary>
+  </entry>
+  <entry>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#sanctiune-e5c7e7d5202319cc</id>
+    <title>Sancțiune: Anamaria Gavrilă (retragere_cuvant)</title>
+    <updated>2025-04-02T00:00:00+00:00</updated>
+    <published>2025-04-02T00:00:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/sanctiuni/legislatura-2024.json"/>
+    <category term="sanctiune"/>
+    <summary>2 aprilie 2025 - Retragerea cuvântului doamnei deputat Anamaria Gavrilă, membră a Grupului parlamentar POT.</summary>
+  </entry>
+  <entry>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#sanctiune-e5c7e7d5202319cc</id>
+    <title>Sancțiune: Anamaria Gavrilă (chemare_la_ordine)</title>
+    <updated>2025-04-02T00:00:00+00:00</updated>
+    <published>2025-04-02T00:00:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/sanctiuni/legislatura-2024.json"/>
+    <category term="sanctiune"/>
+    <summary>2 aprilie 2025 - Chemarea la ordine a doamnei deputat Anamaria Gavrilă, membră a Grupului parlamentar POT.</summary>
+  </entry>
+  <entry>
+    <id>https://endimion2k.github.io/cdep-api-poc/feed#sanctiune-f52caeabd54db3a6</id>
+    <title>Sancțiune: Dumitru Coarnă (avertisment_scris)</title>
+    <updated>2025-03-24T00:00:00+00:00</updated>
+    <published>2025-03-24T00:00:00+00:00</published>
+    <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/data/v1/sanctiuni/legislatura-2024.json"/>
+    <category term="sanctiune"/>
+    <summary>24 martie 2025 - Informare privind Decizia Biroului permanent al Camerei Deputaţilor privind aplicarea sancţiunii avertismentului scris domnului deputat Dumitru Coarnă pentru încălcarea prevederilor art. 246 alin. (2), (3) şi (5) din Regulamentul Camerei Deputaţilor, republicat, cu modificările şi c</summary>
   </entry>
 </feed>

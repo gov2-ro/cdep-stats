@@ -86,7 +86,7 @@ jobs:
       - name: Build feeds (Atom + JSON Feed)
         run: |
           $leg = if ('${{ github.event.inputs.leg }}') { '${{ github.event.inputs.leg }}' } else { '2024' }
-          python scripts/build_feeds.py --leg $leg --limit 50 --verbose
+          python scripts/build_feeds.py --leg $leg --per-type 15 --limit 60 --verbose
 
       - name: Generate HTML pages for search
         run: python scripts/generate_html.py
