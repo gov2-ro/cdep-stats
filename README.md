@@ -2,11 +2,27 @@
 
 Un API REST public, gratuit, care expune datele parlamentare ale **Camerei Deputaților** din România în format **JSON**. Construit deasupra surselor publice de pe [cdep.ro](https://www.cdep.ro), actualizat zilnic.
 
-> **Status**: 🟡 proof-of-concept extins în implementare · prima fază a lansării publice: *S3–S6* · vezi [TIMELINE.md](./TIMELINE.md)
+> **Status**: 🟢 POC funcțional · 4 din 8 endpoint-uri implementate · search full-text live · cron zilnic activ
 
 [![License: OGL v3.0](https://img.shields.io/badge/license-OGL%20v3.0-blue.svg)](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
-[![Status: POC](https://img.shields.io/badge/status-POC%20%E2%86%92%20MVP-yellow.svg)](./TIMELINE.md)
+[![Status: POC live](https://img.shields.io/badge/status-POC%20live-green.svg)](https://endimion2k.github.io/cdep-api-poc/)
 [![Docs: Swagger](https://img.shields.io/badge/docs-Swagger%20UI-green.svg)](https://endimion2k.github.io/cdep-api-poc/docs/swagger.html)
+
+**Demo live:** https://endimion2k.github.io/cdep-api-poc/
+
+---
+
+## Cifre live (legislatura 2024)
+
+| Endpoint | Records | URL |
+|---|---:|---|
+| `/deputati` | **335** | [legislatura-2024.json](https://endimion2k.github.io/cdep-api-poc/data/v1/deputati/legislatura-2024.json) |
+| `/voturi` (cu defalcare nominală) | **816** | [_index.json](https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/_index.json) |
+| `/sanctiuni` | **6** | [legislatura-2024.json](https://endimion2k.github.io/cdep-api-poc/data/v1/sanctiuni/legislatura-2024.json) |
+| `/interpelari` (2024–2026) | **9.326** | [legislatura-2024.json](https://endimion2k.github.io/cdep-api-poc/data/v1/interpelari/legislatura-2024.json) |
+| **Search full-text** | **~14k entități indexate** | [/search](https://endimion2k.github.io/cdep-api-poc/search.html) |
+
+Datele se actualizează automat zilnic la 04:00 UTC printr-un workflow GitHub Actions.
 
 ---
 
@@ -24,155 +40,87 @@ Acest API transformă HTML-ul public în JSON structurat, versionat și document
 
 ---
 
-## Endpoint-uri (roadmap)
+## Endpoint-uri
 
-### ✅ În POC (documentație OpenAPI existentă)
+### ✅ Live în POC
 
-| Endpoint | Descriere |
+| Endpoint | Format | Descriere |
+|---|---|---|
+| `GET /deputati/legislatura-{leg}.json` | JSON | Profile complete (bio, partid, județ, comisii, contoare activitate) |
+| `GET /voturi/{leg}/_index.json` | JSON | Index voturi (timestamp, descriere, counts agregate) |
+| `GET /voturi/{leg}/{idv}.json` | JSON | Detalii vot cu defalcare nominală (DA/NU/AB per deputat) |
+| `GET /sanctiuni/legislatura-{leg}.json` | JSON | Sancțiuni disciplinare (diminuare indemnizație, avertisment etc.) |
+| `GET /interpelari/legislatura-{leg}.json` | JSON | Interpelări/întrebări parlamentare cu informații despre răspuns |
+| `GET /search.html?q=` | HTML | Căutare full-text (Pagefind) peste toate cele de mai sus |
+
+### 🔜 Propuse (neimplementate)
+
+| Endpoint | Status |
 |---|---|
-| `GET /deputati` | Listă deputați, filtre pe legislatură / partid / județ |
-| `GET /deputati/{id}` | Profil individual (bio, mandat, comisii, contact) |
-| `GET /deputati/{id}/prezenta` | Statistici prezență (plen + comisii, per an) |
-| `GET /voturi` | Listă voturi plen (agregate: pentru / împotrivă / abțineri) |
-| `GET /voturi/{id}` | Vot detaliat cu lista individuală a deputaților |
-| `GET /proiecte-lege` | Listă proiecte legislative, filtru pe stadiu / cuvânt-cheie |
-| `GET /comisii` | Listă comisii permanente / speciale / comune |
-| `GET /comisii/{slug}/activitate` | Activitate comisie (ședințe, rapoarte) |
+| `GET /proiecte-lege` | propus, încă neimplementat |
+| `GET /comisii` | datele există nested în `/deputati`, endpoint dedicat de adăugat |
+| `GET /amendamente`, `/motiuni`, `/declaratii-politice`, `/stenograme` | viitor |
+| `GET /feed.atom`, `/feed.json` | viitor (notificări modificări) |
 
-### 🆕 Extensii planificate (vezi TIMELINE.md)
-
-| Endpoint | Valoare adăugată |
-|---|---|
-| `GET /interpelari`, `GET /intrebari-scrise` | Indicator-cheie de activitate, greu accesibil astăzi |
-| `GET /amendamente` | Amendamente depuse pe proiecte, cu autor și soartă |
-| `GET /motiuni` | Moțiuni simple + de cenzură, cu semnatari și rezultat |
-| `GET /declaratii-politice` | Luări de cuvânt din plen |
-| `GET /grupuri-parlamentare` | Componență, lideri, purtători de cuvânt |
-| `GET /birou-permanent` | Componență și decizii publice |
-| `GET /stenograme` | Transcripte ședințe plen |
-| `GET /sanctiuni` | Sancțiuni disciplinare aplicate deputaților în plen |
-| `GET /search?q=` | Căutare full-text peste tot corpus-ul |
-| `GET /feed.atom`, `GET /feed.json` | Flux noutăți (voturi noi, proiecte schimbate) |
+Vezi [`api/openapi.yaml`](./api/openapi.yaml) pentru schema completă.
 
 ---
 
 ## Arhitectură
 
 ```
-┌──────────────┐    cron        ┌───────────────┐    write      ┌──────────────────┐
-│   cdep.ro    │ ──────────────►│  scraper-uri  │ ─────────────►│  /data/*.json    │
-│  (HTML+PDF)  │  GitHub Actions│   (Python)    │   commit Git  │  (fișiere plate) │
-└──────────────┘    zilnic      └───────────────┘               └────────┬─────────┘
-                                                                         │
-                                                                  GitHub Pages
-                                                                         │
-                                                                         ▼
-                                                             ┌─────────────────────┐
-                                                             │   consumatori:      │
-                                                             │   journaliști, ONG, │
-                                                             │   dezvoltatori      │
-                                                             └─────────────────────┘
+┌──────────────┐  HTTPS+SSL legacy   ┌─────────────────────┐  commit Git    ┌──────────────────┐
+│   cdep.ro    │ ──────────────────► │  Self-hosted runner │ ─────────────► │   GitHub repo    │
+│  (HTML+XML)  │  ISO-8859-2,SHA1    │   (PC Windows RO)   │                │  data/v1/*.json  │
+└──────────────┘                     └─────────────────────┘                └────────┬─────────┘
+       ▲                                       │                                      │
+       │                              cron 04:00 UTC                          GitHub Pages CDN
+   geo-blocked                              zilnic                                    │
+       │                                                                              ▼
+   GitHub cloud                                                          ┌─────────────────────┐
+   runners NU                                                            │   consumatori:      │
+   pot fetch direct                                                      │   jurnaliști, ONG,  │
+                                                                         │   dezvoltatori      │
+                                                                         └─────────────────────┘
 ```
 
-**Alegere deliberată**: Opțiunea *static snapshot* (scraper → JSON → GitHub Pages).
-Avantaje: **cost zero**, zero server de întreținut, CDN global implicit, portabilitate totală.
-Limitări acceptate: filtrarea complexă se face client-side; prospețimea datelor depinde de cron (tipic 24h).
-Migrare viitoare spre backend cu DB este opțională, doar dacă proiectul obține adoptare.
-Detalii complete și alternative comparate în `CDEP_API_Plan_Implementare.docx` (planul de 17 pagini).
+**Decizii cheie:**
+
+- **Static JSON snapshot** (scraper → JSON → GitHub Pages) — cost zero, zero server, CDN global, portabilitate totală.
+- **Self-hosted GitHub Actions runner** pe un PC din România — cdep.ro geo-blochează runner-ele cloud GitHub.
+- **Pagefind** pentru search — index static, ~30MB, fără backend.
+- **Modelele aliniate Popolo** (Person, Organization, VoteEvent) — facilitează interop cu alte API-uri parlamentare europene.
+
+Detalii în [`STORAGE.md`](./STORAGE.md), [`INTEGRATIONS.md`](./INTEGRATIONS.md), [`sitemap.md`](./sitemap.md).
 
 ---
 
 ## Stack tehnic
 
-- **Python 3.11+** — scraperii, modele de date, teste
-- **`requests` + `parsel`** — HTTP + CSS/XPath
-- **`pdfplumber` (+ `tesseract` fallback)** — PDF parsing
-- **`pydantic v2`** — modele de date = **sursă unică de adevăr** (OpenAPI se generează din ele)
-- **`pytest` + `syrupy`** — teste + snapshot testing
-- **`ruff`, `mypy --strict`, `pre-commit`** — igienă cod
-- **GitHub Actions** — cron zilnic + workflow manual
-- **GitHub Pages** — hosting static pentru JSON + docs
+- **Python 3.11+** — scraperi, modele de date
+- **`requests` + `parsel`** — HTTP cu adapter SSL legacy + CSS/XPath
+- **`truststore`** — încredere certificat de sistem (necesar pe Windows cu antivirus MITM)
+- **`pydantic v2`** — modele de date validate, exportate ca JSON
+- **GitHub Actions self-hosted** — cron zilnic + workflow manual
+- **Pagefind** — index full-text static
+- **GitHub Pages** — hosting static pentru JSON + UI + search
 
 ---
 
-## Structură repo (țintă)
-
-```
-cdep-api-poc/
-├── api/
-│   └── openapi.yaml           # generat automat din /schemas (nu se editează manual)
-├── data/                      # output JSON, commit automat
-│   └── v1/
-│       ├── deputati/
-│       ├── voturi/
-│       ├── proiecte-lege/
-│       ├── comisii/
-│       └── meta.json          # timestamp, versiune scraper
-├── docs/
-│   └── swagger.html           # Swagger UI
-├── scrapers/                  # cod per-resursă
-│   ├── deputati.py
-│   ├── voturi.py
-│   └── ...
-├── schemas/                   # Pydantic models
-│   ├── deputat.py
-│   ├── vot.py
-│   └── ...
-├── scripts/                   # utilitare (validare, generare OpenAPI etc.)
-├── tests/
-│   ├── __snapshots__/
-│   └── test_*.py
-├── .github/workflows/
-│   ├── scrape.yml             # cron zilnic 06:00 Europe/Bucharest
-│   └── ci.yml                 # lint + typecheck + teste
-├── sitemap.md                 # inventarul URL-urilor cdep.ro
-├── TIMELINE.md                # planul de 24 săptămâni
-├── BACKLOG.md                 # idei amânate pentru v1.1+
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── CHANGELOG.md
-└── README.md
-```
-
----
-
-## Instalare locală (pentru dezvoltare)
-
-```bash
-git clone https://github.com/Endimion2k/cdep-api-poc.git
-cd cdep-api-poc
-
-python -m venv .venv
-source .venv/bin/activate       # pe Windows: .venv\Scripts\activate
-pip install -r requirements-dev.txt
-
-pre-commit install
-
-# rulează un scraper
-python -m scrapers.deputati --legislatura 2024
-
-# rulează testele
-pytest
-
-# generează OpenAPI din schemele Pydantic
-python scripts/generate_openapi.py
-```
-
----
-
-## Utilizare (când endpoint-urile sunt live)
+## Utilizare
 
 ### Python
 ```python
 import requests
 
-deputati = requests.get(
+dep = requests.get(
     "https://endimion2k.github.io/cdep-api-poc/data/v1/deputati/legislatura-2024.json"
 ).json()
 
-top_absenti = sorted(deputati["data"], key=lambda d: d["prezenta_pct"])[:10]
-for d in top_absenti:
-    print(d["nume"], d["partid"], d["prezenta_pct"], "%")
+# Top 10 deputați după număr de propuneri legislative
+top = sorted(dep["data"], key=lambda d: d["activitate_propuneri_legislative"], reverse=True)[:10]
+for d in top:
+    print(f"{d['name']:40s} {d['current_party'][:25]:25s} {d['activitate_propuneri_legislative']:3d} propuneri")
 ```
 
 ### JavaScript
@@ -184,24 +132,38 @@ const { data } = await res.json();
 console.log(data.filter(d => d.judet === "Cluj"));
 ```
 
-### curl
+### curl + jq
 ```bash
-curl -sL https://endimion2k.github.io/cdep-api-poc/data/v1/deputati/legislatura-2024.json \
-  | jq '.data[] | select(.partid == "PNL")'
+curl -sL https://endimion2k.github.io/cdep-api-poc/data/v1/voturi/2024/_index.json \
+  | jq '.data | sort_by(.timestamp) | reverse | .[0:5] | .[] | {data: .timestamp, descriere, counts}'
 ```
 
 ---
 
-## Contribuie
+## Instalare locală (pentru dezvoltare)
 
-Proiectul e în fază timpurie și orice ajutor este binevenit. Tipuri de contribuții căutate:
+```bash
+git clone https://github.com/Endimion2k/cdep-api-poc.git
+cd cdep-api-poc
 
-- **Scraperi** pentru secțiuni noi de pe cdep.ro (vezi `TIMELINE.md` fazele 3–5)
-- **Teste de regresie** (snapshot tests care detectează schimbări HTML pe cdep.ro)
-- **Exemple de utilizare** (notebook-uri, vizualizări, dashboard-uri)
-- **Feedback** din partea jurnaliștilor / ONG-urilor — ce endpoint-uri lipsesc?
+python -m venv .venv
+.venv\Scripts\activate              # pe Linux/macOS: source .venv/bin/activate
+pip install -r requirements.txt
 
-Vezi `CONTRIBUTING.md` pentru pași detaliați.
+# rulează un scraper (necesită conexiune din România — cdep.ro geo-blochează)
+python scripts/run_deputati.py --leg 2024 --verbose
+python scripts/run_voturi.py --days 7 --leg 2024 --verbose
+python scripts/run_sanctiuni.py --leg 2024 --verbose
+python scripts/run_interpelari.py --year 2026 --verbose
+
+# regenerează HTML pages + Pagefind index (după bootstrap)
+python scripts/generate_html.py
+npx pagefind --site pages --output-path pagefind
+
+# servește local
+python -m http.server 8000
+# deschide http://localhost:8000/search.html
+```
 
 ---
 
@@ -210,28 +172,29 @@ Vezi `CONTRIBUTING.md` pentru pași detaliați.
 - **Sursa datelor**: [www.cdep.ro](https://www.cdep.ro) — date publice ale Camerei Deputaților
 - **Licență cod**: [Open Government License v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 - **Date colectate**: exclusiv date publice; **nu** colectăm CNP, telefon personal, adresă privată
-- **GDPR**: datele parlamentarilor ca persoane publice în exercițiul mandatului sunt exceptate de la restricțiile GDPR standard. Totuși, orice cerere de rectificare / eliminare poate fi deschisă ca issue.
+- **GDPR**: datele parlamentarilor ca persoane publice în exercițiul mandatului sunt exceptate de la restricțiile GDPR standard. Cereri de rectificare se pot deschide ca issue.
 
 ---
 
 ## Autor
 
-**Cătălin Popa** · inițiativă în contextul candidaturii pentru internship la Camera Deputaților, Comisia pentru Tehnologia Informației și Comunicațiilor (2026).
+**Cătălin Popa** · inițiativă în contextul candidaturii pentru internship la Camera Deputaților, Comisia pentru Tehnologia Informației și Comunicațiilor, Ed. I/2026.
 
 Inspirat de [bikestylish.ro](https://bikestylish.ro) — model similar de API deschis pentru industria bicicletelor din România.
 
 ---
 
-## Roadmap pe scurt
+## Roadmap
 
-Vezi [**TIMELINE.md**](./TIMELINE.md) pentru planul complet de 24 săptămâni cu task-uri bifabile și [**CDEP_API_Plan_Implementare.docx**](./CDEP_API_Plan_Implementare.docx) pentru analiza arhitecturală completă (17 pagini).
+Vezi [**TIMELINE.md**](./TIMELINE.md) pentru istoricul detaliat al implementării și [**CDEP_API_Plan_Implementare.docx**](./CDEP_API_Plan_Implementare.docx) pentru analiza arhitecturală completă (17 pagini).
 
-| Milestone | Perioadă | Conținut |
+| Milestone | Status | Conținut |
 |---|---|---|
-| M0 — setup | S1–S2 | Repo + CI + primul push automat |
-| M1 — deputați | S3–S6 | `/deputati` live cu date reale |
-| M2 — voturi | S7–S11 | `/voturi` live — cel mai valoros |
-| M3 — proiecte | S12–S15 | `/proiecte-lege` + amendamente |
-| M4 — organizare | S16–S19 | Comisii, grupuri, Birou Permanent |
-| M5 — accountability | S20–S22 | Interpelări, moțiuni, sancțiuni, `/search` |
-| M6 — lansare | S23–S24 | v1.0 public |
+| M0 — setup repo + CI | ✅ done | Repo, CI lint+format, GitHub Pages |
+| M1 — `/deputati` | ✅ done | 335 deputați legislatura 2024, profile complete |
+| M2 — `/voturi` cu defalcare nominală | ✅ done | 816 voturi 2024–2026 |
+| M3 — `/sanctiuni` + `/interpelari` | ✅ done | 6 sancțiuni + 9.326 interpelări |
+| M4 — search Pagefind | ✅ done | ~14k entități indexate |
+| M5 — `/proiecte-lege` | 🔜 | scraper + endpoint |
+| M6 — `/comisii` dedicat + `/amendamente` | 🔜 | extragere date din profilele deputaților + scraper amendamente |
+| M7 — feeds & lansare publică | 🔜 | Atom/JSON feeds, anunț extern |

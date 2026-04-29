@@ -3,81 +3,67 @@ info:
   title: Camera Deputaților — API Deschis
   description: |
     API REST public pentru datele Camerei Deputaților din România.
-    
-    Această specificație reprezintă o **propunere de inițiativă administrativă** 
-    pentru transparentizarea și digitalizarea accesului la datele parlamentare.
-    
-    Datele sunt deja publice pe [cdep.ro](https://www.cdep.ro) — acest API le 
-    expune într-un format structurat, machine-readable, accesibil oricărui 
+
+    Această specificație descrie atât **endpoint-urile implementate** (servite ca
+    fișiere JSON statice prin GitHub Pages, scraped automat din cdep.ro), cât și
+    **propunerile de extindere** (servite de Camera Deputaților după adopție).
+
+    Datele sunt deja publice pe [cdep.ro](https://www.cdep.ro) — acest API le
+    expune într-un format structurat, machine-readable, accesibil oricărui
     developer, jurnalist sau cetățean.
-    
+
     **Autor propunere:** Cătălin Popa — Candidat Internship Camera Deputaților, Ed. I/2026
-    
+
     **Sursă date:** www.cdep.ro (date publice)
-    
+
     **Licență:** Open Government License v3.0
-  version: "1.0.0-draft"
+
+    **Repository:** [github.com/Endimion2k/cdep-api-poc](https://github.com/Endimion2k/cdep-api-poc)
+
+    **Search full-text:** [/search](https://endimion2k.github.io/cdep-api-poc/search.html) (Pagefind, ~14k entități)
+  version: "1.0.0-poc"
   contact:
     name: Propunere internship
-    url: https://www.cdep.ro
+    url: https://github.com/Endimion2k/cdep-api-poc
   license:
     name: Open Government License v3.0
     url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 
 servers:
+  - url: https://endimion2k.github.io/cdep-api-poc/data/v1
+    description: POC live (GitHub Pages, fișiere JSON statice)
   - url: https://cdep.ro/api/v1
-    description: Server propus (producție)
-  - url: https://endimion2k.github.io/cdep-api-poc/mock
-    description: Mock server (demo)
+    description: Server propus (după adopție de către Camera Deputaților)
 
 tags:
   - name: Deputați
-    description: Informații despre membrii Camerei Deputaților
+    description: Membrii Camerei Deputaților, biografii, comisii, activitate
   - name: Voturi
-    description: Voturi în plen și în comisii
-  - name: Proiecte legislative
-    description: Propuneri și proiecte de lege
-  - name: Comisii
-    description: Comisii parlamentare și activitatea lor
-  - name: Prezență
-    description: Prezența deputaților la ședințe
+    description: Voturi electronice în plen — agregate și defalcare nominală
+  - name: Sancțiuni
+    description: Sancțiuni disciplinare aplicate deputaților
+  - name: Interpelări
+    description: Interpelări și întrebări parlamentare adresate Guvernului
+  - name: Propuse
+    description: Endpoint-uri propuse, încă neimplementate
 
 paths:
-  /deputati:
+  /deputati/legislatura-{legislatura}.json:
     get:
       tags: [Deputați]
-      summary: Listă deputați
-      description: Returnează lista tuturor deputaților din legislatura curentă sau specificată.
+      summary: Listă deputați (legislatura completă)
+      description: |
+        Returnează toți deputații dintr-o legislatură, cu profile complete:
+        biografie, comisii, delegații, contoare de activitate.
       parameters:
         - name: legislatura
-          in: query
-          description: Anul de start al legislaturii (ex. 2024, 2020)
+          in: path
+          required: true
+          description: Anul de start al legislaturii
           schema:
             type: integer
+            enum: [2016, 2020, 2024]
             example: 2024
-        - name: partid
-          in: query
-          description: Filtrare după partid politic
-          schema:
-            type: string
-            example: PSD
-        - name: judet
-          in: query
-          description: Filtrare după județul de circumscripție
-          schema:
-            type: string
-            example: Buzau
-        - name: page
-          in: query
-          schema:
-            type: integer
-            default: 1
-        - name: per_page
-          in: query
-          schema:
-            type: integer
-            default: 20
-            maximum: 100
       responses:
         "200":
           description: Succes
@@ -85,379 +71,467 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/DeputatiResponse"
-              example:
-                total: 328
-                page: 1
-                per_page: 20
-                data:
-                  - id: 142
-                    nume: Marcel Ciolacu
-                    partid: PSD
-                    judet: Buzău
-                    circumscriptie: 10
-                    prezenta_pct: 81
-                    initiate_legislative: 3
-                    profile_url: "https://cdep.ro/pls/parlam/structura2015.mp?idm=142"
-                  - id: 87
-                    nume: Radu Miruță
-                    partid: USR
-                    judet: Cluj
-                    circumscriptie: 12
-                    prezenta_pct: 95
-                    initiate_legislative: 18
-                    profile_url: "https://cdep.ro/pls/parlam/structura2015.mp?idm=87"
 
-  /deputati/{id}:
+  /voturi/{legislatura}/_index.json:
     get:
-      tags: [Deputați]
-      summary: Profil complet deputat
+      tags: [Voturi]
+      summary: Index voturi
+      description: |
+        Listă agregată a tuturor voturilor electronice din plen pentru o legislatură.
+        Conține metadate (data, descriere, counts) — fără defalcare nominală.
       parameters:
-        - name: id
+        - name: legislatura
           in: path
           required: true
           schema:
             type: integer
-          example: 142
+            example: 2024
       responses:
         "200":
           description: Succes
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/Deputat"
+                $ref: "#/components/schemas/VoturiIndexResponse"
+
+  /voturi/{legislatura}/{idv}.json:
+    get:
+      tags: [Voturi]
+      summary: Detalii vot (cu defalcare nominală)
+      description: |
+        Returnează un vot specific, cu lista completă a deputaților și opțiunile lor
+        (DA / NU / abținere / nu au votat).
+      parameters:
+        - name: legislatura
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 2024
+        - name: idv
+          in: path
+          required: true
+          description: ID votului (cdep_idv)
+          schema:
+            type: integer
+            example: 36892
+      responses:
+        "200":
+          description: Succes
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/VoteEvent"
         "404":
-          description: Deputat negăsit
+          description: Vot inexistent
 
-  /deputati/{id}/prezenta:
+  /sanctiuni/legislatura-{legislatura}.json:
     get:
-      tags: [Prezență]
-      summary: Prezența unui deputat
-      description: Returnează statistici detaliate de prezență la ședințele de plen și comisii.
+      tags: [Sancțiuni]
+      summary: Sancțiuni disciplinare
+      description: |
+        Listă de sancțiuni aplicate deputaților (diminuare indemnizație, avertismente,
+        chemări la ordine, retragere cuvânt).
       parameters:
-        - name: id
+        - name: legislatura
           in: path
           required: true
           schema:
             type: integer
-        - name: an
-          in: query
-          schema:
-            type: integer
-            example: 2025
-        - name: tip
-          in: query
-          description: Tip ședință
-          schema:
-            type: string
-            enum: [plen, comisie, toate]
-            default: toate
+            example: 2024
       responses:
         "200":
           description: Succes
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/PrezentaResponse"
-              example:
-                deputat_id: 142
-                deputat_nume: Marcel Ciolacu
-                an: 2025
-                sedinte_totale: 64
-                sedinte_prezent: 52
-                procent: 81.25
-                absente_motivate: 7
-                absente_nemotivate: 5
+                $ref: "#/components/schemas/SanctiuniResponse"
 
-  /voturi:
+  /interpelari/legislatura-{legislatura}.json:
     get:
-      tags: [Voturi]
-      summary: Voturi în plen
-      description: Returnează lista voturilor din ședințele de plen, cu rezultatele agregate.
+      tags: [Interpelări]
+      summary: Interpelări și întrebări parlamentare
+      description: |
+        Listă de interpelări și întrebări adresate de deputați Guvernului sau
+        ministerelor, cu informații despre răspuns dacă a fost primit.
       parameters:
-        - name: data_start
-          in: query
-          schema:
-            type: string
-            format: date
-            example: "2025-01-01"
-        - name: data_end
-          in: query
-          schema:
-            type: string
-            format: date
-            example: "2025-12-31"
-        - name: comisie
-          in: query
-          schema:
-            type: string
-            example: informatii-comunicatii
-        - name: adoptat
-          in: query
-          schema:
-            type: boolean
-        - name: keyword
-          in: query
-          description: Căutare în titlul proiectului de lege
-          schema:
-            type: string
-            example: inteligenta artificiala
-      responses:
-        "200":
-          description: Succes
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/VoturiResponse"
-
-  /voturi/{id}:
-    get:
-      tags: [Voturi]
-      summary: Detalii vot
-      description: Returnează votul individual al fiecărui deputat pentru un vot specific.
-      parameters:
-        - name: id
+        - name: legislatura
           in: path
           required: true
           schema:
             type: integer
+            example: 2024
       responses:
         "200":
           description: Succes
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/VotDetaliat"
+                $ref: "#/components/schemas/InterpelariResponse"
 
   /proiecte-lege:
     get:
-      tags: [Proiecte legislative]
-      summary: Proiecte de lege
-      parameters:
-        - name: stadiu
-          in: query
-          schema:
-            type: string
-            enum: [initiat, comisie, dezbatere, adoptat, respins, retras]
-        - name: comisie
-          in: query
-          schema:
-            type: string
-        - name: keyword
-          in: query
-          schema:
-            type: string
-        - name: initiator
-          in: query
-          description: Guvern, deputat ID, grup parlamentar
-          schema:
-            type: string
-        - name: data_start
-          in: query
-          schema:
-            type: string
-            format: date
+      tags: [Propuse]
+      summary: "[propus] Proiecte de lege"
+      description: |
+        **Neimplementat în POC.** Va expune proiectele de lege din `pls/proiecte/`
+        cu stadiu, inițiator, comisie sesizată.
       responses:
-        "200":
-          description: Succes
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ProiecteLege"
+        "501":
+          description: Not Implemented (în POC)
 
   /comisii:
     get:
-      tags: [Comisii]
-      summary: Lista comisiilor parlamentare
+      tags: [Propuse]
+      summary: "[propus] Lista comisiilor parlamentare"
+      description: |
+        **Neimplementat ca endpoint dedicat.** Datele despre comisii sunt în prezent
+        nested în obiectul `Deputat.comisii`. Endpoint dedicat va fi adăugat ulterior.
       responses:
-        "200":
-          description: Succes
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  data:
-                    type: array
-                    items:
-                      $ref: "#/components/schemas/Comisie"
-
-  /comisii/{slug}/activitate:
-    get:
-      tags: [Comisii]
-      summary: Activitatea unei comisii
-      parameters:
-        - name: slug
-          in: path
-          required: true
-          schema:
-            type: string
-            example: informatii-comunicatii
-        - name: an
-          in: query
-          schema:
-            type: integer
-            example: 2025
-      responses:
-        "200":
-          description: Succes
+        "501":
+          description: Not Implemented (în POC)
 
 components:
   schemas:
+    Meta:
+      type: object
+      description: Metadate de generare (envelope-ul oricărui răspuns)
+      properties:
+        generated_at:
+          type: string
+          format: date-time
+          description: Timestamp UTC când a fost generat fișierul
+        source_url:
+          type: string
+          format: uri
+          description: URL sursa cdep.ro de unde au fost extrase datele
+        scraper_version:
+          type: string
+          example: "0.1.0"
+        count:
+          type: integer
+
     Deputat:
       type: object
       properties:
         id:
+          type: string
+          description: Hash stabil (canonical_id) — folosit pentru cross-link cu voturi
+          example: "db10f9f10a669adb"
+        name:
+          type: string
+          example: "Adomnicăi Mirela Elena"
+        given_name:
+          type: string
+          example: "Mirela Elena"
+        family_name:
+          type: string
+          example: "Adomnicăi"
+        gender:
+          type: string
+          enum: [male, female]
+          nullable: true
+        birth_date:
+          type: string
+          format: date
+          nullable: true
+        image:
+          type: string
+          format: uri
+          nullable: true
+        cdep_idm:
           type: integer
-        nume:
-          type: string
-        partid:
-          type: string
+          description: ID-ul intern cdep.ro (folosit în URL-ul `structura2015.mp?idm=N`)
+          example: 1
+        legislatura:
+          type: integer
+          example: 2024
         judet:
           type: string
+          nullable: true
+          example: "Suceava"
         circumscriptie:
           type: integer
-        prezenta_pct:
-          type: number
-          format: float
-          description: Procentaj prezență la ședințe
-        initiate_legislative:
-          type: integer
+          nullable: true
+          example: 35
         profile_url:
           type: string
           format: uri
+        data_validare:
+          type: string
+          format: date
+          nullable: true
+        hcd_validare:
+          type: string
+          nullable: true
+          example: "HCD nr.109/2024"
+        current_party:
+          type: string
+          nullable: true
+          example: "Partidul Social Democrat"
+        current_group:
+          type: string
+          nullable: true
+        group_role:
+          type: string
+          nullable: true
+          enum: [Lider, Vicelider, Secretar, Membru, null]
+        comisii:
+          type: array
+          items:
+            $ref: "#/components/schemas/ComisieMembership"
+        delegatii:
+          type: array
+          items:
+            type: string
+        grupuri_prietenie:
+          type: array
+          items:
+            type: string
+        activitate_luari_cuvant:
+          type: integer
+        activitate_sedinte:
+          type: integer
+        activitate_declaratii_politice:
+          type: integer
+        activitate_propuneri_legislative:
+          type: integer
+        activitate_legi_promulgate:
+          type: integer
+        activitate_intrebari_interpelari:
+          type: integer
+        birou_parlamentar:
+          type: string
+          nullable: true
+
+    ComisieMembership:
+      type: object
+      properties:
+        comisia:
+          type: string
+          example: "Comisia pentru muncă şi protecţie socială"
+        rol:
+          type: string
+          nullable: true
+          enum: [Președinte, Vicepreședinte, Secretar, Membru, null]
+        tip:
+          type: string
+          enum: [permanenta, speciala, comuna, speciala_comuna]
 
     DeputatiResponse:
       type: object
       properties:
-        total:
-          type: integer
-        page:
-          type: integer
-        per_page:
-          type: integer
+        meta:
+          $ref: "#/components/schemas/Meta"
         data:
           type: array
           items:
             $ref: "#/components/schemas/Deputat"
 
-    PrezentaResponse:
+    VoteCounts:
       type: object
       properties:
-        deputat_id:
+        prezenti:
+          type: integer
+        pentru:
+          type: integer
+        contra:
+          type: integer
+        abtineri:
+          type: integer
+        nu_au_votat:
+          type: integer
+
+    VoteEventSummary:
+      type: object
+      description: Înregistrare în `_index.json` (fără defalcare nominală)
+      properties:
+        id:
+          type: string
+        cdep_idv:
+          type: integer
+          example: 36892
+        legislatura:
+          type: integer
+        cam:
+          type: integer
+          enum: [1, 2]
+          description: 1=Senat, 2=Camera Deputaților
+        timestamp:
+          type: string
+          format: date-time
+        descriere:
+          type: string
+          example: "PL-x 218/2026 - Vot final adoptare"
+        counts:
+          $ref: "#/components/schemas/VoteCounts"
+        detail_url:
+          type: string
+          description: URL relativ la fișierul JSON cu defalcare nominală
+
+    VoteIndividual:
+      type: object
+      properties:
+        voter_canonical_id:
+          type: string
+          description: Match cu `Deputat.id`
+        voter_name:
+          type: string
+        party:
+          type: string
+          nullable: true
+        option:
+          type: string
+          enum: [yes, "no", abstain, absent, not_voting]
+
+    VoteEvent:
+      type: object
+      description: Vot complet (fișier per `idv`)
+      allOf:
+        - $ref: "#/components/schemas/VoteEventSummary"
+        - type: object
+          properties:
+            votes:
+              type: array
+              items:
+                $ref: "#/components/schemas/VoteIndividual"
+            source_url:
+              type: string
+              format: uri
+
+    VoturiIndexResponse:
+      type: object
+      properties:
+        meta:
+          $ref: "#/components/schemas/Meta"
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/VoteEventSummary"
+
+    Sanctiune:
+      type: object
+      properties:
+        id:
+          type: string
+        legislatura:
           type: integer
         deputat_nume:
           type: string
-        an:
-          type: integer
-        sedinte_totale:
-          type: integer
-        sedinte_prezent:
-          type: integer
-        procent:
-          type: number
-        absente_motivate:
-          type: integer
-        absente_nemotivate:
-          type: integer
-
-    Vot:
-      type: object
-      properties:
-        id:
-          type: integer
-        titlu:
+        deputat_canonical_id:
           type: string
+          nullable: true
         data:
           type: string
           format: date
-        for:
-          type: integer
-        against:
-          type: integer
-        abstineri:
-          type: integer
-        adoptat:
-          type: boolean
-        comisie:
-          type: string
-        pdf_url:
-          type: string
-          format: uri
-
-    VoturiResponse:
-      type: object
-      properties:
-        total:
-          type: integer
-        data:
-          type: array
-          items:
-            $ref: "#/components/schemas/Vot"
-
-    VotDetaliat:
-      allOf:
-        - $ref: "#/components/schemas/Vot"
-        - type: object
-          properties:
-            voturi_individuale:
-              type: array
-              items:
-                type: object
-                properties:
-                  deputat_id:
-                    type: integer
-                  deputat_nume:
-                    type: string
-                  partid:
-                    type: string
-                  vot:
-                    type: string
-                    enum: [pentru, impotriva, abtinere, absent]
-
-    ProiectLege:
-      type: object
-      properties:
-        id:
-          type: string
-          example: PL-B204-2025
-        titlu:
-          type: string
-        initiator:
-          type: string
-        data_initiere:
-          type: string
-          format: date
-        stadiu:
-          type: string
-        comisie_sesizata:
-          type: string
-        url:
-          type: string
-          format: uri
-
-    ProiecteLege:
-      type: object
-      properties:
-        total:
-          type: integer
-        data:
-          type: array
-          items:
-            $ref: "#/components/schemas/ProiectLege"
-
-    Comisie:
-      type: object
-      properties:
-        id:
-          type: integer
-        slug:
-          type: string
-        nume:
-          type: string
+          nullable: true
         tip:
           type: string
-          enum: [permanenta, speciala, comuna]
-        membri:
+          enum: [DIMINUARE_INDEMNIZATIE, AVERTISMENT_SCRIS, CHEMARE_ORDINE, RETRAGERE_CUVANT, OTHER]
+        procent:
           type: integer
-        presedinte:
+          nullable: true
+          description: Pentru DIMINUARE_INDEMNIZATIE
+        durata_luni:
+          type: integer
+          nullable: true
+        nr_decizie:
           type: string
+          nullable: true
+        descriere:
+          type: string
+
+    SanctiuniResponse:
+      type: object
+      properties:
+        meta:
+          $ref: "#/components/schemas/Meta"
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/Sanctiune"
+
+    Interpelare:
+      type: object
+      properties:
+        id:
+          type: string
+        cdep_idi:
+          type: integer
+        legislatura:
+          type: integer
+        nr_inregistrare:
+          type: string
+          example: "14149A"
+        data_inregistrare:
+          type: string
+          format: date
+          nullable: true
+        data_prezentare:
+          type: string
+          format: date
+          nullable: true
+        data_comunicare:
+          type: string
+          format: date
+          nullable: true
+        termen_raspuns:
+          type: string
+          format: date
+          nullable: true
+        titlu:
+          type: string
+        mod_adresare:
+          type: string
+          nullable: true
+        adresant_nume:
+          type: string
+        adresant_canonical_id:
+          type: string
+          nullable: true
+          description: Match cu `Deputat.id`
+        adresant_grup:
+          type: string
+          nullable: true
+        destinatar:
+          type: string
+          example: "Ministerul Afacerilor Interne"
+        text_pdf_url:
+          type: string
+          format: uri
+          nullable: true
+        raspuns_solicitat:
+          type: string
+          nullable: true
+        raspuns_primit:
+          type: boolean
+        raspuns_nr_inregistrare:
+          type: string
+          nullable: true
+        raspuns_data:
+          type: string
+          format: date
+          nullable: true
+        raspuns_sursa:
+          type: string
+          nullable: true
+        raspuns_comunicat_de:
+          type: string
+          nullable: true
+        raspuns_pdf_url:
+          type: string
+          format: uri
+          nullable: true
+        source_url:
+          type: string
+          format: uri
+
+    InterpelariResponse:
+      type: object
+      properties:
+        meta:
+          $ref: "#/components/schemas/Meta"
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/Interpelare"
