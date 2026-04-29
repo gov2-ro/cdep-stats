@@ -629,6 +629,14 @@ a:hover{text-decoration:underline}
           </div>
         </div>
       </div>
+
+      <div class="demo-card" style="margin-top:24px">
+        <div class="demo-card-title">Cele mai disputate proiecte legislative — top 5 după amendamente</div>
+        <div id="top-disputed"></div>
+        <div style="margin-top:14px;font-size:12px;color:var(--text3);line-height:1.7">
+          Date din endpoint-ul derivat <code>/data/v1/amendamente/legislatura-2024.json</code>. Pentru lista completă a textelor, vezi link-ul <code>raport_comisie_pdf</code> din JSON.
+        </div>
+      </div>
     </div>
 
   </main>
@@ -684,15 +692,18 @@ let INTERPELARI_TOTAL = 0;
 let COMISII_TOTAL = 0;
 let PROIECTE = [];
 let PROIECTE_TOTAL = 0;
+let AMENDAMENTE = [];
+let AMENDAMENTE_TOTAL = 0;
 
 async function loadData() {
-  const [dep, vot, san, intp, com, pro] = await Promise.all([
+  const [dep, vot, san, intp, com, pro, amd] = await Promise.all([
     fetch('data/v1/deputati/legislatura-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/voturi/2024/_index.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/sanctiuni/legislatura-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/interpelari/legislatura-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/comisii/legislatura-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/proiecte/legislatura-2024.json').then(r => r.json()).catch(() => null),
+    fetch('data/v1/amendamente/legislatura-2024.json').then(r => r.json()).catch(() => null),
   ]);
   DEPUTATI = dep?.data || [];
   VOTURI = vot?.data || [];
@@ -701,6 +712,8 @@ async function loadData() {
   COMISII_TOTAL = com?.meta?.count || com?.data?.length || 0;
   PROIECTE = pro?.data || [];
   PROIECTE_TOTAL = pro?.meta?.count || PROIECTE.length || 0;
+  AMENDAMENTE = amd?.data || [];
+  AMENDAMENTE_TOTAL = AMENDAMENTE.reduce((s, a) => s + (a.amendamente_total || 0), 0);
 
   renderStats();
   renderDeps(DEPUTATI);
@@ -708,6 +721,7 @@ async function loadData() {
   renderParties();
   renderIndicators();
   renderJudete();
+  renderTopDisputed();
 }
 
 function renderStats() {
@@ -839,6 +853,24 @@ function renderIndicators() {
       <strong>${mediaProp}</strong> propuneri legislative în medie / deputat (max <strong>${maxProp}</strong>).
     </div>
   `;
+}
+
+function renderTopDisputed() {
+  const el = document.getElementById('top-disputed');
+  if (!el || !AMENDAMENTE.length) return;
+  const top5 = AMENDAMENTE.slice(0, 5);
+  el.innerHTML = top5.map(a => {
+    const link = a.source_url
+      ? `<a href="${a.source_url}" target="_blank" style="color:var(--text);font-weight:500;text-decoration:none">${a.titlu || a.nr_inregistrare || '(fără titlu)'}</a>`
+      : (a.titlu || a.nr_inregistrare || '(fără titlu)');
+    return `<div style="padding:12px 0;border-bottom:1px solid var(--border)">
+      <div style="display:flex;align-items:start;gap:10px;margin-bottom:6px">
+        <div style="font-size:13px;line-height:1.4;flex:1">${link}</div>
+        <span style="font-size:11px;background:var(--blue-bg);color:var(--blue-text);padding:3px 8px;border-radius:3px;font-weight:600;white-space:nowrap">${a.amendamente_total} amend.</span>
+      </div>
+      <div style="font-size:11px;color:var(--text3)">${fmtNum(a.amendamente_admise)} admise · ${fmtNum(a.amendamente_respinse)} respinse · ${a.nr_inregistrare || ''}${a.lege_nr ? ` · adoptată ca <strong>Lege ${a.lege_nr}</strong>` : ''}</div>
+    </div>`;
+  }).join('');
 }
 
 function renderJudete() {

@@ -4,7 +4,7 @@ Toate modificările notabile ale proiectului sunt documentate aici. Format bazat
 
 ## [v0.1.0] — 2026-04-29 — POC complet
 
-Prima versiune funcțională a API-ului. 6 endpoint-uri live cu date reale, search full-text peste tot corpus-ul, infrastructură CI/CD cu auto-update zilnic.
+Prima versiune funcțională a API-ului. 7 endpoint-uri live cu date reale, search full-text peste tot corpus-ul, infrastructură CI/CD cu auto-update zilnic.
 
 ### Adăugat
 
@@ -15,7 +15,8 @@ Prima versiune funcțională a API-ului. 6 endpoint-uri live cu date reale, sear
 - `/sanctiuni/legislatura-{leg}.json` — sancțiuni disciplinare (diminuare indemnizație, avertisment scris, chemare la ordine, retragere cuvânt).
 - `/interpelari/legislatura-{leg}.json` — 9.326 interpelări/întrebări parlamentare 2024–2026, cu tracking răspuns (86.4% rate de răspuns).
 - `/comisii/legislatura-{leg}.json` — 37 comisii (32 permanente + 5 speciale comune) cu lista completă a membrilor și conducerea.
-- `/proiecte/legislatura-{leg}.json` — 1.641 proiecte legislative 2024–2026 cu stadiu, inițiator, cameră decizională, timeline procedural complet, vot final, decret promulgare.
+- `/proiecte/legislatura-{leg}.json` — 1.641 proiecte legislative 2024–2026 cu stadiu, inițiator, cameră decizională, timeline procedural complet, vot final, decret promulgare, **metadate amendamente** (admise/respinse, termen depunere, link PDF raport comisie).
+- `/amendamente/legislatura-{leg}.json` — view derivat: 154 proiecte cu cele mai multe amendamente (1.669 admise + 151 respinse = 1.820 trackate), sortate descrescător. Util pentru identificarea celor mai disputate proiecte legislative.
 - `/search.html` — căutare full-text peste ~12.500 entități, cu filter-e faceted (tip, partid, județ, an, stadiu, etc.).
 
 **Infrastructură**

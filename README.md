@@ -2,7 +2,7 @@
 
 Un API REST public, gratuit, care expune datele parlamentare ale **Camerei Deputaților** din România în format **JSON**. Construit deasupra surselor publice de pe [cdep.ro](https://www.cdep.ro), actualizat zilnic.
 
-> **Status**: 🟢 POC funcțional · 6 endpoint-uri live · search full-text live · cron zilnic activ
+> **Status**: 🟢 POC funcțional · 7 endpoint-uri live · search full-text live · cron zilnic activ
 
 [![License: OGL v3.0](https://img.shields.io/badge/license-OGL%20v3.0-blue.svg)](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 [![Status: POC live](https://img.shields.io/badge/status-POC%20live-green.svg)](https://endimion2k.github.io/cdep-api-poc/)
@@ -22,6 +22,7 @@ Un API REST public, gratuit, care expune datele parlamentare ale **Camerei Deput
 | `/interpelari` (2024–2026) | **9.326** | [legislatura-2024.json](https://endimion2k.github.io/cdep-api-poc/data/v1/interpelari/legislatura-2024.json) |
 | `/comisii` (agregat) | **37** | [legislatura-2024.json](https://endimion2k.github.io/cdep-api-poc/data/v1/comisii/legislatura-2024.json) |
 | `/proiecte-lege` (2024–2026) | **1.641** | [legislatura-2024.json](https://endimion2k.github.io/cdep-api-poc/data/v1/proiecte/legislatura-2024.json) |
+| `/amendamente` (derived) | **154 proiecte / 1.820 amend.** | [legislatura-2024.json](https://endimion2k.github.io/cdep-api-poc/data/v1/amendamente/legislatura-2024.json) |
 | **Search full-text** | **~12.500 entități indexate** | [/search](https://endimion2k.github.io/cdep-api-poc/search.html) |
 
 Datele se actualizează automat zilnic la 04:00 UTC printr-un workflow GitHub Actions.
@@ -54,16 +55,17 @@ Acest API transformă HTML-ul public în JSON structurat, versionat și document
 | `GET /sanctiuni/legislatura-{leg}.json` | JSON | Sancțiuni disciplinare (diminuare indemnizație, avertisment etc.) |
 | `GET /interpelari/legislatura-{leg}.json` | JSON | Interpelări/întrebări parlamentare cu informații despre răspuns |
 | `GET /comisii/legislatura-{leg}.json` | JSON | Comisii permanente + speciale comune cu lista membrilor și conducerea |
-| `GET /proiecte/legislatura-{leg}.json` | JSON | Proiecte legislative cu stadiu, inițiator, timeline, voturi, decret promulgare |
+| `GET /proiecte/legislatura-{leg}.json` | JSON | Proiecte legislative cu stadiu, inițiator, timeline, voturi, decret promulgare, metadate amendamente |
+| `GET /amendamente/legislatura-{leg}.json` | JSON | View derivat — cele mai disputate proiecte sortate după număr amendamente |
 | `GET /search.html?q=` | HTML | Căutare full-text (Pagefind) peste toate cele de mai sus |
 
 ### 🔜 Propuse (neimplementate)
 
 | Endpoint | Status |
 |---|---|
-| `GET /amendamente` | viitor — extragere din proiectele individuale |
 | `GET /motiuni`, `/declaratii-politice`, `/stenograme` | viitor |
 | `GET /feed.atom`, `/feed.json` | viitor (notificări modificări) |
+| Texte complete amendamente (PDF parsing) | viitor — momentan link-ul la `raport_comisie_pdf` |
 
 Vezi [`api/openapi.yaml`](./api/openapi.yaml) pentru schema completă.
 
@@ -200,4 +202,5 @@ Vezi [**TIMELINE.md**](./TIMELINE.md) pentru istoricul detaliat al implementări
 | M4 — search Pagefind cu filter-e | ✅ done | ~12.500 entități indexate, filter-e pe tip/partid/an/etc. |
 | M5 — `/comisii` agregat | ✅ done | 37 comisii (32 permanente + 5 speciale comune) |
 | M6 — `/proiecte-lege` | ✅ done | 1.641 proiecte 2024–2026, cu timeline, vot final, promulgare |
-| M7 — `/amendamente`, feeds, lansare publică | 🔜 | extragere amendamente, Atom/JSON feeds, anunț extern |
+| M7 — `/amendamente` (derivat) | ✅ done | 154 proiecte cu 1.820 amendamente trackate, slim view sortat |
+| M8 — feeds, motions, lansare publică | 🔜 | Atom/JSON feeds, /motiuni, /declaratii-politice, anunț extern |
