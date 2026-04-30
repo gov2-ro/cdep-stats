@@ -2,6 +2,21 @@
 
 Toate modificările notabile ale proiectului sunt documentate aici. Format bazat pe [Keep a Changelog](https://keepachangelog.com/) și [SemVer](https://semver.org/).
 
+## [v0.2.0] — 2026-04-30 — Multi-legislatură + endpoint-uri suplimentare
+
+### Adăugat
+
+- **Bootstrap legislatura 2020** completă: 354 deputați, 3.616 voturi (cu defalcare nominală), 8 sancțiuni, 18.040 interpelări, 54 comisii, 3.604 proiecte legislative, 721 proiecte cu amendamente (10.063 admise + 413 respinse).
+- `/motiuni/legislatura-{leg}.json` — moțiuni simple și de cenzură cu vot final, rezultat (adoptată/respinsă/retrasă), semnatari nominali. Titlul extras din heading HTML, nu din label inexistent.
+- `/deputat.html?id={cdep_idm}` — pagină profil deputat user-facing cu foto, partid, județ, contoare activitate, comisii cu rol, cross-link-uri către interpelări adresate și moțiuni semnate.
+- Brand update: proiectul e prezentat ca dezvoltat în colaborare cu Comisia pentru Tehnologia Informației și Comunicațiilor (înlocuit textul „candidatura pentru internship" peste tot — README, OpenAPI, index.html, STORAGE.md).
+
+### Total v0.2.0
+
+**~38.000 entități** indexate cross-2-legislaturi · **8 endpoints JSON** + 2 feeds (Atom/JSON) + 2 pagini interactive (search, deputat) · **36 tests** · CI verde · cron zilnic activ.
+
+---
+
 ## [v0.1.0] — 2026-04-29 — POC complet
 
 Prima versiune funcțională a API-ului. 7 endpoint-uri live cu date reale, search full-text peste tot corpus-ul, infrastructură CI/CD cu auto-update zilnic.

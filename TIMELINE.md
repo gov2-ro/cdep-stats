@@ -88,18 +88,21 @@ Cele 6 milestone-uri planificate pe 24 săptămâni au fost livrate într-un spr
 
 ---
 
-## Status la zi: 7 endpoint-uri live, ~12.500 entități, search funcțional
+## Status la zi: 8 endpoint-uri live + 2 feeds + 2 pagini interactive, ~38.000 entități, 2 legislaturi
 
-| Endpoint | Records | Format |
+| Endpoint | Records (2024 + 2020) | Format |
 |---|---:|---|
-| `/deputati/legislatura-{leg}.json` | 335 | JSON Pydantic |
-| `/voturi/{leg}/_index.json` + `{idv}.json` | 816 | JSON cu defalcare nominală |
-| `/sanctiuni/legislatura-{leg}.json` | 6 | JSON |
-| `/interpelari/legislatura-{leg}.json` | 9.326 | JSON cu răspuns tracking |
-| `/comisii/legislatura-{leg}.json` | 37 | JSON agregat |
-| `/proiecte/legislatura-{leg}.json` | 1.641 | JSON cu timeline + amendamente metadata |
-| `/amendamente/legislatura-{leg}.json` | 154 proiecte / 1.820 amend. | JSON derived view |
-| `/search.html` | ~12.500 entități | Pagefind + filter-e faceted |
+| `/deputati/legislatura-{leg}.json` | **335 + 354** | JSON Pydantic |
+| `/voturi/{leg}/_index.json` + `{idv}.json` | **816 + 3.616** | JSON cu defalcare nominală |
+| `/sanctiuni/legislatura-{leg}.json` | **6 + 8** | JSON |
+| `/interpelari/legislatura-{leg}.json` | **9.326 + 18.040** | JSON cu răspuns tracking |
+| `/comisii/legislatura-{leg}.json` | **37 + 54** | JSON agregat |
+| `/proiecte/legislatura-{leg}.json` | **1.641 + 3.604** | JSON cu timeline + amendamente metadata |
+| `/amendamente/legislatura-{leg}.json` | **154 + 721** proiecte / **12.296** amend. | JSON derived view |
+| `/motiuni/legislatura-{leg}.json` | **6** (current leg only) | JSON cu semnatari și vot |
+| `/feed.atom` + `/feed.json` | ultimele 60 evenimente | RFC 4287 + JSON Feed v1.1 |
+| `/search.html` | **~38.000** entități | Pagefind + filter-e faceted |
+| `/deputat.html?id={N}` | dinamic | Pagină profil cu cross-link-uri |
 
 **CI**: lint/format pe fiecare push (ruff). **Cron**: zilnic 04:00 UTC pe self-hosted runner Windows. **Hosting**: GitHub Pages, cost zero.
 

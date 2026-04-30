@@ -2,7 +2,7 @@
 
 Un API REST public, gratuit, care expune datele parlamentare ale **Camerei Deputaților** din România în format **JSON**. Construit deasupra surselor publice de pe [cdep.ro](https://www.cdep.ro), actualizat zilnic.
 
-> **Status**: 🟢 POC funcțional · 7 endpoint-uri live · search full-text live · cron zilnic activ
+> **Status**: 🟢 POC funcțional · 8 endpoint-uri live · 2 legislaturi · search full-text live · cron zilnic activ
 
 [![License: OGL v3.0](https://img.shields.io/badge/license-OGL%20v3.0-blue.svg)](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 [![Status: POC live](https://img.shields.io/badge/status-POC%20live-green.svg)](https://endimion2k.github.io/cdep-api-poc/)
@@ -23,8 +23,11 @@ Un API REST public, gratuit, care expune datele parlamentare ale **Camerei Deput
 | `/comisii` (agregat) | **37** | [legislatura-2024.json](https://endimion2k.github.io/cdep-api-poc/data/v1/comisii/legislatura-2024.json) |
 | `/proiecte-lege` (2024–2026) | **1.641** | [legislatura-2024.json](https://endimion2k.github.io/cdep-api-poc/data/v1/proiecte/legislatura-2024.json) |
 | `/amendamente` (derived) | **154 proiecte / 1.820 amend.** | [legislatura-2024.json](https://endimion2k.github.io/cdep-api-poc/data/v1/amendamente/legislatura-2024.json) |
-| `/feed.atom` + `/feed.json` | **ultimele 50 evenimente** | [feed.atom](https://endimion2k.github.io/cdep-api-poc/data/v1/feed.atom) · [feed.json](https://endimion2k.github.io/cdep-api-poc/data/v1/feed.json) |
-| **Search full-text** | **~12.500 entități indexate** | [/search](https://endimion2k.github.io/cdep-api-poc/search.html) |
+| `/motiuni` | **6** | [legislatura-2024.json](https://endimion2k.github.io/cdep-api-poc/data/v1/motiuni/legislatura-2024.json) |
+| **Plus legislatura 2020** | 354 dep / 3.616 vot / 8 san / 18.040 int / 54 com / 3.604 pro / 721 amend | — |
+| `/feed.atom` + `/feed.json` | **ultimele 60 evenimente** | [feed.atom](https://endimion2k.github.io/cdep-api-poc/data/v1/feed.atom) · [feed.json](https://endimion2k.github.io/cdep-api-poc/data/v1/feed.json) |
+| **Search full-text** | **~38.000 entități indexate** | [/search](https://endimion2k.github.io/cdep-api-poc/search.html) |
+| **Profil deputat** | dinamic | [deputat.html?id=189](https://endimion2k.github.io/cdep-api-poc/deputat.html?id=189) |
 
 Datele se actualizează automat zilnic la 04:00 UTC printr-un workflow GitHub Actions.
 
@@ -58,9 +61,11 @@ Acest API transformă HTML-ul public în JSON structurat, versionat și document
 | `GET /comisii/legislatura-{leg}.json` | JSON | Comisii permanente + speciale comune cu lista membrilor și conducerea |
 | `GET /proiecte/legislatura-{leg}.json` | JSON | Proiecte legislative cu stadiu, inițiator, timeline, voturi, decret promulgare, metadate amendamente |
 | `GET /amendamente/legislatura-{leg}.json` | JSON | View derivat — cele mai disputate proiecte sortate după număr amendamente |
-| `GET /feed.atom` | XML | Atom feed (RFC 4287) cu ultimele 50 evenimente |
+| `GET /motiuni/legislatura-{leg}.json` | JSON | Moțiuni simple + cenzură cu vot final, semnatari, rezultat |
+| `GET /feed.atom` | XML | Atom feed (RFC 4287) cu ultimele 60 evenimente cross-endpoint |
 | `GET /feed.json` | JSON | JSON Feed v1.1 cu aceleași evenimente |
 | `GET /search.html?q=` | HTML | Căutare full-text (Pagefind) peste toate cele de mai sus |
+| `GET /deputat.html?id={cdep_idm}` | HTML | Pagină profil deputat cu cross-link-uri către voturi/interpelări/moțiuni |
 
 ### 🔜 Propuse (neimplementate)
 
@@ -206,4 +211,7 @@ Vezi [**TIMELINE.md**](./TIMELINE.md) pentru istoricul detaliat al implementări
 | M5 — `/comisii` agregat | ✅ done | 37 comisii (32 permanente + 5 speciale comune) |
 | M6 — `/proiecte-lege` | ✅ done | 1.641 proiecte 2024–2026, cu timeline, vot final, promulgare |
 | M7 — `/amendamente` (derivat) | ✅ done | 154 proiecte cu 1.820 amendamente trackate, slim view sortat |
-| M8 — feeds, motions, lansare publică | 🔜 | Atom/JSON feeds, /motiuni, /declaratii-politice, anunț extern |
+| M8 — feeds + motions | ✅ done | Atom/JSON feeds, /motiuni cu vot și semnatari |
+| M9 — bootstrap legislatura 2020 | ✅ done | 354 dep / 3.616 vot / 18.040 int / 3.604 pro |
+| M10 — profil deputat dedicat | ✅ done | `/deputat.html?id=N` cu cross-link-uri |
+| M11 — lansare publică | 🔜 | 2-page brief, screen recording, outreach jurnaliști |
