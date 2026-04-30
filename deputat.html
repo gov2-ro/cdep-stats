@@ -81,18 +81,19 @@ a:hover{text-decoration:underline}
 <header class="header">
   <div class="header-inner">
     <span class="logo">cdep<span>.api</span></span>
-    <a href="index.html" class="back">← Înapoi</a>
+    <a href="index.html" class="back" data-i18n="back">← Înapoi</a>
+    <span id="lang-toggle-slot" style="margin-left:8px;display:flex;align-items:center"></span>
   </div>
 </header>
 
 <div class="container">
   <div id="content">
-    <div class="loading">Se încarcă profilul deputatului...</div>
+    <div class="loading" data-i18n="loading">Se încarcă profilul deputatului...</div>
   </div>
 </div>
 
 <footer class="footer">
-  <p>Date din <a href="https://cdep.ro" target="_blank">cdep.ro</a> · Sursă JSON: <a id="json-link" href="#">/data/v1/deputati/legislatura-2024.json</a> · <a href="index.html">Înapoi la pagina principală</a></p>
+  <p><span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a> · <span data-i18n="source">Sursă JSON</span>: <a id="json-link" href="#">/data/v1/deputati/legislatura-2024.json</a> · <a href="index.html" data-i18n="page_main">Înapoi la pagina principală</a></p>
 </footer>
 
 <script>
@@ -186,12 +187,12 @@ async function loadDeputat() {
       <div class="profile-info">
         <h1>${dep.name}</h1>
         <div class="profile-meta">${tags}</div>
-        <div class="bio-row"><strong>Partid:</strong> ${dep.current_party || '(fără partid)'}</div>
-        <div class="bio-row"><strong>Grup parlamentar:</strong> ${dep.current_group || '-'}</div>
+        <div class="bio-row"><strong data-i18n="party">Partid</strong>: ${dep.current_party || '(fără partid)'}</div>
+        <div class="bio-row"><strong data-i18n="group">Grup parlamentar</strong>: ${dep.current_group || '-'}</div>
         ${dep.birth_date ? `<div class="bio-row"><strong>Data nașterii:</strong> ${dep.birth_date}</div>` : ''}
         ${dep.data_validare ? `<div class="bio-row"><strong>Validat:</strong> ${dep.data_validare} · ${dep.hcd_validare || ''}</div>` : ''}
         ${dep.birou_parlamentar ? `<div class="bio-row"><strong>Birou parlamentar:</strong> ${dep.birou_parlamentar}</div>` : ''}
-        <div class="bio-row" style="margin-top:12px"><a href="${dep.profile_url}" target="_blank">Profil oficial cdep.ro ↗</a></div>
+        <div class="bio-row" style="margin-top:12px"><a href="${dep.profile_url}" target="_blank"><span data-i18n="profile_official">Profil oficial cdep.ro</span> ↗</a></div>
       </div>
     </div>
 
@@ -205,37 +206,38 @@ async function loadDeputat() {
     </div>
 
     <div class="section">
-      <h2>Comisii (${(dep.comisii || []).length})</h2>
+      <h2><span data-i18n="committees">Comisii</span> (${(dep.comisii || []).length})</h2>
       ${comisiiHtml}
     </div>
 
-    ${delegatiiHtml ? `<div class="section"><h2>Delegații (${dep.delegatii.length})</h2>${delegatiiHtml}</div>` : ''}
-    ${grupuriHtml ? `<div class="section"><h2>Grupuri de prietenie (${dep.grupuri_prietenie.length})</h2>${grupuriHtml}</div>` : ''}
+    ${delegatiiHtml ? `<div class="section"><h2><span data-i18n="delegations">Delegații</span> (${dep.delegatii.length})</h2>${delegatiiHtml}</div>` : ''}
+    ${grupuriHtml ? `<div class="section"><h2><span data-i18n="friendship_groups">Grupuri de prietenie</span> (${dep.grupuri_prietenie.length})</h2>${grupuriHtml}</div>` : ''}
 
     <div class="section">
-      <h2>Activitate cross-endpoint</h2>
+      <h2 data-i18n="activity">Activitate cross-endpoint</h2>
       <div class="cross-links">
         <a class="cross-link" href="search.html?q=${encodeURIComponent(dep.name)}">
-          <strong>Caută în date</strong>
-          <span>Pagefind search după nume</span>
+          <strong data-i18n="hero_btn_search">Caută în date</strong>
+          <span>Pagefind search</span>
         </a>
         ${myInterpelari.length > 0 ? `
         <a class="cross-link" href="search.html?q=${encodeURIComponent(dep.name)}">
-          <strong>${myInterpelari.length} interpelări/întrebări</strong>
-          <span>Adresate de acest deputat</span>
+          <strong>${myInterpelari.length} <span data-i18n="interpellations_addressed">interpelări adresate</span></strong>
+          <span data-i18n="addressed_to">Adresate de acest deputat</span>
         </a>` : ''}
         ${mySemnaturi.length > 0 ? `
         <a class="cross-link" href="search.html?q=${encodeURIComponent(dep.name)}">
-          <strong>${mySemnaturi.length} moțiuni semnate</strong>
-          <span>Cu semnătura acestui deputat</span>
+          <strong>${mySemnaturi.length} <span data-i18n="motions_signed">moțiuni semnate</span></strong>
+          <span data-i18n="with_signature">Cu semnătura acestui deputat</span>
         </a>` : ''}
         <a class="cross-link" href="${jsonUrl}">
-          <strong>Date raw JSON</strong>
-          <span>Profil complet în format API</span>
+          <strong data-i18n="raw_json">Date raw JSON</strong>
+          <span data-i18n="full_profile">Profil complet în format API</span>
         </a>
       </div>
     </div>
   `;
+  if (typeof applyI18n === 'function') applyI18n();
 }
 
 function showError(msg) {
@@ -244,6 +246,7 @@ function showError(msg) {
 
 loadDeputat();
 </script>
+<script src="i18n.js"></script>
 
 </body>
 </html>

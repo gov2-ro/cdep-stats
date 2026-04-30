@@ -189,40 +189,41 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
     <span class="logo" aria-label="cdep API logo">cdep<span>.api</span></span>
     <span class="badge">v1.0 DRAFT</span>
     <nav class="nav" role="navigation" aria-label="Navigație principală">
-      <a href="#" class="active" onclick="showPage('docs',this)">Documentație</a>
-      <a href="#" onclick="showPage('demo',this)">Demo</a>
-      <a href="#" onclick="showPage('stats',this)">Statistici</a>
-      <a href="search.html" style="margin-left:8px">Caută ↗</a>
-      <a href="docs/swagger.html">Swagger UI ↗</a>
+      <a href="#" class="active" onclick="showPage('docs',this)"><span data-i18n="docs">Documentație</span></a>
+      <a href="#" onclick="showPage('demo',this)"><span data-i18n="demo">Demo</span></a>
+      <a href="#" onclick="showPage('stats',this)"><span data-i18n="stats">Statistici</span></a>
+      <a href="search.html" style="margin-left:8px"><span data-i18n="search">Caută</span> ↗</a>
+      <a href="docs/swagger.html"><span data-i18n="swagger">Swagger UI</span> ↗</a>
+      <span id="lang-toggle-slot" style="margin-left:8px;display:flex;align-items:center"></span>
     </nav>
   </div>
 </header>
 
 <section class="hero">
-  <h1>Date parlamentare,<br><em>deschise pentru toți</em></h1>
-  <p>API REST public pentru datele Camerei Deputaților. Voturi, prezențe, proiecte legislative — în format JSON, accesibil oricui. Dezvoltat în colaborare cu Comisia pentru Tehnologia Informației și Comunicațiilor pentru transparentizarea activității parlamentare.</p>
+  <h1><span data-i18n="hero_title_1">Date parlamentare,</span><br><em data-i18n="hero_title_2">deschise pentru toți</em></h1>
+  <p data-i18n="hero_desc">API REST public pentru datele Camerei Deputaților. Voturi, prezențe, proiecte legislative — în format JSON, accesibil oricui. Dezvoltat în colaborare cu Comisia pentru Tehnologia Informației și Comunicațiilor pentru transparentizarea activității parlamentare.</p>
   <div class="hero-actions">
-    <a href="docs/swagger.html" class="btn btn-primary">Explorează API ↗</a>
-    <a href="search.html" class="btn btn-secondary">Caută în date ↗</a>
-    <a href="api/openapi.yaml" class="btn btn-secondary" download>Descarcă OpenAPI spec</a>
+    <a href="docs/swagger.html" class="btn btn-primary"><span data-i18n="hero_btn_explore">Explorează API</span> ↗</a>
+    <a href="search.html" class="btn btn-secondary"><span data-i18n="hero_btn_search">Caută în date</span> ↗</a>
+    <a href="api/openapi.yaml" class="btn btn-secondary" download data-i18n="hero_btn_download">Descarcă OpenAPI spec</a>
   </div>
 </section>
 
 <div class="stats-bar">
   <div class="stats-inner">
-    <div class="stat"><div class="stat-num" id="stat-deputati">…</div><div class="stat-lbl">Deputați</div></div>
-    <div class="stat"><div class="stat-num" id="stat-voturi">…</div><div class="stat-lbl">Voturi</div></div>
-    <div class="stat"><div class="stat-num" id="stat-proiecte">…</div><div class="stat-lbl">Proiecte de lege</div></div>
-    <div class="stat"><div class="stat-num" id="stat-interpelari">…</div><div class="stat-lbl">Interpelări</div></div>
-    <div class="stat"><div class="stat-num" id="stat-comisii">…</div><div class="stat-lbl">Comisii</div></div>
-    <div class="stat"><div class="stat-num" id="stat-sanctiuni">…</div><div class="stat-lbl">Sancțiuni</div></div>
+    <div class="stat"><div class="stat-num" id="stat-deputati">…</div><div class="stat-lbl" data-i18n="stat_deputati">Deputați</div></div>
+    <div class="stat"><div class="stat-num" id="stat-voturi">…</div><div class="stat-lbl" data-i18n="stat_voturi">Voturi</div></div>
+    <div class="stat"><div class="stat-num" id="stat-proiecte">…</div><div class="stat-lbl" data-i18n="stat_proiecte">Proiecte de lege</div></div>
+    <div class="stat"><div class="stat-num" id="stat-interpelari">…</div><div class="stat-lbl" data-i18n="stat_interpelari">Interpelări</div></div>
+    <div class="stat"><div class="stat-num" id="stat-comisii">…</div><div class="stat-lbl" data-i18n="stat_comisii">Comisii</div></div>
+    <div class="stat"><div class="stat-num" id="stat-sanctiuni">…</div><div class="stat-lbl" data-i18n="stat_sanctiuni">Sancțiuni</div></div>
   </div>
 </div>
 
 <div class="main" id="main-content">
   <aside class="sidebar" role="complementary" aria-label="Navigație secundară">
     <div class="sidebar-section">
-      <div class="sidebar-label">Endpoint-uri</div>
+      <div class="sidebar-label" data-i18n="sidebar_endpoints">Endpoint-uri</div>
       <button class="sidebar-item active" onclick="scrollTo('ep-deputati')">GET /deputati</button>
       <button class="sidebar-item" onclick="scrollTo('ep-deputat-id')">GET /deputati/{id}</button>
       <button class="sidebar-item" onclick="scrollTo('ep-prezenta')">GET /deputati/{id}/prezenta</button>
@@ -232,22 +233,19 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
       <button class="sidebar-item" onclick="scrollTo('ep-comisii')">GET /comisii</button>
     </div>
     <div class="sidebar-section">
-      <div class="sidebar-label">Resurse</div>
-      <a class="sidebar-item" href="search.html" style="display:block;text-decoration:none">Caută în date</a>
+      <div class="sidebar-label" data-i18n="sidebar_resources">Resurse</div>
+      <a class="sidebar-item" href="search.html" style="display:block;text-decoration:none" data-i18n="hero_btn_search">Caută în date</a>
       <a class="sidebar-item" href="data/v1/feed.atom" style="display:block;text-decoration:none">Atom feed (RSS)</a>
       <a class="sidebar-item" href="data/v1/feed.json" style="display:block;text-decoration:none">JSON Feed</a>
       <a class="sidebar-item" href="api/openapi.yaml" style="display:block;text-decoration:none" download>OpenAPI 3.0 YAML</a>
       <a class="sidebar-item" href="docs/swagger.html" style="display:block;text-decoration:none">Swagger UI</a>
-      <a class="sidebar-item" href="status.html" style="display:block;text-decoration:none">Status API</a>
+      <a class="sidebar-item" href="status.html" style="display:block;text-decoration:none" data-i18n="status">Status API</a>
       <a class="sidebar-item" href="https://cdep.ro" style="display:block;text-decoration:none" target="_blank">cdep.ro ↗</a>
     </div>
     <div class="sidebar-section">
-      <div class="sidebar-label">Info</div>
-      <div style="font-size:12px;color:var(--text3);line-height:1.6;padding:0 4px">
-        Inițiativă pentru transparentizare guvernamentală.<br>
-        Date: publice, sursă cdep.ro.<br>
-        Autor: Cătălin Popa<br>
-        În colaborare cu Comisia pentru Tehnologia Informației și Comunicațiilor
+      <div class="sidebar-label" data-i18n="sidebar_info">Info</div>
+      <div style="font-size:12px;color:var(--text3);line-height:1.6;padding:0 4px" data-i18n="info_text">
+        Inițiativă pentru transparentizare guvernamentală. Date: publice, sursă cdep.ro. Autor: Cătălin Popa. În colaborare cu Comisia pentru Tehnologia Informației și Comunicațiilor
       </div>
     </div>
   </aside>
@@ -257,8 +255,8 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
     <!-- DOCS PAGE -->
     <div id="page-docs">
       <div class="section-header">
-        <h2>Referință API</h2>
-        <p>Toate endpoint-urile returnează JSON. Autentificare: nu este necesară (date publice).</p>
+        <h2 data-i18n="api_reference">Referință API</h2>
+        <p data-i18n="api_reference_desc">Toate endpoint-urile returnează JSON. Autentificare: nu este necesară (date publice).</p>
       </div>
 
       <!-- Base URL -->
@@ -663,8 +661,8 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
 
 <footer class="footer">
   <div class="footer-inner">
-    <span>cdep.api — Inițiativă pentru transparentizare guvernamentală · În colaborare cu Comisia pentru Tehnologia Informației și Comunicațiilor · Cătălin Popa</span>
-    <span>Date: <a href="https://cdep.ro" target="_blank">cdep.ro</a> · Licență: Open Government License v3.0</span>
+    <span data-i18n="footer_text">cdep.api — Inițiativă pentru transparentizare guvernamentală · În colaborare cu Comisia pentru Tehnologia Informației și Comunicațiilor · Cătălin Popa</span>
+    <span><span data-i18n="data_from">Date</span>: <a href="https://cdep.ro" target="_blank">cdep.ro</a> · <span data-i18n="license">Licență</span>: Open Government License v3.0</span>
   </div>
 </footer>
 
@@ -942,5 +940,6 @@ function scrollTo(id) {
 
 loadData();
 </script>
+<script src="i18n.js"></script>
 </body>
 </html>

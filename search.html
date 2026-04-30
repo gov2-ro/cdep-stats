@@ -63,9 +63,10 @@
 </head>
 <body>
 
-<header>
-  <h1>Caută în Camera Deputaților</h1>
-  <p>API public open-data &middot; deputați, voturi, sancțiuni, interpelări &middot; date din cdep.ro</p>
+<header style="position:relative">
+  <span id="lang-toggle-slot" style="position:absolute;top:0;right:0;display:flex;align-items:center;color:#551043"></span>
+  <h1 data-i18n="search_title">Caută în Camera Deputaților</h1>
+  <p data-i18n="search_subtitle">API public open-data &middot; deputați, voturi, sancțiuni, interpelări &middot; date din cdep.ro</p>
 </header>
 
 <div id="search"></div>
@@ -74,7 +75,7 @@
 </div>
 
 <div class="examples">
-<strong>Exemple căutări:</strong>
+<strong data-i18n="search_examples">Exemple căutări:</strong>
 <code onclick="document.querySelector('.pagefind-ui__search-input').value=this.textContent;document.querySelector('.pagefind-ui__search-input').dispatchEvent(new Event('input'));">Ciolacu</code>
 <code onclick="document.querySelector('.pagefind-ui__search-input').value=this.textContent;document.querySelector('.pagefind-ui__search-input').dispatchEvent(new Event('input'));">Ministerul Sănătății</code>
 <code onclick="document.querySelector('.pagefind-ui__search-input').value=this.textContent;document.querySelector('.pagefind-ui__search-input').dispatchEvent(new Event('input'));">Cluj</code>
@@ -84,11 +85,11 @@
 
 <footer>
 <p>
-<a href="index.html">Pagina principală</a> &middot;
+<a href="index.html" data-i18n="home">Pagina principală</a> &middot;
 <a href="docs/swagger.html">Swagger UI</a> &middot;
 <a href="https://github.com/Endimion2k/cdep-api-poc">GitHub</a>
 </p>
-<p>Sursa datelor: <a href="https://www.cdep.ro">cdep.ro</a> &middot; Licență: Open Government License v3.0</p>
+<p><span data-i18n="source">Sursa datelor</span>: <a href="https://www.cdep.ro">cdep.ro</a> &middot; <span data-i18n="license">Licență</span>: Open Government License v3.0</p>
 </footer>
 
 <script src="pagefind/pagefind-ui.js" onerror="document.getElementById('search-fallback').style.display='block'"></script>
@@ -118,6 +119,7 @@
     }
   });
 </script>
+<script src="i18n.js"></script>
 
 </body>
 </html>

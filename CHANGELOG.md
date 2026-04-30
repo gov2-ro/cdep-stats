@@ -2,6 +2,24 @@
 
 Toate modificările notabile ale proiectului sunt documentate aici. Format bazat pe [Keep a Changelog](https://keepachangelog.com/) și [SemVer](https://semver.org/).
 
+## [v0.2.6] — 2026-04-30 — Toggle limbă RO/EN cu fade transition
+
+### Adăugat
+
+- **`i18n.js`** — sistem i18n cu ~110 chei traduse RO/EN, folosit de toate cele 8 pagini interactive (index, status, sanctiune, deputat, proiect, vot, motiune, search).
+- **Buton toggle limbă** plasat în dreapta-sus în header. Persistent prin `localStorage` (`cdep_lang`).
+- **Fade transition între limbi** — la click, body fade-out 250ms → reload → fade-in 400ms, marcat prin `sessionStorage` ca să nu apară fade-in la navigările normale.
+- **Tradus complet** chrome UI-ul: nav, hero (titlu, descriere, butoane CTA), stats labels, sidebar, footer, search title/subtitle, profile sections (Vot final, Semnatari, Detalii, Comisii, Delegații, Activitate, etc.), tabel headere voturi nominale, filter placeholders.
+- **140+ atribute `data-i18n`** distribuite pe pagini: index 28 · status 16 · sanctiune 12 · deputat 19 · proiect 12 · vot 30 · motiune 17 · search 6.
+- **Convenție de markup**:
+  - `data-i18n="key"` pe text (`<span data-i18n="back">← Înapoi</span>`)
+  - `data-i18n-attr="placeholder:key"` pe atribute
+  - `<span id="lang-toggle-slot">` în nav unde vrei butonul
+  - apel `applyI18n()` după `innerHTML` pe pagini cu render dinamic
+- **Datele propriu-zise** (nume deputați, titluri proiecte, descrieri voturi etc.) rămân în română — provin de la cdep.ro și au valoare de sursă oficială. Doar UI chrome-ul este tradus.
+
+---
+
 ## [v0.2.5] — 2026-04-30 — SEO + a11y + pre-commit (B1-B4)
 
 ### Adăugat
