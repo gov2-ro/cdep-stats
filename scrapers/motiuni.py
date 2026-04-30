@@ -126,7 +126,23 @@ def parse_detail(idm: int, legislatura: int, cam: int = 2) -> Motiune | None:
         m = re.search(pattern, text)
         return m.group(1).strip() if m else None
 
-    titlu = field("Titlu", 500) or field("Títlu", 500) or "(fără titlu)"
+    # Titlu: e în heading, nu sub un label "Titlu"
+    # Caut prin h1/h2/h3 pentru cel mai lung text — acesta e titlul moțiunii
+    titlu = "(fără titlu)"
+    candidates = []
+    for tag in ("h1", "h2", "h3"):
+        for h in sel.css(f"{tag}::text, {tag} *::text").getall():
+            t = h.strip()
+            if t and len(t) > 30 and t.lower() not in ("camera deputatilor", "camera deputaților"):
+                candidates.append(t)
+    # Sau din meta og:title / og:description
+    og_desc = sel.xpath('//meta[@property="og:description"]/@content').get()
+    if og_desc and len(og_desc.strip()) > 30:
+        candidates.insert(0, og_desc.strip())
+    # Aleg cel mai lung candidat (titlu lung = e cel real, nu un sub-titlu de tip "Moțiune simplă")
+    if candidates:
+        titlu = max(candidates, key=len)
+
     tip_text = field("Tip", 50) or "simpla"
     initiatori = field("Inițiatori", 200) or field("Iniţiatori", 200)
     nr_inreg_raw = field("Nr./Data înregistrării", 100) or field("Nr./Data inregistrarii", 100)
