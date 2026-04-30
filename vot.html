@@ -121,9 +121,10 @@ function renderPie(svg, slices, totalLabel) {
     document.getElementById('content').innerHTML = '<div class="error">Parametru lipsă: <code>vot.html?idv=36892</code></div>';
     return;
   }
-  let v;
+  let raw, v;
   try {
-    v = await fetch(`data/v1/voturi/${leg}/${idv}.json`).then(r => r.json());
+    raw = await fetch(`data/v1/voturi/${leg}/${idv}.json`).then(r => r.json());
+    v = raw.data || raw;  // unwrap envelope {meta, data}
   } catch (e) {
     document.getElementById('content').innerHTML = `<div class="error">Eroare: ${e.message}</div>`;
     return;
