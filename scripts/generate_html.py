@@ -248,6 +248,51 @@ def generate_interpelari() -> int:
     return count
 
 
+def generate_motiuni() -> int:
+    count = 0
+    for leg in [2024, 2020, 2016]:
+        f = DATA / "motiuni" / f"legislatura-{leg}.json"
+        if not f.exists():
+            continue
+        data = json.loads(f.read_text(encoding="utf-8"))
+        for m in data["data"]:
+            tip = m.get("tip") or "simpla"
+            rezultat = m.get("rezultat") or "in_procedura"
+            year = (m.get("data_inregistrare") or "")[:4] or "necunoscut"
+            vot_html = ""
+            if m.get("vot_pentru") is not None:
+                vot_html = (
+                    f"<p>Vot ({m.get('data_vot') or '-'}): "
+                    f"pentru={m['vot_pentru']}, "
+                    f"contra={m.get('vot_contra', 0)}, "
+                    f"abțineri={m.get('vot_abtineri', 0)}</p>"
+                )
+            semnatari_html = ""
+            if m.get("semnatari"):
+                semnatari_html = f"<p>{len(m['semnatari'])} semnatari listați nominal</p>"
+            body = f"""
+<p data-pagefind-filter="tip:motiune" data-pagefind-meta="tip:motiune">
+<strong data-pagefind-filter="tip_motiune:{safe(tip)}">{safe(tip)}</strong>
+&middot; Legislatura {m["legislatura"]}
+&middot; <span data-pagefind-filter="an:{year}">{safe(m.get("data_inregistrare") or "")}</span>
+&middot; <span data-pagefind-filter="rezultat_motiune:{safe(rezultat)}">{safe(rezultat)}</span>
+</p>
+<p>Inițiatori: {safe(m.get("initiatori_descriere") or "-")}</p>
+{f"<p>Nr. înregistrare: {safe(m.get('nr_inregistrare'))}</p>" if m.get("nr_inregistrare") else ""}
+{vot_html}
+{semnatari_html}
+"""
+            page_path = PAGES / "motiuni" / f"{m['cam']}-{m['cdep_idm']}.html"
+            write_page(
+                page_path,
+                m["titlu"],
+                body,
+                f"/data/v1/motiuni/legislatura-{leg}.json",
+            )
+            count += 1
+    return count
+
+
 def generate_proiecte() -> int:
     count = 0
     for leg in [2024, 2020, 2016]:
@@ -373,7 +418,9 @@ def main() -> int:
     print(f"  comisii: {n_com}")
     n_pro = generate_proiecte()
     print(f"  proiecte: {n_pro}")
-    total = n_dep + n_vot + n_san + n_int + n_com + n_pro
+    n_mot = generate_motiuni()
+    print(f"  motiuni: {n_mot}")
+    total = n_dep + n_vot + n_san + n_int + n_com + n_pro + n_mot
     print(f"\nTotal: {total} pagini HTML generate")
     return 0
 

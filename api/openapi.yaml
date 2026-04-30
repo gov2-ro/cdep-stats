@@ -50,6 +50,8 @@ tags:
     description: Proiecte legislative cu stadiu, inițiator, timeline, voturi
   - name: Amendamente
     description: View derivat — proiectele cele mai disputate (cu cele mai multe amendamente)
+  - name: Moțiuni
+    description: Moțiuni simple și de cenzură cu vot final, semnatari, rezultat
   - name: Feeds
     description: Atom + JSON Feed cu ultimele 50 evenimente, pentru abonare RSS
   - name: Propuse
@@ -254,6 +256,28 @@ paths:
             application/feed+json:
               schema:
                 type: object
+
+  /motiuni/legislatura-{legislatura}.json:
+    get:
+      tags: [Moțiuni]
+      summary: Moțiuni simple și de cenzură
+      description: |
+        Lista moțiunilor (simple și de cenzură) depuse într-o legislatură,
+        cu vot final, rezultat (adoptată/respinsă/retrasă) și semnatari nominali.
+      parameters:
+        - name: legislatura
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 2024
+      responses:
+        "200":
+          description: Succes
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MotiuniResponse"
 
   /amendamente/legislatura-{legislatura}.json:
     get:
@@ -872,3 +896,83 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/AmendamentSummary"
+
+    SemnatarMotiune:
+      type: object
+      properties:
+        nume:
+          type: string
+        canonical_id:
+          type: string
+          nullable: true
+          description: Match cu Deputat.id
+        partid:
+          type: string
+          nullable: true
+
+    Motiune:
+      type: object
+      properties:
+        id:
+          type: string
+        cdep_idm:
+          type: integer
+        cam:
+          type: integer
+        legislatura:
+          type: integer
+        nr_inregistrare:
+          type: string
+          nullable: true
+        data_inregistrare:
+          type: string
+          format: date
+          nullable: true
+        titlu:
+          type: string
+        tip:
+          type: string
+          enum: [simpla, cenzura, other]
+        initiatori_descriere:
+          type: string
+          nullable: true
+        data_vot:
+          type: string
+          format: date
+          nullable: true
+        vot_pentru:
+          type: integer
+          nullable: true
+        vot_contra:
+          type: integer
+          nullable: true
+        vot_abtineri:
+          type: integer
+          nullable: true
+        rezultat:
+          type: string
+          enum: [adoptata, respinsa, retrasa, in_procedura, other]
+        nr_semnatari:
+          type: integer
+          nullable: true
+        semnatari:
+          type: array
+          items:
+            $ref: "#/components/schemas/SemnatarMotiune"
+        pdf_url:
+          type: string
+          format: uri
+          nullable: true
+        source_url:
+          type: string
+          format: uri
+
+    MotiuniResponse:
+      type: object
+      properties:
+        meta:
+          $ref: "#/components/schemas/Meta"
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/Motiune"
