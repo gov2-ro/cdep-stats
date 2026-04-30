@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vot — Camera Deputaților</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#fff;--bg2:#f8f8f6;--bg3:#f2f1ee;
+  --text:#1a1a1a;--text2:#555;--text3:#888;--border:#e0deda;
+  --green:#1D9E75;--green-bg:#EAF3DE;--green-text:#3B6D11;
+  --blue:#185FA5;--blue-bg:#E6F1FB;--blue-text:#185FA5;
+  --red:#A32D2D;--red-bg:#FCEBEB;--red-text:#A32D2D;
+  --amber-bg:#FAEEDA;--amber-text:#854F0B;
+  --radius:10px;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--mono:'SF Mono','Consolas',monospace;
+}
+@media(prefers-color-scheme:dark){:root{--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;}}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+.header{border-bottom:1px solid var(--border);padding:16px 0}
+.header-inner{max-width:1100px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:16px}
+.logo{font-size:15px;font-weight:600}.logo span{color:var(--green)}
+.back{margin-left:auto;font-size:13px;color:var(--text2);padding:6px 12px;border-radius:6px}.back:hover{background:var(--bg2);text-decoration:none}
+.container{max-width:1100px;margin:0 auto;padding:32px 24px}
+h1{font-size:22px;font-weight:600;margin-bottom:8px;line-height:1.4}
+.meta{color:var(--text2);font-size:13px;margin-bottom:24px}
+.meta strong{color:var(--text)}
+
+.summary{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:32px}
+@media(max-width:700px){.summary{grid-template-columns:1fr}}
+.counts{background:var(--bg2);padding:20px;border-radius:var(--radius)}
+.count-row{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.count-label{flex:1;font-size:14px}
+.count-num{font-family:var(--mono);font-weight:600;font-size:18px}
+.bar{height:8px;flex:2;border-radius:4px;background:var(--bg3);overflow:hidden}
+.bar > div{height:100%;border-radius:4px}
+.outcome{padding:14px 18px;border-radius:var(--radius);font-weight:500;text-align:center}
+.outcome-pass{background:var(--green-bg);color:var(--green-text)}
+.outcome-fail{background:var(--red-bg);color:var(--red-text)}
+
+.charts{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:32px}
+@media(max-width:700px){.charts{grid-template-columns:1fr}}
+.chart-card{background:var(--bg2);padding:20px;border-radius:var(--radius)}
+.chart-title{font-size:13px;font-weight:600;margin-bottom:12px;color:var(--text3);text-transform:uppercase;letter-spacing:0.5px}
+.legend{margin-top:14px;font-size:12px}
+.legend-row{display:flex;align-items:center;gap:8px;padding:4px 0}
+.legend-color{width:14px;height:14px;border-radius:3px;flex-shrink:0}
+.legend-label{flex:1}
+.legend-num{font-family:var(--mono);font-weight:600}
+
+.deputy-table{width:100%;border-collapse:collapse;font-size:13px}
+.deputy-table th{text-align:left;padding:8px 10px;background:var(--bg3);font-size:11px;color:var(--text2);text-transform:uppercase;letter-spacing:0.5px;font-weight:500}
+.deputy-table td{padding:8px 10px;border-bottom:1px solid var(--border)}
+.opt-yes{color:var(--green-text);font-weight:500}
+.opt-no{color:var(--red);font-weight:500}
+.opt-abstain{color:var(--amber-text)}
+.opt-absent{color:var(--text3)}
+.party-pill{display:inline-block;padding:2px 8px;border-radius:3px;font-size:10px;font-weight:600}
+.filter-bar{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.filter-bar input,.filter-bar select{font-size:13px;padding:6px 10px;border:1px solid var(--border);border-radius:6px;background:var(--bg);color:var(--text);font-family:inherit}
+.loading{padding:60px 0;text-align:center;color:var(--text3)}
+.error{padding:24px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius)}
+.footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="header-inner">
+    <span class="logo">cdep<span>.api</span></span>
+    <a href="index.html" class="back">← Înapoi</a>
+  </div>
+</header>
+<div class="container">
+  <div id="content"><div class="loading">Se încarcă votul...</div></div>
+</div>
+<footer class="footer"><a href="index.html">Pagina principală</a> · <a href="search.html">Caută</a> · Date din <a href="https://cdep.ro" target="_blank">cdep.ro</a></footer>
+
+<script>
+const PARTY_INFO = [
+  {match:/Social Democrat|^PSD/i, short:'PSD', color:'#185FA5'},
+  {match:/Naţional Liberal|National Liberal|^PNL/i, short:'PNL', color:'#993C1D'},
+  {match:/Salvaţi România|Salvati Romania|^USR/i, short:'USR', color:'#3B6D11'},
+  {match:/Alianţa.*Unirea|Alianta.*Unirea|^AUR/i, short:'AUR', color:'#854F0B'},
+  {match:/Democrată Maghiară|Democrata Maghiara|^UDMR/i, short:'UDMR', color:'#5F5E5A'},
+  {match:/S\.O\.S/i, short:'S.O.S.', color:'#A32D2D'},
+  {match:/Oamenilor Tineri|^POT/i, short:'POT', color:'#553378'},
+];
+function partyOf(name) {
+  if (!name) return {short:'Neaf.', color:'#888'};
+  for (const p of PARTY_INFO) if (p.match.test(name)) return p;
+  return {short: name.slice(0, 8), color:'#888'};
+}
+function getParam(n) { return new URL(window.location).searchParams.get(n); }
+function fmtDateTime(iso) { if (!iso) return ''; const d=new Date(iso); return isNaN(d)?iso:d.toLocaleString('ro-RO'); }
+
+function renderPie(svg, slices, totalLabel) {
+  const cx=80, cy=80, r=70, total=slices.reduce((s,x)=>s+x.value,0);
+  if (total === 0) return '';
+  let angle = -Math.PI/2;
+  let paths = '';
+  for (const s of slices) {
+    if (s.value === 0) continue;
+    const slice = (s.value / total) * 2 * Math.PI;
+    const x1 = cx + r * Math.cos(angle);
+    const y1 = cy + r * Math.sin(angle);
+    angle += slice;
+    const x2 = cx + r * Math.cos(angle);
+    const y2 = cy + r * Math.sin(angle);
+    const large = slice > Math.PI ? 1 : 0;
+    paths += `<path d="M${cx},${cy} L${x1},${y1} A${r},${r} 0 ${large},1 ${x2},${y2} Z" fill="${s.color}" stroke="${getComputedStyle(document.documentElement).getPropertyValue('--bg').trim()}" stroke-width="1.5"/>`;
+  }
+  return `<svg viewBox="0 0 160 160" style="width:100%;max-width:200px;display:block;margin:0 auto">${paths}</svg>
+    <div style="text-align:center;margin-top:8px;font-family:var(--mono);font-size:13px;font-weight:600">${totalLabel}</div>`;
+}
+
+(async function() {
+  const idv = parseInt(getParam('idv') || getParam('id') || '');
+  const leg = getParam('leg') || '2024';
+  if (!idv) {
+    document.getElementById('content').innerHTML = '<div class="error">Parametru lipsă: <code>vot.html?idv=36892</code></div>';
+    return;
+  }
+  let v;
+  try {
+    v = await fetch(`data/v1/voturi/${leg}/${idv}.json`).then(r => r.json());
+  } catch (e) {
+    document.getElementById('content').innerHTML = `<div class="error">Eroare: ${e.message}</div>`;
+    return;
+  }
+  if (!v || !v.descriere) {
+    document.getElementById('content').innerHTML = `<div class="error">Vot ${idv} nu a fost găsit.</div>`;
+    return;
+  }
+  document.title = `Vot ${idv} — ${v.descriere.slice(0, 50)}`;
+
+  const c = v.counts || {};
+  const total = (c.pentru||0)+(c.contra||0)+(c.abtineri||0)+(c.nu_au_votat||0);
+  const adopted = (c.pentru||0) > (c.contra||0);
+  const pct = (n) => total ? Math.round(n/total*100) : 0;
+
+  // Outcome pie
+  const outcomeSlices = [
+    {label:'Pentru', value:c.pentru||0, color:'var(--green)'},
+    {label:'Contra', value:c.contra||0, color:'var(--red)'},
+    {label:'Abțineri', value:c.abtineri||0, color:'#A18A40'},
+    {label:'Nu au votat', value:c.nu_au_votat||0, color:'#888'},
+  ];
+
+  // Aggregate per party + option
+  const byParty = {};
+  for (const vote of (v.votes || [])) {
+    const p = partyOf(vote.party);
+    const k = p.short;
+    if (!byParty[k]) byParty[k] = {color: p.color, yes:0, no:0, abstain:0, absent:0, not_voting:0};
+    const opt = vote.option;
+    if (opt === 'yes') byParty[k].yes++;
+    else if (opt === 'no') byParty[k].no++;
+    else if (opt === 'abstain') byParty[k].abstain++;
+    else if (opt === 'absent') byParty[k].absent++;
+    else byParty[k].not_voting++;
+  }
+  const partyTotals = Object.entries(byParty)
+    .map(([name, d]) => ({name, color:d.color, total:d.yes+d.no+d.abstain+d.absent+d.not_voting, ...d}))
+    .sort((a,b) => b.total - a.total);
+
+  const partySlices = partyTotals.map(p => ({label:p.name, value:p.total, color:p.color}));
+  const partyLegend = partyTotals.map(p => `
+    <div class="legend-row">
+      <div class="legend-color" style="background:${p.color}"></div>
+      <div class="legend-label">${p.name}</div>
+      <div class="legend-num">${p.total}</div>
+    </div>
+  `).join('');
+
+  // Per-party breakdown table
+  const breakdownHtml = partyTotals.map(p => `
+    <tr>
+      <td><span class="party-pill" style="background:${p.color};color:#fff">${p.name}</span></td>
+      <td class="opt-yes">${p.yes}</td>
+      <td class="opt-no">${p.no}</td>
+      <td class="opt-abstain">${p.abstain}</td>
+      <td class="opt-absent">${p.absent + p.not_voting}</td>
+      <td><strong>${p.total}</strong></td>
+    </tr>
+  `).join('');
+
+  // Deputy table (filterable)
+  const allVotes = (v.votes || []).map(vote => {
+    const p = partyOf(vote.party);
+    return {...vote, partyShort: p.short, partyColor: p.color};
+  });
+
+  document.getElementById('content').innerHTML = `
+    <h1>${v.descriere}</h1>
+    <div class="meta">
+      <strong>${fmtDateTime(v.timestamp)}</strong> ·
+      Camera Deputaților ·
+      Legislatura ${v.legislatura} ·
+      <a href="${v.source_url || '#'}" target="_blank">cdep.ro ↗</a>
+    </div>
+
+    <div class="summary">
+      <div class="counts">
+        <div class="count-row"><span class="count-label">Pentru</span><div class="bar"><div style="width:${pct(c.pentru)}%;background:var(--green)"></div></div><span class="count-num">${c.pentru||0}</span></div>
+        <div class="count-row"><span class="count-label">Contra</span><div class="bar"><div style="width:${pct(c.contra)}%;background:var(--red)"></div></div><span class="count-num">${c.contra||0}</span></div>
+        <div class="count-row"><span class="count-label">Abțineri</span><div class="bar"><div style="width:${pct(c.abtineri)}%;background:#A18A40"></div></div><span class="count-num">${c.abtineri||0}</span></div>
+        <div class="count-row"><span class="count-label">Nu au votat</span><div class="bar"><div style="width:${pct(c.nu_au_votat)}%;background:#888"></div></div><span class="count-num">${c.nu_au_votat||0}</span></div>
+        <div class="count-row" style="margin-top:14px;padding-top:10px;border-top:1px solid var(--border)"><span class="count-label" style="color:var(--text3)">Prezenți</span><div class="bar"></div><span class="count-num">${c.prezenti||0}</span></div>
+      </div>
+      <div class="outcome ${adopted ? 'outcome-pass' : 'outcome-fail'}">
+        ${adopted ? '✓ Adoptat' : '✗ Respins'}
+        <div style="font-size:12px;font-weight:normal;margin-top:6px">${c.pentru||0} pentru vs ${c.contra||0} contra</div>
+      </div>
+    </div>
+
+    <div class="charts">
+      <div class="chart-card">
+        <div class="chart-title">Distribuție voturi</div>
+        ${renderPie(null, outcomeSlices, `${total} voturi`)}
+        <div class="legend">
+          ${outcomeSlices.map(s => `<div class="legend-row"><div class="legend-color" style="background:${s.color}"></div><div class="legend-label">${s.label}</div><div class="legend-num">${s.value}</div></div>`).join('')}
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Distribuție pe partide</div>
+        ${renderPie(null, partySlices, `${partySlices.length} grupuri`)}
+        <div class="legend">${partyLegend}</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 style="font-size:16px;font-weight:600;margin-bottom:14px">Defalcare pe partide</h2>
+      <table class="deputy-table" style="margin-bottom:24px">
+        <thead><tr><th>Partid</th><th>Pentru</th><th>Contra</th><th>Abț.</th><th>Absenți</th><th>Total</th></tr></thead>
+        <tbody>${breakdownHtml}</tbody>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2 style="font-size:16px;font-weight:600;margin-bottom:14px">Voturi nominale (${allVotes.length})</h2>
+      <div class="filter-bar">
+        <input id="f-name" type="text" placeholder="Caută nume..." style="flex:1;min-width:200px">
+        <select id="f-party"><option value="">Toate partidele</option>${partyTotals.map(p => `<option value="${p.name}">${p.name}</option>`).join('')}</select>
+        <select id="f-opt">
+          <option value="">Toate opțiunile</option>
+          <option value="yes">Pentru</option>
+          <option value="no">Contra</option>
+          <option value="abstain">Abținere</option>
+          <option value="absent">Absent</option>
+          <option value="not_voting">Nu a votat</option>
+        </select>
+      </div>
+      <table class="deputy-table">
+        <thead><tr><th>Nume</th><th>Partid</th><th>Vot</th></tr></thead>
+        <tbody id="deputy-tbody"></tbody>
+      </table>
+    </div>
+  `;
+
+  // Filter deputați
+  const optLabel = {yes:'pentru',no:'contra',abstain:'abținere',absent:'absent',not_voting:'nu a votat'};
+  const optClass = {yes:'opt-yes',no:'opt-no',abstain:'opt-abstain',absent:'opt-absent',not_voting:'opt-absent'};
+  function renderDeputies() {
+    const q = (document.getElementById('f-name').value || '').toLowerCase();
+    const pf = document.getElementById('f-party').value;
+    const of_ = document.getElementById('f-opt').value;
+    const filtered = allVotes.filter(v => (!q || v.voter_name.toLowerCase().includes(q)) && (!pf || v.partyShort === pf) && (!of_ || v.option === of_));
+    const tbody = document.getElementById('deputy-tbody');
+    if (!filtered.length) { tbody.innerHTML = '<tr><td colspan="3" style="text-align:center;color:var(--text3);padding:20px">Niciun rezultat</td></tr>'; return; }
+    tbody.innerHTML = filtered.slice(0, 500).map(v => `
+      <tr>
+        <td>${v.voter_name}</td>
+        <td><span class="party-pill" style="background:${v.partyColor};color:#fff">${v.partyShort}</span></td>
+        <td class="${optClass[v.option] || 'opt-absent'}">${optLabel[v.option] || v.option}</td>
+      </tr>
+    `).join('') + (filtered.length > 500 ? `<tr><td colspan="3" style="text-align:center;color:var(--text3);padding:10px">…și încă ${filtered.length-500}. Folosește filtre.</td></tr>` : '');
+  }
+  document.getElementById('f-name').oninput = renderDeputies;
+  document.getElementById('f-party').onchange = renderDeputies;
+  document.getElementById('f-opt').onchange = renderDeputies;
+  renderDeputies();
+})();
+</script>
+</body>
+</html>

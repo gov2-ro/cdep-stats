@@ -773,7 +773,7 @@ function renderVotes(list) {
   el.innerHTML = sorted.map(v => {
     const c = v.counts || {};
     const adopted = (c.pentru || 0) > (c.contra || 0);
-    return `<div class="vote-row">
+    return `<a href="vot.html?idv=${v.cdep_idv}" class="vote-row" style="display:block;text-decoration:none;color:inherit;cursor:pointer">
       <div class="vote-title">${v.descriere || '(fără descriere)'}</div>
       <div class="vote-meta">${fmtDate(v.timestamp)}</div>
       <div class="vote-nums">
@@ -782,7 +782,7 @@ function renderVotes(list) {
         <span class="vnum vabs">${c.abtineri || 0} abț.</span>
         ${adopted ? '<span class="vnum vadopted">adoptat</span>' : ''}
       </div>
-    </div>`;
+    </a>`;
   }).join('');
 }
 
@@ -865,9 +865,7 @@ function renderTopDisputed() {
   if (!el || !AMENDAMENTE.length) return;
   const top5 = AMENDAMENTE.slice(0, 5);
   el.innerHTML = top5.map(a => {
-    const link = a.source_url
-      ? `<a href="${a.source_url}" target="_blank" style="color:var(--text);font-weight:500;text-decoration:none">${a.titlu || a.nr_inregistrare || '(fără titlu)'}</a>`
-      : (a.titlu || a.nr_inregistrare || '(fără titlu)');
+    const link = `<a href="proiect.html?idp=${a.cdep_idp}" style="color:var(--text);font-weight:500;text-decoration:none">${a.titlu || a.nr_inregistrare || '(fără titlu)'}</a>`;
     return `<div style="padding:12px 0;border-bottom:1px solid var(--border)">
       <div style="display:flex;align-items:start;gap:10px;margin-bottom:6px">
         <div style="font-size:13px;line-height:1.4;flex:1">${link}</div>

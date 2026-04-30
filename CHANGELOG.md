@@ -2,6 +2,23 @@
 
 Toate modificările notabile ale proiectului sunt documentate aici. Format bazat pe [Keep a Changelog](https://keepachangelog.com/) și [SemVer](https://semver.org/).
 
+## [v0.2.3] — 2026-04-30 — Profile pages + reliability improvements
+
+### Adăugat
+
+- **Status page** (`/status.html` + `/data/v1/status.json`) — health check pentru API: prospețime date, distribuție pe endpoint-uri, mărime fișiere, scraper versions. Util pentru jurnaliști care vor să verifice că datele sunt actualizate.
+- **Split fișiere mari pe an** — `/data/v1/interpelari/legislatura-{leg}/{year}.json` și aceleași pentru `proiecte`. Reducere transfer pe mobil de la 21MB la ~3MB/an. Backward compat: fișierele monolitice rămân.
+- **`/proiect.html?idp={N}`** — pagină profil proiect legislativ cu timeline procedural, vot final, amendamente, link-uri PDF.
+- **`/vot.html?idv={N}`** — pagină profil vot cu defalcare nominală vizualizată: 2 pie charts (overall + per partid), tabel sortabil cu filtre.
+- **Snapshot tests pentru toate parserele** (`tests/test_snapshot_parsers.py`) — fixture-uri HTML salvate în `tests/fixtures/`, prind regresii dacă cdep.ro schimbă HTML-ul.
+- **CONTRIBUTING.md + issue templates** (data correction, parser bug) — onboarding contributors externi.
+
+### Total v0.2.3
+
+**~38.000 entități** indexate · **8 endpoints JSON** + 2 feeds + **4 pagini interactive** (search, deputat, proiect, vot) + status page · **42 tests** · CI verde · cron zilnic activ.
+
+---
+
 ## [v0.2.0] — 2026-04-30 — Multi-legislatură + endpoint-uri suplimentare
 
 ### Adăugat
