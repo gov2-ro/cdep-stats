@@ -754,14 +754,14 @@ function renderDeps(list) {
   const sorted = [...list].sort((a, b) => (a.name || '').localeCompare(b.name || '', 'ro')).slice(0, 12);
   el.innerHTML = sorted.map(d => {
     const p = partyMeta(d.current_party);
-    return `<div class="dep-row">
+    return `<a href="deputat.html?id=${d.cdep_idm}" class="dep-row" style="text-decoration:none;color:inherit;display:flex;align-items:center;gap:10px">
       <div class="avatar" style="background:${p.bg};color:${p.color}">${initials(d.name || '')}</div>
       <div class="dep-info">
         <div class="dep-name">${d.name || '?'}</div>
         <div class="dep-meta">${d.judet || ''} · circ. ${d.circumscriptie || '-'}</div>
       </div>
       <span class="pbadge" style="background:${p.bg};color:${p.color};font-size:10px;padding:2px 7px;border-radius:3px;font-weight:600;margin-left:auto">${p.short}</span>
-    </div>`;
+    </a>`;
   }).join('');
 }
 

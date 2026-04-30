@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profil deputat — Camera Deputaților</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#fff;--bg2:#f8f8f6;--bg3:#f2f1ee;
+  --text:#1a1a1a;--text2:#555;--text3:#888;
+  --border:#e0deda;--border2:#ccc;
+  --green:#1D9E75;--green-bg:#EAF3DE;--green-text:#3B6D11;
+  --blue:#185FA5;--blue-bg:#E6F1FB;--blue-text:#185FA5;
+  --red-bg:#FCEBEB;--red-text:#A32D2D;
+  --amber-bg:#FAEEDA;--amber-text:#854F0B;
+  --purple:#553378;--purple-bg:#EDE7F4;
+  --radius:10px;--radius-sm:6px;
+  --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --mono:'SF Mono','Fira Code','Consolas',monospace;
+}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;}
+}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.header{border-bottom:1px solid var(--border);padding:16px 0}
+.header-inner{max-width:1100px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:16px}
+.logo{font-size:15px;font-weight:600;color:var(--text)}
+.logo span{color:var(--green)}
+.back{margin-left:auto;font-size:13px;color:var(--text2);padding:6px 12px;border-radius:var(--radius-sm)}
+.back:hover{background:var(--bg2);text-decoration:none}
+
+.container{max-width:1100px;margin:0 auto;padding:32px 24px}
+
+.profile{display:grid;grid-template-columns:200px 1fr;gap:32px;margin-bottom:32px}
+@media(max-width:700px){.profile{grid-template-columns:1fr}}
+.photo{width:200px;height:240px;background:var(--bg2);border-radius:var(--radius);overflow:hidden;display:flex;align-items:center;justify-content:center;color:var(--text3);font-size:64px;font-weight:600}
+.photo img{width:100%;height:100%;object-fit:cover}
+.profile-info h1{font-size:28px;font-weight:600;margin-bottom:8px}
+.profile-meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.tag{font-size:12px;padding:4px 10px;border-radius:4px;font-weight:500}
+.tag-party{background:var(--blue-bg);color:var(--blue-text)}
+.tag-judet{background:var(--green-bg);color:var(--green-text)}
+.tag-circ{background:var(--bg3);color:var(--text2)}
+.tag-rol{background:var(--purple-bg);color:var(--purple)}
+.bio-row{font-size:14px;color:var(--text2);margin-bottom:6px}
+.bio-row strong{color:var(--text);font-weight:500}
+
+.activitate{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:32px}
+.act-card{background:var(--bg2);border-radius:var(--radius);padding:16px;text-align:center}
+.act-num{font-size:28px;font-weight:600;color:var(--text);margin-bottom:4px}
+.act-lbl{font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:0.6px}
+
+.section{margin-bottom:32px}
+.section h2{font-size:18px;font-weight:600;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.list-item{padding:10px 0;border-bottom:1px solid var(--border);font-size:14px}
+.list-item:last-child{border:none}
+.rol{display:inline-block;font-size:11px;padding:2px 8px;border-radius:3px;background:var(--purple-bg);color:var(--purple);margin-left:8px;font-weight:500}
+
+.cross-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:14px}
+.cross-link{padding:14px;background:var(--bg2);border-radius:var(--radius);text-decoration:none;color:var(--text);transition:background 0.15s}
+.cross-link:hover{background:var(--bg3);text-decoration:none}
+.cross-link strong{display:block;font-size:13px;margin-bottom:4px}
+.cross-link span{font-size:12px;color:var(--text3)}
+
+.loading{text-align:center;padding:60px 0;color:var(--text3);font-size:14px}
+.error{padding:24px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius);margin:20px 0}
+
+.footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
+.footer a{color:var(--text2)}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <span class="logo">cdep<span>.api</span></span>
+    <a href="index.html" class="back">← Înapoi</a>
+  </div>
+</header>
+
+<div class="container">
+  <div id="content">
+    <div class="loading">Se încarcă profilul deputatului...</div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>Date din <a href="https://cdep.ro" target="_blank">cdep.ro</a> · Sursă JSON: <a id="json-link" href="#">/data/v1/deputati/legislatura-2024.json</a> · <a href="index.html">Înapoi la pagina principală</a></p>
+</footer>
+
+<script>
+const PARTY_INFO = [
+  {match:/Social Democrat/i, short:'PSD'},
+  {match:/Na[țt]ional Liberal/i, short:'PNL'},
+  {match:/Salva[țt]i Rom[âa]nia/i, short:'USR'},
+  {match:/Alian[țt]a pentru Unirea Rom[âa]nilor/i, short:'AUR'},
+  {match:/Democrat[ăa] Maghiar[ăa]/i, short:'UDMR'},
+  {match:/S\.O\.S\. Rom[âa]nia/i, short:'S.O.S.'},
+  {match:/Oamenilor Tineri/i, short:'POT'},
+];
+
+function partyShort(name) {
+  if (!name) return 'Neaf.';
+  for (const p of PARTY_INFO) if (p.match.test(name)) return p.short;
+  return name.length > 20 ? name.slice(0, 20) + '…' : name;
+}
+
+function getParam(name) {
+  const url = new URL(window.location);
+  return url.searchParams.get(name);
+}
+
+async function loadDeputat() {
+  const id = getParam('id') || getParam('idm');
+  const leg = getParam('leg') || '2024';
+  if (!id) {
+    showError('Parametru lipsă. Folosește URL: <code>deputat.html?id=189</code>');
+    return;
+  }
+
+  const jsonUrl = `data/v1/deputati/legislatura-${leg}.json`;
+  document.getElementById('json-link').href = jsonUrl;
+  document.getElementById('json-link').textContent = jsonUrl;
+
+  let dep, allInterpelari, allMotiuni;
+  try {
+    const [depResp, intResp, motResp] = await Promise.all([
+      fetch(jsonUrl).then(r => r.json()),
+      fetch(`data/v1/interpelari/legislatura-${leg}.json`).then(r => r.json()).catch(() => null),
+      fetch(`data/v1/motiuni/legislatura-${leg}.json`).then(r => r.json()).catch(() => null),
+    ]);
+    const idNum = parseInt(id);
+    dep = depResp.data.find(d => d.cdep_idm === idNum);
+    allInterpelari = intResp?.data || [];
+    allMotiuni = motResp?.data || [];
+  } catch (e) {
+    showError('Eroare la încărcarea datelor: ' + e.message);
+    return;
+  }
+
+  if (!dep) {
+    showError(`Deputatul cu id=${id} nu a fost găsit în legislatura ${leg}.`);
+    return;
+  }
+
+  document.title = `${dep.name} — Camera Deputaților`;
+
+  const partid = partyShort(dep.current_party);
+  const initials = (dep.name || '?').split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join('').toUpperCase();
+  const photoBlock = dep.image
+    ? `<img src="${dep.image}" alt="${dep.name}" onerror="this.parentNode.innerHTML='${initials}'">`
+    : initials;
+
+  const tags = [
+    `<span class="tag tag-party">${partid}</span>`,
+    dep.judet ? `<span class="tag tag-judet">${dep.judet}</span>` : '',
+    dep.circumscriptie ? `<span class="tag tag-circ">circ. ${dep.circumscriptie}</span>` : '',
+    dep.group_role && dep.group_role !== 'Membru' ? `<span class="tag tag-rol">${dep.group_role}</span>` : '',
+  ].filter(Boolean).join('');
+
+  // Cross-link counts: interpelări + moțiuni semnate
+  const cid = dep.id;
+  const myInterpelari = allInterpelari.filter(i => i.adresant_canonical_id === cid);
+  const mySemnaturi = allMotiuni.filter(m => (m.semnatari || []).some(s => s.canonical_id === cid));
+
+  const comisiiHtml = (dep.comisii || []).map(c => `
+    <div class="list-item">
+      ${c.comisia} <span style="color:var(--text3)">(${c.tip})</span>
+      ${c.rol && c.rol !== 'Membru' ? `<span class="rol">${c.rol}</span>` : ''}
+    </div>
+  `).join('') || '<div style="color:var(--text3);padding:14px 0">Nicio comisie listată.</div>';
+
+  const delegatiiHtml = (dep.delegatii || []).map(d => `<div class="list-item">${d}</div>`).join('');
+  const grupuriHtml = (dep.grupuri_prietenie || []).map(g => `<div class="list-item">${g}</div>`).join('');
+
+  document.getElementById('content').innerHTML = `
+    <div class="profile">
+      <div class="photo">${photoBlock}</div>
+      <div class="profile-info">
+        <h1>${dep.name}</h1>
+        <div class="profile-meta">${tags}</div>
+        <div class="bio-row"><strong>Partid:</strong> ${dep.current_party || '(fără partid)'}</div>
+        <div class="bio-row"><strong>Grup parlamentar:</strong> ${dep.current_group || '-'}</div>
+        ${dep.birth_date ? `<div class="bio-row"><strong>Data nașterii:</strong> ${dep.birth_date}</div>` : ''}
+        ${dep.data_validare ? `<div class="bio-row"><strong>Validat:</strong> ${dep.data_validare} · ${dep.hcd_validare || ''}</div>` : ''}
+        ${dep.birou_parlamentar ? `<div class="bio-row"><strong>Birou parlamentar:</strong> ${dep.birou_parlamentar}</div>` : ''}
+        <div class="bio-row" style="margin-top:12px"><a href="${dep.profile_url}" target="_blank">Profil oficial cdep.ro ↗</a></div>
+      </div>
+    </div>
+
+    <div class="activitate">
+      <div class="act-card"><div class="act-num">${dep.activitate_sedinte || 0}</div><div class="act-lbl">Ședințe</div></div>
+      <div class="act-card"><div class="act-num">${dep.activitate_luari_cuvant || 0}</div><div class="act-lbl">Luări de cuvânt</div></div>
+      <div class="act-card"><div class="act-num">${dep.activitate_propuneri_legislative || 0}</div><div class="act-lbl">Propuneri legislative</div></div>
+      <div class="act-card"><div class="act-num">${dep.activitate_legi_promulgate || 0}</div><div class="act-lbl">Legi promulgate</div></div>
+      <div class="act-card"><div class="act-num">${dep.activitate_intrebari_interpelari || 0}</div><div class="act-lbl">Întrebări/Interpelări</div></div>
+      <div class="act-card"><div class="act-num">${dep.activitate_declaratii_politice || 0}</div><div class="act-lbl">Declarații politice</div></div>
+    </div>
+
+    <div class="section">
+      <h2>Comisii (${(dep.comisii || []).length})</h2>
+      ${comisiiHtml}
+    </div>
+
+    ${delegatiiHtml ? `<div class="section"><h2>Delegații (${dep.delegatii.length})</h2>${delegatiiHtml}</div>` : ''}
+    ${grupuriHtml ? `<div class="section"><h2>Grupuri de prietenie (${dep.grupuri_prietenie.length})</h2>${grupuriHtml}</div>` : ''}
+
+    <div class="section">
+      <h2>Activitate cross-endpoint</h2>
+      <div class="cross-links">
+        <a class="cross-link" href="search.html?q=${encodeURIComponent(dep.name)}">
+          <strong>Caută în date</strong>
+          <span>Pagefind search după nume</span>
+        </a>
+        ${myInterpelari.length > 0 ? `
+        <a class="cross-link" href="search.html?q=${encodeURIComponent(dep.name)}">
+          <strong>${myInterpelari.length} interpelări/întrebări</strong>
+          <span>Adresate de acest deputat</span>
+        </a>` : ''}
+        ${mySemnaturi.length > 0 ? `
+        <a class="cross-link" href="search.html?q=${encodeURIComponent(dep.name)}">
+          <strong>${mySemnaturi.length} moțiuni semnate</strong>
+          <span>Cu semnătura acestui deputat</span>
+        </a>` : ''}
+        <a class="cross-link" href="${jsonUrl}">
+          <strong>Date raw JSON</strong>
+          <span>Profil complet în format API</span>
+        </a>
+      </div>
+    </div>
+  `;
+}
+
+function showError(msg) {
+  document.getElementById('content').innerHTML = `<div class="error">${msg}</div>`;
+}
+
+loadDeputat();
+</script>
+
+</body>
+</html>
