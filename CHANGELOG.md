@@ -2,6 +2,19 @@
 
 Toate modificările notabile ale proiectului sunt documentate aici. Format bazat pe [Keep a Changelog](https://keepachangelog.com/) și [SemVer](https://semver.org/).
 
+## [v0.2.5] — 2026-04-30 — SEO + a11y + pre-commit (B1-B4)
+
+### Adăugat
+
+- **`/sitemap.xml`** auto-generat — listează ~100 URL-uri (pagini statice + top 50 deputați + top 30 proiecte cu amendamente + endpoint-uri JSON). Generat de `scripts/build_sitemap_xml.py` în CI.
+- **`/robots.txt`** cu sitemap reference + Disallow pe `/pages/` (folder de indexare Pagefind, nu user-facing).
+- **Open Graph + Twitter meta tags** pe toate cele 7 pagini interactive — share-urile pe LinkedIn/Facebook arată corect titlu+descriere.
+- **Accessibility** — `*:focus-visible` outline, skip link, `role` și `aria-label` pe nav/main, touch targets min 44px.
+- **`.pre-commit-config.yaml`** — hooks ruff + checks standard (trailing whitespace, EOF, YAML/JSON valid, large files). Rulează automat la `git commit`.
+- CONTRIBUTING.md actualizat cu instrucțiuni pre-commit.
+
+---
+
 ## [v0.2.4] — 2026-04-30 — Complete profile pages + legal docs
 
 ### Adăugat

@@ -1,0 +1,29 @@
+# Pre-commit hooks pentru cdep-api-poc.
+# Setup:
+#   pip install pre-commit
+#   pre-commit install
+#
+# Hook-urile rulează automat pe `git commit` și opresc commit-ul dacă
+# lint-ul cade. Aceleași verificări se rulează și în CI.
+
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.7.1
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: ^(pages/|pagefind/|data/v1/.*\.json)
+      - id: end-of-file-fixer
+        exclude: ^(pages/|pagefind/|data/v1/.*\.json)
+      - id: check-yaml
+      - id: check-json
+        exclude: ^(pages/|pagefind/)
+      - id: check-added-large-files
+        args: [--maxkb=5000]
+      - id: check-merge-conflict

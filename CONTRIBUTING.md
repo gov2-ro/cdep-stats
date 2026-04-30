@@ -19,6 +19,16 @@ python -m venv .venv
 .venv\Scripts\activate              # Windows
 # source .venv/bin/activate         # Linux/macOS
 pip install -r requirements-dev.txt
+
+# Hooks pre-commit (lint+format automat la fiecare commit)
+pre-commit install
+```
+
+După `pre-commit install`, `git commit` va rula automat ruff + alte verificări pe fișierele modificate. Dacă ceva pică, commit-ul e blocat până fixezi.
+
+Pentru a rula manual toate hook-urile:
+```bash
+pre-commit run --all-files
 ```
 
 ## Standarde cod

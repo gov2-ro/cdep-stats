@@ -101,6 +101,9 @@ jobs:
       - name: Build status.json (api health check)
         run: python scripts/build_status.py
 
+      - name: Build sitemap.xml (SEO)
+        run: python scripts/build_sitemap_xml.py
+
       - name: Generate HTML pages for search
         run: python scripts/generate_html.py
 

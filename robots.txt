@@ -1,0 +1,11 @@
+# cdep-api-poc — robots.txt
+#
+# Acest API expune date publice. Permitem crawlere standard să indexeze totul.
+
+User-agent: *
+Allow: /
+
+# Bloc temporar pentru pagini fără conținut user-facing direct (sunt doar pentru Pagefind)
+Disallow: /pages/
+
+Sitemap: https://endimion2k.github.io/cdep-api-poc/sitemap.xml

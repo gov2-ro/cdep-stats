@@ -4,8 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Camera Deputaților — API Deschis · Proof of Concept</title>
+<meta name="description" content="API REST public pentru date parlamentare: voturi, proiecte legislative, interpelări, moțiuni, comisii. JSON structurat din cdep.ro.">
+<meta property="og:title" content="Camera Deputaților — API Deschis">
+<meta property="og:description" content="API REST public pentru date parlamentare. JSON structurat, accesibil oricui.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://endimion2k.github.io/cdep-api-poc/">
+<meta name="twitter:card" content="summary">
 <link rel="alternate" type="application/atom+xml" title="Camera Deputaților — Atom feed" href="data/v1/feed.atom">
 <link rel="alternate" type="application/feed+json" title="Camera Deputaților — JSON Feed" href="data/v1/feed.json">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -30,6 +37,12 @@
 body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
+
+/* Accessibility */
+*:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:4px}
+.skip-link{position:absolute;top:-40px;left:8px;background:var(--text);color:var(--bg);padding:8px 16px;border-radius:4px;z-index:100}
+.skip-link:focus{top:8px}
+button,a[role="button"]{min-height:44px} /* Touch target minimum */
 
 /* Header */
 .header{border-bottom:1px solid var(--border);padding:16px 0}
@@ -169,12 +182,13 @@ a:hover{text-decoration:underline}
 </style>
 </head>
 <body>
+<a href="#main-content" class="skip-link">Sari la conținut</a>
 
-<header class="header">
+<header class="header" role="banner">
   <div class="header-inner">
-    <span class="logo">cdep<span>.api</span></span>
+    <span class="logo" aria-label="cdep API logo">cdep<span>.api</span></span>
     <span class="badge">v1.0 DRAFT</span>
-    <nav class="nav">
+    <nav class="nav" role="navigation" aria-label="Navigație principală">
       <a href="#" class="active" onclick="showPage('docs',this)">Documentație</a>
       <a href="#" onclick="showPage('demo',this)">Demo</a>
       <a href="#" onclick="showPage('stats',this)">Statistici</a>
@@ -205,8 +219,8 @@ a:hover{text-decoration:underline}
   </div>
 </div>
 
-<div class="main">
-  <aside class="sidebar">
+<div class="main" id="main-content">
+  <aside class="sidebar" role="complementary" aria-label="Navigație secundară">
     <div class="sidebar-section">
       <div class="sidebar-label">Endpoint-uri</div>
       <button class="sidebar-item active" onclick="scrollTo('ep-deputati')">GET /deputati</button>
