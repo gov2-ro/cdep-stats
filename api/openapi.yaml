@@ -12,7 +12,7 @@ info:
     expune într-un format structurat, machine-readable, accesibil oricărui
     developer, jurnalist sau cetățean.
 
-    **Autor propunere:** Cătălin Popa — Candidat Internship Camera Deputaților, Ed. I/2026
+    **Autor:** Cătălin Popa — în colaborare cu Comisia pentru Tehnologia Informației și Comunicațiilor pentru transparentizarea activității parlamentare
 
     **Sursă date:** www.cdep.ro (date publice)
 
@@ -23,7 +23,7 @@ info:
     **Search full-text:** [/search](https://endimion2k.github.io/cdep-api-poc/search.html) (Pagefind, ~14k entități)
   version: "1.0.0-poc"
   contact:
-    name: Propunere internship
+    name: Cătălin Popa
     url: https://github.com/Endimion2k/cdep-api-poc
   license:
     name: Open Government License v3.0

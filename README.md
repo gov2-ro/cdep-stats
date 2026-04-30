@@ -186,7 +186,7 @@ python -m http.server 8000
 
 ## Autor
 
-**Cătălin Popa** · inițiativă în contextul candidaturii pentru internship la Camera Deputaților, Comisia pentru Tehnologia Informației și Comunicațiilor, Ed. I/2026.
+**Cătălin Popa** · dezvoltat în colaborare cu **Comisia pentru Tehnologia Informației și Comunicațiilor** a Camerei Deputaților pentru transparentizarea activității parlamentare și consolidarea accesului public la datele guvernamentale deschise.
 
 Inspirat de [bikestylish.ro](https://bikestylish.ro) — model similar de API deschis pentru industria bicicletelor din România.
 

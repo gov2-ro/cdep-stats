@@ -29,7 +29,7 @@ Decizii asumate pentru fiecare endpoint cu privire la volume, tipul de fișier
 - GitHub recomandă <1 GB per repo
 - Bootstrap voturi pentru toate legislaturile = **~1.5 GB** (3 legislaturi × ~500 MB)
 - Repo-ul devine greu de clonat, lent în UI, pune presiune pe GitHub Pages bandwidth
-- Pentru un POC de internship, perioada curentă e suficientă pentru toate cazurile de utilizare jurnalistic
+- Pentru POC-ul curent, perioada acoperită e suficientă pentru toate cazurile de utilizare jurnalistică și de cercetare
 
 ---
 
