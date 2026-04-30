@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-04-30T18:32:46.531874+00:00",
+  "build_version": "0.2.0",
+  "data_freshness": "2026-04-30T03:39:28.131455Z",
+  "totals": {
+    "records": 39079,
+    "files": 4448,
+    "size_mb": 225.83
+  },
+  "endpoints": {
+    "deputati": {
+      "records": 1050,
+      "files": 3,
+      "size_mb": 1.91,
+      "freshness": "2026-04-27T17:00:31.567761Z",
+      "scraper_versions": [
+        "0.1.0"
+      ]
+    },
+    "voturi_index": {
+      "records": 4432,
+      "files": 2,
+      "size_mb": 1.68,
+      "freshness": "2026-04-29T19:47:16.184836Z",
+      "scraper_versions": [
+        "0.1.0"
+      ]
+    },
+    "voturi_per_vot": {
+      "records": 0,
+      "files": 4432,
+      "size_mb": 167.29,
+      "freshness": "2026-04-29T19:47:16.162053Z",
+      "scraper_versions": [
+        "0.1.0"
+      ]
+    },
+    "sanctiuni": {
+      "records": 14,
+      "files": 2,
+      "size_mb": 0.01,
+      "freshness": "2026-04-29T19:17:48.515125Z",
+      "scraper_versions": [
+        "0.1.0"
+      ]
+    },
+    "interpelari": {
+      "records": 27366,
+      "files": 2,
+      "size_mb": 31.4,
+      "freshness": "2026-04-29T21:17:54.620531Z",
+      "scraper_versions": [
+        "0.1.0"
+      ]
+    },
+    "comisii": {
+      "records": 91,
+      "files": 2,
+      "size_mb": 0.48,
+      "freshness": "2026-04-29T19:18:06.224611Z",
+      "scraper_versions": [
+        "0.1.0"
+      ]
+    },
+    "proiecte": {
+      "records": 5245,
+      "files": 2,
+      "size_mb": 21.91,
+      "freshness": "2026-04-29T21:35:59.588951Z",
+      "scraper_versions": [
+        "0.1.0"
+      ]
+    },
+    "amendamente": {
+      "records": 875,
+      "files": 2,
+      "size_mb": 1.1,
+      "freshness": "2026-04-30T03:02:46.442087Z",
+      "scraper_versions": [
+        "0.1.0"
+      ]
+    },
+    "motiuni": {
+      "records": 6,
+      "files": 1,
+      "size_mb": 0.05,
+      "freshness": "2026-04-30T03:39:28.131455Z",
+      "scraper_versions": [
+        "0.1.0"
+      ]
+    }
+  },
+  "infrastructure": {
+    "host": "GitHub Pages",
+    "scraper": "self-hosted runner (Windows, RO)",
+    "schedule": "daily 04:00 UTC",
+    "encoding_handling": "ISO-8859-2 + truststore SSL legacy adapter"
+  },
+  "links": {
+    "repo": "https://github.com/Endimion2k/cdep-api-poc",
+    "swagger": "https://endimion2k.github.io/cdep-api-poc/docs/swagger.html",
+    "search": "https://endimion2k.github.io/cdep-api-poc/search.html",
+    "feed_atom": "https://endimion2k.github.io/cdep-api-poc/data/v1/feed.atom"
+  }
+}

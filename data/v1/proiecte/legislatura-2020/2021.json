@@ -1,0 +1,2660 @@
+{
+  "meta": {
+    "generated_at": "2026-04-30T18:31:58.827093Z",
+    "source_url": "split from /v1/proiecte/legislatura-2020.json",
+    "scraper_version": "0.1.0",
+    "count": 33
+  },
+  "data": [
+    {
+      "id": "d4f519f1faf29476",
+      "cdep_idp": 19731,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 611/2021",
+      "nr_camera_deputati": "611/20.12.2021",
+      "nr_senat": "L566/2021",
+      "nr_guvern": "E215/20.12.2021",
+      "nr_bpi": "752/20-12-2021",
+      "titlu": "Proiectul Legii bugetului de stat pe anul 2022",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "Lege 317/2021 Legea bugetului de stat pe anul 2022",
+      "lege_nr": "317/2021",
+      "decret_nr": "1355/2021",
+      "data_prezentare": "2021-12-20",
+      "data_inregistrare_cd": "2021-12-20",
+      "data_adoptare_cd": "2021-12-23",
+      "data_adoptare_senat": "2021-12-23",
+      "data_promulgare": null,
+      "vot_pentru": 294,
+      "vot_contra": 120,
+      "vot_abtineri": 0,
+      "amendamente_termen_depunere": "2021-12-21",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/buget/pdf/2021/rp611.pdf",
+      "timeline": [
+        {
+          "data": "2021-06-15",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2021-12-20",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2021-12-20",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-12-20",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 21.12.2021, ora 12:00 termen depunere raport: 23.12.2021, ora 08:00"
+        },
+        {
+          "data": "2021-12-21",
+          "eveniment": "primire aviz de la: Comisia parlamentară a revoluţionarilor din Decembrie 1989"
+        },
+        {
+          "data": "2021-12-22",
+          "eveniment": "primire raport de la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul Anexe/"
+        },
+        {
+          "data": "2021-12-23",
+          "eveniment": "dezbatere în plen reunit consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2021-12-23",
+          "eveniment": "adoptat în sedinta comuna a celor doua Camere rezultat vot pentru=294, contra=120, abtineri=0 Forma pentru promulgare"
+        },
+        {
+          "data": "2021-12-24",
+          "eveniment": "sesizare de neconstituţionalitate (formulată de deputați aparținând Grupului parlamentar al Uniunii Salvați România) SESIZARE DE NECONSTITUȚIONALITATE (Dosar nr.3906A/2021)"
+        },
+        {
+          "data": "2021-12-25",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2021-12-28",
+          "eveniment": "Curtea Constitutionala decide: ( D.C.C. nr.904/2021 ) respinge obiectiunile de neconstitutionalitate D.C.C. nr.904 din 28 decembrie 2021"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Raport_buget_202212.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/dconf.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/ces611.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/cl611.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/hotcsat.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/opconsfisc.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Anexele%201,2%20si%204-11.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Administratia%20Prezidentiala.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Senatul%20Romaniei.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Camera%20Deputatilor.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Inalta%20Curte%20de%20Casatie%20si%20Justitie%20.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Curtea%20Constitutionala.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Consiliul%20Legislativ.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Curtea%20de%20Conturi.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Consiliul%20Concurentei.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Avocatul%20Poporului.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Consiliul%20National%20pentru%20Studierea%20Arhivelor%20Securitatii.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Consiliul%20National%20al%20Audiovizualului.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Secretariatul%20General%20al%20Guvernului.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Ministerul%20Afacerilor%20Externe.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Ministerul%20Dezvoltarii%20Lucrarilor%20Publice%20si%20Administratiei.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Ministerul%20Finantelor%20.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Ministerul%20Justitiei.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Ministerul%20Apararii%20Nationale.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Ministerul%20Afacerilor%20Interne.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Ministerul%20Muncii%20si%20Solidaritatii%20Sociale.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Ministerul%20Sportului.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Ministerul%20Agriculturii%20si%20Dezvoltarii%20Rurale.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Ministerul%20Mediului,%20Apelor%20si%20Padurilor.pdf",
+        "https://www.cdep.ro/proiecte/2021/600/10/1/Ministerul%20Transporturilor%20si%20Infrastructurii.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19731"
+    },
+    {
+      "id": "d52f0238f0917919",
+      "cdep_idp": 19448,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 594/2021",
+      "nr_camera_deputati": "594/10.12.2021",
+      "nr_senat": null,
+      "nr_guvern": "E118/08.07.2021",
+      "nr_bpi": "415/23-07-2021",
+      "titlu": "Proiect de Lege pentru aprobarea contului general anual de execuţie a bugetului de stat, a contului anual de execuţie a bugetului Fondului naţional unic de asigurări sociale de sănătate şi a contului general anual al datoriei publice aferente anului 2020",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-12-10",
+      "data_inregistrare_cd": "2021-12-10",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-12-23",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-12-10",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2021-12-10",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-12-10",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 23.12.2021 termen depunere raport: 08.02.2022"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/500/90/4/em415.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/4/pl415.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/4/ces415.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/4/cl415.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/4/rapMF415.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/4/Vol.I.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/4/Vol.II.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/4/Vol.III.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/4/Vol.IV.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/4/Vol.V.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/4/Vol.VI.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/4/gv594.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19448"
+    },
+    {
+      "id": "3733b404f3545ef2",
+      "cdep_idp": 19449,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 595/2021",
+      "nr_camera_deputati": "595/10.12.2021",
+      "nr_senat": null,
+      "nr_guvern": "E119/08.07.2021",
+      "nr_bpi": "416/23-07-2021",
+      "titlu": "Proiect de Lege pentru aprobarea contului general anual de execuţie a bugetului asigurărilor sociale de stat pe anul 2020 şi a contului general anual de execuţie a bugetului asigurărilor pentru şomaj pe anul 2020",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-12-10",
+      "data_inregistrare_cd": "2021-12-10",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-12-23",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-12-10",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2021-12-10",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-12-10",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 23.12.2021 termen depunere raport: 08.02.2022"
+        },
+        {
+          "data": "2021-12-23",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/500/90/5/em416.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/5/notadeprezentare416.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/5/pl416.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/5/ces416.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/5/cl416.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/5/gv595.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2021/av595.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19449"
+    },
+    {
+      "id": "78d6ca74e636659c",
+      "cdep_idp": 19467,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 596/2021",
+      "nr_camera_deputati": "596/10.12.2021",
+      "nr_senat": null,
+      "nr_guvern": "E163/07.09.2021",
+      "nr_bpi": "435/08-09-2021",
+      "titlu": "Proiect de Lege pentru aprobarea Ordonanţei de urgenţă a Guvernului nr.97/2021 cu privire la rectificarea bugetului de stat pe anul 2021",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-12-10",
+      "data_inregistrare_cd": "2021-12-10",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-12-23",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-12-10",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2021-12-10",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-12-10",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 23.12.2021 termen depunere raport: 08.02.2022"
+        },
+        {
+          "data": "2021-12-22",
+          "eveniment": "primire aviz de la: Comisia pentru administraţie publică şi amenajarea teritoriului"
+        },
+        {
+          "data": "2021-12-23",
+          "eveniment": "primire aviz de la: Comisia pentru cultură, arte şi mijloace de informare în masă"
+        },
+        {
+          "data": "2022-02-02",
+          "eveniment": "primire aviz de la: Comisia pentru egalitatea de şanse pentru femei şi bărbaţi"
+        },
+        {
+          "data": "2022-02-08",
+          "eveniment": "primire aviz de la: Comisia pentru învăţământ"
+        },
+        {
+          "data": "2022-02-09",
+          "eveniment": "primire aviz de la: Comisia pentru politică externă"
+        },
+        {
+          "data": "2022-02-10",
+          "eveniment": "primire aviz de la: Comisia pentru tehnologia informaţiei şi comunicaţiilor"
+        },
+        {
+          "data": "2022-02-15",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2022-02-18",
+          "eveniment": "primire aviz de la: Comisia pentru transporturi şi infrastructură"
+        },
+        {
+          "data": "2022-02-22",
+          "eveniment": "primire aviz de la: Comisia pentru politică economică, reformă şi privatizare"
+        },
+        {
+          "data": "2022-05-24",
+          "eveniment": "primire aviz de la: Comisia pentru apărare, ordine publică şi siguranţă naţională"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/500/90/6/em435.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/6/pl435.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/6/oug435.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/6/csat435.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/6/ces435.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/6/cl435.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/6/opconsfisc435.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/6/gv596.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2021/av596.pdf",
+        "https://www.cdep.ro/comisii/sanatate/pdf/2021/av596.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2021/av596.pdf",
+        "https://www.cdep.ro/comisii/mediu/pdf/2021/av596.pdf",
+        "https://www.cdep.ro/comisii/cultura/pdf/2021/av596.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2021/av596.pdf",
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2021/av596.pdf",
+        "https://www.cdep.ro/comisii/invatamant/pdf/2022/av596_21.pdf",
+        "https://www.cdep.ro/comisii/politica_externa/pdf/2022/av596_21.pdf",
+        "https://www.cdep.ro/comisii/industrii/pdf/2022/av596_21;1.pdf",
+        "https://www.cdep.ro/comisii/tehnologia_informatiei/pdf/2022/av596_21.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2022/av596_21.pdf",
+        "https://www.cdep.ro/comisii/transport/pdf/2022/av596_21.pdf",
+        "https://www.cdep.ro/comisii/economica/pdf/2022/av596_21.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2022/av596_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19467"
+    },
+    {
+      "id": "568f33a921a164ac",
+      "cdep_idp": 19468,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 597/2021",
+      "nr_camera_deputati": "597/10.12.2021",
+      "nr_senat": null,
+      "nr_guvern": "E164/07.09.2021",
+      "nr_bpi": "436/08-09-2021",
+      "titlu": "Proiect de Lege privind aprobarea Ordonanţei de urgenţă a Guvernului nr.98/2021 pentru rectificarea bugetului asigurărilor sociale de stat pe anul 2021",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-12-10",
+      "data_inregistrare_cd": "2021-12-10",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-12-23",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-12-10",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2021-12-10",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-12-10",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 23.12.2021 termen depunere raport: 08.02.2022"
+        },
+        {
+          "data": "2021-12-23",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/500/90/7/em436.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/7/pl436.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/7/oug436.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/7/ces436.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/7/cl436.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/7/opconsfiscal436.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/7/gv597.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2021/av597.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19468"
+    },
+    {
+      "id": "dd6c5f79f7a2b862",
+      "cdep_idp": 19702,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 598/2021",
+      "nr_camera_deputati": "598/10.12.2021",
+      "nr_senat": null,
+      "nr_guvern": "E200/26.11.2021",
+      "nr_bpi": "727/26-11-2021",
+      "titlu": "Proiect de Lege pentru aprobarea Ordonanţei de urgenţă a Guvernului nr.122/2021 cu privire la rectificarea bugetului de stat pe anul 2021 şi la instituirea cadrului legal pentru acordarea unui împrumut subordonat de către statul român, prin Ministerul Finanţelor, în calitate de acţionar, către CEC BANK S.A.",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-12-10",
+      "data_inregistrare_cd": "2021-12-10",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-12-23",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-12-10",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2021-12-10",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-12-10",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 23.12.2021 termen depunere raport: 08.02.2022"
+        },
+        {
+          "data": "2021-12-22",
+          "eveniment": "primire aviz de la: Comisia pentru administraţie publică şi amenajarea teritoriului"
+        },
+        {
+          "data": "2021-12-23",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        },
+        {
+          "data": "2021-12-28",
+          "eveniment": "primire aviz de la: Comisia comună permanentă a Camerei Deputaţilor şi Senatului pentru exercitarea controlului parlamentar asupra activităţii SRI"
+        },
+        {
+          "data": "2022-02-08",
+          "eveniment": "primire aviz de la: Comisia pentru învăţământ"
+        },
+        {
+          "data": "2022-02-09",
+          "eveniment": "primire aviz de la: Comisia pentru industrii şi servicii"
+        },
+        {
+          "data": "2022-02-22",
+          "eveniment": "primire aviz de la: Comisia pentru politică economică, reformă şi privatizare"
+        },
+        {
+          "data": "2022-04-01",
+          "eveniment": "primire aviz de la: Comisia pentru tineret și sport"
+        },
+        {
+          "data": "2022-05-24",
+          "eveniment": "primire aviz de la: Comisia pentru apărare, ordine publică şi siguranţă naţională"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/500/90/8/em727.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/8/pl727.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/8/oug727.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/8/ax1_6.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/8/ces727.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/8/cl727.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/8/opprconsf727.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/8/gv598.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2021/av598;1.pdf",
+        "https://www.cdep.ro/comisii/sanatate/pdf/2021/av598.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2021/av598.pdf",
+        "https://www.cdep.ro/comisii/mediu/pdf/2021/av598.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2021/av598.pdf",
+        "https://www.cdep.ro/comisii/cultura/pdf/2021/av598.pdf",
+        "https://www.cdep.ro/comisii/controlul_sri/pdf/2021/av598.pdf",
+        "https://www.cdep.ro/comisii/invatamant/pdf/2022/av598_21.pdf",
+        "https://www.cdep.ro/comisii/industrii/pdf/2022/av598_21;1.pdf",
+        "https://www.cdep.ro/comisii/economica/pdf/2022/av598_21.pdf",
+        "https://www.cdep.ro/comisii/sport/pdf/2022/av598_21.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2022/av598_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19702"
+    },
+    {
+      "id": "9c442c4624857903",
+      "cdep_idp": 19703,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 599/2021",
+      "nr_camera_deputati": "599/10.12.2021",
+      "nr_senat": "L525/2021",
+      "nr_guvern": "E201/26.11.2021",
+      "nr_bpi": "728/26-11-2021",
+      "titlu": "Proiect de Lege privind aprobarea Ordonanţei de urgenţă a Guvernului nr.123/2021 pentru rectificarea bugetului asigurărilor sociale de stat pe anul 2021",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-12-10",
+      "data_inregistrare_cd": "2021-12-10",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-12-23",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-12-10",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2021-12-10",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-12-10",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 23.12.2021 termen depunere raport: 08.02.2022"
+        },
+        {
+          "data": "2021-12-23",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/500/90/9/em728.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/9/pl728.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/9/oug728.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/9/ces728.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/9/cl728.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/9/opprcfisc728.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/90/9/gv599.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2021/av599.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19703"
+    },
+    {
+      "id": "eec8e58957f7ffae",
+      "cdep_idp": 19693,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 581/2021",
+      "nr_camera_deputati": "581/07.12.2021",
+      "nr_senat": "L451/2021",
+      "nr_guvern": null,
+      "nr_bpi": "710/23-11-2021",
+      "titlu": "Proiect de Lege pentru modificarea Legii nr.227/2015 privind Codul fiscal si pentru completarea art.47 din Legea nr.207/2015 privind Codul de procedura fiscala",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "47 deputati+senatori, din care: deputati - neafiliati: Calotă Florică Ică , Cambera Oana-Alexandra , Ciornei Radu Tudor , Ichim Cristian-Paul , Poliţeanu Mihai-Laurenţiu , Sas Lóránt-Zoltan , Teniţă Dragoş-Cătălin , Toda Daniel-Liviu deputati - PSD: Rizea Cristina Camelia , Stancu Paul , Stoian Maria , Todosiu Beniamin deputati - PNL: Burciu Cristina , Năcuţă Sorin , Özmen Oana-Marciana deputati - USR: Apostol Alin-Gabriel , Blaga Daniel-Codruţ , Botez Mihai-Cătălin , Buzoianu Diana-Anda , Cristian Brian , Dehelean Silviu , Drancă Andrei-Iulian , Giurgiu Adrian , Hangan Pollyanna-Hanellore , Havârneanu Filip , Molnar Radu-Iulian , Neagu Denisa-Elena , Panait Radu , Rodeanu Bogdan-Ionel , Seidler Cristian-Gabriel , Stoica Diana , Terente Eugen , Ţoiu Oana-Silvia , Wiener Adrian deputati - AUR: Simion George-Nicolae deputati - Minoritati: Stoica Bogdan-Alin senatori - PSD: Mureşan Claudiu-Marinel senatori - USR: Berea Cristinel-Gabriel , Bordei Cristian , Ghica Cristian , Ivan Dan , Negoi Eugen-Remus , Oprinoiu Aurel , Pălărie Ştefan , Vicol Costel , Vlad Sergiu Cosmin , Zob Alexandru-Robert",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 252/2022 LEGE pentru modificarea Legii nr. 227/2015 privind Codul fiscal si pentru completarea art. 47 din Legea nr. 207/2015 privind Codul de procedură fiscală",
+      "lege_nr": "252/2022",
+      "decret_nr": "1032/2022",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2021-12-07",
+      "data_adoptare_cd": "2022-06-22",
+      "data_adoptare_senat": "2021-11-22",
+      "data_promulgare": "2022-07-20",
+      "vot_pentru": 234,
+      "vot_contra": 0,
+      "vot_abtineri": 4,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": 8,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-11-22",
+          "eveniment": "adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(2) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2021-12-07",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-12-16",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2021-12-22",
+          "eveniment": "primire aviz de la: Comisia pentru tehnologia informaţiei şi comunicaţiilor"
+        },
+        {
+          "data": "2022-03-01",
+          "eveniment": "primire aviz de la: Comisia pentru politică economică, reformă şi privatizare"
+        },
+        {
+          "data": "2022-06-02",
+          "eveniment": "primire raport favorabil (8 amend. admise) de la: Comisia pentru buget, finanţe şi bănci face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2022-06-15",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 20 - 22 iunie 2022"
+        },
+        {
+          "data": "2022-06-21",
+          "eveniment": "dezbatere în plenul Camerei Deputatilor( rămas pentru votul final ) consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2022-06-22",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=234, contra=0, abtineri=4, nu au votat=1 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2022-06-27",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2022-07-02",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2022-07-20",
+          "eveniment": "promulgata prin Decret nr. 1032/2022"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/500/80/1/em710.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/80/1/ces710.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/80/1/pvg710.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/80/1/opcfisc710.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/80/1/scl710.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/80/1/se710.pdf",
+        "https://www.cdep.ro/proiecte/2021/500/80/1/as581.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2021/av581.pdf",
+        "https://www.cdep.ro/comisii/tehnologia_informatiei/pdf/2021/av581.pdf",
+        "https://www.cdep.ro/comisii/economica/pdf/2022/av581_21.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2022/av581_21.pdf",
+        "https://www.cdep.ro/comisii/buget/pdf/2022/rp581_21.pdf",
+        "https://www.cdep.ro/docs/2021/cd581_21_(1).pdf",
+        "https://www.cdep.ro/docs/2021/pr581_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19693"
+    },
+    {
+      "id": "7e34929f66db9289",
+      "cdep_idp": 19607,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 463/2021",
+      "nr_camera_deputati": "463/18.10.2021",
+      "nr_senat": "L268/2021",
+      "nr_guvern": "E92/24.06.2021",
+      "nr_bpi": "589/13-10-2021",
+      "titlu": "Proiect de Lege privind modificarea Legii nr.129/2019 pentru prevenirea şi combaterea spălării banilor şi finanţării terorismului, precum şi pentru modificarea şi completarea unor acte normative",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 315/2021 LEGE privind modificarea şi completarea Legii nr. 129/2019 pentru prevenirea şi combaterea spălării banilor şi finanţării terorismului, precum şi pentru modificarea şi completarea unor acte normative",
+      "lege_nr": "315/2021",
+      "decret_nr": "1347/2021",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2021-10-18",
+      "data_adoptare_cd": "2021-12-07",
+      "data_adoptare_senat": "2021-10-11",
+      "data_promulgare": "2021-12-28",
+      "vot_pentru": 294,
+      "vot_contra": 0,
+      "vot_abtineri": 0,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": 25,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/buget/pdf/2021/rp463.pdf",
+      "timeline": [
+        {
+          "data": "2021-10-11",
+          "eveniment": "adoptat de Senat ca urmare a depasirii termenului de adoptare, potrivit art.75 alin.(2) teza a III-a din Constitutia României republicata Forma adoptată de Senat"
+        },
+        {
+          "data": "2021-10-18",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-10-22",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2021-10-26",
+          "eveniment": "primire aviz de la: Comisia pentru apărare, ordine publică şi siguranţă naţională"
+        },
+        {
+          "data": "2021-11-19",
+          "eveniment": "primire raport favorabil (25 amend. admise) de la: Comisia pentru buget, finanţe şi bănci Comisia juridică, de disciplină şi imunităţi face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2021-11-24",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru şedinţa Camerei Deputaţilor din 6 - 7 decembrie 2021"
+        },
+        {
+          "data": "2021-12-07",
+          "eveniment": "dezbatere în plenul Camerei Deputatilor consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2021-12-07",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=294, contra=0, abtineri=0 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2021-12-13",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2021-12-15",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2021-12-28",
+          "eveniment": "promulgata prin Decret nr. 1347/2021"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/400/60/3/em589.pdf",
+        "https://www.cdep.ro/proiecte/2021/400/60/3/comp589.pdf",
+        "https://www.cdep.ro/proiecte/2021/400/60/3/conc589.pdf",
+        "https://www.cdep.ro/proiecte/2021/400/60/3/cl589.pdf",
+        "https://www.cdep.ro/proiecte/2021/400/60/3/sen589.pdf",
+        "https://www.cdep.ro/proiecte/2021/400/60/3/as463.pdf",
+        "https://www.cdep.ro/proiecte/2021/400/60/3/gv589.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2021/av463.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2021/av463.pdf",
+        "https://www.cdep.ro/comisii/buget/pdf/2021/rp463.pdf",
+        "https://www.cdep.ro/docs/2021/cd463_21.pdf",
+        "https://www.cdep.ro/docs/2021/pr463_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19607"
+    },
+    {
+      "id": "f53ba7c300ac58d9",
+      "cdep_idp": 19452,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 307/2021",
+      "nr_camera_deputati": "307/23.08.2021",
+      "nr_senat": "L431/2021",
+      "nr_guvern": "E133/19.08.2021",
+      "nr_bpi": "420/20-08-2021",
+      "titlu": "Proiect de Lege privind aprobarea Ordonanţei de urgenţă a Guvernului nr.89/2021 pentru completarea art.46 al Legii nr.41/1994 privind organizarea şi funcţionarea Societăţii Române de Radiodifuziune şi Societăţii Române de Televiziune",
+      "tip": "proiect_lege",
+      "caracter": "organic",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2022-02-01",
+      "data_inregistrare_cd": "2021-08-23",
+      "data_adoptare_cd": "2021-10-04",
+      "data_adoptare_senat": "2021-10-27",
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": 3,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/cultura/pdf/2021/rp307.pdf",
+      "timeline": [
+        {
+          "data": "2021-08-23",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-09-08",
+          "eveniment": "primire raport favorabil aprobarii ordonantei de urgenta (3 amend. admise) de la: Comisia pentru cultură, arte şi mijloace de informare în masă face parte din categoria legilor organice"
+        },
+        {
+          "data": "2021-09-20",
+          "eveniment": "trimis pentru raport suplimentar la: Comisia pentru cultură, arte şi mijloace de informare în masă termen depunere raport: 29.09.2021"
+        },
+        {
+          "data": "2021-10-04",
+          "eveniment": "dezbatere în plenul Camerei Deputatilor consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2021-10-04",
+          "eveniment": "proiectul de lege pentru aprobarea ordonantei de urgenta adoptat de Camera Deputatilor ca urmare a depasirii termenului de 30 de zile, potrivit art.115 alin.(5) din Constitutia României republicata Forma adoptată de Cameră"
+        },
+        {
+          "data": "2021-10-04",
+          "eveniment": "înaintat la Senat"
+        },
+        {
+          "data": "2021-10-27",
+          "eveniment": "proiectul de lege pentru aprobarea ordonantei de urgenta adoptat de Senat"
+        },
+        {
+          "data": "2021-10-27",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2021-10-29",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2022-01-05",
+          "eveniment": "Curtea Constitutionala decide: D.C.C. nr.842/2022 accepta obiectiunile de neconstitutionalitate; declara legea în ansamblul sau ca fiind neconstitutionala D.C.C. nr.842 din 9 decembrie 2021"
+        },
+        {
+          "data": "2022-02-01",
+          "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor Adresa Administrației Prezidențiale"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/300/00/7/em420.pdf",
+        "https://www.cdep.ro/proiecte/2021/300/00/7/pl420.pdf",
+        "https://www.cdep.ro/proiecte/2021/300/00/7/oug420.pdf",
+        "https://www.cdep.ro/proiecte/2021/300/00/7/cl420.pdf",
+        "https://www.cdep.ro/proiecte/2021/300/00/7/gv307.pdf",
+        "https://www.cdep.ro/comisii/cultura/pdf/2021/rp307.pdf",
+        "https://www.cdep.ro/docs/2021/cd307_21.pdf",
+        "https://www.cdep.ro/proiecte/2021/300/00/7/sez307psd.pdf",
+        "https://www.cdep.ro/proiecte/2021/300/00/7/dcc842.pdf",
+        "https://www.cdep.ro/proiecte/2021/300/00/7/ap1RX.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19452"
+    },
+    {
+      "id": "029c122ac4b80a3f",
+      "cdep_idp": 19382,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 271/2021",
+      "nr_camera_deputati": "271/16.06.2021",
+      "nr_senat": "L114/26.04.2021",
+      "nr_guvern": "E50/15.04.2021",
+      "nr_bpi": "327/15-06-2021",
+      "titlu": "Proiect de Lege pentru modificarea şi completarea Legii nr.55/2020 privind unele măsuri pentru prevenirea şi combaterea efectelor pandemiei de COVID-19",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 295/2021 LEGE pentru modificarea şi completarea Legii nr. 55/2020 privind unele măsuri pentru prevenirea şi combaterea efectelor pandemiei de COVID-19",
+      "lege_nr": "295/2021",
+      "decret_nr": "1291/2021",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2021-06-16",
+      "data_adoptare_cd": "2021-11-16",
+      "data_adoptare_senat": "2021-06-14",
+      "data_promulgare": "2021-12-13",
+      "vot_pentru": 171,
+      "vot_contra": 128,
+      "vot_abtineri": 10,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/juridica/pdf/2021/rp271.pdf",
+      "timeline": [
+        {
+          "data": "2021-05-30",
+          "eveniment": "primire aviz de la: Comisia pentru apărare, ordine publică şi siguranţă naţională"
+        },
+        {
+          "data": "2021-06-14",
+          "eveniment": "adoptat de Senat ca urmare a depasirii termenului de adoptare, potrivit art.75 alin.(2) teza a III-a din Constitutia României republicata Forma adoptată de Senat"
+        },
+        {
+          "data": "2021-06-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-06-29",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2021-09-15",
+          "eveniment": "primire aviz de la: Comisia pentru industrii şi servicii"
+        },
+        {
+          "data": "2021-09-23",
+          "eveniment": "primire aviz de la: Comisia pentru administraţie publică şi amenajarea teritoriului"
+        },
+        {
+          "data": "2021-09-30",
+          "eveniment": "primire raport favorabil de la: Comisia juridică, de disciplină şi imunităţi face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2021-10-05",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor din zilele de 11 şi 13 octombrie 2021"
+        },
+        {
+          "data": "2021-10-13",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor din zilele de 18 şi 19 octombrie 2021"
+        },
+        {
+          "data": "2021-10-18",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru ședința Camerei Deputaților din 25 octombrie 2021"
+        },
+        {
+          "data": "2021-10-26",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru şedinţa Camerei Deputaţilor din 2 - 3 noiembrie 2021"
+        },
+        {
+          "data": "2021-11-03",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 8 - 9 noiembrie 2021"
+        },
+        {
+          "data": "2021-11-09",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 15 - 16 noiembrie 2021"
+        },
+        {
+          "data": "2021-11-16",
+          "eveniment": "dezbatere în plenul Camerei Deputatilor consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2021-11-16",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=171, contra=128, abtineri=10 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2021-11-22",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2021-11-24",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2021-12-13",
+          "eveniment": "promulgata prin Decret nr. 1291/2021"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/200/70/1/em327.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/70/1/ces327.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/70/1/cl327.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2021/av271.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/70/1/se327.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/70/1/as271.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/70/1/gv327.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2021/av271.pdf",
+        "https://www.cdep.ro/comisii/industrii/pdf/2021/av271.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2021/av271.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2021/rp271.pdf",
+        "https://www.cdep.ro/docs/2021/cd271_21.pdf",
+        "https://www.cdep.ro/docs/2021/pr271_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19382"
+    },
+    {
+      "id": "f4509318ed1e5ab4",
+      "cdep_idp": 19390,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "Pl-x nr. 273/2021",
+      "nr_camera_deputati": "273/16.06.2021",
+      "nr_senat": "L155/17.05.2021",
+      "nr_guvern": null,
+      "nr_bpi": "335/15-06-2021",
+      "titlu": "Propunere legislativă pentru modificarea şi completarea art.96 din Ordonanţa de Urgenţă nr.195 din 2002 privind circulaţia pe drumurile publice, republicată în Monitorul Oficial al României, Partea I, nr.670 din 03.08.2006, cu modificările şi completările ulterioare",
+      "tip": "propunere_legislativa",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "1 deputat - AUR: Acatrinei Dorel-Gheorghe",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "pe ordinea de zi a sedintelor Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2021-06-16",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-06-14",
+          "eveniment": "respinsa de catre Senat"
+        },
+        {
+          "data": "2021-06-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-06-29",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2021-09-14",
+          "eveniment": "primire punct de vedere de la Guvern - cu nr.8563/13.09.2021 (negativ) Punctul de vedere al Guvernului"
+        },
+        {
+          "data": "2023-05-15",
+          "eveniment": "primire raport de respingere de la: Comisia pentru industrii şi servicii Comisia juridică, de disciplină şi imunităţi Comisia pentru apărare, ordine publică şi siguranţă naţională Comisia pentru transporturi şi infrastructură face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2026-04-14",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru ședințele Camerei Deputaților din zilele de 14 și 15 aprilie 2026"
+        },
+        {
+          "data": "2026-04-15",
+          "eveniment": "dezbatere în plenul Camerei Deputatilor rămasă la votul final"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/200/70/3/em335.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/70/3/pl335.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/70/3/ces335.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/70/3/cl335.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/70/3/as273.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/70/3/in335.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2021/av273.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/70/3/pvg273_2021.pdf",
+        "https://www.cdep.ro/comisii/transport/pdf/2023/rp273_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19390"
+    },
+    {
+      "id": "c1c3efb7217ad1ee",
+      "cdep_idp": 19379,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 266/2021",
+      "nr_camera_deputati": "266/14.06.2021",
+      "nr_senat": "L181/2021",
+      "nr_guvern": null,
+      "nr_bpi": "324/09-06-2021",
+      "titlu": "Proiect de Lege pentru modificarea art.1 alin.(1) din Legea nr.137/2011 privind transmiterea unor terenuri din domeniul public al statului şi din administrarea Academiei de Ştiinţe Agricole şi Silvice ”Gheorghe Ionescu-Şişeşti” - Institutul Naţional de Cercetare - Dezvoltare pentru Cartof şi Sfeclă de Zahăr Braşov în domeniul public al municipiului Braşov şi în administrarea Consiliului Local al Municipiului Braşov, judeţul Braşov",
+      "tip": "proiect_lege",
+      "caracter": "organic",
+      "procedura_urgenta": false,
+      "initiator": "12 deputati+senatori, din care: deputati - neafiliati: Benga Tudor - Vlad , Predescu Ana-Loredana deputati - PSD: Rasaliu Marian-Iulian deputati - PNL: Andronache Gabriel , Vecerdi Cristina-Agnes deputati - USR: Ilie Victor , Miftode Marius-Andrei deputati - AUR: Flucuş Dumitru senatori - PSD: Dunca Marius-Alexandru , Toanchină Marius-Gheorghe senatori - PNL: Veştea Mihail senatori - USR: Darău Ambrozie-Irineu",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 217/2021 LEGE pentru modificarea art. 1 alin. (1) din Legea nr. 137/2011 privind transmiterea unor terenuri din domeniul public al statului şi din administrarea Academiei de Ştiinţe Agricole şi Silvice \"Gheorghe Ionescu-Şişeşti\" - Institutul Naţional de Cercetare- Dezvoltare pentru Cartof şi Sfeclă de Zahăr Braşov în domeniul public al municipiului Braşov şi în administrarea Consiliului Local al Municipiului Braşov, judeţul Braşov",
+      "lege_nr": "217/2021",
+      "decret_nr": "889/2021",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2021-06-14",
+      "data_adoptare_cd": "2021-06-29",
+      "data_adoptare_senat": "2021-06-09",
+      "data_promulgare": "2021-07-22",
+      "vot_pentru": 304,
+      "vot_contra": 0,
+      "vot_abtineri": 0,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/agricultura/pdf/2021/rp266.pdf",
+      "timeline": [
+        {
+          "data": "2021-06-09",
+          "eveniment": "adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(1) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2021-06-14",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-06-28",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului) din zilele de 28, 29 şi 30 iunie 2021"
+        },
+        {
+          "data": "2021-06-29",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=304, contra=0, abtineri=0 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2021-06-29",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2021-07-05",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2021-07-22",
+          "eveniment": "promulgata prin Decret nr. 889/2021"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/200/60/6/em324.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/60/6/ces324.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/60/6/cl324.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/60/6/se324.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/60/6/as266.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/60/6/in324.pdf",
+        "https://www.cdep.ro/comisii/agricultura/pdf/2021/rp266.pdf",
+        "https://www.cdep.ro/docs/2021/cd266_21.pdf",
+        "https://www.cdep.ro/docs/2021/pr266_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19379"
+    },
+    {
+      "id": "5fc9d28a76223f04",
+      "cdep_idp": 19368,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 256/2021",
+      "nr_camera_deputati": "256/09.06.2021",
+      "nr_senat": "L164/17.05.2021",
+      "nr_guvern": "E61/13.05.2021",
+      "nr_bpi": "310/08-06-2021",
+      "titlu": "Proiect de Lege privind aprobarea Ordonanţei de urgenţã a Guvernului nr.38/2021 pentru aprobarea unor măsuri în domeniul garantării creanţelor salariale",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 293/2021 LEGE privind aprobarea Ordonanţei de urgenţă a Guvernului nr. 38/2021 pentru aprobarea unor măsuri în domeniul garantării creanţelor salariale",
+      "lege_nr": "293/2021",
+      "decret_nr": "1289/2021",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2021-06-09",
+      "data_adoptare_cd": "2021-11-16",
+      "data_adoptare_senat": "2021-06-07",
+      "data_promulgare": "2021-12-13",
+      "vot_pentru": 309,
+      "vot_contra": 0,
+      "vot_abtineri": 0,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/buget/pdf/2021/rp256.pdf",
+      "timeline": [
+        {
+          "data": "2021-06-07",
+          "eveniment": "proiectul de lege pentru aprobarea ordonantei de urgenta adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(2) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2021-06-09",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-06-28",
+          "eveniment": "primire aviz de la: Comisia pentru egalitatea de şanse pentru femei şi bărbaţi"
+        },
+        {
+          "data": "2021-06-29",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2021-09-15",
+          "eveniment": "primire raport favorabil aprobarii ordonantei de urgenta de la: Comisia pentru buget, finanţe şi bănci Comisia pentru muncă şi protecţie socială face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2021-10-05",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor din zilele de 11 şi 13 octombrie 2021"
+        },
+        {
+          "data": "2021-10-13",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor din zilele de 18 şi 19 octombrie 2021"
+        },
+        {
+          "data": "2021-10-18",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru ședința Camerei Deputaților din 25 octombrie 2021"
+        },
+        {
+          "data": "2021-10-26",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru şedinţa Camerei Deputaţilor din 2 - 3 noiembrie 2021"
+        },
+        {
+          "data": "2021-11-03",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 8 - 9 noiembrie 2021"
+        },
+        {
+          "data": "2021-11-09",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 15 - 16 noiembrie 2021"
+        },
+        {
+          "data": "2021-11-16",
+          "eveniment": "dezbatere în plenul Camerei Deputatilor consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2021-11-16",
+          "eveniment": "proiectul de lege pentru aprobarea ordonantei de urgenta adoptat de Camera Deputatilor rezultat vot pentru=309, contra=0, abtineri=0, nu au votat=1 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2021-11-22",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2021-11-24",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2021-12-13",
+          "eveniment": "promulgata prin Decret nr. 1289/2021"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/200/50/6/em310.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/50/6/oug310.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/50/6/cl310.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/50/6/se310.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/50/6/as256.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/50/6/gv310.pdf",
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2021/av256.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2021/av256.pdf",
+        "https://www.cdep.ro/comisii/buget/pdf/2021/rp256.pdf",
+        "https://www.cdep.ro/docs/2021/cd256_21.pdf",
+        "https://www.cdep.ro/docs/2021/pr256_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19368"
+    },
+    {
+      "id": "d1a49e7da4856180",
+      "cdep_idp": 18777,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 220/2021",
+      "nr_camera_deputati": "220/25.05.2021",
+      "nr_senat": "B405/2020",
+      "nr_guvern": "E151/09.07.2020",
+      "nr_bpi": "586/15-07-2020",
+      "titlu": "Proiect de Lege pentru aprobarea contului general de execuţie a bugetului de stat, a contului anual de execuţie a bugetului Fondului naţional unic de asigurări sociale de sănătate şi a contului general anual al datoriei publice aferente anului 2019",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-05-25",
+      "data_inregistrare_cd": "2021-05-25",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-06-08",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-05-25",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2021-05-25",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-05-25",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 08.06.2021 termen depunere raport: 23.06.2021"
+        },
+        {
+          "data": "2021-06-09",
+          "eveniment": "primire aviz de la: Comisia pentru sănătate şi familie"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/200/20/0/em586.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/0/pl586.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/0/ces586.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/0/cl586.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/0/vol1.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/0/vol2.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/0/vol3.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/0/vol4.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/0/vol5.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/0/vol6.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/0/ax11bp586.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/0/gv220.pdf",
+        "https://www.cdep.ro/comisii/sanatate/pdf/2021/av220.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=18777"
+    },
+    {
+      "id": "9bcb92aa4d0c57c8",
+      "cdep_idp": 18778,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 221/2021",
+      "nr_camera_deputati": "221/25.05.2021",
+      "nr_senat": "B406/2020",
+      "nr_guvern": "E152/09.07.2020",
+      "nr_bpi": "587/15-07-2020",
+      "titlu": "Proiect de Lege pentru aprobarea contului general anual de execuţie a bugetului asigurărilor sociale de stat pe anul 2019 şi a contului general anual de execuţie a bugetului asigurărilor pentru şomaj pe anul 2019",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-05-25",
+      "data_inregistrare_cd": "2021-05-25",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-06-08",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-05-25",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2021-05-25",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-05-25",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 08.06.2021 termen depunere raport: 23.06.2021"
+        },
+        {
+          "data": "2021-12-23",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/200/20/1/em587.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/1/pl587.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/1/ax587.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/1/ces587.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/1/cl587.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/1/gv221.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2021/av221.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=18778"
+    },
+    {
+      "id": "3edfb6cc6a624648",
+      "cdep_idp": 18913,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 222/2021",
+      "nr_camera_deputati": "222/25.05.2021",
+      "nr_senat": "B544/2020",
+      "nr_guvern": "E209/10.09.2020",
+      "nr_bpi": "746/14-09-2020",
+      "titlu": "Proiect de Lege privind aprobarea Ordonanţei de urgenţă a Guvernului nr.161/2020 pentru completarea art.12 din Ordonanţa de urgenţă a Guvernului nr.135/2020 cu privire la rectificarea bugetului de stat pe anul 2020, modificarea unor acte normative şi stabilirea unor măsuri bugetare",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-05-25",
+      "data_inregistrare_cd": "2021-05-25",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-06-08",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-05-25",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2021-05-25",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-05-25",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 08.06.2021 termen depunere raport: 23.06.2021"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/200/20/2/em746.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/2/pl746.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/2/oug746.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/2/ces746.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/2/cl746.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/2/gv222.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=18913"
+    },
+    {
+      "id": "e3b26681fffeb601",
+      "cdep_idp": 19030,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 223/2021",
+      "nr_camera_deputati": "223/25.05.2021",
+      "nr_senat": "B709/2020",
+      "nr_guvern": "E261/23.11.2020",
+      "nr_bpi": "894/24-11-2020",
+      "titlu": "Proiect de Lege pentru aprobarea Ordonanţei de urgenţă a Guvernului nr.201/2020 cu privire la rectificarea bugetului de stat pe anul 2020",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-05-25",
+      "data_inregistrare_cd": "2021-05-25",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-06-08",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-05-25",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2021-05-25",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-05-25",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 08.06.2021 termen depunere raport: 23.06.2021"
+        },
+        {
+          "data": "2021-06-08",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2021-06-09",
+          "eveniment": "primire aviz de la: Comisia pentru afaceri europene"
+        },
+        {
+          "data": "2021-06-10",
+          "eveniment": "primire aviz de la: Comisia pentru învăţământ"
+        },
+        {
+          "data": "2021-06-14",
+          "eveniment": "primire aviz de la: Comisia pentru administraţie publică şi amenajarea teritoriului"
+        },
+        {
+          "data": "2021-06-15",
+          "eveniment": "primire aviz de la: Comisia parlamentară specială pentru controlul activităţii Serviciului de Informaţii Externe"
+        },
+        {
+          "data": "2021-06-16",
+          "eveniment": "primire aviz de la: Comisia pentru mediu şi echilibru ecologic"
+        },
+        {
+          "data": "2021-06-24",
+          "eveniment": "primire aviz de la: Comisia pentru sănătate şi familie"
+        },
+        {
+          "data": "2021-09-15",
+          "eveniment": "primire aviz de la: Comisia pentru politică economică, reformă şi privatizare"
+        },
+        {
+          "data": "2021-09-28",
+          "eveniment": "primire aviz de la: Comisia pentru transporturi şi infrastructură"
+        },
+        {
+          "data": "2021-12-23",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        },
+        {
+          "data": "2022-04-01",
+          "eveniment": "primire aviz de la: Comisia pentru tineret și sport"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/200/20/3/em894.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/3/pl894.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/3/oug894.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/3/opconsfisc894.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/3/ces894.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/3/cl894.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/3/csat894.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/3/gv223.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/afaceri_europene/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/invatamant/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/controlul_sie/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/controlul_sri/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/mediu/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/industrii/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/sanatate/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/economica/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/transport/pdf/2025/av223_21.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/cultura/pdf/2021/av223.pdf",
+        "https://www.cdep.ro/comisii/sport/pdf/2022/av223_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19030"
+    },
+    {
+      "id": "7d6c1d28b0d1169e",
+      "cdep_idp": 19031,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 224/2021",
+      "nr_camera_deputati": "224/25.05.2021",
+      "nr_senat": "B710/2020",
+      "nr_guvern": "E262/23.11.2020",
+      "nr_bpi": "895/24-11-2020",
+      "titlu": "Proiect de Lege privind aprobarea Ordonanţei de urgenţă a Guvernului nr.202/2020 pentru rectificarea bugetului asigurărilor sociale de stat pe anul 2020",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-05-25",
+      "data_inregistrare_cd": "2021-05-25",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-06-08",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-05-25",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2021-05-25",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-05-25",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 08.06.2021 termen depunere raport: 23.06.2021"
+        },
+        {
+          "data": "2021-05-25",
+          "eveniment": "trimis pentru aviz la: Comisia pentru muncă şi protecţie socială termen: 14-06-2021"
+        },
+        {
+          "data": "2021-12-23",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/200/20/4/em895.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/4/pl895.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/4/oug895.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/4/opconsfisc895.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/4/ces895.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/4/cl895.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/4/gv224.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2021/av224.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19031"
+    },
+    {
+      "id": "3fb9b5f180f63ef7",
+      "cdep_idp": 19239,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "Pl-x nr. 225/2021",
+      "nr_camera_deputati": "225/25.05.2021",
+      "nr_senat": null,
+      "nr_guvern": null,
+      "nr_bpi": "140/31-03-2021",
+      "titlu": "Propunere legislativă pentru modificarea şi completarea Legii nr.96/2006 privind Statutul deputaţilor şi al senatorilor",
+      "tip": "propunere_legislativa",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "69 deputati+senatori, din care: deputati - neafiliati: Benga Tudor - Vlad , Cambera Oana-Alexandra , Chichirău Cosette-Paula , Ciornei Radu Tudor , Ichim Cristian-Paul , Lupu Andrei-Răzvan , Prunean Alin-Costel , Sas Lóránt-Zoltan , Teniţă Dragoş-Cătălin , Toda Daniel-Liviu , Tulbure Simina-Geanina-Daniela deputati - PSD: Gheba Daniel-Sorin , Rizea Cristina Camelia , Todosiu Beniamin deputati - PNL: Lazăr Ion-Marian , Özmen Oana-Marciana deputati - USR: Apostol Alin-Gabriel , Badea Mihai-Alexandru , Barna Ilie Dan , Băltăreţu Viorel , Berescu Monica-Elena , Blaga Daniel-Codruţ , Botez Mihai-Cătălin , Bulai Iulian , Buzoianu Diana-Anda , Cristian Brian , Dehelean Silviu , Drancă Andrei-Iulian , Drulă Cătălin , Fălcoi Nicu , Giurgiu Adrian , Hangan Pollyanna-Hanellore , Havârneanu Filip , Ilie Victor , Ion Stelian-Cristian , Lazăr Teodor , Lőrincz Ştefan-Iulian , Miftode Marius-Andrei , Miruţă Radu-Dinel , Moşteanu Liviu-Ionuţ , Murariu Oana , Năsui Claudiu-Iulius-Gavril , Neagu Denisa-Elena , Panait Radu , Prună Cristina-Mădălina , Rodeanu Bogdan-Ionel , Seidler Cristian-Gabriel , Stoica Diana , Terente Eugen , Ţoiu Oana-Silvia , Ungureanu Emanuel-Dumitru senatori - neafiliati: Popescu Ion-Dragoş , Poteraş Cosmin-Marian senatori - PSD: Mîndruţă Gheorghiţă senatori - USR: Berea Cristinel-Gabriel , Bodea Marius , Cernic Sebastian , Dinică Silvia-Monica , Ghica Cristian , Ivan Dan , Mihail Radu-Mihai , Negoi Eugen-Remus , Oprinoiu Aurel , Spătaru Elena-Simona , Trifan Raoul-Adrian , Viaşu Cosmin-Cristian , Vicol Costel , Vlad Sergiu Cosmin , Zob Alexandru-Robert",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-05-25",
+      "data_inregistrare_cd": "2021-05-25",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-05-25",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-05-25",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa iniţiatorului"
+        },
+        {
+          "data": "2021-05-25",
+          "eveniment": "solicitare punct de vedere de la Guvern termen: 03-06-2021"
+        },
+        {
+          "data": "2021-06-02",
+          "eveniment": "primire aviz de la Consiliul Legislativ - cu nr.391/02.06.2021 (favorabil) Avizul Consiliului Legislativ"
+        },
+        {
+          "data": "2021-07-01",
+          "eveniment": "primire punct de vedere de la Guvern - cu nr.6488/29.06.2021 Parlamentul va decide asupra oportunității adoptării acestei inițiative legislative. Punctul de vedere al Guvernului"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/200/20/5/em140.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/5/pl140.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/5/in225.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/5/cl225_2021.pdf",
+        "https://www.cdep.ro/proiecte/2021/200/20/5/pvg%20225_2021.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19239"
+    },
+    {
+      "id": "10731ce5fd71d8cf",
+      "cdep_idp": 19156,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "Pl-x nr. 164/2021",
+      "nr_camera_deputati": "164/21.04.2021",
+      "nr_senat": "L72/22.03.2021",
+      "nr_guvern": null,
+      "nr_bpi": "43/09-02-2021 194/20-04-2021",
+      "titlu": "Propunere legislativă privind repatrierea Sfinţilor Mărturisitori Ardeleni",
+      "tip": "propunere_legislativa",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "11 deputati, din care: - neafiliati: Chira Claudiu-Martin - PSD: Stoian Maria - PNL: Banciu Ionuţ-Sorin , Bîlcea Ovidiu-Sergiu , Burciu Cristina , Căuş Vasile-Aurel , Cupşa Ioan , Gheorghe Andrei Daniel , Hărătău Elena , Stănescu Vetuţa - AUR: Flucuş Dumitru",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-02-10",
+      "data_inregistrare_cd": "2021-04-21",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-02-10",
+          "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor Adresa iniţiatorului"
+        },
+        {
+          "data": "2021-02-10",
+          "eveniment": "înaintat la Senat"
+        },
+        {
+          "data": "2021-04-19",
+          "eveniment": "respinsa de catre Senat"
+        },
+        {
+          "data": "2021-04-21",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-05-05",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2021-05-18",
+          "eveniment": "primire aviz de la: Comisia pentru administraţie publică şi amenajarea teritoriului"
+        },
+        {
+          "data": "2022-06-06",
+          "eveniment": "primire punct de vedere de la Guvern - cu nr.5959/31.05.2022 (negativ) Punctul de vedere al Guvernului"
+        },
+        {
+          "data": "2025-11-12",
+          "eveniment": "primire aviz de la: Comisia pentru politică externă"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/100/60/4/em194.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/60/4/pl194.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/60/4/ces194.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/60/4/cl194.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/60/4/in43.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/60/4/as164.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/60/4/in194.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2021/av164.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2021/av164.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/60/4/pvg164_2021.pdf",
+        "https://www.cdep.ro/comisii/politica_externa/pdf/2025/av164_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19156"
+    },
+    {
+      "id": "b48b3541d647cde9",
+      "cdep_idp": 19130,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 152/2021",
+      "nr_camera_deputati": "152/14.04.2021",
+      "nr_senat": "L63/22.03.2021",
+      "nr_guvern": null,
+      "nr_bpi": "11/01-02-2021 172/13-04-2021",
+      "titlu": "Proiect de Lege pentru completarea articolului 82 din Legea nr.196/2018 privind înfiinţarea, organizarea şi funcţionarea asociaţiilor de proprietari şi administrarea condominiilor",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "1 deputat - PNL: Roman Florin-Claudiu",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "raport depus; urmeaza sa intre pe ordinea de zi",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-02-08",
+      "data_inregistrare_cd": "2021-04-14",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": "2021-04-12",
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-02-08",
+          "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor Adresa iniţiatorului"
+        },
+        {
+          "data": "2021-02-08",
+          "eveniment": "înaintat la Senat"
+        },
+        {
+          "data": "2021-04-12",
+          "eveniment": "adoptat de Senat Forma adoptată de Senat"
+        },
+        {
+          "data": "2021-04-14",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-04-20",
+          "eveniment": "primire aviz de la: Comisia pentru egalitatea de şanse pentru femei şi bărbaţi"
+        },
+        {
+          "data": "2021-04-27",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2021-12-14",
+          "eveniment": "primire aviz de la: Comisia pentru industrii şi servicii"
+        },
+        {
+          "data": "2025-11-25",
+          "eveniment": "primire raport de respingere de la: Comisia pentru administraţie publică şi amenajarea teritoriului Comisia juridică, de disciplină şi imunităţi face parte din categoria legilor ordinare"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/100/50/2/em172.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/50/2/ces172.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/50/2/cl172.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/50/2/in11.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/50/2/se172.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/50/2/as152.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/50/2/in172.pdf",
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2021/av152.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2021/av152.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/50/2/pvg152_2021.pdf",
+        "https://www.cdep.ro/comisii/industrii/pdf/2021/av152.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2025/rp152_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19130"
+    },
+    {
+      "id": "26edfd97e2b3fef6",
+      "cdep_idp": 19247,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "Pl-x nr. 147/2021",
+      "nr_camera_deputati": "147/12.04.2021",
+      "nr_senat": "L50/08.03.2021",
+      "nr_guvern": null,
+      "nr_bpi": "150/07-04-2021",
+      "titlu": "Propunere legislativă pentru completarea art.164 din Legea nr.53/2003 - Codul muncii",
+      "tip": "propunere_legislativa",
+      "caracter": "organic",
+      "procedura_urgenta": false,
+      "initiator": "6 deputati+senatori, din care: deputati - PSD: Budăi Marius-Constantin , Manta Claudiu , Şimon Gheorghe , Şlincu Dan-Constantin , Weber Mihai senatori - PSD: Rujan Ion-Cristinel",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "raport depus; urmeaza sa intre pe ordinea de zi",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2021-04-12",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-04-06",
+          "eveniment": "respinsa de catre Senat"
+        },
+        {
+          "data": "2021-04-12",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-04-20",
+          "eveniment": "primire aviz de la: Comisia pentru egalitatea de şanse pentru femei şi bărbaţi"
+        },
+        {
+          "data": "2021-06-03",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2022-07-04",
+          "eveniment": "primire punct de vedere de la Guvern - cu nr.7979/29.06.2022 (negativ) Punctul de vedere al Guvernului"
+        },
+        {
+          "data": "2026-02-04",
+          "eveniment": "primire raport de respingere de la: Comisia pentru muncă şi protecţie socială face parte din categoria legilor organice"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/100/40/7/em150.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/40/7/pl150.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/40/7/ces150.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/40/7/cl150.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/40/7/as147.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/40/7/in150.pdf",
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2021/av147.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2021/av147.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2021/av147.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/40/7/pvg147_2021.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2026/rp147_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19247"
+    },
+    {
+      "id": "94d87a72cd5b39e8",
+      "cdep_idp": 19191,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "Pl-x nr. 118/2021",
+      "nr_camera_deputati": "118/09.03.2021",
+      "nr_senat": null,
+      "nr_guvern": null,
+      "nr_bpi": "85/04-03-2021",
+      "titlu": "Propunere legislativă pentru modificarea şi completarea Legii nr.96/2006 privind Statutul deputaţilor şi al senatorilor",
+      "tip": "propunere_legislativa",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "39 deputati+senatori, din care: deputati - neafiliati: Cambera Oana-Alexandra , Ciornei Radu Tudor , Ichim Cristian-Paul , Lupu Andrei-Răzvan , Poliţeanu Mihai-Laurenţiu , Prunean Alin-Costel , Teniţă Dragoş-Cătălin , Toda Daniel-Liviu deputati - PSD: Gheba Daniel-Sorin , Rizea Cristina Camelia deputati - PNL: Lazăr Ion-Marian , Özmen Oana-Marciana deputati - USR: Apostol Alin-Gabriel , Badea Mihai-Alexandru , Barna Ilie Dan , Bulai Iulian , Buzoianu Diana-Anda , Cristian Brian , Fălcoi Nicu , Havârneanu Filip , Lőrincz Ştefan-Iulian , Miftode Marius-Andrei , Moşteanu Liviu-Ionuţ , Murariu Oana , Neagu Denisa-Elena , Prună Cristina-Mădălina , Rodeanu Bogdan-Ionel , Ţoiu Oana-Silvia senatori - PSD: Mîndruţă Gheorghiţă senatori - USR: Berea Cristinel-Gabriel , Cernic Sebastian , Darău Ambrozie-Irineu , Mihail Radu-Mihai , Negoi Eugen-Remus , Pălărie Ştefan , Spătaru Elena-Simona , Viaşu Cosmin-Cristian , Vicol Costel , Vlad Sergiu Cosmin",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-03-09",
+      "data_inregistrare_cd": "2021-03-09",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-03-09",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa iniţiatorului"
+        },
+        {
+          "data": "2021-03-09",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-03-23",
+          "eveniment": "primire aviz de la Consiliul Legislativ - cu nr.139/22.02.2021 (favorabil) Avizul Consiliului Legislativ"
+        },
+        {
+          "data": "2021-04-26",
+          "eveniment": "primire punct de vedere de la Guvern - cu nr.3264/23.04.2021 Parlamentul va decide asupra oportunității adoptării acestei inițiative legislative Punctul de vedere al Guvernului"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/100/10/8/em85.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/8/pl85.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/8/in118.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/8/cl118_2021.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/8/pvg118_2021.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19191"
+    },
+    {
+      "id": "8be7f60723a2f396",
+      "cdep_idp": 19186,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 113/2021",
+      "nr_camera_deputati": "113/08.03.2021",
+      "nr_senat": "L8/2021",
+      "nr_guvern": "E282/30.12.2020",
+      "nr_bpi": "80/04-03-2021",
+      "titlu": "Proiect de Lege privind aprobarea Ordonanţei de urgenţă a Guvernului nr.221/2020 pentru modificarea şi completarea Ordonanţei Guvernului nr.37/2007 privind stabilirea cadrului de aplicare a regulilor privind perioadele de conducere, pauzele şi perioadele de odihnă ale conducătorilor auto şi utilizarea aparatelor de înregistrare a activităţii acestora",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 173/2021 LEGE privind aprobarea Ordonanţei de urgentă a Guvernului nr. 221/2020 pentru modificarea şi completarea Ordonanţei Guvernului nr. 37/2007 privind stabilirea cadrului de aplicare a regulilor privind perioadele de conducere, pauzele şi perioadele de odihnă ale conducătorilor auto şi utilizarea aparatelor de înregistrare a activităţii acestora",
+      "lege_nr": "173/2021",
+      "decret_nr": "747/2021",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2021-03-08",
+      "data_adoptare_cd": "2021-06-03",
+      "data_adoptare_senat": "2021-03-03",
+      "data_promulgare": "2021-06-28",
+      "vot_pentru": 288,
+      "vot_contra": 0,
+      "vot_abtineri": 0,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": 30,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/munca/pdf/2021/rp113.pdf",
+      "timeline": [
+        {
+          "data": "2021-03-03",
+          "eveniment": "proiectul de lege pentru aprobarea ordonantei de urgenta adoptat de Senat ca urmare a depasirii termenului de adoptare, potrivit art.115 alin.(5) din Constitutia României republicata Forma adoptată de Senat"
+        },
+        {
+          "data": "2021-03-08",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-04-20",
+          "eveniment": "primire raport favorabil aprobarii ordonantei de urgenta (30 amend. admise) de la: Comisia pentru muncă şi protecţie socială Comisia pentru transporturi şi infrastructură face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2021-05-05",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor din zilele de luni, 10 și miercuri, 12 mai 2021"
+        },
+        {
+          "data": "2021-06-02",
+          "eveniment": "dezbatere în plenul Camerei Deputatilor( rămas pentru votul final ) consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2021-06-03",
+          "eveniment": "proiectul de lege pentru aprobarea ordonantei de urgenta adoptat de Camera Deputatilor rezultat vot pentru=288, contra=0, abtineri=0 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2021-06-07",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2021-06-09",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2021-06-28",
+          "eveniment": "promulgata prin Decret nr. 747/2021"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/100/10/3/em80.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/3/oug80.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/3/cl80.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/3/se80.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/3/as113.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/3/gv80.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2021/rp113.pdf",
+        "https://www.cdep.ro/docs/2021/cd113_21.pdf",
+        "https://www.cdep.ro/docs/2021/pr113_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19186"
+    },
+    {
+      "id": "c42ccdfc623317b1",
+      "cdep_idp": 19178,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 109/2021",
+      "nr_camera_deputati": "109/23.02.2021",
+      "nr_senat": "L35/2021",
+      "nr_guvern": "E18/22.02.2021",
+      "nr_bpi": "67/23-02-2021",
+      "titlu": "Proiectul Legii bugetului de stat pe anul 2021",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "Lege 15/2021 Legea bugetului de stat pe anul 2021",
+      "lege_nr": "15/2021",
+      "decret_nr": "173/2021",
+      "data_prezentare": "2021-02-23",
+      "data_inregistrare_cd": "2021-02-23",
+      "data_adoptare_cd": "2021-03-02",
+      "data_adoptare_senat": "2021-03-02",
+      "data_promulgare": null,
+      "vot_pentru": 234,
+      "vot_contra": 170,
+      "vot_abtineri": 0,
+      "amendamente_termen_depunere": "2021-02-25",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/buget/pdf/2021/rp109.pdf",
+      "timeline": [
+        {
+          "data": "2021-02-23",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2021-02-23",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-02-23",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 25.02.2021, ora 10:00 termen depunere raport: 01.03.2021, ora 10:00"
+        },
+        {
+          "data": "2021-02-25",
+          "eveniment": "primire aviz de la: Comisia pentru egalitatea de şanse pentru femei şi bărbaţi - anexa 3/42"
+        },
+        {
+          "data": "2021-03-01",
+          "eveniment": "primire raport de la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul"
+        },
+        {
+          "data": "2021-03-02",
+          "eveniment": "adoptat în sedinta comuna a celor doua Camere rezultat vot pentru=234, contra=170, abtineri=0 Forma pentru promulgare"
+        },
+        {
+          "data": "2021-03-08",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/100/00/9/pl109.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/ces109.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/cl109.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/declconf109.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/opiniaCF.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/rap%20macro%20109.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/csat109.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/anexa1.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/anexa2.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/anexa4.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/anexa5.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/anexa6.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/anexa7.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/anexa7_01.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/anexa7_02.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/anexa7_03.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/anexa8.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/anexa9.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/anexa10.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/anexa11.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/9/gv109.pdf",
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2021/av109.pdf",
+        "https://www.cdep.ro/comisii/tehnologia_informatiei/pdf/2021/av109.pdf",
+        "https://www.cdep.ro/comisii/revolutionari/pdf/2021/av109.pdf",
+        "https://www.cdep.ro/comisii/controlul_sri/pdf/2021/av109.pdf",
+        "https://www.cdep.ro/comisii/politica_externa/pdf/2021/av109.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2021/av109.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2021/av109.pdf",
+        "https://www.cdep.ro/comisii/cultura/pdf/2021/av109.pdf",
+        "https://www.cdep.ro/comisii/invatamant/pdf/2021/av109.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19178"
+    },
+    {
+      "id": "e77fd34b06fdf7ee",
+      "cdep_idp": 19179,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 110/2021",
+      "nr_camera_deputati": "110/23.02.2021",
+      "nr_senat": "L36/2021",
+      "nr_guvern": "E16/19.02.2021",
+      "nr_bpi": "68/23-02-2021",
+      "titlu": "Proiectul Legii bugetului asigurărilor sociale de stat pe anul 2021",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "Lege 16/2021 Legea bugetului asigurărilor sociale de stat pe anul 2021",
+      "lege_nr": "16/2021",
+      "decret_nr": "174/2021",
+      "data_prezentare": "2021-02-23",
+      "data_inregistrare_cd": "2021-02-23",
+      "data_adoptare_cd": "2021-03-02",
+      "data_adoptare_senat": "2021-03-02",
+      "data_promulgare": null,
+      "vot_pentru": 254,
+      "vot_contra": 128,
+      "vot_abtineri": 0,
+      "amendamente_termen_depunere": "2021-02-25",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/buget/pdf/2021/rp110.pdf",
+      "timeline": [
+        {
+          "data": "2021-02-23",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2021-02-23",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-02-23",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 25.02.2021, ora 10:00 termen depunere raport: 01.03.2021, ora 10:00"
+        },
+        {
+          "data": "2021-02-25",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        },
+        {
+          "data": "2021-03-01",
+          "eveniment": "primire raport de la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul"
+        },
+        {
+          "data": "2021-03-02",
+          "eveniment": "adoptat în sedinta comuna a celor doua Camere rezultat vot pentru=254, contra=128, abtineri=0 Forma pentru promulgare"
+        },
+        {
+          "data": "2021-03-08",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/100/10/0/em110.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/0/pl110.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/0/ax110.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/0/ces110.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/0/cl110.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/0/opiniaCF110.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/10/0/gv110.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2021/av110.pdf",
+        "https://www.cdep.ro/comisii/buget/pdf/2021/rp110.pdf",
+        "https://www.cdep.ro/docs/2021/pr110_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19179"
+    },
+    {
+      "id": "6fb5ec0f6ca3ee74",
+      "cdep_idp": 19177,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 108/2021",
+      "nr_camera_deputati": "108/22.02.2021",
+      "nr_senat": "L76/2021",
+      "nr_guvern": "E12/18.02.2021",
+      "nr_bpi": "66/22-02-2021",
+      "titlu": "Proiect de Lege privind desfiinţarea Secţiei pentru investigarea infracţiunilor din justiţie",
+      "tip": "proiect_lege",
+      "caracter": "organic",
+      "procedura_urgenta": false,
+      "initiator": "Guvern",
+      "camera_decizionala": "Senatul",
+      "stadiu": "procedura legislativa încetata prin respingere definitiva de catre Senat",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-02-22",
+      "data_inregistrare_cd": "2021-02-22",
+      "data_adoptare_cd": "2021-03-24",
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": 171,
+      "vot_contra": 136,
+      "vot_abtineri": 0,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/juridica/pdf/2021/rp108.pdf",
+      "timeline": [
+        {
+          "data": "2021-02-22",
+          "eveniment": "prezentare în Biroul Permanent al Senatului nu s-a aprobat procedura de urgență solicitată Adresa Guvernului"
+        },
+        {
+          "data": "2021-02-22",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-03-10",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2021-03-19",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        },
+        {
+          "data": "2021-03-22",
+          "eveniment": "primire raport favorabil (8 amend. admise, 5 amend. respinse) de la: Comisia juridică, de disciplină şi imunităţi face parte din categoria legilor organice"
+        },
+        {
+          "data": "2021-03-23",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor"
+        },
+        {
+          "data": "2021-03-24",
+          "eveniment": "dezbatere în plenul Camerei Deputatilor consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2021-03-24",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=171, contra=136, abtineri=0, nu au votat=2 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră"
+        },
+        {
+          "data": "2021-03-24",
+          "eveniment": "înaintat la Senat"
+        },
+        {
+          "data": "2022-02-28",
+          "eveniment": "respins de catre Senat"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/100/00/8/em66.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/8/pl66.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/8/csm66.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/8/cl66.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/8/gv108.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2021/av108.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2021/av108.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2021/rp108.pdf",
+        "https://www.cdep.ro/docs/2021/cd108_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19177"
+    },
+    {
+      "id": "e35a712e3d1d08f8",
+      "cdep_idp": 19162,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 98/2021",
+      "nr_camera_deputati": "98/16.02.2021",
+      "nr_senat": "L30/2021",
+      "nr_guvern": "E7/03.02.2021",
+      "nr_bpi": "48/15-02-2021",
+      "titlu": "Proiect de Lege pentru ratificarea Deciziei (UE, EURATOM) 2020/2053 a Consiliului din 14 decembrie 2020 privind sistemul de resurse proprii ale Uniunii Europene şi de abrogare a Deciziei 2014/335/UE, Euratom, adoptată la Bruxelles",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "Lege 150/2021 LEGE pentru ratificarea Deciziei (UE, EURATOM) 2020/2.053 a Consiliului din 14 decembrie 2020 privind sistemul de resurse proprii ale Uniunii Europene şi de abrogare a Deciziei 2014/335/UE, Euratom, adoptată la Bruxelles",
+      "lege_nr": "150/2021",
+      "decret_nr": "662/2021",
+      "data_prezentare": "2021-02-16",
+      "data_inregistrare_cd": "2021-02-16",
+      "data_adoptare_cd": "2021-05-26",
+      "data_adoptare_senat": "2021-05-26",
+      "data_promulgare": null,
+      "vot_pentru": 378,
+      "vot_contra": 2,
+      "vot_abtineri": 3,
+      "amendamente_termen_depunere": "2021-02-26",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-02-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului s-a aprobat procedura de urgență solicitată Adresa Preşedintelui României Adresa Guvernului"
+        },
+        {
+          "data": "2021-02-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-02-16",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 26.02.2021 termen depunere raport: 01.03.2021"
+        },
+        {
+          "data": "2021-02-26",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2021-03-01",
+          "eveniment": "primire raport de la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul"
+        },
+        {
+          "data": "2021-05-26",
+          "eveniment": "înscris pe ordinea de zi a sedintelor comune ale celor doua Camere"
+        },
+        {
+          "data": "2021-05-26",
+          "eveniment": "adoptat în sedinta comuna a celor doua Camere rezultat vot pentru=378, contra=2, abtineri=3 consultati stenograma sedintei sau înregistrarea video Forma pentru promulgare"
+        },
+        {
+          "data": "2021-05-28",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/000/90/8/em48.pdf",
+        "https://www.cdep.ro/proiecte/2021/000/90/8/pl48.pdf",
+        "https://www.cdep.ro/proiecte/2021/000/90/8/decret48.pdf",
+        "https://www.cdep.ro/proiecte/2021/000/90/8/cl48.pdf",
+        "https://www.cdep.ro/proiecte/2021/000/90/8/ap98.pdf",
+        "https://www.cdep.ro/proiecte/2021/000/90/8/gv48.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2021/av098.pdf",
+        "https://www.cdep.ro/comisii/buget/pdf/2021/rp098;1.pdf",
+        "https://www.cdep.ro/docs/2021/pr098_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19162"
+    },
+    {
+      "id": "a166abbfa1b8a8d9",
+      "cdep_idp": 19145,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "Pl-x nr. 99/2021",
+      "nr_camera_deputati": "99/16.02.2021",
+      "nr_senat": "L26/2021",
+      "nr_guvern": null,
+      "nr_bpi": "31/05-02-2021",
+      "titlu": "Propunere legislativă privind modificarea Legii nr.96/2006 privind Statutul deputaţilor şi al senatorilor",
+      "tip": "propunere_legislativa",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "20 deputati+senatori, din care: deputati - neafiliati: Bola Bogdan-Alexandru , Kocsis-Cristea Alexandru , Şovăială Constantin deputati - PNL: Alexe Florin-Alexandru , Andrei Alexandru-Ioan , Ardelean Ben-Oni , Banciu Ionuţ-Sorin , Băcanu Cristian-Tudor , Bota Călin-Ioan , Burduja Sebastian-Ioan , Calista Mara-Daniela , Cruşoveanu Marian , Făgărăşian Valentin-Ilie , Fechet Mircea , Horga Maria-Gabriela , Huţucă Bogdan-Iulian , Muraru Iulian-Alexandru , Polak Tudor , Şoptică Costel , Tuţă George-Cristian",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-02-16",
+      "data_inregistrare_cd": "2021-02-16",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-02-17",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2021-02-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa iniţiatorului"
+        },
+        {
+          "data": "2021-02-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-02-16",
+          "eveniment": "trimis pentru raport la: Comisia permanentă a Camerei Deputaţilor şi Senatului privind Statutul deputaţilor şi al senatorilor, organizarea şi funcţionarea şedinţelor comune ale Camerei Deputaţilor şi Senatului termen depunere amendamente: 17.02.2021 termen depunere raport: 22.02.2021"
+        },
+        {
+          "data": "2021-02-17",
+          "eveniment": "primire aviz de la Consiliul Legislativ - cu nr.49/17.02.2021 (favorabil) Avizul Consiliului Legislativ"
+        },
+        {
+          "data": "2021-03-25",
+          "eveniment": "primire punct de vedere de la Guvern - cu nr.1809/24.03.2021 Parlamentul va decide asupra oportunității adoptării acestei inițiative legislative Punctul de vedere al Guvernului"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/000/90/9/em31.pdf",
+        "https://www.cdep.ro/proiecte/2021/000/90/9/pl31.pdf",
+        "https://www.cdep.ro/proiecte/2021/000/90/9/in99.pdf",
+        "https://www.cdep.ro/proiecte/2021/000/90/9/cl99_2021.pdf",
+        "https://www.cdep.ro/proiecte/2021/000/90/9/pvg99_2021.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19145"
+    },
+    {
+      "id": "f07c2c3c236165c4",
+      "cdep_idp": 19157,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "Pl-x nr. 100/2021",
+      "nr_camera_deputati": "100/16.02.2021",
+      "nr_senat": "L27/2021",
+      "nr_guvern": null,
+      "nr_bpi": "44/09-02-2021",
+      "titlu": "Propunere legislativă pentru modificarea Legii 96/2006 privind Statutul deputaţilor şi senatorilor",
+      "tip": "propunere_legislativa",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "5 deputati+senatori, din care: deputati - PSD: Budăi Marius-Constantin , Ciolacu Ion-Marcel , Simonis Alfred - Robert senatori - PSD: Romaşcanu Lucian , Stănescu Paul",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "Lege 7/2021 LEGE pentru modificarea Legii nr. 96/2006 privind Statutul deputatilor si al senatorilor",
+      "lege_nr": "7/2021",
+      "decret_nr": "151/2021",
+      "data_prezentare": "2021-02-16",
+      "data_inregistrare_cd": "2021-02-16",
+      "data_adoptare_cd": "2021-02-17",
+      "data_adoptare_senat": "2021-02-17",
+      "data_promulgare": "2021-02-24",
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-02-17",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/statut/pdf/2021/rp100.pdf",
+      "timeline": [
+        {
+          "data": "2021-02-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa iniţiatorului"
+        },
+        {
+          "data": "2021-02-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-02-16",
+          "eveniment": "trimis pentru raport la: Comisia permanentă a Camerei Deputaţilor şi Senatului privind Statutul deputaţilor şi al senatorilor, organizarea şi funcţionarea şedinţelor comune ale Camerei Deputaţilor şi Senatului termen depunere amendamente: 17.02.2021 termen depunere raport: 22.02.2021"
+        },
+        {
+          "data": "2021-02-17",
+          "eveniment": "primire aviz de la Consiliul Legislativ - cu nr.50/17.02.2021 (favorabil) Avizul Consiliului Legislativ"
+        },
+        {
+          "data": "2021-02-17",
+          "eveniment": "dezbatere în plen reunit consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2021-02-17",
+          "eveniment": "primire raport de la: Comisia permanentă a Camerei Deputaţilor şi Senatului privind Statutul deputaţilor şi al senatorilor, organizarea şi funcţionarea şedinţelor comune ale Camerei Deputaţilor şi Senatului"
+        },
+        {
+          "data": "2021-02-17",
+          "eveniment": "înscris pe ordinea de zi a sedintelor comune ale celor doua Camere"
+        },
+        {
+          "data": "2021-02-17",
+          "eveniment": "adoptata în sedinta comuna a celor doua Camere Forma pentru promulgare"
+        },
+        {
+          "data": "2021-02-22",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2021-02-24",
+          "eveniment": "promulgata prin Decret nr. 151/2021"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/100/00/0/em44.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/0/pl44.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/0/in100.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/0/cl100_2021.pdf",
+        "https://www.cdep.ro/comisii/statut/pdf/2021/rp100.pdf",
+        "https://www.cdep.ro/docs/2021/pr100_21.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19157"
+    },
+    {
+      "id": "d1e329259cb32d0f",
+      "cdep_idp": 19163,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "Pl-x nr. 101/2021",
+      "nr_camera_deputati": "101/16.02.2021",
+      "nr_senat": "L28/04.02.2020",
+      "nr_guvern": null,
+      "nr_bpi": "50/16-02-2021",
+      "titlu": "Propunere legislativă privind abrogarea dispoziţiilor capitolului XI din Legea nr.96 din 21 aprilie 2006 privind statutul deputaţilor şi al senatorilor",
+      "tip": "propunere_legislativa",
+      "caracter": "organic",
+      "procedura_urgenta": false,
+      "initiator": "2 deputati, din care: - PNL: Andronache Gabriel , Roman Florin-Claudiu",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "procedura legislativa încetata prin respingere definitiva de catre ambele Camere",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-02-16",
+      "data_inregistrare_cd": "2021-02-16",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-02-17",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/statut/pdf/2021/rp101.pdf",
+      "timeline": [
+        {
+          "data": "2021-02-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa iniţiatorului"
+        },
+        {
+          "data": "2021-02-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-02-16",
+          "eveniment": "trimis pentru raport la: Comisia permanentă a Camerei Deputaţilor şi Senatului privind Statutul deputaţilor şi al senatorilor, organizarea şi funcţionarea şedinţelor comune ale Camerei Deputaţilor şi Senatului termen depunere amendamente: 17.02.2021 termen depunere raport: 22.02.2021"
+        },
+        {
+          "data": "2021-02-17",
+          "eveniment": "primire raport de la: Comisia permanentă a Camerei Deputaţilor şi Senatului privind Statutul deputaţilor şi al senatorilor, organizarea şi funcţionarea şedinţelor comune ale Camerei Deputaţilor şi Senatului"
+        },
+        {
+          "data": "2021-02-17",
+          "eveniment": "dezbatere în plen reunit consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2021-02-17",
+          "eveniment": "primire aviz de la Consiliul Legislativ - cu nr.51/17.02.2021 (favorabil) Avizul Consiliului Legislativ"
+        },
+        {
+          "data": "2021-02-17",
+          "eveniment": "primire raport de respingere de la: Comisia permanentă a Camerei Deputaţilor şi Senatului privind Statutul deputaţilor şi al senatorilor, organizarea şi funcţionarea şedinţelor comune ale Camerei Deputaţilor şi Senatului face parte din categoria legilor organice"
+        },
+        {
+          "data": "2021-02-17",
+          "eveniment": "respinsa în sedinta comuna a celor doua Camere"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/100/00/1/em101.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/1/pl101.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/1/in101.pdf",
+        "https://www.cdep.ro/comisii/statut/pdf/2021/rp101.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/1/cl101_2021.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19163"
+    },
+    {
+      "id": "4f7bc42254d20e01",
+      "cdep_idp": 19164,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "Pl-x nr. 102/2021",
+      "nr_camera_deputati": "102/16.02.2021",
+      "nr_senat": "L29/10.11.2021",
+      "nr_guvern": null,
+      "nr_bpi": "51/16-02-2021",
+      "titlu": "Propunere legislativă pentru abrogarea Cap.XI din Legea nr.96/2006 privind statutul deputaţillor şi al senatorilor",
+      "tip": "propunere_legislativa",
+      "caracter": "organic",
+      "procedura_urgenta": false,
+      "initiator": "80 deputati+senatori, din care: deputati - neafiliati: Benga Tudor - Vlad , Cambera Oana-Alexandra , Chichirău Cosette-Paula , Ciornei Radu Tudor , Ichim Cristian-Paul , Lupu Andrei-Răzvan , Poliţeanu Mihai-Laurenţiu , Prunean Alin-Costel , Sas Lóránt-Zoltan , Teniţă Dragoş-Cătălin , Toda Daniel-Liviu , Tulbure Simina-Geanina-Daniela deputati - PSD: Gheba Daniel-Sorin , Rizea Cristina Camelia , Todosiu Beniamin deputati - PNL: Lazăr Ion-Marian , Özmen Oana-Marciana deputati - USR: Apostol Alin-Gabriel , Badea Mihai-Alexandru , Barna Ilie Dan , Băltăreţu Viorel , Berescu Monica-Elena , Blaga Daniel-Codruţ , Botez Mihai-Cătălin , Bulai Iulian , Buzoianu Diana-Anda , Cristian Brian , Dehelean Silviu , Drancă Andrei-Iulian , Drulă Cătălin , Fălcoi Nicu , Giurgiu Adrian , Hangan Pollyanna-Hanellore , Havârneanu Filip , Ilie Victor , Ion Stelian-Cristian , Lazăr Teodor , Lőrincz Ştefan-Iulian , Miftode Marius-Andrei , Miruţă Radu-Dinel , Molnar Radu-Iulian , Moşteanu Liviu-Ionuţ , Murariu Oana , Năsui Claudiu-Iulius-Gavril , Neagu Denisa-Elena , Panait Radu , Pop Rareş Tudor , Prună Cristina-Mădălina , Rodeanu Bogdan-Ionel , Seidler Cristian-Gabriel , Stoica Diana , Terente Eugen , Ţoiu Oana-Silvia , Ungureanu Emanuel-Dumitru , Wiener Adrian senatori - neafiliati: Popescu Ion-Dragoş , Poteraş Cosmin-Marian senatori - PSD: Mîndruţă Gheorghiţă , Mureşan Claudiu-Marinel senatori - USR: Berea Cristinel-Gabriel , Bodea Marius , Bordei Cristian , Cernic Sebastian , Darău Ambrozie-Irineu , Dinică Silvia-Monica , Ghica Cristian , Ivan Dan , Mihail Radu-Mihai , Mircescu Ion-Narcis , Negoi Eugen-Remus , Oprinoiu Aurel , Pălărie Ştefan , Spătaru Elena-Simona , Trifan Raoul-Adrian , Viaşu Cosmin-Cristian , Vicol Costel , Vlad Sergiu Cosmin , Zob Alexandru-Robert senatori - neafiliati: Dragu Anca Dana , Postică Andrei",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "procedura legislativa încetata prin respingere definitiva de catre ambele Camere",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2021-02-16",
+      "data_inregistrare_cd": "2021-02-16",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2021-02-17",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/statut/pdf/2021/rp102.pdf",
+      "timeline": [
+        {
+          "data": "2021-02-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa iniţiatorului"
+        },
+        {
+          "data": "2021-02-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2021-02-16",
+          "eveniment": "trimis pentru raport la: Comisia permanentă a Camerei Deputaţilor şi Senatului privind Statutul deputaţilor şi al senatorilor, organizarea şi funcţionarea şedinţelor comune ale Camerei Deputaţilor şi Senatului termen depunere amendamente: 17.02.2021 termen depunere raport: 22.02.2021"
+        },
+        {
+          "data": "2021-02-17",
+          "eveniment": "primire aviz de la Consiliul Legislativ - cu nr.52/17.02.2021 (favorabil) Avizul Consiliului Legislativ"
+        },
+        {
+          "data": "2021-02-17",
+          "eveniment": "dezbatere în plen reunit consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2021-02-17",
+          "eveniment": "respinsa în sedinta comuna a celor doua Camere"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2021/100/00/2/em102.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/2/pl102.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/2/in102.pdf",
+        "https://www.cdep.ro/proiecte/2021/100/00/2/cl102_2021.pdf",
+        "https://www.cdep.ro/comisii/statut/pdf/2021/rp102.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19164"
+    }
+  ]
+}

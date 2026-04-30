@@ -1,0 +1,1387 @@
+{
+  "meta": {
+    "generated_at": "2026-04-30T18:31:58.830081Z",
+    "source_url": "split from /v1/proiecte/legislatura-2020.json",
+    "scraper_version": "0.1.0",
+    "count": 15
+  },
+  "data": [
+    {
+      "id": "3647dbc0920238f1",
+      "cdep_idp": 21443,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 816/2023",
+      "nr_camera_deputati": "816/27.12.2023",
+      "nr_senat": "L617/2023",
+      "nr_guvern": null,
+      "nr_bpi": "950/19-12-2023",
+      "titlu": "Proiect de Lege privind Registrul naţional automatizat cu privire la persoanele care au comis infracţiuni din sfera traficului de droguri, precum şi pentru completarea Legii nr.76/2008 privind organizarea şi funcţionarea Sistemului Naţional de Date Genetice Judiciare",
+      "tip": "proiect_lege",
+      "caracter": "organic",
+      "procedura_urgenta": false,
+      "initiator": "60 deputati+senatori, din care: deputati - PNL: Alexe Florin-Alexandru , Andronache Gabriel , Atanasiu Onuţ Valeriu , Avrămescu Gabriel-Ioan , Balan Ioan , Barcari Rodica-Luminiţa , Bode Lucian Nicolae , Bota Călin-Ioan , Burciu Cristina , Calista Mara-Daniela , Cazan Laurenţiu-Nicolae , Cozmanciuc Corneliu-Mugurel , Cupşa Ioan , Fădor Angelica , Făgărăşian Valentin-Ilie , Gheorghiu Bogdan , Gudu Michael , Hărătău Elena , Huţucă Bogdan-Iulian , Kiss János , Leoreanu Laurenţiu-Dan , Marşalic Jaro Norbert , Mărculescu Dumitru , Moisin Radu-Marin , Năcuţă Sorin , Özmen Oana-Marciana , Popescu Virgil-Daniel , Roman Florin-Claudiu , Stănescu Vetuţa , Şandru Cosmin , Şişcu George , Tătaru Nelu , Thellmann Christine , Trăilă Cristina senatori - neafiliati: Muntean Lucica Dina senatori - PNL: Anastase Roberta Alma , Anisie Monica-Cristina , Badea Viorel-Riceard , Banu Claudia-Mihaela , Bica Dănuţ , Bourceanu Septimiu-Sebastian , Brătescu Liviu , Cristina Ioan , Fenechiu Cătălin-Daniel , Gorghiu Alina-Ştefania , Guran Virgil , Hatos Adrian , Iordache Ion , Moş Patricia-Simina-Arina , Neagu Nicolae , Niculescu-Ţâgârlaş Cristian-Augustin , Pandea Ciprian , Pauliuc Nicoleta , Petcu Toma-Florin , Pîrvulescu Eugen , Pufu Vlad-Mircea , Răcuci Claudiu-Vasile , Scarlat George , Ţapu Nazare Eugen , Vela Ion-Marcel",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 61/2024 LEGE privind Registrul national automatizat cu privire la persoanele care au comis infractiuni din sfera traficului de droguri, precum si pentru completarea Legii nr. 76/2008 privind organizarea si functionarea Sistemului National de Date Genetice Judiciare",
+      "lege_nr": "61/2024",
+      "decret_nr": "264/2024",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2023-12-27",
+      "data_adoptare_cd": "2024-02-27",
+      "data_adoptare_senat": "2023-12-18",
+      "data_promulgare": "2024-03-25",
+      "vot_pentru": 246,
+      "vot_contra": 0,
+      "vot_abtineri": 4,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": 26,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2023-12-18",
+          "eveniment": "adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(1) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2023-12-27",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-02-06",
+          "eveniment": "primire aviz de la: Comisia pentru apărare, ordine publică şi siguranţă naţională"
+        },
+        {
+          "data": "2024-02-07",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2024-02-19",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului) sedinta Camerei Deputatilor din 19 - 20 februarie 2024"
+        },
+        {
+          "data": "2024-02-26",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului) pentru sedinta Camerei Deputatilor din 26 - 27 februarie 2024"
+        },
+        {
+          "data": "2024-02-27",
+          "eveniment": "primire raport (26 amend. admise) de la: Comisia juridică, de disciplină şi imunităţi face parte din categoria legilor organice"
+        },
+        {
+          "data": "2024-02-27",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=246, contra=0, abtineri=4, nu au votat=2 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2024-03-04",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2024-03-09",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2024-03-25",
+          "eveniment": "promulgata prin Decret nr. 264/2024"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/800/10/6/in950.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/10/6/em950.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/10/6/ces950.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/10/6/cl950.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/10/6/se950.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/10/6/as816.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2024/av816_23.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2024/av816_23.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2024/rp816_23.pdf",
+        "https://www.cdep.ro/docs/2023/pl816_cd816_23.pdf",
+        "https://www.cdep.ro/docs/2023/pl816_pr816_23.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21443"
+    },
+    {
+      "id": "b88316ae17228fdd",
+      "cdep_idp": 21434,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 804/2023",
+      "nr_camera_deputati": "804/18.12.2023",
+      "nr_senat": "L716/2023",
+      "nr_guvern": "E240/14.12.2023",
+      "nr_bpi": "939/18-12-2023",
+      "titlu": "Proiect de Lege pentru aprobarea plafoanelor unor indicatori specificaţi în cadrul fiscal-bugetar pe anul 2024",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 417/2023 LEGE pentru aprobarea plafoanelor unor indicatori specificati în cadrul fiscal-bugetar pe anul 2024",
+      "lege_nr": "417/2023",
+      "decret_nr": "1707/2023",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2023-12-18",
+      "data_adoptare_cd": "2023-12-19",
+      "data_adoptare_senat": "2023-12-18",
+      "data_promulgare": "2023-12-28",
+      "vot_pentru": 193,
+      "vot_contra": 90,
+      "vot_abtineri": 1,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/buget/pdf/2023/rp804.pdf",
+      "timeline": [
+        {
+          "data": "2023-12-18",
+          "eveniment": "adoptat de Senat Forma adoptată de Senat"
+        },
+        {
+          "data": "2023-12-18",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2023-12-19",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului)"
+        },
+        {
+          "data": "2023-12-19",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=193, contra=90, abtineri=1 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2023-12-19",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2023-12-21",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2023-12-28",
+          "eveniment": "promulgata prin Decret nr. 1707/2023"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/800/00/4/em939.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/4/ces939.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/4/cl939.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/4/fisc939.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/4/SFB2024_2026_939.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/4/se939.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/4/gv939.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/4/as804.pdf",
+        "https://www.cdep.ro/comisii/buget/pdf/2023/rp804.pdf",
+        "https://www.cdep.ro/docs/2023/cd804_23.pdf",
+        "https://www.cdep.ro/docs/2023/pr804_23.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21434"
+    },
+    {
+      "id": "ad678eae70f53b5f",
+      "cdep_idp": 21435,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 805/2023",
+      "nr_camera_deputati": "805/18.12.2023",
+      "nr_senat": "L713/2023",
+      "nr_guvern": null,
+      "nr_bpi": "940/18-12-2023",
+      "titlu": "Proiect de Lege privind unele măsuri pentru consolidarea capacităţii de combatere a evaziunii fiscale precum şi pentru modificarea şi completarea unor acte normative",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "2 deputati+senatori, din care: deputati - PSD: Ciolacu Ion-Marcel senatori - PNL: Ciucă Nicolae-Ionel",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 126/2024 LEGE privind unele măsuri pentru consolidarea capacitătii de combatere a evaziunii fiscale, precum si pentru modificarea si completarea unor acte normative",
+      "lege_nr": "126/2024",
+      "decret_nr": "844/2024",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2023-12-18",
+      "data_adoptare_cd": "2023-12-19",
+      "data_adoptare_senat": "2023-12-18",
+      "data_promulgare": "2024-05-10",
+      "vot_pentru": 182,
+      "vot_contra": 80,
+      "vot_abtineri": 2,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/juridica/pdf/2023/rp805.pdf",
+      "timeline": [
+        {
+          "data": "2023-12-18",
+          "eveniment": "adoptat de Senat Forma adoptată de Senat"
+        },
+        {
+          "data": "2023-12-18",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2023-12-19",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului)"
+        },
+        {
+          "data": "2023-12-19",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=182, contra=80, abtineri=2, nu au votat=11 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2023-12-19",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2023-12-21",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2023-12-22",
+          "eveniment": "sesizare de neconstituţionalitate (sesizare formulată de deputați aparținând Grupului parlamentar al Uniunii Salvați România și de deputați neafiliați) SESIZARE DE NECONSTITUȚIONALITATE (Dosar nr.3600A/2023)"
+        },
+        {
+          "data": "2024-02-26",
+          "eveniment": "primire aviz de la: Comisia pentru politică economică, reformă şi privatizare"
+        },
+        {
+          "data": "2024-03-19",
+          "eveniment": "Curtea Constitutionala decide: ( D.C.C. nr.146/2024 ) respinge obiectiunile de neconstitutionalitate D.C.C. nr.146 din 19 martie 2024 (Dosar nr.3600A/2023)"
+        },
+        {
+          "data": "2024-05-10",
+          "eveniment": "promulgata prin Decret nr. 844/2024"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/800/00/5/em805.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/5/ces805.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/5/cl805.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/5/se805.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/5/in805.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/5/as805.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2023/rp805.pdf",
+        "https://www.cdep.ro/docs/2023/cd805_23.pdf",
+        "https://www.cdep.ro/docs/2023/pr805_23.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/5/sesiz805.pdf",
+        "https://www.cdep.ro/comisii/economica/pdf/2024/av805_23.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/5/dcc146.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21435"
+    },
+    {
+      "id": "853f2f518294e005",
+      "cdep_idp": 21431,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 801/2023",
+      "nr_camera_deputati": "801/15.12.2023",
+      "nr_senat": "L714/2023",
+      "nr_guvern": "E241/14.12.2023",
+      "nr_bpi": "936/15-12-2023",
+      "titlu": "Proiectul Legii bugetului de stat pe anul 2024",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "Lege 421/2023 Legea bugetului de stat pe anul 2024",
+      "lege_nr": "421/2023",
+      "decret_nr": "1719/2023",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2023-12-15",
+      "data_adoptare_cd": "2023-12-20",
+      "data_adoptare_senat": "2023-12-20",
+      "data_promulgare": "2023-12-28",
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2023-12-17",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2023-12-15",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2023-12-15",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 17.12.2023, ora 14:00 termen depunere raport: 19.12.2023, ora 18:00"
+        },
+        {
+          "data": "2023-12-18",
+          "eveniment": "primire aviz de la: Comisia parlamentară specială pentru controlul activităţii Serviciului de Informaţii Externe"
+        },
+        {
+          "data": "2023-12-19",
+          "eveniment": "dezbatere în plen reunit consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2023-12-20",
+          "eveniment": "primire raport favorabil de la: Comisia pentru buget, finanţe şi bănci Anexe/"
+        },
+        {
+          "data": "2023-12-20",
+          "eveniment": "dezbatere în plen reunit consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2023-12-20",
+          "eveniment": "adoptat în sedinta comuna a celor doua Camere consultati stenograma sedintei sau înregistrarea video Forma pentru promulgare"
+        },
+        {
+          "data": "2023-12-22",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2023-12-28",
+          "eveniment": "promulgata prin Decret nr. 1719/2023"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/800/00/1/pl801.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/cl801.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/OpiniaCF801.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/csat801.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/declaratie801.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/macro801.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/css801.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/Anexa%201.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/Anexa%202.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/Anexa%204.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/Anexa%205.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/Anexa%206.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/Anexa%207.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/Anexa%207.01.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/Anexa%207.02.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/Anexa%208.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/Anexa%209.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/Anexa%2010.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/Anexa%2011.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/1/gv801.pdf",
+        "https://www.cdep.ro/comisii/controlul_sie/pdf/2023/av801.pdf",
+        "https://www.cdep.ro/comisii/revolutionari/pdf/2023/av801.pdf",
+        "https://www.cdep.ro/comisii/controlul_sri/pdf/2023/av801.pdf",
+        "https://www.cdep.ro/comisii/politica_externa/pdf/2023/av801.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2023/av801.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2023/av801.pdf",
+        "https://www.cdep.ro/comisii/cultura/pdf/2023/av801.pdf",
+        "https://www.cdep.ro/comisii/invatamant/pdf/2023/av801.pdf",
+        "https://www.cdep.ro/comisii/tehnologia_informatiei/pdf/2023/av801.pdf",
+        "https://www.cdep.ro/comisii/sanatate/pdf/2023/av801.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21431"
+    },
+    {
+      "id": "b636f7743aa8f019",
+      "cdep_idp": 21432,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 802/2023",
+      "nr_camera_deputati": "802/15.12.2023",
+      "nr_senat": "L715/2023",
+      "nr_guvern": "E242/14.12.2023",
+      "nr_bpi": "937/15-12-2023",
+      "titlu": "Proiectul Legii bugetului asigurărilor sociale de stat pe anul 2024",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "Lege 422/2023 Legea bugetului asigurărilor sociale de stat pe anul 2024",
+      "lege_nr": "422/2023",
+      "decret_nr": "1720/2023",
+      "data_prezentare": "2023-12-15",
+      "data_inregistrare_cd": "2023-12-15",
+      "data_adoptare_cd": "2023-12-20",
+      "data_adoptare_senat": "2023-12-20",
+      "data_promulgare": "2023-12-28",
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2023-12-17",
+      "amendamente_admise": null,
+      "amendamente_respinse": 2,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2023-12-15",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2023-12-15",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2023-12-15",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 17.12.2023, ora 14:00 termen depunere raport: 19.12.2023, ora 18:00"
+        },
+        {
+          "data": "2023-12-18",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        },
+        {
+          "data": "2023-12-19",
+          "eveniment": "dezbatere în plen reunit consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2023-12-20",
+          "eveniment": "primire raport favorabil (2 amend. respinse) de la: Comisia pentru buget, finanţe şi bănci Anexe/"
+        },
+        {
+          "data": "2023-12-20",
+          "eveniment": "dezbatere în plen reunit consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2023-12-20",
+          "eveniment": "adoptat în sedinta comuna a celor doua Camere consultati stenograma sedintei sau înregistrarea video Forma pentru promulgare"
+        },
+        {
+          "data": "2023-12-22",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2023-12-28",
+          "eveniment": "promulgata prin Decret nr. 1720/2023"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/800/00/2/em802.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/2/pl802.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/2/ces802.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/2/cl802.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/2/opiniaCF802.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/2/Anexe802.pdf",
+        "https://www.cdep.ro/proiecte/2023/800/00/2/gv802.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2023/av802.pdf",
+        "https://www.cdep.ro/comisii/buget/pdf/2023/rp802;1.pdf",
+        "https://www.cdep.ro/docs/2023/pr802_23.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21432"
+    },
+    {
+      "id": "cfc761c3332bd65d",
+      "cdep_idp": 21158,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 546/2023",
+      "nr_camera_deputati": "546/26.09.2023",
+      "nr_senat": "L551/2023",
+      "nr_guvern": null,
+      "nr_bpi": null,
+      "titlu": "Proiect de Lege privind unele măsuri fiscal bugetare pentru asigurarea sustenabilităţii financiare a României pe termen lung",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "Lege 296/2023 LEGE privind unele măsuri fiscal-bugetare pentru asigurarea sustenabilitătii financiare a României pe termen lung",
+      "lege_nr": "296/2023",
+      "decret_nr": "1316/2023",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2023-09-26",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2023-09-26",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2023-09-29",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii Forma pentru promulgare"
+        },
+        {
+          "data": "2023-10-01",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2023-10-02",
+          "eveniment": "sesizare de neconstituţionalitate (formulată de deputați aparținând Grupului parlamentar al Uniunii Salvați România și Partidului Național Liberal, precum și de deputați neafiliați) SESIZARE DE NECONSTITUȚIONALITATE (Dosar nr.2400A/2023)"
+        },
+        {
+          "data": "2023-10-26",
+          "eveniment": "Curtea Constitutionala decide: ( D.C.C. nr.523/2023 ) respinge obiectiunile de neconstitutionalitate D.C.C. nr.523 din 18 octombrie 2023 (Dosar nr.2400A/2023)"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/500/40/6/em546.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/40/6/pl546.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/40/6/ces546.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/40/6/cl546.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/40/6/csat546_2023.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/40/6/gv.546.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/40/6/ADR-A-CD5.pdf",
+        "https://www.cdep.ro/docs/2023/pr546_23.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/40/6/dcc546.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21158"
+    },
+    {
+      "id": "aa016224a54d91a3",
+      "cdep_idp": 21140,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 529/2023",
+      "nr_camera_deputati": "529/20.09.2023",
+      "nr_senat": "L343/2023",
+      "nr_guvern": null,
+      "nr_bpi": "610/19-09-2023",
+      "titlu": "Proiect de Lege pentru modificarea şi completarea Legii nr.263/2010 privind sistemul unitar de pensii publice",
+      "tip": "proiect_lege",
+      "caracter": "organic",
+      "procedura_urgenta": false,
+      "initiator": "1 senator - PSD: Moagher Laura-Mihaela",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "raport depus; urmeaza sa intre pe ordinea de zi",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2023-09-20",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": "2023-09-18",
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2023-09-18",
+          "eveniment": "adoptat de Senat ca urmare a depasirii termenului de adoptare, potrivit art.75 alin.(2) teza a III-a din Constitutia României republicata Forma adoptată de Senat"
+        },
+        {
+          "data": "2023-09-20",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2023-10-05",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2023-10-17",
+          "eveniment": "primire aviz de la: Comisia pentru sănătate şi familie"
+        },
+        {
+          "data": "2023-10-20",
+          "eveniment": "primire aviz de la: Comisia pentru egalitatea de şanse pentru femei şi bărbaţi"
+        },
+        {
+          "data": "2024-02-27",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2024-10-15",
+          "eveniment": "primire raport de respingere de la: Comisia pentru muncă şi protecţie socială Comisia pentru mediu şi echilibru ecologic face parte din categoria legilor organice"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/500/20/9/em610.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/20/9/ces610.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/20/9/cl610.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/20/9/pvg610.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/20/9/opConsFisc610.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/20/9/se610.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/20/9/as529.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/20/9/in610.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2023/av529.pdf",
+        "https://www.cdep.ro/comisii/sanatate/pdf/2023/av529.pdf",
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2023/av529.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2024/av529_23.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2024/rp529_23.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21140"
+    },
+    {
+      "id": "63963434659cf781",
+      "cdep_idp": 21120,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 502/2023",
+      "nr_camera_deputati": "502/18.09.2023",
+      "nr_senat": "L371/2023",
+      "nr_guvern": null,
+      "nr_bpi": "583/13-09-2023",
+      "titlu": "Proiect de Lege pentru modificarea şi completarea art.23 alin.(1) din Ordonanţa de urgenţă a Guvernului nr.57/2007 privind regimul ariilor naturale protejate, conservarea habitatelor naturale, a florei şi faunei sălbatice",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "5 deputati+senatori, din care: deputati - PSD: Cătăuţă Ana-Maria , Furtună Mirela , Ivan Bogdan-Gruia senatori - PSD: Dîncu Vasile , Trufin Lucian",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 343/2023 LEGE pentru modificarea art. 23 alin. (1) din Ordonanta de urgentă a Guvernului nr. 57/2007 privind regimul ariilor naturale protejate, conservarea habitatelor naturale, a florei si faunei sălbatice",
+      "lege_nr": "343/2023",
+      "decret_nr": "1401/2023",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2023-09-18",
+      "data_adoptare_cd": "2023-10-24",
+      "data_adoptare_senat": "2023-09-13",
+      "data_promulgare": "2023-11-10",
+      "vot_pentru": 212,
+      "vot_contra": 0,
+      "vot_abtineri": 52,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": 2,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/mediu/pdf/2023/rp502.pdf",
+      "timeline": [
+        {
+          "data": "2023-09-13",
+          "eveniment": "adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(2) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2023-09-18",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2023-10-04",
+          "eveniment": "primire aviz de la: Comisia permanentă comună a Camerei Deputaţilor şi Senatului pentru relaţia cu UNESCO"
+        },
+        {
+          "data": "2023-10-11",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2023-10-12",
+          "eveniment": "primire raport favorabil (2 amend. admise) de la: Comisia pentru mediu şi echilibru ecologic face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2023-10-23",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 23 - 24 octombrie 2023"
+        },
+        {
+          "data": "2023-10-24",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=212, contra=0, abtineri=52 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2023-10-30",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2023-11-04",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2023-11-10",
+          "eveniment": "promulgata prin Decret nr. 1401/2023"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/500/00/2/em583.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/00/2/ces583.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/00/2/cl583.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/00/2/comp583.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/00/2/se583.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/00/2/as502.pdf",
+        "https://www.cdep.ro/proiecte/2023/500/00/2/in583.pdf",
+        "https://www.cdep.ro/comisii/unesco/pdf/2023/av502.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2023/av502.pdf",
+        "https://www.cdep.ro/comisii/mediu/pdf/2023/rp502.pdf",
+        "https://www.cdep.ro/docs/2023/cd502_23.pdf",
+        "https://www.cdep.ro/docs/2023/pr502_23.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21120"
+    },
+    {
+      "id": "da20ee10e00880c3",
+      "cdep_idp": 20894,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 444/2023",
+      "nr_camera_deputati": "444/26.06.2023",
+      "nr_senat": "L355/2023",
+      "nr_guvern": null,
+      "nr_bpi": "316/19-04-2023 501/20-06-2023",
+      "titlu": "Proiect de Lege pentru completarea Legii nr.165/2013 privind măsurile pentru finalizarea procesului de restituire, în natură sau prin echivalent, a imobilelor preluate în mod abuziv în perioada regimului comunist în România",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "6 deputati, din care: - PSD: Simonis Alfred - Robert - PNL: Andronache Gabriel , Cupşa Ioan - UDMR: Szabó Ödön - Minoritati: Ganţ Ovidiu Victor , Vexler Silviu",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 284/2023 LEGE pentru completarea Legii nr. 165/2013 privind măsurile pentru finalizarea procesului de restituire, în natură sau prin echivalent, a imobilelor preluate în mod abuziv în perioada regimului comunist în România",
+      "lege_nr": "284/2023",
+      "decret_nr": "1288/2023",
+      "data_prezentare": "2023-04-24",
+      "data_inregistrare_cd": "2023-06-26",
+      "data_adoptare_cd": "2023-09-20",
+      "data_adoptare_senat": "2023-06-19",
+      "data_promulgare": "2023-10-20",
+      "vot_pentru": 237,
+      "vot_contra": 2,
+      "vot_abtineri": 27,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/juridica/pdf/2023/rp444.pdf",
+      "timeline": [
+        {
+          "data": "2023-04-24",
+          "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor Adresa Senatului Adresa iniţiatorului"
+        },
+        {
+          "data": "2023-04-24",
+          "eveniment": "înaintat la Senat"
+        },
+        {
+          "data": "2023-06-19",
+          "eveniment": "adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(2) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2023-06-26",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2023-09-14",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2023-09-18",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului) pentru şedinţele Camerei Deputaţilor din zilele de 18 şi 20 septembrie 2023"
+        },
+        {
+          "data": "2023-09-19",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        },
+        {
+          "data": "2023-09-20",
+          "eveniment": "primire raport favorabil (7 amend. admise, 3 amend. respinse) de la: Comisia juridică, de disciplină şi imunităţi face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2023-09-20",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=237, contra=2, abtineri=27, nu au votat=1 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2023-09-25",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2023-10-02",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2023-10-20",
+          "eveniment": "promulgata prin Decret nr. 1288/2023"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/400/40/4/em501.pdf",
+        "https://www.cdep.ro/proiecte/2023/400/40/4/ces501.pdf",
+        "https://www.cdep.ro/proiecte/2023/400/40/4/cl501.pdf",
+        "https://www.cdep.ro/proiecte/2023/400/40/4/as444.pdf",
+        "https://www.cdep.ro/proiecte/2023/400/40/4/in316.pdf",
+        "https://www.cdep.ro/proiecte/2023/400/40/4/se501.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2023/av444.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2023/av444.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2023/rp444.pdf",
+        "https://www.cdep.ro/docs/2023/cd444_23.pdf",
+        "https://www.cdep.ro/docs/2023/pr444_23.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20894"
+    },
+    {
+      "id": "ea0d528ac3a439ce",
+      "cdep_idp": 21019,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "Pl-x nr. 411/2023",
+      "nr_camera_deputati": "411/13.06.2023",
+      "nr_senat": "L382/2023",
+      "nr_guvern": null,
+      "nr_bpi": "446/06-06-2023",
+      "titlu": "Propunere legislativă pentru abrogarea Capitolului XI din Legea nr.96/2006 privind Statutul deputaţilor şi al senatorilor",
+      "tip": "propunere_legislativa",
+      "caracter": "organic",
+      "procedura_urgenta": true,
+      "initiator": "1 deputat - PSD: Simonis Alfred - Robert",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "Lege 192/2023 LEGE pentru abrogarea capitolului XI din Legea nr. 96/2006 privind Statutul deputatilor si al senatorilor",
+      "lege_nr": "192/2023",
+      "decret_nr": "950/2023",
+      "data_prezentare": "2023-06-13",
+      "data_inregistrare_cd": "2023-06-13",
+      "data_adoptare_cd": "2023-06-26",
+      "data_adoptare_senat": "2023-06-26",
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2023-06-21",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2023-06-13",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului s-a aprobat procedura de urgență solicitată Adresa iniţiatorului"
+        },
+        {
+          "data": "2023-06-13",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2023-06-13",
+          "eveniment": "trimis pentru raport la: Comisia permanentă a Camerei Deputaţilor şi Senatului privind Statutul deputaţilor şi al senatorilor, organizarea şi funcţionarea şedinţelor comune ale Camerei Deputaţilor şi Senatului termen depunere amendamente: 21.06.2023 termen depunere raport: 22.06.2023"
+        },
+        {
+          "data": "2023-06-19",
+          "eveniment": "primire aviz de la Consiliul Legislativ - cu nr.627/19.06.2023 (favorabil) Avizul Consiliului Legislativ"
+        },
+        {
+          "data": "2023-06-20",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului"
+        },
+        {
+          "data": "2023-06-20",
+          "eveniment": "solicitare informare de la Guvern"
+        },
+        {
+          "data": "2023-06-22",
+          "eveniment": "primire raport favorabil (4 amend. admise, 4 amend. respinse) de la: Comisia permanentă a Camerei Deputaţilor şi Senatului privind Statutul deputaţilor şi al senatorilor, organizarea şi funcţionarea şedinţelor comune ale Camerei Deputaţilor şi Senatului face parte din categoria legilor organice"
+        },
+        {
+          "data": "2023-06-26",
+          "eveniment": "înscris pe ordinea de zi a sedintelor comune ale celor doua Camere"
+        },
+        {
+          "data": "2023-06-26",
+          "eveniment": "adoptata în sedinta comuna a celor doua Camere Forma pentru promulgare"
+        },
+        {
+          "data": "2023-06-28",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/400/10/1/em446.pdf",
+        "https://www.cdep.ro/proiecte/2023/400/10/1/pl446.pdf",
+        "https://www.cdep.ro/proiecte/2023/400/10/1/in411.pdf",
+        "https://www.cdep.ro/proiecte/2023/400/10/1/cl411_2023.pdf",
+        "https://www.cdep.ro/comisii/statut/pdf/2023/rp411;1.pdf",
+        "https://www.cdep.ro/docs/2023/pr411_23.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21019"
+    },
+    {
+      "id": "9d69eeb3a70fffce",
+      "cdep_idp": 20972,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 370/2023",
+      "nr_camera_deputati": "370/30.05.2023",
+      "nr_senat": "L213/2023",
+      "nr_guvern": null,
+      "nr_bpi": "124/01-03-2023 413/24-05-2023",
+      "titlu": "Proiect de Lege pentru modificarea art.45<sup>1</sup> alin.(2) din Legea minelor nr.85/2003",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "24 deputati+senatori, din care: deputati - UDMR: Bende Sándor , Benedek Zacharie , Biró Rozália-Ibolya , Csép Éva-Andrea , Csoma Botond , Farago Petru , Gál Károly , Hajdu Gábor , Kelemen Attila , Kolcsár Anquetil-Károly , Könczei Csaba , Kulcsár-Terza József-György , Ladányi László-Zsolt , Magyar Loránd-Bálint , Miklós Zoltán , Nagy Szabolcs , Seres Dénes , Szabó Ödön , Zakarias Zoltán senatori - UDMR: Császár Károly Zsolt , Fejér László-Ődőn , Kovács Irina Elisabeta , László Attila , Turos Lóránd",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 105/2024 LEGE pentru modificarea art. 45 1 alin. (2) din Legea minelor nr. 85/2003",
+      "lege_nr": "105/2024",
+      "decret_nr": "807/2024",
+      "data_prezentare": "2023-03-06",
+      "data_inregistrare_cd": "2023-05-30",
+      "data_adoptare_cd": "2024-03-19",
+      "data_adoptare_senat": "2023-05-24",
+      "data_promulgare": "2024-04-16",
+      "vot_pentru": 219,
+      "vot_contra": 27,
+      "vot_abtineri": 4,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": 3,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2023-03-06",
+          "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor Adresa iniţiatorului"
+        },
+        {
+          "data": "2023-03-06",
+          "eveniment": "înaintat la Senat"
+        },
+        {
+          "data": "2023-05-24",
+          "eveniment": "adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(2) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2023-05-30",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2023-05-31",
+          "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor nu s-a aprobat solicitarea Comisiei pt. politică economică NOTĂ"
+        },
+        {
+          "data": "2023-06-28",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2024-02-29",
+          "eveniment": "primire raport (3 amend. admise) de la: Comisia pentru industrii şi servicii Comisia pentru mediu şi echilibru ecologic"
+        },
+        {
+          "data": "2024-03-11",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din ziua de luni, 11 martie 2024"
+        },
+        {
+          "data": "2024-03-18",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 18 - 19 martie 2024"
+        },
+        {
+          "data": "2024-03-19",
+          "eveniment": "dezbatere în plenul Camerei Deputatilor consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2024-03-19",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=219, contra=27, abtineri=4, nu au votat=1 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2024-03-25",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2024-03-28",
+          "eveniment": "primire aviz de la: Comisia pentru politică economică, reformă şi privatizare"
+        },
+        {
+          "data": "2024-03-30",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2024-04-16",
+          "eveniment": "promulgata prin Decret nr. 807/2024"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/300/70/0/em413.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/70/0/ces413.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/70/0/cl413.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/70/0/cc413.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/70/0/in124.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/70/0/se413.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/70/0/as370_2023.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/70/0/nota%20370_2023.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2023/av370.pdf",
+        "https://www.cdep.ro/comisii/mediu/pdf/2024/rp370_23;1.pdf",
+        "https://www.cdep.ro/docs/2023/pl370_cd370_23.pdf",
+        "https://www.cdep.ro/docs/2023/pl370_pr370_23.pdf",
+        "https://www.cdep.ro/comisii/economica/pdf/2024/av370_23.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20972"
+    },
+    {
+      "id": "f49722c88e3fe547",
+      "cdep_idp": 20949,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 341/2023",
+      "nr_camera_deputati": "341/22.05.2023",
+      "nr_senat": "L174/2023",
+      "nr_guvern": null,
+      "nr_bpi": "385/17-05-2023",
+      "titlu": "Proiect de Lege pentru modificarea şi completarea Legii nr.77/2016 privind darea în plată a unor bunuri imobile în vederea stingerii obligaţiilor asumate prin credite",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "17 deputati+senatori, din care: senatori - PSD: Breahnă-Pravăţ Ionela-Cristina , Cionoiu Nicusor , Cuc Alexandru-Răzvan , Deneş Ioan , Dunca Marius-Alexandru , Humelnicu Marius , Mazilu Liviu-Lucian , Mirea Siminica , Mîndruţă Gheorghiţă , Popa Maricel , Purcărin Bianca-Mihaela , Stan Ioan , Trufin Lucian , Vlaşin Sorin , Zamfir Daniel-Cătălin senatori - PNL: Scarlat George senatori - AUR: Matieş Călin-Gheorghe",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2023-05-22",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": "2023-05-15",
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2023-05-15",
+          "eveniment": "adoptat de Senat ca urmare a depasirii termenului de adoptare, potrivit art.75 alin.(2) teza a III-a din Constitutia României republicata Forma adoptată de Senat"
+        },
+        {
+          "data": "2023-05-22",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2023-05-31",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/300/40/1/em385.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/40/1/ces385.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/40/1/cl385.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/40/1/pvg385.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/40/1/bnr385.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/40/1/csm385.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/40/1/se385.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/40/1/as341.pdf",
+        "https://www.cdep.ro/proiecte/2023/300/40/1/in385.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2023/av341.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20949"
+    },
+    {
+      "id": "af9d72df12437148",
+      "cdep_idp": 20588,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "Pl-x nr. 198/2023",
+      "nr_camera_deputati": "198/27.03.2023",
+      "nr_senat": "L78/2023",
+      "nr_guvern": null,
+      "nr_bpi": "981/19-12-2022 231/21-03-2023",
+      "titlu": "Propunere legislativă pentru modificarea Legii nr.226 din 16 septembrie 2021 privind stabilirea măsurilor de protecţie socială pentru consumatorul vulnerabil de energie, publicată în Monitorul Oficial nr.891 din 16 septembrie 2021",
+      "tip": "propunere_legislativa",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "28 deputati+senatori, din care: deputati - neafiliati: Ciornei Radu Tudor , Morar Olivia-Diana , Toda Daniel-Liviu deputati - PSD: Buicu Corneliu-Florin , Todosiu Beniamin deputati - PNL: Făgărăşian Valentin-Ilie , Giugea Nicolae , Gudu Michael , Molnar Ervin , Özmen Oana-Marciana deputati - USR: Badea Mihai-Alexandru , Blaga Daniel-Codruţ , Cristian Brian , Giurgiu Adrian , Havârneanu Filip , Ilie Victor , Miftode Marius-Andrei , Molnar Radu-Iulian , Stoica Diana , Terente Eugen , Ţoiu Oana-Silvia senatori - PNL: Chirteş Ioan-Cristian senatori - USR: Bodea Marius , Cernic Sebastian , Ghica Cristian , Trifan Raoul-Adrian , Vicol Costel senatori - neafiliati: Postică Andrei",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2022-12-20",
+      "data_inregistrare_cd": "2023-03-27",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2022-12-20",
+          "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor Adresa iniţiatorului"
+        },
+        {
+          "data": "2022-12-20",
+          "eveniment": "înaintat la Senat"
+        },
+        {
+          "data": "2023-03-20",
+          "eveniment": "respinsa de catre Senat"
+        },
+        {
+          "data": "2023-03-27",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2023-04-06",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2023-05-10",
+          "eveniment": "primire aviz de la: Comisia pentru administraţie publică şi amenajarea teritoriului"
+        },
+        {
+          "data": "2023-06-13",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2023-10-17",
+          "eveniment": "primire aviz de la: Comisia pentru mediu şi echilibru ecologic"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/100/90/8/em231.pdf",
+        "https://www.cdep.ro/proiecte/2023/100/90/8/pl231.pdf",
+        "https://www.cdep.ro/proiecte/2023/100/90/8/ces231.pdf",
+        "https://www.cdep.ro/proiecte/2023/100/90/8/cl231.pdf",
+        "https://www.cdep.ro/proiecte/2023/100/90/8/cc231.pdf",
+        "https://www.cdep.ro/proiecte/2023/100/90/8/pvgbp231_2022.pdf",
+        "https://www.cdep.ro/proiecte/2023/100/90/8/in981.pdf",
+        "https://www.cdep.ro/proiecte/2023/100/90/8/as198.pdf",
+        "https://www.cdep.ro/proiecte/2023/100/90/8/in231.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2023/av198.pdf",
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2023/av198.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2023/av198.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2023/av198.pdf",
+        "https://www.cdep.ro/comisii/mediu/pdf/2023/av198.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20588"
+    },
+    {
+      "id": "26562ad17eb5464f",
+      "cdep_idp": 20716,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 129/2023",
+      "nr_camera_deputati": "129/06.03.2023",
+      "nr_senat": "L34/2023",
+      "nr_guvern": "E29/31.01.2023",
+      "nr_bpi": "114/28-02-2023",
+      "titlu": "Proiect de Lege privind aprobarea Ordonanţei de urgenţã a Guvernului nr.1/2023 pentru completarea art.3 din Ordonanţa Guvernului nr.62/1999 privind înfiinţarea Unităţii Executive pentru Finanţarea Învăţământului Superior şi a Cercetării Ştiinţifice Universitare",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 316/2023 LEGE privind aprobarea Ordonantei de urgentă a Guvernului nr. 1/2023 pentru completarea art. 3 din Ordonanta Guvernului nr. 62/1999 privind înfiintarea Unitătii Executive pentru Finantarea Învătământului Superior si a Cercetării Stiintifice Universitare",
+      "lege_nr": "316/2023",
+      "decret_nr": "1353/2023",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2023-03-06",
+      "data_adoptare_cd": "2023-10-18",
+      "data_adoptare_senat": "2023-02-27",
+      "data_promulgare": "2023-11-06",
+      "vot_pentru": 195,
+      "vot_contra": 0,
+      "vot_abtineri": 62,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/invatamant/pdf/2023/rp129.pdf",
+      "timeline": [
+        {
+          "data": "2023-02-27",
+          "eveniment": "proiectul de lege pentru aprobarea ordonantei de urgenta adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(2) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2023-03-06",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2023-03-21",
+          "eveniment": "primire raport favorabil aprobarii ordonantei de urgenta de la: Comisia pentru învăţământ Comisia pentru știință și tehnologie face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2023-03-29",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedintele Camerei Deputatilor din zilele de 3 si 5 aprilie 2023"
+        },
+        {
+          "data": "2023-04-04",
+          "eveniment": "primire aviz de la: Comisia pentru tehnologia informaţiei şi comunicaţiilor"
+        },
+        {
+          "data": "2023-04-05",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 11 - 12 aprilie 2023"
+        },
+        {
+          "data": "2023-04-12",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 18 - 19 aprilie 2023"
+        },
+        {
+          "data": "2023-04-19",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru şedinţa Camerei Deputaţilor din 24 - 25 aprilie 2023"
+        },
+        {
+          "data": "2023-04-25",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru şedinţa Camerei Deputaţilor din 2 - 3 mai 2023"
+        },
+        {
+          "data": "2023-05-03",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedintele Camerei Deputatilor din zilele de 8 si 10 mai 2023"
+        },
+        {
+          "data": "2023-05-10",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedintele Camerei Deputatilor din zilele de 15 si 17 mai 2023"
+        },
+        {
+          "data": "2023-05-17",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 22 - 23 mai 2023"
+        },
+        {
+          "data": "2023-05-26",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedintele Camerei Deputatilor din zilele de 30 si 31 mai 2023"
+        },
+        {
+          "data": "2023-05-31",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedintele Camerei Deputatilor din zilele de 6 si 7 iunie 2023"
+        },
+        {
+          "data": "2023-06-07",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedintele Camerei Deputatilor din zilele de 12 si 14 iunie 2023"
+        },
+        {
+          "data": "2023-06-13",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 19 - 20 iunie 2023"
+        },
+        {
+          "data": "2023-06-26",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 26 - 28 iunie 2023"
+        },
+        {
+          "data": "2023-06-27",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2023-09-05",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru şedinţa Camerei Deputaţilor din 12 - 13 septembrie 2023"
+        },
+        {
+          "data": "2023-09-13",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedintele Camerei Deputatilor din zilele de 18 si 20 septembrie 2023"
+        },
+        {
+          "data": "2023-09-25",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 25 - 26 septembrie 2023"
+        },
+        {
+          "data": "2023-10-03",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 3 - 4 octombrie 2023"
+        },
+        {
+          "data": "2023-10-09",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru şedinţele Camerei Deputaţilor din zilele de 9 şi 11 octombrie 2023"
+        },
+        {
+          "data": "2023-10-16",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedințele Camerei Deputatilor din 16 și 18 octombrie 2023"
+        },
+        {
+          "data": "2023-10-18",
+          "eveniment": "dezbatere în plenul Camerei Deputatilor consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2023-10-18",
+          "eveniment": "proiectul de lege pentru aprobarea ordonantei de urgenta adoptat de Camera Deputatilor rezultat vot pentru=195, contra=0, abtineri=62 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2023-10-23",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2023-10-25",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2023-11-06",
+          "eveniment": "promulgata prin Decret nr. 1353/2023"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/100/20/9/em114.pdf",
+        "https://www.cdep.ro/proiecte/2023/100/20/9/oug114.pdf",
+        "https://www.cdep.ro/proiecte/2023/100/20/9/cl114.pdf",
+        "https://www.cdep.ro/proiecte/2023/100/20/9/se114.pdf",
+        "https://www.cdep.ro/proiecte/2023/100/20/9/as129.pdf",
+        "https://www.cdep.ro/proiecte/2023/100/20/9/gv114.pdf",
+        "https://www.cdep.ro/comisii/invatamant/pdf/2023/rp129.pdf",
+        "https://www.cdep.ro/comisii/tehnologia_informatiei/pdf/2023/av129.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2023/av129.pdf",
+        "https://www.cdep.ro/docs/2023/cd129_23.pdf",
+        "https://www.cdep.ro/docs/2023/pr129_23.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20716"
+    },
+    {
+      "id": "79933a0822e5da60",
+      "cdep_idp": 20422,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 8/2023",
+      "nr_camera_deputati": "8/01.02.2023",
+      "nr_senat": "L765/25.10.2022",
+      "nr_guvern": null,
+      "nr_bpi": "784/19-10-2022 1000/22-12-2022",
+      "titlu": "Proiect de Lege privind instituirea unei scheme de ajutor de stat pentru producătorii agricoli de legume - fructe şi cartofi",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "63 deputati+senatori, din care: deputati - neafiliati: Balint Liviu-Ioan , Calotă Florică Ică , Morar Olivia-Diana deputati - PSD: Stoian Maria deputati - PNL: Andronache Gabriel , Avrămescu Gabriel-Ioan , Banias Mircea Marius , Barcari Rodica-Luminiţa , Bîlcea Ovidiu-Sergiu , Bota Călin-Ioan , Burciu Cristina , Calista Mara-Daniela , Constantin Daniel , Cozmanciuc Corneliu-Mugurel , Dumitru Florian-Emil , Fădor Angelica , Făgărăşian Valentin-Ilie , Fechet Mircea , Gheorghiu Bogdan , Giugea Nicolae , Gudu Michael , Leoreanu Laurenţiu-Dan , Mărculescu Dumitru , Moisin Radu-Marin , Molnar Ervin , Năcuţă Sorin , Özmen Oana-Marciana , Pecingină Gheorghe , Roşca Mircea , Rujan Dumitru , Stănescu Vetuţa , Stoica Ştefan-Bucur , Şoptică Costel , Ştirbu Gigel-Sorinel , Varga Glad-Aurel senatori - neafiliati: Muntean Lucica Dina senatori - PSD: Bîca Iulian-Mihail senatori - PNL: Achiţei Vasile-Cristian , Anastase Roberta Alma , Anisie Monica-Cristina , Banu Claudia-Mihaela , Bica Dănuţ , Bourceanu Septimiu-Sebastian , Brătescu Liviu , Chirteş Ioan-Cristian , Cristina Ioan , Gorghiu Alina-Ştefania , Guran Virgil , Hatos Adrian , Iordache Ion , Neagu Nicolae , Niculescu-Ţâgârlaş Cristian-Augustin , Pandea Ciprian , Pauliuc Nicoleta , Petcu Toma-Florin , Pîrvulescu Eugen , Pufu Vlad-Mircea , Scarlat George , Ţapu Nazare Eugen , Vela Ion-Marcel , Veştea Mihail senatori - AUR: Potecă Vasilică senatori - neafiliati: Bumb Sorin-Ioan",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 170/2023 LEGE privind instituirea unei scheme de ajutor de stat pentru producătorii agricoli de legume-fructe si cartofi",
+      "lege_nr": "170/2023",
+      "decret_nr": "829/2023",
+      "data_prezentare": "2022-10-24",
+      "data_inregistrare_cd": "2023-02-01",
+      "data_adoptare_cd": "2023-05-15",
+      "data_adoptare_senat": "2022-12-21",
+      "data_promulgare": "2023-06-14",
+      "vot_pentru": 244,
+      "vot_contra": 2,
+      "vot_abtineri": 1,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/buget/pdf/2023/rp008.pdf",
+      "timeline": [
+        {
+          "data": "2022-10-24",
+          "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor Adresa iniţiatorului"
+        },
+        {
+          "data": "2022-10-24",
+          "eveniment": "înaintat la Senat"
+        },
+        {
+          "data": "2022-12-21",
+          "eveniment": "adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(2) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2023-02-01",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2023-03-22",
+          "eveniment": "primire aviz de la: Comisia pentru industrii şi servicii"
+        },
+        {
+          "data": "2023-04-12",
+          "eveniment": "primire aviz de la: Comisia pentru politică economică, reformă şi privatizare"
+        },
+        {
+          "data": "2023-04-25",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2023-05-10",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedintele Camerei Deputatilor din zilele de 15 si 17 mai 2023"
+        },
+        {
+          "data": "2023-05-15",
+          "eveniment": "dezbatere în plenul Camerei Deputatilor consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2023-05-15",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=244, contra=2, abtineri=1 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2023-05-22",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2023-05-27",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2023-06-14",
+          "eveniment": "promulgata prin Decret nr. 829/2023"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2023/000/00/8/em1000.pdf",
+        "https://www.cdep.ro/proiecte/2023/000/00/8/ces1000.pdf",
+        "https://www.cdep.ro/proiecte/2023/000/00/8/cl1000.pdf",
+        "https://www.cdep.ro/proiecte/2023/000/00/8/cc1000.pdf",
+        "https://www.cdep.ro/proiecte/2023/000/00/8/in784.pdf",
+        "https://www.cdep.ro/proiecte/2023/000/00/8/se1000.pdf",
+        "https://www.cdep.ro/proiecte/2023/000/00/8/as8.pdf",
+        "https://www.cdep.ro/comisii/industrii/pdf/2023/av008.pdf",
+        "https://www.cdep.ro/comisii/economica/pdf/2023/av008.pdf",
+        "https://www.cdep.ro/comisii/buget/pdf/2023/rp008.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2023/av008.pdf",
+        "https://www.cdep.ro/docs/2023/cd008_23.pdf",
+        "https://www.cdep.ro/docs/2023/pr008_23.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20422"
+    }
+  ]
+}

@@ -93,6 +93,14 @@ jobs:
           $leg = if ('${{ github.event.inputs.leg }}') { '${{ github.event.inputs.leg }}' } else { '2024' }
           python scripts/build_feeds.py --leg $leg --per-type 15 --limit 60 --verbose
 
+      - name: Split big files by year (interpelari + proiecte)
+        run: |
+          $leg = if ('${{ github.event.inputs.leg }}') { '${{ github.event.inputs.leg }}' } else { '2024' }
+          python scripts/split_by_year.py --leg $leg --verbose
+
+      - name: Build status.json (api health check)
+        run: python scripts/build_status.py
+
       - name: Generate HTML pages for search
         run: python scripts/generate_html.py
 

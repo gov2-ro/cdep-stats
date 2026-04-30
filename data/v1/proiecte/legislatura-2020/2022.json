@@ -1,0 +1,884 @@
+{
+  "meta": {
+    "generated_at": "2026-04-30T18:31:58.829134Z",
+    "source_url": "split from /v1/proiecte/legislatura-2020.json",
+    "scraper_version": "0.1.0",
+    "count": 9
+  },
+  "data": [
+    {
+      "id": "8506ce576a608246",
+      "cdep_idp": 20562,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 756/2022",
+      "nr_camera_deputati": "756/09.12.2022",
+      "nr_senat": "L777/09.12.2022",
+      "nr_guvern": "E294/08.12.2022",
+      "nr_bpi": "949/09-12-2022",
+      "titlu": "Proiectul Legii bugetului de stat pe anul 2023",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "Lege 368/2022 Legea bugetului de stat pe anul 2023",
+      "lege_nr": "368/2022",
+      "decret_nr": "1688/2022",
+      "data_prezentare": "2022-12-09",
+      "data_inregistrare_cd": "2022-12-09",
+      "data_adoptare_cd": "2022-12-14",
+      "data_adoptare_senat": "2022-12-14",
+      "data_promulgare": "2022-12-19",
+      "vot_pentru": 251,
+      "vot_contra": 115,
+      "vot_abtineri": 3,
+      "amendamente_termen_depunere": "2022-12-11",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/buget/pdf/2022/rp756.pdf",
+      "timeline": [
+        {
+          "data": "2022-12-09",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2022-12-09",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2022-12-09",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 11.12.2022 termen depunere raport: 14.12.2022, ora 10:00"
+        },
+        {
+          "data": "2022-12-12",
+          "eveniment": "primire aviz de la: Comisia parlamentară specială pentru controlul activităţii Serviciului de Informaţii Externe"
+        },
+        {
+          "data": "2022-12-13",
+          "eveniment": "dezbatere în plen reunit consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2022-12-14",
+          "eveniment": "primire raport de la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul Anexe/"
+        },
+        {
+          "data": "2022-12-14",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor"
+        },
+        {
+          "data": "2022-12-14",
+          "eveniment": "adoptat în sedinta comuna a celor doua Camere rezultat vot pentru=251, contra=115, abtineri=3 Forma pentru promulgare"
+        },
+        {
+          "data": "2022-12-16",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2022-12-19",
+          "eveniment": "promulgata prin Decret nr. 1688/2022"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2022/700/50/6/pl756.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/ces756.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/cl756.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/declaratie.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/opiniaCF.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/macro.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/anexa%201.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/anexa%202.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/anexa%204.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/anexa%205.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/anexa%206.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/anexa%207.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/anexa%207.01.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/anexa%207.02.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/anexa%208.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/anexa%209.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/anexa%2010.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/anexa%2011.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/6/gv756.pdf",
+        "https://www.cdep.ro/comisii/controlul_sie/pdf/2022/av756.pdf",
+        "https://www.cdep.ro/comisii/revolutionari/pdf/2022/av756.pdf",
+        "https://www.cdep.ro/comisii/controlul_sri/pdf/2022/av756.pdf",
+        "https://www.cdep.ro/comisii/politica_externa/pdf/2022/av756.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2022/av756.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2022/av756.pdf",
+        "https://www.cdep.ro/comisii/cultura/pdf/2022/av756.pdf",
+        "https://www.cdep.ro/comisii/invatamant/pdf/2022/av756.pdf",
+        "https://www.cdep.ro/comisii/tehnologia_informatiei/pdf/2022/av756.pdf",
+        "https://www.cdep.ro/comisii/sanatate/pdf/2022/av756.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2022/av756.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20562"
+    },
+    {
+      "id": "f64d992d602c0e7f",
+      "cdep_idp": 20563,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 757/2022",
+      "nr_camera_deputati": "757/09.12.2022",
+      "nr_senat": "L778/09.12.2022",
+      "nr_guvern": "E295/09.12.2022",
+      "nr_bpi": "950/09-12-2022",
+      "titlu": "Proiectul Legii bugetului asigurărilor sociale de stat pe anul 2023",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "Lege 369/2022 Legea bugetului asigurărilor sociale de stat pe anul 2023",
+      "lege_nr": "369/2022",
+      "decret_nr": "1689/2022",
+      "data_prezentare": "2022-12-09",
+      "data_inregistrare_cd": "2022-12-09",
+      "data_adoptare_cd": "2022-12-14",
+      "data_adoptare_senat": "2022-12-14",
+      "data_promulgare": "2022-12-19",
+      "vot_pentru": 279,
+      "vot_contra": 121,
+      "vot_abtineri": 2,
+      "amendamente_termen_depunere": "2022-12-11",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/buget/pdf/2022/rp757.pdf",
+      "timeline": [
+        {
+          "data": "2022-12-09",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2022-12-09",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2022-12-09",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 11.12.2022 termen depunere raport: 14.12.2022, ora 10:00"
+        },
+        {
+          "data": "2022-12-12",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        },
+        {
+          "data": "2022-12-13",
+          "eveniment": "dezbatere în plen reunit consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2022-12-14",
+          "eveniment": "primire raport de la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul Anexe/"
+        },
+        {
+          "data": "2022-12-14",
+          "eveniment": "adoptat în sedinta comuna a celor doua Camere rezultat vot pentru=279, contra=121, abtineri=2, nu au votat=1 Forma pentru promulgare"
+        },
+        {
+          "data": "2022-12-16",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2022-12-19",
+          "eveniment": "promulgata prin Decret nr. 1689/2022"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2022/700/50/7/em757.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/7/pl757.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/7/ces757.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/7/cl757.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/7/opiniaCF.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/7/anexa.pdf",
+        "https://www.cdep.ro/proiecte/2022/700/50/7/gv757.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2022/av757.pdf",
+        "https://www.cdep.ro/comisii/buget/pdf/2022/rp757.pdf",
+        "https://www.cdep.ro/docs/2022/pr757_22.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20563"
+    },
+    {
+      "id": "e79195fcfb4bd93f",
+      "cdep_idp": 20316,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "Pl-x nr. 533/2022",
+      "nr_camera_deputati": "533/26.09.2022",
+      "nr_senat": "L468/31.05.2022",
+      "nr_guvern": null,
+      "nr_bpi": "662/21-09-2022",
+      "titlu": "Propunere legislativă pentru modificarea şi completarea Ordonanţei Guvernului nr.27/2011 privind transporturile rutiere",
+      "tip": "propunere_legislativa",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "20 deputati+senatori, din care: deputati - neafiliati: Cambera Oana-Alexandra , Ichim Cristian-Paul , Lupu Andrei-Răzvan , Poliţeanu Mihai-Laurenţiu , Prunean Alin-Costel , Sas Lóránt-Zoltan , Toda Daniel-Liviu deputati - PSD: Gheba Daniel-Sorin , Todosiu Beniamin deputati - PNL: Lazăr Ion-Marian deputati - USR: Berescu Monica-Elena , Blaga Daniel-Codruţ , Botez Mihai-Cătălin , Buzoianu Diana-Anda , Cristian Brian , Giurgiu Adrian , Seidler Cristian-Gabriel , Stoica Diana , Ţoiu Oana-Silvia senatori - neafiliati: Popescu Ion-Dragoş",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2022-09-26",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2022-09-21",
+          "eveniment": "respinsa de catre Senat"
+        },
+        {
+          "data": "2022-09-26",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2022-10-04",
+          "eveniment": "primire aviz de la: Comisia pentru învăţământ"
+        },
+        {
+          "data": "2022-10-11",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        },
+        {
+          "data": "2022-10-26",
+          "eveniment": "primire aviz de la: Comisia pentru tehnologia informaţiei şi comunicaţiilor"
+        },
+        {
+          "data": "2022-11-08",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2023-01-26",
+          "eveniment": "primire punct de vedere de la Guvern - cu nr.1051/25.01.2023 (negativ) Punctul de vedere al Guvernului"
+        },
+        {
+          "data": "2024-06-18",
+          "eveniment": "primire aviz de la: Comisia pentru administraţie publică şi amenajarea teritoriului"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2022/500/30/3/em662.pdf",
+        "https://www.cdep.ro/proiecte/2022/500/30/3/pl662.pdf",
+        "https://www.cdep.ro/proiecte/2022/500/30/3/ces662.pdf",
+        "https://www.cdep.ro/proiecte/2022/500/30/3/cl662.pdf",
+        "https://www.cdep.ro/proiecte/2022/500/30/3/as533.pdf",
+        "https://www.cdep.ro/proiecte/2022/500/30/3/in662.pdf",
+        "https://www.cdep.ro/comisii/invatamant/pdf/2022/av533.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2022/av533.pdf",
+        "https://www.cdep.ro/comisii/tehnologia_informatiei/pdf/2022/av533.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2022/av533.pdf",
+        "https://www.cdep.ro/proiecte/2022/500/30/3/pvg533_2022.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2024/av533_22.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20316"
+    },
+    {
+      "id": "e46fd3fa289bf986",
+      "cdep_idp": 20081,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "Pl-x nr. 305/2022",
+      "nr_camera_deputati": "305/25.05.2022",
+      "nr_senat": "L218/01.03.2022",
+      "nr_guvern": null,
+      "nr_bpi": "378/24-05-2022",
+      "titlu": "Propunere legislativă pentru completarea unor acte normative cu privire la regimul străinilor în România şi încadrarea în muncă a străinilor pe teritoriul României",
+      "tip": "propunere_legislativa",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "32 deputati+senatori, din care: deputati - neafiliati: Cambera Oana-Alexandra , Teniţă Dragoş-Cătălin , Tulbure Simina-Geanina-Daniela deputati - PSD: Gheba Daniel-Sorin , Rizea Cristina Camelia , Todosiu Beniamin deputati - PNL: Lazăr Ion-Marian , Özmen Oana-Marciana deputati - USR: Băltăreţu Viorel , Blaga Daniel-Codruţ , Botez Mihai-Cătălin , Buzoianu Diana-Anda , Cristian Brian , Hangan Pollyanna-Hanellore , Ilie Victor , Miftode Marius-Andrei , Miruţă Radu-Dinel , Molnar Radu-Iulian , Năsui Claudiu-Iulius-Gavril , Pop Rareş Tudor , Seidler Cristian-Gabriel , Ţoiu Oana-Silvia senatori - neafiliati: Popescu Ion-Dragoş , Poteraş Cosmin-Marian senatori - USR: Darău Ambrozie-Irineu , Ivan Dan , Mihail Radu-Mihai , Negoi Eugen-Remus , Oprinoiu Aurel , Pălărie Ştefan , Vlad Sergiu Cosmin senatori - neafiliati: Postică Andrei",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2022-05-25",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2022-05-23",
+          "eveniment": "respinsa de catre Senat"
+        },
+        {
+          "data": "2022-05-25",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2022-05-31",
+          "eveniment": "primire aviz de la: Comisia pentru egalitatea de şanse pentru femei şi bărbaţi"
+        },
+        {
+          "data": "2022-06-06",
+          "eveniment": "primire punct de vedere de la Guvern - cu nr.5959/31.05.2022 (negativ) Punctul de vedere al Guvernului"
+        },
+        {
+          "data": "2022-06-09",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2022-06-21",
+          "eveniment": "primire aviz de la: Comisia pentru politică externă"
+        },
+        {
+          "data": "2022-06-28",
+          "eveniment": "primire aviz de la: Comisia pentru administraţie publică şi amenajarea teritoriului"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2022/300/00/5/em378.pdf",
+        "https://www.cdep.ro/proiecte/2022/300/00/5/pl378.pdf",
+        "https://www.cdep.ro/proiecte/2022/300/00/5/ces378.pdf",
+        "https://www.cdep.ro/proiecte/2022/300/00/5/cl378.pdf",
+        "https://www.cdep.ro/proiecte/2022/300/00/5/as305.pdf",
+        "https://www.cdep.ro/proiecte/2022/300/00/5/in378.pdf",
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2022/av305.pdf",
+        "https://www.cdep.ro/proiecte/2022/300/00/5/pvg305_2022.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2022/av305.pdf",
+        "https://www.cdep.ro/comisii/politica_externa/pdf/2022/av305.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2022/av305.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20081"
+    },
+    {
+      "id": "2bbb68010f1d60ce",
+      "cdep_idp": 20065,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 290/2022",
+      "nr_camera_deputati": "290/23.05.2022",
+      "nr_senat": "L281/06.05.2022",
+      "nr_guvern": "E107/04.05.2022",
+      "nr_bpi": "356/18-05-2022",
+      "titlu": "Proiect de Lege privind abilitarea Guvernului de a emite ordonanţe",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 186/2022 LEGE privind abilitarea Guvernului de a emite ordonante",
+      "lege_nr": "186/2022",
+      "decret_nr": "908/2022",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2022-05-23",
+      "data_adoptare_cd": "2022-06-08",
+      "data_adoptare_senat": "2022-05-18",
+      "data_promulgare": "2022-06-22",
+      "vot_pentru": 162,
+      "vot_contra": 76,
+      "vot_abtineri": 1,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2022-05-18",
+          "eveniment": "adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(2) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2022-05-23",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2022-06-02",
+          "eveniment": "primire raport favorabil (49 amend. admise, 2 amend. respinse) de la: Comisia juridică, de disciplină şi imunităţi face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2022-06-06",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 7 - 8 iunie 2022"
+        },
+        {
+          "data": "2022-06-08",
+          "eveniment": "dezbatere în plenul Camerei Deputatilor consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2022-06-08",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=162, contra=76, abtineri=1 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2022-06-14",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2022-06-16",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2022-06-22",
+          "eveniment": "promulgata prin Decret nr. 908/2022"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2022/200/90/0/em356.pdf",
+        "https://www.cdep.ro/proiecte/2022/200/90/0/cl356.pdf",
+        "https://www.cdep.ro/proiecte/2022/200/90/0/se356.pdf",
+        "https://www.cdep.ro/proiecte/2022/200/90/0/as290.pdf",
+        "https://www.cdep.ro/proiecte/2022/200/90/0/gv356.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2022/rp290;1.pdf",
+        "https://www.cdep.ro/docs/2022/cd290_22.pdf",
+        "https://www.cdep.ro/docs/2022/pr290_22.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20065"
+    },
+    {
+      "id": "164218744db73b51",
+      "cdep_idp": 20000,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 224/2022",
+      "nr_camera_deputati": "224/03.05.2022",
+      "nr_senat": "L150/21.03.2022",
+      "nr_guvern": "E53/18.03.2022",
+      "nr_bpi": "277/28-04-2022",
+      "titlu": "Proiect de Lege privind aprobarea Ordonanţei de urgenţã a Guvernului nr.26/2022 pentru modificarea şi completarea unor acte normative în domeniul investiţiilor publice",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 75/2023 LEGE privind aprobarea Ordonantei de urgentă a Guvernului nr. 26/2022 pentru modificarea si completarea unor acte normative în domeniul investitiilor publice",
+      "lege_nr": "75/2023",
+      "decret_nr": "363/2023",
+      "data_prezentare": "2022-04-26",
+      "data_inregistrare_cd": "2022-05-03",
+      "data_adoptare_cd": "2022-06-29",
+      "data_adoptare_senat": "2022-04-26",
+      "data_promulgare": "2023-03-31",
+      "vot_pentru": 252,
+      "vot_contra": 0,
+      "vot_abtineri": 32,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/transport/pdf/2022/rp224.pdf",
+      "timeline": [
+        {
+          "data": "2022-04-26",
+          "eveniment": "proiectul de lege pentru aprobarea ordonantei de urgenta adoptat de Senat ca urmare a depasirii termenului de adoptare, potrivit art.115 alin.(5) din Constitutia României republicata Forma adoptată de Senat"
+        },
+        {
+          "data": "2022-04-26",
+          "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor Adresa Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2022-05-03",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2022-05-17",
+          "eveniment": "primire aviz de la: Comisia pentru agricultură, silvicultură, industrie alimentară şi servicii specifice"
+        },
+        {
+          "data": "2022-05-20",
+          "eveniment": "primire aviz de la: Comisia pentru mediu şi echilibru ecologic"
+        },
+        {
+          "data": "2022-05-23",
+          "eveniment": "primire aviz de la: Comisia pentru apărare, ordine publică şi siguranţă naţională"
+        },
+        {
+          "data": "2022-05-30",
+          "eveniment": "primire aviz de la: Comisia pentru politică economică, reformă şi privatizare"
+        },
+        {
+          "data": "2022-06-08",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului)"
+        },
+        {
+          "data": "2022-06-15",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului) pentru sedinta Camerei Deputatilor din 20 - 22 iunie 2022"
+        },
+        {
+          "data": "2022-06-16",
+          "eveniment": "primire aviz de la: Comisia pentru administraţie publică şi amenajarea teritoriului"
+        },
+        {
+          "data": "2022-06-22",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului) pentru şedinţa Camerei Deputaţilor din 27 - 29 iunie 2022"
+        },
+        {
+          "data": "2022-06-29",
+          "eveniment": "primire raport favorabil aprobarii ordonantei de urgenta (49 amend. admise, 2 amend. respinse) de la: Comisia pentru industrii şi servicii Comisia juridică, de disciplină şi imunităţi Comisia pentru transporturi şi infrastructură face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2022-06-29",
+          "eveniment": "proiectul de lege pentru aprobarea ordonantei de urgenta adoptat de Camera Deputatilor rezultat vot pentru=252, contra=0, abtineri=32, nu au votat=1 consultati stenograma sedintei sau înregistrarea video"
+        },
+        {
+          "data": "2022-09-07",
+          "eveniment": "trimis pentru raport suplimentar la: Comisia pentru industrii şi servicii Comisia juridică, de disciplină şi imunităţi Comisia pentru transporturi şi infrastructură termen depunere raport: 27.09.2022"
+        },
+        {
+          "data": "2023-02-13",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului) pentru sedintele Camerei Deputatilor din zilele de 13 si 15 februarie 2023"
+        },
+        {
+          "data": "2023-02-15",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului) pentru şedinţa Camerei Deputaţilor din 20 - 21 februarie 2023"
+        },
+        {
+          "data": "2023-02-21",
+          "eveniment": "primire raport suplimentar (nr.I) (50 amend. admise, 4 amend. respinse) de la: Comisia pentru industrii şi servicii Comisia juridică, de disciplină şi imunităţi Comisia pentru transporturi şi infrastructură"
+        },
+        {
+          "data": "2023-02-27",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 27 - 28 februarie 2023"
+        },
+        {
+          "data": "2023-03-07",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului)"
+        },
+        {
+          "data": "2023-03-07",
+          "eveniment": "proiectul de lege pentru aprobarea ordonantei de urgenta adoptat de Camera Deputatilor rezultat vot pentru=248, contra=2, abtineri=26, nu au votat=1 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2023-03-13",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2023-03-15",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2023-03-31",
+          "eveniment": "promulgata prin Decret nr. 363/2023"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2022/200/20/4/em277.pdf",
+        "https://www.cdep.ro/proiecte/2022/200/20/4/oug277.pdf",
+        "https://www.cdep.ro/proiecte/2022/200/20/4/ces277.pdf",
+        "https://www.cdep.ro/proiecte/2022/200/20/4/cl277.pdf",
+        "https://www.cdep.ro/proiecte/2022/200/20/4/se277.pdf",
+        "https://www.cdep.ro/proiecte/2022/200/20/4/as224.pdf",
+        "https://www.cdep.ro/proiecte/2022/200/20/4/gv277.pdf",
+        "https://www.cdep.ro/comisii/agricultura/pdf/2022/av224.pdf",
+        "https://www.cdep.ro/comisii/mediu/pdf/2022/av224.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2022/av224.pdf",
+        "https://www.cdep.ro/comisii/economica/pdf/2022/av224.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2022/av224.pdf",
+        "https://www.cdep.ro/comisii/transport/pdf/2022/rp224.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2023/rs224_22.pdf",
+        "https://www.cdep.ro/comisii/industrii/pdf/2023/rs224_22.pdf",
+        "https://www.cdep.ro/docs/2022/cd224_22.pdf",
+        "https://www.cdep.ro/docs/2022/pr224_22.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20000"
+    },
+    {
+      "id": "abc01bb72fb90452",
+      "cdep_idp": 19724,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "Pl-x nr. 175/2022",
+      "nr_camera_deputati": "175/11.04.2022",
+      "nr_senat": "L83/21.12.2021",
+      "nr_guvern": null,
+      "nr_bpi": "750/16-12-2021 214/05-04-2022",
+      "titlu": "Propunere legislativă pentru modificarea articolului 363 alin.(1) din Ordonanţa de Urgenţă nr.57 din 3 iulie 2019 privind Codul administrativ",
+      "tip": "propunere_legislativa",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "23 deputati+senatori, din care: deputati - neafiliati: Balint Liviu-Ioan , Morar Olivia-Diana , Sărmaş Ioan-Sabin deputati - PNL: Avrămescu Gabriel-Ioan , Banias Mircea Marius , Bota Călin-Ioan , Burciu Cristina , Căuş Vasile-Aurel , Cupşa Ioan , Kiss János , Leoreanu Laurenţiu-Dan , Marşalic Jaro Norbert , Mărculescu Dumitru , Moisin Radu-Marin , Moldovan Sorin-Dan , Năcuţă Sorin , Stănescu Vetuţa , Şandru Cosmin , Trăilă Cristina , Varga Glad-Aurel senatori - PNL: Banu Claudia-Mihaela , Niculescu-Ţâgârlaş Cristian-Augustin , Pufu Vlad-Mircea",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 261/2022 LEGE pentru modificarea art. 363 alin. (6) din Ordonanta de urgentă a Guvernului nr. 57/2019 privind Codul administrativ",
+      "lege_nr": "261/2022",
+      "decret_nr": "1041/2022",
+      "data_prezentare": "2021-12-20",
+      "data_inregistrare_cd": "2022-04-11",
+      "data_adoptare_cd": "2022-06-29",
+      "data_adoptare_senat": null,
+      "data_promulgare": "2022-07-21",
+      "vot_pentru": 222,
+      "vot_contra": 58,
+      "vot_abtineri": 4,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": 3,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/administratie/pdf/2022/rp175.pdf",
+      "timeline": [
+        {
+          "data": "2021-12-20",
+          "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor Adresa iniţiatorului"
+        },
+        {
+          "data": "2021-12-20",
+          "eveniment": "înaintat la Senat"
+        },
+        {
+          "data": "2022-04-04",
+          "eveniment": "respinsa de catre Senat"
+        },
+        {
+          "data": "2022-04-11",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2022-04-28",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2022-05-16",
+          "eveniment": "primire aviz de la: Comisia pentru politică economică, reformă şi privatizare"
+        },
+        {
+          "data": "2022-05-25",
+          "eveniment": "primire aviz de la: Comisia pentru industrii şi servicii"
+        },
+        {
+          "data": "2022-06-20",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului) pentru sedinta Camerei Deputatilor din 20 - 22 iunie 2022"
+        },
+        {
+          "data": "2022-06-22",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului) pentru şedinţa Camerei Deputaţilor din 27 - 29 iunie 2022"
+        },
+        {
+          "data": "2022-06-27",
+          "eveniment": "primire raport favorabil (3 amend. admise) de la: Comisia pentru administraţie publică şi amenajarea teritoriului Comisia juridică, de disciplină şi imunităţi face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2022-06-29",
+          "eveniment": "adoptata de Camera Deputatilor titlu: Pl pentru modificarea art. 363 alin. (6) din Ordonanţa de urgenţă a Guvernului nr. 57/2019 privind Codul administrativ rezultat vot pentru=222, contra=58, abtineri=4 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru pro"
+        },
+        {
+          "data": "2022-06-29",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2022-07-04",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2022-07-21",
+          "eveniment": "promulgata prin Decret nr. 1041/2022"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2022/100/70/5/em214.pdf",
+        "https://www.cdep.ro/proiecte/2022/100/70/5/pl214.pdf",
+        "https://www.cdep.ro/proiecte/2022/100/70/5/ces214.pdf",
+        "https://www.cdep.ro/proiecte/2022/100/70/5/cl214.pdf",
+        "https://www.cdep.ro/proiecte/2022/100/70/5/pvg214.pdf",
+        "https://www.cdep.ro/proiecte/2022/100/70/5/in750.pdf",
+        "https://www.cdep.ro/proiecte/2022/100/70/5/as175.pdf",
+        "https://www.cdep.ro/proiecte/2022/100/70/5/in214.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2022/av175.pdf",
+        "https://www.cdep.ro/comisii/economica/pdf/2022/av175.pdf",
+        "https://www.cdep.ro/comisii/industrii/pdf/2022/av175.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2022/rp175.pdf",
+        "https://www.cdep.ro/docs/2022/cd175_22.pdf",
+        "https://www.cdep.ro/docs/2022/pr175_22.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19724"
+    },
+    {
+      "id": "c6dfa172dd415b3f",
+      "cdep_idp": 19800,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 58/2022",
+      "nr_camera_deputati": "58/21.02.2022",
+      "nr_senat": "L13/31.12.2021",
+      "nr_guvern": "E229/30.12.2021",
+      "nr_bpi": "57/15-02-2022",
+      "titlu": "Proiect de Lege privind aprobarea Ordonanţei de urgenţã a Guvernului nr.145/2021 pentru prorogarea unor termene prevăzute în Legea nr.95/2006 privind reforma în domeniul sănătăţii",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "trimis pentru raport suplimentar la comisiile permanente ale Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2022-02-21",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": "2022-02-14",
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2022-02-14",
+          "eveniment": "proiectul de lege pentru aprobarea ordonantei de urgenta adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(2) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2022-02-21",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2022-03-01",
+          "eveniment": "primire aviz de la: Comisia pentru egalitatea de şanse pentru femei şi bărbaţi"
+        },
+        {
+          "data": "2022-03-03",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2022-03-15",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2023-04-04",
+          "eveniment": "primire raport favorabil aprobarii ordonantei de urgenta de la: Comisia pentru buget, finanţe şi bănci Comisia pentru sănătate şi familie face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2023-04-12",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru sedinta Camerei Deputatilor din 18 - 19 aprilie 2023"
+        },
+        {
+          "data": "2023-04-19",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor pentru şedinţa Camerei Deputaţilor din 24 - 25 aprilie 2023"
+        },
+        {
+          "data": "2023-04-25",
+          "eveniment": "trimis pentru raport suplimentar la: Comisia pentru buget, finanţe şi bănci Comisia pentru sănătate şi familie CLGP din 25 aprilie 2023"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2022/000/50/8/em57.pdf",
+        "https://www.cdep.ro/proiecte/2022/000/50/8/oug57.pdf",
+        "https://www.cdep.ro/proiecte/2022/000/50/8/cl57.pdf",
+        "https://www.cdep.ro/proiecte/2022/000/50/8/se57.pdf",
+        "https://www.cdep.ro/proiecte/2022/000/50/8/as58.pdf",
+        "https://www.cdep.ro/proiecte/2022/000/50/8/gv57.pdf",
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2022/av058.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2022/av058;1.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2022/av058.pdf",
+        "https://www.cdep.ro/comisii/buget/pdf/2023/rp058_22.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19800"
+    },
+    {
+      "id": "d8880afb59b7f50c",
+      "cdep_idp": 19615,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "PL-x nr. 35/2022",
+      "nr_camera_deputati": "35/09.02.2022",
+      "nr_senat": "L510/19.10.2021",
+      "nr_guvern": null,
+      "nr_bpi": "619/14-10-2021 32/08-02-2022",
+      "titlu": "Proiect de Lege pentru modificarea şi completarea Ordonanţei de urgenţă a Guvernului nr.114/2018 privind instituirea unor măsuri în domeniul investiţiilor publice şi a unor măsuri fiscal-bugetare, modificarea şi completarea unor acte normative şi prorogarea unor termene",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "87 deputati+senatori, din care: deputati - neafiliati: Coarnă Dumitru , Damian Romulus-Marius , Ghiţă Daniel-Florin deputati - PSD: Albotă Emil-Florin , Alda Adrian , Barbu Florin-Ionuţ , Bălăşoiu Aurel , Bîrcă Constantin , Buicu Corneliu-Florin , Chesnoiu Adrian-Ionuţ , Chirilă Virgil Alin , Cîtea Vasile , Cristescu Radu-Mihai , Dinu Cristina-Elena , Dumitrescu Raluca Giorgiana , Gliga Dumitriţa , Goleac Nicoleta-Matilda , Grecu Ion-Cătălin , Halici Nicuşor , Holban Georgeta-Carmen , Huţu Alexandra , Iancu Marius-Ionel , Ilişanu Claudiu-Augustin , Intotero Natalia-Elena , Ivan Bogdan-Gruia , Lungoci Dumitru-Lucian , Lungu Romeo-Daniel , Mang Ioan , Manta Claudiu , Munteanu Remus , Muşoiu Ştefan , Nassar Rodica , Neaţă Eugen , Niţă Nicu , Oteşanu Daniela , Pavelescu Nicolae , Piper-Savu Florin , Popa Ştefan-Ovidiu , Presură Alexandra , Rasaliu Marian-Iulian , Sandu Viorica , Stancu Paul , Suciu Vasile-Daniel , Şerban Ciprian-Constantin , Şlincu Dan-Constantin , Şoldan Gheorghe , Tănăsescu Alina-Elena , Teodoroiu Simona-Maya , Toma Ilie , Tudorache Daniel , Tuhuţ Radu-Marcel , Ţachianu Marian , Ţepeluş Laurenţiu-Cristinel , Ţuţuianu Marius-Horia , Vicol-Ciorbă Laura-Cătălina , Vulpescu Ioan deputati - Minoritati: Amet Varol , Manea Cătălin-Zamfir , Zisopol Dragoş Gabriel senatori - PSD: Cionoiu Nicusor , Cristescu Ionel-Danut , Deneş Ioan , Dogariu Eugen , Dunca Marius-Alexandru , Firea Gabriela , Genoiu Mihail , Georgescu Laura , Humelnicu Marius , Matei Constantin-Bogdan , Mirea Siminica , Moagher Laura-Mihaela , Oprea Stefan-Radu , Prioteasa Ion , Puiu Ovidiu , Răducanu Sebastian , Resmeriţă Cornel-Cristian , Romaşcanu Lucian , Rotaru Ion , Stan Ioan , Stănescu Paul , Stocheci Cristina-Mariana , Stroe Felix , Tîlvăr Angel , Trufin Lucian , Vlaşin Sorin senatori - PNL: Scarlat George senatori - AUR: Matieş Călin-Gheorghe",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 135/2022 LEGE pentru modificarea si completarea unor acte normative",
+      "lege_nr": "135/2022",
+      "decret_nr": "791/2022",
+      "data_prezentare": "2021-10-18",
+      "data_inregistrare_cd": "2022-02-09",
+      "data_adoptare_cd": "2022-04-13",
+      "data_adoptare_senat": "2022-02-07",
+      "data_promulgare": "2022-05-13",
+      "vot_pentru": 269,
+      "vot_contra": 10,
+      "vot_abtineri": 6,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/munca/pdf/2022/rp035.pdf",
+      "timeline": [
+        {
+          "data": "2021-10-18",
+          "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor Adresa iniţiatorului"
+        },
+        {
+          "data": "2021-10-18",
+          "eveniment": "înaintat la Senat"
+        },
+        {
+          "data": "2022-02-07",
+          "eveniment": "adoptat de Senat ca urmare a depasirii termenului de adoptare, potrivit art.75 alin.(2) teza a III-a din Constitutia României republicata Forma adoptată de Senat"
+        },
+        {
+          "data": "2022-02-09",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2022-02-14",
+          "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor s-a luat act de solicitarea unui senator de a fi coinițiator"
+        },
+        {
+          "data": "2022-02-23",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2022-03-03",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2022-03-08",
+          "eveniment": "primire aviz de la: Comisia pentru politică economică, reformă şi privatizare"
+        },
+        {
+          "data": "2022-03-23",
+          "eveniment": "primire aviz de la: Comisia pentru industrii şi servicii"
+        },
+        {
+          "data": "2022-04-13",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului)"
+        },
+        {
+          "data": "2022-04-13",
+          "eveniment": "adoptat de Camera Deputatilor titlu: Lege pentru modificarea și completarea unor acte normative rezultat vot pentru=269, contra=10, abtineri=6 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2022-04-19",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2022-04-26",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2022-05-13",
+          "eveniment": "promulgata prin Decret nr. 791/2022"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2022/000/30/5/em32.pdf",
+        "https://www.cdep.ro/proiecte/2022/000/30/5/ces32.pdf",
+        "https://www.cdep.ro/proiecte/2022/000/30/5/cl32.pdf",
+        "https://www.cdep.ro/proiecte/2022/000/30/5/cconc32.pdf",
+        "https://www.cdep.ro/proiecte/2022/000/30/5/opcfisc32.pdf",
+        "https://www.cdep.ro/proiecte/2022/000/30/5/in619.pdf",
+        "https://www.cdep.ro/proiecte/2022/000/30/5/se32.pdf",
+        "https://www.cdep.ro/proiecte/2022/000/30/5/as35.pdf",
+        "https://www.cdep.ro/proiecte/2022/000/30/5/in32.pdf",
+        "https://www.cdep.ro/proiecte/2022/000/30/5/nota35.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2022/av035.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2022/av035.pdf",
+        "https://www.cdep.ro/comisii/economica/pdf/2022/av035.pdf",
+        "https://www.cdep.ro/comisii/industrii/pdf/2022/av035.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2022/rp035.pdf",
+        "https://www.cdep.ro/docs/2022/cd035_22.pdf",
+        "https://www.cdep.ro/docs/2022/pr035_22.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=19615"
+    }
+  ]
+}

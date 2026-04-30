@@ -1,0 +1,1410 @@
+{
+  "meta": {
+    "generated_at": "2026-04-30T18:31:59.301378Z",
+    "source_url": "split from /v1/proiecte/legislatura-2024.json",
+    "scraper_version": "0.1.0",
+    "count": 19
+  },
+  "data": [
+    {
+      "id": "2264108258456d3b",
+      "cdep_idp": 22159,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "Pl-x nr. 684/2024",
+      "nr_camera_deputati": "684/17.12.2024",
+      "nr_senat": "L680/17.12.2024",
+      "nr_guvern": null,
+      "nr_bpi": "762/17-12-2024",
+      "titlu": "Propunere legislativă pentru modificarea şi completarea Legii nr.96/2006, republicată, privind Statutul deputaţilor şi al senatorilor",
+      "tip": "propunere_legislativa",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "5 deputati+senatori, din care: deputati - PNL: Andronache Gabriel senatori - PSD: Bodog Florian-Dorel senatori - PNL: Fenechiu Cătălin-Daniel , Gorghiu Alina-Ştefania , Niculescu-Ţâgârlaş Cristian-Augustin",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "Lege 325/2024 LEGE pentru modificarea si completarea Legii nr. 96/2006 privind Statutul deputatilor si al senatorilor",
+      "lege_nr": "325/2024",
+      "decret_nr": "1663/2024",
+      "data_prezentare": "2024-12-17",
+      "data_inregistrare_cd": "2024-12-17",
+      "data_adoptare_cd": "2024-12-17",
+      "data_adoptare_senat": "2024-12-17",
+      "data_promulgare": "2024-12-20",
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2024-12-17",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/statut/pdf/2024/rp684.pdf",
+      "timeline": [
+        {
+          "data": "2024-12-17",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa iniţiatorului"
+        },
+        {
+          "data": "2024-12-17",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-12-17",
+          "eveniment": "trimis pentru raport la: Comisia permanentă a Camerei Deputaţilor şi Senatului privind Statutul deputaţilor şi al senatorilor, organizarea şi funcţionarea şedinţelor comune ale Camerei Deputaţilor şi Senatului termen depunere amendamente: 17.12.2024, ora 11:00 termen depunere raport: 17.12.2024, ora"
+        },
+        {
+          "data": "2024-12-17",
+          "eveniment": "primire aviz de la Consiliul Legislativ (favorabil) Avizul Consiliului Legislativ"
+        },
+        {
+          "data": "2024-12-17",
+          "eveniment": "adoptata în sedinta comuna a celor doua Camere consultati stenograma sedintei Forma pentru promulgare"
+        },
+        {
+          "data": "2024-12-19",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2024-12-20",
+          "eveniment": "promulgata prin Decret nr. 1663/2024"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/600/80/4/em684.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/4/pl684.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/4/in684.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/4/cl684.pdf",
+        "https://www.cdep.ro/comisii/statut/pdf/2024/rp684.pdf",
+        "https://www.cdep.ro/docs/2024/pr684_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22159"
+    },
+    {
+      "id": "ddb775921dbb685f",
+      "cdep_idp": 20211,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 674/2024",
+      "nr_camera_deputati": "674/16.12.2024",
+      "nr_senat": "L648/2024",
+      "nr_guvern": "E151/23.06.2022",
+      "nr_bpi": "508/28-06-2022",
+      "titlu": "Proiect de Lege pentru aprobarea contului general anual de execuţie a bugetului de stat, a contului anual de execuţie a bugetului Fondului naţional unic de asigurări sociale de sănătate şi a contului general anual al datoriei publice aferente anului 2021",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2024-12-16",
+      "data_inregistrare_cd": "2024-12-16",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2024-12-24",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-12-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 24.12.2024 termen depunere raport: 05.02.2025"
+        },
+        {
+          "data": "2025-02-06",
+          "eveniment": "primire aviz de la: Comisia pentru sănătate şi familie"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/600/70/4/em508.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/4/pl508.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/4/cl508.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/4/vol%201%20complet.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/4/vol%202%20complet.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/4/vol%203%20complet.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/4/vol%204%20complet.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/4/vol%205%20complet.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/4/vol%206%20complet.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/4/gv674.pdf",
+        "https://www.cdep.ro/comisii/sanatate/pdf/2025/av674_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20211"
+    },
+    {
+      "id": "8811b48e2d9108cd",
+      "cdep_idp": 20212,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 675/2024",
+      "nr_camera_deputati": "675/16.12.2024",
+      "nr_senat": "L649/2024",
+      "nr_guvern": "E152/23.06.2022",
+      "nr_bpi": "509/28-06-2022",
+      "titlu": "Proiect de Lege pentru aprobarea contului general anual de execuţie a bugetului asigurărilor sociale de stat pe anul 2021 şi a contului general anual de execuţie a bugetului asigurărilor pentru şomaj pe anul 2021",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2024-12-16",
+      "data_inregistrare_cd": "2024-12-16",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2024-12-24",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-12-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 24.12.2024 termen depunere raport: 05.02.2025"
+        },
+        {
+          "data": "2025-02-19",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/600/70/5/em509.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/5/pl509.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/5/cl509.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/5/gv675.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2025/av675_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20212"
+    },
+    {
+      "id": "f653f1e6683fecd6",
+      "cdep_idp": 21086,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 676/2024",
+      "nr_camera_deputati": "676/16.12.2024",
+      "nr_senat": "L650/2024",
+      "nr_guvern": "E132/30.06.2023",
+      "nr_bpi": "549/03-07-2023",
+      "titlu": "Proiect de Lege pentru aprobarea contului general anual de execuţie a bugetului de stat, a contului anual de execuţie a bugetului Fondului naţional unic de asigurări sociale de sănătate şi a contului general anual al datoriei publice aferente anului 2022",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2024-12-16",
+      "data_inregistrare_cd": "2024-12-16",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2024-12-24",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-12-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 24.12.2024 termen depunere raport: 05.02.2025"
+        },
+        {
+          "data": "2025-02-06",
+          "eveniment": "primire aviz de la: Comisia pentru sănătate şi familie"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/600/70/6/em549.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/6/pl549.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/6/cl549.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/6/VOL%20I.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/6/VOL%20II.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/6/VOL%20III.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/6/VOL%20IV.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/6/VOL%20V.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/6/VOL%20VI.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/6/gv676.pdf",
+        "https://www.cdep.ro/comisii/sanatate/pdf/2025/av676_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21086"
+    },
+    {
+      "id": "2c930cec26472582",
+      "cdep_idp": 21085,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 677/2024",
+      "nr_camera_deputati": "677/16.12.2024",
+      "nr_senat": "L651/2024",
+      "nr_guvern": "E133/30.06.2023",
+      "nr_bpi": "550/03-07-2023",
+      "titlu": "Proiect de Lege pentru aprobarea contului general anual de execuţie a bugetului asigurărilor sociale de stat pe anul 2022 şi a contului general anual de execuţie a bugetului asigurărilor pentru şomaj pe anul 2022",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2024-12-16",
+      "data_inregistrare_cd": "2024-12-16",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2024-12-24",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-12-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 24.12.2024 termen depunere raport: 05.02.2025"
+        },
+        {
+          "data": "2025-02-19",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/600/70/7/em550.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/7/pl550.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/7/cl550.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/7/gv677.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2025/av677_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21085"
+    },
+    {
+      "id": "fa2ef4f5764df42d",
+      "cdep_idp": 20225,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 678/2024",
+      "nr_camera_deputati": "678/16.12.2024",
+      "nr_senat": "L652/2024",
+      "nr_guvern": "E199/18.08.2022",
+      "nr_bpi": "561/23-08-2022",
+      "titlu": "Proiect de Lege pentru aprobarea Ordonanţei Guvernului nr.19/2022 cu privire la rectificarea bugetului de stat pe anul 2022",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2024-12-16",
+      "data_inregistrare_cd": "2024-12-16",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2024-12-24",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-12-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 24.12.2024 termen depunere raport: 05.02.2025"
+        },
+        {
+          "data": "2025-02-03",
+          "eveniment": "primire aviz de la: Comisia pentru tehnologia informaţiei şi comunicaţiilor"
+        },
+        {
+          "data": "2025-02-05",
+          "eveniment": "primire aviz de la: Comisia pentru administraţie publică şi amenajarea teritoriului"
+        },
+        {
+          "data": "2025-02-06",
+          "eveniment": "primire aviz de la: Comisia pentru sănătate şi familie"
+        },
+        {
+          "data": "2025-02-12",
+          "eveniment": "primire aviz de la: Comisia pentru politică externă"
+        },
+        {
+          "data": "2025-02-18",
+          "eveniment": "primire aviz de la: Comisia pentru transporturi şi infrastructură"
+        },
+        {
+          "data": "2025-02-19",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        },
+        {
+          "data": "2025-02-26",
+          "eveniment": "primire aviz de la: Comisia pentru mediu şi echilibru ecologic"
+        },
+        {
+          "data": "2025-03-04",
+          "eveniment": "primire aviz de la: Comisia pentru învăţământ"
+        },
+        {
+          "data": "2025-03-05",
+          "eveniment": "primire aviz de la: Comisia pentru tineret și sport"
+        },
+        {
+          "data": "2025-03-19",
+          "eveniment": "primire aviz de la: Comisia pentru industrii şi servicii"
+        },
+        {
+          "data": "2025-11-11",
+          "eveniment": "primire aviz de la: Comisia pentru apărare, ordine publică şi siguranţă naţională"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/600/70/8/em561.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/8/pl561.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/8/og561.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/8/ces561.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/8/cl561.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/8/opinia561.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/8/csat561.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/8/gv678.pdf",
+        "https://www.cdep.ro/comisii/tehnologia_informatiei/pdf/2025/av678_24.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2025/av678_24.pdf",
+        "https://www.cdep.ro/comisii/sanatate/pdf/2025/av678_24.pdf",
+        "https://www.cdep.ro/comisii/politica_externa/pdf/2025/av678_24.pdf",
+        "https://www.cdep.ro/comisii/transport/pdf/2025/av678_24.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2025/av678_24.pdf",
+        "https://www.cdep.ro/comisii/mediu/pdf/2025/av678_24.pdf",
+        "https://www.cdep.ro/comisii/invatamant/pdf/2025/av678_24.pdf",
+        "https://www.cdep.ro/comisii/sport/pdf/2025/av678_24.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2025/av678_24.pdf",
+        "https://www.cdep.ro/comisii/industrii/pdf/2025/av678_24.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2025/av678_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20225"
+    },
+    {
+      "id": "3e85ca2948090c3e",
+      "cdep_idp": 20224,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 679/2024",
+      "nr_camera_deputati": "679/16.12.2024",
+      "nr_senat": "L653/2024",
+      "nr_guvern": "E200/18.08.2022",
+      "nr_bpi": "560/23-08-2022",
+      "titlu": "Proiect de Lege pentru aprobarea Ordonanţei Guvernului nr.20/2022 pentru rectificarea bugetului asigurărilor sociale de stat pe anul 2022",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2024-12-16",
+      "data_inregistrare_cd": "2024-12-16",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2024-12-24",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-12-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 24.12.2024 termen depunere raport: 05.02.2025"
+        },
+        {
+          "data": "2025-02-19",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/600/70/9/em560.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/9/pl560.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/9/og560.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/9/ces560.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/9/cl560.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/9/opinia560.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/70/9/gv679.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2025/av679_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20224"
+    },
+    {
+      "id": "839bec0cf3a4e769",
+      "cdep_idp": 20507,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 680/2024",
+      "nr_camera_deputati": "680/16.12.2024",
+      "nr_senat": "L654/2024",
+      "nr_guvern": "E283/17.11.2022",
+      "nr_bpi": "883/18-11-2022",
+      "titlu": "Proiect de Lege pentru aprobarea Ordonanţei de urgenţă a Guvernului nr.160/2022 cu privire la rectificarea bugetului de stat pe anul 2022",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2024-12-16",
+      "data_inregistrare_cd": "2024-12-16",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2024-12-24",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-12-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 24.12.2024 termen depunere raport: 05.02.2025"
+        },
+        {
+          "data": "2025-02-05",
+          "eveniment": "primire aviz de la: Comisia pentru administraţie publică şi amenajarea teritoriului"
+        },
+        {
+          "data": "2025-02-06",
+          "eveniment": "primire aviz de la: Comisia pentru sănătate şi familie"
+        },
+        {
+          "data": "2025-02-12",
+          "eveniment": "primire aviz de la: Comisia pentru politică externă"
+        },
+        {
+          "data": "2025-02-18",
+          "eveniment": "primire aviz de la: Comisia pentru transporturi şi infrastructură"
+        },
+        {
+          "data": "2025-02-19",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        },
+        {
+          "data": "2025-02-26",
+          "eveniment": "primire aviz de la: Comisia pentru mediu şi echilibru ecologic"
+        },
+        {
+          "data": "2025-03-04",
+          "eveniment": "primire aviz de la: Comisia pentru învăţământ"
+        },
+        {
+          "data": "2025-03-05",
+          "eveniment": "primire aviz de la: Comisia pentru tineret și sport"
+        },
+        {
+          "data": "2025-03-19",
+          "eveniment": "primire aviz de la: Comisia pentru industrii şi servicii"
+        },
+        {
+          "data": "2025-11-11",
+          "eveniment": "primire aviz de la: Comisia pentru apărare, ordine publică şi siguranţă naţională"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/600/80/0/em883.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/0/pl883.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/0/oug883.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/0/ax1.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/0/ax2.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/0/ax3.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/0/ax4.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/0/ax5.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/0/ax6.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/0/opConsFisc883.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/0/ces883.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/0/cl883.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/0/gv680.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2025/av680_24.pdf",
+        "https://www.cdep.ro/comisii/sanatate/pdf/2025/av680_24.pdf",
+        "https://www.cdep.ro/comisii/politica_externa/pdf/2025/av680_24.pdf",
+        "https://www.cdep.ro/comisii/transport/pdf/2025/av680_24.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2025/av680_24.pdf",
+        "https://www.cdep.ro/comisii/mediu/pdf/2025/av680_24.pdf",
+        "https://www.cdep.ro/comisii/invatamant/pdf/2025/av680_24.pdf",
+        "https://www.cdep.ro/comisii/sport/pdf/2025/av680_24.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2025/av680_24.pdf",
+        "https://www.cdep.ro/comisii/industrii/pdf/2025/av680_24.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2025/av680_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20507"
+    },
+    {
+      "id": "23a15ad2e23df5d7",
+      "cdep_idp": 20508,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 681/2024",
+      "nr_camera_deputati": "681/16.12.2024",
+      "nr_senat": "L655/2024",
+      "nr_guvern": "E284/17.11.2022",
+      "nr_bpi": "884/18-11-2022",
+      "titlu": "Proiect de Lege privind aprobarea Ordonanţei de urgenţă a Guvernului nr.161/2022 pentru rectificarea bugetului asigurărilor sociale de stat pe anul 2022",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2024-12-16",
+      "data_inregistrare_cd": "2024-12-16",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2024-12-24",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-12-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 24.12.2024 termen depunere raport: 05.02.2025"
+        },
+        {
+          "data": "2025-02-19",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/600/80/1/em884.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/1/pl884.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/1/oug884.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/1/opConsFisc884.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/1/ces884.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/1/cl884.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/1/gv681.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2025/av681_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=20508"
+    },
+    {
+      "id": "20f4c0747a3d15d7",
+      "cdep_idp": 22008,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 682/2024",
+      "nr_camera_deputati": "682/16.12.2024",
+      "nr_senat": "L656/2024",
+      "nr_guvern": "E206/23.09.2024",
+      "nr_bpi": "603/25-09-2024",
+      "titlu": "Proiect de Lege pentru aprobarea Ordonanţei de urgenţă a Guvernului nr.113/2024 cu privire la rectificarea bugetului de stat pe anul 2024",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2024-12-16",
+      "data_inregistrare_cd": "2024-12-16",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2024-12-24",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-12-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 24.12.2024 termen depunere raport: 05.02.2025"
+        },
+        {
+          "data": "2025-02-05",
+          "eveniment": "primire aviz de la: Comisia pentru administraţie publică şi amenajarea teritoriului"
+        },
+        {
+          "data": "2025-02-06",
+          "eveniment": "primire aviz de la: Comisia pentru sănătate şi familie"
+        },
+        {
+          "data": "2025-02-18",
+          "eveniment": "primire aviz de la: Comisia pentru transporturi şi infrastructură"
+        },
+        {
+          "data": "2025-02-19",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        },
+        {
+          "data": "2025-02-26",
+          "eveniment": "primire aviz de la: Comisia pentru mediu şi echilibru ecologic"
+        },
+        {
+          "data": "2025-03-04",
+          "eveniment": "primire aviz de la: Comisia pentru învăţământ"
+        },
+        {
+          "data": "2025-03-05",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2025-03-19",
+          "eveniment": "primire aviz de la: Comisia pentru industrii şi servicii"
+        },
+        {
+          "data": "2025-03-20",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2025-11-11",
+          "eveniment": "primire aviz de la: Comisia pentru apărare, ordine publică şi siguranţă naţională"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/600/80/2/em603.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/2/pl603.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/2/oug603.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/2/ces603.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/2/cl603.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/2/opConsFisc603.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/2/gv682.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2025/av682_24.pdf",
+        "https://www.cdep.ro/comisii/sanatate/pdf/2025/av682_24.pdf",
+        "https://www.cdep.ro/comisii/transport/pdf/2025/av682_24.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2025/av682_24.pdf",
+        "https://www.cdep.ro/comisii/mediu/pdf/2025/av682_24.pdf",
+        "https://www.cdep.ro/comisii/invatamant/pdf/2025/av682_24.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2025/av682_24.pdf",
+        "https://www.cdep.ro/comisii/industrii/pdf/2025/av682_24.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2025/av682_24.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2025/av682_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22008"
+    },
+    {
+      "id": "e80d145fa4c6bf6f",
+      "cdep_idp": 22009,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 683/2024",
+      "nr_camera_deputati": "683/16.12.2024",
+      "nr_senat": "L657/2024",
+      "nr_guvern": "E207/23.09.2024",
+      "nr_bpi": "604/25-09-2024",
+      "titlu": "Proiect de Lege privind aprobarea Ordonanţei de urgenţă a Guvernului nr.114/2024 pentru rectificarea bugetului asigurărilor sociale de stat pe anul 2024",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor + Senatul",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor si Senatului",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2024-12-16",
+      "data_inregistrare_cd": "2024-12-16",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": "2024-12-24",
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-12-16",
+          "eveniment": "prezentare în Birourile Permanente reunite ale Camerei Deputatilor si Senatului Adresa Guvernului"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-12-16",
+          "eveniment": "trimis pentru raport la: Comisia pentru buget, finanţe şi bănci raport comun cu Senatul termen depunere amendamente: 24.12.2024 termen depunere raport: 05.02.2025"
+        },
+        {
+          "data": "2025-02-19",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/600/80/3/em604.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/3/pl604.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/3/ces604.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/3/cl604.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/3/opConsFisc604.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/80/3/gv683.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2025/av683_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22009"
+    },
+    {
+      "id": "21b3259f4436f847",
+      "cdep_idp": 22149,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 667/2024",
+      "nr_camera_deputati": "667/11.12.2024",
+      "nr_senat": "L631/2024",
+      "nr_guvern": null,
+      "nr_bpi": "756/10-12-2024",
+      "titlu": "Proiect de Lege pentru modificarea art.226 alin.(1) din Legea nr.286/2009 privind Codul penal",
+      "tip": "proiect_lege",
+      "caracter": "organic",
+      "procedura_urgenta": false,
+      "initiator": "2 senatori, din care: - PSD: Cazanciuc Robert-Marius - PNL: Fenechiu Cătălin-Daniel",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2024-12-11",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": "2024-12-09",
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-12-09",
+          "eveniment": "adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(1) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2024-12-11",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2025-02-13",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/600/60/7/em756.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/60/7/ces667.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/60/7/cl756.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/60/7/csm_667.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/60/7/se756.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/60/7/as667.pdf",
+        "https://www.cdep.ro/proiecte/2024/600/60/7/in756.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2025/av667_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22149"
+    },
+    {
+      "id": "9c9b92c8f961d15c",
+      "cdep_idp": 22075,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "Pl-x nr. 596/2024",
+      "nr_camera_deputati": "596/21.10.2024",
+      "nr_senat": "L508/2024",
+      "nr_guvern": null,
+      "nr_bpi": "675/15-10-2024",
+      "titlu": "Propunere legislativă pentru modificarea şi completarea LEGII nr.208/2015 privind alegerea Senatului şi a Camerei Deputaţilor",
+      "tip": "propunere_legislativa",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "1 senator - AUR: Costea Adrian",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2024-10-21",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-10-14",
+          "eveniment": "respinsa de catre Senat"
+        },
+        {
+          "data": "2024-10-21",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-11-11",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2024-12-11",
+          "eveniment": "primire aviz de la: Comisia pentru comunităţile de români din afara graniţelor ţării"
+        },
+        {
+          "data": "2024-12-18",
+          "eveniment": "primire aviz de la: Comisia pentru egalitatea de şanse pentru femei şi bărbaţi"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/500/90/6/em675.pdf",
+        "https://www.cdep.ro/proiecte/2024/500/90/6/pl675.pdf",
+        "https://www.cdep.ro/proiecte/2024/500/90/6/ces675.pdf",
+        "https://www.cdep.ro/proiecte/2024/500/90/6/cl675.pdf",
+        "https://www.cdep.ro/proiecte/2024/500/90/6/pvg675.pdf",
+        "https://www.cdep.ro/proiecte/2024/500/90/6/aep675.pdf",
+        "https://www.cdep.ro/proiecte/2024/500/90/6/as596.pdf",
+        "https://www.cdep.ro/proiecte/2024/500/90/6/in675.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2024/av596.pdf",
+        "https://www.cdep.ro/comisii/diaspora/pdf/2024/av596.pdf",
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2024/av596.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22075"
+    },
+    {
+      "id": "82b32bf8e495170a",
+      "cdep_idp": 21899,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 422/2024",
+      "nr_camera_deputati": "422/02.09.2024",
+      "nr_senat": "L438/2024",
+      "nr_guvern": "E176/21.08.2024",
+      "nr_bpi": "483/02-09-2024",
+      "titlu": "Proiect de Lege privind aprobarea Ordonanţei de urgenţă a Guvernului nr.101/2024 pentru modificarea şi completarea Ordonanţei de urgenţă a Guvernului nr.64/2007 privind datoria publică",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 245/2024 LEGE privind aprobarea Ordonantei de urgentă a Guvernului nr. 101/2024 pentru modificarea si completarea Ordonantei de urgentă a Guvernului nr. 64/2007 privind datoria publică",
+      "lege_nr": "245/2024",
+      "decret_nr": "1189/2024",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2024-09-02",
+      "data_adoptare_cd": "2024-09-03",
+      "data_adoptare_senat": "2024-09-02",
+      "data_promulgare": null,
+      "vot_pentru": 247,
+      "vot_contra": 29,
+      "vot_abtineri": 1,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/buget/pdf/2024/rp422.pdf",
+      "timeline": [
+        {
+          "data": "2024-09-02",
+          "eveniment": "proiectul de lege pentru aprobarea ordonantei de urgenta adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(2) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2024-09-02",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-09-03",
+          "eveniment": "primire raport favorabil aprobarii ordonantei de urgenta de la: Comisia pentru buget, finanţe şi bănci face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2024-09-03",
+          "eveniment": "proiectul de lege pentru aprobarea ordonantei de urgenta adoptat de Camera Deputatilor rezultat vot pentru=247, contra=29, abtineri=1 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2024-09-03",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2024-09-05",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/400/20/2/em422.pdf",
+        "https://www.cdep.ro/proiecte/2024/400/20/2/oug422.pdf",
+        "https://www.cdep.ro/proiecte/2024/400/20/2/cl422.pdf",
+        "https://www.cdep.ro/proiecte/2024/400/20/2/se422.pdf",
+        "https://www.cdep.ro/proiecte/2024/400/20/2/as422.pdf",
+        "https://www.cdep.ro/proiecte/2024/400/20/2/gv422.pdf",
+        "https://www.cdep.ro/comisii/buget/pdf/2024/rp422.pdf",
+        "https://www.cdep.ro/docs/2024/pl422_cd422_24.pdf",
+        "https://www.cdep.ro/docs/2024/pl422_pr422_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21899"
+    },
+    {
+      "id": "e1ad205a4a14de5d",
+      "cdep_idp": 21897,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 423/2024",
+      "nr_camera_deputati": "423/02.09.2024",
+      "nr_senat": "L468/2024",
+      "nr_guvern": "E191/02.09.2024",
+      "nr_bpi": "482/02-09-2024",
+      "titlu": "Proiect de Lege privind completarea art.1 din Legea nr.222/2017 pentru realizarea „Capabilităţii de apărare aeriană cu baza la sol”, aferentă programului de înzestrare esenţial „Sistem de rachete sol-aer cu bătaie mare (HSAM)”",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 246/2024 LEGE privind completarea art. 1 din Legea nr. 222/2017 pentru realizarea \"Capabilitătii de apărare aeriană cu baza la sol\", aferentă programului de înzestrare esential \"Sistem de rachete sol-aer cu bătaie mare (HSAM)\"",
+      "lege_nr": "246/2024",
+      "decret_nr": "1190/2024",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2024-09-02",
+      "data_adoptare_cd": "2024-09-03",
+      "data_adoptare_senat": "2024-09-02",
+      "data_promulgare": null,
+      "vot_pentru": 245,
+      "vot_contra": 29,
+      "vot_abtineri": 1,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/aparare/pdf/2024/rp423.pdf",
+      "timeline": [
+        {
+          "data": "2024-09-02",
+          "eveniment": "adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(2) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2024-09-02",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-09-03",
+          "eveniment": "primire raport (1 amend. admis, 2 amend. respinse) de la: Comisia pentru apărare, ordine publică şi siguranţă naţională face parte din categoria legilor ordinare"
+        },
+        {
+          "data": "2024-09-03",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=245, contra=29, abtineri=1, nu au votat=1 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2024-09-03",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2024-09-05",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/400/20/3/em423.pdf",
+        "https://www.cdep.ro/proiecte/2024/400/20/3/cl423.pdf",
+        "https://www.cdep.ro/proiecte/2024/400/20/3/se423.pdf",
+        "https://www.cdep.ro/proiecte/2024/400/20/3/as423.pdf",
+        "https://www.cdep.ro/proiecte/2024/400/20/3/gv423.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2024/rp423.pdf",
+        "https://www.cdep.ro/docs/2024/pl423_cd423_24.pdf",
+        "https://www.cdep.ro/docs/2024/pl423_pr423_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21897"
+    },
+    {
+      "id": "b1b612252c0a435d",
+      "cdep_idp": 21749,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "Pl-x nr. 277/2024",
+      "nr_camera_deputati": "277/07.05.2024",
+      "nr_senat": "L178/2024",
+      "nr_guvern": null,
+      "nr_bpi": "317/30-04-2024",
+      "titlu": "Propunere legislativă privind obligativitatea folosirii camerelor de corp în timpul controalelor şi/sau inspecţiilor realizate de către instituţiile publice de control din România",
+      "tip": "propunere_legislativa",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "1 deputat - neafiliati: Gavrilă Anamaria",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2024-05-07",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-04-29",
+          "eveniment": "respinsa de catre Senat"
+        },
+        {
+          "data": "2024-05-07",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-05-15",
+          "eveniment": "primire aviz de la: Comisia pentru muncă şi protecţie socială"
+        },
+        {
+          "data": "2025-02-26",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2025-03-18",
+          "eveniment": "primire aviz de la: Comisia pentru apărare, ordine publică şi siguranţă naţională"
+        },
+        {
+          "data": "2025-03-25",
+          "eveniment": "primire aviz de la: Comisia pentru tehnologia informaţiei şi comunicaţiilor"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/200/70/7/em317.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/70/7/p;317.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/70/7/ces317.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/70/7/cl317.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/70/7/csm317.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/70/7/anfp317.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/70/7/as277.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/70/7/in317.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2024/av277.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2024/av277.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2025/av277_24.pdf",
+        "https://www.cdep.ro/comisii/aparare/pdf/2025/av277_24.pdf",
+        "https://www.cdep.ro/comisii/tehnologia_informatiei/pdf/2025/av277_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21749"
+    },
+    {
+      "id": "d387057df9b5f195",
+      "cdep_idp": 21755,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "Pl-x nr. 282/2024",
+      "nr_camera_deputati": "282/07.05.2024",
+      "nr_senat": "L190/2024",
+      "nr_guvern": null,
+      "nr_bpi": "322/30-04-2024",
+      "titlu": "Propunere legislativă pentru modificarea şi completarea Legii nr.143/2000 privind prevenirea şi combaterea traficului şi consumului ilicit de droguri, republicată, cu modificările şi completările ulterioare",
+      "tip": "propunere_legislativa",
+      "caracter": "organic",
+      "procedura_urgenta": false,
+      "initiator": "1 senator - neafiliati: Boancă Rodica",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "raport depus; urmeaza sa intre pe ordinea de zi",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2024-05-07",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-04-29",
+          "eveniment": "respinsa de catre Senat"
+        },
+        {
+          "data": "2024-05-07",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-05-15",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2025-05-07",
+          "eveniment": "primire raport de respingere de la: Comisia pentru sănătate şi familie Comisia juridică, de disciplină şi imunităţi Comisia pentru apărare, ordine publică şi siguranţă naţională face parte din categoria legilor organice"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/200/80/2/em322.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/80/2/pl322.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/80/2/ces322.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/80/2/cl322.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/80/2/csm322.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/80/2/as282.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/80/2/in322.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2024/av282.pdf",
+        "https://www.cdep.ro/comisii/sanatate/pdf/2025/rp282_24.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21755"
+    },
+    {
+      "id": "a8e13cb7d2656c01",
+      "cdep_idp": 21756,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "Pl-x nr. 283/2024",
+      "nr_camera_deputati": "283/07.05.2024",
+      "nr_senat": "L191/2024",
+      "nr_guvern": null,
+      "nr_bpi": "323/30-04-2024",
+      "titlu": "Propunere legislativă privind implementarea Programului de acordare gratuită a raţiei zilnice de hrană pentru copiii din unităţile de învăţământ preuniversitar publice precum creşe şi grădiniţe",
+      "tip": "propunere_legislativa",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "1 senator - neafiliati: Boancă Rodica",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2024-05-07",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": null,
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2024-04-29",
+          "eveniment": "respinsa de catre Senat"
+        },
+        {
+          "data": "2024-05-07",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-05-15",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2024-05-21",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
+        },
+        {
+          "data": "2024-05-22",
+          "eveniment": "primire aviz de la: Comisia pentru egalitatea de şanse pentru femei şi bărbaţi"
+        },
+        {
+          "data": "2024-06-19",
+          "eveniment": "primire aviz de la: Comisia pentru învăţământ"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/200/80/3/em323.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/80/3/pl323.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/80/3/ces323.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/80/3/cl323.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/80/3/as283.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/80/3/in323.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2024/av283.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2024/av283.pdf",
+        "https://www.cdep.ro/comisii/sanatate/pdf/2024/av283.pdf",
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2024/av283.pdf",
+        "https://www.cdep.ro/comisii/invatamant/pdf/2024/av283.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21756"
+    },
+    {
+      "id": "44a7a71d4bbda05d",
+      "cdep_idp": 21722,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 248/2024",
+      "nr_camera_deputati": "248/22.04.2024",
+      "nr_senat": "L184/2024",
+      "nr_guvern": "E72/04.04.2024",
+      "nr_bpi": "286/16-04-2024",
+      "titlu": "Proiect de Lege privind statutul personalului de cercetare, dezvoltare şi inovare",
+      "tip": "proiect_lege",
+      "caracter": "organic",
+      "procedura_urgenta": true,
+      "initiator": "Guvern",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "Lege 183/2024 LEGE privind statutul personalului de cercetare, dezvoltare si inovare",
+      "lege_nr": "183/2024",
+      "decret_nr": "937/2024",
+      "data_prezentare": null,
+      "data_inregistrare_cd": "2024-04-22",
+      "data_adoptare_cd": "2024-05-14",
+      "data_adoptare_senat": "2024-04-15",
+      "data_promulgare": "2024-06-10",
+      "vot_pentru": 184,
+      "vot_contra": 39,
+      "vot_abtineri": 32,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": "https://www.cdep.ro/comisii/munca/pdf/2024/rp248.pdf",
+      "timeline": [
+        {
+          "data": "2024-04-15",
+          "eveniment": "adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(1) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2024-04-22",
+          "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2024-04-29",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului) pentru sedinta Camerei Deputatilor din 29 - 30 aprilie 2024"
+        },
+        {
+          "data": "2024-05-07",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
+        },
+        {
+          "data": "2024-05-13",
+          "eveniment": "înscris pe ordinea de zi a plenului Camerei Deputatilor (sub rezerva depunerii raportului) pentru sedinta Camerei Deputatilor din 13 - 14 mai 2024"
+        },
+        {
+          "data": "2024-05-14",
+          "eveniment": "primire aviz de la: Comisia pentru tineret și sport"
+        },
+        {
+          "data": "2024-05-14",
+          "eveniment": "adoptat de Camera Deputatilor rezultat vot pentru=184, contra=39, abtineri=32, nu au votat=1 consultati stenograma sedintei sau înregistrarea video Forma adoptată de Cameră Forma pentru promulgare"
+        },
+        {
+          "data": "2024-05-20",
+          "eveniment": "primire aviz de la: Comisia pentru învăţământ"
+        },
+        {
+          "data": "2024-05-21",
+          "eveniment": "depunere la Secretarul general pentru exercitarea dreptului de sesizare asupra constitutionalitatii legii"
+        },
+        {
+          "data": "2024-05-22",
+          "eveniment": "primire aviz de la: Comisia pentru egalitatea de şanse pentru femei şi bărbaţi"
+        },
+        {
+          "data": "2024-05-23",
+          "eveniment": "trimitere la Presedintele României pentru promulgare"
+        },
+        {
+          "data": "2024-06-10",
+          "eveniment": "promulgata prin Decret nr. 937/2024"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2024/200/40/8/em286.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/40/8/ces286.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/40/8/cl286.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/40/8/se286.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/40/8/gv286.pdf",
+        "https://www.cdep.ro/proiecte/2024/200/40/8/as248.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2024/av248.pdf",
+        "https://www.cdep.ro/comisii/sport/pdf/2024/av248.pdf",
+        "https://www.cdep.ro/comisii/administratie/pdf/2024/av248.pdf",
+        "https://www.cdep.ro/comisii/munca/pdf/2024/rp248.pdf",
+        "https://www.cdep.ro/docs/2024/pl248_cd248_24.pdf",
+        "https://www.cdep.ro/docs/2024/pl248_pr248_24.pdf",
+        "https://www.cdep.ro/comisii/invatamant/pdf/2024/av248.pdf",
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2024/av248.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21722"
+    }
+  ]
+}

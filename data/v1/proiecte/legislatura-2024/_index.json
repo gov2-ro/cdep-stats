@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "generated_at": "2026-04-30T18:31:59.354144Z",
+    "source_url": "split index for /v1/proiecte/legislatura-2024",
+    "scraper_version": "0.1.0",
+    "count": 1641
+  },
+  "ani": [
+    {
+      "year": "2024",
+      "count": 19,
+      "url": "2024.json"
+    },
+    {
+      "year": "2025",
+      "count": 23,
+      "url": "2025.json"
+    },
+    {
+      "year": "2026",
+      "count": 9,
+      "url": "2026.json"
+    },
+    {
+      "year": "necunoscut",
+      "count": 1590,
+      "url": "necunoscut.json"
+    }
+  ],
+  "full": "../legislatura-2024.json"
+}

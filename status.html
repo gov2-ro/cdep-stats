@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Status — Camera Deputaților API</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#fff;--bg2:#f8f8f6;--bg3:#f2f1ee;
+  --text:#1a1a1a;--text2:#555;--text3:#888;
+  --border:#e0deda;--green:#1D9E75;--green-bg:#EAF3DE;--green-text:#3B6D11;
+  --amber-bg:#FAEEDA;--amber-text:#854F0B;--red-bg:#FCEBEB;--red-text:#A32D2D;
+  --radius:10px;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--mono:'SF Mono','Consolas',monospace;
+}
+@media(prefers-color-scheme:dark){:root{--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;}}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
+a{color:var(--green-text);text-decoration:none}a:hover{text-decoration:underline}
+.header{border-bottom:1px solid var(--border);padding:16px 0}
+.header-inner{max-width:1100px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:16px}
+.logo{font-size:15px;font-weight:600}.logo span{color:var(--green)}
+.back{margin-left:auto;font-size:13px;color:var(--text2);padding:6px 12px;border-radius:6px}.back:hover{background:var(--bg2);text-decoration:none}
+.container{max-width:1100px;margin:0 auto;padding:32px 24px}
+h1{font-size:26px;font-weight:600;margin-bottom:8px}.subtitle{color:var(--text2);margin-bottom:24px}
+.status-banner{display:flex;align-items:center;gap:12px;padding:14px 18px;background:var(--green-bg);color:var(--green-text);border-radius:var(--radius);margin-bottom:24px;font-weight:500}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green);animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.5}}
+.totals{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin-bottom:32px}
+.total-card{background:var(--bg2);padding:18px;border-radius:var(--radius)}
+.total-num{font-size:30px;font-weight:600;margin-bottom:4px}
+.total-lbl{font-size:12px;color:var(--text3);text-transform:uppercase;letter-spacing:0.6px}
+h2{font-size:18px;font-weight:600;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-bottom:24px}
+th{text-align:left;padding:10px 12px;background:var(--bg3);color:var(--text2);font-weight:500;font-size:12px;text-transform:uppercase;letter-spacing:0.5px}
+td{padding:10px 12px;border-bottom:1px solid var(--border)}
+td.num{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--mono)}
+.endpoint-name{font-weight:500;color:var(--text)}
+.fresh-recent{color:var(--green-text)}.fresh-old{color:var(--amber-text)}.fresh-stale{color:var(--red-text)}
+.infra{background:var(--bg2);padding:18px;border-radius:var(--radius);margin-top:24px;font-size:13px}
+.infra dt{font-weight:500;color:var(--text);margin-top:10px}
+.infra dt:first-child{margin-top:0}.infra dd{color:var(--text2);font-family:var(--mono);font-size:12px;margin-left:16px}
+.footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
+.loading{padding:40px;text-align:center;color:var(--text3)}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="header-inner">
+    <span class="logo">cdep<span>.api</span></span>
+    <a href="index.html" class="back">← Înapoi</a>
+  </div>
+</header>
+<div class="container">
+  <h1>Status API</h1>
+  <p class="subtitle">Prospețimea datelor, distribuție pe endpoint-uri, infrastructură.</p>
+  <div id="content"><div class="loading">Se încarcă...</div></div>
+</div>
+<footer class="footer">
+  <p>Source: <a id="json-link" href="data/v1/status.json">data/v1/status.json</a> · <a href="index.html">Pagina principală</a></p>
+</footer>
+<script>
+function fmtBytes(mb) { return mb < 1 ? `${(mb*1024).toFixed(0)} KB` : `${mb.toFixed(1)} MB`; }
+function fmtNum(n) { return n.toLocaleString('ro-RO'); }
+function freshnessClass(iso) {
+  if (!iso) return 'fresh-stale';
+  const ageHours = (Date.now() - new Date(iso).getTime()) / 1000 / 3600;
+  if (ageHours < 36) return 'fresh-recent';
+  if (ageHours < 72) return 'fresh-old';
+  return 'fresh-stale';
+}
+function fmtFreshness(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  const ageH = (Date.now() - d.getTime()) / 1000 / 3600;
+  if (ageH < 24) return `acum ${Math.round(ageH)} h`;
+  return `acum ${Math.round(ageH/24)} zile (${d.toISOString().slice(0,10)})`;
+}
+
+(async function() {
+  let s;
+  try {
+    s = await fetch('data/v1/status.json').then(r => r.json());
+  } catch (e) {
+    document.getElementById('content').innerHTML = `<div style="padding:24px;background:var(--red-bg);color:var(--red-text);border-radius:10px">Eroare la încărcarea status.json: ${e.message}</div>`;
+    return;
+  }
+
+  const fc = freshnessClass(s.data_freshness);
+  const fcLabel = fc === 'fresh-recent' ? 'OK' : fc === 'fresh-old' ? 'Date învechite' : 'Date stale';
+
+  let html = `
+    <div class="status-banner">
+      <span class="dot"></span>
+      <span><strong>Sistem operațional</strong> · ${fcLabel} · prospețime: ${fmtFreshness(s.data_freshness)}</span>
+    </div>
+    <div class="totals">
+      <div class="total-card"><div class="total-num">${fmtNum(s.totals.records)}</div><div class="total-lbl">Entități totale</div></div>
+      <div class="total-card"><div class="total-num">${fmtNum(s.totals.files)}</div><div class="total-lbl">Fișiere JSON</div></div>
+      <div class="total-card"><div class="total-num">${s.totals.size_mb.toFixed(0)} MB</div><div class="total-lbl">Total date</div></div>
+      <div class="total-card"><div class="total-num">${s.build_version}</div><div class="total-lbl">Build version</div></div>
+    </div>
+
+    <h2>Endpoint-uri</h2>
+    <table>
+      <thead><tr><th>Endpoint</th><th class="num">Records</th><th class="num">Fișiere</th><th class="num">Mărime</th><th>Prospețime</th></tr></thead>
+      <tbody>
+  `;
+
+  const labels = {
+    deputati: 'Deputați',
+    voturi_index: 'Voturi (index)',
+    voturi_per_vot: 'Voturi (defalcare nominală)',
+    sanctiuni: 'Sancțiuni',
+    interpelari: 'Interpelări',
+    comisii: 'Comisii',
+    proiecte: 'Proiecte legislative',
+    amendamente: 'Amendamente',
+    motiuni: 'Moțiuni',
+  };
+
+  for (const [key, e] of Object.entries(s.endpoints)) {
+    const fc = freshnessClass(e.freshness);
+    html += `<tr>
+      <td class="endpoint-name">${labels[key] || key}</td>
+      <td class="num">${fmtNum(e.records)}</td>
+      <td class="num">${fmtNum(e.files)}</td>
+      <td class="num">${fmtBytes(e.size_mb)}</td>
+      <td class="${fc}">${fmtFreshness(e.freshness)}</td>
+    </tr>`;
+  }
+
+  html += `</tbody></table>
+
+    <h2>Infrastructură</h2>
+    <dl class="infra">
+      <dt>Host</dt><dd>${s.infrastructure.host}</dd>
+      <dt>Scraper</dt><dd>${s.infrastructure.scraper}</dd>
+      <dt>Cron</dt><dd>${s.infrastructure.schedule}</dd>
+      <dt>Encoding/SSL</dt><dd>${s.infrastructure.encoding_handling}</dd>
+      <dt>Generated</dt><dd>${s.generated_at}</dd>
+    </dl>
+  `;
+
+  document.getElementById('content').innerHTML = html;
+})();
+</script>
+</body>
+</html>
