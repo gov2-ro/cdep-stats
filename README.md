@@ -68,6 +68,8 @@ Acest API transformă HTML-ul public în JSON structurat, versionat și document
 | `GET /deputat.html?id={cdep_idm}` | HTML | Pagină profil deputat cu cross-link-uri către voturi/interpelări/moțiuni |
 | `GET /proiect.html?idp={N}` | HTML | Pagină profil proiect cu timeline + amendamente + vot final |
 | `GET /vot.html?idv={N}` | HTML | Pagină profil vot cu defalcare nominală + pie chart pe partide |
+| `GET /motiune.html?idm={N}` | HTML | Pagină profil moțiune cu vot final și semnatari nominali |
+| `GET /sanctiune.html?id={hash}` | HTML | Pagină detaliu sancțiune disciplinară |
 | `GET /status.html` + `/data/v1/status.json` | HTML+JSON | Status page cu prospețime date și statistici per endpoint |
 
 ### 🔜 Propuse (neimplementate)

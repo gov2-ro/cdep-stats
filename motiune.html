@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moțiune — Camera Deputaților</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#fff;--bg2:#f8f8f6;--bg3:#f2f1ee;
+  --text:#1a1a1a;--text2:#555;--text3:#888;--border:#e0deda;
+  --green:#1D9E75;--green-bg:#EAF3DE;--green-text:#3B6D11;
+  --blue:#185FA5;--blue-bg:#E6F1FB;--blue-text:#185FA5;
+  --red:#A32D2D;--red-bg:#FCEBEB;--red-text:#A32D2D;
+  --amber-bg:#FAEEDA;--amber-text:#854F0B;
+  --purple:#553378;--purple-bg:#EDE7F4;
+  --radius:10px;--font:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--mono:'SF Mono','Consolas',monospace;
+}
+@media(prefers-color-scheme:dark){:root{--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;}}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+.header{border-bottom:1px solid var(--border);padding:16px 0}
+.header-inner{max-width:1100px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:16px}
+.logo{font-size:15px;font-weight:600}.logo span{color:var(--green)}
+.back{margin-left:auto;font-size:13px;color:var(--text2);padding:6px 12px;border-radius:6px}.back:hover{background:var(--bg2);text-decoration:none}
+.container{max-width:1100px;margin:0 auto;padding:32px 24px}
+h1{font-size:22px;font-weight:600;margin-bottom:10px;line-height:1.4}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.tag{font-size:12px;padding:4px 10px;border-radius:4px;font-weight:500}
+.tag-ok{background:var(--green-bg);color:var(--green-text)}
+.tag-fail{background:var(--red-bg);color:var(--red-text)}
+.tag-warn{background:var(--amber-bg);color:var(--amber-text)}
+.tag-info{background:var(--blue-bg);color:var(--blue-text)}
+.tag-purple{background:var(--purple-bg);color:var(--purple)}
+.grid{display:grid;grid-template-columns:1fr 280px;gap:32px;margin-bottom:32px}
+@media(max-width:800px){.grid{grid-template-columns:1fr}}
+.section{margin-bottom:24px}
+.section h2{font-size:16px;font-weight:600;margin-bottom:12px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+.vote-row{display:flex;gap:6px;margin-bottom:8px}
+.vote-cell{flex:1;padding:10px;border-radius:6px;text-align:center;font-weight:600;font-size:14px}
+.vfor{background:var(--green-bg);color:var(--green-text)}
+.vagainst{background:var(--red-bg);color:var(--red-text)}
+.vabs{background:var(--bg3);color:var(--text2)}
+.aside{background:var(--bg2);padding:18px;border-radius:var(--radius);height:fit-content}
+.aside dt{font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:0.5px;margin-top:14px;font-weight:600}
+.aside dt:first-child{margin-top:0}
+.aside dd{font-size:13px;color:var(--text);margin-bottom:0}
+.semnatari-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:6px}
+.semnatar-pill{font-size:12px;padding:6px 10px;background:var(--bg2);border-radius:6px;display:flex;align-items:center;gap:6px}
+.semnatar-pill a{color:var(--text);font-weight:500}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--green);flex-shrink:0}
+.loading{padding:60px 0;text-align:center;color:var(--text3)}
+.error{padding:24px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius)}
+.footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="header-inner">
+    <span class="logo">cdep<span>.api</span></span>
+    <a href="index.html" class="back">← Înapoi</a>
+  </div>
+</header>
+<div class="container">
+  <div id="content"><div class="loading">Se încarcă moțiunea...</div></div>
+</div>
+<footer class="footer"><a href="index.html">Pagina principală</a> · <a href="search.html">Caută</a> · Date din <a href="https://cdep.ro" target="_blank">cdep.ro</a></footer>
+<script>
+function getParam(n) { return new URL(window.location).searchParams.get(n); }
+function fmtDate(iso) { if (!iso) return '—'; const m=['ian','feb','mar','apr','mai','iun','iul','aug','sep','oct','nov','dec']; const d=new Date(iso); return isNaN(d)?iso:`${d.getDate()} ${m[d.getMonth()]} ${d.getFullYear()}`; }
+
+(async function() {
+  const idm = parseInt(getParam('idm') || getParam('id') || '');
+  const leg = getParam('leg') || '2024';
+  if (!idm) {
+    document.getElementById('content').innerHTML = '<div class="error">Parametru lipsă: <code>motiune.html?idm=1583</code></div>';
+    return;
+  }
+  let raw;
+  try { raw = await fetch(`data/v1/motiuni/legislatura-${leg}.json`).then(r => r.json()); }
+  catch (e) { document.getElementById('content').innerHTML = `<div class="error">Eroare: ${e.message}</div>`; return; }
+  const m = (raw.data || []).find(x => x.cdep_idm === idm);
+  if (!m) {
+    document.getElementById('content').innerHTML = `<div class="error">Moțiunea idm=${idm} nu a fost găsită în legislatura ${leg}.</div>`;
+    return;
+  }
+  document.title = `Moțiune ${m.nr_inregistrare || idm} — Camera Deputaților`;
+
+  const tags = [];
+  if (m.rezultat === 'adoptata') tags.push('<span class="tag tag-ok">✓ Adoptată</span>');
+  else if (m.rezultat === 'respinsa') tags.push('<span class="tag tag-fail">✗ Respinsă</span>');
+  else if (m.rezultat === 'retrasa') tags.push('<span class="tag tag-warn">Retrasă</span>');
+  else tags.push('<span class="tag tag-info">În procedură</span>');
+  if (m.tip === 'cenzura') tags.push('<span class="tag tag-purple">Moțiune de cenzură</span>');
+  else if (m.tip === 'simpla') tags.push('<span class="tag tag-info">Moțiune simplă</span>');
+
+  const voteHtml = (m.vot_pentru !== null && m.vot_pentru !== undefined)
+    ? `<div class="vote-row">
+        <div class="vote-cell vfor">${m.vot_pentru} pentru</div>
+        <div class="vote-cell vagainst">${m.vot_contra || 0} contra</div>
+        <div class="vote-cell vabs">${m.vot_abtineri || 0} abțineri</div>
+      </div>
+      ${m.data_vot ? `<p style="font-size:13px;color:var(--text3);margin-top:6px">Vot final pe ${fmtDate(m.data_vot)}.</p>` : ''}`
+    : '<p style="color:var(--text3);font-size:13px">Vot final neînregistrat încă.</p>';
+
+  const semnatariHtml = (m.semnatari || []).length
+    ? `<div class="semnatari-grid">${m.semnatari.map(s => `
+        <div class="semnatar-pill">
+          <span class="dot"></span>
+          ${s.canonical_id ? `<a href="search.html?q=${encodeURIComponent(s.nume)}">${s.nume}</a>` : s.nume}
+          ${s.partid ? `<span style="margin-left:auto;font-size:10px;color:var(--text3)">${s.partid}</span>` : ''}
+        </div>
+      `).join('')}</div>`
+    : '<p style="color:var(--text3);font-size:13px">Nicio listă nominală de semnatari disponibilă.</p>';
+
+  document.getElementById('content').innerHTML = `
+    <h1>${m.titlu || '(fără titlu)'}</h1>
+    <div class="tags">${tags.join('')}</div>
+    <div class="grid">
+      <div>
+        <div class="section">
+          <h2>Vot final</h2>
+          ${voteHtml}
+        </div>
+        <div class="section">
+          <h2>Semnatari (${(m.semnatari || []).length})</h2>
+          ${semnatariHtml}
+        </div>
+      </div>
+      <aside class="aside">
+        <dl>
+          <dt>Nr. înregistrare</dt><dd>${m.nr_inregistrare || '—'}</dd>
+          <dt>Data depunere</dt><dd>${fmtDate(m.data_inregistrare)}</dd>
+          <dt>Tip</dt><dd>${m.tip || '—'}</dd>
+          <dt>Rezultat</dt><dd>${m.rezultat || '—'}</dd>
+          <dt>Inițiatori</dt><dd>${m.initiatori_descriere || '—'}</dd>
+          <dt>Legislatura</dt><dd>${m.legislatura}</dd>
+          ${m.pdf_url ? `<dt>PDF</dt><dd><a href="${m.pdf_url}" target="_blank">📄 Text complet</a></dd>` : ''}
+          <dt>Sursa</dt><dd><a href="${m.source_url}" target="_blank">cdep.ro ↗</a></dd>
+        </dl>
+      </aside>
+    </div>
+  `;
+})();
+</script>
+</body>
+</html>

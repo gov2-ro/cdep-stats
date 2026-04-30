@@ -2,6 +2,20 @@
 
 Toate modificările notabile ale proiectului sunt documentate aici. Format bazat pe [Keep a Changelog](https://keepachangelog.com/) și [SemVer](https://semver.org/).
 
+## [v0.2.4] — 2026-04-30 — Complete profile pages + legal docs
+
+### Adăugat
+
+- **`/motiune.html?idm={N}`** — pagină profil moțiune cu vot final, rezultat (adoptată/respinsă/retrasă), listă semnatari nominali cu link-uri către search.
+- **`/sanctiune.html?id={hash}`** — pagină detaliu sancțiune disciplinară (cu listă completă pe legislatură când lipsește id-ul).
+- **`DATA_LICENSE.md`** — clarificare juridică completă: Legea 544/2001 (acces informații publice), GDPR (deputați ca persoane publice), licență OGL v3.0, atribuire recomandată, drept de rectificare prin issue templates.
+
+### Total v0.2.4
+
+8 endpoints + 2 feeds + **6 pagini interactive** (search, deputat, proiect, vot, motiune, sanctiune, status) · 42 tests · documentație juridică completă.
+
+---
+
 ## [v0.2.3] — 2026-04-30 — Profile pages + reliability improvements
 
 ### Adăugat
