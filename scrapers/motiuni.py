@@ -26,7 +26,8 @@ from scrapers._http import get
 logger = logging.getLogger(__name__)
 
 BASE = "https://www.cdep.ro"
-LIST_URL = BASE + "/pls/parlam/motiuni2015.lista?cam={cam}"
+# leg= acceptat pentru a interoga și legislaturi anterioare (1990–prezent)
+LIST_URL = BASE + "/pls/parlam/motiuni2015.lista?leg={leg}&cam={cam}"
 DETAIL_URL = BASE + "/pls/parlam/parlament.motiuni2015.detalii?leg={leg}&cam={cam}&idm={idm}"
 
 MAX_WORKERS = int(os.environ.get("CDEP_SCRAPE_WORKERS", "2"))
@@ -57,14 +58,18 @@ def _parse_iso_date(s: str | None) -> date | None:
         return None
 
 
-def list_idms(cam: int = 2) -> list[int]:
-    """Returnează idm-urile pentru moțiuni la o cameră."""
-    url = LIST_URL.format(cam=cam)
+def list_idms(leg: int, cam: int = 2) -> list[int]:
+    """Returnează idm-urile pentru moțiuni la o legislatură + cameră.
+
+    cdep.ro acceptă param ``leg`` și returnează idm-urile pentru legislatura
+    indicată (sau curentă dacă ``leg`` e omis). Suport: 1990–prezent.
+    """
+    url = LIST_URL.format(leg=leg, cam=cam)
     try:
         r = get(url)
         r.raise_for_status()
     except Exception as e:
-        logger.warning(f"list cam={cam}: {e}")
+        logger.warning(f"list leg={leg} cam={cam}: {e}")
         return []
 
     sel = Selector(text=r.text)
@@ -231,9 +236,9 @@ def parse_detail(idm: int, legislatura: int, cam: int = 2) -> Motiune | None:
 
 
 def scrape_all(legislatura: int, cam: int = 2) -> list[Motiune]:
-    """Scrape toate moțiunile pentru o cameră."""
-    idms = list_idms(cam)
-    logger.info(f"cam={cam}: {len(idms)} moțiuni de procesat")
+    """Scrape toate moțiunile pentru o legislatură + cameră."""
+    idms = list_idms(leg=legislatura, cam=cam)
+    logger.info(f"leg={legislatura} cam={cam}: {len(idms)} moțiuni de procesat")
 
     results: list[Motiune] = []
     if not idms:

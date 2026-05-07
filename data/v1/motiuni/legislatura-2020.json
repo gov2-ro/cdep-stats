@@ -1,0 +1,7096 @@
+{
+  "meta": {
+    "generated_at": "2026-05-07T21:16:28.442701Z",
+    "source_url": "https://www.cdep.ro/pls/parlam/motiuni2015.lista?leg=2020&cam=2",
+    "scraper_version": "0.1.0",
+    "count": 22
+  },
+  "data": [
+    {
+      "id": "2fedfd4130cb5d24",
+      "cdep_idm": 1543,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "4",
+      "data_inregistrare": "2021-06-09",
+      "titlu": "\"Cristian Ghinea, de la zero la abis!\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Achimaş-Cadariu Patriciu-Andrei",
+          "canonical_id": "1b0d9f1559ee3be8",
+          "partid": null
+        },
+        {
+          "nume": "Alda Adrian",
+          "canonical_id": "a5b7d3508c6440aa",
+          "partid": null
+        },
+        {
+          "nume": "Bălăşoiu Aurel",
+          "canonical_id": "5ef542a4f5176319",
+          "partid": null
+        },
+        {
+          "nume": "Bejinariu Eugen",
+          "canonical_id": "ae56e297bd0d2c50",
+          "partid": null
+        },
+        {
+          "nume": "Bîrcă Constantin",
+          "canonical_id": "61f993b196d080d4",
+          "partid": null
+        },
+        {
+          "nume": "Bucura-Oprescu Simona",
+          "canonical_id": "29d421516e8312ef",
+          "partid": null
+        },
+        {
+          "nume": "Budăi Marius-Constantin",
+          "canonical_id": "237f46c98a8381de",
+          "partid": null
+        },
+        {
+          "nume": "Buicu Corneliu-Florin",
+          "canonical_id": "02bba7e95f6c87e7",
+          "partid": null
+        },
+        {
+          "nume": "Chesnoiu Adrian-Ionuţ",
+          "canonical_id": "84a2353b97166b05",
+          "partid": null
+        },
+        {
+          "nume": "Chirilă Virgil Alin",
+          "canonical_id": "6d8f280be59a6ddb",
+          "partid": null
+        },
+        {
+          "nume": "Ciolacu Ion-Marcel",
+          "canonical_id": "98a4055b35139b5e",
+          "partid": null
+        },
+        {
+          "nume": "Cîtea Vasile",
+          "canonical_id": "bd1b1dc67793b91d",
+          "partid": null
+        },
+        {
+          "nume": "Coarnă Dumitru",
+          "canonical_id": "1ca413a2f2d5a7af",
+          "partid": null
+        },
+        {
+          "nume": "Cristea Andi-Lucian",
+          "canonical_id": "4e81a7170eb8821a",
+          "partid": null
+        },
+        {
+          "nume": "Cristescu Radu-Mihai",
+          "canonical_id": "9a5c6238551b5824",
+          "partid": null
+        },
+        {
+          "nume": "Damian Romulus-Marius",
+          "canonical_id": "128a7f50655e0b8d",
+          "partid": null
+        },
+        {
+          "nume": "Dumitrache Ileana Cristina",
+          "canonical_id": "dc40aa6e348c2cc5",
+          "partid": null
+        },
+        {
+          "nume": "Dunava Costel Neculai",
+          "canonical_id": "30391e2b9df34680",
+          "partid": null
+        },
+        {
+          "nume": "Fifor Mihai-Viorel",
+          "canonical_id": "a171e72097bb83c4",
+          "partid": null
+        },
+        {
+          "nume": "Florea Daniel",
+          "canonical_id": "28bfff9aefc5ca78",
+          "partid": null
+        },
+        {
+          "nume": "Florea Oana-Consuela",
+          "canonical_id": "76756b2479ef1958",
+          "partid": null
+        },
+        {
+          "nume": "Floroiu Ionel",
+          "canonical_id": "1f516ec663a12383",
+          "partid": null
+        },
+        {
+          "nume": "Folescu Cornel-Vasile",
+          "canonical_id": "7aeb5e88fb2a0abb",
+          "partid": null
+        },
+        {
+          "nume": "Furtună Mirela",
+          "canonical_id": "df2b6a5a2cca6f45",
+          "partid": null
+        },
+        {
+          "nume": "Georgescu Nicolae",
+          "canonical_id": "cbecaaea7a8a03cb",
+          "partid": null
+        },
+        {
+          "nume": "Ghiţă Daniel-Florin",
+          "canonical_id": "accf85ed412153bc",
+          "partid": null
+        },
+        {
+          "nume": "Goleac Nicoleta-Matilda",
+          "canonical_id": "00892532394c57e0",
+          "partid": null
+        },
+        {
+          "nume": "Grindeanu Sorin-Mihai",
+          "canonical_id": "c23d8cd760e04f25",
+          "partid": null
+        },
+        {
+          "nume": "Halici Nicuşor",
+          "canonical_id": "e59ad06df936a0e5",
+          "partid": null
+        },
+        {
+          "nume": "Holban Georgeta-Carmen",
+          "canonical_id": "78b3f7b97de76d6e",
+          "partid": null
+        },
+        {
+          "nume": "Hurduzeu Florin-Silviu",
+          "canonical_id": "e262d439d25636be",
+          "partid": null
+        },
+        {
+          "nume": "Ilişanu Claudiu-Augustin",
+          "canonical_id": "c3f8afecbff32707",
+          "partid": null
+        },
+        {
+          "nume": "Intotero Natalia-Elena",
+          "canonical_id": "0a273394b7f690a9",
+          "partid": null
+        },
+        {
+          "nume": "Ivan Bogdan-Gruia",
+          "canonical_id": "55020fd1a5ba19ef",
+          "partid": null
+        },
+        {
+          "nume": "Lungoci Dumitru-Lucian",
+          "canonical_id": "6cc41005a2290cec",
+          "partid": null
+        },
+        {
+          "nume": "Lungu Romeo-Daniel",
+          "canonical_id": "9b9dc5cf4c65970b",
+          "partid": null
+        },
+        {
+          "nume": "Macovei Silviu Nicu",
+          "canonical_id": "619bc9f944b591ba",
+          "partid": null
+        },
+        {
+          "nume": "Mang Ioan",
+          "canonical_id": "8a32077ae63b5c0e",
+          "partid": null
+        },
+        {
+          "nume": "Manta Claudiu",
+          "canonical_id": "a9d1208183c24fb0",
+          "partid": null
+        },
+        {
+          "nume": "Mărgărit Mitică-Marius",
+          "canonical_id": "f8e70a23dec126d2",
+          "partid": null
+        },
+        {
+          "nume": "Mihalcea Remus-Gabriel",
+          "canonical_id": "45dc745bf3150fd3",
+          "partid": null
+        },
+        {
+          "nume": "Mihălcescu Carmen-Ileana",
+          "canonical_id": "db42db45bc136b98",
+          "partid": null
+        },
+        {
+          "nume": "Mina Marian",
+          "canonical_id": "d5234bf7c2968c47",
+          "partid": null
+        },
+        {
+          "nume": "Mircea Florin",
+          "canonical_id": "981ce157dc747469",
+          "partid": null
+        },
+        {
+          "nume": "Munteanu Remus",
+          "canonical_id": "976af379506d2bf7",
+          "partid": null
+        },
+        {
+          "nume": "Nassar Rodica",
+          "canonical_id": "558c4e8834b432fa",
+          "partid": null
+        },
+        {
+          "nume": "Neaga Florian-Claudiu",
+          "canonical_id": "ad70dc11bcfc23dd",
+          "partid": null
+        },
+        {
+          "nume": "Neaţă Eugen",
+          "canonical_id": "c09125e3e6dd8dea",
+          "partid": null
+        },
+        {
+          "nume": "Nechita Aurel",
+          "canonical_id": "9429bea6c3a61fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ostaficiuc Marius-Eugen",
+          "canonical_id": "9049ded908919b1f",
+          "partid": null
+        },
+        {
+          "nume": "Oteşanu Daniela",
+          "canonical_id": "2fc7f796e89f03f1",
+          "partid": null
+        },
+        {
+          "nume": "Paladi George-Adrian",
+          "canonical_id": "7fddc9d5df86cb42",
+          "partid": null
+        },
+        {
+          "nume": "Paraschiv Rodica",
+          "canonical_id": "bb8005495119f612",
+          "partid": null
+        },
+        {
+          "nume": "Pavelescu Nicolae",
+          "canonical_id": "b8b4e79cd34c21e5",
+          "partid": null
+        },
+        {
+          "nume": "Piper-Savu Florin",
+          "canonical_id": "7de61c7285e14495",
+          "partid": null
+        },
+        {
+          "nume": "Popa Radu Mihai",
+          "canonical_id": "35cdd38ae77235f1",
+          "partid": null
+        },
+        {
+          "nume": "Popa Ştefan-Ovidiu",
+          "canonical_id": "4eb462c0c82029bd",
+          "partid": null
+        },
+        {
+          "nume": "Popescu Vlad-Piedone",
+          "canonical_id": "03cb8ea585236d0d",
+          "partid": null
+        },
+        {
+          "nume": "Presură Alexandra",
+          "canonical_id": "5738f00ec29a1634",
+          "partid": null
+        },
+        {
+          "nume": "Rafila Alexandru",
+          "canonical_id": "4400e162f1ebe0b2",
+          "partid": null
+        },
+        {
+          "nume": "Rasaliu Marian-Iulian",
+          "canonical_id": "1f75d778867ffd73",
+          "partid": null
+        },
+        {
+          "nume": "Sandu Viorica",
+          "canonical_id": "d5956804b984dbc2",
+          "partid": null
+        },
+        {
+          "nume": "Simonis Alfred - Robert",
+          "canonical_id": "efd7dfc090bc85e7",
+          "partid": null
+        },
+        {
+          "nume": "Solomon Adrian",
+          "canonical_id": "46494c74a7b9fa0a",
+          "partid": null
+        },
+        {
+          "nume": "Stancu Paul",
+          "canonical_id": "1d5c9f4677bc9b89",
+          "partid": null
+        },
+        {
+          "nume": "Suciu Vasile-Daniel",
+          "canonical_id": "59dfb99e6d9e904d",
+          "partid": null
+        },
+        {
+          "nume": "Şerban Ciprian-Constantin",
+          "canonical_id": "97528165d65af746",
+          "partid": null
+        },
+        {
+          "nume": "Şimon Gheorghe",
+          "canonical_id": "f90020a68fcfc20f",
+          "partid": null
+        },
+        {
+          "nume": "Şlincu Dan-Constantin",
+          "canonical_id": "bd7296021f40a444",
+          "partid": null
+        },
+        {
+          "nume": "Şoldan Gheorghe",
+          "canonical_id": "d0f81e2ea9eac5a5",
+          "partid": null
+        },
+        {
+          "nume": "Toader Bogdan-Andrei",
+          "canonical_id": "9d05632c21d67869",
+          "partid": null
+        },
+        {
+          "nume": "Toma Ilie",
+          "canonical_id": "c0b355173b9aaf51",
+          "partid": null
+        },
+        {
+          "nume": "Trif Bogdan Gheorghe",
+          "canonical_id": "8c35eb867045ca7e",
+          "partid": null
+        },
+        {
+          "nume": "Tudorache Daniel",
+          "canonical_id": "667101e1b206592e",
+          "partid": null
+        },
+        {
+          "nume": "Tuhuţ Radu-Marcel",
+          "canonical_id": "d6ae64ebe801122d",
+          "partid": null
+        },
+        {
+          "nume": "Tuşa Adriana Diana",
+          "canonical_id": "ab14dc75455a95ee",
+          "partid": null
+        },
+        {
+          "nume": "Ţepeluş Laurenţiu-Cristinel",
+          "canonical_id": "4c39364ed18de1f2",
+          "partid": null
+        },
+        {
+          "nume": "Ţuţuianu Marius-Horia",
+          "canonical_id": "4aaff06d23542f1b",
+          "partid": null
+        },
+        {
+          "nume": "Vicol-Ciorbă Laura-Cătălina",
+          "canonical_id": "9e7ffb908a50947c",
+          "partid": null
+        },
+        {
+          "nume": "Vulpescu Ioan",
+          "canonical_id": "0d4bff06f4ec4404",
+          "partid": null
+        },
+        {
+          "nume": "Weber Mihai",
+          "canonical_id": "81b810072521e280",
+          "partid": null
+        },
+        {
+          "nume": "Zetea Gabriel-Valer",
+          "canonical_id": "8391aca52f8cd884",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2021/1548.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1543"
+    },
+    {
+      "id": "7ecde0b95144bd0a",
+      "cdep_idm": 1540,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": "1",
+      "data_inregistrare": "2021-02-10",
+      "titlu": "\"Incompetenţa şi lipsa de asumare UCID! Vlad Voiculescu, un pericol pentru sănătatea şi viaţa românilor\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Achimaş-Cadariu Patriciu-Andrei",
+          "canonical_id": "1b0d9f1559ee3be8",
+          "partid": null
+        },
+        {
+          "nume": "Adomnicăi Mirela Elena",
+          "canonical_id": "e9f86760ab47bee6",
+          "partid": null
+        },
+        {
+          "nume": "Albotă Emil-Florin",
+          "canonical_id": "a01c2179f02cf082",
+          "partid": null
+        },
+        {
+          "nume": "Alda Adrian",
+          "canonical_id": "a5b7d3508c6440aa",
+          "partid": null
+        },
+        {
+          "nume": "Badea Iulian-Alexandru",
+          "canonical_id": "6bb334aa096cc1ea",
+          "partid": null
+        },
+        {
+          "nume": "Barbu Florin-Ionuţ",
+          "canonical_id": "9533f697011f42e9",
+          "partid": null
+        },
+        {
+          "nume": "Bălăşoiu Aurel",
+          "canonical_id": "5ef542a4f5176319",
+          "partid": null
+        },
+        {
+          "nume": "Bejinariu Eugen",
+          "canonical_id": "ae56e297bd0d2c50",
+          "partid": null
+        },
+        {
+          "nume": "Bîrcă Constantin",
+          "canonical_id": "61f993b196d080d4",
+          "partid": null
+        },
+        {
+          "nume": "Bucura-Oprescu Simona",
+          "canonical_id": "29d421516e8312ef",
+          "partid": null
+        },
+        {
+          "nume": "Budăi Marius-Constantin",
+          "canonical_id": "237f46c98a8381de",
+          "partid": null
+        },
+        {
+          "nume": "Buicu Corneliu-Florin",
+          "canonical_id": "02bba7e95f6c87e7",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Oana-Gianina",
+          "canonical_id": "ccb6cf26f4f37234",
+          "partid": null
+        },
+        {
+          "nume": "Cătăniciu Steluţa-Gustica",
+          "canonical_id": "7c54df74d4f75710",
+          "partid": null
+        },
+        {
+          "nume": "Cătăuţă Ana-Maria",
+          "canonical_id": "ebfc8d960cd01bf9",
+          "partid": null
+        },
+        {
+          "nume": "Chesnoiu Adrian-Ionuţ",
+          "canonical_id": "84a2353b97166b05",
+          "partid": null
+        },
+        {
+          "nume": "Chirilă Virgil Alin",
+          "canonical_id": "6d8f280be59a6ddb",
+          "partid": null
+        },
+        {
+          "nume": "Ciolacu Ion-Marcel",
+          "canonical_id": "98a4055b35139b5e",
+          "partid": null
+        },
+        {
+          "nume": "Cîtea Vasile",
+          "canonical_id": "bd1b1dc67793b91d",
+          "partid": null
+        },
+        {
+          "nume": "Cristea Andi-Lucian",
+          "canonical_id": "4e81a7170eb8821a",
+          "partid": null
+        },
+        {
+          "nume": "Cristescu Radu-Mihai",
+          "canonical_id": "9a5c6238551b5824",
+          "partid": null
+        },
+        {
+          "nume": "Damian Romulus-Marius",
+          "canonical_id": "128a7f50655e0b8d",
+          "partid": null
+        },
+        {
+          "nume": "Dinu Cristina-Elena",
+          "canonical_id": "0084f0d3046e904f",
+          "partid": null
+        },
+        {
+          "nume": "Dumitrache Ileana Cristina",
+          "canonical_id": "dc40aa6e348c2cc5",
+          "partid": null
+        },
+        {
+          "nume": "Dumitrescu Raluca Giorgiana",
+          "canonical_id": "767c6c41f29b4a39",
+          "partid": null
+        },
+        {
+          "nume": "Dunava Costel Neculai",
+          "canonical_id": "30391e2b9df34680",
+          "partid": null
+        },
+        {
+          "nume": "Fifor Mihai-Viorel",
+          "canonical_id": "a171e72097bb83c4",
+          "partid": null
+        },
+        {
+          "nume": "Florea Daniel",
+          "canonical_id": "28bfff9aefc5ca78",
+          "partid": null
+        },
+        {
+          "nume": "Florea Oana-Consuela",
+          "canonical_id": "76756b2479ef1958",
+          "partid": null
+        },
+        {
+          "nume": "Floroiu Ionel",
+          "canonical_id": "1f516ec663a12383",
+          "partid": null
+        },
+        {
+          "nume": "Folescu Cornel-Vasile",
+          "canonical_id": "7aeb5e88fb2a0abb",
+          "partid": null
+        },
+        {
+          "nume": "Furtună Mirela",
+          "canonical_id": "df2b6a5a2cca6f45",
+          "partid": null
+        },
+        {
+          "nume": "Gavrilescu Graţiela Leocadia",
+          "canonical_id": "8be14e66b1383678",
+          "partid": null
+        },
+        {
+          "nume": "Georgescu Nicolae",
+          "canonical_id": "cbecaaea7a8a03cb",
+          "partid": null
+        },
+        {
+          "nume": "Ghiţă Daniel-Florin",
+          "canonical_id": "accf85ed412153bc",
+          "partid": null
+        },
+        {
+          "nume": "Gîdei Laurenţiu-Viorel",
+          "canonical_id": "4be31cda8cce7760",
+          "partid": null
+        },
+        {
+          "nume": "Gliga Dumitriţa",
+          "canonical_id": "8e48996cceaaaf2b",
+          "partid": null
+        },
+        {
+          "nume": "Goleac Nicoleta-Matilda",
+          "canonical_id": "00892532394c57e0",
+          "partid": null
+        },
+        {
+          "nume": "Grecu Ion-Cătălin",
+          "canonical_id": "6a4b7c345cb3aa66",
+          "partid": null
+        },
+        {
+          "nume": "Grindeanu Sorin-Mihai",
+          "canonical_id": "c23d8cd760e04f25",
+          "partid": null
+        },
+        {
+          "nume": "Halici Nicuşor",
+          "canonical_id": "e59ad06df936a0e5",
+          "partid": null
+        },
+        {
+          "nume": "Holban Georgeta-Carmen",
+          "canonical_id": "78b3f7b97de76d6e",
+          "partid": null
+        },
+        {
+          "nume": "Hurduzeu Florin-Silviu",
+          "canonical_id": "e262d439d25636be",
+          "partid": null
+        },
+        {
+          "nume": "Huţu Alexandra",
+          "canonical_id": "c89e863efabacdbe",
+          "partid": null
+        },
+        {
+          "nume": "Iancu Marius-Ionel",
+          "canonical_id": "630230e548c1799e",
+          "partid": null
+        },
+        {
+          "nume": "Ilişanu Claudiu-Augustin",
+          "canonical_id": "c3f8afecbff32707",
+          "partid": null
+        },
+        {
+          "nume": "Intotero Natalia-Elena",
+          "canonical_id": "0a273394b7f690a9",
+          "partid": null
+        },
+        {
+          "nume": "Ivan Bogdan-Gruia",
+          "canonical_id": "55020fd1a5ba19ef",
+          "partid": null
+        },
+        {
+          "nume": "Lungoci Dumitru-Lucian",
+          "canonical_id": "6cc41005a2290cec",
+          "partid": null
+        },
+        {
+          "nume": "Lungu Romeo-Daniel",
+          "canonical_id": "9b9dc5cf4c65970b",
+          "partid": null
+        },
+        {
+          "nume": "Macovei Silviu Nicu",
+          "canonical_id": "619bc9f944b591ba",
+          "partid": null
+        },
+        {
+          "nume": "Mang Ioan",
+          "canonical_id": "8a32077ae63b5c0e",
+          "partid": null
+        },
+        {
+          "nume": "Manta Claudiu",
+          "canonical_id": "a9d1208183c24fb0",
+          "partid": null
+        },
+        {
+          "nume": "Mărgărit Mitică-Marius",
+          "canonical_id": "f8e70a23dec126d2",
+          "partid": null
+        },
+        {
+          "nume": "Mihalcea Remus-Gabriel",
+          "canonical_id": "45dc745bf3150fd3",
+          "partid": null
+        },
+        {
+          "nume": "Mihălcescu Carmen-Ileana",
+          "canonical_id": "db42db45bc136b98",
+          "partid": null
+        },
+        {
+          "nume": "Mina Marian",
+          "canonical_id": "d5234bf7c2968c47",
+          "partid": null
+        },
+        {
+          "nume": "Mircea Florin",
+          "canonical_id": "981ce157dc747469",
+          "partid": null
+        },
+        {
+          "nume": "Munteanu Remus",
+          "canonical_id": "976af379506d2bf7",
+          "partid": null
+        },
+        {
+          "nume": "Muşoiu Ştefan",
+          "canonical_id": "e2f8eacfb8e19340",
+          "partid": null
+        },
+        {
+          "nume": "Nassar Rodica",
+          "canonical_id": "558c4e8834b432fa",
+          "partid": null
+        },
+        {
+          "nume": "Neaga Florian-Claudiu",
+          "canonical_id": "ad70dc11bcfc23dd",
+          "partid": null
+        },
+        {
+          "nume": "Neaţă Eugen",
+          "canonical_id": "c09125e3e6dd8dea",
+          "partid": null
+        },
+        {
+          "nume": "Nechita Aurel",
+          "canonical_id": "9429bea6c3a61fb1",
+          "partid": null
+        },
+        {
+          "nume": "Niţă Nicu",
+          "canonical_id": "be08b1ea71aa4c70",
+          "partid": null
+        },
+        {
+          "nume": "Ostaficiuc Marius-Eugen",
+          "canonical_id": "9049ded908919b1f",
+          "partid": null
+        },
+        {
+          "nume": "Oteşanu Daniela",
+          "canonical_id": "2fc7f796e89f03f1",
+          "partid": null
+        },
+        {
+          "nume": "Paladi George-Adrian",
+          "canonical_id": "7fddc9d5df86cb42",
+          "partid": null
+        },
+        {
+          "nume": "Paraschiv Rodica",
+          "canonical_id": "bb8005495119f612",
+          "partid": null
+        },
+        {
+          "nume": "Pavelescu Nicolae",
+          "canonical_id": "b8b4e79cd34c21e5",
+          "partid": null
+        },
+        {
+          "nume": "Peţa-Ştefănescu Eliza-Mădălina",
+          "canonical_id": "50b2f5952658ee41",
+          "partid": null
+        },
+        {
+          "nume": "Piper-Savu Florin",
+          "canonical_id": "7de61c7285e14495",
+          "partid": null
+        },
+        {
+          "nume": "Popa Radu Mihai",
+          "canonical_id": "35cdd38ae77235f1",
+          "partid": null
+        },
+        {
+          "nume": "Popa Ştefan-Ovidiu",
+          "canonical_id": "4eb462c0c82029bd",
+          "partid": null
+        },
+        {
+          "nume": "Popescu Dan-Cristian",
+          "canonical_id": "5fe8c1e4f5cc0d1a",
+          "partid": null
+        },
+        {
+          "nume": "Popescu Vlad-Piedone",
+          "canonical_id": "03cb8ea585236d0d",
+          "partid": null
+        },
+        {
+          "nume": "Popica Eduard-Andrei",
+          "canonical_id": "687c2253b4a89a4a",
+          "partid": null
+        },
+        {
+          "nume": "Predescu Ana-Loredana",
+          "canonical_id": "2396e5f6cf630d5c",
+          "partid": null
+        },
+        {
+          "nume": "Presură Alexandra",
+          "canonical_id": "5738f00ec29a1634",
+          "partid": null
+        },
+        {
+          "nume": "Rafila Alexandru",
+          "canonical_id": "4400e162f1ebe0b2",
+          "partid": null
+        },
+        {
+          "nume": "Rasaliu Marian-Iulian",
+          "canonical_id": "1f75d778867ffd73",
+          "partid": null
+        },
+        {
+          "nume": "Salan Viorel",
+          "canonical_id": "2834db391409e031",
+          "partid": null
+        },
+        {
+          "nume": "Sandu Viorica",
+          "canonical_id": "d5956804b984dbc2",
+          "partid": null
+        },
+        {
+          "nume": "Simonis Alfred - Robert",
+          "canonical_id": "efd7dfc090bc85e7",
+          "partid": null
+        },
+        {
+          "nume": "Solomon Adrian",
+          "canonical_id": "46494c74a7b9fa0a",
+          "partid": null
+        },
+        {
+          "nume": "Stancu Paul",
+          "canonical_id": "1d5c9f4677bc9b89",
+          "partid": null
+        },
+        {
+          "nume": "Stativă Irinel Ioan",
+          "canonical_id": "4953d8650894c7c7",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Elena",
+          "canonical_id": "18b3b3a2c8a0b895",
+          "partid": null
+        },
+        {
+          "nume": "Suciu Vasile-Daniel",
+          "canonical_id": "59dfb99e6d9e904d",
+          "partid": null
+        },
+        {
+          "nume": "Şerban Ciprian-Constantin",
+          "canonical_id": "97528165d65af746",
+          "partid": null
+        },
+        {
+          "nume": "Şimon Gheorghe",
+          "canonical_id": "f90020a68fcfc20f",
+          "partid": null
+        },
+        {
+          "nume": "Şlincu Dan-Constantin",
+          "canonical_id": "bd7296021f40a444",
+          "partid": null
+        },
+        {
+          "nume": "Şoldan Gheorghe",
+          "canonical_id": "d0f81e2ea9eac5a5",
+          "partid": null
+        },
+        {
+          "nume": "Tănăsescu Alina-Elena",
+          "canonical_id": "22a97363813c88ff",
+          "partid": null
+        },
+        {
+          "nume": "Teodoroiu Simona-Maya",
+          "canonical_id": "aadb6c82e1311e21",
+          "partid": null
+        },
+        {
+          "nume": "Toader Bogdan-Andrei",
+          "canonical_id": "9d05632c21d67869",
+          "partid": null
+        },
+        {
+          "nume": "Toma Ilie",
+          "canonical_id": "c0b355173b9aaf51",
+          "partid": null
+        },
+        {
+          "nume": "Toma Vasilică",
+          "canonical_id": "d8a01c60ab2dac41",
+          "partid": null
+        },
+        {
+          "nume": "Trif Bogdan Gheorghe",
+          "canonical_id": "8c35eb867045ca7e",
+          "partid": null
+        },
+        {
+          "nume": "Tudorache Daniel",
+          "canonical_id": "667101e1b206592e",
+          "partid": null
+        },
+        {
+          "nume": "Tuhuţ Radu-Marcel",
+          "canonical_id": "d6ae64ebe801122d",
+          "partid": null
+        },
+        {
+          "nume": "Tuşa Adriana Diana",
+          "canonical_id": "ab14dc75455a95ee",
+          "partid": null
+        },
+        {
+          "nume": "Ţachianu Marian",
+          "canonical_id": "6b46a93235bc2f79",
+          "partid": null
+        },
+        {
+          "nume": "Ţepeluş Laurenţiu-Cristinel",
+          "canonical_id": "4c39364ed18de1f2",
+          "partid": null
+        },
+        {
+          "nume": "Ţuţuianu Marius-Horia",
+          "canonical_id": "4aaff06d23542f1b",
+          "partid": null
+        },
+        {
+          "nume": "Vicol-Ciorbă Laura-Cătălina",
+          "canonical_id": "9e7ffb908a50947c",
+          "partid": null
+        },
+        {
+          "nume": "Vulpescu Ioan",
+          "canonical_id": "0d4bff06f4ec4404",
+          "partid": null
+        },
+        {
+          "nume": "Weber Mihai",
+          "canonical_id": "81b810072521e280",
+          "partid": null
+        },
+        {
+          "nume": "Zetea Gabriel-Valer",
+          "canonical_id": "8391aca52f8cd884",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2021/1545.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1540"
+    },
+    {
+      "id": "e8f2e01b41462e42",
+      "cdep_idm": 1541,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Agricultura României este atacată de cel mai periculos DĂUNĂTOR: ministrul Adrian-Nechita OROS!\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Achimaş-Cadariu Patriciu-Andrei",
+          "canonical_id": "1b0d9f1559ee3be8",
+          "partid": null
+        },
+        {
+          "nume": "Adomnicăi Mirela Elena",
+          "canonical_id": "e9f86760ab47bee6",
+          "partid": null
+        },
+        {
+          "nume": "Albotă Emil-Florin",
+          "canonical_id": "a01c2179f02cf082",
+          "partid": null
+        },
+        {
+          "nume": "Alda Adrian",
+          "canonical_id": "a5b7d3508c6440aa",
+          "partid": null
+        },
+        {
+          "nume": "Badea Iulian-Alexandru",
+          "canonical_id": "6bb334aa096cc1ea",
+          "partid": null
+        },
+        {
+          "nume": "Barbu Florin-Ionuţ",
+          "canonical_id": "9533f697011f42e9",
+          "partid": null
+        },
+        {
+          "nume": "Bălăşoiu Aurel",
+          "canonical_id": "5ef542a4f5176319",
+          "partid": null
+        },
+        {
+          "nume": "Bejinariu Eugen",
+          "canonical_id": "ae56e297bd0d2c50",
+          "partid": null
+        },
+        {
+          "nume": "Bîrcă Constantin",
+          "canonical_id": "61f993b196d080d4",
+          "partid": null
+        },
+        {
+          "nume": "Bucura-Oprescu Simona",
+          "canonical_id": "29d421516e8312ef",
+          "partid": null
+        },
+        {
+          "nume": "Budăi Marius-Constantin",
+          "canonical_id": "237f46c98a8381de",
+          "partid": null
+        },
+        {
+          "nume": "Buicu Corneliu-Florin",
+          "canonical_id": "02bba7e95f6c87e7",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Oana-Gianina",
+          "canonical_id": "ccb6cf26f4f37234",
+          "partid": null
+        },
+        {
+          "nume": "Cătăniciu Steluţa-Gustica",
+          "canonical_id": "7c54df74d4f75710",
+          "partid": null
+        },
+        {
+          "nume": "Cătăuţă Ana-Maria",
+          "canonical_id": "ebfc8d960cd01bf9",
+          "partid": null
+        },
+        {
+          "nume": "Chesnoiu Adrian-Ionuţ",
+          "canonical_id": "84a2353b97166b05",
+          "partid": null
+        },
+        {
+          "nume": "Chirilă Virgil Alin",
+          "canonical_id": "6d8f280be59a6ddb",
+          "partid": null
+        },
+        {
+          "nume": "Ciolacu Ion-Marcel",
+          "canonical_id": "98a4055b35139b5e",
+          "partid": null
+        },
+        {
+          "nume": "Cîtea Vasile",
+          "canonical_id": "bd1b1dc67793b91d",
+          "partid": null
+        },
+        {
+          "nume": "Coarnă Dumitru",
+          "canonical_id": "1ca413a2f2d5a7af",
+          "partid": null
+        },
+        {
+          "nume": "Cristea Andi-Lucian",
+          "canonical_id": "4e81a7170eb8821a",
+          "partid": null
+        },
+        {
+          "nume": "Cristescu Radu-Mihai",
+          "canonical_id": "9a5c6238551b5824",
+          "partid": null
+        },
+        {
+          "nume": "Damian Romulus-Marius",
+          "canonical_id": "128a7f50655e0b8d",
+          "partid": null
+        },
+        {
+          "nume": "Dinu Cristina-Elena",
+          "canonical_id": "0084f0d3046e904f",
+          "partid": null
+        },
+        {
+          "nume": "Dumitrache Ileana Cristina",
+          "canonical_id": "dc40aa6e348c2cc5",
+          "partid": null
+        },
+        {
+          "nume": "Dumitrescu Raluca Giorgiana",
+          "canonical_id": "767c6c41f29b4a39",
+          "partid": null
+        },
+        {
+          "nume": "Dunava Costel Neculai",
+          "canonical_id": "30391e2b9df34680",
+          "partid": null
+        },
+        {
+          "nume": "Fifor Mihai-Viorel",
+          "canonical_id": "a171e72097bb83c4",
+          "partid": null
+        },
+        {
+          "nume": "Florea Daniel",
+          "canonical_id": "28bfff9aefc5ca78",
+          "partid": null
+        },
+        {
+          "nume": "Florea Oana-Consuela",
+          "canonical_id": "76756b2479ef1958",
+          "partid": null
+        },
+        {
+          "nume": "Floroiu Ionel",
+          "canonical_id": "1f516ec663a12383",
+          "partid": null
+        },
+        {
+          "nume": "Folescu Cornel-Vasile",
+          "canonical_id": "7aeb5e88fb2a0abb",
+          "partid": null
+        },
+        {
+          "nume": "Furtună Mirela",
+          "canonical_id": "df2b6a5a2cca6f45",
+          "partid": null
+        },
+        {
+          "nume": "Gavrilescu Graţiela Leocadia",
+          "canonical_id": "8be14e66b1383678",
+          "partid": null
+        },
+        {
+          "nume": "Georgescu Nicolae",
+          "canonical_id": "cbecaaea7a8a03cb",
+          "partid": null
+        },
+        {
+          "nume": "Ghiţă Daniel-Florin",
+          "canonical_id": "accf85ed412153bc",
+          "partid": null
+        },
+        {
+          "nume": "Gîdei Laurenţiu-Viorel",
+          "canonical_id": "4be31cda8cce7760",
+          "partid": null
+        },
+        {
+          "nume": "Gliga Dumitriţa",
+          "canonical_id": "8e48996cceaaaf2b",
+          "partid": null
+        },
+        {
+          "nume": "Goleac Nicoleta-Matilda",
+          "canonical_id": "00892532394c57e0",
+          "partid": null
+        },
+        {
+          "nume": "Grecu Ion-Cătălin",
+          "canonical_id": "6a4b7c345cb3aa66",
+          "partid": null
+        },
+        {
+          "nume": "Grindeanu Sorin-Mihai",
+          "canonical_id": "c23d8cd760e04f25",
+          "partid": null
+        },
+        {
+          "nume": "Halici Nicuşor",
+          "canonical_id": "e59ad06df936a0e5",
+          "partid": null
+        },
+        {
+          "nume": "Holban Georgeta-Carmen",
+          "canonical_id": "78b3f7b97de76d6e",
+          "partid": null
+        },
+        {
+          "nume": "Hurduzeu Florin-Silviu",
+          "canonical_id": "e262d439d25636be",
+          "partid": null
+        },
+        {
+          "nume": "Huţu Alexandra",
+          "canonical_id": "c89e863efabacdbe",
+          "partid": null
+        },
+        {
+          "nume": "Iancu Marius-Ionel",
+          "canonical_id": "630230e548c1799e",
+          "partid": null
+        },
+        {
+          "nume": "Ilişanu Claudiu-Augustin",
+          "canonical_id": "c3f8afecbff32707",
+          "partid": null
+        },
+        {
+          "nume": "Intotero Natalia-Elena",
+          "canonical_id": "0a273394b7f690a9",
+          "partid": null
+        },
+        {
+          "nume": "Ivan Bogdan-Gruia",
+          "canonical_id": "55020fd1a5ba19ef",
+          "partid": null
+        },
+        {
+          "nume": "Lungoci Dumitru-Lucian",
+          "canonical_id": "6cc41005a2290cec",
+          "partid": null
+        },
+        {
+          "nume": "Lungu Romeo-Daniel",
+          "canonical_id": "9b9dc5cf4c65970b",
+          "partid": null
+        },
+        {
+          "nume": "Macovei Silviu Nicu",
+          "canonical_id": "619bc9f944b591ba",
+          "partid": null
+        },
+        {
+          "nume": "Mang Ioan",
+          "canonical_id": "8a32077ae63b5c0e",
+          "partid": null
+        },
+        {
+          "nume": "Manta Claudiu",
+          "canonical_id": "a9d1208183c24fb0",
+          "partid": null
+        },
+        {
+          "nume": "Mărgărit Mitică-Marius",
+          "canonical_id": "f8e70a23dec126d2",
+          "partid": null
+        },
+        {
+          "nume": "Mihalcea Remus-Gabriel",
+          "canonical_id": "45dc745bf3150fd3",
+          "partid": null
+        },
+        {
+          "nume": "Mihălcescu Carmen-Ileana",
+          "canonical_id": "db42db45bc136b98",
+          "partid": null
+        },
+        {
+          "nume": "Mina Marian",
+          "canonical_id": "d5234bf7c2968c47",
+          "partid": null
+        },
+        {
+          "nume": "Mircea Florin",
+          "canonical_id": "981ce157dc747469",
+          "partid": null
+        },
+        {
+          "nume": "Munteanu Remus",
+          "canonical_id": "976af379506d2bf7",
+          "partid": null
+        },
+        {
+          "nume": "Muşoiu Ştefan",
+          "canonical_id": "e2f8eacfb8e19340",
+          "partid": null
+        },
+        {
+          "nume": "Nassar Rodica",
+          "canonical_id": "558c4e8834b432fa",
+          "partid": null
+        },
+        {
+          "nume": "Neaga Florian-Claudiu",
+          "canonical_id": "ad70dc11bcfc23dd",
+          "partid": null
+        },
+        {
+          "nume": "Neaţă Eugen",
+          "canonical_id": "c09125e3e6dd8dea",
+          "partid": null
+        },
+        {
+          "nume": "Nechita Aurel",
+          "canonical_id": "9429bea6c3a61fb1",
+          "partid": null
+        },
+        {
+          "nume": "Niţă Nicu",
+          "canonical_id": "be08b1ea71aa4c70",
+          "partid": null
+        },
+        {
+          "nume": "Ostaficiuc Marius-Eugen",
+          "canonical_id": "9049ded908919b1f",
+          "partid": null
+        },
+        {
+          "nume": "Oteşanu Daniela",
+          "canonical_id": "2fc7f796e89f03f1",
+          "partid": null
+        },
+        {
+          "nume": "Paladi George-Adrian",
+          "canonical_id": "7fddc9d5df86cb42",
+          "partid": null
+        },
+        {
+          "nume": "Paraschiv Rodica",
+          "canonical_id": "bb8005495119f612",
+          "partid": null
+        },
+        {
+          "nume": "Pavelescu Nicolae",
+          "canonical_id": "b8b4e79cd34c21e5",
+          "partid": null
+        },
+        {
+          "nume": "Peţa-Ştefănescu Eliza-Mădălina",
+          "canonical_id": "50b2f5952658ee41",
+          "partid": null
+        },
+        {
+          "nume": "Piper-Savu Florin",
+          "canonical_id": "7de61c7285e14495",
+          "partid": null
+        },
+        {
+          "nume": "Popa Radu Mihai",
+          "canonical_id": "35cdd38ae77235f1",
+          "partid": null
+        },
+        {
+          "nume": "Popa Ştefan-Ovidiu",
+          "canonical_id": "4eb462c0c82029bd",
+          "partid": null
+        },
+        {
+          "nume": "Popescu Dan-Cristian",
+          "canonical_id": "5fe8c1e4f5cc0d1a",
+          "partid": null
+        },
+        {
+          "nume": "Popescu Vlad-Piedone",
+          "canonical_id": "03cb8ea585236d0d",
+          "partid": null
+        },
+        {
+          "nume": "Popica Eduard-Andrei",
+          "canonical_id": "687c2253b4a89a4a",
+          "partid": null
+        },
+        {
+          "nume": "Predescu Ana-Loredana",
+          "canonical_id": "2396e5f6cf630d5c",
+          "partid": null
+        },
+        {
+          "nume": "Presură Alexandra",
+          "canonical_id": "5738f00ec29a1634",
+          "partid": null
+        },
+        {
+          "nume": "Rafila Alexandru",
+          "canonical_id": "4400e162f1ebe0b2",
+          "partid": null
+        },
+        {
+          "nume": "Rasaliu Marian-Iulian",
+          "canonical_id": "1f75d778867ffd73",
+          "partid": null
+        },
+        {
+          "nume": "Salan Viorel",
+          "canonical_id": "2834db391409e031",
+          "partid": null
+        },
+        {
+          "nume": "Sandu Viorica",
+          "canonical_id": "d5956804b984dbc2",
+          "partid": null
+        },
+        {
+          "nume": "Simonis Alfred - Robert",
+          "canonical_id": "efd7dfc090bc85e7",
+          "partid": null
+        },
+        {
+          "nume": "Solomon Adrian",
+          "canonical_id": "46494c74a7b9fa0a",
+          "partid": null
+        },
+        {
+          "nume": "Stancu Paul",
+          "canonical_id": "1d5c9f4677bc9b89",
+          "partid": null
+        },
+        {
+          "nume": "Stativă Irinel Ioan",
+          "canonical_id": "4953d8650894c7c7",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Elena",
+          "canonical_id": "18b3b3a2c8a0b895",
+          "partid": null
+        },
+        {
+          "nume": "Suciu Vasile-Daniel",
+          "canonical_id": "59dfb99e6d9e904d",
+          "partid": null
+        },
+        {
+          "nume": "Şerban Ciprian-Constantin",
+          "canonical_id": "97528165d65af746",
+          "partid": null
+        },
+        {
+          "nume": "Şimon Gheorghe",
+          "canonical_id": "f90020a68fcfc20f",
+          "partid": null
+        },
+        {
+          "nume": "Şlincu Dan-Constantin",
+          "canonical_id": "bd7296021f40a444",
+          "partid": null
+        },
+        {
+          "nume": "Şoldan Gheorghe",
+          "canonical_id": "d0f81e2ea9eac5a5",
+          "partid": null
+        },
+        {
+          "nume": "Tănăsescu Alina-Elena",
+          "canonical_id": "22a97363813c88ff",
+          "partid": null
+        },
+        {
+          "nume": "Teodoroiu Simona-Maya",
+          "canonical_id": "aadb6c82e1311e21",
+          "partid": null
+        },
+        {
+          "nume": "Toader Bogdan-Andrei",
+          "canonical_id": "9d05632c21d67869",
+          "partid": null
+        },
+        {
+          "nume": "Toma Ilie",
+          "canonical_id": "c0b355173b9aaf51",
+          "partid": null
+        },
+        {
+          "nume": "Toma Vasilică",
+          "canonical_id": "d8a01c60ab2dac41",
+          "partid": null
+        },
+        {
+          "nume": "Trif Bogdan Gheorghe",
+          "canonical_id": "8c35eb867045ca7e",
+          "partid": null
+        },
+        {
+          "nume": "Tudorache Daniel",
+          "canonical_id": "667101e1b206592e",
+          "partid": null
+        },
+        {
+          "nume": "Tuhuţ Radu-Marcel",
+          "canonical_id": "d6ae64ebe801122d",
+          "partid": null
+        },
+        {
+          "nume": "Tuşa Adriana Diana",
+          "canonical_id": "ab14dc75455a95ee",
+          "partid": null
+        },
+        {
+          "nume": "Ţachianu Marian",
+          "canonical_id": "6b46a93235bc2f79",
+          "partid": null
+        },
+        {
+          "nume": "Ţepeluş Laurenţiu-Cristinel",
+          "canonical_id": "4c39364ed18de1f2",
+          "partid": null
+        },
+        {
+          "nume": "Ţuţuianu Marius-Horia",
+          "canonical_id": "4aaff06d23542f1b",
+          "partid": null
+        },
+        {
+          "nume": "Vicol-Ciorbă Laura-Cătălina",
+          "canonical_id": "9e7ffb908a50947c",
+          "partid": null
+        },
+        {
+          "nume": "Vulpescu Ioan",
+          "canonical_id": "0d4bff06f4ec4404",
+          "partid": null
+        },
+        {
+          "nume": "Weber Mihai",
+          "canonical_id": "81b810072521e280",
+          "partid": null
+        },
+        {
+          "nume": "Zetea Gabriel-Valer",
+          "canonical_id": "8391aca52f8cd884",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2021/1546.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1541"
+    },
+    {
+      "id": "af7213ca0c0b864d",
+      "cdep_idm": 1542,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Ca românii să trăiască, Vlad Voiculescu trebuie să plece!\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "in_procedura",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Adomnicăi Mirela Elena",
+          "canonical_id": "e9f86760ab47bee6",
+          "partid": null
+        },
+        {
+          "nume": "Albotă Emil-Florin",
+          "canonical_id": "a01c2179f02cf082",
+          "partid": null
+        },
+        {
+          "nume": "Alda Adrian",
+          "canonical_id": "a5b7d3508c6440aa",
+          "partid": null
+        },
+        {
+          "nume": "Badea Iulian-Alexandru",
+          "canonical_id": "6bb334aa096cc1ea",
+          "partid": null
+        },
+        {
+          "nume": "Barbu Florin-Ionuţ",
+          "canonical_id": "9533f697011f42e9",
+          "partid": null
+        },
+        {
+          "nume": "Bălăşoiu Aurel",
+          "canonical_id": "5ef542a4f5176319",
+          "partid": null
+        },
+        {
+          "nume": "Bejinariu Eugen",
+          "canonical_id": "ae56e297bd0d2c50",
+          "partid": null
+        },
+        {
+          "nume": "Bîrcă Constantin",
+          "canonical_id": "61f993b196d080d4",
+          "partid": null
+        },
+        {
+          "nume": "Bucura-Oprescu Simona",
+          "canonical_id": "29d421516e8312ef",
+          "partid": null
+        },
+        {
+          "nume": "Budăi Marius-Constantin",
+          "canonical_id": "237f46c98a8381de",
+          "partid": null
+        },
+        {
+          "nume": "Buicu Corneliu-Florin",
+          "canonical_id": "02bba7e95f6c87e7",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Oana-Gianina",
+          "canonical_id": "ccb6cf26f4f37234",
+          "partid": null
+        },
+        {
+          "nume": "Cătăniciu Steluţa-Gustica",
+          "canonical_id": "7c54df74d4f75710",
+          "partid": null
+        },
+        {
+          "nume": "Cătăuţă Ana-Maria",
+          "canonical_id": "ebfc8d960cd01bf9",
+          "partid": null
+        },
+        {
+          "nume": "Chesnoiu Adrian-Ionuţ",
+          "canonical_id": "84a2353b97166b05",
+          "partid": null
+        },
+        {
+          "nume": "Chirilă Virgil Alin",
+          "canonical_id": "6d8f280be59a6ddb",
+          "partid": null
+        },
+        {
+          "nume": "Ciolacu Ion-Marcel",
+          "canonical_id": "98a4055b35139b5e",
+          "partid": null
+        },
+        {
+          "nume": "Cîtea Vasile",
+          "canonical_id": "bd1b1dc67793b91d",
+          "partid": null
+        },
+        {
+          "nume": "Coarnă Dumitru",
+          "canonical_id": "1ca413a2f2d5a7af",
+          "partid": null
+        },
+        {
+          "nume": "Cristea Andi-Lucian",
+          "canonical_id": "4e81a7170eb8821a",
+          "partid": null
+        },
+        {
+          "nume": "Cristescu Radu-Mihai",
+          "canonical_id": "9a5c6238551b5824",
+          "partid": null
+        },
+        {
+          "nume": "Damian Romulus-Marius",
+          "canonical_id": "128a7f50655e0b8d",
+          "partid": null
+        },
+        {
+          "nume": "Dinu Cristina-Elena",
+          "canonical_id": "0084f0d3046e904f",
+          "partid": null
+        },
+        {
+          "nume": "Dumitrache Ileana Cristina",
+          "canonical_id": "dc40aa6e348c2cc5",
+          "partid": null
+        },
+        {
+          "nume": "Dumitrescu Raluca Giorgiana",
+          "canonical_id": "767c6c41f29b4a39",
+          "partid": null
+        },
+        {
+          "nume": "Dunava Costel Neculai",
+          "canonical_id": "30391e2b9df34680",
+          "partid": null
+        },
+        {
+          "nume": "Fifor Mihai-Viorel",
+          "canonical_id": "a171e72097bb83c4",
+          "partid": null
+        },
+        {
+          "nume": "Florea Daniel",
+          "canonical_id": "28bfff9aefc5ca78",
+          "partid": null
+        },
+        {
+          "nume": "Florea Oana-Consuela",
+          "canonical_id": "76756b2479ef1958",
+          "partid": null
+        },
+        {
+          "nume": "Floroiu Ionel",
+          "canonical_id": "1f516ec663a12383",
+          "partid": null
+        },
+        {
+          "nume": "Folescu Cornel-Vasile",
+          "canonical_id": "7aeb5e88fb2a0abb",
+          "partid": null
+        },
+        {
+          "nume": "Furtună Mirela",
+          "canonical_id": "df2b6a5a2cca6f45",
+          "partid": null
+        },
+        {
+          "nume": "Georgescu Nicolae",
+          "canonical_id": "cbecaaea7a8a03cb",
+          "partid": null
+        },
+        {
+          "nume": "Ghiţă Daniel-Florin",
+          "canonical_id": "accf85ed412153bc",
+          "partid": null
+        },
+        {
+          "nume": "Gîdei Laurenţiu-Viorel",
+          "canonical_id": "4be31cda8cce7760",
+          "partid": null
+        },
+        {
+          "nume": "Gliga Dumitriţa",
+          "canonical_id": "8e48996cceaaaf2b",
+          "partid": null
+        },
+        {
+          "nume": "Goleac Nicoleta-Matilda",
+          "canonical_id": "00892532394c57e0",
+          "partid": null
+        },
+        {
+          "nume": "Grecu Ion-Cătălin",
+          "canonical_id": "6a4b7c345cb3aa66",
+          "partid": null
+        },
+        {
+          "nume": "Grindeanu Sorin-Mihai",
+          "canonical_id": "c23d8cd760e04f25",
+          "partid": null
+        },
+        {
+          "nume": "Halici Nicuşor",
+          "canonical_id": "e59ad06df936a0e5",
+          "partid": null
+        },
+        {
+          "nume": "Holban Georgeta-Carmen",
+          "canonical_id": "78b3f7b97de76d6e",
+          "partid": null
+        },
+        {
+          "nume": "Hurduzeu Florin-Silviu",
+          "canonical_id": "e262d439d25636be",
+          "partid": null
+        },
+        {
+          "nume": "Huţu Alexandra",
+          "canonical_id": "c89e863efabacdbe",
+          "partid": null
+        },
+        {
+          "nume": "Iancu Marius-Ionel",
+          "canonical_id": "630230e548c1799e",
+          "partid": null
+        },
+        {
+          "nume": "Ilişanu Claudiu-Augustin",
+          "canonical_id": "c3f8afecbff32707",
+          "partid": null
+        },
+        {
+          "nume": "Intotero Natalia-Elena",
+          "canonical_id": "0a273394b7f690a9",
+          "partid": null
+        },
+        {
+          "nume": "Ivan Bogdan-Gruia",
+          "canonical_id": "55020fd1a5ba19ef",
+          "partid": null
+        },
+        {
+          "nume": "Lungoci Dumitru-Lucian",
+          "canonical_id": "6cc41005a2290cec",
+          "partid": null
+        },
+        {
+          "nume": "Lungu Romeo-Daniel",
+          "canonical_id": "9b9dc5cf4c65970b",
+          "partid": null
+        },
+        {
+          "nume": "Macovei Silviu Nicu",
+          "canonical_id": "619bc9f944b591ba",
+          "partid": null
+        },
+        {
+          "nume": "Mang Ioan",
+          "canonical_id": "8a32077ae63b5c0e",
+          "partid": null
+        },
+        {
+          "nume": "Manta Claudiu",
+          "canonical_id": "a9d1208183c24fb0",
+          "partid": null
+        },
+        {
+          "nume": "Mărgărit Mitică-Marius",
+          "canonical_id": "f8e70a23dec126d2",
+          "partid": null
+        },
+        {
+          "nume": "Mihalcea Remus-Gabriel",
+          "canonical_id": "45dc745bf3150fd3",
+          "partid": null
+        },
+        {
+          "nume": "Mihălcescu Carmen-Ileana",
+          "canonical_id": "db42db45bc136b98",
+          "partid": null
+        },
+        {
+          "nume": "Mina Marian",
+          "canonical_id": "d5234bf7c2968c47",
+          "partid": null
+        },
+        {
+          "nume": "Mircea Florin",
+          "canonical_id": "981ce157dc747469",
+          "partid": null
+        },
+        {
+          "nume": "Munteanu Remus",
+          "canonical_id": "976af379506d2bf7",
+          "partid": null
+        },
+        {
+          "nume": "Muşoiu Ştefan",
+          "canonical_id": "e2f8eacfb8e19340",
+          "partid": null
+        },
+        {
+          "nume": "Nassar Rodica",
+          "canonical_id": "558c4e8834b432fa",
+          "partid": null
+        },
+        {
+          "nume": "Neaga Florian-Claudiu",
+          "canonical_id": "ad70dc11bcfc23dd",
+          "partid": null
+        },
+        {
+          "nume": "Neaţă Eugen",
+          "canonical_id": "c09125e3e6dd8dea",
+          "partid": null
+        },
+        {
+          "nume": "Nechita Aurel",
+          "canonical_id": "9429bea6c3a61fb1",
+          "partid": null
+        },
+        {
+          "nume": "Niţă Nicu",
+          "canonical_id": "be08b1ea71aa4c70",
+          "partid": null
+        },
+        {
+          "nume": "Oteşanu Daniela",
+          "canonical_id": "2fc7f796e89f03f1",
+          "partid": null
+        },
+        {
+          "nume": "Paladi George-Adrian",
+          "canonical_id": "7fddc9d5df86cb42",
+          "partid": null
+        },
+        {
+          "nume": "Paraschiv Rodica",
+          "canonical_id": "bb8005495119f612",
+          "partid": null
+        },
+        {
+          "nume": "Pavelescu Nicolae",
+          "canonical_id": "b8b4e79cd34c21e5",
+          "partid": null
+        },
+        {
+          "nume": "Peţa-Ştefănescu Eliza-Mădălina",
+          "canonical_id": "50b2f5952658ee41",
+          "partid": null
+        },
+        {
+          "nume": "Piper-Savu Florin",
+          "canonical_id": "7de61c7285e14495",
+          "partid": null
+        },
+        {
+          "nume": "Popa Radu Mihai",
+          "canonical_id": "35cdd38ae77235f1",
+          "partid": null
+        },
+        {
+          "nume": "Popa Ştefan-Ovidiu",
+          "canonical_id": "4eb462c0c82029bd",
+          "partid": null
+        },
+        {
+          "nume": "Popescu Dan-Cristian",
+          "canonical_id": "5fe8c1e4f5cc0d1a",
+          "partid": null
+        },
+        {
+          "nume": "Popescu Vlad-Piedone",
+          "canonical_id": "03cb8ea585236d0d",
+          "partid": null
+        },
+        {
+          "nume": "Popica Eduard-Andrei",
+          "canonical_id": "687c2253b4a89a4a",
+          "partid": null
+        },
+        {
+          "nume": "Predescu Ana-Loredana",
+          "canonical_id": "2396e5f6cf630d5c",
+          "partid": null
+        },
+        {
+          "nume": "Presură Alexandra",
+          "canonical_id": "5738f00ec29a1634",
+          "partid": null
+        },
+        {
+          "nume": "Rafila Alexandru",
+          "canonical_id": "4400e162f1ebe0b2",
+          "partid": null
+        },
+        {
+          "nume": "Rasaliu Marian-Iulian",
+          "canonical_id": "1f75d778867ffd73",
+          "partid": null
+        },
+        {
+          "nume": "Sandu Viorica",
+          "canonical_id": "d5956804b984dbc2",
+          "partid": null
+        },
+        {
+          "nume": "Simonis Alfred - Robert",
+          "canonical_id": "efd7dfc090bc85e7",
+          "partid": null
+        },
+        {
+          "nume": "Solomon Adrian",
+          "canonical_id": "46494c74a7b9fa0a",
+          "partid": null
+        },
+        {
+          "nume": "Stancu Paul",
+          "canonical_id": "1d5c9f4677bc9b89",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Elena",
+          "canonical_id": "18b3b3a2c8a0b895",
+          "partid": null
+        },
+        {
+          "nume": "Suciu Vasile-Daniel",
+          "canonical_id": "59dfb99e6d9e904d",
+          "partid": null
+        },
+        {
+          "nume": "Şerban Ciprian-Constantin",
+          "canonical_id": "97528165d65af746",
+          "partid": null
+        },
+        {
+          "nume": "Şimon Gheorghe",
+          "canonical_id": "f90020a68fcfc20f",
+          "partid": null
+        },
+        {
+          "nume": "Şlincu Dan-Constantin",
+          "canonical_id": "bd7296021f40a444",
+          "partid": null
+        },
+        {
+          "nume": "Şoldan Gheorghe",
+          "canonical_id": "d0f81e2ea9eac5a5",
+          "partid": null
+        },
+        {
+          "nume": "Tănăsescu Alina-Elena",
+          "canonical_id": "22a97363813c88ff",
+          "partid": null
+        },
+        {
+          "nume": "Teodoroiu Simona-Maya",
+          "canonical_id": "aadb6c82e1311e21",
+          "partid": null
+        },
+        {
+          "nume": "Toader Bogdan-Andrei",
+          "canonical_id": "9d05632c21d67869",
+          "partid": null
+        },
+        {
+          "nume": "Toma Ilie",
+          "canonical_id": "c0b355173b9aaf51",
+          "partid": null
+        },
+        {
+          "nume": "Trif Bogdan Gheorghe",
+          "canonical_id": "8c35eb867045ca7e",
+          "partid": null
+        },
+        {
+          "nume": "Tudorache Daniel",
+          "canonical_id": "667101e1b206592e",
+          "partid": null
+        },
+        {
+          "nume": "Tuhuţ Radu-Marcel",
+          "canonical_id": "d6ae64ebe801122d",
+          "partid": null
+        },
+        {
+          "nume": "Tuşa Adriana Diana",
+          "canonical_id": "ab14dc75455a95ee",
+          "partid": null
+        },
+        {
+          "nume": "Ţachianu Marian",
+          "canonical_id": "6b46a93235bc2f79",
+          "partid": null
+        },
+        {
+          "nume": "Ţepeluş Laurenţiu-Cristinel",
+          "canonical_id": "4c39364ed18de1f2",
+          "partid": null
+        },
+        {
+          "nume": "Ţuţuianu Marius-Horia",
+          "canonical_id": "4aaff06d23542f1b",
+          "partid": null
+        },
+        {
+          "nume": "Vicol-Ciorbă Laura-Cătălina",
+          "canonical_id": "9e7ffb908a50947c",
+          "partid": null
+        },
+        {
+          "nume": "Vulpescu Ioan",
+          "canonical_id": "0d4bff06f4ec4404",
+          "partid": null
+        },
+        {
+          "nume": "Weber Mihai",
+          "canonical_id": "81b810072521e280",
+          "partid": null
+        },
+        {
+          "nume": "Zetea Gabriel-Valer",
+          "canonical_id": "8391aca52f8cd884",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2021/1547.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1542"
+    },
+    {
+      "id": "3e28673930848acc",
+      "cdep_idm": 1547,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Incompetenţa şi minciuna închid lumina în România! Ministrul «săptămâna viitoare», Virgil Popescu, un pericol pentru securitatea energetică a României!\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Benga Tudor - Vlad",
+          "canonical_id": "f53ce5cd8222896e",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Cambera Oana-Alexandra",
+          "canonical_id": "500c1772e80e539d",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Gheba Daniel-Sorin",
+          "canonical_id": "90ac461526c24df9",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Ichim Cristian-Paul",
+          "canonical_id": "40128faa5fe0fe32",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Lupu Andrei-Răzvan",
+          "canonical_id": "53022eb79e6b37dd",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Năsui Claudiu-Iulius-Gavril",
+          "canonical_id": "6770093f50664778",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Özmen Oana-Marciana",
+          "canonical_id": "58c546b7280a35a0",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Poliţeanu Mihai-Laurenţiu",
+          "canonical_id": "72db363f2f2c11a7",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Prunean Alin-Costel",
+          "canonical_id": "e9019995e19a30c0",
+          "partid": null
+        },
+        {
+          "nume": "Rizea Cristina Camelia",
+          "canonical_id": "3dfc58d49a1ac8b5",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Sas Lóránt-Zoltan",
+          "canonical_id": "3ccec13afa48d20d",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Teniţă Dragoş-Cătălin",
+          "canonical_id": "b95b515f6d429ad9",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Toda Daniel-Liviu",
+          "canonical_id": "8f91813e24a1c58d",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Tulbure Simina-Geanina-Daniela",
+          "canonical_id": "9206b01af540d5a4",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2022/1552.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1547"
+    },
+    {
+      "id": "f4c471ef39c48d85",
+      "cdep_idm": 1548,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Din nou cu tancul peste Justiţie - ministru Cătălin Predoiu\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Benga Tudor - Vlad",
+          "canonical_id": "f53ce5cd8222896e",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Cambera Oana-Alexandra",
+          "canonical_id": "500c1772e80e539d",
+          "partid": null
+        },
+        {
+          "nume": "Chichirău Cosette-Paula",
+          "canonical_id": "188b001543912eef",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ichim Cristian-Paul",
+          "canonical_id": "40128faa5fe0fe32",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Lupu Andrei-Răzvan",
+          "canonical_id": "53022eb79e6b37dd",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Năsui Claudiu-Iulius-Gavril",
+          "canonical_id": "6770093f50664778",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Özmen Oana-Marciana",
+          "canonical_id": "58c546b7280a35a0",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Poliţeanu Mihai-Laurenţiu",
+          "canonical_id": "72db363f2f2c11a7",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Prunean Alin-Costel",
+          "canonical_id": "e9019995e19a30c0",
+          "partid": null
+        },
+        {
+          "nume": "Rizea Cristina Camelia",
+          "canonical_id": "3dfc58d49a1ac8b5",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Sas Lóránt-Zoltan",
+          "canonical_id": "3ccec13afa48d20d",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Teniţă Dragoş-Cătălin",
+          "canonical_id": "b95b515f6d429ad9",
+          "partid": null
+        },
+        {
+          "nume": "Toda Daniel-Liviu",
+          "canonical_id": "8f91813e24a1c58d",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Tulbure Simina-Geanina-Daniela",
+          "canonical_id": "9206b01af540d5a4",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2022/1553.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1548"
+    },
+    {
+      "id": "1a7aa78510bc4b0e",
+      "cdep_idm": 1550,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Libertate artistică? Da! Propagandă pro-Moscova şi anti-UE în instituţii publice? Niciodată!\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "in_procedura",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Benga Tudor - Vlad",
+          "canonical_id": "f53ce5cd8222896e",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Chichirău Cosette-Paula",
+          "canonical_id": "188b001543912eef",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Gheba Daniel-Sorin",
+          "canonical_id": "90ac461526c24df9",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ichim Cristian-Paul",
+          "canonical_id": "40128faa5fe0fe32",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Lupu Andrei-Răzvan",
+          "canonical_id": "53022eb79e6b37dd",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Özmen Oana-Marciana",
+          "canonical_id": "58c546b7280a35a0",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Rizea Cristina Camelia",
+          "canonical_id": "3dfc58d49a1ac8b5",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Teniţă Dragoş-Cătălin",
+          "canonical_id": "b95b515f6d429ad9",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Toda Daniel-Liviu",
+          "canonical_id": "8f91813e24a1c58d",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Tulbure Simina-Geanina-Daniela",
+          "canonical_id": "9206b01af540d5a4",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2022/1554.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1550"
+    },
+    {
+      "id": "cd7605b85ab5f1cb",
+      "cdep_idm": 1551,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"AMAR DE MEDIU. Ministrul Tanczos Barna trebuie să plece cât încă mai avem păduri de apărat\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Benga Tudor - Vlad",
+          "canonical_id": "f53ce5cd8222896e",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Cambera Oana-Alexandra",
+          "canonical_id": "500c1772e80e539d",
+          "partid": null
+        },
+        {
+          "nume": "Chichirău Cosette-Paula",
+          "canonical_id": "188b001543912eef",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Gheba Daniel-Sorin",
+          "canonical_id": "90ac461526c24df9",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ichim Cristian-Paul",
+          "canonical_id": "40128faa5fe0fe32",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Năsui Claudiu-Iulius-Gavril",
+          "canonical_id": "6770093f50664778",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Özmen Oana-Marciana",
+          "canonical_id": "58c546b7280a35a0",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Poliţeanu Mihai-Laurenţiu",
+          "canonical_id": "72db363f2f2c11a7",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Prunean Alin-Costel",
+          "canonical_id": "e9019995e19a30c0",
+          "partid": null
+        },
+        {
+          "nume": "Rizea Cristina Camelia",
+          "canonical_id": "3dfc58d49a1ac8b5",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Sas Lóránt-Zoltan",
+          "canonical_id": "3ccec13afa48d20d",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Teniţă Dragoş-Cătălin",
+          "canonical_id": "b95b515f6d429ad9",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Toda Daniel-Liviu",
+          "canonical_id": "8f91813e24a1c58d",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Tulbure Simina-Geanina-Daniela",
+          "canonical_id": "9206b01af540d5a4",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2022/1555.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1551"
+    },
+    {
+      "id": "f974859df507f5f7",
+      "cdep_idm": 1552,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Ministru. Dezastru. Educaţie fără viitor\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Benga Tudor - Vlad",
+          "canonical_id": "f53ce5cd8222896e",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Cambera Oana-Alexandra",
+          "canonical_id": "500c1772e80e539d",
+          "partid": null
+        },
+        {
+          "nume": "Chichirău Cosette-Paula",
+          "canonical_id": "188b001543912eef",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Gheba Daniel-Sorin",
+          "canonical_id": "90ac461526c24df9",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ichim Cristian-Paul",
+          "canonical_id": "40128faa5fe0fe32",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Poliţeanu Mihai-Laurenţiu",
+          "canonical_id": "72db363f2f2c11a7",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Prunean Alin-Costel",
+          "canonical_id": "e9019995e19a30c0",
+          "partid": null
+        },
+        {
+          "nume": "Rizea Cristina Camelia",
+          "canonical_id": "3dfc58d49a1ac8b5",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Sas Lóránt-Zoltan",
+          "canonical_id": "3ccec13afa48d20d",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Teniţă Dragoş-Cătălin",
+          "canonical_id": "b95b515f6d429ad9",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Toda Daniel-Liviu",
+          "canonical_id": "8f91813e24a1c58d",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Tulbure Simina-Geanina-Daniela",
+          "canonical_id": "9206b01af540d5a4",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2022/1556.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1552"
+    },
+    {
+      "id": "28ca8cf8b1acb442",
+      "cdep_idm": 1553,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Virgil Popescu trebuie să plece. Românii aşteaptă soluţii!\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "in_procedura",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Alexandru Victoria-Violeta",
+          "canonical_id": "1f04d95d668c00b1",
+          "partid": null
+        },
+        {
+          "nume": "Chira Claudiu-Martin",
+          "canonical_id": "3551d4246f2d531f",
+          "partid": null
+        },
+        {
+          "nume": "Kocsis-Cristea Alexandru",
+          "canonical_id": "68951a7b00c90e6e",
+          "partid": null
+        },
+        {
+          "nume": "Miuţescu Gheorghe Adrian",
+          "canonical_id": "695c9c93855f3308",
+          "partid": null
+        },
+        {
+          "nume": "Orban Ludovic",
+          "canonical_id": "eee8554db8b09083",
+          "partid": null
+        },
+        {
+          "nume": "Plăiaşu Gabriel",
+          "canonical_id": "7d78d4f1f760681e",
+          "partid": null
+        },
+        {
+          "nume": "Prunean Alin-Costel",
+          "canonical_id": "e9019995e19a30c0",
+          "partid": null
+        },
+        {
+          "nume": "Rizea Cristina Camelia",
+          "canonical_id": "3dfc58d49a1ac8b5",
+          "partid": null
+        },
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Benga Tudor - Vlad",
+          "canonical_id": "f53ce5cd8222896e",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Cambera Oana-Alexandra",
+          "canonical_id": "500c1772e80e539d",
+          "partid": null
+        },
+        {
+          "nume": "Chichirău Cosette-Paula",
+          "canonical_id": "188b001543912eef",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Gheba Daniel-Sorin",
+          "canonical_id": "90ac461526c24df9",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ichim Cristian-Paul",
+          "canonical_id": "40128faa5fe0fe32",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Năsui Claudiu-Iulius-Gavril",
+          "canonical_id": "6770093f50664778",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Poliţeanu Mihai-Laurenţiu",
+          "canonical_id": "72db363f2f2c11a7",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Toda Daniel-Liviu",
+          "canonical_id": "8f91813e24a1c58d",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Tulbure Simina-Geanina-Daniela",
+          "canonical_id": "9206b01af540d5a4",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2022/1557.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1553"
+    },
+    {
+      "id": "36c3da9e7e335144",
+      "cdep_idm": 1554,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"România fără energie. Românii plătesc factura pentru incompetenţa lui Virgil \nPopescu\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Alexandru Victoria-Violeta",
+          "canonical_id": "1f04d95d668c00b1",
+          "partid": null
+        },
+        {
+          "nume": "Benga Tudor - Vlad",
+          "canonical_id": "f53ce5cd8222896e",
+          "partid": null
+        },
+        {
+          "nume": "Bola Bogdan-Alexandru",
+          "canonical_id": "c7c2f9f0bb7f0125",
+          "partid": null
+        },
+        {
+          "nume": "Dancă Ionel",
+          "canonical_id": "192fc1723585096b",
+          "partid": null
+        },
+        {
+          "nume": "Giugea Nicolae",
+          "canonical_id": "7f5b0de095857e59",
+          "partid": null
+        },
+        {
+          "nume": "Ionescu George",
+          "canonical_id": "ce928e6750d24c1e",
+          "partid": null
+        },
+        {
+          "nume": "Plăiaşu Gabriel",
+          "canonical_id": "7d78d4f1f760681e",
+          "partid": null
+        },
+        {
+          "nume": "Şovăială Constantin",
+          "canonical_id": "da8ada13007f3fc2",
+          "partid": null
+        },
+        {
+          "nume": "Ştefan Ion",
+          "canonical_id": "69cdd54dac7fd5bd",
+          "partid": null
+        },
+        {
+          "nume": "Tănase Antonel",
+          "canonical_id": "ce4a284d2ad1fae3",
+          "partid": null
+        },
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Chichirău Cosette-Paula",
+          "canonical_id": "188b001543912eef",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Gheba Daniel-Sorin",
+          "canonical_id": "90ac461526c24df9",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Năsui Claudiu-Iulius-Gavril",
+          "canonical_id": "6770093f50664778",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Poliţeanu Mihai-Laurenţiu",
+          "canonical_id": "72db363f2f2c11a7",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2022/1558.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1554"
+    },
+    {
+      "id": "312c615b5b35cd2c",
+      "cdep_idm": 1555,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"România educată să fure. Sorin Cîmpeanu face şcoala de ruşine\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "in_procedura",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Alexandru Victoria-Violeta",
+          "canonical_id": "1f04d95d668c00b1",
+          "partid": null
+        },
+        {
+          "nume": "Bola Bogdan-Alexandru",
+          "canonical_id": "c7c2f9f0bb7f0125",
+          "partid": null
+        },
+        {
+          "nume": "Dancă Ionel",
+          "canonical_id": "192fc1723585096b",
+          "partid": null
+        },
+        {
+          "nume": "Ionescu George",
+          "canonical_id": "ce928e6750d24c1e",
+          "partid": null
+        },
+        {
+          "nume": "Kocsis-Cristea Alexandru",
+          "canonical_id": "68951a7b00c90e6e",
+          "partid": null
+        },
+        {
+          "nume": "Miuţescu Gheorghe Adrian",
+          "canonical_id": "695c9c93855f3308",
+          "partid": null
+        },
+        {
+          "nume": "Orban Ludovic",
+          "canonical_id": "eee8554db8b09083",
+          "partid": null
+        },
+        {
+          "nume": "Plăiaşu Gabriel",
+          "canonical_id": "7d78d4f1f760681e",
+          "partid": null
+        },
+        {
+          "nume": "Şovăială Constantin",
+          "canonical_id": "da8ada13007f3fc2",
+          "partid": null
+        },
+        {
+          "nume": "Tănase Antonel",
+          "canonical_id": "ce4a284d2ad1fae3",
+          "partid": null
+        },
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Chichirău Cosette-Paula",
+          "canonical_id": "188b001543912eef",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Gheba Daniel-Sorin",
+          "canonical_id": "90ac461526c24df9",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Năsui Claudiu-Iulius-Gavril",
+          "canonical_id": "6770093f50664778",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Poliţeanu Mihai-Laurenţiu",
+          "canonical_id": "72db363f2f2c11a7",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2022/1559.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1555"
+    },
+    {
+      "id": "6032782788fd1291",
+      "cdep_idm": 1556,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Siguranţă şi încredere sau debandadă şi furt? Ministrul Bode trebuie să răspundă pentru dezastrul pe care l-a creat\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Alexandru Victoria-Violeta",
+          "canonical_id": "1f04d95d668c00b1",
+          "partid": null
+        },
+        {
+          "nume": "Benga Tudor - Vlad",
+          "canonical_id": "f53ce5cd8222896e",
+          "partid": null
+        },
+        {
+          "nume": "Bola Bogdan-Alexandru",
+          "canonical_id": "c7c2f9f0bb7f0125",
+          "partid": null
+        },
+        {
+          "nume": "Chira Claudiu-Martin",
+          "canonical_id": "3551d4246f2d531f",
+          "partid": null
+        },
+        {
+          "nume": "Dancă Ionel",
+          "canonical_id": "192fc1723585096b",
+          "partid": null
+        },
+        {
+          "nume": "Kocsis-Cristea Alexandru",
+          "canonical_id": "68951a7b00c90e6e",
+          "partid": null
+        },
+        {
+          "nume": "Miuţescu Gheorghe Adrian",
+          "canonical_id": "695c9c93855f3308",
+          "partid": null
+        },
+        {
+          "nume": "Orban Ludovic",
+          "canonical_id": "eee8554db8b09083",
+          "partid": null
+        },
+        {
+          "nume": "Plăiaşu Gabriel",
+          "canonical_id": "7d78d4f1f760681e",
+          "partid": null
+        },
+        {
+          "nume": "Şovăială Constantin",
+          "canonical_id": "da8ada13007f3fc2",
+          "partid": null
+        },
+        {
+          "nume": "Tănase Antonel",
+          "canonical_id": "ce4a284d2ad1fae3",
+          "partid": null
+        },
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Chichirău Cosette-Paula",
+          "canonical_id": "188b001543912eef",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Gheba Daniel-Sorin",
+          "canonical_id": "90ac461526c24df9",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Năsui Claudiu-Iulius-Gavril",
+          "canonical_id": "6770093f50664778",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Poliţeanu Mihai-Laurenţiu",
+          "canonical_id": "72db363f2f2c11a7",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2022/1560.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1556"
+    },
+    {
+      "id": "b92c8c40df108dae",
+      "cdep_idm": 1557,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Dosarul Schengen şi responsabilitatea miniştrilor de la Bucureşti. România umilită aşteaptă răspunsuri\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "in_procedura",
+      "nr_semnatari": null,
+      "semnatari": [],
+      "pdf_url": null,
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1557"
+    },
+    {
+      "id": "df496a85c630db52",
+      "cdep_idm": 1558,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"România merită mai mult decât hoţi în funcţii publice\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Alexandru Victoria-Violeta",
+          "canonical_id": "1f04d95d668c00b1",
+          "partid": null
+        },
+        {
+          "nume": "Benga Tudor - Vlad",
+          "canonical_id": "f53ce5cd8222896e",
+          "partid": null
+        },
+        {
+          "nume": "Bola Bogdan-Alexandru",
+          "canonical_id": "c7c2f9f0bb7f0125",
+          "partid": null
+        },
+        {
+          "nume": "Chira Claudiu-Martin",
+          "canonical_id": "3551d4246f2d531f",
+          "partid": null
+        },
+        {
+          "nume": "Dancă Ionel",
+          "canonical_id": "192fc1723585096b",
+          "partid": null
+        },
+        {
+          "nume": "Gheba Daniel-Sorin",
+          "canonical_id": "90ac461526c24df9",
+          "partid": null
+        },
+        {
+          "nume": "Ionescu George",
+          "canonical_id": "ce928e6750d24c1e",
+          "partid": null
+        },
+        {
+          "nume": "Kocsis-Cristea Alexandru",
+          "canonical_id": "68951a7b00c90e6e",
+          "partid": null
+        },
+        {
+          "nume": "Miuţescu Gheorghe Adrian",
+          "canonical_id": "695c9c93855f3308",
+          "partid": null
+        },
+        {
+          "nume": "Orban Ludovic",
+          "canonical_id": "eee8554db8b09083",
+          "partid": null
+        },
+        {
+          "nume": "Plăiaşu Gabriel",
+          "canonical_id": "7d78d4f1f760681e",
+          "partid": null
+        },
+        {
+          "nume": "Rusu Daniel-Gheorghe",
+          "canonical_id": "9ec570f2cbf5bc44",
+          "partid": null
+        },
+        {
+          "nume": "Şovăială Constantin",
+          "canonical_id": "da8ada13007f3fc2",
+          "partid": null
+        },
+        {
+          "nume": "Ştefan Ion",
+          "canonical_id": "69cdd54dac7fd5bd",
+          "partid": null
+        },
+        {
+          "nume": "Tănase Antonel",
+          "canonical_id": "ce4a284d2ad1fae3",
+          "partid": null
+        },
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Chichirău Cosette-Paula",
+          "canonical_id": "188b001543912eef",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Năsui Claudiu-Iulius-Gavril",
+          "canonical_id": "6770093f50664778",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2023/1562.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1558"
+    },
+    {
+      "id": "232f4c19308e35b9",
+      "cdep_idm": 1559,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Marius Budăi - ministrul salvării pensiilor speciale\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Alexandru Victoria-Violeta",
+          "canonical_id": "1f04d95d668c00b1",
+          "partid": null
+        },
+        {
+          "nume": "Benga Tudor - Vlad",
+          "canonical_id": "f53ce5cd8222896e",
+          "partid": null
+        },
+        {
+          "nume": "Bola Bogdan-Alexandru",
+          "canonical_id": "c7c2f9f0bb7f0125",
+          "partid": null
+        },
+        {
+          "nume": "Chira Claudiu-Martin",
+          "canonical_id": "3551d4246f2d531f",
+          "partid": null
+        },
+        {
+          "nume": "Dancă Ionel",
+          "canonical_id": "192fc1723585096b",
+          "partid": null
+        },
+        {
+          "nume": "Ionescu George",
+          "canonical_id": "ce928e6750d24c1e",
+          "partid": null
+        },
+        {
+          "nume": "Kocsis-Cristea Alexandru",
+          "canonical_id": "68951a7b00c90e6e",
+          "partid": null
+        },
+        {
+          "nume": "Miuţescu Gheorghe Adrian",
+          "canonical_id": "695c9c93855f3308",
+          "partid": null
+        },
+        {
+          "nume": "Orban Ludovic",
+          "canonical_id": "eee8554db8b09083",
+          "partid": null
+        },
+        {
+          "nume": "Plăiaşu Gabriel",
+          "canonical_id": "7d78d4f1f760681e",
+          "partid": null
+        },
+        {
+          "nume": "Rusu Daniel-Gheorghe",
+          "canonical_id": "9ec570f2cbf5bc44",
+          "partid": null
+        },
+        {
+          "nume": "Şovăială Constantin",
+          "canonical_id": "da8ada13007f3fc2",
+          "partid": null
+        },
+        {
+          "nume": "Ştefan Ion",
+          "canonical_id": "69cdd54dac7fd5bd",
+          "partid": null
+        },
+        {
+          "nume": "Tănase Antonel",
+          "canonical_id": "ce4a284d2ad1fae3",
+          "partid": null
+        },
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Chichirău Cosette-Paula",
+          "canonical_id": "188b001543912eef",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Năsui Claudiu-Iulius-Gavril",
+          "canonical_id": "6770093f50664778",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2023/1563.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1559"
+    },
+    {
+      "id": "0e2503dc15f2c5d6",
+      "cdep_idm": 1560,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"De la grânarul Europei la ruşinea Europei. Ministrul Daea distruge cu bună ştiinţă agricultura românească\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Alexandru Victoria-Violeta",
+          "canonical_id": "1f04d95d668c00b1",
+          "partid": null
+        },
+        {
+          "nume": "Benga Tudor - Vlad",
+          "canonical_id": "f53ce5cd8222896e",
+          "partid": null
+        },
+        {
+          "nume": "Bola Bogdan-Alexandru",
+          "canonical_id": "c7c2f9f0bb7f0125",
+          "partid": null
+        },
+        {
+          "nume": "Chira Claudiu-Martin",
+          "canonical_id": "3551d4246f2d531f",
+          "partid": null
+        },
+        {
+          "nume": "Dancă Ionel",
+          "canonical_id": "192fc1723585096b",
+          "partid": null
+        },
+        {
+          "nume": "Ionescu George",
+          "canonical_id": "ce928e6750d24c1e",
+          "partid": null
+        },
+        {
+          "nume": "Kocsis-Cristea Alexandru",
+          "canonical_id": "68951a7b00c90e6e",
+          "partid": null
+        },
+        {
+          "nume": "Miuţescu Gheorghe Adrian",
+          "canonical_id": "695c9c93855f3308",
+          "partid": null
+        },
+        {
+          "nume": "Orban Ludovic",
+          "canonical_id": "eee8554db8b09083",
+          "partid": null
+        },
+        {
+          "nume": "Plăiaşu Gabriel",
+          "canonical_id": "7d78d4f1f760681e",
+          "partid": null
+        },
+        {
+          "nume": "Rusu Daniel-Gheorghe",
+          "canonical_id": "9ec570f2cbf5bc44",
+          "partid": null
+        },
+        {
+          "nume": "Şovăială Constantin",
+          "canonical_id": "da8ada13007f3fc2",
+          "partid": null
+        },
+        {
+          "nume": "Ştefan Ion",
+          "canonical_id": "69cdd54dac7fd5bd",
+          "partid": null
+        },
+        {
+          "nume": "Tănase Antonel",
+          "canonical_id": "ce4a284d2ad1fae3",
+          "partid": null
+        },
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Chichirău Cosette-Paula",
+          "canonical_id": "188b001543912eef",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Năsui Claudiu-Iulius-Gavril",
+          "canonical_id": "6770093f50664778",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2023/1564.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1560"
+    },
+    {
+      "id": "c4fd6516791ae88c",
+      "cdep_idm": 1561,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Ministrul Rafila - Turistul leneş şi cinic care lasă România fără spitale\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Alexandru Victoria-Violeta",
+          "canonical_id": "1f04d95d668c00b1",
+          "partid": null
+        },
+        {
+          "nume": "Benga Tudor - Vlad",
+          "canonical_id": "f53ce5cd8222896e",
+          "partid": null
+        },
+        {
+          "nume": "Bola Bogdan-Alexandru",
+          "canonical_id": "c7c2f9f0bb7f0125",
+          "partid": null
+        },
+        {
+          "nume": "Chira Claudiu-Martin",
+          "canonical_id": "3551d4246f2d531f",
+          "partid": null
+        },
+        {
+          "nume": "Dancă Ionel",
+          "canonical_id": "192fc1723585096b",
+          "partid": null
+        },
+        {
+          "nume": "Ionescu George",
+          "canonical_id": "ce928e6750d24c1e",
+          "partid": null
+        },
+        {
+          "nume": "Kocsis-Cristea Alexandru",
+          "canonical_id": "68951a7b00c90e6e",
+          "partid": null
+        },
+        {
+          "nume": "Miuţescu Gheorghe Adrian",
+          "canonical_id": "695c9c93855f3308",
+          "partid": null
+        },
+        {
+          "nume": "Nagy Vasile",
+          "canonical_id": "680f0fef61d61657",
+          "partid": null
+        },
+        {
+          "nume": "Orban Ludovic",
+          "canonical_id": "eee8554db8b09083",
+          "partid": null
+        },
+        {
+          "nume": "Plăiaşu Gabriel",
+          "canonical_id": "7d78d4f1f760681e",
+          "partid": null
+        },
+        {
+          "nume": "Rusu Daniel-Gheorghe",
+          "canonical_id": "9ec570f2cbf5bc44",
+          "partid": null
+        },
+        {
+          "nume": "Şovăială Constantin",
+          "canonical_id": "da8ada13007f3fc2",
+          "partid": null
+        },
+        {
+          "nume": "Ştefan Ion",
+          "canonical_id": "69cdd54dac7fd5bd",
+          "partid": null
+        },
+        {
+          "nume": "Tănase Antonel",
+          "canonical_id": "ce4a284d2ad1fae3",
+          "partid": null
+        },
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Năsui Claudiu-Iulius-Gavril",
+          "canonical_id": "6770093f50664778",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2023/1565.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1561"
+    },
+    {
+      "id": "8077d64c5b75ba6c",
+      "cdep_idm": 1562,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Marcel Boloş, un ministru care creşte taxele cu zâmbetul pe buze\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Alexandru Victoria-Violeta",
+          "canonical_id": "1f04d95d668c00b1",
+          "partid": null
+        },
+        {
+          "nume": "Benga Tudor - Vlad",
+          "canonical_id": "f53ce5cd8222896e",
+          "partid": null
+        },
+        {
+          "nume": "Bola Bogdan-Alexandru",
+          "canonical_id": "c7c2f9f0bb7f0125",
+          "partid": null
+        },
+        {
+          "nume": "Chira Claudiu-Martin",
+          "canonical_id": "3551d4246f2d531f",
+          "partid": null
+        },
+        {
+          "nume": "Dancă Ionel",
+          "canonical_id": "192fc1723585096b",
+          "partid": null
+        },
+        {
+          "nume": "Ionescu George",
+          "canonical_id": "ce928e6750d24c1e",
+          "partid": null
+        },
+        {
+          "nume": "Kocsis-Cristea Alexandru",
+          "canonical_id": "68951a7b00c90e6e",
+          "partid": null
+        },
+        {
+          "nume": "Miuţescu Gheorghe Adrian",
+          "canonical_id": "695c9c93855f3308",
+          "partid": null
+        },
+        {
+          "nume": "Nagy Vasile",
+          "canonical_id": "680f0fef61d61657",
+          "partid": null
+        },
+        {
+          "nume": "Orban Ludovic",
+          "canonical_id": "eee8554db8b09083",
+          "partid": null
+        },
+        {
+          "nume": "Plăiaşu Gabriel",
+          "canonical_id": "7d78d4f1f760681e",
+          "partid": null
+        },
+        {
+          "nume": "Rusu Daniel-Gheorghe",
+          "canonical_id": "9ec570f2cbf5bc44",
+          "partid": null
+        },
+        {
+          "nume": "Şovăială Constantin",
+          "canonical_id": "da8ada13007f3fc2",
+          "partid": null
+        },
+        {
+          "nume": "Ştefan Ion",
+          "canonical_id": "69cdd54dac7fd5bd",
+          "partid": null
+        },
+        {
+          "nume": "Tănase Antonel",
+          "canonical_id": "ce4a284d2ad1fae3",
+          "partid": null
+        },
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Năsui Claudiu-Iulius-Gavril",
+          "canonical_id": "6770093f50664778",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2023/1566.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1562"
+    },
+    {
+      "id": "b6b71767eb5cbb4e",
+      "cdep_idm": 1563,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Un ministru care minte nu poate gestiona Educaţia\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Alexandru Victoria-Violeta",
+          "canonical_id": "1f04d95d668c00b1",
+          "partid": null
+        },
+        {
+          "nume": "Benga Tudor - Vlad",
+          "canonical_id": "f53ce5cd8222896e",
+          "partid": null
+        },
+        {
+          "nume": "Bola Bogdan-Alexandru",
+          "canonical_id": "c7c2f9f0bb7f0125",
+          "partid": null
+        },
+        {
+          "nume": "Chira Claudiu-Martin",
+          "canonical_id": "3551d4246f2d531f",
+          "partid": null
+        },
+        {
+          "nume": "Dancă Ionel",
+          "canonical_id": "192fc1723585096b",
+          "partid": null
+        },
+        {
+          "nume": "Ionescu George",
+          "canonical_id": "ce928e6750d24c1e",
+          "partid": null
+        },
+        {
+          "nume": "Kocsis-Cristea Alexandru",
+          "canonical_id": "68951a7b00c90e6e",
+          "partid": null
+        },
+        {
+          "nume": "Miuţescu Gheorghe Adrian",
+          "canonical_id": "695c9c93855f3308",
+          "partid": null
+        },
+        {
+          "nume": "Nagy Vasile",
+          "canonical_id": "680f0fef61d61657",
+          "partid": null
+        },
+        {
+          "nume": "Orban Ludovic",
+          "canonical_id": "eee8554db8b09083",
+          "partid": null
+        },
+        {
+          "nume": "Plăiaşu Gabriel",
+          "canonical_id": "7d78d4f1f760681e",
+          "partid": null
+        },
+        {
+          "nume": "Rusu Daniel-Gheorghe",
+          "canonical_id": "9ec570f2cbf5bc44",
+          "partid": null
+        },
+        {
+          "nume": "Şovăială Constantin",
+          "canonical_id": "da8ada13007f3fc2",
+          "partid": null
+        },
+        {
+          "nume": "Ştefan Ion",
+          "canonical_id": "69cdd54dac7fd5bd",
+          "partid": null
+        },
+        {
+          "nume": "Tănase Antonel",
+          "canonical_id": "ce4a284d2ad1fae3",
+          "partid": null
+        },
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Năsui Claudiu-Iulius-Gavril",
+          "canonical_id": "6770093f50664778",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2023/1567.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1563"
+    },
+    {
+      "id": "ca6a0bd984de5bc0",
+      "cdep_idm": 1564,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Ministrul Boloş - inventatorul şi păzitorul taxei pe boală trebuie să plece cu taxele lui inventate cu tot\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Alexandru Victoria-Violeta",
+          "canonical_id": "1f04d95d668c00b1",
+          "partid": null
+        },
+        {
+          "nume": "Bola Bogdan-Alexandru",
+          "canonical_id": "c7c2f9f0bb7f0125",
+          "partid": null
+        },
+        {
+          "nume": "Chira Claudiu-Martin",
+          "canonical_id": "3551d4246f2d531f",
+          "partid": null
+        },
+        {
+          "nume": "Dancă Ionel",
+          "canonical_id": "192fc1723585096b",
+          "partid": null
+        },
+        {
+          "nume": "Ionescu George",
+          "canonical_id": "ce928e6750d24c1e",
+          "partid": null
+        },
+        {
+          "nume": "Kocsis-Cristea Alexandru",
+          "canonical_id": "68951a7b00c90e6e",
+          "partid": null
+        },
+        {
+          "nume": "Miuţescu Gheorghe Adrian",
+          "canonical_id": "695c9c93855f3308",
+          "partid": null
+        },
+        {
+          "nume": "Nagy Vasile",
+          "canonical_id": "680f0fef61d61657",
+          "partid": null
+        },
+        {
+          "nume": "Orban Ludovic",
+          "canonical_id": "eee8554db8b09083",
+          "partid": null
+        },
+        {
+          "nume": "Plăiaşu Gabriel",
+          "canonical_id": "7d78d4f1f760681e",
+          "partid": null
+        },
+        {
+          "nume": "Rusu Daniel-Gheorghe",
+          "canonical_id": "9ec570f2cbf5bc44",
+          "partid": null
+        },
+        {
+          "nume": "Şovăială Constantin",
+          "canonical_id": "da8ada13007f3fc2",
+          "partid": null
+        },
+        {
+          "nume": "Ştefan Ion",
+          "canonical_id": "69cdd54dac7fd5bd",
+          "partid": null
+        },
+        {
+          "nume": "Tănase Antonel",
+          "canonical_id": "ce4a284d2ad1fae3",
+          "partid": null
+        },
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Todosiu Beniamin",
+          "canonical_id": "c30a41f6764eddfe",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2024/1568.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1564"
+    },
+    {
+      "id": "df95d25d9d983c51",
+      "cdep_idm": 1565,
+      "cam": 2,
+      "legislatura": 2020,
+      "nr_inregistrare": null,
+      "data_inregistrare": null,
+      "titlu": "\"Odele pentru Ceauşescu nu salvează agricultura românească\"",
+      "tip": "simpla",
+      "initiatori_descriere": null,
+      "data_vot": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "rezultat": "respinsa",
+      "nr_semnatari": null,
+      "semnatari": [
+        {
+          "nume": "Alexandru Victoria-Violeta",
+          "canonical_id": "1f04d95d668c00b1",
+          "partid": null
+        },
+        {
+          "nume": "Bola Bogdan-Alexandru",
+          "canonical_id": "c7c2f9f0bb7f0125",
+          "partid": null
+        },
+        {
+          "nume": "Chira Claudiu-Martin",
+          "canonical_id": "3551d4246f2d531f",
+          "partid": null
+        },
+        {
+          "nume": "Dancă Ionel",
+          "canonical_id": "192fc1723585096b",
+          "partid": null
+        },
+        {
+          "nume": "Ionescu George",
+          "canonical_id": "ce928e6750d24c1e",
+          "partid": null
+        },
+        {
+          "nume": "Kocsis-Cristea Alexandru",
+          "canonical_id": "68951a7b00c90e6e",
+          "partid": null
+        },
+        {
+          "nume": "Miuţescu Gheorghe Adrian",
+          "canonical_id": "695c9c93855f3308",
+          "partid": null
+        },
+        {
+          "nume": "Nagy Vasile",
+          "canonical_id": "680f0fef61d61657",
+          "partid": null
+        },
+        {
+          "nume": "Orban Ludovic",
+          "canonical_id": "eee8554db8b09083",
+          "partid": null
+        },
+        {
+          "nume": "Plăiaşu Gabriel",
+          "canonical_id": "7d78d4f1f760681e",
+          "partid": null
+        },
+        {
+          "nume": "Rusu Daniel-Gheorghe",
+          "canonical_id": "9ec570f2cbf5bc44",
+          "partid": null
+        },
+        {
+          "nume": "Şovăială Constantin",
+          "canonical_id": "da8ada13007f3fc2",
+          "partid": null
+        },
+        {
+          "nume": "Ştefan Ion",
+          "canonical_id": "69cdd54dac7fd5bd",
+          "partid": null
+        },
+        {
+          "nume": "Tănase Antonel",
+          "canonical_id": "ce4a284d2ad1fae3",
+          "partid": null
+        },
+        {
+          "nume": "Apostol Alin-Gabriel",
+          "canonical_id": "5e8aab0f9cf9d8cf",
+          "partid": null
+        },
+        {
+          "nume": "Badea Mihai-Alexandru",
+          "canonical_id": "204bbbcdb78c3356",
+          "partid": null
+        },
+        {
+          "nume": "Barna Ilie Dan",
+          "canonical_id": "4503d57eebdf4308",
+          "partid": null
+        },
+        {
+          "nume": "Băltăreţu Viorel",
+          "canonical_id": "f954ca85266e51fe",
+          "partid": null
+        },
+        {
+          "nume": "Berescu Monica-Elena",
+          "canonical_id": "81ec4360f8aa144a",
+          "partid": null
+        },
+        {
+          "nume": "Blaga Daniel-Codruţ",
+          "canonical_id": "c4e4a1da25afdde5",
+          "partid": null
+        },
+        {
+          "nume": "Botez Mihai-Cătălin",
+          "canonical_id": "f62cbc70ae9bff86",
+          "partid": null
+        },
+        {
+          "nume": "Bulai Iulian",
+          "canonical_id": "2a2d32abd3d6cb46",
+          "partid": null
+        },
+        {
+          "nume": "Buzoianu Diana-Anda",
+          "canonical_id": "fa4f301ebe7866a1",
+          "partid": null
+        },
+        {
+          "nume": "Ciornei Radu Tudor",
+          "canonical_id": "d96f8edc5b7aa0da",
+          "partid": null
+        },
+        {
+          "nume": "Cristian Brian",
+          "canonical_id": "b4c4741bbf8628ce",
+          "partid": null
+        },
+        {
+          "nume": "Dehelean Silviu",
+          "canonical_id": "09708914c7628097",
+          "partid": null
+        },
+        {
+          "nume": "Drancă Andrei-Iulian",
+          "canonical_id": "094ba3555b8c1034",
+          "partid": null
+        },
+        {
+          "nume": "Drulă Cătălin",
+          "canonical_id": "59c66c4ee2428a45",
+          "partid": null
+        },
+        {
+          "nume": "Fălcoi Nicu",
+          "canonical_id": "0cb9b9476166b892",
+          "partid": null
+        },
+        {
+          "nume": "Giurgiu Adrian",
+          "canonical_id": "bff93cc5822299fe",
+          "partid": null
+        },
+        {
+          "nume": "Hangan Pollyanna-Hanellore",
+          "canonical_id": "54925278769eb69c",
+          "partid": null
+        },
+        {
+          "nume": "Havârneanu Filip",
+          "canonical_id": "8423b8aa46525ea0",
+          "partid": null
+        },
+        {
+          "nume": "Ilie Victor",
+          "canonical_id": "c98ef498862cd796",
+          "partid": null
+        },
+        {
+          "nume": "Ion Stelian-Cristian",
+          "canonical_id": "9d64a7dc95e8b2e7",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Ion-Marian",
+          "canonical_id": "6724d50cd83a9d18",
+          "partid": null
+        },
+        {
+          "nume": "Lazăr Teodor",
+          "canonical_id": "a53dde1d8bb103a6",
+          "partid": null
+        },
+        {
+          "nume": "Lőrincz Ştefan-Iulian",
+          "canonical_id": "a8b05ee11ca0965e",
+          "partid": null
+        },
+        {
+          "nume": "Miftode Marius-Andrei",
+          "canonical_id": "fe58393d56ca3e97",
+          "partid": null
+        },
+        {
+          "nume": "Miruţă Radu-Dinel",
+          "canonical_id": "45c2bd537eaa6065",
+          "partid": null
+        },
+        {
+          "nume": "Molnar Radu-Iulian",
+          "canonical_id": "7c2debb914068690",
+          "partid": null
+        },
+        {
+          "nume": "Moşteanu Liviu-Ionuţ",
+          "canonical_id": "d59c65363ccc3113",
+          "partid": null
+        },
+        {
+          "nume": "Murariu Oana",
+          "canonical_id": "cbb8f84d90a67509",
+          "partid": null
+        },
+        {
+          "nume": "Năsui Claudiu-Iulius-Gavril",
+          "canonical_id": "6770093f50664778",
+          "partid": null
+        },
+        {
+          "nume": "Neagu Denisa-Elena",
+          "canonical_id": "e7db21a5750adf8a",
+          "partid": null
+        },
+        {
+          "nume": "Panait Radu",
+          "canonical_id": "eb3cd0f34145d36a",
+          "partid": null
+        },
+        {
+          "nume": "Pop Rareş Tudor",
+          "canonical_id": "9c017b3b45e63753",
+          "partid": null
+        },
+        {
+          "nume": "Prună Cristina-Mădălina",
+          "canonical_id": "6b6049948f88a842",
+          "partid": null
+        },
+        {
+          "nume": "Rodeanu Bogdan-Ionel",
+          "canonical_id": "10a874d63ebc6737",
+          "partid": null
+        },
+        {
+          "nume": "Seidler Cristian-Gabriel",
+          "canonical_id": "d4fe05e571aac094",
+          "partid": null
+        },
+        {
+          "nume": "Stoica Diana",
+          "canonical_id": "c59af807f7a43960",
+          "partid": null
+        },
+        {
+          "nume": "Terente Eugen",
+          "canonical_id": "17b2f8ee5653d609",
+          "partid": null
+        },
+        {
+          "nume": "Ţoiu Oana-Silvia",
+          "canonical_id": "f4280502bb4c4fb1",
+          "partid": null
+        },
+        {
+          "nume": "Ungureanu Emanuel-Dumitru",
+          "canonical_id": "1f5ac0e1f31d12d3",
+          "partid": null
+        },
+        {
+          "nume": "Wiener Adrian",
+          "canonical_id": "f2537511842a5db6",
+          "partid": null
+        }
+      ],
+      "pdf_url": "https://www.cdep.ro/motiuni/2024/1569.pdf",
+      "source_url": "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2020&cam=2&idm=1565"
+    }
+  ]
+}
