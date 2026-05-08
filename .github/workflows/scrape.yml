@@ -23,6 +23,11 @@ concurrency:
   group: scrape
   cancel-in-progress: false
 
+# Windows console (cp1252) nu acceptă diacritice — forțăm UTF-8 pe toate print-urile
+env:
+  PYTHONIOENCODING: utf-8
+  PYTHONUTF8: "1"
+
 jobs:
   scrape-deputati:
     runs-on: [self-hosted, cdep, windows]
