@@ -26,7 +26,7 @@ from scrapers._http import get
 logger = logging.getLogger(__name__)
 
 BASE = "https://www.cdep.ro"
-# leg= acceptat pentru a interoga și legislaturi anterioare (1990–prezent)
+# leg= acceptat pentru a interoga si legislaturi anterioare (1990-prezent)
 LIST_URL = BASE + "/pls/parlam/motiuni2015.lista?leg={leg}&cam={cam}"
 DETAIL_URL = BASE + "/pls/parlam/parlament.motiuni2015.detalii?leg={leg}&cam={cam}&idm={idm}"
 
@@ -62,7 +62,7 @@ def list_idms(leg: int, cam: int = 2) -> list[int]:
     """Returnează idm-urile pentru moțiuni la o legislatură + cameră.
 
     cdep.ro acceptă param ``leg`` și returnează idm-urile pentru legislatura
-    indicată (sau curentă dacă ``leg`` e omis). Suport: 1990–prezent.
+    indicată (sau curentă dacă ``leg`` e omis). Suport: 1990-prezent.
     """
     url = LIST_URL.format(leg=leg, cam=cam)
     try:

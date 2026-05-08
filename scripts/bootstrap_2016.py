@@ -107,7 +107,7 @@ def run_stage(name: str, force: bool) -> bool:
     print(f"{'=' * 70}\n")
 
     t0 = time.time()
-    res = subprocess.run(stage["cmd"], cwd=ROOT)  # noqa: S603
+    res = subprocess.run(stage["cmd"], cwd=ROOT)
     dt = time.time() - t0
 
     if res.returncode != 0:
