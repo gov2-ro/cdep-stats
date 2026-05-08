@@ -1,11 +1,395 @@
 {
   "meta": {
-    "generated_at": "2026-04-28T15:26:23.337469Z",
+    "generated_at": "2026-05-08T03:30:33.010631Z",
     "source_url": "https://www.cdep.ro/pls/steno/evot2015.data?leg=2024",
     "scraper_version": "0.1.0",
-    "count": 816
+    "count": 840
   },
   "data": [
+    {
+      "id": "fd472b469e81c335",
+      "cdep_idv": 36954,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-06T12:01:00",
+      "descriere": "PL-x 180/2025 - Vot final adoptare",
+      "counts": {
+        "prezenti": 286,
+        "pentru": 276,
+        "contra": 9,
+        "abtineri": 1,
+        "nu_au_votat": 0
+      },
+      "detail_url": "voturi/2024/36954.json"
+    },
+    {
+      "id": "5d77836549befd46",
+      "cdep_idv": 36953,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-06T12:00:00",
+      "descriere": "PL-x 284/2025 - Vot final adoptare",
+      "counts": {
+        "prezenti": 287,
+        "pentru": 205,
+        "contra": 16,
+        "abtineri": 13,
+        "nu_au_votat": 53
+      },
+      "detail_url": "voturi/2024/36953.json"
+    },
+    {
+      "id": "579ce2e8d455ae9f",
+      "cdep_idv": 36952,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-06T11:55:00",
+      "descriere": "Pl-x 258/2025 - Vot final adoptare",
+      "counts": {
+        "prezenti": 281,
+        "pentru": 276,
+        "contra": 2,
+        "abtineri": 3,
+        "nu_au_votat": 0
+      },
+      "detail_url": "voturi/2024/36952.json"
+    },
+    {
+      "id": "a61e542647b72af1",
+      "cdep_idv": 36951,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-06T11:53:00",
+      "descriere": "PL-x 451/2025 - Vot final adoptare",
+      "counts": {
+        "prezenti": 291,
+        "pentru": 279,
+        "contra": 1,
+        "abtineri": 11,
+        "nu_au_votat": 0
+      },
+      "detail_url": "voturi/2024/36951.json"
+    },
+    {
+      "id": "eaeb341f598dfe11",
+      "cdep_idv": 36950,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-06T11:52:00",
+      "descriere": "PH CD 30/2026 - Vot final adoptare",
+      "counts": {
+        "prezenti": 287,
+        "pentru": 285,
+        "contra": 1,
+        "abtineri": 0,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36950.json"
+    },
+    {
+      "id": "b6ec375db41de105",
+      "cdep_idv": 36949,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-06T11:28:00",
+      "descriere": "Verificare prezenta",
+      "counts": {
+        "prezenti": 216,
+        "pentru": 105,
+        "contra": 0,
+        "abtineri": 1,
+        "nu_au_votat": 110
+      },
+      "detail_url": "voturi/2024/36949.json"
+    },
+    {
+      "id": "1410928dd429e33e",
+      "cdep_idv": 36947,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-06T10:55:00",
+      "descriere": "PL 284/2025 - timp dezbatere",
+      "counts": {
+        "prezenti": 196,
+        "pentru": 193,
+        "contra": 0,
+        "abtineri": 1,
+        "nu_au_votat": 2
+      },
+      "detail_url": "voturi/2024/36947.json"
+    },
+    {
+      "id": "c50a06208eac3bcc",
+      "cdep_idv": 36946,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-06T10:28:00",
+      "descriere": "PL 180/2025 - amr.1",
+      "counts": {
+        "prezenti": 200,
+        "pentru": 179,
+        "contra": 10,
+        "abtineri": 9,
+        "nu_au_votat": 2
+      },
+      "detail_url": "voturi/2024/36946.json"
+    },
+    {
+      "id": "bc030a0e7929d3d1",
+      "cdep_idv": 36945,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-06T10:27:00",
+      "descriere": "PL 180/2025 - ama.5",
+      "counts": {
+        "prezenti": 191,
+        "pentru": 0,
+        "contra": 176,
+        "abtineri": 13,
+        "nu_au_votat": 2
+      },
+      "detail_url": "voturi/2024/36945.json"
+    },
+    {
+      "id": "00abbd8b7b8614e5",
+      "cdep_idv": 36943,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-06T10:26:00",
+      "descriere": "PL 180/2025 - ama.3",
+      "counts": {
+        "prezenti": 189,
+        "pentru": 4,
+        "contra": 170,
+        "abtineri": 13,
+        "nu_au_votat": 2
+      },
+      "detail_url": "voturi/2024/36943.json"
+    },
+    {
+      "id": "d6741341c89741b2",
+      "cdep_idv": 36944,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-06T10:26:00",
+      "descriere": "PL 180/2025 - ama.4",
+      "counts": {
+        "prezenti": 191,
+        "pentru": 1,
+        "contra": 174,
+        "abtineri": 14,
+        "nu_au_votat": 2
+      },
+      "detail_url": "voturi/2024/36944.json"
+    },
+    {
+      "id": "880475753c19fbc4",
+      "cdep_idv": 36942,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-06T10:25:00",
+      "descriere": "PL 180/2025 - ama.2",
+      "counts": {
+        "prezenti": 185,
+        "pentru": 3,
+        "contra": 166,
+        "abtineri": 15,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36942.json"
+    },
+    {
+      "id": "8d6178ccc67320c2",
+      "cdep_idv": 36941,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-06T10:24:00",
+      "descriere": "PL 180/2025 - ama.1",
+      "counts": {
+        "prezenti": 185,
+        "pentru": 6,
+        "contra": 161,
+        "abtineri": 15,
+        "nu_au_votat": 3
+      },
+      "detail_url": "voturi/2024/36941.json"
+    },
+    {
+      "id": "f0ee70874e37016a",
+      "cdep_idv": 36932,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-04-29T11:46:00",
+      "descriere": "Pl-x 360/2025 - Vot final adoptare",
+      "counts": {
+        "prezenti": 293,
+        "pentru": 277,
+        "contra": 2,
+        "abtineri": 13,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36932.json"
+    },
+    {
+      "id": "5edddfaaabac5c29",
+      "cdep_idv": 36931,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-04-29T11:45:00",
+      "descriere": "PL-x 496/2024 - Vot final adoptare",
+      "counts": {
+        "prezenti": 293,
+        "pentru": 219,
+        "contra": 0,
+        "abtineri": 15,
+        "nu_au_votat": 59
+      },
+      "detail_url": "voturi/2024/36931.json"
+    },
+    {
+      "id": "93497076ca7225b1",
+      "cdep_idv": 36930,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-04-29T11:44:00",
+      "descriere": "PL-x 308/2025 - Vot final adoptare",
+      "counts": {
+        "prezenti": 295,
+        "pentru": 212,
+        "contra": 72,
+        "abtineri": 10,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36930.json"
+    },
+    {
+      "id": "7da8bea6df139984",
+      "cdep_idv": 36929,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-04-29T11:41:00",
+      "descriere": "PL-x 32/2024 - Vot final adoptare",
+      "counts": {
+        "prezenti": 294,
+        "pentru": 215,
+        "contra": 0,
+        "abtineri": 20,
+        "nu_au_votat": 59
+      },
+      "detail_url": "voturi/2024/36929.json"
+    },
+    {
+      "id": "053d78c41c9d7df9",
+      "cdep_idv": 36928,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-04-29T11:40:00",
+      "descriere": "PL-x 488/2022 - Vot final adoptare",
+      "counts": {
+        "prezenti": 295,
+        "pentru": 231,
+        "contra": 1,
+        "abtineri": 6,
+        "nu_au_votat": 57
+      },
+      "detail_url": "voturi/2024/36928.json"
+    },
+    {
+      "id": "7650a27bb7c1987c",
+      "cdep_idv": 36926,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-04-29T11:39:00",
+      "descriere": "PL-x 69/2024 - Vot final adoptare",
+      "counts": {
+        "prezenti": 293,
+        "pentru": 215,
+        "contra": 0,
+        "abtineri": 20,
+        "nu_au_votat": 58
+      },
+      "detail_url": "voturi/2024/36926.json"
+    },
+    {
+      "id": "79f52b92c14c6f0b",
+      "cdep_idv": 36927,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-04-29T11:39:00",
+      "descriere": "PL-x 366/2025 - Vot final adoptare",
+      "counts": {
+        "prezenti": 292,
+        "pentru": 214,
+        "contra": 12,
+        "abtineri": 8,
+        "nu_au_votat": 58
+      },
+      "detail_url": "voturi/2024/36927.json"
+    },
+    {
+      "id": "1ddcda0ca510f727",
+      "cdep_idv": 36925,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-04-29T11:33:00",
+      "descriere": "PL-x 395/2025 - Vot final adoptare",
+      "counts": {
+        "prezenti": 284,
+        "pentru": 225,
+        "contra": 1,
+        "abtineri": 0,
+        "nu_au_votat": 58
+      },
+      "detail_url": "voturi/2024/36925.json"
+    },
+    {
+      "id": "c2788b788e895735",
+      "cdep_idv": 36924,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-04-29T11:32:00",
+      "descriere": "PL-x 384/2025 - Vot final adoptare",
+      "counts": {
+        "prezenti": 279,
+        "pentru": 221,
+        "contra": 1,
+        "abtineri": 0,
+        "nu_au_votat": 57
+      },
+      "detail_url": "voturi/2024/36924.json"
+    },
+    {
+      "id": "5c25437e4eb48bf9",
+      "cdep_idv": 36923,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-04-29T11:31:00",
+      "descriere": "PH CD 24/2026 - Vot final adoptare",
+      "counts": {
+        "prezenti": 268,
+        "pentru": 223,
+        "contra": 0,
+        "abtineri": 1,
+        "nu_au_votat": 44
+      },
+      "detail_url": "voturi/2024/36923.json"
+    },
+    {
+      "id": "22a68c97be2e6731",
+      "cdep_idv": 36922,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-04-29T11:30:00",
+      "descriere": "Verificare prezenta",
+      "counts": {
+        "prezenti": 231,
+        "pentru": 99,
+        "contra": 1,
+        "abtineri": 3,
+        "nu_au_votat": 128
+      },
+      "detail_url": "voturi/2024/36922.json"
+    },
     {
       "id": "600094c2d3455f3f",
       "cdep_idv": 36892,
