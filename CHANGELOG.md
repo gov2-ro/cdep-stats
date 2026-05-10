@@ -2,6 +2,22 @@
 
 Toate modificările notabile ale proiectului sunt documentate aici. Format bazat pe [Keep a Changelog](https://keepachangelog.com/) și [SemVer](https://semver.org/).
 
+## [v0.2.8] — 2026-05-10 — Parser nou pentru interpelări (schema ORDS)
+
+### Reparat
+
+- **Parser-ul de interpelări** rescris complet pentru schema HTML nouă de pe ORDS:
+  - Header extras din `<meta property="og:title">` (înainte căutam regex în body text)
+  - Titlu din `<meta property="og:description">` (fallback h1 din `.boxTitle`)
+  - Câmpurile (Data înregistrarii, Adresant, Destinatar, etc.) extrase prin parsare label/value din `<tr><td>Label:</td><td>Value</td></tr>`
+  - `_parse_iso_date` acceptă acum și formatul `DD.MM.YYYY` (ORDS folosește puncte, înainte erau liniuțe)
+  - Adresant și grup parlamentar extrase din `<a href="structura2015.mp">` și `<a href="structura2015.gp">`
+  - `raspuns_pdf_url` deduplicat (PDF-ul apare de 2 ori în HTML: icon + text link)
+  - `raspuns_sursa` curat (tăiat la "comunicat de:" — păstrăm doar instituția)
+- **`scripts/test_interpelari_parser.py`** — test ofline pentru parser folosind un HTML local. Util pentru iterații rapide fără să atingem cdep.ro.
+
+---
+
 ## [v0.2.7] — 2026-05-10 — cdep.ro URL migration: /pls/ → /ords/pls/
 
 ### Schimbat

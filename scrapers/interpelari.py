@@ -42,11 +42,14 @@ def _interpelare_id(legislatura: int, idi: int) -> str:
 
 
 def _parse_iso_date(s: str) -> date | None:
-    """Parsează data în format DD-MM-YYYY → date."""
+    """Parsează data în format DD-MM-YYYY sau DD.MM.YYYY sau DD/MM/YYYY → date.
+
+    Suport pentru schema ORDS (folosește puncte `.`) și HTML legacy (folosea liniuțe).
+    """
     if not s:
         return None
     s = s.strip()
-    m = re.match(r"(\d{1,2})-(\d{1,2})-(\d{4})", s)
+    m = re.match(r"(\d{1,2})[.\-/](\d{1,2})[.\-/](\d{4})", s)
     if not m:
         return None
     try:
@@ -76,7 +79,15 @@ def list_idis_for_year(year: int) -> list[int]:
 
 
 def parse_detail(idi: int, legislatura: int) -> Interpelare | None:
-    """Fetch & parse o interpelare individuală."""
+    """Fetch & parse o interpelare individuală.
+
+    Schema HTML nouă (după migrarea ORDS 2026-05-10):
+      - Header: ``<meta og:title content="Întrebarea nr. 4106A/18.02.2026">``
+      - Titlu: ``<meta og:description>`` sau ``<h1>`` din ``.boxTitle``
+      - Câmpurile sunt în <table> cu rânduri ``<tr><td>Label:</td><td><b>Value</b></td></tr>``
+      - Răspuns: după marker ``Informaţii privind răspunsul``
+      - Formatul datei: ``DD.MM.YYYY`` cu puncte (anterior era cu liniuțe)
+    """
     url = DETAIL_URL.format(idi=idi)
     try:
         r = get(url)
@@ -86,99 +97,143 @@ def parse_detail(idi: int, legislatura: int) -> Interpelare | None:
         return None
 
     sel = Selector(text=r.text)
-    text = " ".join(sel.css("body *::text").getall())
-    text = re.sub(r"\s+", " ", text).strip()
 
-    # Header: "Interpelarea nr. 929B/10-02-2026 TITLU..."
+    # --- Header: extras din og:title meta tag ---
+    og_title = sel.css('meta[property="og:title"]::attr(content)').get() or ""
     m_header = re.search(
-        r"(?:Interpelarea|Întrebarea)\s+nr\.\s*([\dA-Za-z]+)/(\d{1,2}-\d{1,2}-\d{4})\s+([^\n]+?)(?=\s+Informa|$)",
-        text,
+        r"(Întrebarea|Interpelarea)\s+nr\.\s*([\dA-Za-z]+)\s*/\s*(\d{1,2}[.\-/]\d{1,2}[.\-/]\d{4})",
+        og_title,
     )
     if not m_header:
-        logger.warning(f"  idi={idi}: header not found")
+        logger.warning(f"  idi={idi}: header not found (og:title='{og_title[:60]}')")
         return None
-    nr_inregistrare = m_header.group(1)
-    titlu_raw = m_header.group(3).strip()
+    nr_inregistrare = m_header.group(2)
+    data_header = _parse_iso_date(m_header.group(3))
 
-    # Curăț titlul — elimin „Întrebări şi interpelări" și nr.929B repetat
-    titlu = re.sub(r"^.*?nr\.\s*\S+\s+", "", titlu_raw, count=1).strip()
-    if not titlu or titlu == titlu_raw:
-        # fallback: ia primii 200 chars din titlu_raw
-        titlu = titlu_raw[:200]
+    # --- Titlu: din og:description sau h1 din .boxTitle ---
+    titlu = (sel.css('meta[property="og:description"]::attr(content)').get() or "").strip()
+    if not titlu:
+        titlu = (sel.css("div.boxTitle h1::text").get() or "").strip()
+    titlu = re.sub(r"\s+", " ", titlu)[:500]
 
-    # Câmpuri specifice — pattern „Label: value"
-    def field(label: str, after: str = "") -> str | None:
-        pattern = (
-            re.escape(label)
-            + r"\s*:?\s*(.+?)(?=\s+(?:Nr\.|Data|Termen|Mod|Adresant|Destinatar|Textul|R[ăa]spuns|Camera|Informa|$))"
-        )
-        m = re.search(pattern, text)
-        return m.group(1).strip() if m else None
+    # --- Câmpuri din tabel: label → value ---
+    # Construim un dict {label_lower: text_val} parsând fiecare <tr>.
+    # Folosim ``::text`` (CSS) care prinde și textul direct al elementului — mai robust
+    # decât xpath("text()") care e ambiguu între direct vs. descendent în parsel.
+    # Stocăm AMBELE apariții pentru fiecare label (main + raspuns) ca să le diferențiem ulterior.
+    rows: list[tuple[str, str]] = []
+    for tr in sel.css("tr"):
+        cells = tr.css("td")
+        if len(cells) != 2:
+            continue
+        label = "".join(cells[0].css("::text").getall()).strip()
+        label = re.sub(r":\s*$", "", label).strip().lower()
+        if not label:
+            continue
+        value = " ".join(p.strip() for p in cells[1].css("::text").getall() if p.strip())
+        value = re.sub(r"\s+", " ", value).strip()
+        if value:
+            rows.append((label, value))
 
-    data_inreg = _parse_iso_date(field("Data înregistrarii") or field("Data înregistrării") or "")
-    data_prez = _parse_iso_date(field("Data prezentării") or "")
-    data_com = _parse_iso_date(field("Data comunicării") or "")
-    termen = _parse_iso_date(field("Termen primire răspuns") or "")
-    mod_adresare = field("Mod adresare")
+    # Dict pentru lookup primul (din blocul principal, înaintea răspunsului)
+    fields: dict[str, str] = {}
+    for label, value in rows:
+        if label not in fields:
+            fields[label] = value
 
-    # Adresant: "Călin-Florin Groza - deputat Neafiliaţi"
+    def get_field(*labels: str) -> str | None:
+        for lab in labels:
+            v = fields.get(lab.lower())
+            if v:
+                return v
+        return None
+
+    data_inreg = _parse_iso_date(get_field("Data înregistrarii", "Data înregistrării") or "")
+    data_prez = _parse_iso_date(get_field("Data prezentării") or "")
+    data_com = _parse_iso_date(get_field("Data comunicării") or "")
+    termen = _parse_iso_date(get_field("Termen primire răspuns") or "")
+    mod_adresare = get_field("Mod adresare")
+    raspuns_solicitat = get_field("Răspuns solicitat")
+
+    # --- Adresant: extras din tag-uri HTML (e structurat semantic) ---
+    # Pattern: <td>Adresant:</td><td><b><a href="...mp?idm=N...">NUME</a></b> - deputat <a href="...gp?idg=N">GRUP</a></td>
     adresant_nume = ""
     adresant_grup = None
-    m_adr = re.search(r"Adresant:\s*([^-]+?)\s*-\s*deputat\s+([^\s]+(?:\s+[^\s]+)?)", text)
-    if m_adr:
-        adresant_nume = m_adr.group(1).strip()
-        adresant_grup = m_adr.group(2).strip()
-    else:
-        adresant_nume = field("Adresant") or "?"
-
-    destinatar = field("Destinatar") or "?"
-
-    raspuns_solicitat = field("Răspuns solicitat")
-
-    # Text PDF link
-    text_pdf = None
-    for href in sel.css("a::attr(href)").getall():
-        if "pdf" in href.lower() and "Text" in (
-            sel.css(f'a[href="{href}"]::text').get() or ""
-        ) + str(href):
-            text_pdf = urljoin(BASE, href)
+    for tr in sel.css("tr"):
+        cells = tr.css("td")
+        if len(cells) != 2:
+            continue
+        label = re.sub(r":\s*$", "", "".join(cells[0].css("::text").getall()).strip()).lower()
+        if label == "adresant":
+            nume = cells[1].css("b a::text").get() or cells[1].css("b::text").get() or ""
+            adresant_nume = nume.strip()
+            for a in cells[1].css("a"):
+                if "structura2015.gp" in (a.attrib.get("href") or ""):
+                    adresant_grup = (a.css("::text").get() or "").strip() or None
+                    break
             break
-    # Mai simplu: primul PDF din pagină = textul interpelării
-    if not text_pdf:
-        for href in sel.css('a[href$=".pdf"]::attr(href)').getall():
-            text_pdf = urljoin(BASE, href)
-            break
+    if not adresant_nume:
+        adresant_nume = get_field("Adresant") or "?"
 
-    # Răspuns
-    raspuns_primit = "Răspuns primit" in text
+    # --- Destinatar: institutia (in <b>) + persoana ---
+    destinatar = get_field("Destinatar") or "?"
+
+    # --- PDF-uri: primul = textul interpelării, al doilea (dacă există) = răspunsul ---
+    # Dedupe păstrând ordinea (PDF-urile apar de 2 ori: icon + text link).
+    seen_pdfs: set[str] = set()
+    pdfs: list[str] = []
+    for href in sel.css('a[href$=".pdf"]::attr(href)').getall():
+        full = urljoin(BASE, href)
+        if full not in seen_pdfs:
+            seen_pdfs.add(full)
+            pdfs.append(full)
+    text_pdf = pdfs[0] if pdfs else None
+
+    # --- Răspuns: secțiunea "Informaţii privind răspunsul" ---
+    # Detectăm dacă răspunsul există căutând al doilea bloc cu acest titlu
+    raspuns_primit = bool(
+        sel.xpath("//*[contains(text(), 'Informaţii privind răspunsul') or contains(text(), 'Informatii privind raspunsul')]")
+    )
     raspuns_data = None
     raspuns_sursa = None
     raspuns_comunicat = None
     raspuns_pdf = None
     raspuns_nr = None
+
     if raspuns_primit:
-        m_rasp = re.search(
-            r"Informa[ţt]ii privind răspunsul\s+Nr\.\s*[îiî]nregistrare:?\s*(\S+)\s+Data\s+[îiî]nregistr[ăa]rii:?\s*(\d{1,2}-\d{1,2}-\d{4})",
-            text,
+        # Răspuns are tabelul lui propriu DUPĂ marker. Luăm ULTIMA apariție pentru fiecare
+        # label (răspunsul fiind a doua secțiune, ultimele rânduri = răspuns).
+        last_fields: dict[str, str] = {}
+        for label, value in rows:
+            last_fields[label] = value  # overwrite — ultima câștigă
+        # Răspunsul are propriul "Nr.înregistrare" diferit de cel principal
+        cand_raspuns_nr = last_fields.get("nr.înregistrare")
+        if cand_raspuns_nr and cand_raspuns_nr != nr_inregistrare:
+            raspuns_nr = cand_raspuns_nr
+        raspuns_data = _parse_iso_date(last_fields.get("data înregistrării") or "")
+        raspuns_sursa_raw = last_fields.get("răspuns primit de la") or None
+        if raspuns_sursa_raw:
+            # Tăiem la "comunicat de:" — păstrăm doar institutia
+            raspuns_sursa = re.split(r"\s+comunicat de:?\s*", raspuns_sursa_raw, maxsplit=1)[0].strip()
+        else:
+            raspuns_sursa = None
+        # Pentru "comunicat de" extragem din întregul text (apare după "comunicat de:")
+        body_text = " ".join(sel.css("body *::text").getall())
+        body_text = re.sub(r"\s+", " ", body_text)
+        m_com = re.search(
+            r"comunicat de:\s*(?:domnul|doamna)?\s*([A-Za-zĂÂÎȘȚăâîșțşţ\-\.\s]+?)\s+-\s+"
+            r"(?:Secretar de Stat|Subsecretar de Stat|Ministru|Secretar|Director|Pre[şs]edinte|"
+            r"Vicepre[şs]edinte|Consilier|Şef)",
+            body_text,
         )
-        if m_rasp:
-            raspuns_nr = m_rasp.group(1)
-            raspuns_data = _parse_iso_date(m_rasp.group(2))
-        m_sursa = re.search(r"Răspuns primit de la:\s*([^\n]+?)\s+comunicat de:", text)
-        if m_sursa:
-            raspuns_sursa = m_sursa.group(1).strip()
-        m_com = re.search(r"comunicat de:\s*([^\n]+?)\s+Textul răspunsului", text)
         if m_com:
             raspuns_comunicat = m_com.group(1).strip()
-        # Al 2-lea PDF din pagină = textul răspunsului
-        pdfs = sel.css('a[href$=".pdf"]::attr(href)').getall()
         if len(pdfs) >= 2:
-            raspuns_pdf = urljoin(BASE, pdfs[1])
+            raspuns_pdf = pdfs[1]
 
-    # Build
+    # Fallback dacă data_inreg lipsea
     if not data_inreg:
-        # Fallback din header
-        data_inreg = _parse_iso_date(m_header.group(2))
+        data_inreg = data_header
 
     return Interpelare(
         id=_interpelare_id(legislatura, idi),
