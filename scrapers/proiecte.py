@@ -26,8 +26,8 @@ from scrapers._http import get
 logger = logging.getLogger(__name__)
 
 BASE = "https://www.cdep.ro"
-LIST_URL = BASE + "/pls/proiecte/upl_pck2015.lista?anp={year}&cam={cam}"
-DETAIL_URL = BASE + "/pls/proiecte/upl_pck2015.proiect?cam={cam}&idp={idp}"
+LIST_URL = BASE + "/ords/pls/proiecte/upl_pck2015.lista?anp={year}&cam={cam}"
+DETAIL_URL = BASE + "/ords/pls/proiecte/upl_pck2015.proiect?cam={cam}&idp={idp}"
 
 MAX_WORKERS = int(os.environ.get("CDEP_SCRAPE_WORKERS", "2"))
 

@@ -47,7 +47,7 @@ def run_one(leg: int, cam: int = 2) -> int:
 
     meta = Meta(
         generated_at=datetime.now(UTC),
-        source_url=f"https://www.cdep.ro/pls/parlam/sanctiuni_parlam.lista_sanctionati?leg={leg}&cam={cam}",
+        source_url=f"https://www.cdep.ro/ords/pls/parlam/sanctiuni_parlam.lista_sanctionati?leg={leg}&cam={cam}",
         scraper_version=SCRAPER_VERSION,
         count=len(deputies),
     )

@@ -28,8 +28,8 @@ from scrapers._http import get
 logger = logging.getLogger(__name__)
 
 BASE = "https://www.cdep.ro"
-XML_URL = BASE + "/pls/steno/evot2015.xml?par1=1&par2={date_compact}"
-NOMINAL_URL = BASE + "/pls/steno/evot2015.nominal?idv={idv}&idl=1"
+XML_URL = BASE + "/ords/pls/steno/evot2015.xml?par1=1&par2={date_compact}"
+NOMINAL_URL = BASE + "/ords/pls/steno/evot2015.nominal?idv={idv}&idl=1"
 
 # Mapare DA/NU/AB/- → VoteOption
 VOTE_OPTION_MAP = {

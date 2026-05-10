@@ -27,23 +27,23 @@ TARGETS = [
     # (nume_fișier, url)
     (
         "deputat_189.html",
-        "https://www.cdep.ro/pls/parlam/structura2015.mp?idm=189&cam=2&leg=2024",
+        "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=189&cam=2&leg=2024",
     ),
     (
         "vot_36892.html",  # Bugetul de stat 2025 - vot final
-        "https://www.cdep.ro/pls/steno/evot2015.nominal?idv=36892&idl=1",
+        "https://www.cdep.ro/ords/pls/steno/evot2015.nominal?idv=36892&idl=1",
     ),
     (
         "interpelare_77316.html",
-        "https://www.cdep.ro/pls/parlam/interpelari2015.detalii?idi=77316&idl=1",
+        "https://www.cdep.ro/ords/pls/parlam/interpelari2015.detalii?idi=77316&idl=1",
     ),
     (
         "motiune_1583.html",  # Dreptate pentru România
-        "https://www.cdep.ro/pls/parlam/parlament.motiuni2015.detalii?leg=2024&cam=2&idm=1583",
+        "https://www.cdep.ro/ords/pls/parlam/parlament.motiuni2015.detalii?leg=2024&cam=2&idm=1583",
     ),
     (
         "sanctiuni_2024.html",  # Lista sancțiuni - sursă pentru test parser
-        "https://www.cdep.ro/pls/parlam/sanctiuni_parlam.lista_sanctionati?leg=2024&cam=2",
+        "https://www.cdep.ro/ords/pls/parlam/sanctiuni_parlam.lista_sanctionati?leg=2024&cam=2",
     ),
     # proiect_22201.html există deja, nu re-salvez
 ]

@@ -33,8 +33,8 @@ BASE = "https://www.cdep.ro"
 # Folosim `.de` (single-page alphabetical) în loc de `.ab?par=A..Z` (paginat).
 # Motiv: `.ab` pierde înlocuitorii în legislaturile istorice (ex: 198 vs 354 reali în 2020).
 # `.de` listează TOȚI deputații care au servit în legislatura respectivă.
-LIST_URL = BASE + "/pls/parlam/structura2015.de?cam={cam}&leg={leg}&idl=1"
-PROFILE_URL = BASE + "/pls/parlam/structura2015.mp?idm={idm}&cam={cam}&leg={leg}"
+LIST_URL = BASE + "/ords/pls/parlam/structura2015.de?cam={cam}&leg={leg}&idl=1"
+PROFILE_URL = BASE + "/ords/pls/parlam/structura2015.mp?idm={idm}&cam={cam}&leg={leg}"
 
 MAX_WORKERS = int(os.environ.get("CDEP_SCRAPE_WORKERS", "1"))
 

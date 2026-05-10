@@ -58,7 +58,7 @@ def main() -> int:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     meta = Meta(
         generated_at=datetime.now(UTC),
-        source_url=f"https://www.cdep.ro/pls/parlam/motiuni2015.lista?leg={args.leg}&cam={args.cam}",
+        source_url=f"https://www.cdep.ro/ords/pls/parlam/motiuni2015.lista?leg={args.leg}&cam={args.cam}",
         scraper_version=SCRAPER_VERSION,
         count=len(group),
     )

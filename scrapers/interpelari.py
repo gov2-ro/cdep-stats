@@ -24,8 +24,8 @@ from scrapers._http import get
 logger = logging.getLogger(__name__)
 
 BASE = "https://www.cdep.ro"
-LIST_URL = BASE + "/pls/parlam/interpelari2015.lista?tip=&dat={year}&idl=1"
-DETAIL_URL = BASE + "/pls/parlam/interpelari2015.detalii?idi={idi}&idl=1"
+LIST_URL = BASE + "/ords/pls/parlam/interpelari2015.lista?tip=&dat={year}&idl=1"
+DETAIL_URL = BASE + "/ords/pls/parlam/interpelari2015.detalii?idi={idi}&idl=1"
 
 
 def _strip_diacritics(s: str) -> str:

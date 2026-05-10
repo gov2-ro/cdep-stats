@@ -30,7 +30,7 @@ from scrapers._http import get
 logger = logging.getLogger(__name__)
 
 BASE = "https://www.cdep.ro"
-LIST_URL = BASE + "/pls/parlam/sanctiuni_parlam.lista_sanctionati?leg={leg}&cam={cam}"
+LIST_URL = BASE + "/ords/pls/parlam/sanctiuni_parlam.lista_sanctionati?leg={leg}&cam={cam}"
 
 ROMANIAN_MONTHS = {
     "ianuarie": 1,

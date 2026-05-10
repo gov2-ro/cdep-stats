@@ -92,7 +92,7 @@ def main() -> int:
 
     meta = Meta(
         generated_at=datetime.now(UTC),
-        source_url=f"https://www.cdep.ro/pls/parlam/interpelari2015.lista?dat={max(years)}",
+        source_url=f"https://www.cdep.ro/ords/pls/parlam/interpelari2015.lista?dat={max(years)}",
         scraper_version=SCRAPER_VERSION,
         count=len(all_data),
     )

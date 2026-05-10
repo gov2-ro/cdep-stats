@@ -2,6 +2,21 @@
 
 Toate modificările notabile ale proiectului sunt documentate aici. Format bazat pe [Keep a Changelog](https://keepachangelog.com/) și [SemVer](https://semver.org/).
 
+## [v0.2.7] — 2026-05-10 — cdep.ro URL migration: /pls/ → /ords/pls/
+
+### Schimbat
+
+- **Toate URL-urile cdep.ro au fost migrate** de pe Oracle PL/SQL Application Server (vechi, prefix `/pls/`) pe **Oracle ORDS** (REST Data Services, prefix `/ords/pls/`). Server-ul cdep.ro a făcut migrarea pe 10 mai 2026.
+- **Semantic identic** — paginile, parametrii și structura HTML rămân identice; doar prefixul URL e schimbat.
+- **Fix-uit în 11 locuri** (toate scraperele + run scripts + fixtures):
+  - `scrapers/{deputati,interpelari,motiuni,proiecte,sanctiuni,voturi}.py` — LIST_URL, DETAIL_URL, NOMINAL_URL, PROFILE_URL, XML_URL
+  - `scripts/run_*.py` — `source_url` din meta JSON-uri
+  - `scripts/save_fixtures.py` — URL-urile pentru download fixtures
+- **Datele existente sunt VALIDE** — nu pierdem nimic. Doar viitoarele scrape-uri folosesc URL-urile noi.
+- **`source_url`-urile salvate în vechile JSON-uri** au prefixul `/pls/` (păstrate ca arhivă istorică); JSON-urile noi vor avea `/ords/pls/`.
+
+---
+
 ## [v0.2.6] — 2026-04-30 — Toggle limbă RO/EN cu fade transition
 
 ### Adăugat

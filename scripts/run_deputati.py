@@ -64,7 +64,7 @@ def main() -> int:
 
     meta = Meta(
         generated_at=datetime.now(UTC),
-        source_url=f"https://www.cdep.ro/pls/parlam/structura2015.home?leg={args.leg}",
+        source_url=f"https://www.cdep.ro/ords/pls/parlam/structura2015.home?leg={args.leg}",
         scraper_version=SCRAPER_VERSION,
         count=len(deputati),
     )

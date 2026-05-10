@@ -97,7 +97,7 @@ def main() -> int:
 
     meta = Meta(
         generated_at=datetime.now(UTC),
-        source_url=f"https://www.cdep.ro/pls/proiecte/upl_pck2015.lista?anp={max(years)}&cam={args.cam}",
+        source_url=f"https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.lista?anp={max(years)}&cam={args.cam}",
         scraper_version=SCRAPER_VERSION,
         count=len(all_data),
     )

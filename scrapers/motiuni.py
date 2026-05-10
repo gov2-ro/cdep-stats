@@ -27,8 +27,8 @@ logger = logging.getLogger(__name__)
 
 BASE = "https://www.cdep.ro"
 # leg= acceptat pentru a interoga si legislaturi anterioare (1990-prezent)
-LIST_URL = BASE + "/pls/parlam/motiuni2015.lista?leg={leg}&cam={cam}"
-DETAIL_URL = BASE + "/pls/parlam/parlament.motiuni2015.detalii?leg={leg}&cam={cam}&idm={idm}"
+LIST_URL = BASE + "/ords/pls/parlam/motiuni2015.lista?leg={leg}&cam={cam}"
+DETAIL_URL = BASE + "/ords/pls/parlam/parlament.motiuni2015.detalii?leg={leg}&cam={cam}&idm={idm}"
 
 MAX_WORKERS = int(os.environ.get("CDEP_SCRAPE_WORKERS", "2"))
 

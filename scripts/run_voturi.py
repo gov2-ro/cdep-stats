@@ -143,7 +143,7 @@ def main() -> int:
     index_payload = {
         "meta": Meta(
             generated_at=datetime.now(UTC),
-            source_url=f"https://www.cdep.ro/pls/steno/evot2015.data?leg={leg}",
+            source_url=f"https://www.cdep.ro/ords/pls/steno/evot2015.data?leg={leg}",
             scraper_version=SCRAPER_VERSION,
             count=len(all_summaries),
         ).model_dump(mode="json"),
