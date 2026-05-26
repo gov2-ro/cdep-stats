@@ -3,7 +3,7 @@
   <id>https://endimion2k.github.io/cdep-api-poc/data/v1/feed.atom</id>
   <title>Camera Deputaților — flux date deschise (legislatura 2024)</title>
   <subtitle>Voturi, proiecte legislative, interpelări, sancțiuni — actualizat zilnic.</subtitle>
-  <updated>2026-05-26T18:07:33.601704+00:00</updated>
+  <updated>2026-05-26T18:28:54.383632+00:00</updated>
   <link rel="self" href="https://endimion2k.github.io/cdep-api-poc/data/v1/feed.atom" type="application/atom+xml"/>
   <link rel="alternate" href="https://endimion2k.github.io/cdep-api-poc/" type="text/html"/>
   <author>

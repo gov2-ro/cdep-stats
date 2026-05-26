@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-26T18:00:17.101070Z",
+    "generated_at": "2026-05-26T18:28:54.852990Z",
     "source_url": "split from /v1/proiecte/legislatura-2024.json",
     "scraper_version": "0.1.0",
     "count": 10
@@ -15,7 +15,7 @@
       "nr_camera_deputati": "371/04.05.2026",
       "nr_senat": "L213/2026",
       "nr_guvern": null,
-      "nr_bpi": "402/29-04-2026",
+      "nr_bpi": "402/29.04.2026",
       "titlu": "Proiect de Lege pentru modificarea şi completarea art.106 din Legea învăţământului preuniversitar nr.198/2023",
       "tip": "proiect_lege",
       "caracter": "ordinar",
@@ -49,6 +49,10 @@
         {
           "data": "2026-05-06",
           "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor Nu a fost aprobată solicitarea unui senator de a fi inregistrat în calitate de co-inițiator al propunerii legislative Notă"
+        },
+        {
+          "data": "2026-05-20",
+          "eveniment": "primire aviz de la: Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale"
         }
       ],
       "documente_pdf": [
@@ -57,9 +61,10 @@
         "https://www.cdep.ro/proiecte/2026/300/70/1/cl402.pdf",
         "https://www.cdep.ro/proiecte/2026/300/70/1/se402.pdf",
         "https://www.cdep.ro/proiecte/2026/300/70/1/as371.pdf",
-        "https://www.cdep.ro/proiecte/2026/300/70/1/nota_onea.pdf"
+        "https://www.cdep.ro/proiecte/2026/300/70/1/nota_onea.pdf",
+        "https://www.cdep.ro/comisii/drepturile_omului/pdf/2026/av371.pdf"
       ],
-      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23247"
+      "source_url": "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23247"
     },
     {
       "id": "2e2347312f3eb3ef",
@@ -70,7 +75,7 @@
       "nr_camera_deputati": "230/23.03.2026",
       "nr_senat": "L20/03.02.2026",
       "nr_guvern": null,
-      "nr_bpi": "240/17-03-2026",
+      "nr_bpi": "240/17.03.2026",
       "titlu": "Propunere legislativă pentru modificarea Legii nr.286/2009 privind Codul penal inititulată „Legea Conştiinţei Naţionale",
       "tip": "propunere_legislativa",
       "caracter": "ordinar",
@@ -122,7 +127,7 @@
         "https://www.cdep.ro/comisii/drepturile_omului/pdf/2026/av230.pdf",
         "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2026/av230.pdf"
       ],
-      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23122"
+      "source_url": "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23122"
     },
     {
       "id": "9caf2f4c8f75071f",
@@ -133,12 +138,12 @@
       "nr_camera_deputati": "231/23.03.2026",
       "nr_senat": "L28/03.02.2026",
       "nr_guvern": null,
-      "nr_bpi": "672/03-12-2025 241/17-03-2026",
+      "nr_bpi": "672/03.12.2025 241/17.03.2026",
       "titlu": "Propunere legislativă pentru modificarea şi completarea Legii nr.272/2004 privind protecţia şi promovarea drepturilor copilului, cu modificările şi completările ulterioare",
       "tip": "propunere_legislativa",
       "caracter": "ordinar",
       "procedura_urgenta": false,
-      "initiator": "21 deputati+senatori, din care: deputati - neafiliati: Enachi Raisa , Făget Mădălin-Laurenţiu , Plopeanu Rodica , Vârgă Mariana deputati - PSD: Andrei Cosmin , Băişanu Ştefan-Alexandru , Cîmpan Cristian-Emanuel , Jianu Iosif-Florin , Popa Dorin deputati - SOS RO: Ionescu Tudor , Nagy Vasile , Ţiu Mihai-Adrian , Vidra Vlad-Andrei deputati - POT: Csillag Andrei senatori - PACE: Bem Cristian , Fodoca Liviu-Iulian , Gheorghe Daniel-Paul-Romeo , Peia Ninel , Peiu Grigore-Adrian , Petrea Dorin Silviu , Sava Clement",
+      "initiator": "21 deputati+senatori, din care: deputati - neafiliati: Enachi Raisa , Făget Mădălin-Laurenţiu , Vârgă Mariana deputati - PSD: Andrei Cosmin , Băişanu Ştefan-Alexandru , Cîmpan Cristian-Emanuel , Plopeanu Rodica , Popa Dorin deputati - PNL: Jianu Iosif-Florin deputati - SOS RO: Ionescu Tudor , Nagy Vasile , Ţiu Mihai-Adrian , Vidra Vlad-Andrei deputati - UPR: Csillag Andrei senatori - PACE: Bem Cristian , Fodoca Liviu-Iulian , Gheorghe Daniel-Paul-Romeo , Peia Ninel , Peiu Grigore-Adrian , Petrea Dorin Silviu , Sava Clement",
       "camera_decizionala": "Camera Deputaţilor",
       "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
       "lege_nr": null,
@@ -198,7 +203,7 @@
         "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2026/av231.pdf",
         "https://www.cdep.ro/comisii/sanatate/pdf/2026/av231.pdf"
       ],
-      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22818"
+      "source_url": "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22818"
     },
     {
       "id": "abf1f6f14559fc3d",
@@ -209,12 +214,12 @@
       "nr_camera_deputati": "232/23.03.2026",
       "nr_senat": "L39/2026",
       "nr_guvern": null,
-      "nr_bpi": "697/09-12-2025 243/17-03-2026",
+      "nr_bpi": "697/09.12.2025 243/17.03.2026",
       "titlu": "Propunere legislativă pentru completarea Legii nr.287/2009 privind Codul civil, republicată, cu modificările şi completările ulterioare",
       "tip": "propunere_legislativa",
       "caracter": "ordinar",
       "procedura_urgenta": false,
-      "initiator": "23 deputati+senatori, din care: deputati - neafiliati: Albu Dumitriţa , Enachi Raisa , Plopeanu Rodica , Simu Aurora-Tasica , Vârgă Mariana deputati - PSD: Cîmpan Cristian-Emanuel , Jianu Iosif-Florin , Moiseev Alexandrin , Popa Dorin deputati - AUR: Constantinescu Andra-Claudia deputati - SOS RO: Baş Ana-Marcela , Caragaţă Florin , Nagy Vasile , Oltenaşu Sorin-George , Ţiu Mihai-Adrian deputati - POT: Csillag Andrei senatori - AUR: Stoica Ciprian-Titi senatori - PACE: Bem Cristian , Fodoca Liviu-Iulian , Gheorghe Daniel-Paul-Romeo , Peiu Grigore-Adrian , Petrea Dorin Silviu , Sava Clement",
+      "initiator": "23 deputati+senatori, din care: deputati - neafiliati: Albu Dumitriţa , Enachi Raisa , Simu Aurora-Tasica , Vârgă Mariana deputati - PSD: Cîmpan Cristian-Emanuel , Plopeanu Rodica , Popa Dorin deputati - AUR: Constantinescu Andra-Claudia deputati - PNL: Jianu Iosif-Florin , Moiseev Alexandrin deputati - SOS RO: Baş Ana-Marcela , Caragaţă Florin , Nagy Vasile , Oltenaşu Sorin-George , Ţiu Mihai-Adrian deputati - UPR: Csillag Andrei senatori - AUR: Stoica Ciprian-Titi senatori - PACE: Bem Cristian , Fodoca Liviu-Iulian , Gheorghe Daniel-Paul-Romeo , Peiu Grigore-Adrian , Petrea Dorin Silviu , Sava Clement",
       "camera_decizionala": "Camera Deputaţilor",
       "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
       "lege_nr": null,
@@ -270,7 +275,7 @@
         "https://www.cdep.ro/comisii/drepturile_omului/pdf/2026/av232.pdf",
         "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2026/av232.pdf"
       ],
-      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22839"
+      "source_url": "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22839"
     },
     {
       "id": "331bc586e24eed7b",
@@ -281,7 +286,7 @@
       "nr_camera_deputati": "233/23.03.2026",
       "nr_senat": "L51/2026",
       "nr_guvern": null,
-      "nr_bpi": "244/17-03-2026",
+      "nr_bpi": "244/17.03.2026",
       "titlu": "Propunere legislativă pentru completarea articolului 4 din Legea nr.33/1994 privind exproprierea pentru cauză de utilitate publică",
       "tip": "propunere_legislativa",
       "caracter": "ordinar",
@@ -311,6 +316,10 @@
         {
           "data": "2026-03-23",
           "eveniment": "înregistrat la Camera Deputatilor pentru dezbatere"
+        },
+        {
+          "data": "2026-05-06",
+          "eveniment": "primire punct de vedere de la Guvern - cu nr.5226/05.05.2026 (negativ) Punctul de vedere al Guvernului"
         }
       ],
       "documente_pdf": [
@@ -319,9 +328,10 @@
         "https://www.cdep.ro/proiecte/2026/200/30/3/ces244.pdf",
         "https://www.cdep.ro/proiecte/2026/200/30/3/cl244.pdf",
         "https://www.cdep.ro/proiecte/2026/200/30/3/as233.pdf",
-        "https://www.cdep.ro/proiecte/2026/200/30/3/in244.pdf"
+        "https://www.cdep.ro/proiecte/2026/200/30/3/in244.pdf",
+        "https://www.cdep.ro/proiecte/2026/200/30/3/pvg233_2026.pdf"
       ],
-      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23123"
+      "source_url": "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23123"
     },
     {
       "id": "98d618140a345748",
@@ -332,7 +342,7 @@
       "nr_camera_deputati": "234/23.03.2026",
       "nr_senat": "L81/03.02.2026",
       "nr_guvern": null,
-      "nr_bpi": "731/17-12-2025 248/17-03-2026",
+      "nr_bpi": "731/17.12.2025 248/17.03.2026",
       "titlu": "Propunere legislativă privind protecţia profesională şi stimularea stabilităţii personalului din Ministerul Educaţiei",
       "tip": "propunere_legislativa",
       "caracter": "ordinar",
@@ -386,6 +396,10 @@
         {
           "data": "2026-04-02",
           "eveniment": "primire aviz de la: Comisia pentru egalitatea de şanse pentru femei şi bărbaţi"
+        },
+        {
+          "data": "2026-05-19",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
         }
       ],
       "documente_pdf": [
@@ -398,9 +412,10 @@
         "https://www.cdep.ro/proiecte/2026/200/30/4/in248.pdf",
         "https://www.cdep.ro/proiecte/2026/200/30/4/pvg234_2026.pdf",
         "https://www.cdep.ro/comisii/drepturile_omului/pdf/2026/av234;1.pdf",
-        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2026/av234.pdf"
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2026/av234.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2026/av234.pdf"
       ],
-      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22867"
+      "source_url": "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22867"
     },
     {
       "id": "75c5d849443785bc",
@@ -411,7 +426,7 @@
       "nr_camera_deputati": "235/23.03.2026",
       "nr_senat": "L82/03.02.2026",
       "nr_guvern": null,
-      "nr_bpi": "732/17-12-2025 249/17-03-2026",
+      "nr_bpi": "732/17.12.2025 249/17.03.2026",
       "titlu": "Propunere legislativă privind protecţia profesională şi stabilitatea funcţională a personalului din sistemul public de sănătate",
       "tip": "propunere_legislativa",
       "caracter": "ordinar",
@@ -457,6 +472,10 @@
         {
           "data": "2026-04-02",
           "eveniment": "primire aviz de la: Comisia pentru egalitatea de şanse pentru femei şi bărbaţi"
+        },
+        {
+          "data": "2026-05-14",
+          "eveniment": "primire aviz de la: Comisia juridică, de disciplină şi imunităţi"
         }
       ],
       "documente_pdf": [
@@ -468,9 +487,10 @@
         "https://www.cdep.ro/proiecte/2026/200/30/5/as235.pdf",
         "https://www.cdep.ro/proiecte/2026/200/30/5/in249.pdf",
         "https://www.cdep.ro/comisii/drepturile_omului/pdf/2026/av235.pdf",
-        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2026/av235.pdf"
+        "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2026/av235.pdf",
+        "https://www.cdep.ro/comisii/juridica/pdf/2026/av235.pdf"
       ],
-      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22868"
+      "source_url": "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22868"
     },
     {
       "id": "8147b550bda7ddb2",
@@ -481,7 +501,7 @@
       "nr_camera_deputati": "184/13.03.2026",
       "nr_senat": "L146/2026",
       "nr_guvern": "E33/12.03.2026",
-      "nr_bpi": "226/13-03-2026",
+      "nr_bpi": "226/13.03.2026",
       "titlu": "Proiectul Legii bugetului de stat pe anul 2026",
       "tip": "proiect_lege",
       "caracter": "ordinar",
@@ -577,7 +597,7 @@
         "https://www.cdep.ro/comisii/industrii/pdf/2026/av184.pdf",
         "https://www.cdep.ro/comisii/industrii/pdf/2026/av184;2.pdf"
       ],
-      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23109"
+      "source_url": "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23109"
     },
     {
       "id": "59c9fa002eea4300",
@@ -588,7 +608,7 @@
       "nr_camera_deputati": "185/13.03.2026",
       "nr_senat": "L147/2026",
       "nr_guvern": "E34/12.03.2026",
-      "nr_bpi": "227/13-03-3036",
+      "nr_bpi": "227/13.03.3036",
       "titlu": "Proiectul Legii bugetului asigurărilor sociale de stat pe anul 2026",
       "tip": "proiect_lege",
       "caracter": "ordinar",
@@ -660,11 +680,11 @@
         "https://www.cdep.ro/proiecte/2026/100/80/5/gv185.pdf",
         "https://www.cdep.ro/comisii/munca/pdf/2026/av185.pdf",
         "https://www.cdep.ro/comisii/buget/pdf/2026/rp185.pdf",
-        "https://www.cdep.ro/docs/2026/pl185_pr185_26.pdf",
-        "https://www.cdep.ro/docs/2026/pl185_anexe_lege_bass_2026_.pdf",
+        "https://www.cdep.ro/docs?2026/pl185_pr185_26.pdf",
+        "https://www.cdep.ro/docs?2026/pl185_anexe_lege_bass_2026_.pdf",
         "https://www.cdep.ro/proiecte/2026/100/80/5/SesizAUR_BASS.pdf"
       ],
-      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23110"
+      "source_url": "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23110"
     },
     {
       "id": "c46d6a406c865fcd",
@@ -675,12 +695,12 @@
       "nr_camera_deputati": "122/02.03.2026",
       "nr_senat": "L547/02.12.2025",
       "nr_guvern": null,
-      "nr_bpi": "580/05-11-2025 110/24-02-2026",
+      "nr_bpi": "580/05.11.2025 110/24.02.2026",
       "titlu": "Proiect de Lege privind promovarea agroturismului şi valorificarea patrimoniului rural prin Programul Viaţa la ţară",
       "tip": "proiect_lege",
       "caracter": "ordinar",
       "procedura_urgenta": false,
-      "initiator": "111 deputati+senatori, din care: deputati - neafiliati: Grosaru Ioana , Zakarias Zoltán deputati - PSD: Bara Nicolae-Adrian , Budăi Marius-Constantin , Câciu Adrian , Chirilă Virgil Alin , Geamănu Aurora-Adela , Ghigiu Alexandru-Mihai , Intotero Natalia-Elena , Isac Marius-Adrian , Lipă Elisabeta , Matichescu Mirela-Florenţa , Mihalcea Silvia-Claudia , Mihuţi Bogdan-Florian , Neaţă Eugen , Peţa-Ştefănescu Eliza-Mădălina , Popa Dorin , Popa Ştefan-Ovidiu , Rinder Ana-Smaranda , Solomon Adrian , Suciu Vasile-Daniel , Toma Ilie , Tuşa Adriana Diana , Vulpescu Ioan , Vuşcan Voicu deputati - AUR: Bruynseels Ramona-Ioana , Constantinescu Andra-Claudia , Corendea Cosmin-Ioan , Mihăescu Mugur , Murad Mohammad , Muşat Doru-Lucian , Negrea Petru-Gabriel deputati - PNL: Andrei Alexandru-Ioan , Andronache Gabriel , Baciu Romică-Andrei , Bode Lucian Nicolae , Bogdan Ionel-Ovidiu , Burduja Sebastian-Ioan , Cadar Răzvan-Olimpiu , Ciobanu Adrian-Virgil , Ciobotaru Dragoş-Fănică , Cozma Adrian-Felician , Cruşoveanu Marian , Dobre Ciprian-Minodor , Fechet Mircea , Gal Călin-Graţian , Gheorghe Andrei Daniel , Gorghiu Alina-Ştefania , Huţucă Bogdan-Iulian , Matei Aneta , Mititelu Eduard-Tatian , Moş Patricia-Simina-Arina , Muraru Iulian-Alexandru , Năcuţă Sorin , Neacşu Andreea-Firuţa , Oprea Octavian , Pandea Ciprian , Roman Florin-Claudiu , Sighiartău Robert-Ionatan , Stănescu Vetuţa , Stoica Ştefan-Bucur , Ştirbu Gigel-Sorinel , Teslariu Andrei-Ionuţ , Turcan Raluca , Ţiplea Dumitru , Vela Ion-Marcel deputati - USR: Alecsandru Marius-Nicolae , Blaga Daniel-Codruţ , Echert Adrian , Gheorghiu Andrei-Florin , Gima George , Giurgiu Adrian , Plujar Andrei George , Rodeanu Bogdan-Ionel , Stoica Diana , Tanasă Ştefan deputati - POT: Chiriţă Răzvan-Mirel , Grofu Daniel deputati - UDMR: Bende Sándor , Hajdu Gábor , Kolcsár Anquetil-Károly , Könczei Csaba , Ladányi László-Zsolt , Molnar Andrei , Szabó Ödön deputati - Minoritati: Bouda Ştefan , Crîstici Ognean , Feodor Silviu , Ganţ Ovidiu Victor , Ghera Giureci-Slobodan , Merka Adrian-Miroslav , Păun Nicolae , Petreţchi Nicolae-Miroslav , Vexler Silviu , Zisopol Dragoş Gabriel senatori - PSD: Cazanciuc Robert-Marius , Federovici Doina Elena , Stănescu Paul , Zamfir Daniel-Cătălin senatori - PNL: Abrudean Mircea , Fenechiu Cătălin-Daniel , Marian Călin-Petru , Neagu Nicolae , Niculescu-Ţâgârlaş Cristian-Augustin , Păsculescu Veta , Răcuci Claudiu-Vasile senatori - USR: Alexandru Victoria-Violeta senatori - PACE: Fodoca Liviu-Iulian , Peia Ninel , Peiu Grigore-Adrian , Petrea Dorin Silviu",
+      "initiator": "111 deputati+senatori, din care: deputati - neafiliati: Grosaru Ioana , Zakarias Zoltán deputati - PSD: Bara Nicolae-Adrian , Budăi Marius-Constantin , Câciu Adrian , Chirilă Virgil Alin , Geamănu Aurora-Adela , Ghigiu Alexandru-Mihai , Intotero Natalia-Elena , Isac Marius-Adrian , Lipă Elisabeta , Matichescu Mirela-Florenţa , Mihalcea Silvia-Claudia , Mihuţi Bogdan-Florian , Neaţă Eugen , Peţa-Ştefănescu Eliza-Mădălina , Popa Dorin , Popa Ştefan-Ovidiu , Rinder Ana-Smaranda , Solomon Adrian , Suciu Vasile-Daniel , Toma Ilie , Tuşa Adriana Diana , Vulpescu Ioan , Vuşcan Voicu deputati - AUR: Bruynseels Ramona-Ioana , Constantinescu Andra-Claudia , Corendea Cosmin-Ioan , Mihăescu Mugur , Murad Mohammad , Muşat Doru-Lucian , Negrea Petru-Gabriel deputati - PNL: Andrei Alexandru-Ioan , Andronache Gabriel , Baciu Romică-Andrei , Bode Lucian Nicolae , Bogdan Ionel-Ovidiu , Burduja Sebastian-Ioan , Cadar Răzvan-Olimpiu , Ciobanu Adrian-Virgil , Ciobotaru Dragoş-Fănică , Cozma Adrian-Felician , Cruşoveanu Marian , Dobre Ciprian-Minodor , Fechet Mircea , Gal Călin-Graţian , Gheorghe Andrei Daniel , Gorghiu Alina-Ştefania , Huţucă Bogdan-Iulian , Matei Aneta , Mititelu Eduard-Tatian , Moş Patricia-Simina-Arina , Muraru Iulian-Alexandru , Năcuţă Sorin , Neacşu Andreea-Firuţa , Oprea Octavian , Pandea Ciprian , Roman Florin-Claudiu , Sighiartău Robert-Ionatan , Stănescu Vetuţa , Stoica Ştefan-Bucur , Ştirbu Gigel-Sorinel , Teslariu Andrei-Ionuţ , Turcan Raluca , Ţiplea Dumitru , Vela Ion-Marcel deputati - USR: Alecsandru Marius-Nicolae , Blaga Daniel-Codruţ , Echert Adrian , Gheorghiu Andrei-Florin , Gima George , Giurgiu Adrian , Plujar Andrei George , Rodeanu Bogdan-Ionel , Stoica Diana , Tanasă Ştefan deputati - UDMR: Bende Sándor , Hajdu Gábor , Kolcsár Anquetil-Károly , Könczei Csaba , Ladányi László-Zsolt , Molnar Andrei , Szabó Ödön deputati - Minoritati: Bouda Ştefan , Crîstici Ognean , Feodor Silviu , Ganţ Ovidiu Victor , Ghera Giureci-Slobodan , Merka Adrian-Miroslav , Păun Nicolae , Petreţchi Nicolae-Miroslav , Vexler Silviu , Zisopol Dragoş Gabriel deputati - UPR: Chiriţă Răzvan-Mirel , Grofu Daniel senatori - PSD: Cazanciuc Robert-Marius , Federovici Doina Elena , Stănescu Paul , Zamfir Daniel-Cătălin senatori - PNL: Abrudean Mircea , Fenechiu Cătălin-Daniel , Marian Călin-Petru , Neagu Nicolae , Niculescu-Ţâgârlaş Cristian-Augustin , Păsculescu Veta , Răcuci Claudiu-Vasile senatori - USR: Alexandru Victoria-Violeta senatori - PACE: Fodoca Liviu-Iulian , Peia Ninel , Peiu Grigore-Adrian , Petrea Dorin Silviu",
       "camera_decizionala": "Camera Deputaţilor",
       "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
       "lege_nr": null,
@@ -735,7 +755,7 @@
         "https://www.cdep.ro/proiecte/2026/100/20/2/as122.pdf",
         "https://www.cdep.ro/comisii/juridica/pdf/2026/av122.pdf"
       ],
-      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22741"
+      "source_url": "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=22741"
     }
   ]
 }
