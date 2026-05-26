@@ -1,11 +1,731 @@
 {
   "meta": {
-    "generated_at": "2026-05-08T03:30:33.010631Z",
-    "source_url": "https://www.cdep.ro/pls/steno/evot2015.data?leg=2024",
+    "generated_at": "2026-05-26T17:58:52.983087Z",
+    "source_url": "https://www.cdep.ro/ords/pls/steno/evot2015.data?leg=2024",
     "scraper_version": "0.1.0",
-    "count": 840
+    "count": 885
   },
   "data": [
+    {
+      "id": "372f55526f4da962",
+      "cdep_idv": 37008,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-20T12:01:00",
+      "descriere": "PL-x 483/2024 - Vot final adoptare",
+      "counts": {
+        "prezenti": 288,
+        "pentru": 216,
+        "contra": 0,
+        "abtineri": 14,
+        "nu_au_votat": 58
+      },
+      "detail_url": "voturi/2024/37008.json"
+    },
+    {
+      "id": "8ae9a8b12891f957",
+      "cdep_idv": 37007,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-20T11:58:00",
+      "descriere": "PL-x 581/2025 - Vot final adoptare",
+      "counts": {
+        "prezenti": 293,
+        "pentru": 214,
+        "contra": 0,
+        "abtineri": 78,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/37007.json"
+    },
+    {
+      "id": "5c336c27554784d7",
+      "cdep_idv": 37006,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-20T11:55:00",
+      "descriere": "PL-x 158/2026 - Vot final adoptare",
+      "counts": {
+        "prezenti": 302,
+        "pentru": 299,
+        "contra": 0,
+        "abtineri": 2,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/37006.json"
+    },
+    {
+      "id": "78d9d4caece7e23c",
+      "cdep_idv": 37005,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-20T11:52:00",
+      "descriere": "PL-x 649/2024 - Vot final adoptare",
+      "counts": {
+        "prezenti": 306,
+        "pentru": 302,
+        "contra": 2,
+        "abtineri": 0,
+        "nu_au_votat": 2
+      },
+      "detail_url": "voturi/2024/37005.json"
+    },
+    {
+      "id": "211cbc181b34b66a",
+      "cdep_idv": 37004,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-20T11:46:00",
+      "descriere": "PL-x 118/2026 - Vot final adoptare",
+      "counts": {
+        "prezenti": 293,
+        "pentru": 192,
+        "contra": 2,
+        "abtineri": 97,
+        "nu_au_votat": 2
+      },
+      "detail_url": "voturi/2024/37004.json"
+    },
+    {
+      "id": "f47c845592eed3fa",
+      "cdep_idv": 37003,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-20T11:43:00",
+      "descriere": "PL-x 96/2025 - Vot final adoptare",
+      "counts": {
+        "prezenti": 296,
+        "pentru": 207,
+        "contra": 1,
+        "abtineri": 28,
+        "nu_au_votat": 60
+      },
+      "detail_url": "voturi/2024/37003.json"
+    },
+    {
+      "id": "00a4acda55ce4a6e",
+      "cdep_idv": 37002,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-20T11:35:00",
+      "descriere": "PL-x 355/2025 - Vot final adoptare",
+      "counts": {
+        "prezenti": 290,
+        "pentru": 223,
+        "contra": 3,
+        "abtineri": 63,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/37002.json"
+    },
+    {
+      "id": "5cac2a7f5801c92f",
+      "cdep_idv": 37001,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-20T11:34:00",
+      "descriere": "PH CD 38/2026 - Vot final adoptare",
+      "counts": {
+        "prezenti": 281,
+        "pentru": 279,
+        "contra": 0,
+        "abtineri": 0,
+        "nu_au_votat": 2
+      },
+      "detail_url": "voturi/2024/37001.json"
+    },
+    {
+      "id": "c52e13d7972064bc",
+      "cdep_idv": 37000,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-20T11:33:00",
+      "descriere": "Verificare prezenta",
+      "counts": {
+        "prezenti": 240,
+        "pentru": 121,
+        "contra": 0,
+        "abtineri": 3,
+        "nu_au_votat": 116
+      },
+      "detail_url": "voturi/2024/37000.json"
+    },
+    {
+      "id": "ce320a3d12fc2325",
+      "cdep_idv": 36998,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-20T11:09:00",
+      "descriere": "PL 483/2024 - timp dezbatere",
+      "counts": {
+        "prezenti": 203,
+        "pentru": 201,
+        "contra": 0,
+        "abtineri": 1,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36998.json"
+    },
+    {
+      "id": "f02ae2dcbabf9e34",
+      "cdep_idv": 36997,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-20T10:41:00",
+      "descriere": "PL 649/2024 - timp dezbatere",
+      "counts": {
+        "prezenti": 222,
+        "pentru": 221,
+        "contra": 0,
+        "abtineri": 0,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36997.json"
+    },
+    {
+      "id": "9902bc487e83296e",
+      "cdep_idv": 36996,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-20T10:37:00",
+      "descriere": "PL 118/2026 - amr.4",
+      "counts": {
+        "prezenti": 229,
+        "pentru": 221,
+        "contra": 1,
+        "abtineri": 5,
+        "nu_au_votat": 2
+      },
+      "detail_url": "voturi/2024/36996.json"
+    },
+    {
+      "id": "5959e3ce3d1ef108",
+      "cdep_idv": 36995,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-20T10:34:00",
+      "descriere": "PL 118/2026 - ama.5",
+      "counts": {
+        "prezenti": 220,
+        "pentru": 165,
+        "contra": 30,
+        "abtineri": 24,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36995.json"
+    },
+    {
+      "id": "7f4e7adea2038cb7",
+      "cdep_idv": 36993,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:58:00",
+      "descriere": "PL 96/2025 - timp dezbatere",
+      "counts": {
+        "prezenti": 224,
+        "pentru": 222,
+        "contra": 0,
+        "abtineri": 1,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36993.json"
+    },
+    {
+      "id": "ca83758d3740666a",
+      "cdep_idv": 36992,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:48:00",
+      "descriere": "PL 355/2025 - ama 114/2025",
+      "counts": {
+        "prezenti": 220,
+        "pentru": 140,
+        "contra": 38,
+        "abtineri": 39,
+        "nu_au_votat": 3
+      },
+      "detail_url": "voturi/2024/36992.json"
+    },
+    {
+      "id": "b932ebfee3aebaef",
+      "cdep_idv": 36991,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:39:00",
+      "descriere": "PL 355/2025 - timp dezbatere",
+      "counts": {
+        "prezenti": 233,
+        "pentru": 222,
+        "contra": 0,
+        "abtineri": 10,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36991.json"
+    },
+    {
+      "id": "632a793eb0c429a5",
+      "cdep_idv": 36990,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:36:00",
+      "descriere": "Solicitare prelungire termen constitutional Pl195/2026",
+      "counts": {
+        "prezenti": 249,
+        "pentru": 217,
+        "contra": 29,
+        "abtineri": 2,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36990.json"
+    },
+    {
+      "id": "0fe4ed7f33bfd87c",
+      "cdep_idv": 36988,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:35:00",
+      "descriere": "Solicitare prelungire termen constitutional Pl193/2026",
+      "counts": {
+        "prezenti": 246,
+        "pentru": 213,
+        "contra": 31,
+        "abtineri": 1,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36988.json"
+    },
+    {
+      "id": "c61239074349aaa9",
+      "cdep_idv": 36989,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:35:00",
+      "descriere": "Solicitare prelungire termen constitutional Pl194/2026",
+      "counts": {
+        "prezenti": 244,
+        "pentru": 211,
+        "contra": 28,
+        "abtineri": 4,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36989.json"
+    },
+    {
+      "id": "b83a8592fd224ff8",
+      "cdep_idv": 36987,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:34:00",
+      "descriere": "Solicitare prelungire termen constitutional Pl192/2026",
+      "counts": {
+        "prezenti": 251,
+        "pentru": 216,
+        "contra": 30,
+        "abtineri": 4,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36987.json"
+    },
+    {
+      "id": "7f104dc08561a03e",
+      "cdep_idv": 36985,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:33:00",
+      "descriere": "Solicitare prelungire termen constitutional Pl190/2026",
+      "counts": {
+        "prezenti": 251,
+        "pentru": 216,
+        "contra": 30,
+        "abtineri": 4,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36985.json"
+    },
+    {
+      "id": "79de5c6bcda34c85",
+      "cdep_idv": 36986,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:33:00",
+      "descriere": "Solicitare prelungire termen constitutional Pl191/2026",
+      "counts": {
+        "prezenti": 248,
+        "pentru": 214,
+        "contra": 29,
+        "abtineri": 4,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36986.json"
+    },
+    {
+      "id": "691a50e336a8463d",
+      "cdep_idv": 36983,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:32:00",
+      "descriere": "Solicitare prelungire termen constitutional Pl188/2026",
+      "counts": {
+        "prezenti": 241,
+        "pentru": 207,
+        "contra": 31,
+        "abtineri": 2,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36983.json"
+    },
+    {
+      "id": "95196b9e2059f20e",
+      "cdep_idv": 36984,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:32:00",
+      "descriere": "Solicitare prelungire termen constitutional Pl189/2026",
+      "counts": {
+        "prezenti": 249,
+        "pentru": 213,
+        "contra": 31,
+        "abtineri": 4,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36984.json"
+    },
+    {
+      "id": "6d3e1a934d71ddb5",
+      "cdep_idv": 36982,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:31:00",
+      "descriere": "Solicitare prelungire termen constitutional Pl187/2026",
+      "counts": {
+        "prezenti": 245,
+        "pentru": 210,
+        "contra": 30,
+        "abtineri": 4,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36982.json"
+    },
+    {
+      "id": "e2df56197502097a",
+      "cdep_idv": 36980,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:30:00",
+      "descriere": "Solicitare prelungire termen constitutional Pl97/2026",
+      "counts": {
+        "prezenti": 241,
+        "pentru": 211,
+        "contra": 27,
+        "abtineri": 2,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36980.json"
+    },
+    {
+      "id": "f844f0ca4838a4a9",
+      "cdep_idv": 36981,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:30:00",
+      "descriere": "Solicitare prelungire termen constitutional PL186/2026",
+      "counts": {
+        "prezenti": 241,
+        "pentru": 208,
+        "contra": 29,
+        "abtineri": 3,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36981.json"
+    },
+    {
+      "id": "12e514a61b9bfeb8",
+      "cdep_idv": 36979,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:25:00",
+      "descriere": "modificare ordine de zi",
+      "counts": {
+        "prezenti": 232,
+        "pentru": 95,
+        "contra": 13,
+        "abtineri": 123,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36979.json"
+    },
+    {
+      "id": "04093239f6ff49a8",
+      "cdep_idv": 36978,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:22:00",
+      "descriere": "modificare ordine de zi",
+      "counts": {
+        "prezenti": 236,
+        "pentru": 229,
+        "contra": 1,
+        "abtineri": 5,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36978.json"
+    },
+    {
+      "id": "099e4622f5ccb287",
+      "cdep_idv": 36977,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:20:00",
+      "descriere": "modificare ordine de zi",
+      "counts": {
+        "prezenti": 224,
+        "pentru": 136,
+        "contra": 3,
+        "abtineri": 84,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36977.json"
+    },
+    {
+      "id": "c73bb6c455f28208",
+      "cdep_idv": 36976,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-18T16:19:00",
+      "descriere": "modificare ordine de zi",
+      "counts": {
+        "prezenti": 226,
+        "pentru": 95,
+        "contra": 1,
+        "abtineri": 129,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36976.json"
+    },
+    {
+      "id": "e4dc6ca56128defe",
+      "cdep_idv": 36974,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-13T12:45:00",
+      "descriere": "PL-x 335/2026 - Vot final adoptare",
+      "counts": {
+        "prezenti": 281,
+        "pentru": 277,
+        "contra": 2,
+        "abtineri": 2,
+        "nu_au_votat": 0
+      },
+      "detail_url": "voturi/2024/36974.json"
+    },
+    {
+      "id": "071d142872e84154",
+      "cdep_idv": 36973,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-13T12:41:00",
+      "descriere": "PL-x 228/2026 - Vot final adoptare",
+      "counts": {
+        "prezenti": 288,
+        "pentru": 284,
+        "contra": 1,
+        "abtineri": 2,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36973.json"
+    },
+    {
+      "id": "954872c8ff21638f",
+      "cdep_idv": 36972,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-13T12:36:00",
+      "descriere": "PL-x 436/2025 - Vot final adoptare",
+      "counts": {
+        "prezenti": 289,
+        "pentru": 285,
+        "contra": 0,
+        "abtineri": 1,
+        "nu_au_votat": 3
+      },
+      "detail_url": "voturi/2024/36972.json"
+    },
+    {
+      "id": "fb2c8fe893ffe65b",
+      "cdep_idv": 36971,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-13T12:33:00",
+      "descriere": "PL-x 628/2023 - Vot final adoptare",
+      "counts": {
+        "prezenti": 289,
+        "pentru": 225,
+        "contra": 1,
+        "abtineri": 7,
+        "nu_au_votat": 56
+      },
+      "detail_url": "voturi/2024/36971.json"
+    },
+    {
+      "id": "864c17b10de487c4",
+      "cdep_idv": 36970,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-13T12:32:00",
+      "descriere": "PL-x 242/2026 - Vot final adoptare",
+      "counts": {
+        "prezenti": 289,
+        "pentru": 213,
+        "contra": 0,
+        "abtineri": 20,
+        "nu_au_votat": 56
+      },
+      "detail_url": "voturi/2024/36970.json"
+    },
+    {
+      "id": "327f206ae25ac330",
+      "cdep_idv": 36969,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-13T12:31:00",
+      "descriere": "PL-x 35/2026 - Vot final adoptare",
+      "counts": {
+        "prezenti": 290,
+        "pentru": 225,
+        "contra": 0,
+        "abtineri": 8,
+        "nu_au_votat": 57
+      },
+      "detail_url": "voturi/2024/36969.json"
+    },
+    {
+      "id": "4e77f14da8ca4b68",
+      "cdep_idv": 36968,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-13T12:24:00",
+      "descriere": "PL-x 108/2026 - Vot final adoptare",
+      "counts": {
+        "prezenti": 279,
+        "pentru": 271,
+        "contra": 1,
+        "abtineri": 6,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36968.json"
+    },
+    {
+      "id": "1cfd5d47659e905f",
+      "cdep_idv": 36967,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-13T12:23:00",
+      "descriere": "PL-x 132/2024 - Vot final adoptare",
+      "counts": {
+        "prezenti": 279,
+        "pentru": 198,
+        "contra": 15,
+        "abtineri": 66,
+        "nu_au_votat": 0
+      },
+      "detail_url": "voturi/2024/36967.json"
+    },
+    {
+      "id": "50d0f3f75b77c25e",
+      "cdep_idv": 36966,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-13T12:22:00",
+      "descriere": "Pl-x 56/2026 - Vot final adoptare",
+      "counts": {
+        "prezenti": 269,
+        "pentru": 204,
+        "contra": 0,
+        "abtineri": 64,
+        "nu_au_votat": 1
+      },
+      "detail_url": "voturi/2024/36966.json"
+    },
+    {
+      "id": "a4f324b763f8ccd5",
+      "cdep_idv": 36965,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-13T12:21:00",
+      "descriere": "PH CD 33/2026 - Vot final adoptare",
+      "counts": {
+        "prezenti": 263,
+        "pentru": 261,
+        "contra": 0,
+        "abtineri": 2,
+        "nu_au_votat": 0
+      },
+      "detail_url": "voturi/2024/36965.json"
+    },
+    {
+      "id": "94f6909265f79265",
+      "cdep_idv": 36964,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-13T12:20:00",
+      "descriere": "Verificare prezenta",
+      "counts": {
+        "prezenti": 211,
+        "pentru": 123,
+        "contra": 2,
+        "abtineri": 1,
+        "nu_au_votat": 85
+      },
+      "detail_url": "voturi/2024/36964.json"
+    },
+    {
+      "id": "d860a3b5ea13a72b",
+      "cdep_idv": 36962,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-13T11:02:00",
+      "descriere": "PL-x 335/2026 - Timpi dezbateri",
+      "counts": {
+        "prezenti": 210,
+        "pentru": 209,
+        "contra": 0,
+        "abtineri": 1,
+        "nu_au_votat": 0
+      },
+      "detail_url": "voturi/2024/36962.json"
+    },
+    {
+      "id": "7f58b20993e224f5",
+      "cdep_idv": 36960,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-13T10:56:00",
+      "descriere": "Prelungirea programului de lucru",
+      "counts": {
+        "prezenti": 210,
+        "pentru": 207,
+        "contra": 2,
+        "abtineri": 1,
+        "nu_au_votat": 0
+      },
+      "detail_url": "voturi/2024/36960.json"
+    },
+    {
+      "id": "623b0474dd38c718",
+      "cdep_idv": 36961,
+      "legislatura": 2024,
+      "cam": 2,
+      "timestamp": "2026-05-13T10:32:00",
+      "descriere": "PL-x 35/2026 - Timpi dezbateri",
+      "counts": {
+        "prezenti": 184,
+        "pentru": 184,
+        "contra": 0,
+        "abtineri": 0,
+        "nu_au_votat": 0
+      },
+      "detail_url": "voturi/2024/36961.json"
+    },
     {
       "id": "fd472b469e81c335",
       "cdep_idv": 36954,

@@ -1,11 +1,66 @@
 {
   "meta": {
-    "generated_at": "2026-04-30T18:31:59.303517Z",
+    "generated_at": "2026-05-26T18:00:17.101070Z",
     "source_url": "split from /v1/proiecte/legislatura-2024.json",
     "scraper_version": "0.1.0",
-    "count": 9
+    "count": 10
   },
   "data": [
+    {
+      "id": "4368f3de2fa27f41",
+      "cdep_idp": 23247,
+      "cam": 2,
+      "legislatura": 2024,
+      "nr_inregistrare": "PL-x nr. 371/2026",
+      "nr_camera_deputati": "371/04.05.2026",
+      "nr_senat": "L213/2026",
+      "nr_guvern": null,
+      "nr_bpi": "402/29-04-2026",
+      "titlu": "Proiect de Lege pentru modificarea şi completarea art.106 din Legea învăţământului preuniversitar nr.198/2023",
+      "tip": "proiect_lege",
+      "caracter": "ordinar",
+      "procedura_urgenta": false,
+      "initiator": "42 deputati+senatori, din care: deputati - AUR: Barstan Tiberiu-Claudiu , Biro Daniel-Răzvan , Bordian Alexandru , Boşutar Tiberiu-Nicolae , Butură Cristina-Irina , Ciornei Daniel-Cătălin , Cîrligeanu Ariadna-Elena , Coleşa Ilie-Alin , Constantinescu Andra-Claudia , Dascălu Cristina-Emanuela , Gheorghe Ionel , Gurlui Silviu-Octavian , Hristu Cosmin , Iosub Cosmin-Teodor , Lovin Ramona , Mîndrescu Nicolae , Munteanu Valeriu , Muşat Doru-Lucian , Negoescu Mihai-Bogdan , Negrea Petru-Gabriel , Pascariu Mihai-Cosmin , Priescu Ionelia-Florenţa , Puşcaşu Petre , Vulpoiu Dorel senatori - AUR: Barcari Dorina , Chertif Costache , Constantinescu Rodica , Dîrlău Andrei-Emil , Geamănu Ştefan , Iacob Constantin-Ciprian , Lavric Sorin , Parasca Teofil , Păucean-Fernandes Luminiţa , Peiu Petrişor-Gabriel , Petre George-Cezar , Plăeşu Laurenţiu , Roman Marius-Valentin , Sandu Mircea-Ionuţ , Silegeanu Cătălin , Spau Dumitru , Şipoş Eugen-Cristian , Vasile Marian",
+      "camera_decizionala": "Camera Deputaţilor",
+      "stadiu": "trimis pentru raport la comisiile permanente ale Camerei Deputatilor",
+      "lege_nr": null,
+      "decret_nr": null,
+      "data_prezentare": "2026-05-04",
+      "data_inregistrare_cd": "2026-05-06",
+      "data_adoptare_cd": null,
+      "data_adoptare_senat": "2026-04-29",
+      "data_promulgare": null,
+      "vot_pentru": null,
+      "vot_contra": null,
+      "vot_abtineri": null,
+      "amendamente_termen_depunere": null,
+      "amendamente_admise": null,
+      "amendamente_respinse": null,
+      "raport_comisie_pdf": null,
+      "timeline": [
+        {
+          "data": "2026-04-29",
+          "eveniment": "adoptat de Senat adoptare cu respectarea prevederilor art.76 alin.(2) din Constitutia României Forma adoptată de Senat"
+        },
+        {
+          "data": "2026-05-04",
+          "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor Adresa Senatului"
+        },
+        {
+          "data": "2026-05-06",
+          "eveniment": "prezentare în Biroul Permanent al Camerei Deputatilor Nu a fost aprobată solicitarea unui senator de a fi inregistrat în calitate de co-inițiator al propunerii legislative Notă"
+        }
+      ],
+      "documente_pdf": [
+        "https://www.cdep.ro/proiecte/2026/300/70/1/em402.pdf",
+        "https://www.cdep.ro/proiecte/2026/300/70/1/ces402.pdf",
+        "https://www.cdep.ro/proiecte/2026/300/70/1/cl402.pdf",
+        "https://www.cdep.ro/proiecte/2026/300/70/1/se402.pdf",
+        "https://www.cdep.ro/proiecte/2026/300/70/1/as371.pdf",
+        "https://www.cdep.ro/proiecte/2026/300/70/1/nota_onea.pdf"
+      ],
+      "source_url": "https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23247"
+    },
     {
       "id": "2e2347312f3eb3ef",
       "cdep_idp": 23122,

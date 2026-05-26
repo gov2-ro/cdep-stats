@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T17:25:53.764787Z",
+    "source_url": "https://www.cdep.ro/ords/pls/steno/steno2015.data?cam=2&dat=20260330&idl=1",
+    "scraper_version": "0.1.0",
+    "count": 0
+  },
+  "data": {
+    "id": "1a242a5c41f45602",
+    "session_date": "2026-03-30",
+    "cam": 2,
+    "legislatura": 2024,
+    "titlu": null,
+    "interventions": [],
+    "text_complet_len": 2278,
+    "source_url": "https://www.cdep.ro/ords/pls/steno/steno2015.data?cam=2&dat=20260330&idl=1"
+  }
+}

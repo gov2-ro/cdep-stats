@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-26T17:43:45.263945+00:00",
+  "generated_at": "2026-05-26T18:07:36.221048+00:00",
   "build_version": "0.2.0",
-  "data_freshness": "2026-05-26T17:39:01.385823Z",
+  "data_freshness": "2026-05-26T18:07:33.263103Z",
   "totals": {
-    "records": 60968,
-    "files": 4489,
-    "size_mb": 263.73
+    "records": 65573,
+    "files": 4534,
+    "size_mb": 265.98
   },
   "endpoints": {
     "deputati": {
@@ -18,19 +18,19 @@
       ]
     },
     "voturi_index": {
-      "records": 4456,
+      "records": 4501,
       "files": 2,
-      "size_mb": 1.68,
-      "freshness": "2026-05-08T03:30:33.010631Z",
+      "size_mb": 1.71,
+      "freshness": "2026-05-26T17:58:52.983087Z",
       "scraper_versions": [
         "0.1.0"
       ]
     },
     "voturi_per_vot": {
-      "records": 0,
-      "files": 4456,
-      "size_mb": 168.25,
-      "freshness": "2026-05-08T03:30:33.009484Z",
+      "records": 4501,
+      "files": 4501,
+      "size_mb": 170.1,
+      "freshness": "2026-05-26T17:58:52.981996Z",
       "scraper_versions": [
         "0.1.0"
       ]
@@ -57,25 +57,25 @@
       "records": 158,
       "files": 3,
       "size_mb": 0.72,
-      "freshness": "2026-04-30T20:27:48.599029Z",
+      "freshness": "2026-05-26T18:07:32.948796Z",
       "scraper_versions": [
         "0.1.0"
       ]
     },
     "proiecte": {
-      "records": 8503,
+      "records": 8556,
       "files": 3,
-      "size_mb": 36.19,
-      "freshness": "2026-05-08T03:38:29.151501Z",
+      "size_mb": 36.55,
+      "freshness": "2026-05-26T18:07:25.671346Z",
       "scraper_versions": [
         "0.1.0"
       ]
     },
     "amendamente": {
-      "records": 1679,
+      "records": 1685,
       "files": 3,
-      "size_mb": 2.05,
-      "freshness": "2026-04-30T21:40:16.715136Z",
+      "size_mb": 2.06,
+      "freshness": "2026-05-26T18:07:33.263103Z",
       "scraper_versions": [
         "0.1.0"
       ]
@@ -84,7 +84,7 @@
       "records": 162,
       "files": 9,
       "size_mb": 1.25,
-      "freshness": "2026-05-26T16:55:19.391908Z",
+      "freshness": "2026-05-26T18:07:32.636940Z",
       "scraper_versions": [
         "0.1.0"
       ]
@@ -93,7 +93,7 @@
       "records": 19,
       "files": 1,
       "size_mb": 0.6,
-      "freshness": "2026-05-26T17:39:01.385823Z",
+      "freshness": "2026-05-26T18:00:08.929723Z",
       "scraper_versions": [
         "0.1.0"
       ]

@@ -49,7 +49,11 @@ def collect_endpoint_status(name: str, pattern: str) -> dict:
         except (json.JSONDecodeError, KeyError):
             continue
         items = d.get("data", [])
-        total_records += len(items) if isinstance(items, list) else 0
+        if isinstance(items, list):
+            total_records += len(items)
+        elif isinstance(items, dict):
+            # Fișiere individuale (ex. voturi/{idv}.json) au un singur obiect ca data
+            total_records += 1
         total_size += f.stat().st_size
 
         meta = d.get("meta", {})

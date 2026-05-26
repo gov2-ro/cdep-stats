@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T17:25:53.762453Z",
+    "source_url": "https://www.cdep.ro/ords/pls/steno/steno2015.data?cam=2&dat=20260311&idl=1",
+    "scraper_version": "0.1.0",
+    "count": 0
+  },
+  "data": {
+    "id": "0f7996306527510b",
+    "session_date": "2026-03-11",
+    "cam": 2,
+    "legislatura": 2024,
+    "titlu": "Şedinţa Camerei Deputaţilor",
+    "interventions": [],
+    "text_complet_len": 12632,
+    "source_url": "https://www.cdep.ro/ords/pls/steno/steno2015.data?cam=2&dat=20260311&idl=1"
+  }
+}

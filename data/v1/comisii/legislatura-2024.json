@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-29T16:20:34.056268Z",
+    "generated_at": "2026-05-26T18:07:32.948796Z",
     "source_url": "derived from /v1/deputati/legislatura-2024.json",
     "scraper_version": "0.1.0",
     "count": 37
@@ -333,7 +333,7 @@
       "nume": "Comisia juridică, de disciplină şi imunităţi",
       "tip": "permanenta",
       "legislatura": 2024,
-      "nr_membri": 34,
+      "nr_membri": 35,
       "presedinte": "Ciucă Liviu-Bogdan",
       "vicepresedinti": [
         "Dobre Ciprian-Minodor",
@@ -343,8 +343,7 @@
       ],
       "secretari": [
         "Cozma Adrian-Felician",
-        "Ladányi László-Zsolt",
-        "Neagu Petre-Emanoil"
+        "Ladányi László-Zsolt"
       ],
       "membri": [
         {
@@ -373,6 +372,13 @@
           "deputat_nume": "Becali George",
           "deputat_cdep_idm": 23,
           "partid": "Alianţa pentru Unirea Românilor - până în mar. 2025 Fără adeziune la formaţiunea politică AUR pentru care a candidat la alegeri",
+          "rol": "Membru"
+        },
+        {
+          "deputat_canonical_id": "9aad1752feb56125",
+          "deputat_nume": "Chilat Crina-Fiorela",
+          "deputat_cdep_idm": 53,
+          "partid": "Partidul Social Democrat",
           "rol": "Membru"
         },
         {
@@ -505,8 +511,8 @@
           "deputat_canonical_id": "27e7de85b1c71ee0",
           "deputat_nume": "Neagu Petre-Emanoil",
           "deputat_cdep_idm": 223,
-          "partid": "Partidul Social Democrat",
-          "rol": "Secretar"
+          "partid": "Partidul Social Democrat - până în apr. 2026 - Partidul Naţional Liberal",
+          "rol": "Membru"
         },
         {
           "deputat_canonical_id": "31eac508e1b05e13",
@@ -707,7 +713,7 @@
       "nume": "Comisia pentru administraţie publică şi amenajarea teritoriului",
       "tip": "permanenta",
       "legislatura": 2024,
-      "nr_membri": 35,
+      "nr_membri": 36,
       "presedinte": "Roman Florin-Claudiu",
       "vicepresedinti": [
         "Biro Daniel-Răzvan",
@@ -789,6 +795,13 @@
           "deputat_nume": "Coman Dragoş-Florin",
           "deputat_cdep_idm": 74,
           "partid": "Alianţa pentru Unirea Românilor",
+          "rol": "Membru"
+        },
+        {
+          "deputat_canonical_id": "37952bee5b10e9f8",
+          "deputat_nume": "Constantinescu Sergiu-Mircea",
+          "deputat_cdep_idm": 76,
+          "partid": "Partidul Social Democrat",
           "rol": "Membru"
         },
         {
@@ -886,7 +899,7 @@
           "deputat_canonical_id": "27e7de85b1c71ee0",
           "deputat_nume": "Neagu Petre-Emanoil",
           "deputat_cdep_idm": 223,
-          "partid": "Partidul Social Democrat",
+          "partid": "Partidul Social Democrat - până în apr. 2026 - Partidul Naţional Liberal",
           "rol": "Membru"
         },
         {
@@ -2231,7 +2244,7 @@
       "nume": "Comisia pentru cercetarea abuzurilor, corupţiei şi pentru petiţii",
       "tip": "permanenta",
       "legislatura": 2024,
-      "nr_membri": 20,
+      "nr_membri": 21,
       "presedinte": "Gherasim Laura",
       "vicepresedinti": [
         "Andruşcă Lucian-Nicolae",
@@ -2307,6 +2320,13 @@
           "deputat_cdep_idm": 123,
           "partid": "Alianţa pentru Unirea Românilor",
           "rol": "Președinte"
+        },
+        {
+          "deputat_canonical_id": "ba9b03f6bde47909",
+          "deputat_nume": "Kulcsár-Terza József-György",
+          "deputat_cdep_idm": 165,
+          "partid": "Uniunea Democrată Maghiară",
+          "rol": "Membru"
         },
         {
           "deputat_canonical_id": "619a3d166e1024af",
@@ -2502,7 +2522,7 @@
           "deputat_canonical_id": "27e7de85b1c71ee0",
           "deputat_nume": "Neagu Petre-Emanoil",
           "deputat_cdep_idm": 223,
-          "partid": "Partidul Social Democrat",
+          "partid": "Partidul Social Democrat - până în apr. 2026 - Partidul Naţional Liberal",
           "rol": "Membru"
         },
         {
@@ -2837,7 +2857,7 @@
       "nume": "Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale",
       "tip": "permanenta",
       "legislatura": 2024,
-      "nr_membri": 29,
+      "nr_membri": 30,
       "presedinte": "Ibram Iusein",
       "vicepresedinti": [
         "Baş Ana-Marcela",
@@ -2959,7 +2979,7 @@
           "deputat_canonical_id": "b9a29327ac6678e8",
           "deputat_nume": "Moiseev Alexandrin",
           "deputat_cdep_idm": 204,
-          "partid": "Partidul S.O.S. România - până în feb. 2025 Fără adeziune la formaţiunea politică SOS pentru care a candidat la alegeri",
+          "partid": "Partidul S.O.S. România - până în feb. 2025 Fără adeziune la formaţiunea politică pentru care a candidat la alegeri - până în mai 2026",
           "rol": "Membru"
         },
         {
@@ -3043,6 +3063,13 @@
           "deputat_canonical_id": "c031615ae0072b6a",
           "deputat_nume": "Tanasă Dan",
           "deputat_cdep_idm": 298,
+          "partid": "Alianţa pentru Unirea Românilor",
+          "rol": "Membru"
+        },
+        {
+          "deputat_canonical_id": "ce0aedc4de385a9d",
+          "deputat_nume": "Vărşan Ciprian-Nicolae",
+          "deputat_cdep_idm": 335,
           "partid": "Alianţa pentru Unirea Românilor",
           "rol": "Membru"
         },
@@ -3400,7 +3427,7 @@
           "deputat_canonical_id": "b23d57533f30b1b7",
           "deputat_nume": "Plopeanu Rodica",
           "deputat_cdep_idm": 246,
-          "partid": "Partidul S.O.S. România - până în iun. 2025 Fără adeziune la formaţiunea politică SOS pentru care a candidat la alegeri",
+          "partid": "Partidul S.O.S. România - până în iun. 2025 Fără adeziune la formaţiunea politică pentru care a candidat la alegeri - până în mai 2026 - Partidul Social Democrat",
           "rol": "Secretar"
         },
         {
@@ -3473,7 +3500,7 @@
       "nume": "Comisia pentru mediu şi echilibru ecologic",
       "tip": "permanenta",
       "legislatura": 2024,
-      "nr_membri": 30,
+      "nr_membri": 31,
       "presedinte": "Buzoianu Diana-Anda",
       "vicepresedinti": [
         "Andrei Alexandru-Ioan",
@@ -3636,6 +3663,13 @@
           "rol": "Membru"
         },
         {
+          "deputat_canonical_id": "619a3d166e1024af",
+          "deputat_nume": "Könczei Csaba",
+          "deputat_cdep_idm": 163,
+          "partid": "Uniunea Democrată Maghiară",
+          "rol": "Membru"
+        },
+        {
           "deputat_canonical_id": "ecf0e7d63b8c6e92",
           "deputat_nume": "Manta Claudiu",
           "deputat_cdep_idm": 178,
@@ -3705,7 +3739,7 @@
       "nume": "Comisia pentru muncă şi protecţie socială",
       "tip": "permanenta",
       "legislatura": 2024,
-      "nr_membri": 26,
+      "nr_membri": 27,
       "presedinte": "Solomon Adrian",
       "vicepresedinti": [
         "Csép Éva-Andrea",
@@ -3780,6 +3814,13 @@
           "deputat_nume": "Lăzăroi Ioan",
           "deputat_cdep_idm": 169,
           "partid": "Partidul S.O.S. România",
+          "rol": "Membru"
+        },
+        {
+          "deputat_canonical_id": "69ee9ca114e716d9",
+          "deputat_nume": "Manole Petre-Florin",
+          "deputat_cdep_idm": 177,
+          "partid": "Partidul Social Democrat",
           "rol": "Membru"
         },
         {
@@ -4031,7 +4072,7 @@
           "deputat_canonical_id": "b23d57533f30b1b7",
           "deputat_nume": "Plopeanu Rodica",
           "deputat_cdep_idm": 246,
-          "partid": "Partidul S.O.S. România - până în iun. 2025 Fără adeziune la formaţiunea politică SOS pentru care a candidat la alegeri",
+          "partid": "Partidul S.O.S. România - până în iun. 2025 Fără adeziune la formaţiunea politică pentru care a candidat la alegeri - până în mai 2026 - Partidul Social Democrat",
           "rol": "Membru"
         },
         {
@@ -6396,7 +6437,7 @@
           "deputat_canonical_id": "27e7de85b1c71ee0",
           "deputat_nume": "Neagu Petre-Emanoil",
           "deputat_cdep_idm": 223,
-          "partid": "Partidul Social Democrat",
+          "partid": "Partidul Social Democrat - până în apr. 2026 - Partidul Naţional Liberal",
           "rol": "Membru"
         },
         {
