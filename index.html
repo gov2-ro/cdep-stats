@@ -873,9 +873,12 @@ let PROIECTE = [];
 let PROIECTE_TOTAL = 0;
 let AMENDAMENTE = [];
 let AMENDAMENTE_TOTAL = 0;
+let MOTIUNI_TOTAL = 0;
+let ORDINE_ZI_TOTAL = 0;
+let DECLARATII_AVERE_TOTAL = 0;
 
 async function loadData() {
-  const [dep, vot, san, intp, com, pro, amd] = await Promise.all([
+  const [dep, vot, san, intp, com, pro, amd, mot, ord, dav] = await Promise.all([
     fetch('data/v1/deputati/legislatura-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/voturi/2024/_index.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/sanctiuni/legislatura-2024.json').then(r => r.json()).catch(() => null),
@@ -883,6 +886,9 @@ async function loadData() {
     fetch('data/v1/comisii/legislatura-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/proiecte/legislatura-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/amendamente/legislatura-2024.json').then(r => r.json()).catch(() => null),
+    fetch('data/v1/motiuni/legislatura-2024.json').then(r => r.json()).catch(() => null),
+    fetch('data/v1/ordine-zi/legislatura-2024.json').then(r => r.json()).catch(() => null),
+    fetch('data/v1/declaratii-avere/legislatura-2024.json').then(r => r.json()).catch(() => null),
   ]);
   DEPUTATI = dep?.data || [];
   VOTURI = vot?.data || [];
@@ -893,6 +899,9 @@ async function loadData() {
   PROIECTE_TOTAL = pro?.meta?.count || PROIECTE.length || 0;
   AMENDAMENTE = amd?.data || [];
   AMENDAMENTE_TOTAL = AMENDAMENTE.reduce((s, a) => s + (a.amendamente_total || 0), 0);
+  MOTIUNI_TOTAL = mot?.meta?.count || mot?.data?.length || 0;
+  ORDINE_ZI_TOTAL = ord?.meta?.count || ord?.data?.length || 0;
+  DECLARATII_AVERE_TOTAL = dav?.meta?.count || dav?.data?.length || 0;
 
   renderStats();
   renderDeps(DEPUTATI);
@@ -911,6 +920,9 @@ function renderStats() {
   set('stat-sanctiuni', SANCTIUNI.length);
   set('stat-comisii', COMISII_TOTAL);
   set('stat-proiecte', PROIECTE_TOTAL);
+  set('stat-motiuni', MOTIUNI_TOTAL);
+  set('stat-ordine-zi', ORDINE_ZI_TOTAL);
+  set('stat-declaratii', DECLARATII_AVERE_TOTAL);
   set('stats-deputati', DEPUTATI.length);
   set('stats-voturi', VOTURI.length);
   set('stats-interpelari', INTERPELARI_TOTAL);
