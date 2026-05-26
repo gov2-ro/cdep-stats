@@ -216,7 +216,9 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
     <div class="stat"><div class="stat-num" id="stat-proiecte">…</div><div class="stat-lbl" data-i18n="stat_proiecte">Proiecte de lege</div></div>
     <div class="stat"><div class="stat-num" id="stat-interpelari">…</div><div class="stat-lbl" data-i18n="stat_interpelari">Interpelări</div></div>
     <div class="stat"><div class="stat-num" id="stat-comisii">…</div><div class="stat-lbl" data-i18n="stat_comisii">Comisii</div></div>
-    <div class="stat"><div class="stat-num" id="stat-sanctiuni">…</div><div class="stat-lbl" data-i18n="stat_sanctiuni">Sancțiuni</div></div>
+    <div class="stat"><div class="stat-num" id="stat-motiuni">…</div><div class="stat-lbl">Moțiuni</div></div>
+    <div class="stat"><div class="stat-num" id="stat-ordine-zi">…</div><div class="stat-lbl">Ședințe plen</div></div>
+    <div class="stat"><div class="stat-num" id="stat-declaratii">…</div><div class="stat-lbl">Declarații avere</div></div>
   </div>
 </div>
 
@@ -225,12 +227,17 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
     <div class="sidebar-section">
       <div class="sidebar-label" data-i18n="sidebar_endpoints">Endpoint-uri</div>
       <button class="sidebar-item active" onclick="scrollTo('ep-deputati')">GET /deputati</button>
-      <button class="sidebar-item" onclick="scrollTo('ep-deputat-id')">GET /deputati/{id}</button>
-      <button class="sidebar-item" onclick="scrollTo('ep-prezenta')">GET /deputati/{id}/prezenta</button>
       <button class="sidebar-item" onclick="scrollTo('ep-voturi')">GET /voturi</button>
-      <button class="sidebar-item" onclick="scrollTo('ep-vot-id')">GET /voturi/{id}</button>
-      <button class="sidebar-item" onclick="scrollTo('ep-proiecte')">GET /proiecte-lege</button>
+      <button class="sidebar-item" onclick="scrollTo('ep-proiecte')">GET /proiecte</button>
+      <button class="sidebar-item" onclick="scrollTo('ep-interpelari')">GET /interpelari</button>
       <button class="sidebar-item" onclick="scrollTo('ep-comisii')">GET /comisii</button>
+      <button class="sidebar-item" onclick="scrollTo('ep-sanctiuni')">GET /sanctiuni</button>
+      <button class="sidebar-item" onclick="scrollTo('ep-motiuni')">GET /motiuni</button>
+      <button class="sidebar-item" onclick="scrollTo('ep-amendamente')">GET /amendamente</button>
+      <button class="sidebar-item" onclick="scrollTo('ep-ordine-zi')">🆕 GET /ordine-zi</button>
+      <button class="sidebar-item" onclick="scrollTo('ep-declaratii')">🆕 GET /declaratii</button>
+      <button class="sidebar-item" onclick="scrollTo('ep-stenograme')">🆕 GET /stenograme</button>
+      <button class="sidebar-item" onclick="scrollTo('ep-doc-comisii')">🆕 GET /doc-comisii</button>
     </div>
     <div class="sidebar-section">
       <div class="sidebar-label" data-i18n="sidebar_resources">Resurse</div>
@@ -579,6 +586,118 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
   ]
 }</pre>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- /ordine-zi -->
+      <div class="endpoint" id="ep-ordine-zi">
+        <div class="ep-header" onclick="toggleEp(this)">
+          <span class="method get">GET</span>
+          <span class="ep-path">/ordine-zi/legislatura-{leg}.json</span>
+          <span class="ep-summary">🆕 Ordinea de zi a ședințelor plenului</span>
+          <span class="ep-arrow">▾</span>
+        </div>
+        <div class="ep-body">
+          <div class="ep-desc">Ce se votează în plen: agendă cu titlu, descriere, link la proiect și PDF cu textul punctului. Cross-link <code>idp</code> la <code>/proiecte</code>.</div>
+          <div class="params-title">Date returnate</div>
+          <table class="params-table">
+            <tr><th>Câmp</th><th>Tip</th><th>Descriere</th></tr>
+            <tr><td>session_date</td><td>date</td><td>Prima zi a ședinței (multi-zi posibil prin session_date_end)</td></tr>
+            <tr><td>titlu</td><td>string</td><td>Ex: "Ordinea de zi pentru sedinţa din 26 - 27 mai 2026"</td></tr>
+            <tr><td>pdf_url</td><td>url</td><td>PDF cu ordinea completă</td></tr>
+            <tr><td>items[]</td><td>list</td><td>Lista punctelor (pozitie, nr_inregistrare, idp, descriere, doc_pdf_url)</td></tr>
+          </table>
+          <div class="try-section">
+            <div class="try-title">Testează</div>
+            <div class="url-builder">
+              <span class="url-method">GET</span>
+              <span class="url-text">data/v1/ordine-zi/legislatura-2024.json</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- /declaratii -->
+      <div class="endpoint" id="ep-declaratii">
+        <div class="ep-header" onclick="toggleEp(this)">
+          <span class="method get">GET</span>
+          <span class="ep-path">/declaratii/legislatura-{leg}.json</span>
+          <span class="ep-summary">🆕 Declarații de avere și interese</span>
+          <span class="ep-arrow">▾</span>
+        </div>
+        <div class="ep-body">
+          <div class="ep-desc">Link-uri PDF la declarațiile de avere și interese pentru toți deputații, cu data depunerii. Multi-PDF per tip (inițială + modificări). Cross-link <code>cdep_idm</code> la <code>/deputati</code>.</div>
+          <div class="params-title">Date returnate</div>
+          <table class="params-table">
+            <tr><th>Câmp</th><th>Tip</th><th>Descriere</th></tr>
+            <tr><td>cdep_idm</td><td>int</td><td>ID deputat (cross-link cu /deputati)</td></tr>
+            <tr><td>deputat_nume</td><td>string</td><td>Nume complet</td></tr>
+            <tr><td>partid_short</td><td>string</td><td>PSD, PNL, USR, AUR, etc.</td></tr>
+            <tr><td>avere[]</td><td>list</td><td>[ {url, data} ] — declarații avere PDF</td></tr>
+            <tr><td>interese[]</td><td>list</td><td>[ {url, data} ] — declarații interese PDF</td></tr>
+          </table>
+          <div class="try-section">
+            <div class="try-title">Testează</div>
+            <div class="url-builder">
+              <span class="url-method">GET</span>
+              <span class="url-text">data/v1/declaratii/legislatura-2024.json</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- /stenograme -->
+      <div class="endpoint" id="ep-stenograme">
+        <div class="ep-header" onclick="toggleEp(this)">
+          <span class="method get">GET</span>
+          <span class="ep-path">/stenograme/legislatura-{leg}/{YYYYMMDD}.json</span>
+          <span class="ep-summary">🆕 Stenograme ședințe plen</span>
+          <span class="ep-arrow">▾</span>
+        </div>
+        <div class="ep-body">
+          <div class="ep-desc">Text complet al ședințelor plenului. Acoperire din februarie 1996. <em>Notă: parser-ul pentru intervenții individuale (per vorbitor) e WIP — momentan extragem text complet + metadate.</em></div>
+          <div class="params-title">Storage</div>
+          <table class="params-table">
+            <tr><th>Path</th><th>Conținut</th></tr>
+            <tr><td><code>_index.json</code></td><td>Sumar cu toate ședințele dintr-o legislatură</td></tr>
+            <tr><td><code>{YYYYMMDD}.json</code></td><td>Stenograma unei zile (titlu, text_complet_len, source_url)</td></tr>
+          </table>
+          <div class="try-section">
+            <div class="try-title">Testează</div>
+            <div class="url-builder">
+              <span class="url-method">GET</span>
+              <span class="url-text">data/v1/stenograme/legislatura-2024/_index.json</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- /doc-comisii -->
+      <div class="endpoint" id="ep-doc-comisii">
+        <div class="ep-header" onclick="toggleEp(this)">
+          <span class="method get">GET</span>
+          <span class="ep-path">/doc-comisii/all.json</span>
+          <span class="ep-summary">🆕 Documente comisii — rapoarte, avize, sinteze</span>
+          <span class="ep-arrow">▾</span>
+        </div>
+        <div class="ep-body">
+          <div class="ep-desc">Toate documentele oficiale emise de comisii: rapoarte la proiecte de lege, avize de specialitate, sinteze ședințe, procese verbale. Cross-link <code>idp</code> la <code>/proiecte</code>, <code>idc</code> la <code>/comisii</code>.</div>
+          <div class="params-title">Tipuri documente</div>
+          <table class="params-table">
+            <tr><th>Tip</th><th>Descriere</th></tr>
+            <tr><td>raport</td><td>Raport al comisiei la un proiect de lege (cu idp)</td></tr>
+            <tr><td>aviz</td><td>Aviz de specialitate al comisiei (cu idp)</td></tr>
+            <tr><td>sinteza</td><td>Sinteză a lucrărilor unei ședințe a comisiei</td></tr>
+            <tr><td>proces_verbal</td><td>Proces verbal al unei ședințe</td></tr>
+          </table>
+          <div class="try-section">
+            <div class="try-title">Testează</div>
+            <div class="url-builder">
+              <span class="url-method">GET</span>
+              <span class="url-text">data/v1/doc-comisii/all.json</span>
+            </div>
+            <div style="margin-top:8px;font-size:12px;color:var(--text3)">~85.895 documente. Paginat per pagină de 99 pe cdep.ro.</div>
           </div>
         </div>
       </div>

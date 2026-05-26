@@ -305,6 +305,212 @@ paths:
               schema:
                 $ref: "#/components/schemas/AmendamenteResponse"
 
+  /ordine-zi/legislatura-{legislatura}.json:
+    get:
+      tags: [OrdineZi]
+      summary: Ordinea de zi a ședințelor plenului
+      description: |
+        Lista ședințelor plenului Camerei Deputaților dintr-o legislatură, cu agendă
+        detaliată per ședință (punctele de pe ordinea de zi). Fiecare punct cu
+        proiect de lege are cross-link `idp` la `/proiecte`.
+
+        Sursa: `/ords/pls/caseta/ecaseta2015.OrdineZi?dat=YYYYMMDD`
+      parameters:
+        - name: legislatura
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 2024
+      responses:
+        "200":
+          description: Succes
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  meta: { $ref: "#/components/schemas/Meta" }
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id: { type: string }
+                        session_date: { type: string, format: date }
+                        session_date_end: { type: string, format: date, nullable: true }
+                        titlu: { type: string }
+                        data_aprobare: { type: string, format: date, nullable: true }
+                        pdf_url: { type: string, format: uri, nullable: true }
+                        items:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              pozitie: { type: integer, nullable: true }
+                              nr_inregistrare: { type: string, nullable: true, example: "Pl-x 464/2023" }
+                              idp: { type: integer, nullable: true, description: "Cross-link cu /proiecte" }
+                              descriere: { type: string }
+                              doc_pdf_url: { type: string, format: uri, nullable: true }
+                              ozitm: { type: integer, nullable: true }
+
+  /declaratii/legislatura-{legislatura}.json:
+    get:
+      tags: [Declaratii]
+      summary: Declarații de avere și interese
+      description: |
+        Link-uri PDF la declarațiile de avere și interese pentru toți deputații
+        dintr-o legislatură, cu data depunerii. Multi-PDF per tip suportat
+        (declarații inițiale + modificări). Cross-link `cdep_idm` la `/deputati`.
+
+        Sursa: `/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=YYYY`
+      parameters:
+        - name: legislatura
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 2024
+      responses:
+        "200":
+          description: Succes
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  meta: { $ref: "#/components/schemas/Meta" }
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id: { type: string }
+                        cdep_idm: { type: integer, description: "Cross-link cu /deputati" }
+                        deputat_nume: { type: string }
+                        deputat_canonical_id: { type: string, nullable: true }
+                        legislatura: { type: integer }
+                        partid_short: { type: string, nullable: true, example: "PSD" }
+                        avere:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              url: { type: string, format: uri }
+                              data: { type: string, format: date, nullable: true }
+                        interese:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              url: { type: string, format: uri }
+                              data: { type: string, format: date, nullable: true }
+
+  /stenograme/legislatura-{legislatura}/_index.json:
+    get:
+      tags: [Stenograme]
+      summary: Index sumar stenograme
+      description: |
+        Index al tuturor stenogramelor dintr-o legislatură. Fiecare entry
+        conține `detail_url` care indică la fișierul cu textul complet.
+      parameters:
+        - name: legislatura
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 2024
+      responses:
+        "200":
+          description: Succes
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  meta: { $ref: "#/components/schemas/Meta" }
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id: { type: string }
+                        session_date: { type: string, format: date }
+                        cam: { type: integer, description: "2=CD, 1=Senat, 0=ședință comună" }
+                        legislatura: { type: integer }
+                        titlu: { type: string, nullable: true }
+                        n_interventions: { type: integer }
+                        text_complet_len: { type: integer, nullable: true }
+                        detail_url: { type: string }
+
+  /stenograme/legislatura-{legislatura}/{yyyymmdd}.json:
+    get:
+      tags: [Stenograme]
+      summary: Stenograma unei zile de ședință
+      description: |
+        Stenograma propriu-zisă pentru o ședință specifică. Acoperire din februarie 1996.
+
+        **Notă**: parser-ul pentru intervenții individuale (per vorbitor + partid) e WIP.
+        Momentan extragem text complet + metadate; lista de intervenții va fi populată
+        în versiuni viitoare după calibrare.
+      parameters:
+        - name: legislatura
+          in: path
+          required: true
+          schema: { type: integer, example: 2024 }
+        - name: yyyymmdd
+          in: path
+          required: true
+          schema: { type: string, example: "20260518" }
+      responses:
+        "200":
+          description: Succes
+
+  /doc-comisii/all.json:
+    get:
+      tags: [DocComisii]
+      summary: Documente comisii — rapoarte, avize, sinteze, procese verbale
+      description: |
+        Toate documentele oficiale emise de comisii parlamentare. Tipuri:
+        `raport` (la proiect de lege), `aviz` (specialitate), `sinteza`
+        (lucrări ședință), `proces_verbal`. Volum mare: ~85.895 documente.
+
+        Cross-link `idp` (la `/proiecte`) pentru rapoarte/avize; `comisii[].idc`
+        pentru identificarea comisiilor emitente.
+
+        Sursa: `/ords/pls/proiecte/upl_com2015.lista`
+      responses:
+        "200":
+          description: Succes
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  meta: { $ref: "#/components/schemas/Meta" }
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id: { type: string }
+                        pdf_url: { type: string, format: uri }
+                        data: { type: string, format: date, nullable: true }
+                        tip:
+                          type: string
+                          enum: [raport, aviz, sinteza, proces_verbal, other]
+                        titlu: { type: string }
+                        idp: { type: integer, nullable: true, description: "Cross-link cu /proiecte" }
+                        nr_proiect: { type: string, nullable: true, example: "553/2025" }
+                        comisii:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              idc: { type: integer }
+                              nume: { type: string }
+                              leg: { type: integer, nullable: true }
+
 components:
   schemas:
     Meta:
