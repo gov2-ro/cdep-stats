@@ -82,6 +82,10 @@ def main() -> int:
         "proiecte": collect_endpoint_status("proiecte", "proiecte/legislatura-*.json"),
         "amendamente": collect_endpoint_status("amendamente", "amendamente/legislatura-*.json"),
         "motiuni": collect_endpoint_status("motiuni", "motiuni/legislatura-*.json"),
+        "ordine_zi": collect_endpoint_status("ordine_zi", "ordine-zi/legislatura-*.json"),
+        "declaratii": collect_endpoint_status("declaratii", "declaratii/legislatura-*.json"),
+        "stenograme": collect_endpoint_status("stenograme", "stenograme/legislatura-*/_index.json"),
+        "doc_comisii": collect_endpoint_status("doc_comisii", "doc-comisii/all.json"),
     }
 
     # Totals

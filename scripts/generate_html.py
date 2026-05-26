@@ -403,6 +403,163 @@ def generate_comisii() -> int:
     return count
 
 
+def generate_ordine_zi() -> int:
+    """Generează pagini HTML pentru ordinea de zi a ședințelor (cross-link la proiecte)."""
+    count = 0
+    for leg in [2024, 2020, 2016]:
+        f = DATA / "ordine-zi" / f"legislatura-{leg}.json"
+        if not f.exists():
+            continue
+        data = json.loads(f.read_text(encoding="utf-8"))
+        for sesiune in data["data"]:
+            items_html = ""
+            if sesiune.get("items"):
+                items_html = "<h2>Puncte pe ordinea de zi</h2><ol>"
+                for it in sesiune["items"]:
+                    nr = (
+                        f" <strong>{safe(it.get('nr_inregistrare') or '')}</strong> -"
+                        if it.get("nr_inregistrare")
+                        else ""
+                    )
+                    items_html += f"<li>{nr} {safe(it.get('descriere', ''))}</li>"
+                items_html += "</ol>"
+            data_aprobare = sesiune.get("data_aprobare") or ""
+            body = f"""
+<p data-pagefind-filter="tip:ordine_zi" data-pagefind-meta="tip:ordine_zi">
+<strong data-pagefind-filter="legislatura:{sesiune["legislatura"]}">Legislatura {sesiune["legislatura"]}</strong>
+&middot; Ședință din <span data-pagefind-filter="data:{sesiune["session_date"]}">{safe(sesiune["session_date"])}</span>
+{f"&middot; Aprobată: {safe(data_aprobare)}" if data_aprobare else ""}
+&middot; {len(sesiune.get("items", []))} puncte
+</p>
+{items_html}
+"""
+            ymd = sesiune["session_date"].replace("-", "")
+            page_path = PAGES / "ordine-zi" / f"{leg}-{ymd}.html"
+            write_page(
+                page_path,
+                sesiune.get("titlu", f"Ordinea de zi {sesiune['session_date']}"),
+                body,
+                f"/data/v1/ordine-zi/legislatura-{leg}.json",
+            )
+            count += 1
+    return count
+
+
+def generate_declaratii() -> int:
+    """Generează pagini pentru declarațiile de avere ale fiecărui deputat."""
+    count = 0
+    for leg in [2024, 2020, 2016]:
+        f = DATA / "declaratii" / f"legislatura-{leg}.json"
+        if not f.exists():
+            continue
+        data = json.loads(f.read_text(encoding="utf-8"))
+        for d in data["data"]:
+            avere_html = ""
+            if d.get("avere"):
+                avere_html = "<h2>Declarații de avere</h2><ul>"
+                for a in d["avere"]:
+                    avere_html += (
+                        f'<li><a href="{safe(a["url"])}">PDF</a> '
+                        f"— {safe(a.get('data') or 'fără dată')}</li>"
+                    )
+                avere_html += "</ul>"
+            interese_html = ""
+            if d.get("interese"):
+                interese_html = "<h2>Declarații de interese</h2><ul>"
+                for i in d["interese"]:
+                    interese_html += (
+                        f'<li><a href="{safe(i["url"])}">PDF</a> '
+                        f"— {safe(i.get('data') or 'fără dată')}</li>"
+                    )
+                interese_html += "</ul>"
+            partid = d.get("partid_short") or "neafiliat"
+            body = f"""
+<p data-pagefind-filter="tip:declaratie" data-pagefind-meta="tip:declaratie">
+<strong>{safe(d["deputat_nume"])}</strong>
+&middot; <span data-pagefind-filter="partid:{safe(partid)}">{safe(partid)}</span>
+&middot; <span data-pagefind-filter="legislatura:{d["legislatura"]}">Legislatura {d["legislatura"]}</span>
+&middot; {len(d.get("avere", []))} decl. avere, {len(d.get("interese", []))} decl. interese
+</p>
+{avere_html}
+{interese_html}
+"""
+            page_path = PAGES / "declaratii" / f"{leg}-{d['cdep_idm']}.html"
+            write_page(
+                page_path,
+                f"Declarații {d['deputat_nume']} ({partid})",
+                body,
+                f"/data/v1/declaratii/legislatura-{leg}.json",
+            )
+            count += 1
+    return count
+
+
+def generate_stenograme() -> int:
+    """Generează pagini pentru stenogramele ședințelor (din _index)."""
+    count = 0
+    for leg in [2024, 2020, 2016]:
+        idx = DATA / "stenograme" / f"legislatura-{leg}" / "_index.json"
+        if not idx.exists():
+            continue
+        data = json.loads(idx.read_text(encoding="utf-8"))
+        for s in data["data"]:
+            body = f"""
+<p data-pagefind-filter="tip:stenograma" data-pagefind-meta="tip:stenograma">
+<strong>Stenograma ședinței plen</strong>
+&middot; <span data-pagefind-filter="data:{s["session_date"]}">{safe(s["session_date"])}</span>
+&middot; <span data-pagefind-filter="legislatura:{s["legislatura"]}">Legislatura {s["legislatura"]}</span>
+{f"&middot; ~{s['text_complet_len']:,} caractere text" if s.get("text_complet_len") else ""}
+</p>
+{f"<p>{safe(s['titlu'])}</p>" if s.get("titlu") else ""}
+"""
+            ymd = s["session_date"].replace("-", "")
+            page_path = PAGES / "stenograme" / f"{leg}-{ymd}.html"
+            write_page(
+                page_path,
+                s.get("titlu") or f"Stenograma {s['session_date']}",
+                body,
+                f"/data/v1/stenograme/legislatura-{leg}/{ymd}.json",
+            )
+            count += 1
+    return count
+
+
+def generate_doc_comisii() -> int:
+    """Generează pagini pentru documente comisii (rapoarte, avize, sinteze)."""
+    f = DATA / "doc-comisii" / "all.json"
+    if not f.exists():
+        return 0
+    data = json.loads(f.read_text(encoding="utf-8"))
+    count = 0
+    for d in data["data"]:
+        comisii_str = ", ".join(c.get("nume", "?") for c in d.get("comisii", []))
+        data_doc = d.get("data") or "fără dată"
+        proi_link = (
+            f' <a href="/proiect.html?idp={d["idp"]}">PL {safe(d.get("nr_proiect") or "?")}</a>'
+            if d.get("idp")
+            else ""
+        )
+        body = f"""
+<p data-pagefind-filter="tip:doc_comisie" data-pagefind-meta="tip:doc_comisie">
+<strong data-pagefind-filter="tip_doc:{safe(d["tip"])}">{safe(d["tip"]).upper()}</strong>
+&middot; <span data-pagefind-filter="data:{safe(data_doc)}">{safe(data_doc)}</span>
+{f"&middot; Comisia: {safe(comisii_str)}" if comisii_str else ""}
+{proi_link}
+&middot; <a href="{safe(d["pdf_url"])}">PDF</a>
+</p>
+<p>{safe(d.get("titlu", ""))}</p>
+"""
+        page_path = PAGES / "doc-comisii" / f"{d['id']}.html"
+        write_page(
+            page_path,
+            d.get("titlu", "Document comisie")[:120],
+            body,
+            "/data/v1/doc-comisii/all.json",
+        )
+        count += 1
+    return count
+
+
 def main() -> int:
     PAGES.mkdir(parents=True, exist_ok=True)
     print(f"Generating HTML pages in {PAGES}/")
@@ -420,7 +577,15 @@ def main() -> int:
     print(f"  proiecte: {n_pro}")
     n_mot = generate_motiuni()
     print(f"  motiuni: {n_mot}")
-    total = n_dep + n_vot + n_san + n_int + n_com + n_pro + n_mot
+    n_oz = generate_ordine_zi()
+    print(f"  ordine-zi: {n_oz}")
+    n_dcl = generate_declaratii()
+    print(f"  declarații: {n_dcl}")
+    n_stn = generate_stenograme()
+    print(f"  stenograme: {n_stn}")
+    n_dc = generate_doc_comisii()
+    print(f"  doc-comisii: {n_dc}")
+    total = n_dep + n_vot + n_san + n_int + n_com + n_pro + n_mot + n_oz + n_dcl + n_stn + n_dc
     print(f"\nTotal: {total} pagini HTML generate")
     return 0
 

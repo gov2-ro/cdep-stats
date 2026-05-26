@@ -1,90 +1,126 @@
 {
-  "generated_at": "2026-04-30T18:32:46.531874+00:00",
+  "generated_at": "2026-05-26T17:43:45.263945+00:00",
   "build_version": "0.2.0",
-  "data_freshness": "2026-04-30T03:39:28.131455Z",
+  "data_freshness": "2026-05-26T17:39:01.385823Z",
   "totals": {
-    "records": 39079,
-    "files": 4448,
-    "size_mb": 225.83
+    "records": 60968,
+    "files": 4489,
+    "size_mb": 263.73
   },
   "endpoints": {
     "deputati": {
       "records": 1050,
       "files": 3,
       "size_mb": 1.91,
-      "freshness": "2026-04-27T17:00:31.567761Z",
+      "freshness": "2026-05-08T03:45:08.946828Z",
       "scraper_versions": [
         "0.1.0"
       ]
     },
     "voturi_index": {
-      "records": 4432,
+      "records": 4456,
       "files": 2,
       "size_mb": 1.68,
-      "freshness": "2026-04-29T19:47:16.184836Z",
+      "freshness": "2026-05-08T03:30:33.010631Z",
       "scraper_versions": [
         "0.1.0"
       ]
     },
     "voturi_per_vot": {
       "records": 0,
-      "files": 4432,
-      "size_mb": 167.29,
-      "freshness": "2026-04-29T19:47:16.162053Z",
+      "files": 4456,
+      "size_mb": 168.25,
+      "freshness": "2026-05-08T03:30:33.009484Z",
       "scraper_versions": [
         "0.1.0"
       ]
     },
     "sanctiuni": {
-      "records": 14,
-      "files": 2,
+      "records": 19,
+      "files": 3,
       "size_mb": 0.01,
-      "freshness": "2026-04-29T19:17:48.515125Z",
+      "freshness": "2026-05-10T19:13:21.654431Z",
       "scraper_versions": [
         "0.1.0"
       ]
     },
     "interpelari": {
-      "records": 27366,
-      "files": 2,
-      "size_mb": 31.4,
-      "freshness": "2026-04-29T21:17:54.620531Z",
+      "records": 44464,
+      "files": 3,
+      "size_mb": 50.75,
+      "freshness": "2026-05-26T16:44:31.607651Z",
       "scraper_versions": [
         "0.1.0"
       ]
     },
     "comisii": {
-      "records": 91,
-      "files": 2,
-      "size_mb": 0.48,
-      "freshness": "2026-04-29T19:18:06.224611Z",
+      "records": 158,
+      "files": 3,
+      "size_mb": 0.72,
+      "freshness": "2026-04-30T20:27:48.599029Z",
       "scraper_versions": [
         "0.1.0"
       ]
     },
     "proiecte": {
-      "records": 5245,
-      "files": 2,
-      "size_mb": 21.91,
-      "freshness": "2026-04-29T21:35:59.588951Z",
+      "records": 8503,
+      "files": 3,
+      "size_mb": 36.19,
+      "freshness": "2026-05-08T03:38:29.151501Z",
       "scraper_versions": [
         "0.1.0"
       ]
     },
     "amendamente": {
-      "records": 875,
-      "files": 2,
-      "size_mb": 1.1,
-      "freshness": "2026-04-30T03:02:46.442087Z",
+      "records": 1679,
+      "files": 3,
+      "size_mb": 2.05,
+      "freshness": "2026-04-30T21:40:16.715136Z",
       "scraper_versions": [
         "0.1.0"
       ]
     },
     "motiuni": {
-      "records": 6,
+      "records": 162,
+      "files": 9,
+      "size_mb": 1.25,
+      "freshness": "2026-05-26T16:55:19.391908Z",
+      "scraper_versions": [
+        "0.1.0"
+      ]
+    },
+    "ordine_zi": {
+      "records": 19,
       "files": 1,
-      "size_mb": 0.05,
-      "freshness": "2026-04-30T03:39:28.131455Z",
+      "size_mb": 0.6,
+      "freshness": "2026-05-26T17:39:01.385823Z",
+      "scraper_versions": [
+        "0.1.0"
+      ]
+    },
+    "declaratii": {
+      "records": 332,
+      "files": 1,
+      "size_mb": 0.25,
+      "freshness": "2026-05-26T17:24:42.015626Z",
+      "scraper_versions": [
+        "0.1.0"
+      ]
+    },
+    "stenograme": {
+      "records": 28,
+      "files": 1,
+      "size_mb": 0.01,
+      "freshness": "2026-05-26T17:25:53.769713Z",
+      "scraper_versions": [
+        "0.1.0"
+      ]
+    },
+    "doc_comisii": {
+      "records": 98,
+      "files": 1,
+      "size_mb": 0.06,
+      "freshness": "2026-05-26T17:24:43.332586Z",
       "scraper_versions": [
         "0.1.0"
       ]
