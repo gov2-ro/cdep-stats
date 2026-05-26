@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:04:05.813179Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "2495af598bd9485a",
+    "cdep_idm": 325,
+    "deputat_nume": "Vulpoiu Dorel",
+    "deputat_canonical_id": "dd36acd7f0633b7d",
+    "legislatura": 2024,
+    "partid_short": "AUR",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-20",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/325.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 817.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 24000.0,
+        "datorii_total_ron": 262600.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-20",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 24000.0,
+    "ultima_imobile_count": 3,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

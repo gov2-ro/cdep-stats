@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:00:34.015763Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "86dc7a588e475474",
+    "cdep_idm": 189,
+    "deputat_nume": "Mihaiu Radu-Nicolae",
+    "deputat_canonical_id": "d4561c3e81e3cebd",
+    "legislatura": 2024,
+    "partid_short": "USR",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-08",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/189.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 451.0,
+        "conturi_total_ron": 106420.0,
+        "venituri_anuale_ron": 356357.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-13",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/189a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 451.0,
+        "conturi_total_ron": 106420.0,
+        "venituri_anuale_ron": 365357.0,
+        "datorii_total_ron": 75750.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-13",
+    "ultima_conturi_ron": 106420.0,
+    "ultima_venituri_ron": 365357.0,
+    "ultima_imobile_count": 3,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

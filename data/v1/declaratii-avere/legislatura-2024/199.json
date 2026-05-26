@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:00:50.840188Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "241a7dd4148bad42",
+    "cdep_idm": 199,
+    "deputat_nume": "Mititelu Eduard-Tatian",
+    "deputat_canonical_id": "edc68b4f076b452f",
+    "legislatura": 2024,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-13",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/199a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 1601.0,
+        "conturi_total_ron": 326203.5125,
+        "venituri_anuale_ron": 340131.52499999997,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-13",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/199.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 1601.0,
+        "conturi_total_ron": 326203.5125,
+        "venituri_anuale_ron": 340131.52499999997,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-13",
+    "ultima_conturi_ron": 326203.5125,
+    "ultima_venituri_ron": 340131.52499999997,
+    "ultima_imobile_count": 3,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

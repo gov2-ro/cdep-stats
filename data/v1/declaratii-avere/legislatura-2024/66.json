@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:57:11.933570Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "4ca64a800057f868",
+    "cdep_idm": 66,
+    "deputat_nume": "Cîmpean Ovidiu-Vasile",
+    "deputat_canonical_id": "67cef7b8aee898c9",
+    "legislatura": 2024,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-19",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/066.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 81.0,
+        "conturi_total_ron": 631773.0,
+        "venituri_anuale_ron": 363490.05,
+        "datorii_total_ron": 522280.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-06",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/066a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 81.0,
+        "conturi_total_ron": 669420.0,
+        "venituri_anuale_ron": 562570.05,
+        "datorii_total_ron": 382701.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-06",
+    "ultima_conturi_ron": 669420.0,
+    "ultima_venituri_ron": 562570.05,
+    "ultima_imobile_count": 1,
+    "delta_conturi_ron": 37647.0,
+    "delta_imobile": 0
+  }
+}

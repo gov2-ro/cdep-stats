@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:03:54.347990Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "d3dd1ac5122fafc7",
+    "cdep_idm": 318,
+    "deputat_nume": "Vârgă Mariana",
+    "deputat_canonical_id": "a32aa915fc6aaca1",
+    "legislatura": 2024,
+    "partid_short": null,
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-20",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/318.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 29,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 148147.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 1189132.0,
+        "datorii_total_ron": 133000.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-20",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 1189132.0,
+    "ultima_imobile_count": 34,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

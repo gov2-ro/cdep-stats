@@ -68,6 +68,8 @@ Acest API transformă HTML-ul public în JSON structurat, versionat și document
 | `GET /motiuni/legislatura-{leg}.json` | Moțiuni simple + cenzură (acoperire 1992-2024) |
 | 🆕 `GET /ordine-zi/legislatura-{leg}.json` | Ordinea de zi a ședințelor plenului cu cross-link `idp` la proiecte |
 | 🆕 `GET /declaratii/legislatura-{leg}.json` | Declarații de avere + interese (link-uri PDF + date depunere) |
+| 🆕 `GET /declaratii-avere/legislatura-{leg}.json` | **Sumar averi parsate** — ultima declarație + delta pentru fiecare deputat |
+| 🆕 `GET /declaratii-avere/legislatura-{leg}/{cdep_idm}.json` | **Detalii avere** — cronologie completă declarații + sume extrase din PDF |
 | 🆕 `GET /stenograme/legislatura-{leg}/_index.json` | Index stenograme + `{YYYYMMDD}.json` per ședință |
 | 🆕 `GET /doc-comisii/all.json` | Rapoarte, avize, sinteze, procese verbale ale comisiilor |
 
@@ -221,7 +223,23 @@ for d in rapoarte_buget[:5]:
     print(f"{d['data']} — {d['nr_proiect']} → {d['pdf_url']}")
 ```
 
-**4. Toate moțiunile de cenzură din istoria parlamentară** (motiuni cross-leg)
+**4. Deputați cu cele mai mari schimbări de avere în mandat** (declarații-avere)
+```python
+import requests
+idx = requests.get("https://endimion2k.github.io/cdep-api-poc/data/v1/declaratii-avere/legislatura-2024.json").json()
+# Top 10 deputați cu creștere conturi RON
+top_grow = sorted(idx["data"], key=lambda d: d["delta_conturi_ron"], reverse=True)[:10]
+for d in top_grow:
+    print(f"{d['partid_short'] or '-':<6} {d['deputat_nume']:<35} +{d['delta_conturi_ron']:>12,.0f} RON")
+
+# Top 5 deputați cu mai multe imobile decât la depunerea inițială
+imob_growth = [d for d in idx["data"] if d["delta_imobile"] > 0]
+imob_growth.sort(key=lambda d: d["delta_imobile"], reverse=True)
+for d in imob_growth[:5]:
+    print(f"{d['partid_short']} {d['deputat_nume']}: +{d['delta_imobile']} imobile")
+```
+
+**5. Toate moțiunile de cenzură din istoria parlamentară** (motiuni cross-leg)
 ```python
 toate_motiunile = []
 for leg in [2024, 2020, 2016, 2012, 2008, 2004, 2000, 1996, 1992]:

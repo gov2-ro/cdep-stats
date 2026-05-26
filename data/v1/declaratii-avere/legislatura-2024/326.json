@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:04:07.863494Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "1a6445d9e9e604cf",
+    "cdep_idm": 326,
+    "deputat_nume": "Vuşcan Voicu",
+    "deputat_canonical_id": "5855083806df5912",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-31",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/326.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 23334.0,
+        "conturi_total_ron": 6675497.0,
+        "venituri_anuale_ron": 2058401.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 7,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-04",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/326a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 23334.0,
+        "conturi_total_ron": 6432247.0,
+        "venituri_anuale_ron": 1427820.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 7,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-04",
+    "ultima_conturi_ron": 6432247.0,
+    "ultima_venituri_ron": 1427820.0,
+    "ultima_imobile_count": 5,
+    "delta_conturi_ron": -243250.0,
+    "delta_imobile": 0
+  }
+}

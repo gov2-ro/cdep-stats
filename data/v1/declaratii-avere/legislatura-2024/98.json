@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:58:14.904191Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "5e076876897d5484",
+    "cdep_idm": 98,
+    "deputat_nume": "Echert Adrian",
+    "deputat_canonical_id": "f035f23b8a09741e",
+    "legislatura": 2024,
+    "partid_short": "USR",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-29",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/098.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 747.6300000000001,
+        "conturi_total_ron": 151131.2,
+        "venituri_anuale_ron": 318371.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-04-30",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/098a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 747.6300000000001,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 376383.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-04-30",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 376383.0,
+    "ultima_imobile_count": 4,
+    "delta_conturi_ron": -151131.2,
+    "delta_imobile": 0
+  }
+}

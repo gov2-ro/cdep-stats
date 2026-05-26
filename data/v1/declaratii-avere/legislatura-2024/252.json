@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:02:11.372199Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "ff8e569cea8a0d3f",
+    "cdep_idm": 252,
+    "deputat_nume": "Popa George-Adrian",
+    "deputat_canonical_id": "d244d750907d2ca4",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-14",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/252.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 198.89,
+        "conturi_total_ron": 198000.0,
+        "venituri_anuale_ron": 206479.0,
+        "datorii_total_ron": 439381.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-14",
+    "ultima_conturi_ron": 198000.0,
+    "ultima_venituri_ron": 206479.0,
+    "ultima_imobile_count": 3,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

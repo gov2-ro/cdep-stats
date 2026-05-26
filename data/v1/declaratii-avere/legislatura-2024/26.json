@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:56:03.007421Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "a185b90179611f13",
+    "cdep_idm": 26,
+    "deputat_nume": "Berescu Monica-Elena",
+    "deputat_canonical_id": "81ec4360f8aa144a",
+    "legislatura": 2024,
+    "partid_short": "USR",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-15",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/026.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 7,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 5364.429999999999,
+        "conturi_total_ron": 2964498.0,
+        "venituri_anuale_ron": 1723277.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-10",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/026a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 7,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 5364.429999999999,
+        "conturi_total_ron": 2663087.5,
+        "venituri_anuale_ron": 1720926.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-10",
+    "ultima_conturi_ron": 2663087.5,
+    "ultima_venituri_ron": 1720926.0,
+    "ultima_imobile_count": 9,
+    "delta_conturi_ron": -301410.5,
+    "delta_imobile": 0
+  }
+}

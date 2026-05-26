@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:04:10.832249Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "ffd055e89f886f78",
+    "cdep_idm": 328,
+    "deputat_nume": "Wiener Adrian",
+    "deputat_canonical_id": "f2537511842a5db6",
+    "legislatura": 2024,
+    "partid_short": "USR",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-23",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/328.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 1302.0,
+        "conturi_total_ron": 85000.0,
+        "venituri_anuale_ron": 219628.0,
+        "datorii_total_ron": 302500.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2024-12-23",
+    "ultima_conturi_ron": 85000.0,
+    "ultima_venituri_ron": 219628.0,
+    "ultima_imobile_count": 4,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

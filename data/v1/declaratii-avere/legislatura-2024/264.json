@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:02:30.940214Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "d4e40d266df98791",
+    "cdep_idm": 264,
+    "deputat_nume": "Rafila Alexandru",
+    "deputat_canonical_id": "4400e162f1ebe0b2",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-23",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/264a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 3717.0,
+        "conturi_total_ron": 3575016.0,
+        "venituri_anuale_ron": 443395.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-12-23",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/264.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 3717.0,
+        "conturi_total_ron": 3575016.0,
+        "venituri_anuale_ron": 443395.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2024-12-23",
+    "ultima_conturi_ron": 3575016.0,
+    "ultima_venituri_ron": 443395.0,
+    "ultima_imobile_count": 5,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

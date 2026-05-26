@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:58:34.422383Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "c370e312b3f9c33a",
+    "cdep_idm": 110,
+    "deputat_nume": "Gal Călin-Graţian",
+    "deputat_canonical_id": "c9affcef6541d7cb",
+    "legislatura": 2024,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-30",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/110.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 8,
+        "cladiri_count": 6,
+        "suprafata_total_mp": 4175.4,
+        "conturi_total_ron": 106500.0,
+        "venituri_anuale_ron": 180963.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-05-29",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/110a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 6,
+        "cladiri_count": 6,
+        "suprafata_total_mp": 3912.8,
+        "conturi_total_ron": 106500.0,
+        "venituri_anuale_ron": 308832.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-05-29",
+    "ultima_conturi_ron": 106500.0,
+    "ultima_venituri_ron": 308832.0,
+    "ultima_imobile_count": 12,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": -2
+  }
+}

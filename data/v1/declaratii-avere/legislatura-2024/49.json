@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:56:38.885823Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "91d31af74ba9af2e",
+    "cdep_idm": 49,
+    "deputat_nume": "Cadar Răzvan-Olimpiu",
+    "deputat_canonical_id": "98a87f9e074ec353",
+    "legislatura": 2024,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-19",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/049.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 124.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 232459.12,
+        "datorii_total_ron": 627007.2,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-19",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 232459.12,
+    "ultima_imobile_count": 3,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

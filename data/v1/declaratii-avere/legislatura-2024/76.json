@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:57:27.617233Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "abba02f38247b0b6",
+    "cdep_idm": 76,
+    "deputat_nume": "Constantinescu Sergiu-Mircea",
+    "deputat_canonical_id": "62aad9fb72ad2a4c",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-30",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/076.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 7,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 2096.0,
+        "conturi_total_ron": 753500.0,
+        "venituri_anuale_ron": 251978.0,
+        "datorii_total_ron": 268906.65,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-05-27",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/076a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 7,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 2096.0,
+        "conturi_total_ron": 655500.0,
+        "venituri_anuale_ron": 204121.0,
+        "datorii_total_ron": 291406.65,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-05-27",
+    "ultima_conturi_ron": 655500.0,
+    "ultima_venituri_ron": 204121.0,
+    "ultima_imobile_count": 12,
+    "delta_conturi_ron": -98000.0,
+    "delta_imobile": 0
+  }
+}

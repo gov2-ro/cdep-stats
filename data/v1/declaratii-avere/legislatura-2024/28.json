@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:56:05.149053Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "a5e924f5fc7bb07c",
+    "cdep_idm": 28,
+    "deputat_nume": "Biró Rozália-Ibolya",
+    "deputat_canonical_id": "3d6293dd7e19bb17",
+    "legislatura": 2024,
+    "partid_short": "UDMR",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-20",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/028.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 14,
+        "cladiri_count": 8,
+        "suprafata_total_mp": 266045.4,
+        "conturi_total_ron": 161847.0,
+        "venituri_anuale_ron": 933295.0,
+        "datorii_total_ron": 149274.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-20",
+    "ultima_conturi_ron": 161847.0,
+    "ultima_venituri_ron": 933295.0,
+    "ultima_imobile_count": 22,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

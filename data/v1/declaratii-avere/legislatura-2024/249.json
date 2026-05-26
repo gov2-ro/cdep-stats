@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:02:07.955038Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "94b96b661fcfcff3",
+    "cdep_idm": 249,
+    "deputat_nume": "Popa Alexandru",
+    "deputat_canonical_id": "b6e09cbe1eadad13",
+    "legislatura": 2024,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-19",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/249.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 17,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 475623.0,
+        "conturi_total_ron": 200000.0,
+        "venituri_anuale_ron": 1022596.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-10",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/249a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 17,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 475623.0,
+        "conturi_total_ron": 250000.0,
+        "venituri_anuale_ron": 1022189.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-10",
+    "ultima_conturi_ron": 250000.0,
+    "ultima_venituri_ron": 1022189.0,
+    "ultima_imobile_count": 18,
+    "delta_conturi_ron": 50000.0,
+    "delta_imobile": 0
+  }
+}

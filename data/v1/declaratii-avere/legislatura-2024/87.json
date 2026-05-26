@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:57:45.836725Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "fe02ab62c79d64f6",
+    "cdep_idm": 87,
+    "deputat_nume": "Csoma Botond",
+    "deputat_canonical_id": "70f120c2e9b4bd0c",
+    "legislatura": 2024,
+    "partid_short": "UDMR",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-23",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/087.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 1545.47,
+        "conturi_total_ron": 75000.0,
+        "venituri_anuale_ron": 170256.0,
+        "datorii_total_ron": 326500.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2024-12-23",
+    "ultima_conturi_ron": 75000.0,
+    "ultima_venituri_ron": 170256.0,
+    "ultima_imobile_count": 5,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:59:10.709308Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "3e4e21226ceaee2e",
+    "cdep_idm": 135,
+    "deputat_nume": "Groza Călin-Florin",
+    "deputat_canonical_id": "4c23e345c9d3a405",
+    "legislatura": 2024,
+    "partid_short": "UPR",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-31",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/135.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 7,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 24400.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 55800.0,
+        "datorii_total_ron": 100000.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2024-12-31",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 55800.0,
+    "ultima_imobile_count": 9,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

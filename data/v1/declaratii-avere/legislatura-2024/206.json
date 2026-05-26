@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:01:03.193169Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "2a531dc4d9b67625",
+    "cdep_idm": 206,
+    "deputat_nume": "Molnar Andrei",
+    "deputat_canonical_id": "d614a1bf093771bd",
+    "legislatura": 2024,
+    "partid_short": "UDMR",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-31",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/206.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 129622.85,
+        "conturi_total_ron": 61850.0,
+        "venituri_anuale_ron": 748240.38,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-04",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/206a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 129622.85,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 406536.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-04",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 406536.0,
+    "ultima_imobile_count": 8,
+    "delta_conturi_ron": -61850.0,
+    "delta_imobile": 0
+  }
+}

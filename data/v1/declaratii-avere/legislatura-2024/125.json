@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:58:57.321631Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "d9580f55f38b60be",
+    "cdep_idm": 125,
+    "deputat_nume": "Gima George",
+    "deputat_canonical_id": "c2f48b66a823b95b",
+    "legislatura": 2024,
+    "partid_short": "USR",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-30",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/125.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 185.0,
+        "conturi_total_ron": 169000.0,
+        "venituri_anuale_ron": 135267.0,
+        "datorii_total_ron": 211090.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-12",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/125a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 185.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 172604.0,
+        "datorii_total_ron": 208206.44999999998,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-12",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 172604.0,
+    "ultima_imobile_count": 3,
+    "delta_conturi_ron": -169000.0,
+    "delta_imobile": 0
+  }
+}

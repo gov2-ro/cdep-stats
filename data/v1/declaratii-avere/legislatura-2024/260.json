@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:02:24.906230Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "2c9453ef5e12bd1b",
+    "cdep_idm": 260,
+    "deputat_nume": "Prună Cristina-Mădălina",
+    "deputat_canonical_id": "6b6049948f88a842",
+    "legislatura": 2024,
+    "partid_short": "USR",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-31",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/260.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 49.0,
+        "conturi_total_ron": 100455.5,
+        "venituri_anuale_ron": 141485.05,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-09",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/260a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 49.0,
+        "conturi_total_ron": 30921.149999999998,
+        "venituri_anuale_ron": 141072.785,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-09",
+    "ultima_conturi_ron": 30921.149999999998,
+    "ultima_venituri_ron": 141072.785,
+    "ultima_imobile_count": 1,
+    "delta_conturi_ron": -69534.35,
+    "delta_imobile": 0
+  }
+}

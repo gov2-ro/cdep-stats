@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:59:31.263354Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "b47e42922ae1bf52",
+    "cdep_idm": 148,
+    "deputat_nume": "Ion Nicolae-Mirel",
+    "deputat_canonical_id": "d26d4406360634ae",
+    "legislatura": 2024,
+    "partid_short": "SOS RO",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-16",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/148.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 6,
+        "suprafata_total_mp": 5112.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 203849.0,
+        "datorii_total_ron": 85850.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-27",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/148a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 5,
+        "cladiri_count": 7,
+        "suprafata_total_mp": 6347.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 203849.0,
+        "datorii_total_ron": 85850.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-27",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 203849.0,
+    "ultima_imobile_count": 12,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 4
+  }
+}

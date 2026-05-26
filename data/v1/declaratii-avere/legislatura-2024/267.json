@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:02:33.788418Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "eacb65c6ddb539bb",
+    "cdep_idm": 267,
+    "deputat_nume": "Rigman Ciprian-Doru",
+    "deputat_canonical_id": "f173413f883cf1ae",
+    "legislatura": 2024,
+    "partid_short": "USR",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-19",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/267.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 309.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 324319.0,
+        "datorii_total_ron": 126250.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-19",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 324319.0,
+    "ultima_imobile_count": 2,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:03:49.250276Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "9dd73b905c38a27d",
+    "cdep_idm": 313,
+    "deputat_nume": "Ţoiu Oana-Silvia",
+    "deputat_canonical_id": "f4280502bb4c4fb1",
+    "legislatura": 2024,
+    "partid_short": "USR",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-21",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/313.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 535.0,
+        "conturi_total_ron": 50000.0,
+        "venituri_anuale_ron": 650249.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-21",
+    "ultima_conturi_ron": 50000.0,
+    "ultima_venituri_ron": 650249.0,
+    "ultima_imobile_count": 4,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

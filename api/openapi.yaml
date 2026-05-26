@@ -406,6 +406,111 @@ paths:
                               url: { type: string, format: uri }
                               data: { type: string, format: date, nullable: true }
 
+  /declaratii-avere/legislatura-{legislatura}.json:
+    get:
+      tags: [Declaratii]
+      summary: Sumar averi parsate per deputat (evoluție temporală)
+      description: |
+        Pentru fiecare deputat: ultima declarație + delta față de prima declarație.
+        Valori extrase din PDF-uri ANI cu pdfplumber. Util pentru jurnalism de
+        investigație: identificare deputați cu schimbări mari de avere în timp.
+
+        **IMPORTANT** — limitări:
+        - Sume sunt BEST-EFFORT (regex pe text PDF). Pentru cifre precise verifică PDF-urile.
+        - Formularul ANI NU cere valoare în RON pentru imobile — folosim ca proxy
+          numărul de terenuri + clădiri + suprafață totală (m²).
+        - PDF-urile scanate (fără text) sunt raportate cu `text_extracted: false`.
+        - Curs valutar fix (mai 2026) pentru normalizare la RON.
+      parameters:
+        - name: legislatura
+          in: path
+          required: true
+          schema: { type: integer, example: 2024 }
+      responses:
+        "200":
+          description: Succes
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  meta: { $ref: "#/components/schemas/Meta" }
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id: { type: string }
+                        cdep_idm: { type: integer }
+                        deputat_nume: { type: string }
+                        legislatura: { type: integer }
+                        partid_short: { type: string, nullable: true }
+                        n_declaratii: { type: integer, description: "Nr. declarații depuse în mandat" }
+                        ultima_data: { type: string, format: date, nullable: true }
+                        ultima_conturi_ron: { type: number, format: float }
+                        ultima_venituri_ron: { type: number, format: float }
+                        ultima_imobile_count: { type: integer }
+                        delta_conturi_ron:
+                          type: number
+                          description: "Schimbare în RON între prima și ultima declarație"
+                        delta_imobile:
+                          type: integer
+                          description: "Schimbare nr. imobile între prima și ultima declarație"
+                        detail_url: { type: string }
+
+  /declaratii-avere/legislatura-{legislatura}/{cdep_idm}.json:
+    get:
+      tags: [Declaratii]
+      summary: Detalii avere per deputat cu evoluție temporală
+      description: |
+        Cronologia completă a declarațiilor de avere pentru un deputat. Fiecare
+        declarație individuală cu data depunerii + valori parsate.
+
+        Permite tracking-ul evoluției averii pe parcursul mandatului.
+      parameters:
+        - name: legislatura
+          in: path
+          required: true
+          schema: { type: integer, example: 2024 }
+        - name: cdep_idm
+          in: path
+          required: true
+          schema: { type: integer, example: 189 }
+      responses:
+        "200":
+          description: Succes
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  meta: { $ref: "#/components/schemas/Meta" }
+                  data:
+                    type: object
+                    properties:
+                      id: { type: string }
+                      cdep_idm: { type: integer }
+                      deputat_nume: { type: string }
+                      legislatura: { type: integer }
+                      partid_short: { type: string, nullable: true }
+                      declaratii:
+                        type: array
+                        description: "Cronologic — prima declarație întâi"
+                        items:
+                          type: object
+                          properties:
+                            data_depunere: { type: string, format: date, nullable: true }
+                            pdf_url: { type: string, format: uri }
+                            text_extracted: { type: boolean }
+                            error: { type: string, nullable: true }
+                            terenuri_count: { type: integer }
+                            cladiri_count: { type: integer }
+                            suprafata_total_mp: { type: number, format: float }
+                            conturi_total_ron: { type: number, format: float }
+                            venituri_anuale_ron: { type: number, format: float }
+                            datorii_total_ron: { type: number, format: float }
+                            auto_count: { type: integer }
+
   /stenograme/legislatura-{legislatura}/_index.json:
     get:
       tags: [Stenograme]

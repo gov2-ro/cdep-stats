@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:56:36.859741Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "2a02310174411460",
+    "cdep_idm": 47,
+    "deputat_nume": "Butură Cristina-Irina",
+    "deputat_canonical_id": "93cf5b0a2e00720d",
+    "legislatura": 2024,
+    "partid_short": "AUR",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-16",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/047.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 83.24000000000001,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 98802.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-16",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 98802.0,
+    "ultima_imobile_count": 3,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:02:54.284961Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 3
+  },
+  "data": {
+    "id": "d2e706745f8038f2",
+    "cdep_idm": 277,
+    "deputat_nume": "Seres Dénes",
+    "deputat_canonical_id": "fe65bb0ab9380693",
+    "legislatura": 2024,
+    "partid_short": "UDMR",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-23",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/277.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 8,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 6017.0,
+        "conturi_total_ron": 5900.0,
+        "venituri_anuale_ron": 284582.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-12-23",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/277a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 8,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 6017.0,
+        "conturi_total_ron": 30900.0,
+        "venituri_anuale_ron": 284582.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-05-28",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/277b.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 8,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 6017.0,
+        "conturi_total_ron": 5900.0,
+        "venituri_anuale_ron": 382358.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-05-28",
+    "ultima_conturi_ron": 5900.0,
+    "ultima_venituri_ron": 382358.0,
+    "ultima_imobile_count": 12,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

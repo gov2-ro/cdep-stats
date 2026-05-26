@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:56:46.421181Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "9ab151cc5c232d93",
+    "cdep_idm": 53,
+    "deputat_nume": "Chilat Crina-Fiorela",
+    "deputat_canonical_id": "37295faddaa4927f",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-19",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/053.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 11,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 92310.7,
+        "conturi_total_ron": 325100.0,
+        "venituri_anuale_ron": 582686.0,
+        "datorii_total_ron": 23726.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-09",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/053a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 11,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 92440.7,
+        "conturi_total_ron": 850.0,
+        "venituri_anuale_ron": 601326.0,
+        "datorii_total_ron": 17540.0,
+        "auto_count": 7,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-09",
+    "ultima_conturi_ron": 850.0,
+    "ultima_venituri_ron": 601326.0,
+    "ultima_imobile_count": 15,
+    "delta_conturi_ron": -324250.0,
+    "delta_imobile": 0
+  }
+}

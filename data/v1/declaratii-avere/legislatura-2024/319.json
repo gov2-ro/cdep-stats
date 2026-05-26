@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:03:56.405730Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "99086d00e4a5e6ba",
+    "cdep_idm": 319,
+    "deputat_nume": "Vedinaş Verginia",
+    "deputat_canonical_id": "902f41cc51afadb6",
+    "legislatura": 2024,
+    "partid_short": "SOS RO",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-16",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/319.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 1067.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 780186.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-02-14",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/319a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 1067.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 784330.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-02-14",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 784330.0,
+    "ultima_imobile_count": 8,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

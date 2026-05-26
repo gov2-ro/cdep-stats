@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:01:38.015484Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "95f04f28a2ba130a",
+    "cdep_idm": 229,
+    "deputat_nume": "Nicolae Dan-Mihai",
+    "deputat_canonical_id": "40d00a59ef2fcc96",
+    "legislatura": 2024,
+    "partid_short": "UPR",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-20",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/229.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 15595.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 136100.0,
+        "datorii_total_ron": 101000.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-20",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 136100.0,
+    "ultima_imobile_count": 5,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:00:48.787563Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "165dacded8241524",
+    "cdep_idm": 198,
+    "deputat_nume": "Miruţă Radu-Dinel",
+    "deputat_canonical_id": "45c2bd537eaa6065",
+    "legislatura": 2024,
+    "partid_short": "USR",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-03",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/198.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 1720.1,
+        "conturi_total_ron": 249096.53,
+        "venituri_anuale_ron": 484554.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-03",
+    "ultima_conturi_ron": 249096.53,
+    "ultima_venituri_ron": 484554.0,
+    "ultima_imobile_count": 7,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

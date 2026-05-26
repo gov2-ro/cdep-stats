@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:55:51.336292Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "4c8e709883faef34",
+    "cdep_idm": 19,
+    "deputat_nume": "Barbu Florin-Ionuţ",
+    "deputat_canonical_id": "9533f697011f42e9",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-21",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/019.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 988.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 333898.0,
+        "datorii_total_ron": 238200.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-21",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 333898.0,
+    "ultima_imobile_count": 2,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

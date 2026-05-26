@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:59:57.209527Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "02ecb1240c23624c",
+    "cdep_idm": 167,
+    "deputat_nume": "Lazăr Teodor",
+    "deputat_canonical_id": "a53dde1d8bb103a6",
+    "legislatura": 2024,
+    "partid_short": "USR",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-30",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/167.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 35,
+        "cladiri_count": 6,
+        "suprafata_total_mp": 71465.0,
+        "conturi_total_ron": 348000.0,
+        "venituri_anuale_ron": 195161.0,
+        "datorii_total_ron": 100000.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-03",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/167a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 35,
+        "cladiri_count": 6,
+        "suprafata_total_mp": 71465.0,
+        "conturi_total_ron": 100000.0,
+        "venituri_anuale_ron": 194459.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-03",
+    "ultima_conturi_ron": 100000.0,
+    "ultima_venituri_ron": 194459.0,
+    "ultima_imobile_count": 41,
+    "delta_conturi_ron": -248000.0,
+    "delta_imobile": 0
+  }
+}

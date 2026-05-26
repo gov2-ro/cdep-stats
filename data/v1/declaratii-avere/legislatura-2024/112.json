@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:58:37.954473Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "76dc2a09a13ae56b",
+    "cdep_idm": 112,
+    "deputat_nume": "Ganţ Ovidiu Victor",
+    "deputat_canonical_id": "cd1fab8ba18025fc",
+    "legislatura": 2024,
+    "partid_short": "Minoritati",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-21",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/112.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 2876.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 212640.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-04",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/112a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 2876.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 224298.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-04",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 224298.0,
+    "ultima_imobile_count": 6,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

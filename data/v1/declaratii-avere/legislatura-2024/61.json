@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:57:02.952418Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "5c0e30533cf2adf8",
+    "cdep_idm": 61,
+    "deputat_nume": "Ciortea Răzvan-Iulian",
+    "deputat_canonical_id": "f875f702009b88a6",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-20",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/061.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 114.0,
+        "conturi_total_ron": 231000.0,
+        "venituri_anuale_ron": 230502.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-10",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/061a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 114.0,
+        "conturi_total_ron": 231000.0,
+        "venituri_anuale_ron": 231927.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-10",
+    "ultima_conturi_ron": 231000.0,
+    "ultima_venituri_ron": 231927.0,
+    "ultima_imobile_count": 4,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

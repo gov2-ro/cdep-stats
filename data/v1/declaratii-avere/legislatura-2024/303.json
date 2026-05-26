@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:03:32.533741Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "e45674d33999614d",
+    "cdep_idm": 303,
+    "deputat_nume": "Toader Bogdan-Andrei",
+    "deputat_canonical_id": "9d05632c21d67869",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-31",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/303.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 10,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 33946.0,
+        "conturi_total_ron": 198000.0,
+        "venituri_anuale_ron": 215412.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-12",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/303a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 10,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 33946.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 227520.0,
+        "datorii_total_ron": 120000.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-12",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 227520.0,
+    "ultima_imobile_count": 14,
+    "delta_conturi_ron": -198000.0,
+    "delta_imobile": 0
+  }
+}

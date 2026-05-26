@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:02:03.908890Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "6d91c212690123f9",
+    "cdep_idm": 246,
+    "deputat_nume": "Plopeanu Rodica",
+    "deputat_canonical_id": "d9a29e9426d5d45d",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-17",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/246.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 1025.0,
+        "conturi_total_ron": 497242.5,
+        "venituri_anuale_ron": 35950.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-06",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/246a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 1025.0,
+        "conturi_total_ron": 418312.5,
+        "venituri_anuale_ron": 35950.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-06",
+    "ultima_conturi_ron": 418312.5,
+    "ultima_venituri_ron": 35950.0,
+    "ultima_imobile_count": 3,
+    "delta_conturi_ron": -78930.0,
+    "delta_imobile": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:02:36.794746Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "3dae3d0cf465a9db",
+    "cdep_idm": 269,
+    "deputat_nume": "Rodeanu Bogdan-Ionel",
+    "deputat_canonical_id": "10a874d63ebc6737",
+    "legislatura": 2024,
+    "partid_short": "USR",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-19",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/269.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 53438.1,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 164256.0,
+        "datorii_total_ron": 250697.15,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-19",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 164256.0,
+    "ultima_imobile_count": 7,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

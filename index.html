@@ -236,6 +236,7 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
       <button class="sidebar-item" onclick="scrollTo('ep-amendamente')">GET /amendamente</button>
       <button class="sidebar-item" onclick="scrollTo('ep-ordine-zi')">🆕 GET /ordine-zi</button>
       <button class="sidebar-item" onclick="scrollTo('ep-declaratii')">🆕 GET /declaratii</button>
+      <button class="sidebar-item" onclick="scrollTo('ep-declaratii-avere')">🆕 GET /declaratii-avere</button>
       <button class="sidebar-item" onclick="scrollTo('ep-stenograme')">🆕 GET /stenograme</button>
       <button class="sidebar-item" onclick="scrollTo('ep-doc-comisii')">🆕 GET /doc-comisii</button>
     </div>
@@ -643,6 +644,48 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
               <span class="url-method">GET</span>
               <span class="url-text">data/v1/declaratii/legislatura-2024.json</span>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- /declaratii-avere -->
+      <div class="endpoint" id="ep-declaratii-avere">
+        <div class="ep-header" onclick="toggleEp(this)">
+          <span class="method get">GET</span>
+          <span class="ep-path">/declaratii-avere/legislatura-{leg}.json</span>
+          <span class="ep-summary">🆕 Averi parsate cu evoluție temporală</span>
+          <span class="ep-arrow">▾</span>
+        </div>
+        <div class="ep-body">
+          <div class="ep-desc">
+            Date structurate extrase din PDF-urile declarațiilor ANI: pentru fiecare deputat,
+            valori agregate (suprafață imobile, conturi RON, venituri, datorii) — și DELTA-ul
+            între prima și ultima declarație. Util pentru jurnalism de investigație.
+          </div>
+          <div class="params-title">Endpoints</div>
+          <table class="params-table">
+            <tr><th>URL</th><th>Conținut</th></tr>
+            <tr>
+              <td><code>/declaratii-avere/legislatura-{leg}.json</code></td>
+              <td>Sumar — ultima declarație + delta per deputat (sortat pe partid)</td>
+            </tr>
+            <tr>
+              <td><code>/declaratii-avere/legislatura-{leg}/{cdep_idm}.json</code></td>
+              <td>Detalii — cronologia completă a declarațiilor per deputat</td>
+            </tr>
+          </table>
+          <div class="params-title">Câmpuri principale</div>
+          <table class="params-table">
+            <tr><th>Câmp</th><th>Tip</th><th>Descriere</th></tr>
+            <tr><td>n_declaratii</td><td>int</td><td>Nr. declarații depuse în mandat (1+ corecții)</td></tr>
+            <tr><td>ultima_conturi_ron</td><td>float</td><td>Active financiare normalizate la RON (curs mai 2026)</td></tr>
+            <tr><td>ultima_venituri_ron</td><td>float</td><td>Venituri anuale (salarii + dividende + chirii)</td></tr>
+            <tr><td>delta_conturi_ron</td><td>float</td><td>SCHIMBARE conturi prima→ultima declarație</td></tr>
+            <tr><td>delta_imobile</td><td>int</td><td>SCHIMBARE nr. imobile prima→ultima declarație</td></tr>
+          </table>
+          <div style="margin-top:8px;padding:8px;background:var(--amber-bg);color:var(--amber-text);border-radius:6px;font-size:12px">
+            ⚠ Sume extrase BEST-EFFORT cu regex pe text PDF. Verifică PDF-urile pentru cifre precise.
+            Formularul ANI nu cere valoare RON pentru imobile — folosim suprafața (m²) ca proxy.
           </div>
         </div>
       </div>

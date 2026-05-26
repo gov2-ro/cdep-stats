@@ -2,6 +2,29 @@
 
 Toate modificările notabile ale proiectului sunt documentate aici. Format bazat pe [Keep a Changelog](https://keepachangelog.com/) și [SemVer](https://semver.org/).
 
+## [v0.4.1] — 2026-05-26 — Sub-endpoint /declaratii-avere cu PDF parsing
+
+### Adăugat
+
+- **`/declaratii-avere/legislatura-{leg}.json`** — sumar per deputat cu ultima declarație + delta față de prima.
+- **`/declaratii-avere/legislatura-{leg}/{cdep_idm}.json`** — cronologie completă a declarațiilor per deputat, fiecare cu sume parsate din PDF.
+- **`schemas/avere.py`** — `AvereDeputat`, `AvereDeclaratie`, `AvereImobil`, `AvereSummary`.
+- **`scripts/build_declaratii_avere.py`** — orchestrator care:
+  - Descarcă TOATE PDF-urile (avere) pentru fiecare deputat (cronologic)
+  - Parsează cu pdfplumber categoriile standardizate ANI (I-VII)
+  - Calculează delta (prima vs ultima declarație) pentru identificare "schimbări de avere în mandat"
+  - Cache PDF local (`data/analize/_pdfs/`) — re-rulări instant
+- **OpenAPI** 18 paths total (+2 noi).
+- **Util pentru jurnalism**: identificare rapidă deputați cu creștere/scădere conturi în mandat, schimbări în nr. imobile.
+
+### Limitări cunoscute
+
+- Sume extrase BEST-EFFORT (regex pe text PDF) — pentru cifre precise verifică PDF-urile.
+- Formularul ANI NU cere valoare RON pentru imobile — folosim suprafața (m²) ca proxy.
+- PDF-urile scanate (fără text) sunt raportate cu `text_extracted: false`.
+
+---
+
 ## [v0.4.0] — 2026-05-26 — 4 endpointuri noi: ordine-zi, declaratii, stenograme, doc-comisii
 
 ### Adăugat

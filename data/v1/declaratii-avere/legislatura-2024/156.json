@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:59:41.558518Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "b6627de9f9406988",
+    "cdep_idm": 156,
+    "deputat_nume": "Isac Marius-Adrian",
+    "deputat_canonical_id": "5592dfa06ca9e747",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-31",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/156.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 9,
+        "suprafata_total_mp": 12573.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 1138346.0,
+        "datorii_total_ron": 743815.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2024-12-31",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 1138346.0,
+    "ultima_imobile_count": 11,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

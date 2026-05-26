@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:55:39.545832Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "9cae43869ab7bc1c",
+    "cdep_idm": 9,
+    "deputat_nume": "Andronache Gabriel",
+    "deputat_canonical_id": "0e6e37c2d4fc5925",
+    "legislatura": 2024,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-31",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/009.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 115.69999999999999,
+        "conturi_total_ron": 151000.0,
+        "venituri_anuale_ron": 146016.0,
+        "datorii_total_ron": 100000.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-05-05",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/009a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 115.69999999999999,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 145712.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-05-05",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 145712.0,
+    "ultima_imobile_count": 4,
+    "delta_conturi_ron": -151000.0,
+    "delta_imobile": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:58:07.966611Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "07f0990e0385fde2",
+    "cdep_idm": 94,
+    "deputat_nume": "Drăgoescu Cezar-Mihail",
+    "deputat_canonical_id": "1fe821363a5ecb68",
+    "legislatura": 2024,
+    "partid_short": "USR",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-21",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/094.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 945.47,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 145936.0,
+        "datorii_total_ron": 885520.35,
+        "auto_count": 7,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-21",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 145936.0,
+    "ultima_imobile_count": 8,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

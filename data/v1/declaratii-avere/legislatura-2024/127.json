@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:59:00.494462Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "ed404b69e83ef10b",
+    "cdep_idm": 127,
+    "deputat_nume": "Gliga Dumitriţa",
+    "deputat_canonical_id": "8e48996cceaaaf2b",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-31",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/127.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 7,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 11373.0,
+        "conturi_total_ron": 2077126.0,
+        "venituri_anuale_ron": 1594208.34,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2024-12-31",
+    "ultima_conturi_ron": 2077126.0,
+    "ultima_venituri_ron": 1594208.34,
+    "ultima_imobile_count": 10,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

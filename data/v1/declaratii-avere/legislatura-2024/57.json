@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:56:54.462784Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 4
+  },
+  "data": {
+    "id": "8b755fa50f5af4b1",
+    "cdep_idm": 57,
+    "deputat_nume": "Ciobotaru Dragoş-Fănică",
+    "deputat_canonical_id": "c1bfcf024ae403ed",
+    "legislatura": 2024,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-24",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/057.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 6,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 23387.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 202657.0,
+        "datorii_total_ron": 215750.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-08",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/057a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 6,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 23387.0,
+        "conturi_total_ron": 198000.0,
+        "venituri_anuale_ron": 202657.0,
+        "datorii_total_ron": 215750.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-04-11",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/057b.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 7,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 23451.9,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 223979.0,
+        "datorii_total_ron": 75750.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-04-11",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/057c.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 7,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 23451.9,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 223979.0,
+        "datorii_total_ron": 75750.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-04-11",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 223979.0,
+    "ultima_imobile_count": 9,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 2
+  }
+}

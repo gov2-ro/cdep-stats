@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:02:45.323689Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "40e7d37cfa42506f",
+    "cdep_idm": 273,
+    "deputat_nume": "Rusu Sebastian-Mihai",
+    "deputat_canonical_id": "6f96c6fa590fc055",
+    "legislatura": 2024,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-31",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/273.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 13314.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 620047.0,
+        "datorii_total_ron": 50000.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-12",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/273a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 13314.0,
+        "conturi_total_ron": 75000.0,
+        "venituri_anuale_ron": 1029318.0,
+        "datorii_total_ron": 50000.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-12",
+    "ultima_conturi_ron": 75000.0,
+    "ultima_venituri_ron": 1029318.0,
+    "ultima_imobile_count": 7,
+    "delta_conturi_ron": 75000.0,
+    "delta_imobile": 0
+  }
+}

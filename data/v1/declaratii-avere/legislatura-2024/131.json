@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:59:06.785681Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "6973d976d22fe22b",
+    "cdep_idm": 131,
+    "deputat_nume": "Grindeanu Sorin-Mihai",
+    "deputat_canonical_id": "c23d8cd760e04f25",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-19",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/131.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 5471.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 299065.0,
+        "datorii_total_ron": 374620.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-19",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 299065.0,
+    "ultima_imobile_count": 6,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

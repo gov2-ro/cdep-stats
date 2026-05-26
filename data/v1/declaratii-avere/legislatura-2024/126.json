@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:58:59.328129Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "deeea75ef189a498",
+    "cdep_idm": 126,
+    "deputat_nume": "Giurgiu Adrian",
+    "deputat_canonical_id": "bff93cc5822299fe",
+    "legislatura": 2024,
+    "partid_short": "USR",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-30",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/126.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 6,
+        "cladiri_count": 7,
+        "suprafata_total_mp": 4163.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 146016.0,
+        "datorii_total_ron": 150000.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-19",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/126a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 7,
+        "cladiri_count": 7,
+        "suprafata_total_mp": 4170.0,
+        "conturi_total_ron": 100000.0,
+        "venituri_anuale_ron": 146016.0,
+        "datorii_total_ron": 150000.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-19",
+    "ultima_conturi_ron": 100000.0,
+    "ultima_venituri_ron": 146016.0,
+    "ultima_imobile_count": 14,
+    "delta_conturi_ron": 100000.0,
+    "delta_imobile": 1
+  }
+}

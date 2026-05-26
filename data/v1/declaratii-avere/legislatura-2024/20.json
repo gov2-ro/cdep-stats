@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:55:53.405628Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "48cd2bd4da0a3ec9",
+    "cdep_idm": 20,
+    "deputat_nume": "Barstan Tiberiu-Claudiu",
+    "deputat_canonical_id": "186f4d78950c0bfc",
+    "legislatura": 2024,
+    "partid_short": "AUR",
+    "declaratii": [
+      {
+        "data_depunere": "2025-02-04",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/020a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 17782.0,
+        "conturi_total_ron": 198000.0,
+        "venituri_anuale_ron": 176540.5,
+        "datorii_total_ron": 100000.0,
+        "auto_count": 11,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-02-04",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/020.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 17782.0,
+        "conturi_total_ron": 198000.0,
+        "venituri_anuale_ron": 176540.5,
+        "datorii_total_ron": 100000.0,
+        "auto_count": 11,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-02-04",
+    "ultima_conturi_ron": 198000.0,
+    "ultima_venituri_ron": 176540.5,
+    "ultima_imobile_count": 9,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

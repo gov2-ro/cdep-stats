@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:57:32.268002Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "9edd5355f27e8ebb",
+    "cdep_idm": 79,
+    "deputat_nume": "Cotinescu Ilie-Aurelian",
+    "deputat_canonical_id": "558a0eff22a3b92d",
+    "legislatura": 2024,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-30",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/079.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 4566.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 118914.0,
+        "datorii_total_ron": 757500.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2024-12-30",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 118914.0,
+    "ultima_imobile_count": 3,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T18:58:48.859239Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "4f703ae5760ae4c3",
+    "cdep_idm": 120,
+    "deputat_nume": "Gheorghe Mihai-Claudiu",
+    "deputat_canonical_id": "91eb1691d0d44fdf",
+    "legislatura": 2024,
+    "partid_short": "AUR",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-31",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/120.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 767.05,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 101545.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2024-12-31",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 101545.0,
+    "ultima_imobile_count": 2,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

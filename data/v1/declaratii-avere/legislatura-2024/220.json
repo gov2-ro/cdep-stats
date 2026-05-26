@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:01:26.089862Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "9abb4ca9b5928430",
+    "cdep_idm": 220,
+    "deputat_nume": "Năsui Claudiu-Iulius-Gavril",
+    "deputat_canonical_id": "6770093f50664778",
+    "legislatura": 2024,
+    "partid_short": "USR",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-23",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/220.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 158.6,
+        "conturi_total_ron": 388920.8,
+        "venituri_anuale_ron": 233087.164,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-02-17",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/220a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 158.6,
+        "conturi_total_ron": 408118.9,
+        "venituri_anuale_ron": 211462.96899999998,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-02-17",
+    "ultima_conturi_ron": 408118.9,
+    "ultima_venituri_ron": 211462.96899999998,
+    "ultima_imobile_count": 3,
+    "delta_conturi_ron": 19198.100000000035,
+    "delta_imobile": 0
+  }
+}

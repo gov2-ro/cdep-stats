@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:00:59.247439Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 3
+  },
+  "data": {
+    "id": "b09dfbee63f30d49",
+    "cdep_idm": 203,
+    "deputat_nume": "Mocanu Adrian",
+    "deputat_canonical_id": "d3af6b242b8c7ea6",
+    "legislatura": 2024,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-09",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/203.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 13,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 146754.94,
+        "conturi_total_ron": 1313000.0,
+        "venituri_anuale_ron": 1637600.0,
+        "datorii_total_ron": 198000.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-05-20",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/203a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 13,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 146754.94,
+        "conturi_total_ron": 1563000.0,
+        "venituri_anuale_ron": 1637600.0,
+        "datorii_total_ron": 198000.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-05-28",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/203b.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 13,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 146754.94,
+        "conturi_total_ron": 1593000.0,
+        "venituri_anuale_ron": 1332652.0,
+        "datorii_total_ron": 198000.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-05-28",
+    "ultima_conturi_ron": 1593000.0,
+    "ultima_venituri_ron": 1332652.0,
+    "ultima_imobile_count": 18,
+    "delta_conturi_ron": 280000.0,
+    "delta_imobile": 0
+  }
+}

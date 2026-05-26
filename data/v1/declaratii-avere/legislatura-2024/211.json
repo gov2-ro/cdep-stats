@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:01:10.630231Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "97e47ebbfdff7369",
+    "cdep_idm": 211,
+    "deputat_nume": "Munteanu Valeriu",
+    "deputat_canonical_id": "4719f6b4d9db04b8",
+    "legislatura": 2024,
+    "partid_short": "AUR",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-19",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/211.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 1529.6000000000001,
+        "conturi_total_ron": 198000.0,
+        "venituri_anuale_ron": 23320.0,
+        "datorii_total_ron": 198000.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-19",
+    "ultima_conturi_ron": 198000.0,
+    "ultima_venituri_ron": 23320.0,
+    "ultima_imobile_count": 5,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

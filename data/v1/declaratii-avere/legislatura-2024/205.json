@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:01:01.303500Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 1
+  },
+  "data": {
+    "id": "f37f56d4662fdc79",
+    "cdep_idm": 205,
+    "deputat_nume": "Moisin Radu-Marin",
+    "deputat_canonical_id": "939ab76b583a4f83",
+    "legislatura": 2024,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-19",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/205.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 2030.18,
+        "conturi_total_ron": 775520.5,
+        "venituri_anuale_ron": 966030.91,
+        "datorii_total_ron": 150000.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-19",
+    "ultima_conturi_ron": 775520.5,
+    "ultima_venituri_ron": 966030.91,
+    "ultima_imobile_count": 9,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

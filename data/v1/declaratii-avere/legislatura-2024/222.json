@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:01:30.045663Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "dd2ae3aa94362e11",
+    "cdep_idm": 222,
+    "deputat_nume": "Neacşu Marian",
+    "deputat_canonical_id": "1554e4bac98d6893",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-14",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/222.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 1625.0,
+        "conturi_total_ron": 1006723.0,
+        "venituri_anuale_ron": 477225.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-11",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/222a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 1625.0,
+        "conturi_total_ron": 1006723.0,
+        "venituri_anuale_ron": 477225.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-11",
+    "ultima_conturi_ron": 1006723.0,
+    "ultima_venituri_ron": 477225.0,
+    "ultima_imobile_count": 3,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

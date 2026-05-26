@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:01:22.662541Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "bd4a4134ee593a46",
+    "cdep_idm": 219,
+    "deputat_nume": "Nassar Rodica",
+    "deputat_canonical_id": "558c4e8834b432fa",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-23",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/219.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 6493.0,
+        "conturi_total_ron": 678500.0,
+        "venituri_anuale_ron": 207300.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-10",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/219a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 6493.0,
+        "conturi_total_ron": 28500.0,
+        "venituri_anuale_ron": 869840.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-10",
+    "ultima_conturi_ron": 28500.0,
+    "ultima_venituri_ron": 869840.0,
+    "ultima_imobile_count": 5,
+    "delta_conturi_ron": -650000.0,
+    "delta_imobile": 0
+  }
+}

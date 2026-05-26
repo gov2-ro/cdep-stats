@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:04:16.355438Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "10893ee73d44dc0d",
+    "cdep_idm": 330,
+    "deputat_nume": "Zakarias Zoltán",
+    "deputat_canonical_id": "6273c91622a555b7",
+    "legislatura": 2024,
+    "partid_short": null,
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-30",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/330.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 10,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 58186.05,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 131412.0,
+        "datorii_total_ron": 110152.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-05-28",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/330a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 10,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 58186.05,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 131265.0,
+        "datorii_total_ron": 92393.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-05-28",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 131265.0,
+    "ultima_imobile_count": 15,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

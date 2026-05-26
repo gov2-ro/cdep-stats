@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:00:04.631994Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "d102351a95fd9ec7",
+    "cdep_idm": 171,
+    "deputat_nume": "Longher Ghervazen",
+    "deputat_canonical_id": "a3d902a911c57ecc",
+    "legislatura": 2024,
+    "partid_short": "Minoritati",
+    "declaratii": [
+      {
+        "data_depunere": "2025-01-19",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/171.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 217.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 221045.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-06-11",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/171a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 217.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 221045.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-06-11",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 221045.0,
+    "ultima_imobile_count": 1,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

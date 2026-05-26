@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:00:47.758197Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "1619e296f2f2691b",
+    "cdep_idm": 197,
+    "deputat_nume": "Mircea Florin",
+    "deputat_canonical_id": "981ce157dc747469",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-29",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/197.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 1707.9,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 306091.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-05-20",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/197a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 1743.74,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 299719.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-05-20",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 299719.0,
+    "ultima_imobile_count": 7,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-26T19:00:25.044981Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "5aaa5b990e5c2fce",
+    "cdep_idm": 184,
+    "deputat_nume": "Matichescu Mirela-Florenţa",
+    "deputat_canonical_id": "903cf52a77ad04cb",
+    "legislatura": 2024,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2025-02-11",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/184.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 1034.24,
+        "conturi_total_ron": 505670.0,
+        "venituri_anuale_ron": 616155.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-03-11",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2024/avere/184a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 5,
+        "suprafata_total_mp": 2034.24,
+        "conturi_total_ron": 703670.0,
+        "venituri_anuale_ron": 616155.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-03-11",
+    "ultima_conturi_ron": 703670.0,
+    "ultima_venituri_ron": 616155.0,
+    "ultima_imobile_count": 7,
+    "delta_conturi_ron": 198000.0,
+    "delta_imobile": 0
+  }
+}
