@@ -2,6 +2,38 @@
 
 Toate modificările notabile ale proiectului sunt documentate aici. Format bazat pe [Keep a Changelog](https://keepachangelog.com/) și [SemVer](https://semver.org/).
 
+## [v0.4.0] — 2026-05-26 — 4 endpointuri noi: ordine-zi, declaratii, stenograme, doc-comisii
+
+### Adăugat
+
+- **`/ordine-zi`** — Ordinea de zi a ședințelor plenului (parser validat: 81 puncte extrase per ședință cu cross-link `idp` la /proiecte).
+- **`/declaratii`** — Declarații de avere și interese ale deputaților (parser validat: 332 deputați × ~1.5 PDF-uri/tip = ~990 PDF-uri per legislatură).
+- **`/stenograme`** — Stenograme ședințe plen (calendar validat: 28 ședințe în 2026; parser detail e WIP — necesită HTML real pentru calibrare exactă a intervențiilor).
+- **`/doc-comisii`** — Documente comisii (rapoarte, avize, sinteze, procese verbale; parser validat: 98 documente/pagină cu tip auto-detect + cross-link `idp` pentru rapoarte/avize).
+
+### Schema nouă
+
+- `schemas/ordine_zi.py` — OrdineZi + OrdineZiItem
+- `schemas/declaratie.py` — DeclaratieDeputat + DeclaratieFisier
+- `schemas/stenograma.py` — Stenograma + StenogramaIntervention + StenogramaSummary
+- `schemas/doc_comisie.py` — DocComisie
+
+### Scraperi noi (toate cu suport incremental)
+
+- `scrapers/ordine_zi.py` — descoperă datele via AJAX calendar + parse_session
+- `scrapers/declaratii.py` — 1 request returnează lista completă per legislatură
+- `scrapers/stenograme.py` — list_session_dates + parse_session (WIP)
+- `scrapers/doc_comisii.py` — paginare 99/pagină + auto-stop incremental
+
+### Runner scripts
+
+- `scripts/run_ordine_zi.py` (incremental + `--full`)
+- `scripts/run_declaratii.py` (1 req per leg + semantic-diff)
+- `scripts/run_stenograme.py` (per-file storage + incremental + `--full`)
+- `scripts/run_doc_comisii.py` (paginare + `--pages N` / `--full`)
+
+---
+
 ## [v0.3.1] — 2026-05-26 — Endpoint /ordine-zi
 
 ### Adăugat

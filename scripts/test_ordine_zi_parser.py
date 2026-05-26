@@ -59,8 +59,12 @@ def main() -> int:
     print()
     print("Primele 5 puncte:")
     for it in d["items"][:5]:
-        desc_short = (it["descriere"][:80] + "...") if len(it["descriere"]) > 80 else it["descriere"]
-        print(f"  [{it['pozitie']}] {it['nr_inregistrare'] or '-'} (idp={it['idp']}) — {desc_short}")
+        desc_short = (
+            (it["descriere"][:80] + "...") if len(it["descriere"]) > 80 else it["descriere"]
+        )
+        print(
+            f"  [{it['pozitie']}] {it['nr_inregistrare'] or '-'} (idp={it['idp']}) — {desc_short}"
+        )
     return 0
 
 
