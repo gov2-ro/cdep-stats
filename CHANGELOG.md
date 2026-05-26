@@ -2,6 +2,23 @@
 
 Toate modificările notabile ale proiectului sunt documentate aici. Format bazat pe [Keep a Changelog](https://keepachangelog.com/) și [SemVer](https://semver.org/).
 
+## [v0.2.9] — 2026-05-10 — Incremental update — economie 90%+ bandwidth
+
+### Adăugat
+
+- **`scrape_year()`** acceptă acum un parametru `skip_ids` (set de cdep_idi/cdep_idp deja procesate) pentru a sări peste detail fetches pentru entități cunoscute.
+- **`run_interpelari.py`** — IMPLICIT incremental: citește JSON-ul existent, extrage `cdep_idi`-urile cunoscute, le pasează ca skip la `scrape_year`. La rulare zilnică, doar interpelările NOI ajung la fetch.
+- **`run_proiecte.py`** — IMPLICIT incremental + flag `--full` pentru refetch complet (recomandat săptămânal pentru a captura schimbări de stadiu).
+- **Voturi** — deja era incremental prin `_index.json` check (păstrăm comportamentul).
+
+### Așteptat
+
+- Daily cron pe Windows runner: timp redus de la ~30-60 min la **3-5 min** (doar entitățile noi).
+- Bandwidth cdep.ro: ~10% din anteriorul volum (economisim pentru cdep.ro și ne ferim de rate limiting).
+- Pentru `--full` proiecte: păstrăm comportamentul vechi (toate proiectele refetched, ~20-30 min).
+
+---
+
 ## [v0.2.8] — 2026-05-10 — Parser nou pentru interpelări (schema ORDS)
 
 ### Reparat

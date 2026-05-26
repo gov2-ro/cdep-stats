@@ -71,14 +71,15 @@ def main() -> int:
         except (json.JSONDecodeError, KeyError):
             pass
 
-    # Scrape ani
+    # Scrape ani — pasăm existing_ids ca să sărim peste idi-urile deja procesate
+    # (economie majoră de bandwidth la rulări zilnice).
     all_new = []
     for year in years:
         print(f"\n=== Anul {year} ===")
-        items = scrape_year(year, legislatura=leg)
-        new_items = [i for i in items if i.cdep_idi not in existing_ids]
-        print(f"  {len(items)} găsite, {len(new_items)} noi")
-        all_new.extend(new_items)
+        items = scrape_year(year, legislatura=leg, skip_ids=existing_ids)
+        # items conține DOAR cele noi (skip_ids deja aplicat)
+        print(f"  {len(items)} noi parsate")
+        all_new.extend(items)
 
     if not all_new:
         print("Nicio actualizare.")

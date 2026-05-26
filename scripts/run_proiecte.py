@@ -4,11 +4,17 @@ Storage: data/v1/proiecte/legislatura-{leg}.json (un fișier per legislatură,
 toți anii inclusi).
 
 Utilizare:
-    python scripts/run_proiecte.py                          # leg curentă, anul curent
+    python scripts/run_proiecte.py                          # incremental, leg + anul curent
     python scripts/run_proiecte.py --year 2025
     python scripts/run_proiecte.py --years 2024 2025 2026
     python scripts/run_proiecte.py --year 2025 --leg 2024
     python scripts/run_proiecte.py --year 2025 --cam 2
+    python scripts/run_proiecte.py --full                   # refetch complet (recomandat săptămânal
+                                                            # pt actualizare stadii proiecte vechi)
+
+NOTĂ: implicit, scriptul sare peste proiectele deja salvate (incremental).
+Cu ``--full`` refetchează tot — necesar dacă vrem să prindem schimbări de stadiu
+(timeline, vot final, promulgare) pentru proiecte cunoscute.
 """
 
 from __future__ import annotations
@@ -47,6 +53,11 @@ def main() -> int:
     parser.add_argument(
         "--leg", type=int, default=None, help="Legislatura (default: detect din year)"
     )
+    parser.add_argument(
+        "--full",
+        action="store_true",
+        help="Refetch complet (ignoră skip_ids). Default: incremental.",
+    )
     parser.add_argument("--verbose", "-v", action="store_true")
     args = parser.parse_args()
 
@@ -73,22 +84,32 @@ def main() -> int:
         except (json.JSONDecodeError, KeyError):
             pass
 
-    # Scrape ani
+    # Scrape ani — implicit incremental (sare peste idp deja procesate)
+    skip = set() if args.full else existing_ids
+    if args.full:
+        print("Mod --full: refetch toate proiectele (poate dura ore).")
+    else:
+        print(f"Mod incremental: skip {len(existing_ids)} proiecte cunoscute.")
+
     all_new = []
     for year in years:
         print(f"\n=== Anul {year} (cam={args.cam}) ===")
-        items = scrape_year(year, legislatura=leg, cam=args.cam)
-        new_items = [i for i in items if i.cdep_idp not in existing_ids]
-        print(f"  {len(items)} găsite, {len(new_items)} noi")
-        all_new.extend(new_items)
+        items = scrape_year(year, legislatura=leg, cam=args.cam, skip_ids=skip)
+        print(f"  {len(items)} noi parsate")
+        all_new.extend(items)
 
     if not all_new:
         print("Nicio actualizare.")
         return 0
 
-    # Merge cu existent
+    # Merge cu existent — în modul --full overwrite-uim doar idp-urile re-fetched
     new_dicts = [i.model_dump(mode="json", exclude_none=False) for i in all_new]
-    all_data = existing_data + new_dicts
+    if args.full:
+        # Overwrite idp-urile re-fetched, păstrează restul
+        new_ids = {d["cdep_idp"] for d in new_dicts}
+        all_data = [d for d in existing_data if d.get("cdep_idp") not in new_ids] + new_dicts
+    else:
+        all_data = existing_data + new_dicts
     # Sortez după nr_camera_deputati descrescător (proiectele recente primele)
     all_data.sort(
         key=lambda x: x.get("data_inregistrare_cd") or x.get("data_prezentare") or "",

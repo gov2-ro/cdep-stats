@@ -192,7 +192,9 @@ def parse_detail(idi: int, legislatura: int) -> Interpelare | None:
     # --- Răspuns: secțiunea "Informaţii privind răspunsul" ---
     # Detectăm dacă răspunsul există căutând al doilea bloc cu acest titlu
     raspuns_primit = bool(
-        sel.xpath("//*[contains(text(), 'Informaţii privind răspunsul') or contains(text(), 'Informatii privind raspunsul')]")
+        sel.xpath(
+            "//*[contains(text(), 'Informaţii privind răspunsul') or contains(text(), 'Informatii privind raspunsul')]"
+        )
     )
     raspuns_data = None
     raspuns_sursa = None
@@ -214,7 +216,9 @@ def parse_detail(idi: int, legislatura: int) -> Interpelare | None:
         raspuns_sursa_raw = last_fields.get("răspuns primit de la") or None
         if raspuns_sursa_raw:
             # Tăiem la "comunicat de:" — păstrăm doar institutia
-            raspuns_sursa = re.split(r"\s+comunicat de:?\s*", raspuns_sursa_raw, maxsplit=1)[0].strip()
+            raspuns_sursa = re.split(r"\s+comunicat de:?\s*", raspuns_sursa_raw, maxsplit=1)[
+                0
+            ].strip()
         else:
             raspuns_sursa = None
         # Pentru "comunicat de" extragem din întregul text (apare după "comunicat de:")
@@ -262,17 +266,36 @@ def parse_detail(idi: int, legislatura: int) -> Interpelare | None:
     )
 
 
-def scrape_year(year: int, legislatura: int) -> list[Interpelare]:
+def scrape_year(
+    year: int,
+    legislatura: int,
+    skip_ids: set[int] | None = None,
+) -> list[Interpelare]:
+    """Scrape toate interpelările pentru un an.
+
+    Args:
+        year: anul interpelărilor
+        legislatura: legislatura aferentă
+        skip_ids: opțional, set de cdep_idi deja procesate; nu se mai face request
+                  pentru ele. Util pentru update incremental — economisim 90%+
+                  bandwidth când rulăm zilnic și avem deja istoricul.
+    """
+    skip = skip_ids or set()
     idis = list_idis_for_year(year)
-    logger.info(f"year={year}: {len(idis)} interpelări/întrebări")
+    new_idis = [idi for idi in idis if idi not in skip]
+    skipped = len(idis) - len(new_idis)
+    logger.info(
+        f"year={year}: {len(idis)} interpelări total, "
+        f"{skipped} deja procesate (skip), {len(new_idis)} noi de fetched"
+    )
     results = []
-    for i, idi in enumerate(idis, 1):
+    for i, idi in enumerate(new_idis, 1):
         try:
             interp = parse_detail(idi, legislatura)
             if interp:
                 results.append(interp)
                 if i % 100 == 0:
-                    logger.info(f"  [{i}/{len(idis)}] processed")
+                    logger.info(f"  [{i}/{len(new_idis)}] processed")
         except Exception as e:
             logger.warning(f"  idi={idi} failed: {e}")
     logger.info(f"year={year}: {len(results)} parsed successfully")

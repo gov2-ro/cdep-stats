@@ -336,17 +336,42 @@ def parse_detail(idp: int, legislatura: int, cam: int = 2) -> Proiect | None:
     )
 
 
-def scrape_year(year: int, legislatura: int, cam: int = 2) -> list[Proiect]:
-    """Scrape toate proiectele dintr-un an, în paralel."""
+def scrape_year(
+    year: int,
+    legislatura: int,
+    cam: int = 2,
+    skip_ids: set[int] | None = None,
+) -> list[Proiect]:
+    """Scrape toate proiectele dintr-un an, în paralel.
+
+    Args:
+        year: anul proiectelor
+        legislatura: legislatura aferentă
+        cam: 1 = Senat, 2 = Camera Deputaților
+        skip_ids: opțional, set de idp deja procesate; nu se mai face request.
+                  Util pentru update incremental.
+
+    NOTĂ IMPORTANTĂ pentru proiecte: chiar dacă un idp e deja în skip_ids,
+    starea lui poate evolua (timeline, vot final, promulgare). Pentru
+    actualizare reală a stadiului, NU folosi skip_ids — refetch tot.
+    """
+    skip = skip_ids or set()
     idps = list_idps_for_year(year, cam)
-    logger.info(f"year={year} cam={cam}: {len(idps)} proiecte de procesat")
+    new_idps = [idp for idp in idps if idp not in skip]
+    skipped = len(idps) - len(new_idps)
+    logger.info(
+        f"year={year} cam={cam}: {len(idps)} proiecte total, "
+        f"{skipped} skip, {len(new_idps)} noi de procesat"
+    )
 
     results: list[Proiect] = []
-    if not idps:
+    if not new_idps:
         return results
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        future_to_idp = {executor.submit(parse_detail, idp, legislatura, cam): idp for idp in idps}
+        future_to_idp = {
+            executor.submit(parse_detail, idp, legislatura, cam): idp for idp in new_idps
+        }
         for done, future in enumerate(as_completed(future_to_idp), start=1):
             idp = future_to_idp[future]
             try:
@@ -354,7 +379,7 @@ def scrape_year(year: int, legislatura: int, cam: int = 2) -> list[Proiect]:
                 if p:
                     results.append(p)
                 if done % 100 == 0:
-                    logger.info(f"  [{done}/{len(idps)}] processed")
+                    logger.info(f"  [{done}/{len(new_idps)}] processed")
             except Exception as e:
                 logger.warning(f"  idp={idp} failed: {e}")
 
