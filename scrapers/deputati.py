@@ -393,13 +393,34 @@ def _extract_list_section(text: str, header: str, stop: str, item_prefix: str) -
 # --- Main scrape ---
 
 
-def scrape(leg: int = 2024, cam: int = 2, limit: int | None = None) -> list[Deputat]:
-    """Scrape all deputies for given legislature & chamber."""
+def scrape(
+    leg: int = 2024,
+    cam: int = 2,
+    limit: int | None = None,
+    skip_ids: set[int] | None = None,
+) -> list[Deputat]:
+    """Scrape all deputies for given legislature & chamber.
+
+    Args:
+        leg, cam, limit: ca înainte
+        skip_ids: opțional, set de cdep_idm deja procesate; nu se face fetch
+                  pentru profilele lor. Util pentru update incremental.
+                  ATENȚIE: profilele deputaților EVOLUEAZĂ (schimbare partid,
+                  comisii, etc.). Pentru un snapshot complet rulează cu
+                  skip_ids=None periodic.
+    """
     logger.info(f"scrape start: leg={leg} cam={cam} workers={MAX_WORKERS}")
+    skip = skip_ids or set()
     listings = list_current_deputies(leg=leg, cam=cam)
     logger.info(f"found {len(listings)} deputies in listings")
     if limit:
         listings = listings[:limit]
+    if skip:
+        before = len(listings)
+        listings = [row for row in listings if row["idm"] not in skip]
+        logger.info(
+            f"skip incremental: {before - len(listings)} cunoscuți, {len(listings)} de fetched"
+        )
 
     results: list[Deputat] = []
 

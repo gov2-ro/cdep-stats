@@ -30,6 +30,9 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--leg", type=int, default=2024, help="Legislatură (default: 2024)")
     parser.add_argument("--cam", type=int, default=2, help="Cameră (default: 2 = CD)")
+    parser.add_argument(
+        "--full", action="store_true", help="Refetch toate moțiunile (ignoră skip_ids)."
+    )
     parser.add_argument("--verbose", "-v", action="store_true")
     args = parser.parse_args()
 
@@ -38,23 +41,46 @@ def main() -> int:
         format="%(asctime)s [%(levelname)s] %(message)s",
     )
 
-    print(f"Scrape moțiuni: leg={args.leg} cam={args.cam} (cdep.ro acceptă filtru leg)")
-    items = scrape_all(args.leg, args.cam)
+    out_path = ROOT / "data" / "v1" / "motiuni" / f"legislatura-{args.leg}.json"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
 
-    if not items:
+    # Citim existent
+    existing_ids: set[int] = set()
+    existing_data: list[dict] = []
+    if out_path.exists() and not args.full:
+        try:
+            existing = json.loads(out_path.read_text(encoding="utf-8"))
+            existing_data = existing.get("data", [])
+            existing_ids = {int(d["cdep_idm"]) for d in existing_data if d.get("cdep_idm")}
+            print(f"Index existent: {len(existing_ids)} moțiuni (mod incremental)")
+        except (json.JSONDecodeError, KeyError, ValueError):
+            pass
+
+    print(f"Scrape moțiuni: leg={args.leg} cam={args.cam} (cdep.ro acceptă filtru leg)")
+    items = scrape_all(
+        args.leg,
+        args.cam,
+        skip_ids=existing_ids if not args.full else None,
+    )
+
+    if not items and not existing_data:
         print("Niciun rezultat.")
         return 0
 
     # cdep.ro respectă filtrul ?leg= → toate moțiunile primite aparțin legislaturii cerute.
-    # Nu mai facem auto-distribute pe `data_inregistrare` (cauza overwrite-urilor între runs).
-    group = []
+    new_dicts = []
     for item in items:
         item_dict = item.model_dump(mode="json", exclude_none=False)
         item_dict["legislatura"] = args.leg
-        group.append(item_dict)
-    group.sort(key=lambda x: x.get("data_inregistrare") or "", reverse=True)
+        new_dicts.append(item_dict)
 
-    out_path = ROOT / "data" / "v1" / "motiuni" / f"legislatura-{args.leg}.json"
+    # Merge: overwrite idm-urile re-fetched, păstrează restul
+    if existing_data and not args.full:
+        new_ids = {int(d["cdep_idm"]) for d in new_dicts if d.get("cdep_idm")}
+        group = [d for d in existing_data if int(d.get("cdep_idm", 0)) not in new_ids] + new_dicts
+    else:
+        group = new_dicts
+    group.sort(key=lambda x: x.get("data_inregistrare") or "", reverse=True)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     meta = Meta(
         generated_at=datetime.now(UTC),

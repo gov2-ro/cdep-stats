@@ -2,14 +2,47 @@
 
 Toate modificările notabile ale proiectului sunt documentate aici. Format bazat pe [Keep a Changelog](https://keepachangelog.com/) și [SemVer](https://semver.org/).
 
-## [v0.2.9] — 2026-05-10 — Incremental update — economie 90%+ bandwidth
+## [v0.3.0] — 2026-05-26 — Incremental complet pentru TOATE endpointurile
 
 ### Adăugat
 
-- **`scrape_year()`** acceptă acum un parametru `skip_ids` (set de cdep_idi/cdep_idp deja procesate) pentru a sări peste detail fetches pentru entități cunoscute.
-- **`run_interpelari.py`** — IMPLICIT incremental: citește JSON-ul existent, extrage `cdep_idi`-urile cunoscute, le pasează ca skip la `scrape_year`. La rulare zilnică, doar interpelările NOI ajung la fetch.
-- **`run_proiecte.py`** — IMPLICIT incremental + flag `--full` pentru refetch complet (recomandat săptămânal pentru a captura schimbări de stadiu).
-- **Voturi** — deja era incremental prin `_index.json` check (păstrăm comportamentul).
+- **Suport incremental EXTINS la toate scrape-fetch endpoint-urile** prin parametrul opțional `skip_ids`:
+  - `scrapers/deputati.py:scrape()` — skip pe `cdep_idm`
+  - `scrapers/interpelari.py:scrape_year()` — skip pe `cdep_idi`
+  - `scrapers/proiecte.py:scrape_year()` — skip pe `cdep_idp`
+  - `scrapers/motiuni.py:scrape_all()` — skip pe `cdep_idm`
+- **Scripturile `run_*.py` rulează IMPLICIT incremental + flag `--full` pentru refetch complet**:
+  - `run_deputati.py --full` — recomandat săptămânal (schimbări partid, comisii, activitate)
+  - `run_proiecte.py --full` — recomandat săptămânal (schimbări stadiu, vot final, promulgare)
+  - `run_motiuni.py --full` — necesar dacă vot final sau rezultatul se modifică
+- **Merge logic** — toate scripturile fac acum merge corect: overwrite-uiesc idm/idi/idp-urile re-fetched și păstrează restul.
+- **Voturi** — era deja incremental prin `_index.json` (păstrăm comportamentul).
+- **Sancțiuni, comisii, amendamente** — nu necesită incremental (1 request total / derived).
+
+### Așteptat (TIMP DAILY CRON)
+
+| Endpoint | Înainte | Acum (incremental) |
+|---|---|---|
+| deputati | ~5 min (335 profiles) | ~0.5 min (doar noi) |
+| voturi | ~1 min (incremental) | ~1 min (la fel) |
+| interpelari | ~30-60 min | ~3-5 min |
+| proiecte | ~30 min | ~2-5 min |
+| motiuni | ~3 sec (mic) | ~3 sec |
+| sanctiuni | ~1 sec (1 req) | ~1 sec |
+| **TOTAL** | **~60-90 min** | **~5-10 min** |
+
+Plus refresh săptămânal `--full` pe deputati + proiecte + motiuni (~30 min sâmbătă noaptea).
+
+---
+
+## [v0.2.9] — 2026-05-10 — Incremental update — economie 90%+ bandwidth (parțial)
+
+### Adăugat
+
+- **`scrape_year()` pentru interpelări + proiecte** acceptă `skip_ids` pentru a sări peste detail fetches.
+- **`run_interpelari.py`** IMPLICIT incremental.
+- **`run_proiecte.py`** IMPLICIT incremental + flag `--full`.
+- **Voturi** — deja era incremental prin `_index.json` check.
 
 ### Așteptat
 

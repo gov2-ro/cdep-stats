@@ -235,17 +235,34 @@ def parse_detail(idm: int, legislatura: int, cam: int = 2) -> Motiune | None:
     )
 
 
-def scrape_all(legislatura: int, cam: int = 2) -> list[Motiune]:
-    """Scrape toate moțiunile pentru o legislatură + cameră."""
+def scrape_all(
+    legislatura: int,
+    cam: int = 2,
+    skip_ids: set[int] | None = None,
+) -> list[Motiune]:
+    """Scrape toate moțiunile pentru o legislatură + cameră.
+
+    Args:
+        skip_ids: opțional, set de cdep_idm deja procesate; nu se face fetch
+                  pentru detaliile lor.
+    """
+    skip = skip_ids or set()
     idms = list_idms(leg=legislatura, cam=cam)
-    logger.info(f"leg={legislatura} cam={cam}: {len(idms)} moțiuni de procesat")
+    new_idms = [idm for idm in idms if idm not in skip]
+    skipped = len(idms) - len(new_idms)
+    logger.info(
+        f"leg={legislatura} cam={cam}: {len(idms)} total, "
+        f"{skipped} skip, {len(new_idms)} noi de procesat"
+    )
 
     results: list[Motiune] = []
-    if not idms:
+    if not new_idms:
         return results
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        future_to_idm = {executor.submit(parse_detail, idm, legislatura, cam): idm for idm in idms}
+        future_to_idm = {
+            executor.submit(parse_detail, idm, legislatura, cam): idm for idm in new_idms
+        }
         for done, future in enumerate(as_completed(future_to_idm), start=1):
             idm = future_to_idm[future]
             try:
@@ -253,7 +270,7 @@ def scrape_all(legislatura: int, cam: int = 2) -> list[Motiune]:
                 if m:
                     results.append(m)
                 if done % 20 == 0:
-                    logger.info(f"  [{done}/{len(idms)}] processed")
+                    logger.info(f"  [{done}/{len(new_idms)}] processed")
             except Exception as e:
                 logger.warning(f"  idm={idm} failed: {e}")
 
