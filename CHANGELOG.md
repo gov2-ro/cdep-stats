@@ -2,6 +2,23 @@
 
 Toate modificările notabile ale proiectului sunt documentate aici. Format bazat pe [Keep a Changelog](https://keepachangelog.com/) și [SemVer](https://semver.org/).
 
+## [v0.3.1] — 2026-05-26 — Endpoint /ordine-zi
+
+### Adăugat
+
+- **`/ords/pls/caseta/ecaseta2015.OrdineZi`** scrapper — Ordinea de zi a ședințelor plenului
+- **Schema** `schemas/ordine_zi.py` — OrdineZi (cu items) + OrdineZiItem
+- **Scraper** `scrapers/ordine_zi.py` — `list_session_dates_for_month()`, `parse_session()`, `scrape_year()`
+- **Runner** `scripts/run_ordine_zi.py` cu suport `--years`, `--leg`, `--full`, incremental implicit
+- **URL patterns descoperite**:
+  - `/ords/pls/caseta/ecaseta2015.OrdineZi?dat=YYYYMMDD` — ordinea unei zile
+  - `/ords/pls/caseta/ecaseta2015.zile_ordinezi?lu=MM&an=YYYY` — AJAX lista zilelor cu ședință
+- **Cross-link cu /proiecte**: fiecare punct cu proiect de lege are `idp` extras din linkul `upl_pck2015.proiect?idp=N`
+- **Validare offline**: 81 puncte extrase din ședința 26-27 mai 2026, cu cross-link la `idp=21060 (Pl-x 464/2023)`
+- **Storage**: `data/v1/ordine-zi/legislatura-{leg}.json`
+
+---
+
 ## [v0.3.0] — 2026-05-26 — Incremental complet pentru TOATE endpointurile
 
 ### Adăugat
