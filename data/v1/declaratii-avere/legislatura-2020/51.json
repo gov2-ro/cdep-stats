@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:26:51.159604Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 7
+  },
+  "data": {
+    "id": "ea18748ccecd62e1",
+    "cdep_idm": 51,
+    "deputat_nume": "Buicu Corneliu-Florin",
+    "deputat_canonical_id": "02bba7e95f6c87e7",
+    "legislatura": 2020,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2020-12-21",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/051.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2021-05-02",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/051a.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2022-06-03",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/051b.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 1810.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 531988.0,
+        "datorii_total_ron": 252500.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2023-06-06",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/051c.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 1810.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 528509.0,
+        "datorii_total_ron": 252500.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-06-04",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/051d.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 1810.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 313378.0,
+        "datorii_total_ron": 252500.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-14",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/051e.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 1810.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 313378.0,
+        "datorii_total_ron": 252500.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-21",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/051f.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 2,
+        "cladiri_count": 4,
+        "suprafata_total_mp": 1810.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 440144.0,
+        "datorii_total_ron": 252500.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-21",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 440144.0,
+    "ultima_imobile_count": 6,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 6
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:36:42.152908Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 7
+  },
+  "data": {
+    "id": "5f05f862dd6d4d17",
+    "cdep_idm": 332,
+    "deputat_nume": "Huţu Alexandra",
+    "deputat_canonical_id": "c89e863efabacdbe",
+    "legislatura": 2020,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2021-02-09",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/332.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2021-02-16",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/332a.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2021-06-08",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/332b.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2022-06-14",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/332c.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 226507.0,
+        "datorii_total_ron": 42778.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2023-06-13",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/332d.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 208946.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-06-14",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/332e.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 249285.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-20",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/332f.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 149000.0,
+        "venituri_anuale_ron": 298049.77,
+        "datorii_total_ron": 75087.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-20",
+    "ultima_conturi_ron": 149000.0,
+    "ultima_venituri_ron": 298049.77,
+    "ultima_imobile_count": 0,
+    "delta_conturi_ron": 149000.0,
+    "delta_imobile": 0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:28:58.512714Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "92663f921144b371",
+    "cdep_idm": 353,
+    "deputat_nume": "Cionca Adrian-Ioan",
+    "deputat_canonical_id": "d0b95ece8d024ba0",
+    "legislatura": 2020,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-04",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/353.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 10,
+        "cladiri_count": 10,
+        "suprafata_total_mp": 113582.40000000001,
+        "conturi_total_ron": 15558969.530000001,
+        "venituri_anuale_ron": 2219522.65,
+        "datorii_total_ron": 23775460.68,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-19",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/353a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 10,
+        "cladiri_count": 10,
+        "suprafata_total_mp": 113582.40000000001,
+        "conturi_total_ron": 15750354.54,
+        "venituri_anuale_ron": 719959.11,
+        "datorii_total_ron": 23411256.04,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-19",
+    "ultima_conturi_ron": 15750354.54,
+    "ultima_venituri_ron": 719959.11,
+    "ultima_imobile_count": 20,
+    "delta_conturi_ron": 191385.0099999979,
+    "delta_imobile": 0
+  }
+}

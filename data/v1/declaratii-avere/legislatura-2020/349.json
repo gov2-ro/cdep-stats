@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:27:17.545018Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "661716eccdfb92d3",
+    "cdep_idm": 349,
+    "deputat_nume": "Butuza Cosmin-Răzvan",
+    "deputat_canonical_id": "d228d4fd59a5e3e8",
+    "legislatura": 2020,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2024-11-18",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/349.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 102216.0,
+        "datorii_total_ron": 70195.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-17",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/349a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 112104.0,
+        "datorii_total_ron": 68211.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-17",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 112104.0,
+    "ultima_imobile_count": 0,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

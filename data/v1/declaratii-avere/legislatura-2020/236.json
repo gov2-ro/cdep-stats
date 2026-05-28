@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:47:17.899529Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 6
+  },
+  "data": {
+    "id": "37af13d56cec3c61",
+    "cdep_idm": 236,
+    "deputat_nume": "Popescu Dan-Cristian",
+    "deputat_canonical_id": "5fe8c1e4f5cc0d1a",
+    "legislatura": 2020,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2020-12-29",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/236.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2021-06-15",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/236a.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2022-06-08",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/236b.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 11,
+        "suprafata_total_mp": 29899.0,
+        "conturi_total_ron": 14470000.0,
+        "venituri_anuale_ron": 1049993.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2023-03-08",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/236c.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 11,
+        "suprafata_total_mp": 30036.0,
+        "conturi_total_ron": 14860000.0,
+        "venituri_anuale_ron": 1058912.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-05-20",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/236d.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 11,
+        "suprafata_total_mp": 30036.0,
+        "conturi_total_ron": 15452500.0,
+        "venituri_anuale_ron": 1221049.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-11-25",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/236e.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 12,
+        "suprafata_total_mp": 30085.0,
+        "conturi_total_ron": 19652500.0,
+        "venituri_anuale_ron": 1221049.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2024-11-25",
+    "ultima_conturi_ron": 19652500.0,
+    "ultima_venituri_ron": 1221049.0,
+    "ultima_imobile_count": 16,
+    "delta_conturi_ron": 19652500.0,
+    "delta_imobile": 16
+  }
+}

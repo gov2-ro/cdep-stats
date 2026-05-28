@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:32:09.027258Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "800767ab8c5f29ee",
+    "cdep_idm": 355,
+    "deputat_nume": "Faur Lazăr",
+    "deputat_canonical_id": "92afcc44fa37d08d",
+    "legislatura": 2020,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-21",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/355.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 11321.0,
+        "conturi_total_ron": 25000.0,
+        "venituri_anuale_ron": 189656.0,
+        "datorii_total_ron": 17500.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-17",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/355a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 11321.0,
+        "conturi_total_ron": 25000.0,
+        "venituri_anuale_ron": 239106.0,
+        "datorii_total_ron": 17500.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-17",
+    "ultima_conturi_ron": 25000.0,
+    "ultima_venituri_ron": 239106.0,
+    "ultima_imobile_count": 6,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

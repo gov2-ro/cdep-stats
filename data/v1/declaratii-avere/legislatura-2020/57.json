@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:27:31.477212Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 7
+  },
+  "data": {
+    "id": "5cdfdb9e54155ca7",
+    "cdep_idm": 57,
+    "deputat_nume": "Calista Mara-Daniela",
+    "deputat_canonical_id": "cfa9fe645a9e552b",
+    "legislatura": 2020,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2020-12-22",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/057.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2021-06-09",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/057a.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2022-06-02",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/057b.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 6,
+        "cladiri_count": 6,
+        "suprafata_total_mp": 31920.209999999995,
+        "conturi_total_ron": 262800.0,
+        "venituri_anuale_ron": 721368.8,
+        "datorii_total_ron": 255792.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2023-06-12",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/057c.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 6,
+        "cladiri_count": 7,
+        "suprafata_total_mp": 32070.739999999994,
+        "conturi_total_ron": 236800.0,
+        "venituri_anuale_ron": 714489.0,
+        "datorii_total_ron": 598306.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2023-06-21",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/057d.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 6,
+        "cladiri_count": 7,
+        "suprafata_total_mp": 32070.739999999994,
+        "conturi_total_ron": 236800.0,
+        "venituri_anuale_ron": 714489.0,
+        "datorii_total_ron": 598306.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-06-14",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/057e.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 6,
+        "cladiri_count": 7,
+        "suprafata_total_mp": 32070.739999999994,
+        "conturi_total_ron": 236800.0,
+        "venituri_anuale_ron": 514676.0,
+        "datorii_total_ron": 254741.26,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-17",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/057f.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 6,
+        "cladiri_count": 7,
+        "suprafata_total_mp": 32070.739999999994,
+        "conturi_total_ron": 236800.0,
+        "venituri_anuale_ron": 286072.0,
+        "datorii_total_ron": 227441.32,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-17",
+    "ultima_conturi_ron": 236800.0,
+    "ultima_venituri_ron": 286072.0,
+    "ultima_imobile_count": 13,
+    "delta_conturi_ron": 236800.0,
+    "delta_imobile": 13
+  }
+}

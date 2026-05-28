@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:44:38.470999Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 3
+  },
+  "data": {
+    "id": "3167019f49eb514c",
+    "cdep_idm": 211,
+    "deputat_nume": "Olar Corneliu",
+    "deputat_canonical_id": "d2940c45a11c5ea7",
+    "legislatura": 2020,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2020-12-21",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/211.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2021-01-20",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/211a.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2021-06-15",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/211b.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2021-06-15",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 0.0,
+    "ultima_imobile_count": 0,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

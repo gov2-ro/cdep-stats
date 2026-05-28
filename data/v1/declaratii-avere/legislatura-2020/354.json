@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:22:06.838935Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "f53a07a8ce4eaa95",
+    "cdep_idm": 354,
+    "deputat_nume": "Alui-Gheorghe Adrian",
+    "deputat_canonical_id": "6f9fdc6ef7af342e",
+    "legislatura": 2020,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2024-12-04",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/354.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 54761.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 186645.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-10",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/354a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 54761.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 204766.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-10",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 204766.0,
+    "ultima_imobile_count": 4,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

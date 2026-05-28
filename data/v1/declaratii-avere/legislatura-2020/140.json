@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:36:23.172986Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 6
+  },
+  "data": {
+    "id": "acfb0fab2d98889a",
+    "cdep_idm": 140,
+    "deputat_nume": "Holban Georgeta-Carmen",
+    "deputat_canonical_id": "78b3f7b97de76d6e",
+    "legislatura": 2020,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2020-12-23",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/140.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2021-06-14",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/140a.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2022-06-09",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/140b.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 5,
+        "cladiri_count": 7,
+        "suprafata_total_mp": 8495.0,
+        "conturi_total_ron": 35880.0,
+        "venituri_anuale_ron": 357997.0,
+        "datorii_total_ron": 224008.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2023-06-12",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/140c.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 5,
+        "cladiri_count": 7,
+        "suprafata_total_mp": 8495.0,
+        "conturi_total_ron": 35880.0,
+        "venituri_anuale_ron": 670606.0,
+        "datorii_total_ron": 298400.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-06-03",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/140d.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 7,
+        "suprafata_total_mp": 6495.0,
+        "conturi_total_ron": 35880.0,
+        "venituri_anuale_ron": 611598.0,
+        "datorii_total_ron": 276477.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-12-30",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/140e.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 4,
+        "cladiri_count": 6,
+        "suprafata_total_mp": 6439.0,
+        "conturi_total_ron": 35880.0,
+        "venituri_anuale_ron": 760573.0,
+        "datorii_total_ron": 395000.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2024-12-30",
+    "ultima_conturi_ron": 35880.0,
+    "ultima_venituri_ron": 760573.0,
+    "ultima_imobile_count": 10,
+    "delta_conturi_ron": 35880.0,
+    "delta_imobile": 10
+  }
+}

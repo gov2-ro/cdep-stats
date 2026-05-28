@@ -139,7 +139,7 @@ Datele sunt **interconectate** prin ID-uri stabile:
 - **Pagefind** pentru search — index static, ~30MB, fără backend.
 - **Modelele aliniate Popolo** (Person, Organization, VoteEvent) — facilitează interop cu alte API-uri parlamentare europene.
 
-Detalii în [`STORAGE.md`](./STORAGE.md), [`INTEGRATIONS.md`](./INTEGRATIONS.md), [`sitemap.md`](./sitemap.md).
+Detalii în [`docs/ARCHITECTURE.md`](./docs/ARCHITECTURE.md), [`STORAGE.md`](./STORAGE.md), [`INTEGRATIONS.md`](./INTEGRATIONS.md), [`sitemap.md`](./sitemap.md).
 
 ---
 

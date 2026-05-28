@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:28:02.698819Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 7
+  },
+  "data": {
+    "id": "33811b1050746064",
+    "cdep_idm": 62,
+    "deputat_nume": "Cătăuţă Ana-Maria",
+    "deputat_canonical_id": "ebfc8d960cd01bf9",
+    "legislatura": 2020,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2020-12-21",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/062.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2020-12-30",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/062a.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2021-06-14",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/062b.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2022-06-14",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/062c.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 1002.3299999999999,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 136669.0,
+        "datorii_total_ron": 608514.84,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2023-06-14",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/062d.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 1002.3299999999999,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 141614.68,
+        "datorii_total_ron": 506544.83999999997,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-06-17",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/062e.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 1002.3299999999999,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 142762.86,
+        "datorii_total_ron": 341611.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-12-29",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/062f.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 3,
+        "cladiri_count": 2,
+        "suprafata_total_mp": 1002.3299999999999,
+        "conturi_total_ron": 50000.0,
+        "venituri_anuale_ron": 143294.74,
+        "datorii_total_ron": 341611.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2024-12-29",
+    "ultima_conturi_ron": 50000.0,
+    "ultima_venituri_ron": 143294.74,
+    "ultima_imobile_count": 5,
+    "delta_conturi_ron": 50000.0,
+    "delta_imobile": 5
+  }
+}

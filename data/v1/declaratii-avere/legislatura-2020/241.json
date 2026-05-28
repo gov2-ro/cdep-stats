@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:47:47.837908Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 5
+  },
+  "data": {
+    "id": "d0ab41951c4bcebc",
+    "cdep_idm": 241,
+    "deputat_nume": "Predescu Ana-Loredana",
+    "deputat_canonical_id": "2396e5f6cf630d5c",
+    "legislatura": 2020,
+    "partid_short": null,
+    "declaratii": [
+      {
+        "data_depunere": "2020-12-29",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/241.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2021-06-15",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/241a.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2022-06-14",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/241b.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2023-06-15",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/241c.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 300.24,
+        "conturi_total_ron": 108993.0,
+        "venituri_anuale_ron": 148119.0,
+        "datorii_total_ron": 410000.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-06-12",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/241d.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 3,
+        "suprafata_total_mp": 300.24,
+        "conturi_total_ron": 108993.0,
+        "venituri_anuale_ron": 164876.25,
+        "datorii_total_ron": 410000.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2024-06-12",
+    "ultima_conturi_ron": 108993.0,
+    "ultima_venituri_ron": 164876.25,
+    "ultima_imobile_count": 3,
+    "delta_conturi_ron": 108993.0,
+    "delta_imobile": 3
+  }
+}

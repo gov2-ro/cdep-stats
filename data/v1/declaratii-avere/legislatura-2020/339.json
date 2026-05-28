@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:40:27.704633Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 3
+  },
+  "data": {
+    "id": "378c2e2bdde73f70",
+    "cdep_idm": 339,
+    "deputat_nume": "Manole Petre-Florin",
+    "deputat_canonical_id": "7d3795e2c5f459af",
+    "legislatura": 2020,
+    "partid_short": "PSD",
+    "declaratii": [
+      {
+        "data_depunere": "2023-12-28",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/339.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 461.0,
+        "conturi_total_ron": 1048000.0,
+        "venituri_anuale_ron": 206724.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-05-13",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/339a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 461.0,
+        "conturi_total_ron": 1212000.0,
+        "venituri_anuale_ron": 259210.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-12-21",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/339b.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 461.0,
+        "conturi_total_ron": 1340500.0,
+        "venituri_anuale_ron": 259210.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2024-12-21",
+    "ultima_conturi_ron": 1340500.0,
+    "ultima_venituri_ron": 259210.0,
+    "ultima_imobile_count": 2,
+    "delta_conturi_ron": 292500.0,
+    "delta_imobile": 0
+  }
+}

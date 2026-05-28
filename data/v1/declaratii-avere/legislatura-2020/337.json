@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:26:07.907824Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 3
+  },
+  "data": {
+    "id": "3849bc40a3f235bd",
+    "cdep_idm": 337,
+    "deputat_nume": "Borta Raluca-Maria",
+    "deputat_canonical_id": "6197c4e9e7a75e26",
+    "legislatura": 2020,
+    "partid_short": null,
+    "declaratii": [
+      {
+        "data_depunere": "2023-09-26",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/337.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 27622.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-06-12",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/337a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 25250.0,
+        "venituri_anuale_ron": 48311.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-15",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/337b.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 25250.0,
+        "venituri_anuale_ron": 140040.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 5,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-15",
+    "ultima_conturi_ron": 25250.0,
+    "ultima_venituri_ron": 140040.0,
+    "ultima_imobile_count": 0,
+    "delta_conturi_ron": 25250.0,
+    "delta_imobile": 0
+  }
+}

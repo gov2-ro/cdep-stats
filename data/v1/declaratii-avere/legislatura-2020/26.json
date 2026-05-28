@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:23:54.399234Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 2
+  },
+  "data": {
+    "id": "1bf65c13325017fd",
+    "cdep_idm": 26,
+    "deputat_nume": "Banciu Ionuţ-Sorin",
+    "deputat_canonical_id": "2d1c721867cac0b0",
+    "legislatura": 2020,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2020-12-31",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/026.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2021-03-22",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/026a.pdf",
+        "text_extracted": false,
+        "error": "PDF scanat (text < 100 chars)",
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "auto_count": 0,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2021-03-22",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 0.0,
+    "ultima_imobile_count": 0,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 0
+  }
+}

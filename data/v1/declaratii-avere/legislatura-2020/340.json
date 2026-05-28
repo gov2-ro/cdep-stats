@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:24:55.492955Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 4
+  },
+  "data": {
+    "id": "bc161f1bca3b3606",
+    "cdep_idm": 340,
+    "deputat_nume": "Benchescu-Pecingină Claudia",
+    "deputat_canonical_id": "db3f8cd66986d744",
+    "legislatura": 2020,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2024-03-05",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/340.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 1155.0,
+        "conturi_total_ron": 32825.0,
+        "venituri_anuale_ron": 257850.0,
+        "datorii_total_ron": 42053.68,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-06-14",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/340a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 1155.0,
+        "conturi_total_ron": 39046.46,
+        "venituri_anuale_ron": 427024.0,
+        "datorii_total_ron": 42053.68,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-15",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/340b.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 1155.0,
+        "conturi_total_ron": 234238.52,
+        "venituri_anuale_ron": 297088.0,
+        "datorii_total_ron": 687500.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-16",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/340c.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 1,
+        "cladiri_count": 1,
+        "suprafata_total_mp": 1155.0,
+        "conturi_total_ron": 477238.52,
+        "venituri_anuale_ron": 297088.0,
+        "datorii_total_ron": 497500.0,
+        "auto_count": 6,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-16",
+    "ultima_conturi_ron": 477238.52,
+    "ultima_venituri_ron": 297088.0,
+    "ultima_imobile_count": 2,
+    "delta_conturi_ron": 444413.52,
+    "delta_imobile": 0
+  }
+}

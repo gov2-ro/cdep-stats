@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:40:40.324167Z",
+    "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
+    "scraper_version": "0.1.0",
+    "count": 4
+  },
+  "data": {
+    "id": "bafea4619ab0cb11",
+    "cdep_idm": 338,
+    "deputat_nume": "Mareş Mara",
+    "deputat_canonical_id": "f779d69b20bcab63",
+    "legislatura": 2020,
+    "partid_short": "PNL",
+    "declaratii": [
+      {
+        "data_depunere": "2023-11-08",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/338.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 0,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 0.0,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 156013.0,
+        "datorii_total_ron": 88363.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2023-11-22",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/338a.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 10,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 53672.200000000004,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 189199.0,
+        "datorii_total_ron": 88363.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2024-06-13",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/338b.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 10,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 53672.200000000004,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 229788.0,
+        "datorii_total_ron": 1688363.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      },
+      {
+        "data_depunere": "2025-01-20",
+        "pdf_url": "https://www.cdep.ro/declaratii/deputati/2020/avere/338c.pdf",
+        "text_extracted": true,
+        "error": null,
+        "terenuri_count": 10,
+        "cladiri_count": 0,
+        "suprafata_total_mp": 53672.200000000004,
+        "conturi_total_ron": 0.0,
+        "venituri_anuale_ron": 147148.0,
+        "datorii_total_ron": 123363.0,
+        "auto_count": 4,
+        "imobile_detaliate": []
+      }
+    ],
+    "ultima_data": "2025-01-20",
+    "ultima_conturi_ron": 0.0,
+    "ultima_venituri_ron": 147148.0,
+    "ultima_imobile_count": 10,
+    "delta_conturi_ron": 0.0,
+    "delta_imobile": 10
+  }
+}
