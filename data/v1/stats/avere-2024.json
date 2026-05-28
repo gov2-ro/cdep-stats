@@ -1,0 +1,1295 @@
+{
+  "meta": {
+    "generated_at": "2026-05-28T19:47:29.938974Z",
+    "source_url": "https://endimion2k.github.io/cdep-api-poc/data/v1/declaratii-avere/legislatura-2024.json",
+    "scraper_version": "0.1.0",
+    "count": 332,
+    "caveats": "Cifre extrase automat din PDF-urile ANI cu pdfplumber; pot conține erori de parsare. Sumele în valută sunt normalizate la RON la cursuri fixe (EUR 5.05, USD 4.50). Imobilele și autovehiculele sunt NUMĂRĂTORI (nu valori). Nu calculăm un 'net worth' unic — clasăm pe câmpurile reale măsurate.",
+    "legislatura": 2024
+  },
+  "cards": {
+    "n_deputati": 332,
+    "median_conturi": 4455.0,
+    "median_venituri": 231174.0,
+    "n_cu_evolutie": 159
+  },
+  "leaderboards": {
+    "top_conturi": [
+      {
+        "cdep_idm": 23,
+        "nume": "Becali George",
+        "partid": "Neafiliat",
+        "value": 384525679.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/23.json"
+      },
+      {
+        "cdep_idm": 68,
+        "nume": "Cîrligea Florin-Eugen",
+        "partid": "AUR",
+        "value": 33415200.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/68.json"
+      },
+      {
+        "cdep_idm": 309,
+        "nume": "Tuşa Adriana Diana",
+        "partid": "PSD",
+        "value": 31477360.9,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/309.json"
+      },
+      {
+        "cdep_idm": 38,
+        "nume": "Bruynseels Ramona-Ioana",
+        "partid": "AUR",
+        "value": 25565629.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/38.json"
+      },
+      {
+        "cdep_idm": 84,
+        "nume": "Cruşoveanu Marian",
+        "partid": "PNL",
+        "value": 17940945.75,
+        "n_declaratii": 3,
+        "detail_url": "declaratii-avere/legislatura-2024/84.json"
+      },
+      {
+        "cdep_idm": 96,
+        "nume": "Drulă Cătălin",
+        "partid": "USR",
+        "value": 11542022.2,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/96.json"
+      },
+      {
+        "cdep_idm": 201,
+        "nume": "Mîndrescu Nicolae",
+        "partid": "AUR",
+        "value": 8498348.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/201.json"
+      },
+      {
+        "cdep_idm": 212,
+        "nume": "Murad Mohammad",
+        "partid": "AUR",
+        "value": 7415105.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/212.json"
+      },
+      {
+        "cdep_idm": 326,
+        "nume": "Vuşcan Voicu",
+        "partid": "PSD",
+        "value": 6432247.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/326.json"
+      },
+      {
+        "cdep_idm": 129,
+        "nume": "Gorghiu Alina-Ştefania",
+        "partid": "PNL",
+        "value": 5656490.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/129.json"
+      },
+      {
+        "cdep_idm": 214,
+        "nume": "Muraru Iulian-Alexandru",
+        "partid": "PNL",
+        "value": 4797624.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/214.json"
+      },
+      {
+        "cdep_idm": 162,
+        "nume": "Koler Eduard-Virgil",
+        "partid": "AUR",
+        "value": 3709918.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/162.json"
+      },
+      {
+        "cdep_idm": 264,
+        "nume": "Rafila Alexandru",
+        "partid": "PSD",
+        "value": 3575016.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/264.json"
+      },
+      {
+        "cdep_idm": 168,
+        "nume": "Lăpuşan Remus-Gabriel",
+        "partid": "PSD",
+        "value": 2831857.44,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/168.json"
+      },
+      {
+        "cdep_idm": 26,
+        "nume": "Berescu Monica-Elena",
+        "partid": "USR",
+        "value": 2663087.5,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/26.json"
+      }
+    ],
+    "top_venituri": [
+      {
+        "cdep_idm": 84,
+        "nume": "Cruşoveanu Marian",
+        "partid": "PNL",
+        "value": 12149641.18,
+        "n_declaratii": 3,
+        "detail_url": "declaratii-avere/legislatura-2024/84.json"
+      },
+      {
+        "cdep_idm": 191,
+        "nume": "Mihalcea Remus-Gabriel",
+        "partid": "PSD",
+        "value": 6616188.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/191.json"
+      },
+      {
+        "cdep_idm": 309,
+        "nume": "Tuşa Adriana Diana",
+        "partid": "PSD",
+        "value": 5278316.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/309.json"
+      },
+      {
+        "cdep_idm": 123,
+        "nume": "Gherasim Laura",
+        "partid": "AUR",
+        "value": 3520375.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/123.json"
+      },
+      {
+        "cdep_idm": 212,
+        "nume": "Murad Mohammad",
+        "partid": "AUR",
+        "value": 3281065.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/212.json"
+      },
+      {
+        "cdep_idm": 295,
+        "nume": "Şerban George Cătălin",
+        "partid": "PNL",
+        "value": 2215056.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/295.json"
+      },
+      {
+        "cdep_idm": 153,
+        "nume": "Iordache Ion",
+        "partid": "PNL",
+        "value": 2022830.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/153.json"
+      },
+      {
+        "cdep_idm": 129,
+        "nume": "Gorghiu Alina-Ştefania",
+        "partid": "PNL",
+        "value": 1974797.3,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/129.json"
+      },
+      {
+        "cdep_idm": 68,
+        "nume": "Cîrligea Florin-Eugen",
+        "partid": "AUR",
+        "value": 1910925.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/68.json"
+      },
+      {
+        "cdep_idm": 38,
+        "nume": "Bruynseels Ramona-Ioana",
+        "partid": "AUR",
+        "value": 1848761.4,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/38.json"
+      },
+      {
+        "cdep_idm": 26,
+        "nume": "Berescu Monica-Elena",
+        "partid": "USR",
+        "value": 1720926.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/26.json"
+      },
+      {
+        "cdep_idm": 327,
+        "nume": "Weber Mihai",
+        "partid": "PSD",
+        "value": 1657280.25,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/327.json"
+      },
+      {
+        "cdep_idm": 127,
+        "nume": "Gliga Dumitriţa",
+        "partid": "PSD",
+        "value": 1594208.34,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/127.json"
+      },
+      {
+        "cdep_idm": 230,
+        "nume": "Oancea Silviu-Florin",
+        "partid": "AUR",
+        "value": 1496159.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/230.json"
+      },
+      {
+        "cdep_idm": 326,
+        "nume": "Vuşcan Voicu",
+        "partid": "PSD",
+        "value": 1427820.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/326.json"
+      }
+    ],
+    "top_datorii": [
+      {
+        "cdep_idm": 212,
+        "nume": "Murad Mohammad",
+        "partid": "AUR",
+        "value": 164329887.05,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/212.json"
+      },
+      {
+        "cdep_idm": 191,
+        "nume": "Mihalcea Remus-Gabriel",
+        "partid": "PSD",
+        "value": 16048414.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/191.json"
+      },
+      {
+        "cdep_idm": 173,
+        "nume": "Lovin Ramona",
+        "partid": "AUR",
+        "value": 2866476.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/173.json"
+      },
+      {
+        "cdep_idm": 27,
+        "nume": "Biro Daniel-Răzvan",
+        "partid": "AUR",
+        "value": 2770350.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/27.json"
+      },
+      {
+        "cdep_idm": 162,
+        "nume": "Koler Eduard-Virgil",
+        "partid": "AUR",
+        "value": 2666000.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/162.json"
+      },
+      {
+        "cdep_idm": 154,
+        "nume": "Iosub Cosmin-Teodor",
+        "partid": "AUR",
+        "value": 2550000.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/154.json"
+      },
+      {
+        "cdep_idm": 263,
+        "nume": "Radu Fabian-Cristian",
+        "partid": "AUR",
+        "value": 2450000.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/263.json"
+      },
+      {
+        "cdep_idm": 46,
+        "nume": "Burduja Sebastian-Ioan",
+        "partid": "PNL",
+        "value": 2021989.5,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/46.json"
+      },
+      {
+        "cdep_idm": 187,
+        "nume": "Merka Adrian-Miroslav",
+        "partid": "Minoritati",
+        "value": 2009860.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/187.json"
+      },
+      {
+        "cdep_idm": 232,
+        "nume": "Oprea Octavian",
+        "partid": "PNL",
+        "value": 1979500.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/232.json"
+      },
+      {
+        "cdep_idm": 265,
+        "nume": "Răducanu Sebastian",
+        "partid": "PSD",
+        "value": 1870664.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/265.json"
+      },
+      {
+        "cdep_idm": 139,
+        "nume": "Hajdu Gábor",
+        "partid": "UDMR",
+        "value": 1542908.85,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/139.json"
+      },
+      {
+        "cdep_idm": 214,
+        "nume": "Muraru Iulian-Alexandru",
+        "partid": "PNL",
+        "value": 1526615.53,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/214.json"
+      },
+      {
+        "cdep_idm": 97,
+        "nume": "Dunava Costel Neculai",
+        "partid": "PSD",
+        "value": 1344466.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/97.json"
+      },
+      {
+        "cdep_idm": 298,
+        "nume": "Tanasă Dan",
+        "partid": "AUR",
+        "value": 1304692.0,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/298.json"
+      }
+    ],
+    "top_imobile": [
+      {
+        "cdep_idm": 153,
+        "nume": "Iordache Ion",
+        "partid": "PNL",
+        "value": 85,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/153.json",
+        "suprafata_mp": 1897569.0
+      },
+      {
+        "cdep_idm": 88,
+        "nume": "Culeafă Mihai",
+        "partid": "PNL",
+        "value": 46,
+        "n_declaratii": 3,
+        "detail_url": "declaratii-avere/legislatura-2024/88.json",
+        "suprafata_mp": 162513.0
+      },
+      {
+        "cdep_idm": 167,
+        "nume": "Lazăr Teodor",
+        "partid": "USR",
+        "value": 41,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/167.json",
+        "suprafata_mp": 71465.0
+      },
+      {
+        "cdep_idm": 228,
+        "nume": "Negrea Petru-Gabriel",
+        "partid": "AUR",
+        "value": 39,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/228.json",
+        "suprafata_mp": 205645.0
+      },
+      {
+        "cdep_idm": 318,
+        "nume": "Vârgă Mariana",
+        "partid": "Neafiliat",
+        "value": 34,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/318.json",
+        "suprafata_mp": 148147.0
+      },
+      {
+        "cdep_idm": 83,
+        "nume": "Crîstici Ognean",
+        "partid": "Minoritati",
+        "value": 30,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/83.json",
+        "suprafata_mp": 32136.0
+      },
+      {
+        "cdep_idm": 84,
+        "nume": "Cruşoveanu Marian",
+        "partid": "PNL",
+        "value": 28,
+        "n_declaratii": 3,
+        "detail_url": "declaratii-avere/legislatura-2024/84.json",
+        "suprafata_mp": 70979.8
+      },
+      {
+        "cdep_idm": 161,
+        "nume": "Kolcsár Anquetil-Károly",
+        "partid": "UDMR",
+        "value": 28,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/161.json",
+        "suprafata_mp": 48843.9
+      },
+      {
+        "cdep_idm": 39,
+        "nume": "Bucur Ariana-Oana",
+        "partid": "PSD",
+        "value": 26,
+        "n_declaratii": 3,
+        "detail_url": "declaratii-avere/legislatura-2024/39.json",
+        "suprafata_mp": 985.0
+      },
+      {
+        "cdep_idm": 115,
+        "nume": "Gavrilescu Graţiela Leocadia",
+        "partid": "PSD",
+        "value": 26,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/115.json",
+        "suprafata_mp": 36802.8
+      },
+      {
+        "cdep_idm": 331,
+        "nume": "Zisopol Dragoş Gabriel",
+        "partid": "Minoritati",
+        "value": 25,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/331.json",
+        "suprafata_mp": 21164.3
+      },
+      {
+        "cdep_idm": 145,
+        "nume": "Iancu Marius-Ionel",
+        "partid": "PSD",
+        "value": 22,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/145.json",
+        "suprafata_mp": 27652.0
+      },
+      {
+        "cdep_idm": 28,
+        "nume": "Biró Rozália-Ibolya",
+        "partid": "UDMR",
+        "value": 22,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/28.json",
+        "suprafata_mp": 266045.4
+      },
+      {
+        "cdep_idm": 227,
+        "nume": "Negoescu Mihai-Bogdan",
+        "partid": "AUR",
+        "value": 21,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/227.json",
+        "suprafata_mp": 102805.0
+      },
+      {
+        "cdep_idm": 7,
+        "nume": "Andrei Alexandru-Ioan",
+        "partid": "PNL",
+        "value": 20,
+        "n_declaratii": 1,
+        "detail_url": "declaratii-avere/legislatura-2024/7.json",
+        "suprafata_mp": 89897.0
+      }
+    ],
+    "delta_crestere": [
+      {
+        "cdep_idm": 84,
+        "nume": "Cruşoveanu Marian",
+        "partid": "PNL",
+        "value": 9173233.25,
+        "n_declaratii": 3,
+        "detail_url": "declaratii-avere/legislatura-2024/84.json"
+      },
+      {
+        "cdep_idm": 24,
+        "nume": "Bejinariu Eugen",
+        "partid": "PSD",
+        "value": 983195.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/24.json"
+      },
+      {
+        "cdep_idm": 186,
+        "nume": "Mărgărit Mitică-Marius",
+        "partid": "PSD",
+        "value": 696000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/186.json"
+      },
+      {
+        "cdep_idm": 311,
+        "nume": "Ţiplea Dumitru",
+        "partid": "PNL",
+        "value": 695000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/311.json"
+      },
+      {
+        "cdep_idm": 153,
+        "nume": "Iordache Ion",
+        "partid": "PNL",
+        "value": 594000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/153.json"
+      },
+      {
+        "cdep_idm": 203,
+        "nume": "Mocanu Adrian",
+        "partid": "PNL",
+        "value": 280000.0,
+        "n_declaratii": 3,
+        "detail_url": "declaratii-avere/legislatura-2024/203.json"
+      },
+      {
+        "cdep_idm": 185,
+        "nume": "Matieş Călin-Gheorghe",
+        "partid": "AUR",
+        "value": 268730.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/185.json"
+      },
+      {
+        "cdep_idm": 129,
+        "nume": "Gorghiu Alina-Ştefania",
+        "partid": "PNL",
+        "value": 250117.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/129.json"
+      },
+      {
+        "cdep_idm": 108,
+        "nume": "Florea Gabriel-Florinel",
+        "partid": "AUR",
+        "value": 200000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/108.json"
+      },
+      {
+        "cdep_idm": 240,
+        "nume": "Păunescu Silviu-Titus",
+        "partid": "AUR",
+        "value": 200000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/240.json"
+      },
+      {
+        "cdep_idm": 256,
+        "nume": "Popovici Florin-Cornel",
+        "partid": "AUR",
+        "value": 198000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/256.json"
+      },
+      {
+        "cdep_idm": 39,
+        "nume": "Bucur Ariana-Oana",
+        "partid": "PSD",
+        "value": 198000.0,
+        "n_declaratii": 3,
+        "detail_url": "declaratii-avere/legislatura-2024/39.json"
+      },
+      {
+        "cdep_idm": 184,
+        "nume": "Matichescu Mirela-Florenţa",
+        "partid": "PSD",
+        "value": 198000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/184.json"
+      },
+      {
+        "cdep_idm": 58,
+        "nume": "Ciocan Doiniţa",
+        "partid": "PSD",
+        "value": 195000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/58.json"
+      },
+      {
+        "cdep_idm": 119,
+        "nume": "Gheorghe Ionel",
+        "partid": "AUR",
+        "value": 190000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/119.json"
+      }
+    ],
+    "delta_scadere": [
+      {
+        "cdep_idm": 295,
+        "nume": "Şerban George Cătălin",
+        "partid": "PNL",
+        "value": -3100068.63,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/295.json"
+      },
+      {
+        "cdep_idm": 96,
+        "nume": "Drulă Cătălin",
+        "partid": "USR",
+        "value": -1420232.35,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/96.json"
+      },
+      {
+        "cdep_idm": 41,
+        "nume": "Budacă Vasile",
+        "partid": "PSD",
+        "value": -698000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/41.json"
+      },
+      {
+        "cdep_idm": 219,
+        "nume": "Nassar Rodica",
+        "partid": "PSD",
+        "value": -650000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/219.json"
+      },
+      {
+        "cdep_idm": 92,
+        "nume": "Dobre Ciprian-Minodor",
+        "partid": "PNL",
+        "value": -602650.0,
+        "n_declaratii": 3,
+        "detail_url": "declaratii-avere/legislatura-2024/92.json"
+      },
+      {
+        "cdep_idm": 59,
+        "nume": "Ciolacu Ion-Marcel",
+        "partid": "PSD",
+        "value": -590000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/59.json"
+      },
+      {
+        "cdep_idm": 168,
+        "nume": "Lăpuşan Remus-Gabriel",
+        "partid": "PSD",
+        "value": -418346.68,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/168.json"
+      },
+      {
+        "cdep_idm": 53,
+        "nume": "Chilat Crina-Fiorela",
+        "partid": "PSD",
+        "value": -324250.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/53.json"
+      },
+      {
+        "cdep_idm": 26,
+        "nume": "Berescu Monica-Elena",
+        "partid": "USR",
+        "value": -301410.5,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/26.json"
+      },
+      {
+        "cdep_idm": 51,
+        "nume": "Câciu Adrian",
+        "partid": "PSD",
+        "value": -298000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/51.json"
+      },
+      {
+        "cdep_idm": 282,
+        "nume": "Stancu Ionel",
+        "partid": "Minoritati",
+        "value": -290000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/282.json"
+      },
+      {
+        "cdep_idm": 167,
+        "nume": "Lazăr Teodor",
+        "partid": "USR",
+        "value": -248000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/167.json"
+      },
+      {
+        "cdep_idm": 326,
+        "nume": "Vuşcan Voicu",
+        "partid": "PSD",
+        "value": -243250.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/326.json"
+      },
+      {
+        "cdep_idm": 190,
+        "nume": "Mihalcea Ioan",
+        "partid": "PSD",
+        "value": -208000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/190.json"
+      },
+      {
+        "cdep_idm": 308,
+        "nume": "Turcan Raluca",
+        "partid": "PNL",
+        "value": -200000.0,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/308.json"
+      }
+    ],
+    "delta_imobile": [
+      {
+        "cdep_idm": 148,
+        "nume": "Ion Nicolae-Mirel",
+        "partid": "SOS RO",
+        "value": 4,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/148.json"
+      },
+      {
+        "cdep_idm": 62,
+        "nume": "Ciubuc Ciprian",
+        "partid": "Neafiliat",
+        "value": 4,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/62.json"
+      },
+      {
+        "cdep_idm": 122,
+        "nume": "Ghera Giureci-Slobodan",
+        "partid": "Minoritati",
+        "value": 2,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/122.json"
+      },
+      {
+        "cdep_idm": 57,
+        "nume": "Ciobotaru Dragoş-Fănică",
+        "partid": "PNL",
+        "value": 2,
+        "n_declaratii": 4,
+        "detail_url": "declaratii-avere/legislatura-2024/57.json"
+      },
+      {
+        "cdep_idm": 153,
+        "nume": "Iordache Ion",
+        "partid": "PNL",
+        "value": 2,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/153.json"
+      },
+      {
+        "cdep_idm": 37,
+        "nume": "Bouda Ştefan",
+        "partid": "Minoritati",
+        "value": 1,
+        "n_declaratii": 3,
+        "detail_url": "declaratii-avere/legislatura-2024/37.json"
+      },
+      {
+        "cdep_idm": 271,
+        "nume": "Roman Florin-Claudiu",
+        "partid": "PNL",
+        "value": 1,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/271.json"
+      },
+      {
+        "cdep_idm": 197,
+        "nume": "Mircea Florin",
+        "partid": "PSD",
+        "value": 1,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/197.json"
+      },
+      {
+        "cdep_idm": 126,
+        "nume": "Giurgiu Adrian",
+        "partid": "USR",
+        "value": 1,
+        "n_declaratii": 2,
+        "detail_url": "declaratii-avere/legislatura-2024/126.json"
+      }
+    ]
+  },
+  "per_partid": [
+    {
+      "partid": "PSD",
+      "n": 92,
+      "median_conturi": 42940.0,
+      "mean_conturi": 728017.15,
+      "median_venituri": 322745.5,
+      "median_datorii": 127125.0,
+      "total_imobile": 546,
+      "total_suprafata_mp": 951494.7,
+      "conturi_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1980897.85,
+        0.0,
+        198000.0,
+        198000.0,
+        248000.0,
+        0.0,
+        67373.88,
+        308050.0,
+        850.0,
+        248000.0,
+        567604.0,
+        3010.0,
+        231000.0,
+        0.0,
+        0.0,
+        0.0,
+        655500.0,
+        348000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        732481.0,
+        0.0,
+        0.0,
+        198200.0,
+        27060.0,
+        0.0,
+        2200600.0,
+        0.0,
+        2077126.0,
+        0.0,
+        0.0,
+        0.0,
+        35880.0,
+        150000.0,
+        302750.0,
+        0.0,
+        282440.0,
+        198000.0,
+        0.0,
+        2831857.44,
+        1340500.0,
+        655364.0,
+        0.0,
+        703670.0,
+        2400667.9,
+        351600.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        198000.0,
+        0.0,
+        696000.0,
+        28500.0,
+        1006723.0,
+        198000.0,
+        0.0,
+        0.0,
+        418312.5,
+        190000.0,
+        0.0,
+        198000.0,
+        308510.0,
+        0.0,
+        3575016.0,
+        0.0,
+        206000.0,
+        130150.0,
+        90000.0,
+        66280.0,
+        50000.0,
+        0.0,
+        273000.0,
+        0.0,
+        0.0,
+        223000.0,
+        0.0,
+        0.0,
+        31477360.9,
+        0.0,
+        198000.0,
+        6432247.0,
+        193576.0,
+        0.0,
+        1278420.0
+      ]
+    },
+    {
+      "partid": "AUR",
+      "n": 62,
+      "median_conturi": 29750.0,
+      "mean_conturi": 1400502.11,
+      "median_venituri": 144541.73,
+      "median_datorii": 64650.0,
+      "total_imobile": 300,
+      "total_suprafata_mp": 802007.6,
+      "conturi_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        198000.0,
+        50000.0,
+        0.0,
+        200000.0,
+        25565629.0,
+        0.0,
+        60000.0,
+        0.0,
+        0.0,
+        34500.0,
+        0.0,
+        33415200.0,
+        0.0,
+        0.0,
+        0.0,
+        131600.0,
+        131600.0,
+        200000.0,
+        190000.0,
+        0.0,
+        840000.0,
+        202000.0,
+        198000.0,
+        350.0,
+        0.0,
+        0.0,
+        0.0,
+        3709918.0,
+        0.0,
+        268730.0,
+        0.0,
+        1313000.0,
+        120000.0,
+        380000.0,
+        198000.0,
+        7415105.0,
+        100500.0,
+        8498348.0,
+        160820.94,
+        906070.0,
+        0.0,
+        1120200.0,
+        0.0,
+        0.0,
+        0.0,
+        513135.15,
+        0.0,
+        0.0,
+        25000.0,
+        200000.0,
+        0.0,
+        0.0,
+        38425.0,
+        250000.0,
+        0.0,
+        0.0,
+        0.0,
+        197000.0
+      ]
+    },
+    {
+      "partid": "PNL",
+      "n": 55,
+      "median_conturi": 198000.0,
+      "mean_conturi": 840310.54,
+      "median_venituri": 342975.0,
+      "median_datorii": 150000.0,
+      "total_imobile": 441,
+      "total_suprafata_mp": 3282680.9,
+      "conturi_values": [
+        198000.0,
+        304400.0,
+        0.0,
+        2382351.8,
+        8100.0,
+        150000.0,
+        138000.0,
+        223755.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        17940945.75,
+        1640000.0,
+        669420.0,
+        0.0,
+        198000.0,
+        106500.0,
+        198000.0,
+        5656490.0,
+        310130.0,
+        594000.0,
+        0.0,
+        40000.0,
+        326203.51,
+        1593000.0,
+        0.0,
+        775520.5,
+        108000.0,
+        4797624.0,
+        0.0,
+        0.0,
+        198000.0,
+        100000.0,
+        933690.0,
+        1208000.0,
+        0.0,
+        250000.0,
+        50500.0,
+        0.0,
+        0.0,
+        75000.0,
+        1152887.0,
+        198000.0,
+        1607000.0,
+        250000.0,
+        250000.0,
+        0.0,
+        259930.0,
+        327632.0,
+        198000.0,
+        0.0,
+        800000.0
+      ]
+    },
+    {
+      "partid": "USR",
+      "n": 40,
+      "median_conturi": 67500.0,
+      "mean_conturi": 465594.1,
+      "median_venituri": 204385.0,
+      "median_datorii": 0.0,
+      "total_imobile": 202,
+      "total_suprafata_mp": 213357.9,
+      "conturi_values": [
+        0.0,
+        31399.0,
+        2663087.5,
+        528330.0,
+        60000.0,
+        0.0,
+        0.0,
+        120000.0,
+        130000.0,
+        205852.8,
+        309000.0,
+        11542022.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        100000.0,
+        101871.0,
+        165000.0,
+        100000.0,
+        0.0,
+        480609.0,
+        106420.0,
+        249096.53,
+        454836.0,
+        0.0,
+        408118.9,
+        200.0,
+        0.0,
+        30921.15,
+        0.0,
+        0.0,
+        0.0,
+        75000.0,
+        0.0,
+        198000.0,
+        379000.0,
+        85000.0,
+        50000.0,
+        50000.0
+      ]
+    },
+    {
+      "partid": "UDMR",
+      "n": 21,
+      "median_conturi": 5900.0,
+      "mean_conturi": 188699.62,
+      "median_venituri": 248900.0,
+      "median_datorii": 75000.0,
+      "total_imobile": 159,
+      "total_suprafata_mp": 735174.1,
+      "conturi_values": [
+        0.0,
+        161847.0,
+        75000.0,
+        0.0,
+        198000.0,
+        620306.0,
+        140000.0,
+        1325364.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        177200.0,
+        0.0,
+        0.0,
+        0.0,
+        198000.0,
+        5900.0,
+        300000.0,
+        761075.0,
+        0.0
+      ]
+    },
+    {
+      "partid": "Minoritati",
+      "n": 18,
+      "median_conturi": 0.0,
+      "mean_conturi": 23180.72,
+      "median_venituri": 217493.5,
+      "median_datorii": 0.0,
+      "total_imobile": 132,
+      "total_suprafata_mp": 136518.7,
+      "conturi_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2229.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        95950.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        319074.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "partid": "UPR",
+      "n": 16,
+      "median_conturi": 0.0,
+      "mean_conturi": 9564.06,
+      "median_venituri": 138686.62,
+      "median_datorii": 0.0,
+      "total_imobile": 40,
+      "total_suprafata_mp": 79562.5,
+      "conturi_values": [
+        0.0,
+        100000.0,
+        0.0,
+        0.0,
+        53025.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "partid": "SOS RO",
+      "n": 15,
+      "median_conturi": 0.0,
+      "mean_conturi": 285321.27,
+      "median_venituri": 118600.0,
+      "median_datorii": 0.0,
+      "total_imobile": 65,
+      "total_suprafata_mp": 304135.0,
+      "conturi_values": [
+        0.0,
+        0.0,
+        0.0,
+        1071771.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1038000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1954658.0,
+        215390.0
+      ]
+    },
+    {
+      "partid": "Neafiliat",
+      "n": 13,
+      "median_conturi": 0.0,
+      "mean_conturi": 29680129.15,
+      "median_venituri": 252217.0,
+      "median_datorii": 78100.0,
+      "total_imobile": 109,
+      "total_suprafata_mp": 801056.7,
+      "conturi_values": [
+        0.0,
+        49000.0,
+        384525679.0,
+        0.0,
+        0.0,
+        0.0,
+        1267000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "distributie": {
+    "conturi": {
+      "q1": 0.0,
+      "median": 4455.0,
+      "q3": 223188.75,
+      "p90": 1034872.3
+    },
+    "venituri": {
+      "q1": 141379.7,
+      "median": 231174.0,
+      "q3": 441003.0,
+      "p90": 938419.6
+    }
+  }
+}

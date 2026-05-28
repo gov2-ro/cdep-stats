@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Averi deputați — dashboard · Camera Deputaților</title>
+<meta name="description" content="Dashboard averi deputați: top conturi, venituri, datorii, imobile, evoluție în mandat, comparație pe partide. Date din declarațiile ANI.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#fff;--bg2:#f8f8f6;--bg3:#f2f1ee;
+  --text:#1a1a1a;--text2:#555;--text3:#888;
+  --border:#e0deda;--border2:#ccc;
+  --green:#1D9E75;--green-text:#3B6D11;
+  --blue:#185FA5;--blue-bg:#E6F1FB;--blue-text:#185FA5;
+  --red-bg:#FCEBEB;--red-text:#A32D2D;
+  --amber-bg:#FAEEDA;--amber-text:#854F0B;
+  --radius:10px;--radius-sm:6px;
+  --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --mono:'SF Mono','Fira Code','Consolas',monospace;
+}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;}
+}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.header{border-bottom:1px solid var(--border);padding:16px 0}
+.header-inner{max-width:1100px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:16px}
+.logo{font-size:15px;font-weight:600;color:var(--text)}
+.logo span{color:var(--green)}
+.back{margin-left:auto;font-size:13px;color:var(--text2);padding:6px 12px;border-radius:var(--radius-sm)}
+.back:hover{background:var(--bg2);text-decoration:none}
+.container{max-width:1100px;margin:0 auto;padding:32px 24px}
+h1{font-size:26px;font-weight:600;margin-bottom:6px}
+.sub{color:var(--text3);font-size:13px;margin-bottom:24px}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:32px}
+.card{background:var(--bg2);border-radius:var(--radius);padding:16px;text-align:center}
+.card .num{font-size:24px;font-weight:600;margin-bottom:4px}
+.card .lbl{font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:.5px}
+
+.section{margin-bottom:36px}
+.section h2{font-size:18px;font-weight:600;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.tab{font-size:12px;padding:6px 11px;border-radius:var(--radius-sm);border:1px solid var(--border);background:var(--bg);color:var(--text2);cursor:pointer}
+.tab.active{background:var(--blue-bg);color:var(--blue-text);border-color:var(--blue-bg);font-weight:600}
+
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border)}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--text3)}
+td.num,th.num{text-align:right;font-family:var(--mono);white-space:nowrap}
+.rank{color:var(--text3);width:24px}
+.pill{font-size:11px;padding:2px 7px;border-radius:3px;background:var(--bg3);color:var(--text2)}
+.pos{color:var(--green-text)}.neg{color:var(--red-text)}
+
+.chart-wrap{background:var(--bg2);border-radius:var(--radius);padding:16px;margin-bottom:16px}
+.chart-wrap canvas{max-height:340px}
+
+.box-row{display:grid;grid-template-columns:90px 1fr 130px;gap:10px;align-items:center;font-size:13px;padding:5px 0}
+.box-track{position:relative;height:18px;background:var(--bg3);border-radius:3px}
+.box-iqr{position:absolute;top:2px;height:14px;background:var(--blue-bg);border:1px solid var(--blue);border-radius:2px}
+.box-median{position:absolute;top:0;width:2px;height:18px;background:var(--blue)}
+
+.note{background:var(--amber-bg);color:var(--amber-text);border-radius:var(--radius);padding:14px 16px;font-size:13px;line-height:1.5}
+.loading{text-align:center;padding:60px 0;color:var(--text3)}
+.error{padding:24px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius);margin:20px 0}
+.footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
+.footer a{color:var(--text2)}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <span class="logo">cdep<span>.api</span></span>
+    <a href="index.html" class="back" data-i18n="back">← Înapoi</a>
+    <span id="lang-toggle-slot" style="margin-left:8px;display:flex;align-items:center"></span>
+  </div>
+</header>
+
+<div class="container">
+  <div id="content"><div class="loading" data-i18n="loading">Se încarcă datele…</div></div>
+</div>
+
+<footer class="footer">
+  <p><span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a> ·
+  <span data-i18n="source">Sursă JSON</span>: <a id="json-link" href="#">/data/v1/stats/avere-2024.json</a> ·
+  <a href="index.html" data-i18n="page_main">Pagina principală</a></p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script>
+function getParam(n){return new URL(location).searchParams.get(n);}
+
+// Formatare RON compactă: 384.5M, 1.2M, 45.300, 0
+function fmtRON(v){
+  if(v==null) return '–';
+  const a=Math.abs(v), s=v<0?'-':'';
+  if(a>=1e6) return s+(a/1e6).toFixed(a>=1e7?0:1)+'M';
+  if(a>=1e3) return s+Math.round(a).toLocaleString('ro-RO');
+  return s+Math.round(a);
+}
+
+const BOARDS=[
+  {key:'top_conturi',   label:'Conturi (lichidități)', unit:'RON', money:true},
+  {key:'top_venituri',  label:'Venituri anuale',       unit:'RON/an', money:true},
+  {key:'top_datorii',   label:'Datorii',               unit:'RON', money:true},
+  {key:'top_imobile',   label:'Imobile (număr)',       unit:'', money:false},
+  {key:'delta_crestere',label:'⬆ Creștere conturi în mandat', unit:'RON', money:true, signed:true},
+  {key:'delta_scadere', label:'⬇ Scădere conturi în mandat',  unit:'RON', money:true, signed:true},
+  {key:'delta_imobile', label:'Imobile noi în mandat', unit:'', money:false, signed:true},
+];
+
+function boardTable(rows, b){
+  if(!rows || !rows.length) return '<p style="color:var(--text3)">Fără date.</p>';
+  const r = rows.map((x,i)=>{
+    const cls = b.signed ? (x.value>0?'pos':(x.value<0?'neg':'')) : '';
+    const sign = b.signed && x.value>0 ? '+' : '';
+    const val = b.money ? fmtRON(x.value) : x.value.toLocaleString('ro-RO');
+    const extra = x.suprafata_mp!=null ? ` <span class="pill">${Math.round(x.suprafata_mp).toLocaleString('ro-RO')} m²</span>`:'';
+    return `<tr>
+      <td class="rank">${i+1}</td>
+      <td><a href="data/v1/${x.detail_url}">${x.nume}</a> <span class="pill">${x.partid}</span>${extra}</td>
+      <td class="num ${cls}">${sign}${val}</td>
+      <td class="num" style="color:var(--text3)">${x.n_declaratii}</td>
+    </tr>`;
+  }).join('');
+  return `<table><thead><tr><th class="rank"></th><th>Deputat</th>
+    <th class="num">${b.unit||'#'}</th><th class="num" title="număr declarații">Decl.</th></tr></thead><tbody>${r}</tbody></table>`;
+}
+
+// Box-plot CSS pe lichidități per partid (q1–q3 + median), scală comună
+function boxPlots(perPartid){
+  const stats = perPartid.map(p=>{
+    const v=[...p.conturi_values].sort((a,b)=>a-b);
+    const q=(f)=>{const i=f*(v.length-1),lo=Math.floor(i);return v[lo]+(v[Math.min(lo+1,v.length-1)]-v[lo])*(i-lo);};
+    return {partid:p.partid, n:p.n, min:v[0], q1:q(.25), med:q(.5), q3:q(.75), max:v[v.length-1]};
+  });
+  const max = Math.max(...stats.map(s=>s.q3), 1); // scală până la q3 max (outlieri tăiați vizual)
+  const rows = stats.map(s=>{
+    const L=(x)=>Math.min(100,(x/max)*100);
+    return `<div class="box-row">
+      <div>${s.partid} <span style="color:var(--text3)">(${s.n})</span></div>
+      <div class="box-track">
+        <div class="box-iqr" style="left:${L(s.q1)}%;width:${Math.max(1,L(s.q3)-L(s.q1))}%"></div>
+        <div class="box-median" style="left:${L(s.med)}%"></div>
+      </div>
+      <div class="num" style="color:var(--text3)">med ${fmtRON(s.med)}</div>
+    </div>`;
+  }).join('');
+  return `<p style="font-size:12px;color:var(--text3);margin-bottom:8px">Interval q1–q3 (bară) + median (linie) al conturilor, per partid. Scală tăiată la q3 maxim pentru lizibilitate.</p>${rows}`;
+}
+
+let chart1, chart2;
+function drawCharts(perPartid){
+  const labels = perPartid.map(p=>p.partid);
+  const css = getComputedStyle(document.documentElement);
+  const txt = css.getPropertyValue('--text2').trim() || '#555';
+  const grid = css.getPropertyValue('--border').trim() || '#ddd';
+  const base = {responsive:true, plugins:{legend:{display:false}},
+    scales:{x:{ticks:{color:txt},grid:{display:false}},
+            y:{ticks:{color:txt,callback:v=>fmtRON(v)},grid:{color:grid}}}};
+  chart1 = new Chart(document.getElementById('c1'),{type:'bar',
+    data:{labels,datasets:[{label:'Median conturi',data:perPartid.map(p=>p.median_conturi),backgroundColor:'#185FA5'}]},
+    options:base});
+  chart2 = new Chart(document.getElementById('c2'),{type:'bar',
+    data:{labels,datasets:[{label:'Median venituri',data:perPartid.map(p=>p.median_venituri),backgroundColor:'#1D9E75'}]},
+    options:base});
+}
+
+async function load(){
+  const leg = getParam('leg') || '2024';
+  const url = `data/v1/stats/avere-${leg}.json`;
+  document.getElementById('json-link').href = url;
+  document.getElementById('json-link').textContent = '/'+url;
+  let d;
+  try{ d = await fetch(url).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}); }
+  catch(e){ document.getElementById('content').innerHTML=`<div class="error">Nu pot încărca ${url} (${e.message}). Rulează <code>python scripts/build_avere_stats.py --leg ${leg}</code>.</div>`; return; }
+
+  const c=d.cards;
+  const tabBtns = BOARDS.map((b,i)=>`<button class="tab ${i===0?'active':''}" data-i="${i}">${b.label}</button>`).join('');
+
+  document.getElementById('content').innerHTML = `
+    <h1>Averi deputați — legislatura ${leg}</h1>
+    <p class="sub">Extras automat din declarațiile de avere ANI · ${c.n_deputati} deputați · ${c.n_cu_evolutie} cu ≥2 declarații (evoluție în mandat)</p>
+
+    <div class="cards">
+      <div class="card"><div class="num">${c.n_deputati}</div><div class="lbl">Deputați</div></div>
+      <div class="card"><div class="num">${fmtRON(c.median_conturi)}</div><div class="lbl">Median conturi</div></div>
+      <div class="card"><div class="num">${fmtRON(c.median_venituri)}</div><div class="lbl">Median venituri/an</div></div>
+      <div class="card"><div class="num">${c.n_cu_evolutie}</div><div class="lbl">Cu evoluție</div></div>
+    </div>
+
+    <div class="section">
+      <h2>Topuri</h2>
+      <div class="tabs">${tabBtns}</div>
+      <div id="board"></div>
+    </div>
+
+    <div class="section">
+      <h2>Comparație pe partide</h2>
+      <div class="chart-wrap"><strong style="font-size:13px;color:var(--text2)">Median conturi (RON)</strong><canvas id="c1"></canvas></div>
+      <div class="chart-wrap"><strong style="font-size:13px;color:var(--text2)">Median venituri anuale (RON)</strong><canvas id="c2"></canvas></div>
+    </div>
+
+    <div class="section">
+      <h2>Distribuția conturilor pe partide</h2>
+      ${boxPlots(d.per_partid)}
+    </div>
+
+    <div class="section">
+      <h2>Metodologie</h2>
+      <div class="note">${d.meta.caveats} <a href="${url}" style="color:inherit;text-decoration:underline">Descarcă datele agregate (JSON)</a>.</div>
+    </div>
+  `;
+
+  // Tabs
+  const boardEl=document.getElementById('board');
+  function showBoard(i){ boardEl.innerHTML = boardTable(d.leaderboards[BOARDS[i].key], BOARDS[i]); }
+  document.querySelectorAll('.tab').forEach(btn=>btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active'); showBoard(+btn.dataset.i);
+  }));
+  showBoard(0);
+  drawCharts(d.per_partid);
+  if(typeof applyI18n==='function') applyI18n();
+}
+load();
+</script>
+<script src="i18n.js"></script>
+</body>
+</html>

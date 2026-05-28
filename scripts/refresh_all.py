@@ -44,6 +44,7 @@ STAGES = [
         False,
     ),
     ("declaratii", ["python", "scripts/run_declaratii.py", "--leg", "2024", "--verbose"], False),
+    ("declaratii-avere", ["python", "scripts/build_declaratii_avere.py", "--leg", "2024", "--verbose"], True),
     (
         "stenograme",
         ["python", "scripts/run_stenograme.py", "--year", "2026", "--leg", "2024", "--verbose"],
@@ -52,6 +53,7 @@ STAGES = [
     ("doc-comisii", ["python", "scripts/run_doc_comisii.py", "--pages", "5", "--verbose"], False),
     # Derivate — rulate la urmă
     ("comisii", ["python", "scripts/build_comisii.py", "--leg", "2024"], True),
+    ("avere-stats", ["python", "scripts/build_avere_stats.py", "--leg", "2024"], True),
     ("amendamente", ["python", "scripts/build_amendamente.py", "--leg", "2024"], True),
     ("feeds", ["python", "scripts/build_feeds.py", "--leg", "2024", "--per-type", "15"], True),
     ("split_files", ["python", "scripts/split_by_year.py", "--leg", "2024"], True),
