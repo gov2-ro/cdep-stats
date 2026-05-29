@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "generated_at": "2026-05-29T08:16:36.750266Z",
+    "source_url": "https://endimion2k.github.io/cdep-api-poc/data/v1/proiecte/legislatura-2024.json",
+    "scraper_version": "0.1.0",
+    "count": 1700,
+    "legislatura": 2024
+  },
+  "cards": {
+    "total": 1700,
+    "promulgate": 385,
+    "adoptate": 642,
+    "respinse": 87,
+    "in_lucru": 586,
+    "urgente": 412,
+    "rate_promulgate": 22.6
+  },
+  "by_tip": {
+    "propunere_legislativa": 730,
+    "proiect_lege": 970
+  },
+  "per_partid": [
+    {
+      "partid": "Guvern",
+      "total": 530,
+      "promulgate": 271,
+      "adoptate": 245,
+      "respinse": 1,
+      "in_lucru": 13,
+      "rate_promulgate": 51.1
+    },
+    {
+      "partid": "PSD",
+      "total": 378,
+      "promulgate": 57,
+      "adoptate": 163,
+      "respinse": 24,
+      "in_lucru": 134,
+      "rate_promulgate": 15.1
+    },
+    {
+      "partid": "PNL",
+      "total": 345,
+      "promulgate": 57,
+      "adoptate": 177,
+      "respinse": 21,
+      "in_lucru": 90,
+      "rate_promulgate": 16.5
+    },
+    {
+      "partid": "USR",
+      "total": 275,
+      "promulgate": 31,
+      "adoptate": 110,
+      "respinse": 22,
+      "in_lucru": 112,
+      "rate_promulgate": 11.3
+    },
+    {
+      "partid": "AUR",
+      "total": 253,
+      "promulgate": 23,
+      "adoptate": 72,
+      "respinse": 15,
+      "in_lucru": 143,
+      "rate_promulgate": 9.1
+    },
+    {
+      "partid": "UDMR",
+      "total": 172,
+      "promulgate": 35,
+      "adoptate": 95,
+      "respinse": 13,
+      "in_lucru": 29,
+      "rate_promulgate": 20.3
+    },
+    {
+      "partid": "PACE",
+      "total": 73,
+      "promulgate": 3,
+      "adoptate": 23,
+      "respinse": 1,
+      "in_lucru": 46,
+      "rate_promulgate": 4.1
+    },
+    {
+      "partid": "SOS RO",
+      "total": 68,
+      "promulgate": 6,
+      "adoptate": 14,
+      "respinse": 2,
+      "in_lucru": 46,
+      "rate_promulgate": 8.8
+    },
+    {
+      "partid": "POT",
+      "total": 46,
+      "promulgate": 4,
+      "adoptate": 6,
+      "respinse": 3,
+      "in_lucru": 33,
+      "rate_promulgate": 8.7
+    },
+    {
+      "partid": "UPR",
+      "total": 39,
+      "promulgate": 3,
+      "adoptate": 13,
+      "respinse": 0,
+      "in_lucru": 23,
+      "rate_promulgate": 7.7
+    }
+  ],
+  "camera_decizionala": [
+    {
+      "camera": "Camera Deputaţilor",
+      "total": 1409
+    },
+    {
+      "camera": "Senatul",
+      "total": 262
+    },
+    {
+      "camera": "Camera Deputaţilor + Senatul",
+      "total": 25
+    },
+    {
+      "camera": "-",
+      "total": 4
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2023-09",
+      "total": 1,
+      "promulgate": 0
+    },
+    {
+      "month": "2023-10",
+      "total": 7,
+      "promulgate": 2
+    },
+    {
+      "month": "2023-11",
+      "total": 15,
+      "promulgate": 6
+    },
+    {
+      "month": "2023-12",
+      "total": 11,
+      "promulgate": 0
+    },
+    {
+      "month": "2024-02",
+      "total": 96,
+      "promulgate": 47
+    },
+    {
+      "month": "2024-03",
+      "total": 107,
+      "promulgate": 29
+    },
+    {
+      "month": "2024-04",
+      "total": 49,
+      "promulgate": 19
+    },
+    {
+      "month": "2024-05",
+      "total": 69,
+      "promulgate": 16
+    },
+    {
+      "month": "2024-06",
+      "total": 52,
+      "promulgate": 26
+    },
+    {
+      "month": "2024-09",
+      "total": 87,
+      "promulgate": 32
+    },
+    {
+      "month": "2024-10",
+      "total": 132,
+      "promulgate": 44
+    },
+    {
+      "month": "2024-11",
+      "total": 23,
+      "promulgate": 7
+    },
+    {
+      "month": "2024-12",
+      "total": 37,
+      "promulgate": 6
+    },
+    {
+      "month": "2025-02",
+      "total": 63,
+      "promulgate": 24
+    },
+    {
+      "month": "2025-03",
+      "total": 42,
+      "promulgate": 17
+    },
+    {
+      "month": "2025-04",
+      "total": 31,
+      "promulgate": 4
+    },
+    {
+      "month": "2025-05",
+      "total": 54,
+      "promulgate": 21
+    },
+    {
+      "month": "2025-06",
+      "total": 71,
+      "promulgate": 11
+    },
+    {
+      "month": "2025-07",
+      "total": 1,
+      "promulgate": 1
+    },
+    {
+      "month": "2025-08",
+      "total": 5,
+      "promulgate": 4
+    },
+    {
+      "month": "2025-09",
+      "total": 97,
+      "promulgate": 24
+    },
+    {
+      "month": "2025-10",
+      "total": 116,
+      "promulgate": 14
+    },
+    {
+      "month": "2025-11",
+      "total": 84,
+      "promulgate": 14
+    },
+    {
+      "month": "2025-12",
+      "total": 82,
+      "promulgate": 5
+    },
+    {
+      "month": "2026-02",
+      "total": 106,
+      "promulgate": 6
+    },
+    {
+      "month": "2026-03",
+      "total": 154,
+      "promulgate": 6
+    },
+    {
+      "month": "2026-04",
+      "total": 63,
+      "promulgate": 0
+    },
+    {
+      "month": "2026-05",
+      "total": 45,
+      "promulgate": 0
+    }
+  ]
+}
