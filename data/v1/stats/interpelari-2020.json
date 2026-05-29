@@ -1,0 +1,488 @@
+{
+  "meta": {
+    "generated_at": "2026-05-29T08:15:17.207768Z",
+    "source_url": "https://endimion2k.github.io/cdep-api-poc/data/v1/interpelari/legislatura-2020.json",
+    "scraper_version": "0.1.0",
+    "count": 18040,
+    "legislatura": 2020
+  },
+  "cards": {
+    "total": 18040,
+    "answered": 17494,
+    "answer_rate": 97.0,
+    "avg_response_days": 43,
+    "median_response_days": 35
+  },
+  "per_partid": [
+    {
+      "partid": "AUR",
+      "total": 2891,
+      "answered": 2824,
+      "rate": 97.7
+    },
+    {
+      "partid": "PSD",
+      "total": 2154,
+      "answered": 2101,
+      "rate": 97.5
+    },
+    {
+      "partid": "PNL",
+      "total": 1440,
+      "answered": 1387,
+      "rate": 96.3
+    },
+    {
+      "partid": "USR",
+      "total": 1076,
+      "answered": 1050,
+      "rate": 97.6
+    },
+    {
+      "partid": "PMP",
+      "total": 169,
+      "answered": 161,
+      "rate": 95.3
+    },
+    {
+      "partid": "UDMR",
+      "total": 152,
+      "answered": 147,
+      "rate": 96.7
+    },
+    {
+      "partid": "Minoritati",
+      "total": 71,
+      "answered": 71,
+      "rate": 100.0
+    },
+    {
+      "partid": "PRO România",
+      "total": 37,
+      "answered": 35,
+      "rate": 94.6
+    }
+  ],
+  "top_askers": [
+    {
+      "canonical_id": "99db6fa700554445",
+      "name": "Vasile Nagy",
+      "partid": "AUR",
+      "total": 1119
+    },
+    {
+      "canonical_id": "cc5f7c15765c38ec",
+      "name": "Dan Tanasă",
+      "partid": "AUR",
+      "total": 849
+    },
+    {
+      "canonical_id": "abaf6818360f87d7",
+      "name": "Corneliu-Mugurel Cozmanciuc - deputat PNL",
+      "partid": "PNL",
+      "total": 454
+    },
+    {
+      "canonical_id": "e587d25106665a25",
+      "name": "Ion-Marian Lazăr - deputat USR",
+      "partid": "USR",
+      "total": 442
+    },
+    {
+      "canonical_id": "d9e2cca92d85222b",
+      "name": "Emanuel-Dumitru Ungureanu - deputat USR",
+      "partid": "USR",
+      "total": 404
+    },
+    {
+      "canonical_id": "47ad12e708706ca6",
+      "name": "Silviu-Titus Păunescu - deputat AUR",
+      "partid": "AUR",
+      "total": 381
+    },
+    {
+      "canonical_id": "0985a9d364721759",
+      "name": "Vasilică Toma",
+      "partid": "PSD",
+      "total": 330
+    },
+    {
+      "canonical_id": "73615bc04d0cf77c",
+      "name": "Sebastian-Ioan Burduja - deputat PNL",
+      "partid": "PNL",
+      "total": 309
+    },
+    {
+      "canonical_id": "1dafee82db56fea7",
+      "name": "Radu-Marin Moisin - deputat PNL",
+      "partid": "PNL",
+      "total": 284
+    },
+    {
+      "canonical_id": "880f096342024030",
+      "name": "Boris Volosatîi",
+      "partid": "AUR",
+      "total": 283
+    },
+    {
+      "canonical_id": "657251fa6476339f",
+      "name": "Ştefan-Iulian Lőrincz - deputat USR",
+      "partid": "USR",
+      "total": 277
+    },
+    {
+      "canonical_id": "4a8680e1199c01ad",
+      "name": "Dumitru-Viorel Focşa - deputat AUR",
+      "partid": "AUR",
+      "total": 257
+    },
+    {
+      "canonical_id": "cae1de77c429452c",
+      "name": "Iulian-Alexandru Badea - deputat PSD",
+      "partid": "PSD",
+      "total": 251
+    },
+    {
+      "canonical_id": "0a43323a7e69f109",
+      "name": "Adrian-Felician Cozma - deputat PNL",
+      "partid": "PNL",
+      "total": 246
+    },
+    {
+      "canonical_id": "d067f63d1e19ac0f",
+      "name": "Nicolae Giugea",
+      "partid": "PNL",
+      "total": 235
+    }
+  ],
+  "top_destinations": [
+    {
+      "destinatar": "Ministerul Sănătăţii",
+      "total": 2122,
+      "answered": 2071,
+      "rate": 97.6
+    },
+    {
+      "destinatar": "Ministerul Educației",
+      "total": 1324,
+      "answered": 1317,
+      "rate": 99.5
+    },
+    {
+      "destinatar": "Ministerul Transporturilor şi Infrastructurii",
+      "total": 1265,
+      "answered": 1218,
+      "rate": 96.3
+    },
+    {
+      "destinatar": "Guvernul României",
+      "total": 1117,
+      "answered": 1079,
+      "rate": 96.6
+    },
+    {
+      "destinatar": "Ministerul Mediului, Apelor şi Pădurilor",
+      "total": 1103,
+      "answered": 1093,
+      "rate": 99.1
+    },
+    {
+      "destinatar": "Ministerul Afacerilor Interne",
+      "total": 1091,
+      "answered": 1091,
+      "rate": 100.0
+    },
+    {
+      "destinatar": "Ministerul Dezvoltării, Lucrărilor Publice si Administrației",
+      "total": 814,
+      "answered": 814,
+      "rate": 100.0
+    },
+    {
+      "destinatar": "Ministerul Agriculturii şi Dezvoltării Rurale",
+      "total": 768,
+      "answered": 756,
+      "rate": 98.4
+    },
+    {
+      "destinatar": "Ministerul Finanțelor",
+      "total": 702,
+      "answered": 701,
+      "rate": 99.9
+    },
+    {
+      "destinatar": "Ministerul Energiei",
+      "total": 668,
+      "answered": 622,
+      "rate": 93.1
+    },
+    {
+      "destinatar": "Ministerul Muncii şi Solidarităţii Sociale",
+      "total": 637,
+      "answered": 632,
+      "rate": 99.2
+    },
+    {
+      "destinatar": "Ministerul Afacerilor Externe",
+      "total": 587,
+      "answered": 584,
+      "rate": 99.5
+    },
+    {
+      "destinatar": "Ministerul Culturii",
+      "total": 465,
+      "answered": 323,
+      "rate": 69.5
+    },
+    {
+      "destinatar": "Ministerul Investițiilor si Proiectelor Europene",
+      "total": 420,
+      "answered": 414,
+      "rate": 98.6
+    },
+    {
+      "destinatar": "Ministerul Justiției",
+      "total": 387,
+      "answered": 383,
+      "rate": 99.0
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2020-02",
+      "count": 311
+    },
+    {
+      "month": "2020-03",
+      "count": 213
+    },
+    {
+      "month": "2020-04",
+      "count": 135
+    },
+    {
+      "month": "2020-05",
+      "count": 367
+    },
+    {
+      "month": "2020-06",
+      "count": 288
+    },
+    {
+      "month": "2020-07",
+      "count": 173
+    },
+    {
+      "month": "2020-08",
+      "count": 31
+    },
+    {
+      "month": "2020-09",
+      "count": 143
+    },
+    {
+      "month": "2020-10",
+      "count": 115
+    },
+    {
+      "month": "2020-11",
+      "count": 68
+    },
+    {
+      "month": "2020-12",
+      "count": 32
+    },
+    {
+      "month": "2021-01",
+      "count": 96
+    },
+    {
+      "month": "2021-02",
+      "count": 438
+    },
+    {
+      "month": "2021-03",
+      "count": 464
+    },
+    {
+      "month": "2021-04",
+      "count": 541
+    },
+    {
+      "month": "2021-05",
+      "count": 360
+    },
+    {
+      "month": "2021-06",
+      "count": 528
+    },
+    {
+      "month": "2021-07",
+      "count": 88
+    },
+    {
+      "month": "2021-08",
+      "count": 82
+    },
+    {
+      "month": "2021-09",
+      "count": 416
+    },
+    {
+      "month": "2021-10",
+      "count": 327
+    },
+    {
+      "month": "2021-11",
+      "count": 381
+    },
+    {
+      "month": "2021-12",
+      "count": 302
+    },
+    {
+      "month": "2022-01",
+      "count": 148
+    },
+    {
+      "month": "2022-02",
+      "count": 523
+    },
+    {
+      "month": "2022-03",
+      "count": 507
+    },
+    {
+      "month": "2022-04",
+      "count": 389
+    },
+    {
+      "month": "2022-05",
+      "count": 415
+    },
+    {
+      "month": "2022-06",
+      "count": 436
+    },
+    {
+      "month": "2022-07",
+      "count": 258
+    },
+    {
+      "month": "2022-08",
+      "count": 135
+    },
+    {
+      "month": "2022-09",
+      "count": 406
+    },
+    {
+      "month": "2022-10",
+      "count": 560
+    },
+    {
+      "month": "2022-11",
+      "count": 560
+    },
+    {
+      "month": "2022-12",
+      "count": 630
+    },
+    {
+      "month": "2023-01",
+      "count": 243
+    },
+    {
+      "month": "2023-02",
+      "count": 524
+    },
+    {
+      "month": "2023-03",
+      "count": 496
+    },
+    {
+      "month": "2023-04",
+      "count": 340
+    },
+    {
+      "month": "2023-05",
+      "count": 493
+    },
+    {
+      "month": "2023-06",
+      "count": 346
+    },
+    {
+      "month": "2023-07",
+      "count": 156
+    },
+    {
+      "month": "2023-08",
+      "count": 101
+    },
+    {
+      "month": "2023-09",
+      "count": 447
+    },
+    {
+      "month": "2023-10",
+      "count": 439
+    },
+    {
+      "month": "2023-11",
+      "count": 422
+    },
+    {
+      "month": "2023-12",
+      "count": 302
+    },
+    {
+      "month": "2024-01",
+      "count": 150
+    },
+    {
+      "month": "2024-02",
+      "count": 431
+    },
+    {
+      "month": "2024-03",
+      "count": 345
+    },
+    {
+      "month": "2024-04",
+      "count": 269
+    },
+    {
+      "month": "2024-05",
+      "count": 314
+    },
+    {
+      "month": "2024-06",
+      "count": 300
+    },
+    {
+      "month": "2024-07",
+      "count": 283
+    },
+    {
+      "month": "2024-08",
+      "count": 84
+    },
+    {
+      "month": "2024-09",
+      "count": 252
+    },
+    {
+      "month": "2024-10",
+      "count": 306
+    },
+    {
+      "month": "2024-11",
+      "count": 103
+    },
+    {
+      "month": "2024-12",
+      "count": 28
+    }
+  ]
+}
