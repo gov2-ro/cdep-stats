@@ -3,7 +3,7 @@
 Strategia:
 1. Iterez `structura2015.ab?par=A..Z&cam=2&leg=YYYY` pentru enumerare exhaustivă.
 2. Pentru fiecare rând din tabel, filtrez cele cu leg/cam corespunzătoare.
-3. Fetch pagina de profil `structura2015.mp?idm=X&cam=2&leg=YYYY` și extrag datele.
+3. Fetch pagina de profil `structura2015.mp?idm=X&leg=YYYY` și extrag datele.
 4. Produc o listă de `Deputat`, sortată după `cdep_idm` pentru stabilitate.
 
 Paralelizare: env `CDEP_SCRAPE_WORKERS` (default 1). Pe GitHub Actions setez la 4
@@ -34,7 +34,7 @@ BASE = "https://www.cdep.ro"
 # Motiv: `.ab` pierde înlocuitorii în legislaturile istorice (ex: 198 vs 354 reali în 2020).
 # `.de` listează TOȚI deputații care au servit în legislatura respectivă.
 LIST_URL = BASE + "/ords/pls/parlam/structura2015.de?cam={cam}&leg={leg}&idl=1"
-PROFILE_URL = BASE + "/ords/pls/parlam/structura2015.mp?idm={idm}&cam={cam}&leg={leg}"
+PROFILE_URL = BASE + "/ords/pls/parlam/structura2015.mp?idm={idm}&leg={leg}"
 
 MAX_WORKERS = int(os.environ.get("CDEP_SCRAPE_WORKERS", "1"))
 
@@ -182,7 +182,7 @@ def list_current_deputies(leg: int = 2024, cam: int = 2) -> list[dict]:
                 found[idm] = {
                     "idm": idm,
                     "name": name,
-                    "profile_url": urljoin(BASE, href),
+                    "profile_url": urljoin(BASE, href).replace("/pls/parlam/", "/ords/pls/parlam/").replace("&cam=2", "").replace("&cam=1", ""),
                 }
                 break
     return list(found.values())
@@ -192,7 +192,7 @@ def list_current_deputies(leg: int = 2024, cam: int = 2) -> list[dict]:
 
 
 def parse_profile(idm: int, name_from_list: str, leg: int = 2024, cam: int = 2) -> Deputat:
-    url = PROFILE_URL.format(idm=idm, cam=cam, leg=leg)
+    url = PROFILE_URL.format(idm=idm, leg=leg)
     r = get(url)
     r.raise_for_status()
     sel = Selector(text=r.text)

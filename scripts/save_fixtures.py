@@ -27,7 +27,7 @@ TARGETS = [
     # (nume_fișier, url)
     (
         "deputat_189.html",
-        "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=189&cam=2&leg=2024",
+        "https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm=189&leg=2024",
     ),
     (
         "vot_36892.html",  # Bugetul de stat 2025 - vot final
