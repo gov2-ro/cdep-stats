@@ -22,7 +22,10 @@ a{color:var(--green-text);text-decoration:none}a:hover{text-decoration:underline
 .header{border-bottom:1px solid var(--border);padding:16px 0}
 .header-inner{max-width:1100px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:16px}
 .logo{font-size:15px;font-weight:600}.logo span{color:var(--green)}
-.back{margin-left:auto;font-size:13px;color:var(--text2);padding:6px 12px;border-radius:6px}.back:hover{background:var(--bg2);text-decoration:none}
+.nav{margin-left:auto;display:flex;flex-wrap:wrap;gap:2px;align-items:center}
+.nav a{font-size:13px;padding:5px 10px;border-radius:var(--radius-sm);color:var(--text2);text-decoration:none}
+.nav a:hover{background:var(--bg2)}
+.nav a.active{color:var(--text);font-weight:600}
 .container{max-width:1100px;margin:0 auto;padding:32px 24px}
 h1{font-size:26px;font-weight:600;margin-bottom:8px}.subtitle{color:var(--text2);margin-bottom:24px}
 .status-banner{display:flex;align-items:center;gap:12px;padding:14px 18px;background:var(--green-bg);color:var(--green-text);border-radius:var(--radius);margin-bottom:24px;font-weight:500}
@@ -49,9 +52,16 @@ td.num{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--mono
 <body>
 <header class="header">
   <div class="header-inner">
-    <span class="logo">cdep<span>.api</span></span>
-    <a href="index.html" class="back" data-i18n="back">← Înapoi</a>
-    <span id="lang-toggle-slot" style="margin-left:8px;display:flex;align-items:center"></span>
+    <a href="index.html" class="logo">cdep<span>.api</span></a>
+    <nav class="nav">
+      <a href="avere.html">Averi</a>
+      <a href="deputati-avere.html">Cercuri avere</a>
+      <a href="deputati-activitate.html">Activitate</a>
+      <a href="interpelari-stats.html">Interpelări</a>
+      <a href="proiecte-stats.html">Proiecte</a>
+      <a href="search.html" data-i18n="search">Caută</a>
+      <span id="lang-toggle-slot" style="margin-left:4px;display:flex;align-items:center"></span>
+    </nav>
   </div>
 </header>
 <div class="container">
