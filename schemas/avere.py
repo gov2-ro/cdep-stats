@@ -102,6 +102,15 @@ class AvereDeclaratie(BaseModel):
     conturi_detaliate: list[ContDetail] = Field(default_factory=list)
     plasamente_detaliate: list[PlasamentDetail] = Field(default_factory=list)
 
+    # Derived aggregates — computed at parse time from the fields above
+    total_active_monetare_ron: float = 0.0
+    avere_neta_ron: float = 0.0
+    nr_judete: int = 0
+    nr_companii: int = 0
+    terenuri_forestiere_count: int = 0
+    terenuri_agricole_count: int = 0
+    an_prima_proprietate: int | None = None
+
 
 class AvereDeputat(BaseModel):
     """Un deputat cu toate declarațiile lui cronologic."""
@@ -124,6 +133,11 @@ class AvereDeputat(BaseModel):
     ultima_imobile_count: int = 0
     ultima_bijuterii_ron: float = 0.0
     ultima_plasamente_ron: float = 0.0
+    ultima_datorii_ron: float = 0.0
+    ultima_total_active_ron: float = 0.0
+    ultima_avere_neta_ron: float = 0.0
+    ultima_nr_judete: int = 0
+    ultima_nr_companii: int = 0
 
     # Delta prima → ultima
     delta_conturi_ron: float = 0.0
@@ -145,6 +159,11 @@ class AvereSummary(BaseModel):
     ultima_imobile_count: int = 0
     ultima_bijuterii_ron: float = 0.0
     ultima_plasamente_ron: float = 0.0
+    ultima_datorii_ron: float = 0.0
+    ultima_total_active_ron: float = 0.0
+    ultima_avere_neta_ron: float = 0.0
+    ultima_nr_judete: int = 0
+    ultima_nr_companii: int = 0
     bunuri_instrainate_total_ron: float = 0.0
     delta_conturi_ron: float = 0.0
     delta_imobile: int = 0
