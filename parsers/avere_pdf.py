@@ -402,6 +402,13 @@ def parse_pdf(pdf_path: Path) -> dict:
         "plasamente_detaliate": [],
         "text_extracted": False,
         "error": None,
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": None,
     }
 
     if pdfplumber is None:
@@ -485,5 +492,27 @@ def parse_pdf(pdf_path: Path) -> dict:
         num = _parse_amount(m.group(1))
         if num and num > 100:
             result["venituri_anuale_ron"] += normalize_to_ron(num, m.group(2))
+
+    # ── Derived aggregates ────────────────────────────────────────────────────
+    result["total_active_monetare_ron"] = (
+        result["conturi_total_ron"]
+        + result["plasamente_total_ron"]
+        + result["bijuterii_total_ron"]
+    )
+    result["avere_neta_ron"] = (
+        result["total_active_monetare_ron"] - result["datorii_total_ron"]
+    )
+    result["nr_judete"] = len(
+        {r["judet"] for r in result["imobile_detaliate"] if r.get("judet")}
+    )
+    result["nr_companii"] = len(result["plasamente_detaliate"])
+    result["terenuri_forestiere_count"] = sum(
+        1 for r in result["imobile_detaliate"] if r.get("categorie") == "forestier"
+    )
+    result["terenuri_agricole_count"] = sum(
+        1 for r in result["imobile_detaliate"] if r.get("categorie") == "agricol"
+    )
+    _ani = [r["an_dobandirii"] for r in result["imobile_detaliate"] if r.get("an_dobandirii")]
+    result["an_prima_proprietate"] = min(_ani) if _ani else None
 
     return result

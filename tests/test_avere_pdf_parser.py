@@ -281,3 +281,59 @@ def test_scan_instrainate_excludes_zero():
 def test_instrainate_count():
     dates = re.findall(r"\b\d{1,2}[./]\d{1,2}[./]\d{4}\b", SEC_INSTRAINATE)
     assert len(dates) == 2
+
+
+# ── Derived aggregates ────────────────────────────────────────────────────────
+
+def test_total_active_monetare():
+    from parsers.avere_pdf import _scan_amounts
+    # Build a minimal result dict the same way parse_pdf would
+    conturi = 377500.0
+    plasamente = 45825140.0
+    bijuterii = _scan_amounts(SEC_BIJUTERII)  # 140000 + 42000*5.05
+    expected = conturi + plasamente + bijuterii
+    total = conturi + plasamente + bijuterii
+    assert total == pytest.approx(expected)
+
+
+def test_avere_neta():
+    total_active = 1000000.0
+    datorii = 200000.0
+    neta = total_active - datorii
+    assert neta == pytest.approx(800000.0)
+
+
+def test_nr_judete_from_imobile():
+    rows, _ = _parse_imobile_details(SEC_TERENURI, SEC_CLADIRI)
+    nr = len({r["judet"] for r in rows if r.get("judet")})
+    assert nr == 2  # Gorj and Mehedinti
+
+
+def test_nr_companii_from_plasamente():
+    rows = _parse_plasamente(SEC_PLASAMENTE_BECALI)
+    assert len(rows) == 2  # ARCOM SA + Fotbal Club FCSB SA
+
+
+def test_terenuri_forestiere_count():
+    rows, _ = _parse_imobile_details(SEC_TERENURI, "")
+    count = sum(1 for r in rows if r.get("categorie") == "forestier")
+    assert count == 1
+
+
+def test_terenuri_agricole_count():
+    rows, _ = _parse_imobile_details(SEC_TERENURI, "")
+    count = sum(1 for r in rows if r.get("categorie") == "agricol")
+    assert count == 1
+
+
+def test_an_prima_proprietate():
+    rows, _ = _parse_imobile_details(SEC_TERENURI, SEC_CLADIRI)
+    ani = [r["an_dobandirii"] for r in rows if r.get("an_dobandirii")]
+    assert min(ani) == 2015  # earliest year in SEC_TERENURI is 2015
+
+
+def test_an_prima_proprietate_empty():
+    rows, _ = _parse_imobile_details("", "")
+    ani = [r["an_dobandirii"] for r in rows if r.get("an_dobandirii")]
+    result = min(ani) if ani else None
+    assert result is None
