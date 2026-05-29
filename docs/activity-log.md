@@ -14,6 +14,16 @@ Chronological record of meaningful work. Newest entries on top within each secti
 
 **Action needed:** Re-run `build_declaratii_avere.py --leg 2024` and `--leg 2020` to regenerate corrected JSON from cached PDFs (no network required).
 
+### 2026-05-29 — Fix suprafata_mp truncation in PDF parser
+
+**Bug:** `RE_MP = re.compile(r"(\d{1,5}...)\s*m\s*²?")` only captures up to 5 digits. For a 6-digit area like `284354 m²` the regex engine matches starting at the second digit, extracting `84354`; for 7-digit areas like `1500000 m²` it matches `00000 = 0` which is filtered by the `> 5` guard, so the area is lost entirely.
+
+**Impact:** `suprafata_total_mp` significantly undercounts. Iordache Ion: stored 1,897,569 m², correct value ~12,197,569 m² (~6× undercount).
+
+**Fix:** Changed `\d{1,5}` to `\d+` in `RE_MP` in both `build_declaratii_avere.py` and `analiza_avere_pdf.py`. `terenuri_count` (number of matches) is unaffected — old regex still matched once per row, just at the wrong digit position.
+
+**Action needed:** Re-run `build_declaratii_avere.py --leg 2024` and `--leg 2020` to regenerate corrected JSON.
+
 ---
 
 ## Dashboards

@@ -54,7 +54,7 @@ RE_AMOUNT = re.compile(
     r"\s*(RON|EUR|EURO|USD|GBP|CHF|lei|euro|dolari)\b",
     re.IGNORECASE,
 )
-RE_MP = re.compile(r"(\d{1,5}(?:[.,]\d+)?)\s*m\s*²?", re.IGNORECASE)
+RE_MP = re.compile(r"(\d+(?:[.,]\d+)?)\s*m\s*²?", re.IGNORECASE)
 
 # Curs RON aproximativ (mai 2026)
 RATES_TO_RON = {

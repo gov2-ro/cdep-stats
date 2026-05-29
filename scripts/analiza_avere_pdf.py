@@ -180,7 +180,7 @@ def parse_declaratie_pdf(pdf_path: Path) -> dict:
     sec_terenuri = extract_section(sec_imobile, "1. Terenuri", ["2. Clădiri", "II. Bunuri mobile"])
     sec_cladiri = extract_section(sec_imobile, "2. Clădiri", ["II. Bunuri mobile"])
     # Numărăm rândurile cu m² (= un imobil declarat)
-    re_mp = re.compile(r"(\d{1,5}(?:[.,]\d+)?)\s*m\s*²?", re.IGNORECASE)
+    re_mp = re.compile(r"(\d+(?:[.,]\d+)?)\s*m\s*²?", re.IGNORECASE)
     for sec_name, sec_text, count_key in [
         ("terenuri", sec_terenuri, "terenuri_count"),
         ("cladiri", sec_cladiri, "cladiri_count"),
