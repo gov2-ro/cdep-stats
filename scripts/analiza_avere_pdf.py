@@ -229,13 +229,13 @@ def parse_declaratie_pdf(pdf_path: Path) -> dict:
                 {"section": "venituri", "amount": normalized, "raw": m.group(0)}
             )
 
-    # Auto count — secțiunea II
+    # Auto count — secțiunea II; anchor to line-start to exclude section header words
     sec_mobile = extract_section(full_text, "II. Bunuri mobile", markers)
     result["auto_count"] = len(
         re.findall(
-            r"\b(autoturism|autovehicul|motociclet|tractor|remorc|iaht|şalup|salup)\w*",
+            r"^(autoturism|autovehicul|motociclet|tractor|remorc|iaht|şalup|salup)\w*",
             sec_mobile,
-            re.IGNORECASE,
+            re.IGNORECASE | re.MULTILINE,
         )
     )
 
