@@ -65,6 +65,10 @@ Fix: added `alt mijloc` to the regex alternation group.
 
 ## Dashboards
 
+### 2026-05-29 — Avere sections on deputy profile page
+
+Added 5 wealth declaration sections to the bottom of `deputat.html`, loading `data/v1/declaratii-avere/legislatura-{leg}/{idm}.json` in the existing `Promise.all`. New `renderAvere()` function generates: (1) stat cards grid with total active, avere netă, nr imobile, suprafață, venituri, conturi, bijuterii, vehicule; (2) imobile grouped by category from `imobile_detaliate[]`, sorted by area descending, with parcel count; (3) vehicule list (natura + marca + an fabricație); (4) plasamente list with type tag (hidden when empty); (5) bunuri înstrăinate summary (hidden when empty). Added `fmtRON()` and `fmtMP()` helpers (M/K/plain thresholds). Missing avere file → all sections silently absent.
+
 ### 2026-05-29 — Deputies Avere Circle Dashboard — implementation
 
 Built `deputati-avere.html` — per-deputy wealth visualization as a circle grid.

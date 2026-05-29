@@ -122,6 +122,140 @@ function partyShort(name) {
   return name.length > 20 ? name.slice(0, 20) + '…' : name;
 }
 
+function fmtRON(v) {
+  if (!v || v === 0) return '0 RON';
+  if (v >= 1_000_000) return (v / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M RON';
+  if (v >= 10_000) return Math.round(v / 1_000) + 'K RON';
+  return Math.round(v).toLocaleString('ro-RO') + ' RON';
+}
+
+function fmtMP(v) {
+  if (!v || v === 0) return '0 m²';
+  if (v >= 1_000_000) return (v / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M m²';
+  if (v >= 10_000) return Math.round(v / 1_000) + 'K m²';
+  return Math.round(v).toLocaleString('ro-RO') + ' m²';
+}
+
+function renderAvere(avere) {
+  if (!avere?.data?.declaratii?.length) return '';
+  const decl = avere.data.declaratii[avere.data.declaratii.length - 1];
+
+  // ── Section 1: Stat cards ────────────────────────────────────────────────
+  const cardDefs = [
+    { num: fmtRON(decl.total_active_monetare_ron), lbl: 'Total active' },
+    { num: fmtRON(decl.avere_neta_ron), lbl: 'Avere netă', red: (decl.avere_neta_ron || 0) < 0 },
+    { num: (decl.terenuri_count || 0) + (decl.cladiri_count || 0), lbl: 'Nr. imobile' },
+    { num: fmtMP(decl.suprafata_total_mp), lbl: 'Suprafață totală' },
+    { num: fmtRON(decl.venituri_anuale_ron), lbl: 'Venituri anuale' },
+    { num: fmtRON(decl.conturi_total_ron), lbl: 'Conturi bancare' },
+    ...((decl.bijuterii_total_ron || 0) > 0 ? [{ num: fmtRON(decl.bijuterii_total_ron), lbl: 'Bijuterii / artă' }] : []),
+    { num: decl.auto_count || 0, lbl: 'Vehicule' },
+  ];
+  const cardsHtml = cardDefs.map(c => `
+    <div class="act-card">
+      <div class="act-num"${c.red ? ' style="color:var(--red-text)"' : ''}>${c.num}</div>
+      <div class="act-lbl">${c.lbl}</div>
+    </div>`).join('');
+
+  const meta = [
+    decl.an_prima_proprietate ? `Prima proprietate: ${decl.an_prima_proprietate}` : '',
+    (decl.nr_judete || 0) > 0 ? `${decl.nr_judete} județe` : '',
+    (decl.nr_companii || 0) > 0 ? `${decl.nr_companii} companii` : '',
+  ].filter(Boolean).join(' · ');
+
+  const sec1 = `
+    <div class="section">
+      <h2>Declarație de avere <span style="font-weight:400;color:var(--text3);font-size:14px">· ${decl.data_depunere || ''} · <a href="${decl.pdf_url || '#'}" target="_blank" rel="noopener">PDF ↗</a></span></h2>
+      <div class="activitate">${cardsHtml}</div>
+      ${meta ? `<div style="font-size:13px;color:var(--text3);margin-top:8px">${meta}</div>` : ''}
+    </div>`;
+
+  // ── Section 2: Imobile by category ───────────────────────────────────────
+  const nrImobile = (decl.terenuri_count || 0) + (decl.cladiri_count || 0);
+  const CAT_LABEL = {
+    forestier: 'Terenuri forestiere', agricol: 'Terenuri agricole',
+    extravilan: 'Terenuri extravilane', intravilan: 'Terenuri intravilane',
+    luciu_apa: 'Luciu de apă', locuinta: 'Clădiri — locuință',
+    apartament: 'Clădiri — apartament', comercial: 'Clădiri — comerciale',
+    vacanta: 'Clădiri — vacanță', alte_cladiri: 'Clădiri — alte categorii',
+    necunoscuta: 'Imobile — categorie necunoscută',
+  };
+  let sec2 = '';
+  if (nrImobile > 0) {
+    const catMap = {};
+    for (const im of (decl.imobile_detaliate || [])) {
+      const cat = im.categorie || 'necunoscuta';
+      if (!catMap[cat]) catMap[cat] = { count: 0, mp: 0 };
+      catMap[cat].count++;
+      catMap[cat].mp += im.suprafata_mp || 0;
+    }
+    const imRows = Object.entries(catMap)
+      .sort((a, b) => b[1].mp - a[1].mp)
+      .map(([cat, { count, mp }]) => `
+        <div class="list-item" style="display:flex;align-items:baseline;gap:8px">
+          <span>${CAT_LABEL[cat] || cat}</span>
+          <span style="color:var(--text3);font-size:13px">${count} parcel${count === 1 ? 'ă' : 'e'}</span>
+          <span style="margin-left:auto;font-size:13px;color:var(--text2)">${fmtMP(mp)}</span>
+        </div>`).join('');
+    const judetNote = (decl.nr_judete || 0) > 0
+      ? `<div style="font-size:13px;color:var(--text3);margin-top:8px">Județe: ${decl.nr_judete}</div>` : '';
+    sec2 = `
+      <div class="section">
+        <h2>Imobile (${nrImobile})</h2>
+        ${imRows}
+        ${judetNote}
+      </div>`;
+  }
+
+  // ── Section 3: Vehicule ───────────────────────────────────────────────────
+  let sec3 = '';
+  if ((decl.vehicule || []).length > 0) {
+    const vRows = decl.vehicule.map(v => `
+      <div class="list-item" style="display:flex;align-items:baseline;gap:8px">
+        <span>${v.natura || '—'}</span>
+        ${v.marca ? `<span style="color:var(--text3);font-size:13px">${v.marca}</span>` : ''}
+        ${v.an_fabricatie ? `<span style="margin-left:auto;font-size:13px;color:var(--text3)">${v.an_fabricatie}</span>` : ''}
+      </div>`).join('');
+    sec3 = `
+      <div class="section">
+        <h2>Vehicule (${decl.vehicule.length})</h2>
+        ${vRows}
+      </div>`;
+  }
+
+  // ── Section 4: Plasamente ─────────────────────────────────────────────────
+  let sec4 = '';
+  if ((decl.plasamente_detaliate || []).length > 0) {
+    const TIP = { imprumut: 'Împrumut', actiuni: 'Acțiuni', parti_sociale: 'Părți sociale', titluri_stat: 'Titluri stat' };
+    const pRows = decl.plasamente_detaliate.map(p => `
+      <div class="list-item" style="display:flex;align-items:baseline;gap:8px;flex-wrap:wrap">
+        <span>${p.emitent || '—'}</span>
+        ${p.tip ? `<span style="font-size:11px;padding:2px 8px;border-radius:3px;background:var(--bg3);color:var(--text2)">${TIP[p.tip] || p.tip}</span>` : ''}
+        <span style="margin-left:auto;font-size:13px;color:var(--text2)">${fmtRON(p.valoare_ron)}</span>
+      </div>`).join('');
+    sec4 = `
+      <div class="section">
+        <h2>Plasamente &amp; investiții (${decl.plasamente_detaliate.length})</h2>
+        ${pRows}
+      </div>`;
+  }
+
+  // ── Section 5: Bunuri înstrăinate ─────────────────────────────────────────
+  let sec5 = '';
+  if ((decl.bunuri_instrainate_count || 0) > 0) {
+    sec5 = `
+      <div class="section">
+        <h2>Bunuri înstrăinate în ultimele 12 luni (${decl.bunuri_instrainate_count})</h2>
+        <div class="list-item" style="display:flex;justify-content:space-between">
+          <span>${decl.bunuri_instrainate_count} bunuri</span>
+          <span style="font-size:13px;color:var(--text2)">total ${fmtRON(decl.bunuri_instrainate_total_ron)}</span>
+        </div>
+      </div>`;
+  }
+
+  return sec1 + sec2 + sec3 + sec4 + sec5;
+}
+
 function getParam(name) {
   const url = new URL(window.location);
   return url.searchParams.get(name);
@@ -139,13 +273,15 @@ async function loadDeputat() {
   document.getElementById('json-link').href = jsonUrl;
   document.getElementById('json-link').textContent = jsonUrl;
 
-  let dep, allInterpelari, allMotiuni;
+  let dep, allInterpelari, allMotiuni, avereResp;
   try {
-    const [depResp, intResp, motResp] = await Promise.all([
+    const [depResp, intResp, motResp, avereJson] = await Promise.all([
       fetch(jsonUrl).then(r => r.json()),
       fetch(`data/v1/interpelari/legislatura-${leg}.json`).then(r => r.json()).catch(() => null),
       fetch(`data/v1/motiuni/legislatura-${leg}.json`).then(r => r.json()).catch(() => null),
+      fetch(`data/v1/declaratii-avere/legislatura-${leg}/${parseInt(id)}.json`).then(r => r.json()).catch(() => null),
     ]);
+    avereResp = avereJson;
     const idNum = parseInt(id);
     dep = depResp.data.find(d => d.cdep_idm === idNum);
     allInterpelari = intResp?.data || [];
@@ -245,6 +381,7 @@ async function loadDeputat() {
         </a>
       </div>
     </div>
+    ${renderAvere(avereResp)}
   `;
   if (typeof applyI18n === 'function') applyI18n();
 }
