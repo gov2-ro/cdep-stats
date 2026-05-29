@@ -62,6 +62,8 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
 .dep-badge img{width:10px;height:10px;object-fit:contain;flex-shrink:0}
 .dep-name{font-size:9px;color:var(--text2);margin-top:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;line-height:1.3}
 .dep-value{font-size:8px;color:var(--text3);text-align:center;line-height:1.3}
+.dep-value b{color:var(--text2);font-weight:700}
+.mag-break{width:100%;height:0;border-top:1px dashed var(--border);margin:8px 0;opacity:.7}
 .dep-item.null-val .dep-circle-inner{opacity:0.4}
 .dep-item.null-val .dep-value{font-style:italic}
 
@@ -170,6 +172,25 @@ function fmtVal(v,metric){
   return v.toLocaleString('ro-RO');
 }
 
+// Like fmtVal but wraps the numeric part in <b> for display
+function fmtValHtml(v,metric){
+  if(v==null)return '—';
+  if(['venituri_ron','conturi_ron','datorii_ron'].includes(metric)){
+    const a=Math.abs(v),s=v<0?'-':'';
+    if(a>=1e6)return s+'<b>'+(a/1e6).toFixed(a>=1e7?0:1)+'M</b> RON';
+    if(a>=1e3)return '<b>'+s+Math.round(a).toLocaleString('ro-RO')+'</b> RON';
+    return '<b>'+s+Math.round(a)+'</b> RON';
+  }
+  if(metric==='suprafata_mp')return '<b>'+Math.round(v).toLocaleString('ro-RO')+'</b> mp';
+  return '<b>'+v.toLocaleString('ro-RO')+'</b>';
+}
+
+// Returns the decade group (floor of log10) for ordering magnitude breaks; null for 0/null
+function magGroup(v){
+  if(v==null||v<=0)return null;
+  return Math.floor(Math.log10(v));
+}
+
 // Circle diameter: sqrt-scale normalised to maxValue, clamped [12, 68]
 function circleSize(v,maxV){
   if(v==null||v<=0||maxV<=0)return 12;
@@ -220,8 +241,14 @@ function render(){
     return;
   }
 
-  grid.innerHTML=deps.map(d=>{
+  const parts=[];
+  let prevMag=undefined;
+  for(const d of deps){
     const v=d[metric];
+    const mg=magGroup(v);
+    if(prevMag!==undefined&&mg!==prevMag)parts.push('<div class="mag-break"></div>');
+    prevMag=mg;
+
     const sz=circleSize(v,maxV);
     const isNull=v==null;
     const color=partyColor(d.partid);
@@ -243,7 +270,7 @@ function render(){
     const nameShort=d.name.split(',')[0].trim();
     const maxW=sz+8;
 
-    return`<a class="dep-item${isNull?' null-val':''}"
+    parts.push(`<a class="dep-item${isNull?' null-val':''}"
               href="${detailUrl}"
               target="_blank"
               rel="noopener"
@@ -255,9 +282,10 @@ function render(){
         ${badgeHtml}
       </div>
       <div class="dep-name" style="max-width:${maxW}px">${nameShort}</div>
-      <div class="dep-value">${isNull?'—':fmtVal(v,metric)}</div>
-    </a>`;
-  }).join('');
+      <div class="dep-value">${isNull?'—':fmtValHtml(v,metric)}</div>
+    </a>`);
+  }
+  grid.innerHTML=parts.join('');
 }
 
 function buildChips(partids){
