@@ -55,6 +55,11 @@ RE_AMOUNT = re.compile(
     re.IGNORECASE,
 )
 RE_MP = re.compile(r"(\d+(?:[.,]\d+)?)\s*m\s*²?", re.IGNORECASE)
+# Some PDFs lay out tables as "CURRENCY YEAR BALANCE" (currency before amount).
+RE_AMOUNT_REV = re.compile(
+    r"\b(RON|EUR|EURO|USD|GBP|CHF|lei|euro|dolari)\b\s+\d{4}\s+(\d+(?:[.,]\d+)?)",
+    re.IGNORECASE,
+)
 
 # Curs RON aproximativ (mai 2026)
 RATES_TO_RON = {
@@ -173,19 +178,27 @@ def parse_pdf(pdf_path: Path) -> dict:
             if mp and mp > 5:
                 result["suprafata_total_mp"] += mp
 
-    # IV. Active financiare
+    # IV. Active financiare — table columns may be "CURRENCY YEAR BALANCE" (reversed order)
     sec_conturi = extract_section(full_text, "IV. Active financiare", MARKERS)
     for m in RE_AMOUNT.finditer(sec_conturi):
         num = _parse_amount(m.group(1))
         if num and num > 100:
             result["conturi_total_ron"] += normalize_to_ron(num, m.group(2))
+    for m in RE_AMOUNT_REV.finditer(sec_conturi):
+        num = _parse_amount(m.group(2))
+        if num and num > 100:
+            result["conturi_total_ron"] += normalize_to_ron(num, m.group(1))
 
-    # V. Datorii
+    # V. Datorii — same dual-direction scan
     sec_datorii = extract_section(full_text, "V. Datorii", MARKERS)
     for m in RE_AMOUNT.finditer(sec_datorii):
         num = _parse_amount(m.group(1))
         if num and num > 100:
             result["datorii_total_ron"] += normalize_to_ron(num, m.group(2))
+    for m in RE_AMOUNT_REV.finditer(sec_datorii):
+        num = _parse_amount(m.group(2))
+        if num and num > 100:
+            result["datorii_total_ron"] += normalize_to_ron(num, m.group(1))
 
     # VII. Venituri
     sec_venituri = extract_section(full_text, "VII. Venituri", MARKERS)
@@ -201,7 +214,7 @@ def parse_pdf(pdf_path: Path) -> dict:
     sec_mobile = extract_section(full_text, "II. Bunuri mobile", MARKERS)
     result["auto_count"] = len(
         re.findall(
-            r"^(autoturism|autovehicul|motociclet|tractor|remorc|iaht|şalup|salup)\w*",
+            r"^(autoturism|autovehicul|motociclet|tractor|remorc|iaht|şalup|salup|alt mijloc)\w*",
             sec_mobile,
             re.IGNORECASE | re.MULTILINE,
         )

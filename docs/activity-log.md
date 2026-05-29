@@ -4,6 +4,24 @@ Chronological record of meaningful work. Newest entries on top within each secti
 
 ## Data Quality
 
+### 2026-05-29 — Fix conturi_total_ron=0 and auto_count undercount in PDF parser
+
+**Audit:** Manual comparison of Iordache Ion (leg-2024, idm=153) PDF vs extracted JSON revealed two parser bugs.
+
+**Bug 1 — `conturi_total_ron` always 0 for this PDF layout.**
+`RE_AMOUNT` requires `<number> <currency>` order. The ANI PDF table lays out columns as `CURRENCY | YEAR | BALANCE` (e.g. `"RON 2015 377500"`), so no match ever fires. Actual accounts for Iordache Ion: ~3.09M RON across CEC Bank current/deposit accounts, EUR deposits, and insurance funds — all missed.
+Fix: added `RE_AMOUNT_REV` regex (`CURRENCY YYYY amount`) and scan the conturi and datorii sections with both forward and reversed regexes.
+
+**Bug 2 — `auto_count` misses "Alt mijloc de transport" entries.**
+Vehicles labeled "Alt mijloc de transport" don't match any keyword in the auto regex. In pdfplumber-extracted text they appear as `^Alt mijloc de ...` at line start. Iordache Ion: 3 such entries (a 500Ai farm vehicle, a VOS tractor attachment, a Honda quad) were missed → count 7 instead of 10.
+Fix: added `alt mijloc` to the regex alternation group.
+
+**Verified on cached PDF (00dd571ad7d8.pdf):** `conturi_total_ron` 0 → 3,091,542 RON; `auto_count` 7 → 10.
+
+**Known limitations documented in `docs/backlog.md`:** `venituri_anuale_ron` double-counts co-owned rental income; `suprafata_total_mp` ignores `cota-parte` fraction.
+
+**Action needed:** Re-run `build_declaratii_avere.py --leg 2024 --leg 2020` to regenerate JSON from cached PDFs.
+
 ### 2026-05-29 — Fix auto_count inflation in PDF parser
 
 **Bug:** `auto_count` was overcounting vehicles for every deputy by exactly 4. The section header "1. Autovehicule/autoturisme, tractoare, maşini agricole, şalupe, iahturi şi alte mijloace de transport..." contains the keywords `autovehicul`, `autoturism`, `şalup`, `iaht` — 4 extra word-boundary matches that inflated every count.
