@@ -392,48 +392,6 @@ function filterDeps() {
   renderDeps(filtered);
 }
 
-function toggleEp(header) {
-  const body = header.nextElementSibling;
-  const arrow = header.querySelector('.ep-arrow');
-  body.classList.toggle('open');
-  arrow.classList.toggle('open');
-}
-
-function tryEndpoint(btn, key) {
-  const wrap = document.getElementById('resp-' + key);
-  wrap.classList.add('show');
-  wrap.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-}
-
-function toggleInfo(e) {
-  e.stopPropagation();
-  const menu = document.getElementById('info-menu');
-  const btn = document.getElementById('info-btn');
-  const open = menu.classList.toggle('open');
-  btn.setAttribute('aria-expanded', open);
-}
-function closeInfo() {
-  document.getElementById('info-menu')?.classList.remove('open');
-  document.getElementById('info-btn')?.setAttribute('aria-expanded', 'false');
-}
-document.addEventListener('click', () => closeInfo());
-
-function showPage(id, link) {
-  document.querySelectorAll('.nav a, .info-menu a').forEach(a => a.classList.remove('active'));
-  link.classList.add('active');
-  const inDropdown = !!link.closest('#info-menu');
-  document.getElementById('info-btn')?.classList.toggle('active', inDropdown);
-  ['docs', 'demo', 'stats'].forEach(p => {
-    const el = document.getElementById('page-' + p);
-    if (el) el.style.display = p === id ? 'block' : 'none';
-  });
-  closeInfo();
-}
-
-function scrollTo(id) {
-  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
-
 loadData();
 </script>
 <script src="i18n.js"></script>
