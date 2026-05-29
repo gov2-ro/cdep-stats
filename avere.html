@@ -65,6 +65,9 @@ td.num,th.num{text-align:right;font-family:var(--mono);white-space:nowrap}
 
 .note{background:var(--amber-bg);color:var(--amber-text);border-radius:var(--radius);padding:14px 16px;font-size:13px;line-height:1.5}
 .loading{text-align:center;padding:60px 0;color:var(--text3)}
+.view-toggle{display:inline-flex;border:1px solid var(--border2);border-radius:var(--radius-sm);overflow:hidden;vertical-align:middle}
+.view-btn{padding:4px 11px;font-size:12px;border:none;background:var(--bg);color:var(--text2);cursor:pointer}
+.view-btn.active{background:var(--blue-bg);color:var(--blue-text);font-weight:600}
 .error{padding:24px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius);margin:20px 0}
 .footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
 .footer a{color:var(--text2)}
@@ -76,7 +79,7 @@ td.num,th.num{text-align:right;font-family:var(--mono);white-space:nowrap}
   <div class="header-inner">
     <span class="logo">cdep<span>.api</span></span>
     <a href="index.html" class="back" data-i18n="back">← Înapoi</a>
-    <a href="deputati-avere.html" style="font-size:13px;color:var(--text2);padding:6px 12px;border-radius:var(--radius-sm);white-space:nowrap" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''">⬤ Vizualizare cercuri ↗</a>
+    <a id="circles-link" href="deputati-avere.html" style="font-size:13px;color:var(--text2);padding:6px 12px;border-radius:var(--radius-sm);white-space:nowrap" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''">⬤ Vizualizare cercuri ↗</a>
     <span id="lang-toggle-slot" style="margin-left:8px;display:flex;align-items:center"></span>
   </div>
 </header>
@@ -183,8 +186,16 @@ async function load(){
   const c=d.cards;
   const tabBtns = BOARDS.map((b,i)=>`<button class="tab ${i===0?'active':''}" data-i="${i}">${b.label}</button>`).join('');
 
+  const otherLeg = leg === '2024' ? '2020' : '2024';
+  document.getElementById('circles-link').href = `deputati-avere.html?leg=${leg}`;
   document.getElementById('content').innerHTML = `
-    <h1>Averi deputați — legislatura ${leg}</h1>
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:6px;flex-wrap:wrap">
+      <h1 style="margin:0">Averi deputați</h1>
+      <div class="view-toggle">
+        <button class="view-btn${leg==='2024'?' active':''}" onclick="location.href='avere.html?leg=2024'">2024</button>
+        <button class="view-btn${leg==='2020'?' active':''}" onclick="location.href='avere.html?leg=2020'">2020</button>
+      </div>
+    </div>
     <p class="sub">Extras automat din declarațiile de avere ANI · ${c.n_deputati} deputați · ${c.n_cu_evolutie} cu ≥2 declarații (evoluție în mandat)</p>
 
     <div class="cards">
