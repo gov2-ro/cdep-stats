@@ -2,6 +2,20 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+## Data Quality
+
+### 2026-05-29 — Fix auto_count inflation in PDF parser
+
+**Bug:** `auto_count` was overcounting vehicles for every deputy by exactly 4. The section header "1. Autovehicule/autoturisme, tractoare, maşini agricole, şalupe, iahturi şi alte mijloace de transport..." contains the keywords `autovehicul`, `autoturism`, `şalup`, `iaht` — 4 extra word-boundary matches that inflated every count.
+
+**Fix:** Changed regex from `\b...\w*` to `^...\w*` with `re.MULTILINE` in both `scripts/build_declaratii_avere.py` and `scripts/analiza_avere_pdf.py`. In pdfplumber's extracted text each table row starts at a new line; the section header has a `1. ` prefix and is never at `^`.
+
+**Verified:** Deputy 15 (Badea Nelu-Valentin): old=14 → new=10, matching the PDF exactly.
+
+**Action needed:** Re-run `build_declaratii_avere.py --leg 2024` and `--leg 2020` to regenerate corrected JSON from cached PDFs (no network required).
+
+---
+
 ## Dashboards
 
 ### 2026-05-29 — Deputies Avere Circle Dashboard — implementation
