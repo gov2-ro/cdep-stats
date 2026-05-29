@@ -196,7 +196,7 @@ function render(){
     const color=partyColor(d.partid);
     const logo=PARTIES[d.partid];
     const showBadge=sz>=14;
-    const profileUrl=`data/v1/deputati/legislatura-${LEG}/${d.cdep_idm}.json`;
+    const profileUrl=`deputat.html?id=${d.cdep_idm}&leg=${LEG}`;
     const fontSize=Math.max(8,Math.round(sz*0.3));
 
     const badgeHtml=showBadge?(logo
@@ -210,7 +210,7 @@ function render(){
       :`<div class="dep-initials" style="font-size:${fontSize}px;background:${color}">${initials(d.name)}</div>`;
 
     return`<a class="dep-item${v===0?' zero-val':''}"
-              href="${profileUrl}" target="_blank" rel="noopener"
+              href="${profileUrl}"
               data-name="${d.name.replace(/"/g,'&quot;')}"
               data-value="${v}" data-partid="${d.partid}">
       <div class="dep-circle" style="width:${sz}px;height:${sz}px">

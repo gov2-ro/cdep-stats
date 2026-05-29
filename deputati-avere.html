@@ -193,7 +193,7 @@ function magGroup(v){
 
 // ── Circle size tuning ───────────────────────────────────────────────
 // Multiply CIRCLE_SCALE to resize all circles uniformly (base range 12–68 px).
-const CIRCLE_SCALE = 1.25;
+const CIRCLE_SCALE = 2.5;
 const CIRC_MIN = 12 * CIRCLE_SCALE;   // ~15 px  (null / zero value)
 const CIRC_MAX = 68 * CIRCLE_SCALE;   // ~85 px  (largest value)
 // ─────────────────────────────────────────────────────────────────────
@@ -260,7 +260,7 @@ function render(){
     const color=partyColor(d.partid);
     const logo=PARTIES[d.partid];
     const showBadge=sz>=14;
-    const detailUrl=`data/v1/declaratii-avere/legislatura-${LEG}/${d.cdep_idm}.json`;
+    const detailUrl=`deputat.html?id=${d.cdep_idm}&leg=${LEG}`;
     const fontSize=Math.max(8,Math.round(sz*0.3));
 
     const badgeHtml=showBadge?(logo
@@ -278,8 +278,6 @@ function render(){
 
     parts.push(`<a class="dep-item${isNull?' null-val':''}"
               href="${detailUrl}"
-              target="_blank"
-              rel="noopener"
               data-name="${d.name.replace(/"/g,'&quot;')}"
               data-value="${v??''}"
               data-partid="${d.partid}">
