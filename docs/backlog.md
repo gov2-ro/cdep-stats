@@ -15,3 +15,9 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
   - The parser sums the full declared area for every imobil without applying the `Cota-parte` column. For properties co-owned by spouses at 1/2 share, the stored value is 2× the actual personal share. The cota-parte fraction also varies (1/3, 1/4, etc.).
   - Fix would require parsing the `Cota-parte` column per row and multiplying each area by the fraction before summing.
   - Audit case: Iordache Ion (leg-2024 idm=153) — all 73 terenuri + 10 cladiri are at 1/2; stored 10,858,310 m², actual personal share ≈ 5,429,155 m².
+
+
+## Misc
+
+- [ ] enhance avere.html with thumbnails for ppl and partide
+- [ ] show cars, homes, teremnui as icons, one per each? - relative to suprafata or kph?

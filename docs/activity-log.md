@@ -4,6 +4,21 @@ Chronological record of meaningful work. Newest entries on top within each secti
 
 ## Data Quality
 
+### 2026-05-29 — Full PDF extraction pipeline: all ANI form sections + per-row detail lists
+
+**What was done**
+- Extracted parser logic to `parsers/avere_pdf.py` (shared module; eliminates ~200 lines duplicated in `analiza_avere_pdf.py`).
+- Added 4 new detail-list parsers: `_parse_imobile_details`, `_parse_vehicule`, `_parse_conturi_detaliate`, `_parse_plasamente`.
+- Added 3 new scalar sections: II.2 bijuterii, III bunuri înstrăinate, VI cadouri.
+- Fixed latent bug: IV section was scanned as a whole, inflating `conturi_total_ron` with IV.2 plasamente values. Now IV.1 and IV.2 are extracted separately.
+- `schemas/avere.py`: 3 new models (VehiculDetail, ContDetail, PlasamentDetail); `AvereDeclaratie` +11 fields; `AvereDeputat` +2 snapshot fields; `AvereSummary` +3 fields.
+- Populated `imobile_detaliate` (was schema-defined but always empty); added 6 category aggregates (`suprafata_agricol_mp`, `suprafata_forestier_mp`, `suprafata_intravilan_mp`, `suprafata_luciu_mp`, `suprafata_alte_mp`, `suprafata_cladiri_mp`).
+- 26 unit tests covering all new functions with synthetic text (77/77 total suite passing).
+
+**Verified on Iordache Ion (leg-2024 idm=153):** 83 imobile rows, 10 vehicule, conturi 3.09M RON, bijuterii 352k RON, suprafata_forestier 6.38M m².
+
+**Action needed:** Re-run `build_declaratii_avere.py --all` to regenerate JSON from cached PDFs.
+
 ### 2026-05-29 — Fix conturi_total_ron=0 and auto_count undercount in PDF parser
 
 **Audit:** Manual comparison of Iordache Ion (leg-2024, idm=153) PDF vs extracted JSON revealed two parser bugs.
