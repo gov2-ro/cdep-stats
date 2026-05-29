@@ -160,6 +160,21 @@ const I18N = {
     full_text: "Text complet",
     proj_data: "Date proiect",
     details: "Detalii",
+
+    // Deputies avere circle dashboard (deputati-avere.html)
+    avere_deputies_title: "Averi deputați — vizualizare",
+    avere_deputies_sub: "Fiecare cerc = un deputat · mărimea = metrica selectată",
+    view_circles: "Cercuri",
+    view_list: "Listă",
+    metric_venituri: "Venituri anuale",
+    metric_conturi: "Conturi bancare",
+    metric_imobile: "Nr. imobile",
+    metric_suprafata: "Suprafață terenuri (mp)",
+    metric_auto: "Nr. autovehicule",
+    metric_datorii: "Datorii",
+    search_deputies: "Caută deputat…",
+    deputies_count: "deputați",
+    no_declaration: "Fără declarație",
   },
   en: {
     // Nav
@@ -307,6 +322,21 @@ const I18N = {
     full_text: "Full text",
     proj_data: "Project data",
     details: "Details",
+
+    // Deputies avere circle dashboard (deputati-avere.html)
+    avere_deputies_title: "Deputies' wealth — visualization",
+    avere_deputies_sub: "Each circle = one deputy · size = selected metric",
+    view_circles: "Circles",
+    view_list: "List",
+    metric_venituri: "Annual income",
+    metric_conturi: "Bank accounts",
+    metric_imobile: "No. properties",
+    metric_suprafata: "Land area (sqm)",
+    metric_auto: "No. vehicles",
+    metric_datorii: "Debts",
+    search_deputies: "Search deputy…",
+    deputies_count: "deputies",
+    no_declaration: "No declaration",
   },
 };
 
