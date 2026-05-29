@@ -141,6 +141,11 @@ def process_deputat(d: dict, leg: int, force: bool = False) -> AvereDeputat | No
         ultima_imobile_count=(ultima.terenuri_count + ultima.cladiri_count) if ultima else 0,
         ultima_bijuterii_ron=ultima.bijuterii_total_ron if ultima else 0.0,
         ultima_plasamente_ron=ultima.plasamente_total_ron if ultima else 0.0,
+        ultima_datorii_ron=ultima.datorii_total_ron if ultima else 0.0,
+        ultima_total_active_ron=ultima.total_active_monetare_ron if ultima else 0.0,
+        ultima_avere_neta_ron=ultima.avere_neta_ron if ultima else 0.0,
+        ultima_nr_judete=ultima.nr_judete if ultima else 0,
+        ultima_nr_companii=ultima.nr_companii if ultima else 0,
         delta_conturi_ron=(ultima.conturi_total_ron - prima.conturi_total_ron)
         if ultima and prima
         else 0.0,
@@ -210,6 +215,11 @@ def run_leg(leg: int, args: argparse.Namespace) -> int:
                 ultima_imobile_count=av.ultima_imobile_count,
                 ultima_bijuterii_ron=av.ultima_bijuterii_ron,
                 ultima_plasamente_ron=av.ultima_plasamente_ron,
+                ultima_datorii_ron=av.ultima_datorii_ron,
+                ultima_total_active_ron=av.ultima_total_active_ron,
+                ultima_avere_neta_ron=av.ultima_avere_neta_ron,
+                ultima_nr_judete=av.ultima_nr_judete,
+                ultima_nr_companii=av.ultima_nr_companii,
                 bunuri_instrainate_total_ron=av.declaratii[-1].bunuri_instrainate_total_ron
                 if av.declaratii
                 else 0.0,
