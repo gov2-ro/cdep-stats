@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:33.184979Z",
+    "generated_at": "2026-05-29T17:26:59.588397Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -49,11 +91,112 @@
         "terenuri_count": 0,
         "cladiri_count": 3,
         "suprafata_total_mp": 220.0,
-        "conturi_total_ron": 33168.0,
-        "venituri_anuale_ron": 168340.0,
-        "datorii_total_ron": 358550.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 220.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 36900.0,
+        "plasamente_total_ron": 33168.0,
+        "datorii_total_ron": 358550.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 168340.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 65.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 45.0,
+            "judet": "Timis",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 110.0,
+            "judet": "Timis",
+            "an_dobandirii": 2012,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "AUDI",
+            "an_fabricatie": 2013,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 36900.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "NIO 100",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 20200.0
+          },
+          {
+            "emitent": "ALRO 350",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 966.0
+          },
+          {
+            "emitent": "SIF1 500",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 1295.0
+          },
+          {
+            "emitent": "ROMGAZ 30",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 920.0
+          },
+          {
+            "emitent": "OMV PETROM 8950",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 8950.0
+          },
+          {
+            "emitent": "TLV 300",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 837.0
+          }
+        ],
+        "total_active_monetare_ron": 70068.0,
+        "avere_neta_ron": -288482.0,
+        "nr_judete": 2,
+        "nr_companii": 6,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2009
       },
       {
         "data_depunere": "2023-06-15",
@@ -63,11 +206,68 @@
         "terenuri_count": 0,
         "cladiri_count": 3,
         "suprafata_total_mp": 220.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 154350.0,
-        "datorii_total_ron": 358550.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 220.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 36900.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 358550.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 154350.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 65.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 45.0,
+            "judet": "Timis",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 110.0,
+            "judet": "Timis",
+            "an_dobandirii": 2012,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 36900.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 36900.0,
+        "avere_neta_ron": -321650.0,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2009
       },
       {
         "data_depunere": "2024-06-17",
@@ -77,11 +277,75 @@
         "terenuri_count": 0,
         "cladiri_count": 3,
         "suprafata_total_mp": 220.0,
-        "conturi_total_ron": 2229.0,
-        "venituri_anuale_ron": 163019.0,
-        "datorii_total_ron": 358550.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 220.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 36900.0,
+        "plasamente_total_ron": 2229.0,
+        "datorii_total_ron": 358550.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 163019.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 65.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 45.0,
+            "judet": "Timis",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 110.0,
+            "judet": "Timis",
+            "an_dobandirii": 2012,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 36900.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "H2O 22",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 2229.0
+          }
+        ],
+        "total_active_monetare_ron": 39129.0,
+        "avere_neta_ron": -319421.0,
+        "nr_judete": 2,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2009
       },
       {
         "data_depunere": "2024-12-29",
@@ -91,18 +355,89 @@
         "terenuri_count": 0,
         "cladiri_count": 3,
         "suprafata_total_mp": 220.0,
-        "conturi_total_ron": 2229.0,
-        "venituri_anuale_ron": 163019.0,
-        "datorii_total_ron": 358550.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 220.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 36900.0,
+        "plasamente_total_ron": 2229.0,
+        "datorii_total_ron": 358550.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 163019.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 65.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 45.0,
+            "judet": "Timis",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 110.0,
+            "judet": "Timis",
+            "an_dobandirii": 2012,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 36900.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "H2O 22",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 2229.0
+          }
+        ],
+        "total_active_monetare_ron": 39129.0,
+        "avere_neta_ron": -319421.0,
+        "nr_judete": 2,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2009
       }
     ],
     "ultima_data": "2024-12-29",
-    "ultima_conturi_ron": 2229.0,
+    "ultima_conturi_ron": 36900.0,
     "ultima_venituri_ron": 163019.0,
     "ultima_imobile_count": 3,
-    "delta_conturi_ron": 2229.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 2229.0,
+    "ultima_datorii_ron": 358550.0,
+    "ultima_total_active_ron": 39129.0,
+    "ultima_avere_neta_ron": -319421.0,
+    "ultima_nr_judete": 2,
+    "ultima_nr_companii": 1,
+    "delta_conturi_ron": 36900.0,
     "delta_imobile": 3
   }
 }

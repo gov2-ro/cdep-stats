@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:04:32.052096Z",
+    "generated_at": "2026-05-29T17:24:27.306118Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 5
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-14",
@@ -49,11 +91,79 @@
         "terenuri_count": 0,
         "cladiri_count": 3,
         "suprafata_total_mp": 319.36,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 319.36,
+        "auto_count": 3,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 2,
+        "bunuri_instrainate_total_ron": 0.0,
         "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 311395.0,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 271063.0,
-        "auto_count": 2,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 311395.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 68.97,
+            "judet": "Buzau",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 200.0,
+            "judet": "Buzau",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 50.39,
+            "judet": "Ilfov",
+            "an_dobandirii": 2015,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Renault Megane",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 1995,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Motociclet",
+            "marca": "Aprilia",
+            "an_fabricatie": 1995,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": -271063.0,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2015
       },
       {
         "data_depunere": "2023-06-13",
@@ -63,11 +173,97 @@
         "terenuri_count": 1,
         "cladiri_count": 4,
         "suprafata_total_mp": 2535.3599999999997,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 2082.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 453.36,
+        "auto_count": 3,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
         "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 185724.0,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 211717.0,
-        "auto_count": 2,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 185724.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 2082.0,
+            "judet": "Buzau",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 68.97,
+            "judet": "Buzau",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 200.0,
+            "judet": "Buzau",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 50.39,
+            "judet": "Ilfov",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 134.0,
+            "judet": "Buzau",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Renault Megane",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 1997,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Motociclet",
+            "marca": "BMW",
+            "an_fabricatie": 1997,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": -211717.0,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2015
       },
       {
         "data_depunere": "2024-01-16",
@@ -77,17 +273,110 @@
         "terenuri_count": 1,
         "cladiri_count": 4,
         "suprafata_total_mp": 2535.3599999999997,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 2082.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 453.36,
+        "auto_count": 3,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
         "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 161421.0,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 171384.0,
-        "auto_count": 2,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 161421.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 2082.0,
+            "judet": "Buzau",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 68.97,
+            "judet": "Buzau",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 200.0,
+            "judet": "Buzau",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 50.39,
+            "judet": "Ilfov",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 134.0,
+            "judet": "Buzau",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Renault Megane",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 1997,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Motociclet",
+            "marca": "BMW",
+            "an_fabricatie": 1997,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": -171384.0,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2015
       }
     ],
     "ultima_data": "2024-01-16",
     "ultima_conturi_ron": 0.0,
     "ultima_venituri_ron": 161421.0,
     "ultima_imobile_count": 5,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 171384.0,
+    "ultima_total_active_ron": 0.0,
+    "ultima_avere_neta_ron": -171384.0,
+    "ultima_nr_judete": 2,
+    "ultima_nr_companii": 0,
     "delta_conturi_ron": 0.0,
     "delta_imobile": 5
   }

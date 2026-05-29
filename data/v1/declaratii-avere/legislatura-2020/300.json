@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:54:13.652099Z",
+    "generated_at": "2026-05-29T17:32:19.963353Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-08",
@@ -49,11 +91,75 @@
         "terenuri_count": 1,
         "cladiri_count": 3,
         "suprafata_total_mp": 3161.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 143266.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 2611.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 550.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 305186.64999999997,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 10000.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 143266.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 2611.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2010,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 508.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2010,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 42.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2015,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2010,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 305186.64999999997
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 305186.64999999997,
+        "avere_neta_ron": 295186.64999999997,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2010
       },
       {
         "data_depunere": "2023-06-12",
@@ -63,11 +169,82 @@
         "terenuri_count": 4,
         "cladiri_count": 1,
         "suprafata_total_mp": 4653.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 143681.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2611.0,
+        "suprafata_luciu_mp": 2000.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 42.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 175426.9,
+        "conturi_total_ron": 509720.6895,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 10000.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 143681.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2611.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 2000.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/3",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 42.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2015,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2010,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 303320.5235
+          },
+          {
+            "institutie": "Raiffeisenbank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 206400.166
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 509720.6895,
+        "avere_neta_ron": 499720.6895,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2010
       },
       {
         "data_depunere": "2024-06-12",
@@ -77,11 +254,82 @@
         "terenuri_count": 4,
         "cladiri_count": 1,
         "suprafata_total_mp": 4653.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 163072.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2611.0,
+        "suprafata_luciu_mp": 2000.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 42.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 531083.25,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 10000.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 163072.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2611.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 2000.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/3",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 42.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2015,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2010,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 326356.25
+          },
+          {
+            "institutie": "Raiffeisenbank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 204727.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 531083.25,
+        "avere_neta_ron": 521083.25,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2010
       },
       {
         "data_depunere": "2025-01-16",
@@ -91,18 +339,96 @@
         "terenuri_count": 4,
         "cladiri_count": 1,
         "suprafata_total_mp": 4653.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 160104.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2611.0,
+        "suprafata_luciu_mp": 2000.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 42.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 398227.85,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 10000.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 160104.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2611.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 2000.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/3",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 42.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2015,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2010,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 331386.05
+          },
+          {
+            "institutie": "Raiffeisenbank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 66841.8
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 398227.85,
+        "avere_neta_ron": 388227.85,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2010
       }
     ],
     "ultima_data": "2025-01-16",
-    "ultima_conturi_ron": 0.0,
+    "ultima_conturi_ron": 398227.85,
     "ultima_venituri_ron": 160104.0,
     "ultima_imobile_count": 5,
-    "delta_conturi_ron": 0.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 10000.0,
+    "ultima_total_active_ron": 398227.85,
+    "ultima_avere_neta_ron": 388227.85,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 0,
+    "delta_conturi_ron": 398227.85,
     "delta_imobile": 5
   }
 }

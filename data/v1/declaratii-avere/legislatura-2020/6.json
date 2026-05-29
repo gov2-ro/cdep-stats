@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:04:17.111675Z",
+    "generated_at": "2026-05-29T17:24:08.358147Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -49,11 +91,247 @@
         "terenuri_count": 20,
         "cladiri_count": 10,
         "suprafata_total_mp": 106139.25,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 1622654.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 95031.97,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 9262.0,
+        "suprafata_luciu_mp": 34.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 1723.28,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 277750.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 719546.299,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1622654.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 296.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2009,
+            "cota_parte": "4/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1841.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2256.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1000.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1010.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 2642.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 86952.97,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1281.0,
+            "judet": "Arges",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1001.0,
+            "judet": "Arges",
+            "an_dobandirii": 2011,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 577.0,
+            "judet": "Arges",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 5437.0,
+            "judet": "Arges",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 34.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2018,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 544.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 227.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 310.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 275.2,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 74.98,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2018,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 236.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 56.1,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2009,
+            "sold_ron": 312687.011
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2007,
+            "sold_ron": 8008.67
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 386205.618
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 100.0
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 4545.0
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 8000.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 997296.299,
+        "avere_neta_ron": 997296.299,
+        "nr_judete": 4,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 3,
+        "an_prima_proprietate": 2009
       },
       {
         "data_depunere": "2023-06-14",
@@ -63,11 +341,255 @@
         "terenuri_count": 20,
         "cladiri_count": 15,
         "suprafata_total_mp": 106272.51000000001,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 1482846.9899999998,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 95031.97,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 9262.0,
+        "suprafata_luciu_mp": 34.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 1856.54,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 277750.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 265983.85349999997,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1482846.9899999998,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 296.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2009,
+            "cota_parte": "4/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1841.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2256.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1000.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1010.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 2642.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 86952.97,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1281.0,
+            "judet": "Arges",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1001.0,
+            "judet": "Arges",
+            "an_dobandirii": 2011,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 577.0,
+            "judet": "Arges",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 5437.0,
+            "judet": "Arges",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 34.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 544.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 227.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 310.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 275.2,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 117.2,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 236.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 56.1,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 52.7,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 12.5,
+            "judet": "de",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 13.07,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 12.77,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2009,
+            "sold_ron": 65138.031
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 200845.82249999998
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 543733.8535,
+        "avere_neta_ron": 543733.8535,
+        "nr_judete": 5,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 3,
+        "an_prima_proprietate": 2009
       },
       {
         "data_depunere": "2024-06-12",
@@ -77,11 +599,255 @@
         "terenuri_count": 18,
         "cladiri_count": 17,
         "suprafata_total_mp": 106375.51000000001,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 1405688.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 95031.97,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 9262.0,
+        "suprafata_luciu_mp": 34.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 1959.54,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 277750.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 467553.9469999999,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1405688.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 296.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2009,
+            "cota_parte": "4/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 4097.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1000.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1010.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 2642.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 86952.97,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1281.0,
+            "judet": "Arges",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1001.0,
+            "judet": "Arges",
+            "an_dobandirii": 2011,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 577.0,
+            "judet": "Arges",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 5437.0,
+            "judet": "Arges",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 34.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 544.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 260.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 310.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 275.2,
+            "judet": "Albotă",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 117.2,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 236.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 56.1,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 52.7,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 12.5,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 13.07,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 12.77,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 70.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2009,
+            "sold_ron": 65007.740999999995
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 402546.20599999995
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 745303.9469999999,
+        "avere_neta_ron": 745303.9469999999,
+        "nr_judete": 5,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 3,
+        "an_prima_proprietate": 2009
       },
       {
         "data_depunere": "2024-12-29",
@@ -91,18 +857,269 @@
         "terenuri_count": 18,
         "cladiri_count": 17,
         "suprafata_total_mp": 106375.51000000001,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 1405688.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 95031.97,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 9262.0,
+        "suprafata_luciu_mp": 34.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 1959.54,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 277750.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 517811.85,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1405688.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 296.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2009,
+            "cota_parte": "4/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 4097.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1000.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1010.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 2642.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 86952.97,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1281.0,
+            "judet": "Arges",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1001.0,
+            "judet": "Arges",
+            "an_dobandirii": 2011,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 577.0,
+            "judet": "Arges",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 5437.0,
+            "judet": "Arges",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 34.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 544.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 260.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 310.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 275.2,
+            "judet": "Albotă",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 117.2,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 236.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 56.1,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 52.7,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 12.5,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 13.07,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 12.77,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 70.0,
+            "judet": "Olt",
+            "an_dobandirii": 2009,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2009,
+            "sold_ron": 64831.899999999994
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 452979.95
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 795561.85,
+        "avere_neta_ron": 795561.85,
+        "nr_judete": 5,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 3,
+        "an_prima_proprietate": 2009
       }
     ],
     "ultima_data": "2024-12-29",
-    "ultima_conturi_ron": 0.0,
+    "ultima_conturi_ron": 517811.85,
     "ultima_venituri_ron": 1405688.0,
     "ultima_imobile_count": 35,
-    "delta_conturi_ron": 0.0,
+    "ultima_bijuterii_ron": 277750.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 795561.85,
+    "ultima_avere_neta_ron": 795561.85,
+    "ultima_nr_judete": 5,
+    "ultima_nr_companii": 0,
+    "delta_conturi_ron": 517811.85,
     "delta_imobile": 35
   }
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:46.262720Z",
+    "generated_at": "2026-05-29T17:23:31.443292Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 1
@@ -21,17 +21,196 @@
         "terenuri_count": 1,
         "cladiri_count": 3,
         "suprafata_total_mp": 738.0,
-        "conturi_total_ron": 300000.0,
-        "venituri_anuale_ron": 233861.0,
-        "datorii_total_ron": 75000.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 417.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 321.0,
         "auto_count": 3,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 641598.7155,
+        "plasamente_total_ron": 300000.0,
+        "datorii_total_ron": 75000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 233861.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 417.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/4",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 110.0,
+            "judet": "Sălaj",
+            "an_dobandirii": 2002,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 211.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/4",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Fiat Grande Punto",
+            "an_fabricatie": 2011,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Fiat Scudo",
+            "an_fabricatie": 2011,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Opel Zafira",
+            "an_fabricatie": 2006,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "OTP Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 227347.061
+          },
+          {
+            "institutie": "OTP Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 9270.09
+          },
+          {
+            "institutie": "OTP Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 16518.3
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 28.08
+          },
+          {
+            "institutie": "OTP Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 78818.5315
+          },
+          {
+            "institutie": "OTP Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 9744.02
+          },
+          {
+            "institutie": "OTP Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 54031.263
+          },
+          {
+            "institutie": "OTP Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 78801.21
+          },
+          {
+            "institutie": "OTP Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 78801.21
+          },
+          {
+            "institutie": "OTP Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 78801.21
+          },
+          {
+            "institutie": "OTP Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 4528.06
+          },
+          {
+            "institutie": "OTP Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 4909.68
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Tőtős Erzsébet 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 100000.0
+          },
+          {
+            "emitent": "Nagy Mihai Zoltan 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50000.0
+          },
+          {
+            "emitent": "conform legii campanie 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 150000.0
+          }
+        ],
+        "total_active_monetare_ron": 941598.7155,
+        "avere_neta_ron": 866598.7155,
+        "nr_judete": 2,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2002
       }
     ],
     "ultima_data": "2025-01-20",
-    "ultima_conturi_ron": 300000.0,
+    "ultima_conturi_ron": 641598.7155,
     "ultima_venituri_ron": 233861.0,
     "ultima_imobile_count": 4,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 300000.0,
+    "ultima_datorii_ron": 75000.0,
+    "ultima_total_active_ron": 941598.7155,
+    "ultima_avere_neta_ron": 866598.7155,
+    "ultima_nr_judete": 2,
+    "ultima_nr_companii": 3,
     "delta_conturi_ron": 0.0,
     "delta_imobile": 0
   }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:04:29.494784Z",
+    "generated_at": "2026-05-29T17:20:40.821440Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 2
@@ -21,11 +21,116 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 606.0,
-        "conturi_total_ron": 250063.89,
-        "venituri_anuale_ron": 254421.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 464.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 142.0,
         "auto_count": 4,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 42925.0,
+        "conturi_total_ron": 23399.64,
+        "plasamente_total_ron": 250063.89,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 254421.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 464.0,
+            "judet": "SIMONA",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 142.0,
+            "judet": "cumpărare",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "MERCEDES",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "AUDI",
+            "an_fabricatie": 2006,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "BMV",
+            "an_fabricatie": 2015,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "AIXAM",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 23342.55
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 57.09
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "HIDROELECTRICA 86",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 10311.4
+          },
+          {
+            "emitent": "PREMIER ENERGY PLC 123",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 2414.49
+          },
+          {
+            "emitent": "FIDELIS deţinute (titluri de stat, 400",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 39338.0
+          },
+          {
+            "emitent": "PSD 3",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 198000.0
+          }
+        ],
+        "total_active_monetare_ron": 273463.53,
+        "avere_neta_ron": 273463.53,
+        "nr_judete": 2,
+        "nr_companii": 4,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2017
       },
       {
         "data_depunere": "2025-06-04",
@@ -35,18 +140,130 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 606.0,
-        "conturi_total_ron": 67373.87999999999,
-        "venituri_anuale_ron": 422291.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 464.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 142.0,
         "auto_count": 4,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 219179.16,
+        "plasamente_total_ron": 67373.88,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 422291.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 464.0,
+            "judet": "SIMONA",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 142.0,
+            "judet": "cumpărare",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "MERCEDES",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "AUDI",
+            "an_fabricatie": 2006,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "BMV",
+            "an_fabricatie": 2015,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "AIXAM",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 219158.96
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 20.2
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "HIDROELECTRICA 86",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 10216.8
+          },
+          {
+            "emitent": "PREMIER ENERGY PLC 123",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 2356.68
+          },
+          {
+            "emitent": "FIDELIS deţinute (titluri de stat, 400",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 38566.0
+          },
+          {
+            "emitent": "BT 520",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 16234.4
+          }
+        ],
+        "total_active_monetare_ron": 286553.04000000004,
+        "avere_neta_ron": 286553.04000000004,
+        "nr_judete": 2,
+        "nr_companii": 4,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2017
       }
     ],
     "ultima_data": "2025-06-04",
-    "ultima_conturi_ron": 67373.87999999999,
+    "ultima_conturi_ron": 219179.16,
     "ultima_venituri_ron": 422291.0,
     "ultima_imobile_count": 2,
-    "delta_conturi_ron": -182690.01,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 67373.88,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 286553.04000000004,
+    "ultima_avere_neta_ron": 286553.04000000004,
+    "ultima_nr_judete": 2,
+    "ultima_nr_companii": 4,
+    "delta_conturi_ron": 195779.52000000002,
     "delta_imobile": 0
   }
 }

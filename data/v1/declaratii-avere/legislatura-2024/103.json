@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:05:09.011517Z",
+    "generated_at": "2026-05-29T17:21:29.611134Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 2
@@ -21,11 +21,68 @@
         "terenuri_count": 0,
         "cladiri_count": 1,
         "suprafata_total_mp": 60.0,
-        "conturi_total_ron": 1385000.0,
-        "venituri_anuale_ron": 103164.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 60.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 227250.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 303000.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 235000.0,
         "datorii_total_ron": 86000.0,
-        "auto_count": 1,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 103164.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 60.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Ford",
+            "an_fabricatie": 2012,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 1999,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Organizatia Judeteana",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 185000.0
+          },
+          {
+            "emitent": "SC Elky Guard SRL",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50000.0
+          }
+        ],
+        "total_active_monetare_ron": 462250.0,
+        "avere_neta_ron": 376250.0,
+        "nr_judete": 1,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2016
       },
       {
         "data_depunere": "2025-06-06",
@@ -35,18 +92,94 @@
         "terenuri_count": 0,
         "cladiri_count": 1,
         "suprafata_total_mp": 60.0,
-        "conturi_total_ron": 1267000.0,
-        "venituri_anuale_ron": 103164.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 60.0,
+        "auto_count": 3,
+        "bijuterii_total_ron": 227250.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 303000.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 117000.0,
         "datorii_total_ron": 78100.0,
-        "auto_count": 2,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 103164.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 60.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Ford",
+            "an_fabricatie": 2012,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 1999,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Rang Rover",
+            "an_fabricatie": 2015,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [
+          {
+            "emitent": "SC Elky Guard SRL",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50000.0
+          },
+          {
+            "emitent": "Lisandru Marius Lucian",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 66000.0
+          },
+          {
+            "emitent": "Subscriere TEZAUR deţinute (titluri de stat, 1000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 1000.0
+          }
+        ],
+        "total_active_monetare_ron": 344250.0,
+        "avere_neta_ron": 266150.0,
+        "nr_judete": 1,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2016
       }
     ],
     "ultima_data": "2025-06-06",
-    "ultima_conturi_ron": 1267000.0,
+    "ultima_conturi_ron": 0.0,
     "ultima_venituri_ron": 103164.0,
     "ultima_imobile_count": 1,
-    "delta_conturi_ron": -118000.0,
+    "ultima_bijuterii_ron": 227250.0,
+    "ultima_plasamente_ron": 117000.0,
+    "ultima_datorii_ron": 78100.0,
+    "ultima_total_active_ron": 344250.0,
+    "ultima_avere_neta_ron": 266150.0,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 3,
+    "delta_conturi_ron": 0.0,
     "delta_imobile": 0
   }
 }

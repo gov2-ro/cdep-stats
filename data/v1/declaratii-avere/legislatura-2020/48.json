@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:05:14.831735Z",
+    "generated_at": "2026-05-29T17:25:21.066773Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 8
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-10",
@@ -49,11 +91,61 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 273083.0,
-        "datorii_total_ron": 77983.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 45450.0,
+        "conturi_total_ron": 109884.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 77983.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 273083.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes GLC",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2003,
+            "sold_ron": 40000.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2021,
+            "sold_ron": 64640.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 5244.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 109884.0,
+        "avere_neta_ron": 31901.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-07-08",
@@ -63,11 +155,80 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 133250.0,
-        "venituri_anuale_ron": 273083.0,
-        "datorii_total_ron": 77983.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 30300.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 45450.0,
+        "conturi_total_ron": 109884.0,
+        "plasamente_total_ron": 133250.0,
+        "datorii_total_ron": 77983.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 273083.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes GLC",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2003,
+            "sold_ron": 40000.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2021,
+            "sold_ron": 64640.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 5244.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "deţinute (titluri de stat, 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 7500.0
+          },
+          {
+            "emitent": "deţinute (titluri de stat, 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50000.0
+          },
+          {
+            "emitent": "Oprescu Emilian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 75750.0
+          }
+        ],
+        "total_active_monetare_ron": 273434.0,
+        "avere_neta_ron": 195451.0,
+        "nr_judete": 0,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-06-15",
@@ -77,11 +238,75 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 90900.0,
-        "venituri_anuale_ron": 297716.0,
-        "datorii_total_ron": 94000.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 60600.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 194742.09999999998,
+        "plasamente_total_ron": 90900.0,
+        "datorii_total_ron": 94000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 297716.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes GLC",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2003,
+            "sold_ron": 62786.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2021,
+            "sold_ron": 71720.09999999999
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 10236.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 50000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Oprescu Emilian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 90900.0
+          }
+        ],
+        "total_active_monetare_ron": 346242.1,
+        "avere_neta_ron": 252242.09999999998,
+        "nr_judete": 0,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2024-06-12",
@@ -91,11 +316,68 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 75750.0,
-        "venituri_anuale_ron": 306594.0,
-        "datorii_total_ron": 96828.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 60600.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 146798.9,
+        "plasamente_total_ron": 75750.0,
+        "datorii_total_ron": 96828.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 306594.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes GLC",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2003,
+            "sold_ron": 10242.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2021,
+            "sold_ron": 73820.9
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 62736.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Oprescu Emilian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 75750.0
+          }
+        ],
+        "total_active_monetare_ron": 283148.9,
+        "avere_neta_ron": 186320.90000000002,
+        "nr_judete": 0,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2024-07-10",
@@ -105,11 +387,74 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 125750.0,
-        "venituri_anuale_ron": 306594.0,
-        "datorii_total_ron": 96828.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 60600.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 146798.9,
+        "plasamente_total_ron": 125750.0,
+        "datorii_total_ron": 96828.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 306594.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes GLC",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2003,
+            "sold_ron": 10242.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2021,
+            "sold_ron": 73820.9
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 62736.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Oprescu Emilian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 75750.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50000.0
+          }
+        ],
+        "total_active_monetare_ron": 333148.9,
+        "avere_neta_ron": 236320.90000000002,
+        "nr_judete": 0,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2025-01-19",
@@ -119,18 +464,66 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 248000.0,
-        "venituri_anuale_ron": 330903.0,
-        "datorii_total_ron": 44001.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 60600.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 248000.0,
+        "datorii_total_ron": 44001.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 330903.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes GLC",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50000.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 198000.0
+          }
+        ],
+        "total_active_monetare_ron": 308600.0,
+        "avere_neta_ron": 264599.0,
+        "nr_judete": 0,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       }
     ],
     "ultima_data": "2025-01-19",
-    "ultima_conturi_ron": 248000.0,
+    "ultima_conturi_ron": 0.0,
     "ultima_venituri_ron": 330903.0,
     "ultima_imobile_count": 0,
-    "delta_conturi_ron": 248000.0,
+    "ultima_bijuterii_ron": 60600.0,
+    "ultima_plasamente_ron": 248000.0,
+    "ultima_datorii_ron": 44001.0,
+    "ultima_total_active_ron": 308600.0,
+    "ultima_avere_neta_ron": 264599.0,
+    "ultima_nr_judete": 0,
+    "ultima_nr_companii": 2,
+    "delta_conturi_ron": 0.0,
     "delta_imobile": 0
   }
 }

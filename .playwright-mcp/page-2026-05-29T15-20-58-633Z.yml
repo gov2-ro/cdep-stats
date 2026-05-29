@@ -1,0 +1,2388 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "cdep.api" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+      - navigation [ref=e5]:
+        - link "Averi" [ref=e6] [cursor=pointer]:
+          - /url: avere.html?leg=2024
+        - link "Cercuri avere" [ref=e7] [cursor=pointer]:
+          - /url: deputati-avere.html
+        - link "Activitate" [ref=e8] [cursor=pointer]:
+          - /url: deputati-activitate.html
+        - link "Interpelări" [ref=e9] [cursor=pointer]:
+          - /url: interpelari-stats.html
+        - link "Proiecte" [ref=e10] [cursor=pointer]:
+          - /url: proiecte-stats.html
+        - link "Caută" [ref=e11] [cursor=pointer]:
+          - /url: search.html
+        - button "Switch to English" [ref=e13] [cursor=pointer]: EN
+  - generic [ref=e15]:
+    - generic [ref=e16]:
+      - button "2024" [ref=e17] [cursor=pointer]
+      - button "2020" [ref=e18] [cursor=pointer]
+    - generic [ref=e19]:
+      - button "Cercuri" [ref=e20] [cursor=pointer]
+      - button "Listă" [disabled] [ref=e21]
+    - combobox [ref=e22] [cursor=pointer]:
+      - option "Venituri anuale" [selected]
+      - option "Conturi bancare"
+      - option "Nr. imobile"
+      - option "Suprafață terenuri (mp)"
+      - option "Nr. autovehicule"
+      - option "Datorii"
+    - generic [ref=e23]:
+      - generic [ref=e24] [cursor=pointer]: PSD
+      - generic [ref=e25] [cursor=pointer]: AUR
+      - generic [ref=e26] [cursor=pointer]: PNL
+      - generic [ref=e27] [cursor=pointer]: USR
+      - generic [ref=e28] [cursor=pointer]: UDMR
+      - generic [ref=e29] [cursor=pointer]: Minoritati
+      - generic [ref=e31] [cursor=pointer]: UPR
+      - generic [ref=e32] [cursor=pointer]: SOS RO
+      - generic [ref=e34] [cursor=pointer]: Neafiliat
+    - textbox "Caută deputat…" [ref=e36]
+    - generic [ref=e37]: 332 deputați
+  - generic [ref=e38]:
+    - heading "Averi deputați — vizualizare" [level=1] [ref=e39]
+    - paragraph [ref=e40]: Fiecare cerc = un deputat · mărimea = metrica selectată
+    - generic [ref=e41]:
+      - link "Cruşoveanu Marian PNL Cruşoveanu Marian 12M RON" [ref=e42] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/84.json
+        - generic [ref=e43]:
+          - img "Cruşoveanu Marian" [ref=e45]
+          - generic: PNL
+        - generic [ref=e46]: Cruşoveanu Marian
+        - generic [ref=e47]: 12M RON
+      - link "Mihalcea Remus-Gabriel PSD Mihalcea Remus-Gabriel 6.6M RON" [ref=e49] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/191.json
+        - generic [ref=e50]:
+          - img "Mihalcea Remus-Gabriel" [ref=e52]
+          - generic: PSD
+        - generic [ref=e53]: Mihalcea Remus-Gabriel
+        - generic [ref=e54]: 6.6M RON
+      - link "Tuşa Adriana Diana PSD Tuşa Adriana Diana 5.3M RON" [ref=e55] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/309.json
+        - generic [ref=e56]:
+          - img "Tuşa Adriana Diana" [ref=e58]
+          - generic: PSD
+        - generic [ref=e59]: Tuşa Adriana Diana
+        - generic [ref=e60]: 5.3M RON
+      - link "Gherasim Laura AUR Gherasim Laura 3.5M RON" [ref=e61] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/123.json
+        - generic [ref=e62]:
+          - img "Gherasim Laura" [ref=e64]
+          - generic: AUR
+        - generic [ref=e65]: Gherasim Laura
+        - generic [ref=e66]: 3.5M RON
+      - link "Murad Mohammad AUR Murad Mohammad 3.3M RON" [ref=e67] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/212.json
+        - generic [ref=e68]:
+          - img "Murad Mohammad" [ref=e70]
+          - generic: AUR
+        - generic [ref=e71]: Murad Mohammad
+        - generic [ref=e72]: 3.3M RON
+      - link "Şerban George Cătălin PNL Şerban George Cătălin 2.2M RON" [ref=e73] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/295.json
+        - generic [ref=e74]:
+          - img "Şerban George Cătălin" [ref=e76]
+          - generic: PNL
+        - generic [ref=e77]: Şerban George Cătălin
+        - generic [ref=e78]: 2.2M RON
+      - link "Iordache Ion PNL Iordache Ion 2.0M RON" [ref=e79] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/153.json
+        - generic [ref=e80]:
+          - img "Iordache Ion" [ref=e82]
+          - generic: PNL
+        - generic [ref=e83]: Iordache Ion
+        - generic [ref=e84]: 2.0M RON
+      - link "Gorghiu Alina-Ştefania PNL Gorghiu Alina-Ştefania 2.0M RON" [ref=e85] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/129.json
+        - generic [ref=e86]:
+          - img "Gorghiu Alina-Ştefania" [ref=e88]
+          - generic: PNL
+        - generic [ref=e89]: Gorghiu Alina-Ştefania
+        - generic [ref=e90]: 2.0M RON
+      - link "Cîrligea Florin-Eugen AUR Cîrligea Florin-Eugen 1.9M RON" [ref=e91] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/68.json
+        - generic [ref=e92]:
+          - img "Cîrligea Florin-Eugen" [ref=e94]
+          - generic: AUR
+        - generic [ref=e95]: Cîrligea Florin-Eugen
+        - generic [ref=e96]: 1.9M RON
+      - link "Bruynseels Ramona-Ioana AUR Bruynseels Ramona-Ioana 1.8M RON" [ref=e97] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/38.json
+        - generic [ref=e98]:
+          - img "Bruynseels Ramona-Ioana" [ref=e100]
+          - generic: AUR
+        - generic [ref=e101]: Bruynseels Ramona-Ioana
+        - generic [ref=e102]: 1.8M RON
+      - link "Berescu Monica-Elena USR Berescu Monica-Elena 1.7M RON" [ref=e103] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/26.json
+        - generic [ref=e104]:
+          - img "Berescu Monica-Elena" [ref=e106]
+          - generic: USR
+        - generic [ref=e107]: Berescu Monica-Elena
+        - generic [ref=e108]: 1.7M RON
+      - link "Weber Mihai PSD Weber Mihai 1.7M RON" [ref=e109] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/327.json
+        - generic [ref=e110]:
+          - img "Weber Mihai" [ref=e112]
+          - generic: PSD
+        - generic [ref=e113]: Weber Mihai
+        - generic [ref=e114]: 1.7M RON
+      - link "Gliga Dumitriţa PSD Gliga Dumitriţa 1.6M RON" [ref=e115] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/127.json
+        - generic [ref=e116]:
+          - img "Gliga Dumitriţa" [ref=e118]
+          - generic: PSD
+        - generic [ref=e119]: Gliga Dumitriţa
+        - generic [ref=e120]: 1.6M RON
+      - link "Oancea Silviu-Florin AUR Oancea Silviu-Florin 1.5M RON" [ref=e121] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/230.json
+        - generic [ref=e122]:
+          - img "Oancea Silviu-Florin" [ref=e124]
+          - generic: AUR
+        - generic [ref=e125]: Oancea Silviu-Florin
+        - generic [ref=e126]: 1.5M RON
+      - link "Vuşcan Voicu PSD Vuşcan Voicu 1.4M RON" [ref=e127] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/326.json
+        - generic [ref=e128]:
+          - img "Vuşcan Voicu" [ref=e130]
+          - generic: PSD
+        - generic [ref=e131]: Vuşcan Voicu
+        - generic [ref=e132]: 1.4M RON
+      - link "Mocanu Adrian PNL Mocanu Adrian 1.3M RON" [ref=e133] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/203.json
+        - generic [ref=e134]:
+          - img "Mocanu Adrian" [ref=e136]
+          - generic: PNL
+        - generic [ref=e137]: Mocanu Adrian
+        - generic [ref=e138]: 1.3M RON
+      - link "Mărgărit Mitică-Marius PSD Mărgărit Mitică-Marius 1.3M RON" [ref=e139] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/186.json
+        - generic [ref=e140]:
+          - img "Mărgărit Mitică-Marius" [ref=e142]
+          - generic: PSD
+        - generic [ref=e143]: Mărgărit Mitică-Marius
+        - generic [ref=e144]: 1.3M RON
+      - link "Cojocaru Petru-Bogdan PSD Cojocaru Petru-Bogdan 1.3M RON" [ref=e145] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/71.json
+        - generic [ref=e146]:
+          - img "Cojocaru Petru-Bogdan" [ref=e148]
+          - generic: PSD
+        - generic [ref=e149]: Cojocaru Petru-Bogdan
+        - generic [ref=e150]: 1.3M RON
+      - link "Pandea Ciprian PNL Pandea Ciprian 1.3M RON" [ref=e151] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/234.json
+        - generic [ref=e152]:
+          - img "Pandea Ciprian" [ref=e154]
+          - generic: PNL
+        - generic [ref=e155]: Pandea Ciprian
+        - generic [ref=e156]: 1.3M RON
+      - link "Paraschiv Ciprian-Constantin AUR Paraschiv Ciprian-Constantin 1.2M RON" [ref=e157] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/235.json
+        - generic [ref=e158]:
+          - img "Paraschiv Ciprian-Constantin" [ref=e160]
+          - generic: AUR
+        - generic [ref=e161]: Paraschiv Ciprian-Constantin
+        - generic [ref=e162]: 1.2M RON
+      - link "Ciucă Liviu-Bogdan PSD Ciucă Liviu-Bogdan 1.2M RON" [ref=e163] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/63.json
+        - generic [ref=e164]:
+          - img "Ciucă Liviu-Bogdan" [ref=e166]
+          - generic: PSD
+        - generic [ref=e167]: Ciucă Liviu-Bogdan
+        - generic [ref=e168]: 1.2M RON
+      - link "Scarlat George PNL Scarlat George 1.2M RON" [ref=e169] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/276.json
+        - generic [ref=e170]:
+          - img "Scarlat George" [ref=e172]
+          - generic: PNL
+        - generic [ref=e173]: Scarlat George
+        - generic [ref=e174]: 1.2M RON
+      - link "Vârgă Mariana Neafiliat Vârgă Mariana 1.2M RON" [ref=e175] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/318.json
+        - generic [ref=e176]:
+          - img "Vârgă Mariana" [ref=e178]
+          - generic: Neafiliat
+        - generic [ref=e179]: Vârgă Mariana
+        - generic [ref=e180]: 1.2M RON
+      - link "Isac Marius-Adrian PSD Isac Marius-Adrian 1.1M RON" [ref=e181] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/156.json
+        - generic [ref=e182]:
+          - img "Isac Marius-Adrian" [ref=e184]
+          - generic: PSD
+        - generic [ref=e185]: Isac Marius-Adrian
+        - generic [ref=e186]: 1.1M RON
+      - link "Sighiartău Robert-Ionatan PNL Sighiartău Robert-Ionatan 1.1M RON" [ref=e187] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/278.json
+        - generic [ref=e188]:
+          - img "Sighiartău Robert-Ionatan" [ref=e190]
+          - generic: PNL
+        - generic [ref=e191]: Sighiartău Robert-Ionatan
+        - generic [ref=e192]: 1.1M RON
+      - link "Kolcsár Anquetil-Károly UDMR Kolcsár Anquetil-Károly 1.1M RON" [ref=e193] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/161.json
+        - generic [ref=e194]:
+          - img "Kolcsár Anquetil-Károly" [ref=e196]
+          - generic: UDMR
+        - generic [ref=e197]: Kolcsár Anquetil-Károly
+        - generic [ref=e198]: 1.1M RON
+      - link "Rusu Sebastian-Mihai PNL Rusu Sebastian-Mihai 1.0M RON" [ref=e199] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/273.json
+        - generic [ref=e200]:
+          - img "Rusu Sebastian-Mihai" [ref=e202]
+          - generic: PNL
+        - generic [ref=e203]: Rusu Sebastian-Mihai
+        - generic [ref=e204]: 1.0M RON
+      - link "Popa Alexandru PNL Popa Alexandru 1.0M RON" [ref=e205] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/249.json
+        - generic [ref=e206]:
+          - img "Popa Alexandru" [ref=e208]
+          - generic: PNL
+        - generic [ref=e209]: Popa Alexandru
+        - generic [ref=e210]: 1.0M RON
+      - link "Culeafă Mihai PNL Culeafă Mihai 1.0M RON" [ref=e211] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/88.json
+        - generic [ref=e212]:
+          - img "Culeafă Mihai" [ref=e214]
+          - generic: PNL
+        - generic [ref=e215]: Culeafă Mihai
+        - generic [ref=e216]: 1.0M RON
+      - link "Ţintă Ştefan PSD Ţintă Ştefan 1.0M RON" [ref=e217] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/310.json
+        - generic [ref=e218]:
+          - img "Ţintă Ştefan" [ref=e220]
+          - generic: PSD
+        - generic [ref=e221]: Ţintă Ştefan
+        - generic [ref=e222]: 1.0M RON
+      - link "Moisin Radu-Marin PNL Moisin Radu-Marin 966.031 RON" [ref=e224] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/205.json
+        - generic [ref=e225]:
+          - img "Moisin Radu-Marin" [ref=e227]
+          - generic: PNL
+        - generic [ref=e228]: Moisin Radu-Marin
+        - generic [ref=e229]: 966.031 RON
+      - link "Coman Dragoş-Florin AUR Coman Dragoş-Florin 950.157 RON" [ref=e230] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/74.json
+        - generic [ref=e231]:
+          - img "Coman Dragoş-Florin" [ref=e233]
+          - generic: AUR
+        - generic [ref=e234]: Coman Dragoş-Florin
+        - generic [ref=e235]: 950.157 RON
+      - link "Lăpuşan Remus-Gabriel PSD Lăpuşan Remus-Gabriel 947.384 RON" [ref=e236] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/168.json
+        - generic [ref=e237]:
+          - img "Lăpuşan Remus-Gabriel" [ref=e239]
+          - generic: PSD
+        - generic [ref=e240]: Lăpuşan Remus-Gabriel
+        - generic [ref=e241]: 947.384 RON
+      - link "Pistru-Popa Simona-Geanina PNL Pistru-Popa Simona-Geanina 938.989 RON" [ref=e242] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/244.json
+        - generic [ref=e243]:
+          - img "Pistru-Popa Simona-Geanina" [ref=e245]
+          - generic: PNL
+        - generic [ref=e246]: Pistru-Popa Simona-Geanina
+        - generic [ref=e247]: 938.989 RON
+      - link "Biró Rozália-Ibolya UDMR Biró Rozália-Ibolya 933.295 RON" [ref=e248] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/28.json
+        - generic [ref=e249]:
+          - img "Biró Rozália-Ibolya" [ref=e251]
+          - generic: UDMR
+        - generic [ref=e252]: Biró Rozália-Ibolya
+        - generic [ref=e253]: 933.295 RON
+      - link "Albu Dumitriţa Neafiliat Albu Dumitriţa 900.178 RON" [ref=e254] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/3.json
+        - generic [ref=e255]:
+          - img "Albu Dumitriţa" [ref=e257]
+          - generic: Neafiliat
+        - generic [ref=e258]: Albu Dumitriţa
+        - generic [ref=e259]: 900.178 RON
+      - link "Burduja Sebastian-Ioan PNL Burduja Sebastian-Ioan 884.953 RON" [ref=e260] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/46.json
+        - generic [ref=e261]:
+          - img "Burduja Sebastian-Ioan" [ref=e263]
+          - generic: PNL
+        - generic [ref=e264]: Burduja Sebastian-Ioan
+        - generic [ref=e265]: 884.953 RON
+      - link "Nassar Rodica PSD Nassar Rodica 869.840 RON" [ref=e266] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/219.json
+        - generic [ref=e267]:
+          - img "Nassar Rodica" [ref=e269]
+          - generic: PSD
+        - generic [ref=e270]: Nassar Rodica
+        - generic [ref=e271]: 869.840 RON
+      - link "Dimitriu Alexandru-Paul USR Dimitriu Alexandru-Paul 802.330 RON" [ref=e272] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/90.json
+        - generic [ref=e273]:
+          - img "Dimitriu Alexandru-Paul" [ref=e275]
+          - generic: USR
+        - generic [ref=e276]: Dimitriu Alexandru-Paul
+        - generic [ref=e277]: 802.330 RON
+      - link "Vedinaş Verginia SOS RO Vedinaş Verginia 784.330 RON" [ref=e278] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/319.json
+        - generic [ref=e279]:
+          - img "Vedinaş Verginia" [ref=e281]
+          - generic: SOS RO
+        - generic [ref=e282]: Vedinaş Verginia
+        - generic [ref=e283]: 784.330 RON
+      - link "Mihalcea Ioan PSD Mihalcea Ioan 774.859 RON" [ref=e284] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/190.json
+        - generic [ref=e285]:
+          - img "Mihalcea Ioan" [ref=e287]
+          - generic: PSD
+        - generic [ref=e288]: Mihalcea Ioan
+        - generic [ref=e289]: 774.859 RON
+      - link "Turcan Raluca PNL Turcan Raluca 766.202 RON" [ref=e290] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/308.json
+        - generic [ref=e291]:
+          - img "Turcan Raluca" [ref=e293]
+          - generic: PNL
+        - generic [ref=e294]: Turcan Raluca
+        - generic [ref=e295]: 766.202 RON
+      - link "Pirtea Marilen - Gabriel PNL Pirtea Marilen - Gabriel 761.735 RON" [ref=e296] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/243.json
+        - generic [ref=e297]:
+          - img "Pirtea Marilen - Gabriel" [ref=e299]
+          - generic: PNL
+        - generic [ref=e300]: Pirtea Marilen - Gabriel
+        - generic [ref=e301]: 761.735 RON
+      - link "Ştirbu Gigel-Sorinel PNL Ştirbu Gigel-Sorinel 740.686 RON" [ref=e302] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/297.json
+        - generic [ref=e303]:
+          - img "Ştirbu Gigel-Sorinel" [ref=e305]
+          - generic: PNL
+        - generic [ref=e306]: Ştirbu Gigel-Sorinel
+        - generic [ref=e307]: 740.686 RON
+      - link "Marinescu Radu PSD Marinescu Radu 698.042 RON" [ref=e308] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/179.json
+        - generic [ref=e309]:
+          - img "Marinescu Radu" [ref=e311]
+          - generic: PSD
+        - generic [ref=e312]: Marinescu Radu
+        - generic [ref=e313]: 698.042 RON
+      - link "Ghigiu Alexandru-Mihai PSD Ghigiu Alexandru-Mihai 695.088 RON" [ref=e314] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/124.json
+        - generic [ref=e315]:
+          - img "Ghigiu Alexandru-Mihai" [ref=e317]
+          - generic: PSD
+        - generic [ref=e318]: Ghigiu Alexandru-Mihai
+        - generic [ref=e319]: 695.088 RON
+      - link "Ţoiu Oana-Silvia USR Ţoiu Oana-Silvia 650.249 RON" [ref=e320] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/313.json
+        - generic [ref=e321]:
+          - img "Ţoiu Oana-Silvia" [ref=e323]
+          - generic: USR
+        - generic [ref=e324]: Ţoiu Oana-Silvia
+        - generic [ref=e325]: 650.249 RON
+      - link "Popa Maricel PSD Popa Maricel 650.168 RON" [ref=e326] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/253.json
+        - generic [ref=e327]:
+          - img "Popa Maricel" [ref=e329]
+          - generic: PSD
+        - generic [ref=e330]: Popa Maricel
+        - generic [ref=e331]: 650.168 RON
+      - link "Manta Claudiu PSD Manta Claudiu 641.289 RON" [ref=e332] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/178.json
+        - generic [ref=e333]:
+          - img "Manta Claudiu" [ref=e335]
+          - generic: PSD
+        - generic [ref=e336]: Manta Claudiu
+        - generic [ref=e337]: 641.289 RON
+      - link "Ungureanu Emanuel-Dumitru USR Ungureanu Emanuel-Dumitru 636.756 RON" [ref=e338] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/314.json
+        - generic [ref=e339]:
+          - img "Ungureanu Emanuel-Dumitru" [ref=e341]
+          - generic: USR
+        - generic [ref=e342]: Ungureanu Emanuel-Dumitru
+        - generic [ref=e343]: 636.756 RON
+      - link "Matichescu Mirela-Florenţa PSD Matichescu Mirela-Florenţa 616.155 RON" [ref=e344] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/184.json
+        - generic [ref=e345]:
+          - img "Matichescu Mirela-Florenţa" [ref=e347]
+          - generic: PSD
+        - generic [ref=e348]: Matichescu Mirela-Florenţa
+        - generic [ref=e349]: 616.155 RON
+      - link "Chilat Crina-Fiorela PSD Chilat Crina-Fiorela 601.326 RON" [ref=e350] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/53.json
+        - generic [ref=e351]:
+          - img "Chilat Crina-Fiorela" [ref=e353]
+          - generic: PSD
+        - generic [ref=e354]: Chilat Crina-Fiorela
+        - generic [ref=e355]: 601.326 RON
+      - link "Lipă Elisabeta PSD Lipă Elisabeta 597.335 RON" [ref=e356] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/170.json
+        - generic [ref=e357]:
+          - img "Lipă Elisabeta" [ref=e359]
+          - generic: PSD
+        - generic [ref=e360]: Lipă Elisabeta
+        - generic [ref=e361]: 597.335 RON
+      - link "Paraschivescu Ovidiu-Romulus USR Paraschivescu Ovidiu-Romulus 578.760 RON" [ref=e362] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/236.json
+        - generic [ref=e363]:
+          - img "Paraschivescu Ovidiu-Romulus" [ref=e365]
+          - generic: USR
+        - generic [ref=e366]: Paraschivescu Ovidiu-Romulus
+        - generic [ref=e367]: 578.760 RON
+      - link "Roman Florin-Claudiu PNL Roman Florin-Claudiu 566.061 RON" [ref=e368] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/271.json
+        - generic [ref=e369]:
+          - img "Roman Florin-Claudiu" [ref=e371]
+          - generic: PNL
+        - generic [ref=e372]: Roman Florin-Claudiu
+        - generic [ref=e373]: 566.061 RON
+      - link "Vexler Silviu Minoritati Vexler Silviu 562.595 RON" [ref=e374] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/322.json
+        - generic [ref=e375]:
+          - img "Vexler Silviu" [ref=e377]
+          - generic: Minoritati
+        - generic [ref=e378]: Vexler Silviu
+        - generic [ref=e379]: 562.595 RON
+      - link "Cîmpean Ovidiu-Vasile PNL Cîmpean Ovidiu-Vasile 562.570 RON" [ref=e380] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/66.json
+        - generic [ref=e381]:
+          - img "Cîmpean Ovidiu-Vasile" [ref=e383]
+          - generic: PNL
+        - generic [ref=e384]: Cîmpean Ovidiu-Vasile
+        - generic [ref=e385]: 562.570 RON
+      - link "Matei Aneta PNL Matei Aneta 556.053 RON" [ref=e386] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/182.json
+        - generic [ref=e387]:
+          - img "Matei Aneta" [ref=e389]
+          - generic: PNL
+        - generic [ref=e390]: Matei Aneta
+        - generic [ref=e391]: 556.053 RON
+      - link "Kelemen Hunor UDMR Kelemen Hunor 555.244 RON" [ref=e392] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/160.json
+        - generic [ref=e393]:
+          - img "Kelemen Hunor" [ref=e395]
+          - generic: UDMR
+        - generic [ref=e396]: Kelemen Hunor
+        - generic [ref=e397]: 555.244 RON
+      - link "Furtună Mirela PSD Furtună Mirela 536.264 RON" [ref=e398] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/109.json
+        - generic [ref=e399]:
+          - img "Furtună Mirela" [ref=e401]
+          - generic: PSD
+        - generic [ref=e402]: Furtună Mirela
+        - generic [ref=e403]: 536.264 RON
+      - link "Holban Georgeta-Carmen PSD Holban Georgeta-Carmen 531.099 RON" [ref=e404] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/141.json
+        - generic [ref=e405]:
+          - img "Holban Georgeta-Carmen" [ref=e407]
+          - generic: PSD
+        - generic [ref=e408]: Holban Georgeta-Carmen
+        - generic [ref=e409]: 531.099 RON
+      - link "Magyar Loránd-Bálint UDMR Magyar Loránd-Bálint 530.627 RON" [ref=e410] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/176.json
+        - generic [ref=e411]:
+          - img "Magyar Loránd-Bálint" [ref=e413]
+          - generic: UDMR
+        - generic [ref=e414]: Magyar Loránd-Bálint
+        - generic [ref=e415]: 530.627 RON
+      - link "Marussi George-Nicolae USR Marussi George-Nicolae 525.718 RON" [ref=e416] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/181.json
+        - generic [ref=e417]:
+          - img "Marussi George-Nicolae" [ref=e419]
+          - generic: USR
+        - generic [ref=e420]: Marussi George-Nicolae
+        - generic [ref=e421]: 525.718 RON
+      - link "Ionescu Radu-Mihail Neafiliat Ionescu Radu-Mihail 524.870 RON" [ref=e422] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/151.json
+        - generic [ref=e423]:
+          - img "Ionescu Radu-Mihail" [ref=e425]
+          - generic: Neafiliat
+        - generic [ref=e426]: Ionescu Radu-Mihail
+        - generic [ref=e427]: 524.870 RON
+      - link "Ionescu Monica Neafiliat Ionescu Monica 521.770 RON" [ref=e428] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/150.json
+        - generic [ref=e429]:
+          - img "Ionescu Monica" [ref=e431]
+          - generic: Neafiliat
+        - generic [ref=e432]: Ionescu Monica
+        - generic [ref=e433]: 521.770 RON
+      - link "Răducanu Sebastian PSD Răducanu Sebastian 518.360 RON" [ref=e434] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/265.json
+        - generic [ref=e435]:
+          - img "Răducanu Sebastian" [ref=e437]
+          - generic: PSD
+        - generic [ref=e438]: Răducanu Sebastian
+        - generic [ref=e439]: 518.360 RON
+      - link "Koler Eduard-Virgil AUR Koler Eduard-Virgil 516.660 RON" [ref=e440] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/162.json
+        - generic [ref=e441]:
+          - img "Koler Eduard-Virgil" [ref=e443]
+          - generic: AUR
+        - generic [ref=e444]: Koler Eduard-Virgil
+        - generic [ref=e445]: 516.660 RON
+      - link "Suciu Vasile-Daniel PSD Suciu Vasile-Daniel 501.751 RON" [ref=e446] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/290.json
+        - generic [ref=e447]:
+          - img "Suciu Vasile-Daniel" [ref=e449]
+          - generic: PSD
+        - generic [ref=e450]: Suciu Vasile-Daniel
+        - generic [ref=e451]: 501.751 RON
+      - link "Stănescu Vetuţa PNL Stănescu Vetuţa 500.349 RON" [ref=e452] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/283.json
+        - generic [ref=e453]:
+          - img "Stănescu Vetuţa" [ref=e455]
+          - generic: PNL
+        - generic [ref=e456]: Stănescu Vetuţa
+        - generic [ref=e457]: 500.349 RON
+      - link "Stroe Ionuţ-Marian PNL Stroe Ionuţ-Marian 490.580 RON" [ref=e458] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/289.json
+        - generic [ref=e459]:
+          - img "Stroe Ionuţ-Marian" [ref=e461]
+          - generic: PNL
+        - generic [ref=e462]: Stroe Ionuţ-Marian
+        - generic [ref=e463]: 490.580 RON
+      - link "Miruţă Radu-Dinel USR Miruţă Radu-Dinel 484.554 RON" [ref=e464] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/198.json
+        - generic [ref=e465]:
+          - img "Miruţă Radu-Dinel" [ref=e467]
+          - generic: USR
+        - generic [ref=e468]: Miruţă Radu-Dinel
+        - generic [ref=e469]: 484.554 RON
+      - link "Pascalini Nini-Alexandru SOS RO Pascalini Nini-Alexandru 478.056 RON" [ref=e470] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/237.json
+        - generic [ref=e471]:
+          - img "Pascalini Nini-Alexandru" [ref=e473]
+          - generic: SOS RO
+        - generic [ref=e474]: Pascalini Nini-Alexandru
+        - generic [ref=e475]: 478.056 RON
+      - link "Atanasiu Corina USR Atanasiu Corina 477.388 RON" [ref=e476] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/12.json
+        - generic [ref=e477]:
+          - img "Atanasiu Corina" [ref=e479]
+          - generic: USR
+        - generic [ref=e480]: Atanasiu Corina
+        - generic [ref=e481]: 477.388 RON
+      - link "Neacşu Marian PSD Neacşu Marian 477.225 RON" [ref=e482] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/222.json
+        - generic [ref=e483]:
+          - img "Neacşu Marian" [ref=e485]
+          - generic: PSD
+        - generic [ref=e486]: Neacşu Marian
+        - generic [ref=e487]: 477.225 RON
+      - link "Gavrilescu Graţiela Leocadia PSD Gavrilescu Graţiela Leocadia 468.470 RON" [ref=e488] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/115.json
+        - generic [ref=e489]:
+          - img "Gavrilescu Graţiela Leocadia" [ref=e491]
+          - generic: PSD
+        - generic [ref=e492]: Gavrilescu Graţiela Leocadia
+        - generic [ref=e493]: 468.470 RON
+      - link "Tomoescu Ion-Alin PSD Tomoescu Ion-Alin 462.226 RON" [ref=e494] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/306.json
+        - generic [ref=e495]:
+          - img "Tomoescu Ion-Alin" [ref=e497]
+          - generic: PSD
+        - generic [ref=e498]: Tomoescu Ion-Alin
+        - generic [ref=e499]: 462.226 RON
+      - link "Csillag Andrei UPR Csillag Andrei 454.917 RON" [ref=e500] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/86.json
+        - generic [ref=e501]:
+          - img "Csillag Andrei" [ref=e503]
+          - generic: UPR
+        - generic [ref=e504]: Csillag Andrei
+        - generic [ref=e505]: 454.917 RON
+      - link "Fifor Mihai-Viorel PSD Fifor Mihai-Viorel 452.370 RON" [ref=e506] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/106.json
+        - generic [ref=e507]:
+          - img "Fifor Mihai-Viorel" [ref=e509]
+          - generic: PSD
+        - generic [ref=e510]: Fifor Mihai-Viorel
+        - generic [ref=e511]: 452.370 RON
+      - link "Intotero Natalia-Elena PSD Intotero Natalia-Elena 449.326 RON" [ref=e512] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/147.json
+        - generic [ref=e513]:
+          - img "Intotero Natalia-Elena" [ref=e515]
+          - generic: PSD
+        - generic [ref=e516]: Intotero Natalia-Elena
+        - generic [ref=e517]: 449.326 RON
+      - link "Ene Gabriela-Corina PSD Ene Gabriela-Corina 448.038 RON" [ref=e518] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/102.json
+        - generic [ref=e519]:
+          - img "Ene Gabriela-Corina" [ref=e521]
+          - generic: PSD
+        - generic [ref=e522]: Ene Gabriela-Corina
+        - generic [ref=e523]: 448.038 RON
+      - link "Balan Ioan PNL Balan Ioan 447.818 RON" [ref=e524] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/17.json
+        - generic [ref=e525]:
+          - img "Balan Ioan" [ref=e527]
+          - generic: PNL
+        - generic [ref=e528]: Balan Ioan
+        - generic [ref=e529]: 447.818 RON
+      - link "Rafila Alexandru PSD Rafila Alexandru 443.395 RON" [ref=e530] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/264.json
+        - generic [ref=e531]:
+          - img "Rafila Alexandru" [ref=e533]
+          - generic: PSD
+        - generic [ref=e534]: Rafila Alexandru
+        - generic [ref=e535]: 443.395 RON
+      - link "Bode Lucian Nicolae PNL Bode Lucian Nicolae 441.996 RON" [ref=e536] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/30.json
+        - generic [ref=e537]:
+          - img "Bode Lucian Nicolae" [ref=e539]
+          - generic: PNL
+        - generic [ref=e540]: Bode Lucian Nicolae
+        - generic [ref=e541]: 441.996 RON
+      - link "Văduva Dumitru USR Văduva Dumitru 440.672 RON" [ref=e542] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/317.json
+        - generic [ref=e543]:
+          - img "Văduva Dumitru" [ref=e545]
+          - generic: USR
+        - generic [ref=e546]: Văduva Dumitru
+        - generic [ref=e547]: 440.672 RON
+      - link "Ţiplea Dumitru PNL Ţiplea Dumitru 440.442 RON" [ref=e548] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/311.json
+        - generic [ref=e549]:
+          - img "Ţiplea Dumitru" [ref=e551]
+          - generic: PNL
+        - generic [ref=e552]: Ţiplea Dumitru
+        - generic [ref=e553]: 440.442 RON
+      - link "Cozma Adrian-Felician PNL Cozma Adrian-Felician 438.852 RON" [ref=e554] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/81.json
+        - generic [ref=e555]:
+          - img "Cozma Adrian-Felician" [ref=e557]
+          - generic: PNL
+        - generic [ref=e558]: Cozma Adrian-Felician
+        - generic [ref=e559]: 438.852 RON
+      - link "Gheorghe Ionel AUR Gheorghe Ionel 427.996 RON" [ref=e560] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/119.json
+        - generic [ref=e561]:
+          - img "Gheorghe Ionel" [ref=e563]
+          - generic: AUR
+        - generic [ref=e564]: Gheorghe Ionel
+        - generic [ref=e565]: 427.996 RON
+      - link "Budăi Marius-Constantin PSD Budăi Marius-Constantin 422.291 RON" [ref=e566] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/42.json
+        - generic [ref=e567]:
+          - img "Budăi Marius-Constantin" [ref=e569]
+          - generic: PSD
+        - generic [ref=e570]: Budăi Marius-Constantin
+        - generic [ref=e571]: 422.291 RON
+      - link "Lungu Romeo-Daniel PSD Lungu Romeo-Daniel 421.779 RON" [ref=e572] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/174.json
+        - generic [ref=e573]:
+          - img "Lungu Romeo-Daniel" [ref=e575]
+          - generic: PSD
+        - generic [ref=e576]: Lungu Romeo-Daniel
+        - generic [ref=e577]: 421.779 RON
+      - link "Samoilă Ion PSD Samoilă Ion 420.743 RON" [ref=e578] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/274.json
+        - generic [ref=e579]:
+          - img "Samoilă Ion" [ref=e581]
+          - generic: PSD
+        - generic [ref=e582]: Samoilă Ion
+        - generic [ref=e583]: 420.743 RON
+      - link "Molnar Andrei UDMR Molnar Andrei 406.536 RON" [ref=e584] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/206.json
+        - generic [ref=e585]:
+          - img "Molnar Andrei" [ref=e587]
+          - generic: UDMR
+        - generic [ref=e588]: Molnar Andrei
+        - generic [ref=e589]: 406.536 RON
+      - link "Bejinariu Eugen PSD Bejinariu Eugen 404.464 RON" [ref=e590] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/24.json
+        - generic [ref=e591]:
+          - img "Bejinariu Eugen" [ref=e593]
+          - generic: PSD
+        - generic [ref=e594]: Bejinariu Eugen
+        - generic [ref=e595]: 404.464 RON
+      - link "Bulearcă Marius-Felix USR Bulearcă Marius-Felix 401.858 RON" [ref=e596] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/45.json
+        - generic [ref=e597]:
+          - img "Bulearcă Marius-Felix" [ref=e599]
+          - generic: USR
+        - generic [ref=e600]: Bulearcă Marius-Felix
+        - generic [ref=e601]: 401.858 RON
+      - link "Govor Mircea-Vasile PSD Govor Mircea-Vasile 400.091 RON" [ref=e602] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/130.json
+        - generic [ref=e603]:
+          - img "Govor Mircea-Vasile" [ref=e605]
+          - generic: PSD
+        - generic [ref=e606]: Govor Mircea-Vasile
+        - generic [ref=e607]: 400.091 RON
+      - link "Popa Ştefan-Ovidiu PSD Popa Ştefan-Ovidiu 398.130 RON" [ref=e608] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/254.json
+        - generic [ref=e609]:
+          - img "Popa Ştefan-Ovidiu" [ref=e611]
+          - generic: PSD
+        - generic [ref=e612]: Popa Ştefan-Ovidiu
+        - generic [ref=e613]: 398.130 RON
+      - link "Merka Adrian-Miroslav Minoritati Merka Adrian-Miroslav 396.852 RON" [ref=e614] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/187.json
+        - generic [ref=e615]:
+          - img "Merka Adrian-Miroslav" [ref=e617]
+          - generic: Minoritati
+        - generic [ref=e618]: Merka Adrian-Miroslav
+        - generic [ref=e619]: 396.852 RON
+      - link "Neaţă Eugen PSD Neaţă Eugen 392.337 RON" [ref=e620] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/225.json
+        - generic [ref=e621]:
+          - img "Neaţă Eugen" [ref=e623]
+          - generic: PSD
+        - generic [ref=e624]: Neaţă Eugen
+        - generic [ref=e625]: 392.337 RON
+      - link "Georgescu Gheorghe-Daniel PSD Georgescu Gheorghe-Daniel 390.324 RON" [ref=e626] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/117.json
+        - generic [ref=e627]:
+          - img "Georgescu Gheorghe-Daniel" [ref=e629]
+          - generic: PSD
+        - generic [ref=e630]: Georgescu Gheorghe-Daniel
+        - generic [ref=e631]: 390.324 RON
+      - link "Coarnă Dumitru Neafiliat Coarnă Dumitru 389.299 RON" [ref=e632] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/70.json
+        - generic [ref=e633]:
+          - img "Coarnă Dumitru" [ref=e635]
+          - generic: Neafiliat
+        - generic [ref=e636]: Coarnă Dumitru
+        - generic [ref=e637]: 389.299 RON
+      - link "Şerban Gianina AUR Şerban Gianina 383.823 RON" [ref=e638] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/296.json
+        - generic [ref=e639]:
+          - img "Şerban Gianina" [ref=e641]
+          - generic: AUR
+        - generic [ref=e642]: Şerban Gianina
+        - generic [ref=e643]: 383.823 RON
+      - link "Ciunt Ionel PSD Ciunt Ionel 383.305 RON" [ref=e644] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/64.json
+        - generic [ref=e645]:
+          - img "Ciunt Ionel" [ref=e647]
+          - generic: PSD
+        - generic [ref=e648]: Ciunt Ionel
+        - generic [ref=e649]: 383.305 RON
+      - link "Seres Dénes UDMR Seres Dénes 382.358 RON" [ref=e650] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/277.json
+        - generic [ref=e651]:
+          - img "Seres Dénes" [ref=e653]
+          - generic: UDMR
+        - generic [ref=e654]: Seres Dénes
+        - generic [ref=e655]: 382.358 RON
+      - link "Echert Adrian USR Echert Adrian 376.383 RON" [ref=e656] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/98.json
+        - generic [ref=e657]:
+          - img "Echert Adrian" [ref=e659]
+          - generic: USR
+        - generic [ref=e660]: Echert Adrian
+        - generic [ref=e661]: 376.383 RON
+      - link "Kulcsár-Terza József-György UDMR Kulcsár-Terza József-György 367.763 RON" [ref=e662] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/165.json
+        - generic [ref=e663]:
+          - img "Kulcsár-Terza József-György" [ref=e665]
+          - generic: UDMR
+        - generic [ref=e666]: Kulcsár-Terza József-György
+        - generic [ref=e667]: 367.763 RON
+      - link "Mihaiu Radu-Nicolae USR Mihaiu Radu-Nicolae 365.357 RON" [ref=e668] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/189.json
+        - generic [ref=e669]:
+          - img "Mihaiu Radu-Nicolae" [ref=e671]
+          - generic: USR
+        - generic [ref=e672]: Mihaiu Radu-Nicolae
+        - generic [ref=e673]: 365.357 RON
+      - link "Simu Aurora-Tasica Neafiliat Simu Aurora-Tasica 365.304 RON" [ref=e674] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/280.json
+        - generic [ref=e675]:
+          - img "Simu Aurora-Tasica" [ref=e677]
+          - generic: Neafiliat
+        - generic [ref=e678]: Simu Aurora-Tasica
+        - generic [ref=e679]: 365.304 RON
+      - link "Andrei Alexandru-Ioan PNL Andrei Alexandru-Ioan 364.851 RON" [ref=e680] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/7.json
+        - generic [ref=e681]:
+          - img "Andrei Alexandru-Ioan" [ref=e683]
+          - generic: PNL
+        - generic [ref=e684]: Andrei Alexandru-Ioan
+        - generic [ref=e685]: 364.851 RON
+      - link "Bara Nicolae-Adrian PSD Bara Nicolae-Adrian 363.232 RON" [ref=e686] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/18.json
+        - generic [ref=e687]:
+          - img "Bara Nicolae-Adrian" [ref=e689]
+          - generic: PSD
+        - generic [ref=e690]: Bara Nicolae-Adrian
+        - generic [ref=e691]: 363.232 RON
+      - link "Dolineaschi Andrei PSD Dolineaschi Andrei 363.216 RON" [ref=e692] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/93.json
+        - generic [ref=e693]:
+          - img "Dolineaschi Andrei" [ref=e695]
+          - generic: PSD
+        - generic [ref=e696]: Dolineaschi Andrei
+        - generic [ref=e697]: 363.216 RON
+      - link "Badiu Georgel AUR Badiu Georgel 362.084 RON" [ref=e698] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/16.json
+        - generic [ref=e699]:
+          - img "Badiu Georgel" [ref=e701]
+          - generic: AUR
+        - generic [ref=e702]: Badiu Georgel
+        - generic [ref=e703]: 362.084 RON
+      - link "Ciolacu Ion-Marcel PSD Ciolacu Ion-Marcel 344.376 RON" [ref=e704] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/59.json
+        - generic [ref=e705]:
+          - img "Ciolacu Ion-Marcel" [ref=e707]
+          - generic: PSD
+        - generic [ref=e708]: Ciolacu Ion-Marcel
+        - generic [ref=e709]: 344.376 RON
+      - link "Moş Patricia-Simina-Arina PNL Moş Patricia-Simina-Arina 342.975 RON" [ref=e710] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/208.json
+        - generic [ref=e711]:
+          - img "Moş Patricia-Simina-Arina" [ref=e713]
+          - generic: PNL
+        - generic [ref=e714]: Moş Patricia-Simina-Arina
+        - generic [ref=e715]: 342.975 RON
+      - link "Ciocan Doiniţa PSD Ciocan Doiniţa 342.749 RON" [ref=e716] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/58.json
+        - generic [ref=e717]:
+          - img "Ciocan Doiniţa" [ref=e719]
+          - generic: PSD
+        - generic [ref=e720]: Ciocan Doiniţa
+        - generic [ref=e721]: 342.749 RON
+      - link "Mititelu Eduard-Tatian PNL Mititelu Eduard-Tatian 340.132 RON" [ref=e722] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/199.json
+        - generic [ref=e723]:
+          - img "Mititelu Eduard-Tatian" [ref=e725]
+          - generic: PNL
+        - generic [ref=e726]: Mititelu Eduard-Tatian
+        - generic [ref=e727]: 340.132 RON
+      - link "Vela Ion-Marcel PNL Vela Ion-Marcel 339.423 RON" [ref=e728] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/320.json
+        - generic [ref=e729]:
+          - img "Vela Ion-Marcel" [ref=e731]
+          - generic: PNL
+        - generic [ref=e732]: Vela Ion-Marcel
+        - generic [ref=e733]: 339.423 RON
+      - link "Bogdan Ionel-Ovidiu PNL Bogdan Ionel-Ovidiu 338.899 RON" [ref=e734] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/31.json
+        - generic [ref=e735]:
+          - img "Bogdan Ionel-Ovidiu" [ref=e737]
+          - generic: PNL
+        - generic [ref=e738]: Bogdan Ionel-Ovidiu
+        - generic [ref=e739]: 338.899 RON
+      - link "Neagu Petre-Emanoil PNL Neagu Petre-Emanoil 338.239 RON" [ref=e740] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/223.json
+        - generic [ref=e741]:
+          - img "Neagu Petre-Emanoil" [ref=e743]
+          - generic: PNL
+        - generic [ref=e744]: Neagu Petre-Emanoil
+        - generic [ref=e745]: 338.239 RON
+      - link "Csép Éva-Andrea UDMR Csép Éva-Andrea 335.135 RON" [ref=e746] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/85.json
+        - generic [ref=e747]:
+          - img "Csép Éva-Andrea" [ref=e749]
+          - generic: UDMR
+        - generic [ref=e750]: Csép Éva-Andrea
+        - generic [ref=e751]: 335.135 RON
+      - link "Barbu Florin-Ionuţ PSD Barbu Florin-Ionuţ 333.898 RON" [ref=e752] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/19.json
+        - generic [ref=e753]:
+          - img "Barbu Florin-Ionuţ" [ref=e755]
+          - generic: PSD
+        - generic [ref=e756]: Barbu Florin-Ionuţ
+        - generic [ref=e757]: 333.898 RON
+      - link "Stoica Alin-Bogdan USR Stoica Alin-Bogdan 331.711 RON" [ref=e758] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/285.json
+        - generic [ref=e759]:
+          - img "Stoica Alin-Bogdan" [ref=e761]
+          - generic: USR
+        - generic [ref=e762]: Stoica Alin-Bogdan
+        - generic [ref=e763]: 331.711 RON
+      - link "Bende Sándor UDMR Bende Sándor 331.423 RON" [ref=e764] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/25.json
+        - generic [ref=e765]:
+          - img "Bende Sándor" [ref=e767]
+          - generic: UDMR
+        - generic [ref=e768]: Bende Sándor
+        - generic [ref=e769]: 331.423 RON
+      - link "Bucura-Oprescu Simona PSD Bucura-Oprescu Simona 330.903 RON" [ref=e770] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/40.json
+        - generic [ref=e771]:
+          - img "Bucura-Oprescu Simona" [ref=e773]
+          - generic: PSD
+        - generic [ref=e774]: Bucura-Oprescu Simona
+        - generic [ref=e775]: 330.903 RON
+      - link "Cernit Maria UPR Cernit Maria 326.700 RON" [ref=e776] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/52.json
+        - generic [ref=e777]:
+          - img "Cernit Maria" [ref=e779]
+          - generic: UPR
+        - generic [ref=e780]: Cernit Maria
+        - generic [ref=e781]: 326.700 RON
+      - link "Rigman Ciprian-Doru USR Rigman Ciprian-Doru 324.319 RON" [ref=e782] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/267.json
+        - generic [ref=e783]:
+          - img "Rigman Ciprian-Doru" [ref=e785]
+          - generic: USR
+        - generic [ref=e786]: Rigman Ciprian-Doru
+        - generic [ref=e787]: 324.319 RON
+      - link "Badea Nelu-Valentin AUR Badea Nelu-Valentin 319.362 RON" [ref=e788] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/15.json
+        - generic [ref=e789]:
+          - img "Badea Nelu-Valentin" [ref=e791]
+          - generic: AUR
+        - generic [ref=e792]: Badea Nelu-Valentin
+        - generic [ref=e793]: 319.362 RON
+      - link "Muncaciu Sorin-Titus AUR Muncaciu Sorin-Titus 316.521 RON" [ref=e794] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/210.json
+        - generic [ref=e795]:
+          - img "Muncaciu Sorin-Titus" [ref=e797]
+          - generic: AUR
+        - generic [ref=e798]: Muncaciu Sorin-Titus
+        - generic [ref=e799]: 316.521 RON
+      - link "Andrei Cosmin PSD Andrei Cosmin 314.588 RON" [ref=e800] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/8.json
+        - generic [ref=e801]:
+          - img "Andrei Cosmin" [ref=e803]
+          - generic: PSD
+        - generic [ref=e804]: Andrei Cosmin
+        - generic [ref=e805]: 314.588 RON
+      - link "Gavrilă Bianca-Eugenia UPR Gavrilă Bianca-Eugenia 314.176 RON" [ref=e806] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/114.json
+        - generic [ref=e807]:
+          - img "Gavrilă Bianca-Eugenia" [ref=e809]
+          - generic: UPR
+        - generic [ref=e810]: Gavrilă Bianca-Eugenia
+        - generic [ref=e811]: 314.176 RON
+      - link "Moşteanu Liviu-Ionuţ USR Moşteanu Liviu-Ionuţ 311.393 RON" [ref=e812] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/209.json
+        - generic [ref=e813]:
+          - img "Moşteanu Liviu-Ionuţ" [ref=e815]
+          - generic: USR
+        - generic [ref=e816]: Moşteanu Liviu-Ionuţ
+        - generic [ref=e817]: 311.393 RON
+      - link "Prişcă Răzvan Sorin PNL Prişcă Răzvan Sorin 311.374 RON" [ref=e818] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/259.json
+        - generic [ref=e819]:
+          - img "Prişcă Răzvan Sorin" [ref=e821]
+          - generic: PNL
+        - generic [ref=e822]: Prişcă Răzvan Sorin
+        - generic [ref=e823]: 311.374 RON
+      - link "Gal Călin-Graţian PNL Gal Călin-Graţian 308.832 RON" [ref=e824] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/110.json
+        - generic [ref=e825]:
+          - img "Gal Călin-Graţian" [ref=e827]
+          - generic: PNL
+        - generic [ref=e828]: Gal Călin-Graţian
+        - generic [ref=e829]: 308.832 RON
+      - link "Răducea Gheorghe-Valentin UPR Răducea Gheorghe-Valentin 307.173 RON" [ref=e830] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/266.json
+        - generic [ref=e831]:
+          - img "Răducea Gheorghe-Valentin" [ref=e833]
+          - generic: UPR
+        - generic [ref=e834]: Răducea Gheorghe-Valentin
+        - generic [ref=e835]: 307.173 RON
+      - link "Mircea Florin PSD Mircea Florin 299.719 RON" [ref=e836] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/197.json
+        - generic [ref=e837]:
+          - img "Mircea Florin" [ref=e839]
+          - generic: PSD
+        - generic [ref=e840]: Mircea Florin
+        - generic [ref=e841]: 299.719 RON
+      - link "Grindeanu Sorin-Mihai PSD Grindeanu Sorin-Mihai 299.065 RON" [ref=e842] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/131.json
+        - generic [ref=e843]:
+          - img "Grindeanu Sorin-Mihai" [ref=e845]
+          - generic: PSD
+        - generic [ref=e846]: Grindeanu Sorin-Mihai
+        - generic [ref=e847]: 299.065 RON
+      - link "Mîndrescu Nicolae AUR Mîndrescu Nicolae 298.376 RON" [ref=e848] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/201.json
+        - generic [ref=e849]:
+          - img "Mîndrescu Nicolae" [ref=e851]
+          - generic: AUR
+        - generic [ref=e852]: Mîndrescu Nicolae
+        - generic [ref=e853]: 298.376 RON
+      - link "AS PNL Afloarei Sorin-Alexandru 295.997 RON" [ref=e854] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/2.json
+        - generic [ref=e855]:
+          - generic [ref=e857]: AS
+          - generic: PNL
+        - generic [ref=e858]: Afloarei Sorin-Alexandru
+        - generic [ref=e859]: 295.997 RON
+      - link "Ţiu Mihai-Adrian SOS RO Ţiu Mihai-Adrian 288.483 RON" [ref=e860] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/312.json
+        - generic [ref=e861]:
+          - img "Ţiu Mihai-Adrian" [ref=e863]
+          - generic: SOS RO
+        - generic [ref=e864]: Ţiu Mihai-Adrian
+        - generic [ref=e865]: 288.483 RON
+      - link "Adomnicăi Mirela Elena PSD Adomnicăi Mirela Elena 283.031 RON" [ref=e866] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/1.json
+        - generic [ref=e867]:
+          - img "Adomnicăi Mirela Elena" [ref=e869]
+          - generic: PSD
+        - generic [ref=e870]: Adomnicăi Mirela Elena
+        - generic [ref=e871]: 283.031 RON
+      - link "Zahoranszki Brigitta-Eva UDMR Zahoranszki Brigitta-Eva 281.452 RON" [ref=e872] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/329.json
+        - generic [ref=e873]:
+          - img "Zahoranszki Brigitta-Eva" [ref=e875]
+          - generic: UDMR
+        - generic [ref=e876]: Zahoranszki Brigitta-Eva
+        - generic [ref=e877]: 281.452 RON
+      - link "Puşcaşu Lucian-Florin AUR Puşcaşu Lucian-Florin 269.539 RON" [ref=e878] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/261.json
+        - generic [ref=e879]:
+          - img "Puşcaşu Lucian-Florin" [ref=e881]
+          - generic: AUR
+        - generic [ref=e882]: Puşcaşu Lucian-Florin
+        - generic [ref=e883]: 269.539 RON
+      - link "Oltenaşu Sorin-George SOS RO Oltenaşu Sorin-George 269.198 RON" [ref=e884] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/231.json
+        - generic [ref=e885]:
+          - img "Oltenaşu Sorin-George" [ref=e887]
+          - generic: SOS RO
+        - generic [ref=e888]: Oltenaşu Sorin-George
+        - generic [ref=e889]: 269.198 RON
+      - link "Grosu Veronica AUR Grosu Veronica 265.854 RON" [ref=e890] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/134.json
+        - generic [ref=e891]:
+          - img "Grosu Veronica" [ref=e893]
+          - generic: AUR
+        - generic [ref=e894]: Grosu Veronica
+        - generic [ref=e895]: 265.854 RON
+      - link "Sandu Viorica PSD Sandu Viorica 265.668 RON" [ref=e896] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/275.json
+        - generic [ref=e897]:
+          - img "Sandu Viorica" [ref=e899]
+          - generic: PSD
+        - generic [ref=e900]: Sandu Viorica
+        - generic [ref=e901]: 265.668 RON
+      - link "Zisopol Dragoş Gabriel Minoritati Zisopol Dragoş Gabriel 260.412 RON" [ref=e902] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/331.json
+        - generic [ref=e903]:
+          - img "Zisopol Dragoş Gabriel" [ref=e905]
+          - generic: Minoritati
+        - generic [ref=e906]: Zisopol Dragoş Gabriel
+        - generic [ref=e907]: 260.412 RON
+      - link "Ponta Victor-Viorel PSD Ponta Victor-Viorel 259.295 RON" [ref=e908] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/248.json
+        - generic [ref=e909]:
+          - img "Ponta Victor-Viorel" [ref=e911]
+          - generic: PSD
+        - generic [ref=e912]: Ponta Victor-Viorel
+        - generic [ref=e913]: 259.295 RON
+      - link "Manole Petre-Florin PSD Manole Petre-Florin 259.210 RON" [ref=e914] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/177.json
+        - generic [ref=e915]:
+          - img "Manole Petre-Florin" [ref=e917]
+          - generic: PSD
+        - generic [ref=e918]: Manole Petre-Florin
+        - generic [ref=e919]: 259.210 RON
+      - link "Baciu Romică-Andrei PNL Baciu Romică-Andrei 257.575 RON" [ref=e920] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/14.json
+        - generic [ref=e921]:
+          - img "Baciu Romică-Andrei" [ref=e923]
+          - generic: PNL
+        - generic [ref=e924]: Baciu Romică-Andrei
+        - generic [ref=e925]: 257.575 RON
+      - link "Huţucă Bogdan-Iulian PNL Huţucă Bogdan-Iulian 255.765 RON" [ref=e926] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/143.json
+        - generic [ref=e927]:
+          - img "Huţucă Bogdan-Iulian" [ref=e929]
+          - generic: PNL
+        - generic [ref=e930]: Huţucă Bogdan-Iulian
+        - generic [ref=e931]: 255.765 RON
+      - link "Neculaescu Laurenţiu Adrian PSD Neculaescu Laurenţiu Adrian 255.706 RON" [ref=e932] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/226.json
+        - generic [ref=e933]:
+          - img "Neculaescu Laurenţiu Adrian" [ref=e935]
+          - generic: PSD
+        - generic [ref=e936]: Neculaescu Laurenţiu Adrian
+        - generic [ref=e937]: 255.706 RON
+      - link "Tîlvăr Angel PSD Tîlvăr Angel 254.782 RON" [ref=e938] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/302.json
+        - generic [ref=e939]:
+          - img "Tîlvăr Angel" [ref=e941]
+          - generic: PSD
+        - generic [ref=e942]: Tîlvăr Angel
+        - generic [ref=e943]: 254.782 RON
+      - link "Ciubuc Ciprian Neafiliat Ciubuc Ciprian 252.217 RON" [ref=e944] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/62.json
+        - generic [ref=e945]:
+          - img "Ciubuc Ciprian" [ref=e947]
+          - generic: Neafiliat
+        - generic [ref=e948]: Ciubuc Ciprian
+        - generic [ref=e949]: 252.217 RON
+      - link "Dunava Costel Neculai PSD Dunava Costel Neculai 249.375 RON" [ref=e950] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/97.json
+        - generic [ref=e951]:
+          - img "Dunava Costel Neculai" [ref=e953]
+          - generic: PSD
+        - generic [ref=e954]: Dunava Costel Neculai
+        - generic [ref=e955]: 249.375 RON
+      - link "Nagy Szabolcs UDMR Nagy Szabolcs 248.900 RON" [ref=e956] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/217.json
+        - generic [ref=e957]:
+          - img "Nagy Szabolcs" [ref=e959]
+          - generic: UDMR
+        - generic [ref=e960]: Nagy Szabolcs
+        - generic [ref=e961]: 248.900 RON
+      - link "Hagiu Augustin-Florin PSD Hagiu Augustin-Florin 246.929 RON" [ref=e962] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/138.json
+        - generic [ref=e963]:
+          - img "Hagiu Augustin-Florin" [ref=e965]
+          - generic: PSD
+        - generic [ref=e966]: Hagiu Augustin-Florin
+        - generic [ref=e967]: 246.929 RON
+      - link "Ibram Iusein Minoritati Ibram Iusein 244.836 RON" [ref=e968] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/146.json
+        - generic [ref=e969]:
+          - img "Ibram Iusein" [ref=e971]
+          - generic: Minoritati
+        - generic [ref=e972]: Ibram Iusein
+        - generic [ref=e973]: 244.836 RON
+      - link "Trif Bogdan Gheorghe PSD Trif Bogdan Gheorghe 242.018 RON" [ref=e974] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/307.json
+        - generic [ref=e975]:
+          - img "Trif Bogdan Gheorghe" [ref=e977]
+          - generic: PSD
+        - generic [ref=e978]: Trif Bogdan Gheorghe
+        - generic [ref=e979]: 242.018 RON
+      - link "Matei Sergiu-Lucian UPR Matei Sergiu-Lucian 240.480 RON" [ref=e980] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/183.json
+        - generic [ref=e981]:
+          - img "Matei Sergiu-Lucian" [ref=e983]
+          - generic: UPR
+        - generic [ref=e984]: Matei Sergiu-Lucian
+        - generic [ref=e985]: 240.480 RON
+      - link "Roşca Mircea PNL Roşca Mircea 239.793 RON" [ref=e986] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/272.json
+        - generic [ref=e987]:
+          - img "Roşca Mircea" [ref=e989]
+          - generic: PNL
+        - generic [ref=e990]: Roşca Mircea
+        - generic [ref=e991]: 239.793 RON
+      - link "Stancu Ionel Minoritati Stancu Ionel 238.420 RON" [ref=e992] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/282.json
+        - generic [ref=e993]:
+          - img "Stancu Ionel" [ref=e995]
+          - generic: Minoritati
+        - generic [ref=e996]: Stancu Ionel
+        - generic [ref=e997]: 238.420 RON
+      - link "Crîstici Ognean Minoritati Crîstici Ognean 234.063 RON" [ref=e998] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/83.json
+        - generic [ref=e999]:
+          - img "Crîstici Ognean" [ref=e1001]
+          - generic: Minoritati
+        - generic [ref=e1002]: Crîstici Ognean
+        - generic [ref=e1003]: 234.063 RON
+      - link "Coleşa Ilie-Alin AUR Coleşa Ilie-Alin 234.000 RON" [ref=e1004] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/72.json
+        - generic [ref=e1005]:
+          - img "Coleşa Ilie-Alin" [ref=e1007]
+          - generic: AUR
+        - generic [ref=e1008]: Coleşa Ilie-Alin
+        - generic [ref=e1009]: 234.000 RON
+      - link "Szabó Ödön UDMR Szabó Ödön 233.861 RON" [ref=e1010] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/291.json
+        - generic [ref=e1011]:
+          - img "Szabó Ödön" [ref=e1013]
+          - generic: UDMR
+        - generic [ref=e1014]: Szabó Ödön
+        - generic [ref=e1015]: 233.861 RON
+      - link "Cadar Răzvan-Olimpiu PNL Cadar Răzvan-Olimpiu 232.459 RON" [ref=e1016] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/49.json
+        - generic [ref=e1017]:
+          - img "Cadar Răzvan-Olimpiu" [ref=e1019]
+          - generic: PNL
+        - generic [ref=e1020]: Cadar Răzvan-Olimpiu
+        - generic [ref=e1021]: 232.459 RON
+      - link "Ciortea Răzvan-Iulian PSD Ciortea Răzvan-Iulian 231.927 RON" [ref=e1022] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/61.json
+        - generic [ref=e1023]:
+          - img "Ciortea Răzvan-Iulian" [ref=e1025]
+          - generic: PSD
+        - generic [ref=e1026]: Ciortea Răzvan-Iulian
+        - generic [ref=e1027]: 231.927 RON
+      - link "Rogobete Alexandru-Florin PSD Rogobete Alexandru-Florin 231.532 RON" [ref=e1028] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/270.json
+        - generic [ref=e1029]:
+          - img "Rogobete Alexandru-Florin" [ref=e1031]
+          - generic: PSD
+        - generic [ref=e1032]: Rogobete Alexandru-Florin
+        - generic [ref=e1033]: 231.532 RON
+      - link "Enache Diana AUR Enache Diana 231.174 RON" [ref=e1034] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/99.json
+        - generic [ref=e1035]:
+          - img "Enache Diana" [ref=e1037]
+          - generic: AUR
+        - generic [ref=e1038]: Enache Diana
+        - generic [ref=e1039]: 231.174 RON
+      - link "Enache Mihai-Adrian AUR Enache Mihai-Adrian 231.174 RON" [ref=e1040] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/100.json
+        - generic [ref=e1041]:
+          - img "Enache Mihai-Adrian" [ref=e1043]
+          - generic: AUR
+        - generic [ref=e1044]: Enache Mihai-Adrian
+        - generic [ref=e1045]: 231.174 RON
+      - link "Budacă Vasile PSD Budacă Vasile 229.944 RON" [ref=e1046] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/41.json
+        - generic [ref=e1047]:
+          - img "Budacă Vasile" [ref=e1049]
+          - generic: PSD
+        - generic [ref=e1050]: Budacă Vasile
+        - generic [ref=e1051]: 229.944 RON
+      - link "Coliban Allen USR Coliban Allen 229.036 RON" [ref=e1052] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/73.json
+        - generic [ref=e1053]:
+          - img "Coliban Allen" [ref=e1055]
+          - generic: USR
+        - generic [ref=e1056]: Coliban Allen
+        - generic [ref=e1057]: 229.036 RON
+      - link "Rinder Ana-Smaranda PSD Rinder Ana-Smaranda 227.797 RON" [ref=e1058] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/268.json
+        - generic [ref=e1059]:
+          - img "Rinder Ana-Smaranda" [ref=e1061]
+          - generic: PSD
+        - generic [ref=e1062]: Rinder Ana-Smaranda
+        - generic [ref=e1063]: 227.797 RON
+      - link "Ivan Bogdan-Gruia PSD Ivan Bogdan-Gruia 227.616 RON" [ref=e1064] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/157.json
+        - generic [ref=e1065]:
+          - img "Ivan Bogdan-Gruia" [ref=e1067]
+          - generic: PSD
+        - generic [ref=e1068]: Ivan Bogdan-Gruia
+        - generic [ref=e1069]: 227.616 RON
+      - link "Könczei Csaba UDMR Könczei Csaba 227.525 RON" [ref=e1070] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/163.json
+        - generic [ref=e1071]:
+          - img "Könczei Csaba" [ref=e1073]
+          - generic: UDMR
+        - generic [ref=e1074]: Könczei Csaba
+        - generic [ref=e1075]: 227.525 RON
+      - link "Toader Bogdan-Andrei PSD Toader Bogdan-Andrei 227.520 RON" [ref=e1076] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/303.json
+        - generic [ref=e1077]:
+          - img "Toader Bogdan-Andrei" [ref=e1079]
+          - generic: PSD
+        - generic [ref=e1080]: Toader Bogdan-Andrei
+        - generic [ref=e1081]: 227.520 RON
+      - link "Popovici Florin-Cornel AUR Popovici Florin-Cornel 226.968 RON" [ref=e1082] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/256.json
+        - generic [ref=e1083]:
+          - img "Popovici Florin-Cornel" [ref=e1085]
+          - generic: AUR
+        - generic [ref=e1086]: Popovici Florin-Cornel
+        - generic [ref=e1087]: 226.968 RON
+      - link "Ganţ Ovidiu Victor Minoritati Ganţ Ovidiu Victor 224.298 RON" [ref=e1088] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/112.json
+        - generic [ref=e1089]:
+          - img "Ganţ Ovidiu Victor" [ref=e1091]
+          - generic: Minoritati
+        - generic [ref=e1092]: Ganţ Ovidiu Victor
+        - generic [ref=e1093]: 224.298 RON
+      - link "Iagăr Monica AUR Iagăr Monica 224.296 RON" [ref=e1094] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/144.json
+        - generic [ref=e1095]:
+          - img "Iagăr Monica" [ref=e1097]
+          - generic: AUR
+        - generic [ref=e1098]: Iagăr Monica
+        - generic [ref=e1099]: 224.296 RON
+      - link "Vass Levente UDMR Vass Levente 224.036 RON" [ref=e1100] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/316.json
+        - generic [ref=e1101]:
+          - img "Vass Levente" [ref=e1103]
+          - generic: UDMR
+        - generic [ref=e1104]: Vass Levente
+        - generic [ref=e1105]: 224.036 RON
+      - link "Ciobotaru Dragoş-Fănică PNL Ciobotaru Dragoş-Fănică 223.979 RON" [ref=e1106] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/57.json
+        - generic [ref=e1107]:
+          - img "Ciobotaru Dragoş-Fănică" [ref=e1109]
+          - generic: PNL
+        - generic [ref=e1110]: Ciobotaru Dragoş-Fănică
+        - generic [ref=e1111]: 223.979 RON
+      - link "Iancu Marius-Ionel PSD Iancu Marius-Ionel 222.794 RON" [ref=e1112] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/145.json
+        - generic [ref=e1113]:
+          - img "Iancu Marius-Ionel" [ref=e1115]
+          - generic: PSD
+        - generic [ref=e1116]: Iancu Marius-Ionel
+        - generic [ref=e1117]: 222.794 RON
+      - link "Longher Ghervazen Minoritati Longher Ghervazen 221.045 RON" [ref=e1118] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/171.json
+        - generic [ref=e1119]:
+          - img "Longher Ghervazen" [ref=e1121]
+          - generic: Minoritati
+        - generic [ref=e1122]: Longher Ghervazen
+        - generic [ref=e1123]: 221.045 RON
+      - link "Wiener Adrian USR Wiener Adrian 219.628 RON" [ref=e1124] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/328.json
+        - generic [ref=e1125]:
+          - img "Wiener Adrian" [ref=e1127]
+          - generic: USR
+        - generic [ref=e1128]: Wiener Adrian
+        - generic [ref=e1129]: 219.628 RON
+      - link "Pambuccian Varujan Minoritati Pambuccian Varujan 219.568 RON" [ref=e1130] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/233.json
+        - generic [ref=e1131]:
+          - img "Pambuccian Varujan" [ref=e1133]
+          - generic: Minoritati
+        - generic [ref=e1134]: Pambuccian Varujan
+        - generic [ref=e1135]: 219.568 RON
+      - link "Gurlui Silviu-Octavian AUR Gurlui Silviu-Octavian 219.069 RON" [ref=e1136] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/136.json
+        - generic [ref=e1137]:
+          - img "Gurlui Silviu-Octavian" [ref=e1139]
+          - generic: AUR
+        - generic [ref=e1140]: Gurlui Silviu-Octavian
+        - generic [ref=e1141]: 219.069 RON
+      - link "Năcuţă Sorin PNL Năcuţă Sorin 216.056 RON" [ref=e1142] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/332.json
+        - generic [ref=e1143]:
+          - img "Năcuţă Sorin" [ref=e1145]
+          - generic: PNL
+        - generic [ref=e1146]: Năcuţă Sorin
+        - generic [ref=e1147]: 216.056 RON
+      - link "Toma Ilie PSD Toma Ilie 215.970 RON" [ref=e1148] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/305.json
+        - generic [ref=e1149]:
+          - img "Toma Ilie" [ref=e1151]
+          - generic: PSD
+        - generic [ref=e1152]: Toma Ilie
+        - generic [ref=e1153]: 215.970 RON
+      - link "Gheorghe Andrei Daniel PNL Gheorghe Andrei Daniel 215.839 RON" [ref=e1154] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/118.json
+        - generic [ref=e1155]:
+          - img "Gheorghe Andrei Daniel" [ref=e1157]
+          - generic: PNL
+        - generic [ref=e1158]: Gheorghe Andrei Daniel
+        - generic [ref=e1159]: 215.839 RON
+      - link "Petreţchi Nicolae-Miroslav Minoritati Petreţchi Nicolae-Miroslav 215.419 RON" [ref=e1160] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/241.json
+        - generic [ref=e1161]:
+          - img "Petreţchi Nicolae-Miroslav" [ref=e1163]
+          - generic: Minoritati
+        - generic [ref=e1164]: Petreţchi Nicolae-Miroslav
+        - generic [ref=e1165]: 215.419 RON
+      - link "Năsui Claudiu-Iulius-Gavril USR Năsui Claudiu-Iulius-Gavril 211.463 RON" [ref=e1166] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/220.json
+        - generic [ref=e1167]:
+          - img "Năsui Claudiu-Iulius-Gavril" [ref=e1169]
+          - generic: USR
+        - generic [ref=e1170]: Năsui Claudiu-Iulius-Gavril
+        - generic [ref=e1171]: 211.463 RON
+      - link "Drinceanu Vlad-Florentin PSD Drinceanu Vlad-Florentin 211.067 RON" [ref=e1172] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/95.json
+        - generic [ref=e1173]:
+          - img "Drinceanu Vlad-Florentin" [ref=e1175]
+          - generic: PSD
+        - generic [ref=e1176]: Drinceanu Vlad-Florentin
+        - generic [ref=e1177]: 211.067 RON
+      - link "Moiseev Alexandrin PNL Moiseev Alexandrin 210.915 RON" [ref=e1178] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/204.json
+        - generic [ref=e1179]:
+          - img "Moiseev Alexandrin" [ref=e1181]
+          - generic: PNL
+        - generic [ref=e1182]: Moiseev Alexandrin
+        - generic [ref=e1183]: 210.915 RON
+      - link "Gál Károly UDMR Gál Károly 210.071 RON" [ref=e1184] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/111.json
+        - generic [ref=e1185]:
+          - img "Gál Károly" [ref=e1187]
+          - generic: UDMR
+        - generic [ref=e1188]: Gál Károly
+        - generic [ref=e1189]: 210.071 RON
+      - link "Morar Lucian-Ioan-Titus PSD Morar Lucian-Ioan-Titus 209.685 RON" [ref=e1190] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/207.json
+        - generic [ref=e1191]:
+          - img "Morar Lucian-Ioan-Titus" [ref=e1193]
+          - generic: PSD
+        - generic [ref=e1194]: Morar Lucian-Ioan-Titus
+        - generic [ref=e1195]: 209.685 RON
+      - link "Şendroiu Vlad-Ioan USR Şendroiu Vlad-Ioan 208.253 RON" [ref=e1196] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/293.json
+        - generic [ref=e1197]:
+          - img "Şendroiu Vlad-Ioan" [ref=e1199]
+          - generic: USR
+        - generic [ref=e1200]: Şendroiu Vlad-Ioan
+        - generic [ref=e1201]: 208.253 RON
+      - link "Ciobanu Adrian-Virgil PNL Ciobanu Adrian-Virgil 207.924 RON" [ref=e1202] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/56.json
+        - generic [ref=e1203]:
+          - img "Ciobanu Adrian-Virgil" [ref=e1205]
+          - generic: PNL
+        - generic [ref=e1206]: Ciobanu Adrian-Virgil
+        - generic [ref=e1207]: 207.924 RON
+      - link "Popa George-Adrian PSD Popa George-Adrian 206.479 RON" [ref=e1208] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/252.json
+        - generic [ref=e1209]:
+          - img "Popa George-Adrian" [ref=e1211]
+          - generic: PSD
+        - generic [ref=e1212]: Popa George-Adrian
+        - generic [ref=e1213]: 206.479 RON
+      - link "Caragaţă Florin SOS RO Caragaţă Florin 205.917 RON" [ref=e1214] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/50.json
+        - generic [ref=e1215]:
+          - img "Caragaţă Florin" [ref=e1217]
+          - generic: SOS RO
+        - generic [ref=e1218]: Caragaţă Florin
+        - generic [ref=e1219]: 205.917 RON
+      - link "Gheorghiu Andrei-Florin USR Gheorghiu Andrei-Florin 204.890 RON" [ref=e1220] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/121.json
+        - generic [ref=e1221]:
+          - img "Gheorghiu Andrei-Florin" [ref=e1223]
+          - generic: USR
+        - generic [ref=e1224]: Gheorghiu Andrei-Florin
+        - generic [ref=e1225]: 204.890 RON
+      - link "Constantinescu Sergiu-Mircea PSD Constantinescu Sergiu-Mircea 204.121 RON" [ref=e1226] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/76.json
+        - generic [ref=e1227]:
+          - img "Constantinescu Sergiu-Mircea" [ref=e1229]
+          - generic: PSD
+        - generic [ref=e1230]: Constantinescu Sergiu-Mircea
+        - generic [ref=e1231]: 204.121 RON
+      - link "Drulă Cătălin USR Drulă Cătălin 203.880 RON" [ref=e1232] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/96.json
+        - generic [ref=e1233]:
+          - img "Drulă Cătălin" [ref=e1235]
+          - generic: USR
+        - generic [ref=e1236]: Drulă Cătălin
+        - generic [ref=e1237]: 203.880 RON
+      - link "Ion Nicolae-Mirel SOS RO Ion Nicolae-Mirel 203.849 RON" [ref=e1238] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/148.json
+        - generic [ref=e1239]:
+          - img "Ion Nicolae-Mirel" [ref=e1241]
+          - generic: SOS RO
+        - generic [ref=e1242]: Ion Nicolae-Mirel
+        - generic [ref=e1243]: 203.849 RON
+      - link "Bogdănel Lucian-Gabriel PSD Bogdănel Lucian-Gabriel 201.248 RON" [ref=e1244] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/32.json
+        - generic [ref=e1245]:
+          - img "Bogdănel Lucian-Gabriel" [ref=e1247]
+          - generic: PSD
+        - generic [ref=e1248]: Bogdănel Lucian-Gabriel
+        - generic [ref=e1249]: 201.248 RON
+      - link "Tanasă Dan AUR Tanasă Dan 200.730 RON" [ref=e1250] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/298.json
+        - generic [ref=e1251]:
+          - img "Tanasă Dan" [ref=e1253]
+          - generic: AUR
+        - generic [ref=e1254]: Tanasă Dan
+        - generic [ref=e1255]: 200.730 RON
+      - link "Muraru Iulian-Alexandru PNL Muraru Iulian-Alexandru 200.335 RON" [ref=e1256] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/214.json
+        - generic [ref=e1257]:
+          - img "Muraru Iulian-Alexandru" [ref=e1259]
+          - generic: PNL
+        - generic [ref=e1260]: Muraru Iulian-Alexandru
+        - generic [ref=e1261]: 200.335 RON
+      - link "Mîndroc Cătălin-Viorel PSD Mîndroc Cătălin-Viorel 199.668 RON" [ref=e1262] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/202.json
+        - generic [ref=e1263]:
+          - img "Mîndroc Cătălin-Viorel" [ref=e1265]
+          - generic: PSD
+        - generic [ref=e1266]: Mîndroc Cătălin-Viorel
+        - generic [ref=e1267]: 199.668 RON
+      - link "Matieş Călin-Gheorghe AUR Matieş Călin-Gheorghe 196.827 RON" [ref=e1268] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/185.json
+        - generic [ref=e1269]:
+          - img "Matieş Călin-Gheorghe" [ref=e1271]
+          - generic: AUR
+        - generic [ref=e1272]: Matieş Călin-Gheorghe
+        - generic [ref=e1273]: 196.827 RON
+      - link "Grosaru Ioana Neafiliat Grosaru Ioana 195.816 RON" [ref=e1274] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/133.json
+        - generic [ref=e1275]:
+          - img "Grosaru Ioana" [ref=e1277]
+          - generic: Neafiliat
+        - generic [ref=e1278]: Grosaru Ioana
+        - generic [ref=e1279]: 195.816 RON
+      - link "Lazăr Teodor USR Lazăr Teodor 194.459 RON" [ref=e1280] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/167.json
+        - generic [ref=e1281]:
+          - img "Lazăr Teodor" [ref=e1283]
+          - generic: USR
+        - generic [ref=e1284]: Lazăr Teodor
+        - generic [ref=e1285]: 194.459 RON
+      - link "Kántor Boglárka UDMR Kántor Boglárka 193.604 RON" [ref=e1286] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/159.json
+        - generic [ref=e1287]:
+          - img "Kántor Boglárka" [ref=e1289]
+          - generic: UDMR
+        - generic [ref=e1290]: Kántor Boglárka
+        - generic [ref=e1291]: 193.604 RON
+      - link "Amet Varol Minoritati Amet Varol 187.516 RON" [ref=e1292] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/6.json
+        - generic [ref=e1293]:
+          - img "Amet Varol" [ref=e1295]
+          - generic: Minoritati
+        - generic [ref=e1296]: Amet Varol
+        - generic [ref=e1297]: 187.516 RON
+      - link "Stoica Bogdan-Alin Minoritati Stoica Bogdan-Alin 187.183 RON" [ref=e1298] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/286.json
+        - generic [ref=e1299]:
+          - img "Stoica Bogdan-Alin" [ref=e1301]
+          - generic: Minoritati
+        - generic [ref=e1302]: Stoica Bogdan-Alin
+        - generic [ref=e1303]: 187.183 RON
+      - link "Cotîrleţ Paul-Claudiu PSD Cotîrleţ Paul-Claudiu 186.999 RON" [ref=e1304] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/80.json
+        - generic [ref=e1305]:
+          - img "Cotîrleţ Paul-Claudiu" [ref=e1307]
+          - generic: PSD
+        - generic [ref=e1308]: Cotîrleţ Paul-Claudiu
+        - generic [ref=e1309]: 186.999 RON
+      - link "Puşcaşu Petre AUR Puşcaşu Petre 185.443 RON" [ref=e1310] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/262.json
+        - generic [ref=e1311]:
+          - img "Puşcaşu Petre" [ref=e1313]
+          - generic: AUR
+        - generic [ref=e1314]: Puşcaşu Petre
+        - generic [ref=e1315]: 185.443 RON
+      - link "Băişanu Ştefan-Alexandru PSD Băişanu Ştefan-Alexandru 184.704 RON" [ref=e1316] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/22.json
+        - generic [ref=e1317]:
+          - img "Băişanu Ştefan-Alexandru" [ref=e1319]
+          - generic: PSD
+        - generic [ref=e1320]: Băişanu Ştefan-Alexandru
+        - generic [ref=e1321]: 184.704 RON
+      - link "Andruşcă Lucian-Nicolae PSD Andruşcă Lucian-Nicolae 183.504 RON" [ref=e1322] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/10.json
+        - generic [ref=e1323]:
+          - img "Andruşcă Lucian-Nicolae" [ref=e1325]
+          - generic: PSD
+        - generic [ref=e1326]: Andruşcă Lucian-Nicolae
+        - generic [ref=e1327]: 183.504 RON
+      - link "Fechet Mircea PNL Fechet Mircea 182.051 RON" [ref=e1328] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/104.json
+        - generic [ref=e1329]:
+          - img "Fechet Mircea" [ref=e1331]
+          - generic: PNL
+        - generic [ref=e1332]: Fechet Mircea
+        - generic [ref=e1333]: 182.051 RON
+      - link "Stoica Ştefan-Bucur PNL Stoica Ştefan-Bucur 181.934 RON" [ref=e1334] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/288.json
+        - generic [ref=e1335]:
+          - img "Stoica Ştefan-Bucur" [ref=e1337]
+          - generic: PNL
+        - generic [ref=e1338]: Stoica Ştefan-Bucur
+        - generic [ref=e1339]: 181.934 RON
+      - link "Mitrea Dumitrina AUR Mitrea Dumitrina 178.631 RON" [ref=e1340] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/200.json
+        - generic [ref=e1341]:
+          - img "Mitrea Dumitrina" [ref=e1343]
+          - generic: AUR
+        - generic [ref=e1344]: Mitrea Dumitrina
+        - generic [ref=e1345]: 178.631 RON
+      - link "Barstan Tiberiu-Claudiu AUR Barstan Tiberiu-Claudiu 176.541 RON" [ref=e1346] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/20.json
+        - generic [ref=e1347]:
+          - img "Barstan Tiberiu-Claudiu" [ref=e1349]
+          - generic: AUR
+        - generic [ref=e1350]: Barstan Tiberiu-Claudiu
+        - generic [ref=e1351]: 176.541 RON
+      - link "Păun Nicolae Minoritati Păun Nicolae 176.537 RON" [ref=e1352] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/239.json
+        - generic [ref=e1353]:
+          - img "Păun Nicolae" [ref=e1355]
+          - generic: Minoritati
+        - generic [ref=e1356]: Păun Nicolae
+        - generic [ref=e1357]: 176.537 RON
+      - link "Câciu Adrian PSD Câciu Adrian 176.455 RON" [ref=e1358] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/51.json
+        - generic [ref=e1359]:
+          - img "Câciu Adrian" [ref=e1361]
+          - generic: PSD
+        - generic [ref=e1362]: Câciu Adrian
+        - generic [ref=e1363]: 176.455 RON
+      - link "Murariu Oana USR Murariu Oana 174.246 RON" [ref=e1364] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/213.json
+        - generic [ref=e1365]:
+          - img "Murariu Oana" [ref=e1367]
+          - generic: USR
+        - generic [ref=e1368]: Murariu Oana
+        - generic [ref=e1369]: 174.246 RON
+      - link "Gima George USR Gima George 172.604 RON" [ref=e1370] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/125.json
+        - generic [ref=e1371]:
+          - img "Gima George" [ref=e1373]
+          - generic: USR
+        - generic [ref=e1374]: Gima George
+        - generic [ref=e1375]: 172.604 RON
+      - link "Lovin Ramona AUR Lovin Ramona 172.363 RON" [ref=e1376] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/173.json
+        - generic [ref=e1377]:
+          - img "Lovin Ramona" [ref=e1379]
+          - generic: AUR
+        - generic [ref=e1380]: Lovin Ramona
+        - generic [ref=e1381]: 172.363 RON
+      - link "Teslariu Andrei-Ionuţ PNL Teslariu Andrei-Ionuţ 170.901 RON" [ref=e1382] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/300.json
+        - generic [ref=e1383]:
+          - img "Teslariu Andrei-Ionuţ" [ref=e1385]
+          - generic: PNL
+        - generic [ref=e1386]: Teslariu Andrei-Ionuţ
+        - generic [ref=e1387]: 170.901 RON
+      - link "Csoma Botond UDMR Csoma Botond 170.256 RON" [ref=e1388] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/87.json
+        - generic [ref=e1389]:
+          - img "Csoma Botond" [ref=e1391]
+          - generic: UDMR
+        - generic [ref=e1392]: Csoma Botond
+        - generic [ref=e1393]: 170.256 RON
+      - link "Blaga Daniel-Codruţ USR Blaga Daniel-Codruţ 169.351 RON" [ref=e1394] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/29.json
+        - generic [ref=e1395]:
+          - img "Blaga Daniel-Codruţ" [ref=e1397]
+          - generic: USR
+        - generic [ref=e1398]: Blaga Daniel-Codruţ
+        - generic [ref=e1399]: 169.351 RON
+      - link "Jianu Iosif-Florin PNL Jianu Iosif-Florin 168.937 RON" [ref=e1400] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/158.json
+        - generic [ref=e1401]:
+          - img "Jianu Iosif-Florin" [ref=e1403]
+          - generic: PNL
+        - generic [ref=e1404]: Jianu Iosif-Florin
+        - generic [ref=e1405]: 168.937 RON
+      - link "Kroncsiş Sebastian-Andrei UPR Kroncsiş Sebastian-Andrei 167.860 RON" [ref=e1406] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/164.json
+        - generic [ref=e1407]:
+          - img "Kroncsiş Sebastian-Andrei" [ref=e1409]
+          - generic: UPR
+        - generic [ref=e1410]: Kroncsiş Sebastian-Andrei
+        - generic [ref=e1411]: 167.860 RON
+      - link "Simion George-Nicolae AUR Simion George-Nicolae 166.004 RON" [ref=e1412] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/279.json
+        - generic [ref=e1413]:
+          - img "Simion George-Nicolae" [ref=e1415]
+          - generic: AUR
+        - generic [ref=e1416]: Simion George-Nicolae
+        - generic [ref=e1417]: 166.004 RON
+      - link "Rodeanu Bogdan-Ionel USR Rodeanu Bogdan-Ionel 164.256 RON" [ref=e1418] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/269.json
+        - generic [ref=e1419]:
+          - img "Rodeanu Bogdan-Ionel" [ref=e1421]
+          - generic: USR
+        - generic [ref=e1422]: Rodeanu Bogdan-Ionel
+        - generic [ref=e1423]: 164.256 RON
+      - link "Firczak Iulius Marian Minoritati Firczak Iulius Marian 163.019 RON" [ref=e1424] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/107.json
+        - generic [ref=e1425]:
+          - img "Firczak Iulius Marian" [ref=e1427]
+          - generic: Minoritati
+        - generic [ref=e1428]: Firczak Iulius Marian
+        - generic [ref=e1429]: 163.019 RON
+      - link "Hangan Pollyanna-Hanellore USR Hangan Pollyanna-Hanellore 162.859 RON" [ref=e1430] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/140.json
+        - generic [ref=e1431]:
+          - img "Hangan Pollyanna-Hanellore" [ref=e1433]
+          - generic: USR
+        - generic [ref=e1434]: Hangan Pollyanna-Hanellore
+        - generic [ref=e1435]: 162.859 RON
+      - link "Chirilă Virgil Alin PSD Chirilă Virgil Alin 155.712 RON" [ref=e1436] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/54.json
+        - generic [ref=e1437]:
+          - img "Chirilă Virgil Alin" [ref=e1439]
+          - generic: PSD
+        - generic [ref=e1440]: Chirilă Virgil Alin
+        - generic [ref=e1441]: 155.712 RON
+      - link "Dascălu Cristina-Emanuela AUR Dascălu Cristina-Emanuela 155.424 RON" [ref=e1442] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/89.json
+        - generic [ref=e1443]:
+          - img "Dascălu Cristina-Emanuela" [ref=e1445]
+          - generic: AUR
+        - generic [ref=e1446]: Dascălu Cristina-Emanuela
+        - generic [ref=e1447]: 155.424 RON
+      - link "Vulpescu Ioan PSD Vulpescu Ioan 153.597 RON" [ref=e1448] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/324.json
+        - generic [ref=e1449]:
+          - img "Vulpescu Ioan" [ref=e1451]
+          - generic: PSD
+        - generic [ref=e1452]: Vulpescu Ioan
+        - generic [ref=e1453]: 153.597 RON
+      - link "Şerban Ciprian-Constantin PSD Şerban Ciprian-Constantin 153.580 RON" [ref=e1454] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/294.json
+        - generic [ref=e1455]:
+          - img "Şerban Ciprian-Constantin" [ref=e1457]
+          - generic: PSD
+        - generic [ref=e1458]: Şerban Ciprian-Constantin
+        - generic [ref=e1459]: 153.580 RON
+      - link "Buican Cristian PNL Buican Cristian 153.312 RON" [ref=e1460] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/43.json
+        - generic [ref=e1461]:
+          - img "Buican Cristian" [ref=e1463]
+          - generic: PNL
+        - generic [ref=e1464]: Buican Cristian
+        - generic [ref=e1465]: 153.312 RON
+      - link "Bulai Iulian USR Bulai Iulian 153.156 RON" [ref=e1466] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/44.json
+        - generic [ref=e1467]:
+          - img "Bulai Iulian" [ref=e1469]
+          - generic: USR
+        - generic [ref=e1470]: Bulai Iulian
+        - generic [ref=e1471]: 153.156 RON
+      - link "Porumboiu Gabriela UPR Porumboiu Gabriela 152.925 RON" [ref=e1472] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/257.json
+        - generic [ref=e1473]:
+          - img "Porumboiu Gabriela" [ref=e1475]
+          - generic: UPR
+        - generic [ref=e1476]: Porumboiu Gabriela
+        - generic [ref=e1477]: 152.925 RON
+      - link "Mina Marian PSD Mina Marian 152.508 RON" [ref=e1478] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/196.json
+        - generic [ref=e1479]:
+          - img "Mina Marian" [ref=e1481]
+          - generic: PSD
+        - generic [ref=e1482]: Mina Marian
+        - generic [ref=e1483]: 152.508 RON
+      - link "Solomon Adrian PSD Solomon Adrian 148.584 RON" [ref=e1484] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/281.json
+        - generic [ref=e1485]:
+          - img "Solomon Adrian" [ref=e1487]
+          - generic: PSD
+        - generic [ref=e1488]: Solomon Adrian
+        - generic [ref=e1489]: 148.584 RON
+      - link "Ciornei Daniel-Cătălin AUR Ciornei Daniel-Cătălin 148.259 RON" [ref=e1490] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/60.json
+        - generic [ref=e1491]:
+          - img "Ciornei Daniel-Cătălin" [ref=e1493]
+          - generic: AUR
+        - generic [ref=e1494]: Ciornei Daniel-Cătălin
+        - generic [ref=e1495]: 148.259 RON
+      - link "Giurgiu Adrian USR Giurgiu Adrian 146.016 RON" [ref=e1496] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/126.json
+        - generic [ref=e1497]:
+          - img "Giurgiu Adrian" [ref=e1499]
+          - generic: USR
+        - generic [ref=e1500]: Giurgiu Adrian
+        - generic [ref=e1501]: 146.016 RON
+      - link "Drăgoescu Cezar-Mihail USR Drăgoescu Cezar-Mihail 145.936 RON" [ref=e1502] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/94.json
+        - generic [ref=e1503]:
+          - img "Drăgoescu Cezar-Mihail" [ref=e1505]
+          - generic: USR
+        - generic [ref=e1506]: Drăgoescu Cezar-Mihail
+        - generic [ref=e1507]: 145.936 RON
+      - link "Andronache Gabriel PNL Andronache Gabriel 145.712 RON" [ref=e1508] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/9.json
+        - generic [ref=e1509]:
+          - img "Andronache Gabriel" [ref=e1511]
+          - generic: PNL
+        - generic [ref=e1512]: Andronache Gabriel
+        - generic [ref=e1513]: 145.712 RON
+      - link "Ghera Giureci-Slobodan Minoritati Ghera Giureci-Slobodan 144.071 RON" [ref=e1514] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/122.json
+        - generic [ref=e1515]:
+          - img "Ghera Giureci-Slobodan" [ref=e1517]
+          - generic: Minoritati
+        - generic [ref=e1518]: Ghera Giureci-Slobodan
+        - generic [ref=e1519]: 144.071 RON
+      - link "Bucur Ariana-Oana PSD Bucur Ariana-Oana 143.537 RON" [ref=e1520] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/39.json
+        - generic [ref=e1521]:
+          - img "Bucur Ariana-Oana" [ref=e1523]
+          - generic: PSD
+        - generic [ref=e1524]: Bucur Ariana-Oana
+        - generic [ref=e1525]: 143.537 RON
+      - link "Ion Stelian-Cristian USR Ion Stelian-Cristian 142.169 RON" [ref=e1526] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/149.json
+        - generic [ref=e1527]:
+          - img "Ion Stelian-Cristian" [ref=e1529]
+          - generic: USR
+        - generic [ref=e1530]: Ion Stelian-Cristian
+        - generic [ref=e1531]: 142.169 RON
+      - link "Mihalcea Silvia-Claudia PSD Mihalcea Silvia-Claudia 141.482 RON" [ref=e1532] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/192.json
+        - generic [ref=e1533]:
+          - img "Mihalcea Silvia-Claudia" [ref=e1535]
+          - generic: PSD
+        - generic [ref=e1536]: Mihalcea Silvia-Claudia
+        - generic [ref=e1537]: 141.482 RON
+      - link "Prună Cristina-Mădălina USR Prună Cristina-Mădălina 141.073 RON" [ref=e1538] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/260.json
+        - generic [ref=e1539]:
+          - img "Prună Cristina-Mădălina" [ref=e1541]
+          - generic: USR
+        - generic [ref=e1542]: Prună Cristina-Mădălina
+        - generic [ref=e1543]: 141.073 RON
+      - link "Radu Fabian-Cristian AUR Radu Fabian-Cristian 140.824 RON" [ref=e1544] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/263.json
+        - generic [ref=e1545]:
+          - img "Radu Fabian-Cristian" [ref=e1547]
+          - generic: AUR
+        - generic [ref=e1548]: Radu Fabian-Cristian
+        - generic [ref=e1549]: 140.824 RON
+      - link "Gavrilă Anamaria UPR Gavrilă Anamaria 139.318 RON" [ref=e1550] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/113.json
+        - generic [ref=e1551]:
+          - img "Gavrilă Anamaria" [ref=e1553]
+          - generic: UPR
+        - generic [ref=e1554]: Gavrilă Anamaria
+        - generic [ref=e1555]: 139.318 RON
+      - link "Cristian Brian USR Cristian Brian 138.913 RON" [ref=e1556] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/82.json
+        - generic [ref=e1557]:
+          - img "Cristian Brian" [ref=e1559]
+          - generic: USR
+        - generic [ref=e1560]: Cristian Brian
+        - generic [ref=e1561]: 138.913 RON
+      - link "Peţa-Ştefănescu Eliza-Mădălina PSD Peţa-Ştefănescu Eliza-Mădălina 138.256 RON" [ref=e1562] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/242.json
+        - generic [ref=e1563]:
+          - img "Peţa-Ştefănescu Eliza-Mădălina" [ref=e1565]
+          - generic: PSD
+        - generic [ref=e1566]: Peţa-Ştefănescu Eliza-Mădălina
+        - generic [ref=e1567]: 138.256 RON
+      - link "Pîclişan Gheorghe-Petru UPR Pîclişan Gheorghe-Petru 138.055 RON" [ref=e1568] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/245.json
+        - generic [ref=e1569]:
+          - img "Pîclişan Gheorghe-Petru" [ref=e1571]
+          - generic: UPR
+        - generic [ref=e1572]: Pîclişan Gheorghe-Petru
+        - generic [ref=e1573]: 138.055 RON
+      - link "Stoica Diana USR Stoica Diana 137.330 RON" [ref=e1574] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/287.json
+        - generic [ref=e1575]:
+          - img "Stoica Diana" [ref=e1577]
+          - generic: USR
+        - generic [ref=e1578]: Stoica Diana
+        - generic [ref=e1579]: 137.330 RON
+      - link "Buzoianu Diana-Anda USR Buzoianu Diana-Anda 137.256 RON" [ref=e1580] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/48.json
+        - generic [ref=e1581]:
+          - img "Buzoianu Diana-Anda" [ref=e1583]
+          - generic: USR
+        - generic [ref=e1584]: Buzoianu Diana-Anda
+        - generic [ref=e1585]: 137.256 RON
+      - link "Enachi Raisa Neafiliat Enachi Raisa 136.222 RON" [ref=e1586] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/101.json
+        - generic [ref=e1587]:
+          - img "Enachi Raisa" [ref=e1589]
+          - generic: Neafiliat
+        - generic [ref=e1590]: Enachi Raisa
+        - generic [ref=e1591]: 136.222 RON
+      - link "Nicolae Dan-Mihai UPR Nicolae Dan-Mihai 136.100 RON" [ref=e1592] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/229.json
+        - generic [ref=e1593]:
+          - img "Nicolae Dan-Mihai" [ref=e1595]
+          - generic: UPR
+        - generic [ref=e1596]: Nicolae Dan-Mihai
+        - generic [ref=e1597]: 136.100 RON
+      - link "Nacov Gheorghe Minoritati Nacov Gheorghe 134.916 RON" [ref=e1598] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/216.json
+        - generic [ref=e1599]:
+          - img "Nacov Gheorghe" [ref=e1601]
+          - generic: Minoritati
+        - generic [ref=e1602]: Nacov Gheorghe
+        - generic [ref=e1603]: 134.916 RON
+      - link "Păunescu Silviu-Titus AUR Păunescu Silviu-Titus 134.330 RON" [ref=e1604] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/240.json
+        - generic [ref=e1605]:
+          - img "Păunescu Silviu-Titus" [ref=e1607]
+          - generic: AUR
+        - generic [ref=e1608]: Păunescu Silviu-Titus
+        - generic [ref=e1609]: 134.330 RON
+      - link "Ladányi László-Zsolt UDMR Ladányi László-Zsolt 134.328 RON" [ref=e1610] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/166.json
+        - generic [ref=e1611]:
+          - img "Ladányi László-Zsolt" [ref=e1613]
+          - generic: UDMR
+        - generic [ref=e1614]: Ladányi László-Zsolt
+        - generic [ref=e1615]: 134.328 RON
+      - link "Lőrincz Ştefan-Iulian USR Lőrincz Ştefan-Iulian 134.230 RON" [ref=e1616] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/172.json
+        - generic [ref=e1617]:
+          - img "Lőrincz Ştefan-Iulian" [ref=e1619]
+          - generic: USR
+        - generic [ref=e1620]: Lőrincz Ştefan-Iulian
+        - generic [ref=e1621]: 134.230 RON
+      - link "Feodor Silviu Minoritati Feodor Silviu 131.412 RON" [ref=e1622] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/105.json
+        - generic [ref=e1623]:
+          - img "Feodor Silviu" [ref=e1625]
+          - generic: Minoritati
+        - generic [ref=e1626]: Feodor Silviu
+        - generic [ref=e1627]: 131.412 RON
+      - link "Nagy Vasile SOS RO Nagy Vasile 131.412 RON" [ref=e1628] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/218.json
+        - generic [ref=e1629]:
+          - img "Nagy Vasile" [ref=e1631]
+          - generic: SOS RO
+        - generic [ref=e1632]: Nagy Vasile
+        - generic [ref=e1633]: 131.412 RON
+      - link "Hajdu Gábor UDMR Hajdu Gábor 131.412 RON" [ref=e1634] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/139.json
+        - generic [ref=e1635]:
+          - img "Hajdu Gábor" [ref=e1637]
+          - generic: UDMR
+        - generic [ref=e1638]: Hajdu Gábor
+        - generic [ref=e1639]: 131.412 RON
+      - link "Botez Mihai-Cătălin USR Botez Mihai-Cătălin 131.412 RON" [ref=e1640] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/36.json
+        - generic [ref=e1641]:
+          - img "Botez Mihai-Cătălin" [ref=e1643]
+          - generic: USR
+        - generic [ref=e1644]: Botez Mihai-Cătălin
+        - generic [ref=e1645]: 131.412 RON
+      - link "Zakarias Zoltán Neafiliat Zakarias Zoltán 131.265 RON" [ref=e1646] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/330.json
+        - generic [ref=e1647]:
+          - img "Zakarias Zoltán" [ref=e1649]
+          - generic: Neafiliat
+        - generic [ref=e1650]: Zakarias Zoltán
+        - generic [ref=e1651]: 131.265 RON
+      - link "Biro Daniel-Răzvan AUR Biro Daniel-Răzvan 130.891 RON" [ref=e1652] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/27.json
+        - generic [ref=e1653]:
+          - img "Biro Daniel-Răzvan" [ref=e1655]
+          - generic: AUR
+        - generic [ref=e1656]: Biro Daniel-Răzvan
+        - generic [ref=e1657]: 130.891 RON
+      - link "Oprea Octavian PNL Oprea Octavian 128.846 RON" [ref=e1658] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/232.json
+        - generic [ref=e1659]:
+          - img "Oprea Octavian" [ref=e1661]
+          - generic: PNL
+        - generic [ref=e1662]: Oprea Octavian
+        - generic [ref=e1663]: 128.846 RON
+      - link "Stoenică Irina-Florentina PSD Stoenică Irina-Florentina 126.886 RON" [ref=e1664] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/284.json
+        - generic [ref=e1665]:
+          - img "Stoenică Irina-Florentina" [ref=e1667]
+          - generic: PSD
+        - generic [ref=e1668]: Stoenică Irina-Florentina
+        - generic [ref=e1669]: 126.886 RON
+      - link "Alecsandru Marius-Nicolae USR Alecsandru Marius-Nicolae 119.520 RON" [ref=e1670] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/4.json
+        - generic [ref=e1671]:
+          - img "Alecsandru Marius-Nicolae" [ref=e1673]
+          - generic: USR
+        - generic [ref=e1674]: Alecsandru Marius-Nicolae
+        - generic [ref=e1675]: 119.520 RON
+      - link "Cotinescu Ilie-Aurelian PNL Cotinescu Ilie-Aurelian 118.914 RON" [ref=e1676] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/79.json
+        - generic [ref=e1677]:
+          - img "Cotinescu Ilie-Aurelian" [ref=e1679]
+          - generic: PNL
+        - generic [ref=e1680]: Cotinescu Ilie-Aurelian
+        - generic [ref=e1681]: 118.914 RON
+      - link "Ionescu Tudor SOS RO Ionescu Tudor 118.600 RON" [ref=e1682] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/152.json
+        - generic [ref=e1683]:
+          - img "Ionescu Tudor" [ref=e1685]
+          - generic: SOS RO
+        - generic [ref=e1686]: Ionescu Tudor
+        - generic [ref=e1687]: 118.600 RON
+      - link "Hristu Cosmin AUR Hristu Cosmin 117.989 RON" [ref=e1688] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/142.json
+        - generic [ref=e1689]:
+          - img "Hristu Cosmin" [ref=e1691]
+          - generic: AUR
+        - generic [ref=e1692]: Hristu Cosmin
+        - generic [ref=e1693]: 117.989 RON
+      - link "Priescu Ionelia-Florenţa AUR Priescu Ionelia-Florenţa 114.081 RON" [ref=e1694] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/258.json
+        - generic [ref=e1695]:
+          - img "Priescu Ionelia-Florenţa" [ref=e1697]
+          - generic: AUR
+        - generic [ref=e1698]: Priescu Ionelia-Florenţa
+        - generic [ref=e1699]: 114.081 RON
+      - link "Grofu Daniel UPR Grofu Daniel 114.036 RON" [ref=e1700] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/132.json
+        - generic [ref=e1701]:
+          - img "Grofu Daniel" [ref=e1703]
+          - generic: UPR
+        - generic [ref=e1704]: Grofu Daniel
+        - generic [ref=e1705]: 114.036 RON
+      - link "Negrea Petru-Gabriel AUR Negrea Petru-Gabriel 107.328 RON" [ref=e1706] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/228.json
+        - generic [ref=e1707]:
+          - img "Negrea Petru-Gabriel" [ref=e1709]
+          - generic: AUR
+        - generic [ref=e1710]: Negrea Petru-Gabriel
+        - generic [ref=e1711]: 107.328 RON
+      - link "Geamănu Aurora-Adela PSD Geamănu Aurora-Adela 105.660 RON" [ref=e1712] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/116.json
+        - generic [ref=e1713]:
+          - img "Geamănu Aurora-Adela" [ref=e1715]
+          - generic: PSD
+        - generic [ref=e1716]: Geamănu Aurora-Adela
+        - generic [ref=e1717]: 105.660 RON
+      - link "Făget Mădălin-Laurenţiu Neafiliat Făget Mădălin-Laurenţiu 103.164 RON" [ref=e1718] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/103.json
+        - generic [ref=e1719]:
+          - img "Făget Mădălin-Laurenţiu" [ref=e1721]
+          - generic: Neafiliat
+        - generic [ref=e1722]: Făget Mădălin-Laurenţiu
+        - generic [ref=e1723]: 103.164 RON
+      - link "Toader Elena-Laura SOS RO Toader Elena-Laura 102.015 RON" [ref=e1724] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/304.json
+        - generic [ref=e1725]:
+          - img "Toader Elena-Laura" [ref=e1727]
+          - generic: SOS RO
+        - generic [ref=e1728]: Toader Elena-Laura
+        - generic [ref=e1729]: 102.015 RON
+      - link "Gheorghe Mihai-Claudiu AUR Gheorghe Mihai-Claudiu 101.545 RON" [ref=e1730] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/120.json
+        - generic [ref=e1731]:
+          - img "Gheorghe Mihai-Claudiu" [ref=e1733]
+          - generic: AUR
+        - generic [ref=e1734]: Gheorghe Mihai-Claudiu
+        - generic [ref=e1735]: 101.545 RON
+      - link "Butură Cristina-Irina AUR Butură Cristina-Irina 98.802 RON" [ref=e1737] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/47.json
+        - generic [ref=e1738]:
+          - img "Butură Cristina-Irina" [ref=e1740]
+          - generic: AUR
+        - generic [ref=e1741]: Butură Cristina-Irina
+        - generic [ref=e1742]: 98.802 RON
+      - link "Szőke Ecaterina-Mariana PSD Szőke Ecaterina-Mariana 96.708 RON" [ref=e1743] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/292.json
+        - generic [ref=e1744]:
+          - img "Szőke Ecaterina-Mariana" [ref=e1746]
+          - generic: PSD
+        - generic [ref=e1747]: Szőke Ecaterina-Mariana
+        - generic [ref=e1748]: 96.708 RON
+      - link "Avrămescu Ştefăniţă-Alin AUR Avrămescu Ştefăniţă-Alin 92.905 RON" [ref=e1749] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/13.json
+        - generic [ref=e1750]:
+          - img "Avrămescu Ştefăniţă-Alin" [ref=e1752]
+          - generic: AUR
+        - generic [ref=e1753]: Avrămescu Ştefăniţă-Alin
+        - generic [ref=e1754]: 92.905 RON
+      - link "Velcescu Florin-Bogdan AUR Velcescu Florin-Bogdan 90.853 RON" [ref=e1755] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/321.json
+        - generic [ref=e1756]:
+          - img "Velcescu Florin-Bogdan" [ref=e1758]
+          - generic: AUR
+        - generic [ref=e1759]: Velcescu Florin-Bogdan
+        - generic [ref=e1760]: 90.853 RON
+      - link "Constantinescu Andra-Claudia AUR Constantinescu Andra-Claudia 90.147 RON" [ref=e1761] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/75.json
+        - generic [ref=e1762]:
+          - img "Constantinescu Andra-Claudia" [ref=e1764]
+          - generic: AUR
+        - generic [ref=e1765]: Constantinescu Andra-Claudia
+        - generic [ref=e1766]: 90.147 RON
+      - link "Bordian Alexandru AUR Bordian Alexandru 88.315 RON" [ref=e1767] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/33.json
+        - generic [ref=e1768]:
+          - img "Bordian Alexandru" [ref=e1770]
+          - generic: AUR
+        - generic [ref=e1771]: Bordian Alexandru
+        - generic [ref=e1772]: 88.315 RON
+      - link "Alecu Robert Neafiliat Alecu Robert 86.649 RON" [ref=e1773] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/5.json
+        - generic [ref=e1774]:
+          - img "Alecu Robert" [ref=e1776]
+          - generic: Neafiliat
+        - generic [ref=e1777]: Alecu Robert
+        - generic [ref=e1778]: 86.649 RON
+      - link "Plujar Andrei George USR Plujar Andrei George 85.128 RON" [ref=e1779] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/247.json
+        - generic [ref=e1780]:
+          - img "Plujar Andrei George" [ref=e1782]
+          - generic: USR
+        - generic [ref=e1783]: Plujar Andrei George
+        - generic [ref=e1784]: 85.128 RON
+      - link "Pascariu Mihai-Cosmin AUR Pascariu Mihai-Cosmin 83.240 RON" [ref=e1785] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/238.json
+        - generic [ref=e1786]:
+          - img "Pascariu Mihai-Cosmin" [ref=e1788]
+          - generic: AUR
+        - generic [ref=e1789]: Pascariu Mihai-Cosmin
+        - generic [ref=e1790]: 83.240 RON
+      - link "Lăzăroi Ioan SOS RO Lăzăroi Ioan 82.232 RON" [ref=e1791] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/169.json
+        - generic [ref=e1792]:
+          - img "Lăzăroi Ioan" [ref=e1794]
+          - generic: SOS RO
+        - generic [ref=e1795]: Lăzăroi Ioan
+        - generic [ref=e1796]: 82.232 RON
+      - link "Becali George Neafiliat Becali George 80.666 RON" [ref=e1797] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/23.json
+        - generic [ref=e1798]:
+          - img "Becali George" [ref=e1800]
+          - generic: Neafiliat
+        - generic [ref=e1801]: Becali George
+        - generic [ref=e1802]: 80.666 RON
+      - link "Guşă Andrei-Cosmin AUR Guşă Andrei-Cosmin 78.003 RON" [ref=e1803] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/137.json
+        - generic [ref=e1804]:
+          - img "Guşă Andrei-Cosmin" [ref=e1806]
+          - generic: AUR
+        - generic [ref=e1807]: Guşă Andrei-Cosmin
+        - generic [ref=e1808]: 78.003 RON
+      - link "Baş Ana-Marcela SOS RO Baş Ana-Marcela 73.373 RON" [ref=e1809] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/21.json
+        - generic [ref=e1810]:
+          - img "Baş Ana-Marcela" [ref=e1812]
+          - generic: SOS RO
+        - generic [ref=e1813]: Baş Ana-Marcela
+        - generic [ref=e1814]: 73.373 RON
+      - link "Tilea Dumitru AUR Tilea Dumitru 71.900 RON" [ref=e1815] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/301.json
+        - generic [ref=e1816]:
+          - img "Tilea Dumitru" [ref=e1818]
+          - generic: AUR
+        - generic [ref=e1819]: Tilea Dumitru
+        - generic [ref=e1820]: 71.900 RON
+      - link "Mihuţi Bogdan-Florian PSD Mihuţi Bogdan-Florian 68.130 RON" [ref=e1821] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/194.json
+        - generic [ref=e1822]:
+          - img "Mihuţi Bogdan-Florian" [ref=e1824]
+          - generic: PSD
+        - generic [ref=e1825]: Mihuţi Bogdan-Florian
+        - generic [ref=e1826]: 68.130 RON
+      - link "Mihăescu Mugur AUR Mihăescu Mugur 67.000 RON" [ref=e1827] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/193.json
+        - generic [ref=e1828]:
+          - img "Mihăescu Mugur" [ref=e1830]
+          - generic: AUR
+        - generic [ref=e1831]: Mihăescu Mugur
+        - generic [ref=e1832]: 67.000 RON
+      - link "Neacşu Andreea-Firuţa PNL Neacşu Andreea-Firuţa 66.919 RON" [ref=e1833] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/221.json
+        - generic [ref=e1834]:
+          - img "Neacşu Andreea-Firuţa" [ref=e1836]
+          - generic: PNL
+        - generic [ref=e1837]: Neacşu Andreea-Firuţa
+        - generic [ref=e1838]: 66.919 RON
+      - link "Irimia Ancuţa-Florina UPR Irimia Ancuţa-Florina 66.788 RON" [ref=e1839] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/155.json
+        - generic [ref=e1840]:
+          - img "Irimia Ancuţa-Florina" [ref=e1842]
+          - generic: UPR
+        - generic [ref=e1843]: Irimia Ancuţa-Florina
+        - generic [ref=e1844]: 66.788 RON
+      - link "Negoescu Mihai-Bogdan AUR Negoescu Mihai-Bogdan 62.084 RON" [ref=e1845] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/227.json
+        - generic [ref=e1846]:
+          - img "Negoescu Mihai-Bogdan" [ref=e1848]
+          - generic: AUR
+        - generic [ref=e1849]: Negoescu Mihai-Bogdan
+        - generic [ref=e1850]: 62.084 RON
+      - link "Florea Gabriel-Florinel AUR Florea Gabriel-Florinel 61.461 RON" [ref=e1851] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/108.json
+        - generic [ref=e1852]:
+          - img "Florea Gabriel-Florinel" [ref=e1854]
+          - generic: AUR
+        - generic [ref=e1855]: Florea Gabriel-Florinel
+        - generic [ref=e1856]: 61.461 RON
+      - link "Borş George-Mădălin PSD Borş George-Mădălin 58.180 RON" [ref=e1857] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/34.json
+        - generic [ref=e1858]:
+          - img "Borş George-Mădălin" [ref=e1860]
+          - generic: PSD
+        - generic [ref=e1861]: Borş George-Mădălin
+        - generic [ref=e1862]: 58.180 RON
+      - link "Cîrligeanu Ariadna-Elena AUR Cîrligeanu Ariadna-Elena 56.100 RON" [ref=e1863] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/69.json
+        - generic [ref=e1864]:
+          - img "Cîrligeanu Ariadna-Elena" [ref=e1866]
+          - generic: AUR
+        - generic [ref=e1867]: Cîrligeanu Ariadna-Elena
+        - generic [ref=e1868]: 56.100 RON
+      - link "Groza Călin-Florin UPR Groza Călin-Florin 55.800 RON" [ref=e1869] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/135.json
+        - generic [ref=e1870]:
+          - img "Groza Călin-Florin" [ref=e1872]
+          - generic: UPR
+        - generic [ref=e1873]: Groza Călin-Florin
+        - generic [ref=e1874]: 55.800 RON
+      - link "Miclău Samuel-Virgil AUR Miclău Samuel-Virgil 50.650 RON" [ref=e1875] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/188.json
+        - generic [ref=e1876]:
+          - img "Miclău Samuel-Virgil" [ref=e1878]
+          - generic: AUR
+        - generic [ref=e1879]: Miclău Samuel-Virgil
+        - generic [ref=e1880]: 50.650 RON
+      - link "Macovei Ilie Simona-Elena SOS RO Macovei Ilie Simona-Elena 48.504 RON" [ref=e1881] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/175.json
+        - generic [ref=e1882]:
+          - img "Macovei Ilie Simona-Elena" [ref=e1884]
+          - generic: SOS RO
+        - generic [ref=e1885]: Macovei Ilie Simona-Elena
+        - generic [ref=e1886]: 48.504 RON
+      - link "Markó Attila-Gábor UDMR Markó Attila-Gábor 42.338 RON" [ref=e1887] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/180.json
+        - generic [ref=e1888]:
+          - img "Markó Attila-Gábor" [ref=e1890]
+          - generic: UDMR
+        - generic [ref=e1891]: Markó Attila-Gábor
+        - generic [ref=e1892]: 42.338 RON
+      - link "Popescu Antonio-Gabi AUR Popescu Antonio-Gabi 37.800 RON" [ref=e1893] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/255.json
+        - generic [ref=e1894]:
+          - img "Popescu Antonio-Gabi" [ref=e1896]
+          - generic: AUR
+        - generic [ref=e1897]: Popescu Antonio-Gabi
+        - generic [ref=e1898]: 37.800 RON
+      - link "Vidra Vlad-Andrei SOS RO Vidra Vlad-Andrei 36.686 RON" [ref=e1899] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/323.json
+        - generic [ref=e1900]:
+          - img "Vidra Vlad-Andrei" [ref=e1902]
+          - generic: SOS RO
+        - generic [ref=e1903]: Vidra Vlad-Andrei
+        - generic [ref=e1904]: 36.686 RON
+      - link "Chiriţă Răzvan-Mirel UPR Chiriţă Răzvan-Mirel 36.150 RON" [ref=e1905] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/55.json
+        - generic [ref=e1906]:
+          - img "Chiriţă Răzvan-Mirel" [ref=e1908]
+          - generic: UPR
+        - generic [ref=e1909]: Chiriţă Răzvan-Mirel
+        - generic [ref=e1910]: 36.150 RON
+      - link "Doboş Elena AUR Doboş Elena 36.000 RON" [ref=e1911] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/91.json
+        - generic [ref=e1912]:
+          - img "Doboş Elena" [ref=e1914]
+          - generic: AUR
+        - generic [ref=e1915]: Doboş Elena
+        - generic [ref=e1916]: 36.000 RON
+      - link "Plopeanu Rodica PSD Plopeanu Rodica 35.950 RON" [ref=e1917] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/246.json
+        - generic [ref=e1918]:
+          - img "Plopeanu Rodica" [ref=e1920]
+          - generic: PSD
+        - generic [ref=e1921]: Plopeanu Rodica
+        - generic [ref=e1922]: 35.950 RON
+      - link "Cîmpan Cristian-Emanuel PSD Cîmpan Cristian-Emanuel 35.836 RON" [ref=e1923] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/65.json
+        - generic [ref=e1924]:
+          - img "Cîmpan Cristian-Emanuel" [ref=e1926]
+          - generic: PSD
+        - generic [ref=e1927]: Cîmpan Cristian-Emanuel
+        - generic [ref=e1928]: 35.836 RON
+      - link "Iosub Cosmin-Teodor AUR Iosub Cosmin-Teodor 30.589 RON" [ref=e1929] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/154.json
+        - generic [ref=e1930]:
+          - img "Iosub Cosmin-Teodor" [ref=e1932]
+          - generic: AUR
+        - generic [ref=e1933]: Iosub Cosmin-Teodor
+        - generic [ref=e1934]: 30.589 RON
+      - link "Corcheş Codruţa-Maria UPR Corcheş Codruţa-Maria 28.681 RON" [ref=e1935] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/77.json
+        - generic [ref=e1936]:
+          - img "Corcheş Codruţa-Maria" [ref=e1938]
+          - generic: UPR
+        - generic [ref=e1939]: Corcheş Codruţa-Maria
+        - generic [ref=e1940]: 28.681 RON
+      - link "Artimon Dan-Cătălin AUR Artimon Dan-Cătălin 27.446 RON" [ref=e1941] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/11.json
+        - generic [ref=e1942]:
+          - img "Artimon Dan-Cătălin" [ref=e1944]
+          - generic: AUR
+        - generic [ref=e1945]: Artimon Dan-Cătălin
+        - generic [ref=e1946]: 27.446 RON
+      - link "Neamţu George-Mihail AUR Neamţu George-Mihail 26.725 RON" [ref=e1947] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/224.json
+        - generic [ref=e1948]:
+          - img "Neamţu George-Mihail" [ref=e1950]
+          - generic: AUR
+        - generic [ref=e1951]: Neamţu George-Mihail
+        - generic [ref=e1952]: 26.725 RON
+      - link "Goidescu Ionel SOS RO Goidescu Ionel 25.422 RON" [ref=e1953] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/128.json
+        - generic [ref=e1954]:
+          - img "Goidescu Ionel" [ref=e1956]
+          - generic: SOS RO
+        - generic [ref=e1957]: Goidescu Ionel
+        - generic [ref=e1958]: 25.422 RON
+      - link "Cîmpianu Andreea-Petronela SOS RO Cîmpianu Andreea-Petronela 25.250 RON" [ref=e1959] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/67.json
+        - generic [ref=e1960]:
+          - img "Cîmpianu Andreea-Petronela" [ref=e1962]
+          - generic: SOS RO
+        - generic [ref=e1963]: Cîmpianu Andreea-Petronela
+        - generic [ref=e1964]: 25.250 RON
+      - link "Vulpoiu Dorel AUR Vulpoiu Dorel 24.000 RON" [ref=e1965] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/325.json
+        - generic [ref=e1966]:
+          - img "Vulpoiu Dorel" [ref=e1968]
+          - generic: AUR
+        - generic [ref=e1969]: Vulpoiu Dorel
+        - generic [ref=e1970]: 24.000 RON
+      - link "Popa Dorin PSD Popa Dorin 23.420 RON" [ref=e1971] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/251.json
+        - generic [ref=e1972]:
+          - img "Popa Dorin" [ref=e1974]
+          - generic: PSD
+        - generic [ref=e1975]: Popa Dorin
+        - generic [ref=e1976]: 23.420 RON
+      - link "Munteanu Valeriu AUR Munteanu Valeriu 23.320 RON" [ref=e1977] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/211.json
+        - generic [ref=e1978]:
+          - img "Munteanu Valeriu" [ref=e1980]
+          - generic: AUR
+        - generic [ref=e1981]: Munteanu Valeriu
+        - generic [ref=e1982]: 23.320 RON
+      - link "Bouda Ştefan Minoritati Bouda Ştefan 19.439 RON" [ref=e1983] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/37.json
+        - generic [ref=e1984]:
+          - img "Bouda Ştefan" [ref=e1986]
+          - generic: Minoritati
+        - generic [ref=e1987]: Bouda Ştefan
+        - generic [ref=e1988]: 19.439 RON
+      - link "Muşat Doru-Lucian AUR Muşat Doru-Lucian 7.416 RON" [ref=e1990] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/215.json
+        - generic [ref=e1991]:
+          - img "Muşat Doru-Lucian" [ref=e1993]
+          - generic: AUR
+        - generic [ref=e1994]: Muşat Doru-Lucian
+        - generic [ref=e1995]: 7.416 RON
+      - link "Boşutar Tiberiu-Nicolae AUR Boşutar Tiberiu-Nicolae 3.042 RON" [ref=e1996] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/35.json
+        - generic [ref=e1997]:
+          - img "Boşutar Tiberiu-Nicolae" [ref=e1999]
+          - generic: AUR
+        - generic [ref=e2000]: Boşutar Tiberiu-Nicolae
+        - generic [ref=e2001]: 3.042 RON
+      - link "Corendea Cosmin-Ioan AUR Corendea Cosmin-Ioan 0 RON" [ref=e2003] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/78.json
+        - generic [ref=e2004]:
+          - img "Corendea Cosmin-Ioan" [ref=e2006]
+          - generic: AUR
+        - generic [ref=e2007]: Corendea Cosmin-Ioan
+        - generic [ref=e2008]: 0 RON
+      - link "Vadim-Tudor Lidia AUR Vadim-Tudor Lidia 0 RON" [ref=e2009] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/315.json
+        - generic [ref=e2010]:
+          - img "Vadim-Tudor Lidia" [ref=e2012]
+          - generic: AUR
+        - generic [ref=e2013]: Vadim-Tudor Lidia
+        - generic [ref=e2014]: 0 RON
+      - link "Dobre Ciprian-Minodor PNL Dobre Ciprian-Minodor 0 RON" [ref=e2015] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/92.json
+        - generic [ref=e2016]:
+          - img "Dobre Ciprian-Minodor" [ref=e2018]
+          - generic: PNL
+        - generic [ref=e2019]: Dobre Ciprian-Minodor
+        - generic [ref=e2020]: 0 RON
+      - link "Miklós Zoltán UDMR Miklós Zoltán 0 RON" [ref=e2021] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/195.json
+        - generic [ref=e2022]:
+          - img "Miklós Zoltán" [ref=e2024]
+          - generic: UDMR
+        - generic [ref=e2025]: Miklós Zoltán
+        - generic [ref=e2026]: 0 RON
+      - link "Popa Cristian-Alexandru UPR Popa Cristian-Alexandru 0 RON" [ref=e2027] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/250.json
+        - generic [ref=e2028]:
+          - img "Popa Cristian-Alexandru" [ref=e2030]
+          - generic: UPR
+        - generic [ref=e2031]: Popa Cristian-Alexandru
+        - generic [ref=e2032]: 0 RON
+      - link "Tanasă Ştefan USR Tanasă Ştefan 0 RON" [ref=e2033] [cursor=pointer]:
+        - /url: data/v1/declaratii-avere/legislatura-2024/299.json
+        - generic [ref=e2034]:
+          - img "Tanasă Ştefan" [ref=e2036]
+          - generic: USR
+        - generic [ref=e2037]: Tanasă Ştefan
+        - generic [ref=e2038]: 0 RON
+  - generic: Cruşoveanu Marian · PNL · 12M RON
+  - contentinfo [ref=e2039]:
+    - paragraph [ref=e2040]:
+      - text: Date din
+      - link "cdep.ro" [ref=e2041] [cursor=pointer]:
+        - /url: https://cdep.ro
+      - text: "· Sursa:"
+      - link "avere-deputies-2024.json" [ref=e2042] [cursor=pointer]:
+        - /url: data/v1/stats/avere-deputies-2024.json
+      - text: ·
+      - link "Averi" [ref=e2043] [cursor=pointer]:
+        - /url: avere.html?leg=2024
+      - text: ·
+      - link "Pagina principală" [ref=e2044] [cursor=pointer]:
+        - /url: index.html

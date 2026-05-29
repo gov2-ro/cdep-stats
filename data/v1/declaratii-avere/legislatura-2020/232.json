@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:46:48.226584Z",
+    "generated_at": "2026-05-29T17:30:29.930054Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 4
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-06-15",
@@ -49,11 +91,59 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 848070.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 3,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 353500.0,
+        "conturi_total_ron": 235311.51699999996,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 7,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 848070.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Subaru Forester",
+            "an_fabricatie": 2002,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Suzuki Swift",
+            "an_fabricatie": 2008,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Hyundai",
+            "an_fabricatie": 2012,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "BUCUREȘTI",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2010,
+            "sold_ron": 235311.51699999996
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 235311.51699999996,
+        "avere_neta_ron": 235311.51699999996,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2025-02-03",
@@ -63,18 +153,74 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 75750.0,
-        "venituri_anuale_ron": 379780.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 12500.0,
+        "conturi_total_ron": 111100.0,
+        "plasamente_total_ron": 75750.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 379780.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Hyundai",
+            "an_fabricatie": 2012,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Seat Cupra",
+            "an_fabricatie": 2022,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "BUCUREȘTI",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2010,
+            "sold_ron": 111100.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Suzana Lascu 15000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 75750.0
+          }
+        ],
+        "total_active_monetare_ron": 186850.0,
+        "avere_neta_ron": 186850.0,
+        "nr_judete": 0,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       }
     ],
     "ultima_data": "2025-02-03",
-    "ultima_conturi_ron": 75750.0,
+    "ultima_conturi_ron": 111100.0,
     "ultima_venituri_ron": 379780.0,
     "ultima_imobile_count": 0,
-    "delta_conturi_ron": 75750.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 75750.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 186850.0,
+    "ultima_avere_neta_ron": 186850.0,
+    "ultima_nr_judete": 0,
+    "ultima_nr_companii": 1,
+    "delta_conturi_ron": 111100.0,
     "delta_imobile": 0
   }
 }

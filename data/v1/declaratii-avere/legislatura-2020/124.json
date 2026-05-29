@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:53.972283Z",
+    "generated_at": "2026-05-29T17:27:25.669888Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-07",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-07",
@@ -49,11 +91,80 @@
         "terenuri_count": 0,
         "cladiri_count": 3,
         "suprafata_total_mp": 305.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 136490.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 305.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 572499.5,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 136490.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 65.0,
+            "judet": "Caras-",
+            "an_dobandirii": 2011,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 240.0,
+            "judet": "Caras-",
+            "an_dobandirii": 2020,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes",
+            "an_fabricatie": 2015,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 47992.0
+          },
+          {
+            "institutie": "Raiffesien Bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2011,
+            "sold_ron": 222957.5
+          },
+          {
+            "institutie": "Raiffesien Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 301550.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 572499.5,
+        "avere_neta_ron": 572499.5,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2011
       },
       {
         "data_depunere": "2023-06-12",
@@ -63,11 +174,87 @@
         "terenuri_count": 0,
         "cladiri_count": 3,
         "suprafata_total_mp": 305.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 140156.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 305.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 716414.5,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 140156.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 65.0,
+            "judet": "Caras-",
+            "an_dobandirii": 2011,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 240.0,
+            "judet": "Caras-",
+            "an_dobandirii": 2020,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes",
+            "an_fabricatie": 2015,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 133236.0
+          },
+          {
+            "institutie": "Raiffesien Bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2011,
+            "sold_ron": 260428.5
+          },
+          {
+            "institutie": "Raiffesien Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 319762.0
+          },
+          {
+            "institutie": "Raiffesien Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 2988.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 716414.5,
+        "avere_neta_ron": 716414.5,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2011
       },
       {
         "data_depunere": "2024-05-28",
@@ -77,11 +264,87 @@
         "terenuri_count": 0,
         "cladiri_count": 3,
         "suprafata_total_mp": 305.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 143374.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 305.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 829114.5,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 143374.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 65.0,
+            "judet": "Caras-",
+            "an_dobandirii": 2011,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 240.0,
+            "judet": "Caras-",
+            "an_dobandirii": 2020,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes",
+            "an_fabricatie": 2015,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 56152.0
+          },
+          {
+            "institutie": "Raiffesien Bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2011,
+            "sold_ron": 260428.5
+          },
+          {
+            "institutie": "Raiffesien Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 505500.0
+          },
+          {
+            "institutie": "Raiffesien Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 7034.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 829114.5,
+        "avere_neta_ron": 829114.5,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2011
       },
       {
         "data_depunere": "2024-12-23",
@@ -91,18 +354,101 @@
         "terenuri_count": 0,
         "cladiri_count": 3,
         "suprafata_total_mp": 305.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 143374.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 305.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 829114.5,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 143374.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 65.0,
+            "judet": "Caras-",
+            "an_dobandirii": 2011,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 240.0,
+            "judet": "Caras-",
+            "an_dobandirii": 2020,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes",
+            "an_fabricatie": 2015,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 56152.0
+          },
+          {
+            "institutie": "Raiffesien Bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2011,
+            "sold_ron": 260428.5
+          },
+          {
+            "institutie": "Raiffesien Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 505500.0
+          },
+          {
+            "institutie": "Raiffesien Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 7034.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 829114.5,
+        "avere_neta_ron": 829114.5,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2011
       }
     ],
     "ultima_data": "2024-12-23",
-    "ultima_conturi_ron": 0.0,
+    "ultima_conturi_ron": 829114.5,
     "ultima_venituri_ron": 143374.0,
     "ultima_imobile_count": 3,
-    "delta_conturi_ron": 0.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 829114.5,
+    "ultima_avere_neta_ron": 829114.5,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 0,
+    "delta_conturi_ron": 829114.5,
     "delta_imobile": 3
   }
 }

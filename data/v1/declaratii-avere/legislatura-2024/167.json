@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:05:40.672576Z",
+    "generated_at": "2026-05-29T17:22:10.270737Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 2
@@ -21,11 +21,287 @@
         "terenuri_count": 35,
         "cladiri_count": 6,
         "suprafata_total_mp": 71465.0,
-        "conturi_total_ron": 348000.0,
-        "venituri_anuale_ron": 195161.0,
-        "datorii_total_ron": 100000.0,
+        "suprafata_agricol_mp": 65993.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 3730.0,
+        "suprafata_luciu_mp": 1400.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 342.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 76500.0,
+        "plasamente_total_ron": 348000.0,
+        "datorii_total_ron": 100000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 195161.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1800.0,
+            "judet": "Bacau",
+            "an_dobandirii": 1998,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 604.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 900.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 87.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 339.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 1093.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 7000.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 5200.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 8800.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 4000.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3000.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 13400.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 14000.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 1000.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 1200.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3000.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 4300.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1400.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 170.0,
+            "judet": "Bacau",
+            "an_dobandirii": 1998,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 26.0,
+            "judet": "Bacau",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 75.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 71.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "DACIA",
+            "an_fabricatie": 2014,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 6300.0
+          },
+          {
+            "institutie": "BANK",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 22500.0
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 20900.0
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 9700.0
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 17100.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "2",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 150000.0
+          },
+          {
+            "emitent": "ROMÂNIA contribuție 2",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 198000.0
+          }
+        ],
+        "total_active_monetare_ron": 424500.0,
+        "avere_neta_ron": 324500.0,
+        "nr_judete": 1,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 12,
+        "an_prima_proprietate": 1998
       },
       {
         "data_depunere": "2025-06-03",
@@ -35,18 +311,295 @@
         "terenuri_count": 35,
         "cladiri_count": 6,
         "suprafata_total_mp": 71465.0,
-        "conturi_total_ron": 100000.0,
-        "venituri_anuale_ron": 194459.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 65993.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 3730.0,
+        "suprafata_luciu_mp": 1400.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 342.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 253200.0,
+        "plasamente_total_ron": 100000.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 194459.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1800.0,
+            "judet": "Bacau",
+            "an_dobandirii": 1998,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 604.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 900.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 87.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 339.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 1093.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 7000.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 5200.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 8800.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 4000.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3000.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 13400.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 14000.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 1000.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 1200.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3000.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 4300.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1400.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 170.0,
+            "judet": "Bacau",
+            "an_dobandirii": 1998,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 26.0,
+            "judet": "Bacau",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 75.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 71.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "DACIA DUSTER",
+            "an_fabricatie": 2014,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 6200.0
+          },
+          {
+            "institutie": "BANK",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 22500.0
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 51900.0
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 2300.0
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 170300.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Nicușor-Daniel DAN 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 100000.0
+          }
+        ],
+        "total_active_monetare_ron": 353200.0,
+        "avere_neta_ron": 353200.0,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 12,
+        "an_prima_proprietate": 1998
       }
     ],
     "ultima_data": "2025-06-03",
-    "ultima_conturi_ron": 100000.0,
+    "ultima_conturi_ron": 253200.0,
     "ultima_venituri_ron": 194459.0,
     "ultima_imobile_count": 41,
-    "delta_conturi_ron": -248000.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 100000.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 353200.0,
+    "ultima_avere_neta_ron": 353200.0,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 1,
+    "delta_conturi_ron": 176700.0,
     "delta_imobile": 0
   }
 }

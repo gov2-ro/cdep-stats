@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:54.220564Z",
+    "generated_at": "2026-05-29T17:23:41.928683Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 1
@@ -21,17 +21,262 @@
         "terenuri_count": 2,
         "cladiri_count": 7,
         "suprafata_total_mp": 2506.0,
-        "conturi_total_ron": 31477360.9,
-        "venituri_anuale_ron": 5278316.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 2000.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 506.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 2,
+        "bunuri_instrainate_total_ron": 463550.0,
+        "conturi_total_ron": 2680554.38,
+        "plasamente_total_ron": 2704661.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 5278316.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 2000.0,
+            "judet": "Prahova",
+            "an_dobandirii": 2008,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 141.0,
+            "judet": "cumpărare",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "vacanta",
+            "suprafata_mp": 120.0,
+            "judet": "Prahova",
+            "an_dobandirii": 2008,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 61.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 58.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 48.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 78.0,
+            "judet": "Buble",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "DIANA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 14119.0
+          },
+          {
+            "institutie": "DIANA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 13154.0
+          },
+          {
+            "institutie": "DIANA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 0.98
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 64800.0
+          },
+          {
+            "institutie": "BCR BUBLE IOSIF",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 36465.0
+          },
+          {
+            "institutie": "BCR BUBLE IOSIF",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 132804.9
+          },
+          {
+            "institutie": "BCR BUBLE IOSIF",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 19000.0
+          },
+          {
+            "institutie": "BCR BUBLE IOSIF",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2024,
+            "sold_ron": 50143.5
+          },
+          {
+            "institutie": "BCR BUBLE IOSIF",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 100000.0
+          },
+          {
+            "institutie": "BCR BUBLE IOSIF",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 2600.0
+          },
+          {
+            "institutie": "IOSIF",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 984.0
+          },
+          {
+            "institutie": "IOSIF",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 2190634.0
+          },
+          {
+            "institutie": "IOSIF",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 55849.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "ENVIRONMENT S.R.L.",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 260.0
+          },
+          {
+            "emitent": "Urbană și Regională",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 20000.0
+          },
+          {
+            "emitent": null,
+            "tip": null,
+            "nr_titluri": "100 %",
+            "valoare_ron": 200.0
+          },
+          {
+            "emitent": null,
+            "tip": null,
+            "nr_titluri": "100 %",
+            "valoare_ron": 200.0
+          },
+          {
+            "emitent": null,
+            "tip": null,
+            "nr_titluri": "100 %",
+            "valoare_ron": 200.0
+          },
+          {
+            "emitent": "QUELLE PR S.R.L.",
+            "tip": null,
+            "nr_titluri": "100 %",
+            "valoare_ron": 200.0
+          },
+          {
+            "emitent": "deţinute (titluri de stat, 55000",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 55000.0
+          },
+          {
+            "emitent": "deţinute (titluri de stat, 110000",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 110000.0
+          },
+          {
+            "emitent": "ENVIRONMENT S.R.L. 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 1618601.0
+          },
+          {
+            "emitent": "FINANTELOR BUBLE deţinute (titluri de stat, 900000",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 900000.0
+          }
+        ],
+        "total_active_monetare_ron": 5385215.38,
+        "avere_neta_ron": 5385215.38,
+        "nr_judete": 4,
+        "nr_companii": 10,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2008
       }
     ],
     "ultima_data": "2024-12-24",
-    "ultima_conturi_ron": 31477360.9,
+    "ultima_conturi_ron": 2680554.38,
     "ultima_venituri_ron": 5278316.0,
     "ultima_imobile_count": 9,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 2704661.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 5385215.38,
+    "ultima_avere_neta_ron": 5385215.38,
+    "ultima_nr_judete": 4,
+    "ultima_nr_companii": 10,
     "delta_conturi_ron": 0.0,
     "delta_imobile": 0
   }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:04:35.079857Z",
+    "generated_at": "2026-05-29T17:20:47.639251Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 1
@@ -21,17 +21,100 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 509.0,
-        "conturi_total_ron": 100000.0,
-        "venituri_anuale_ron": 36150.0,
-        "datorii_total_ron": 429122.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 400.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 109.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 3,
+        "bunuri_instrainate_total_ron": 705065.0,
+        "conturi_total_ron": 53789.420000000006,
+        "plasamente_total_ron": 100000.0,
+        "datorii_total_ron": 429122.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 36150.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 400.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 109.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "Garanti Bank S.A.",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 13018.12
+          },
+          {
+            "institutie": "Garanti Bank S.A.",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 21497.74
+          },
+          {
+            "institutie": "Garanti Bank S.A.",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 17559.4
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 1714.16
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Asociatia PROVILEGIO",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 100000.0
+          }
+        ],
+        "total_active_monetare_ron": 153789.42,
+        "avere_neta_ron": -275332.57999999996,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2021
       }
     ],
     "ultima_data": "2025-01-20",
-    "ultima_conturi_ron": 100000.0,
+    "ultima_conturi_ron": 53789.420000000006,
     "ultima_venituri_ron": 36150.0,
     "ultima_imobile_count": 2,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 100000.0,
+    "ultima_datorii_ron": 429122.0,
+    "ultima_total_active_ron": 153789.42,
+    "ultima_avere_neta_ron": -275332.57999999996,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 1,
     "delta_conturi_ron": 0.0,
     "delta_imobile": 0
   }

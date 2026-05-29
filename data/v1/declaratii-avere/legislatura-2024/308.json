@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:53.817062Z",
+    "generated_at": "2026-05-29T17:23:41.408671Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 2
@@ -21,11 +21,253 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 4172.0,
-        "conturi_total_ron": 459930.0,
-        "venituri_anuale_ron": 766202.0,
-        "datorii_total_ron": 80322.0,
+        "suprafata_agricol_mp": 3000.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 1000.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 172.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 139885.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 1994168.0999999999,
+        "plasamente_total_ron": 459930.0,
+        "datorii_total_ron": 80322.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 766202.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3000.0,
+            "judet": "Contract",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1000.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 102.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 70.0,
+            "judet": "Contract",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "BRD",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 26746.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 2110.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 40400.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 48639.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 161302.05
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 24130.0
+          },
+          {
+            "institutie": "BCR Asigurari",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 23450.0
+          },
+          {
+            "institutie": "BCR Asigurari",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 6718.0
+          },
+          {
+            "institutie": "BCR Asigurari",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 170000.0
+          },
+          {
+            "institutie": "Raluca Turcan",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 508110.8
+          },
+          {
+            "institutie": "NN Asigurari",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 50000.0
+          },
+          {
+            "institutie": "NN Asigurari",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 108294.0
+          },
+          {
+            "institutie": "NN Asigurari",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 40000.0
+          },
+          {
+            "institutie": "NN Asigurari",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 599010.7999999999
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 31759.449999999997
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 3000.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2024,
+            "sold_ron": 25502.5
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2024,
+            "sold_ron": 4595.5
+          },
+          {
+            "institutie": "PENSIEPILON2VT",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2000,
+            "sold_ron": 115000.0
+          },
+          {
+            "institutie": "PENSIEPILON2VT",
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2024,
+            "sold_ron": 5400.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "1911",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 1230.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "98 %",
+            "valoare_ron": 2200.0
+          },
+          {
+            "emitent": "Valeriu Turcan SC Acţiuni sau părţi sociale",
+            "tip": null,
+            "nr_titluri": "50 %",
+            "valoare_ron": 1000.0
+          },
+          {
+            "emitent": null,
+            "tip": null,
+            "nr_titluri": "100 %",
+            "valoare_ron": 500.0
+          },
+          {
+            "emitent": "Titluri de Stat Fidelis deţinute (titluri de stat, 180",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 200000.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 55000.0
+          },
+          {
+            "emitent": "PNL 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 200000.0
+          }
+        ],
+        "total_active_monetare_ron": 2593983.0999999996,
+        "avere_neta_ron": 2513661.0999999996,
+        "nr_judete": 3,
+        "nr_companii": 7,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 1,
+        "an_prima_proprietate": 2006
       },
       {
         "data_depunere": "2025-06-05",
@@ -35,18 +277,275 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 4172.0,
-        "conturi_total_ron": 259930.0,
-        "venituri_anuale_ron": 766202.0,
-        "datorii_total_ron": 20700.0,
+        "suprafata_agricol_mp": 3000.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 1000.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 172.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 152005.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 2675853.2,
+        "plasamente_total_ron": 259930.0,
+        "datorii_total_ron": 20700.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 766202.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3000.0,
+            "judet": "Contract",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1000.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 102.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 70.0,
+            "judet": "Contract",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "BRD",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 20000.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 4000.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 20200.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 38608.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 163877.55
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 25080.0
+          },
+          {
+            "institutie": "BCR Asigurari",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 25000.0
+          },
+          {
+            "institutie": "BCR Asigurari",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 7100.0
+          },
+          {
+            "institutie": "BCR Asigurari",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 170400.0
+          },
+          {
+            "institutie": "Raluca Turcan",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 505000.0
+          },
+          {
+            "institutie": "NN Asigurari",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 50000.0
+          },
+          {
+            "institutie": "NN Asigurari",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 6500.0
+          },
+          {
+            "institutie": "NN Asigurari",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 415921.0
+          },
+          {
+            "institutie": "NN Asigurari",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 468074.39999999997
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2025,
+            "sold_ron": 3800.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 200000.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2025,
+            "sold_ron": 278002.5
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2024,
+            "sold_ron": 10625.199999999999
+          },
+          {
+            "institutie": "PENSIEPILON2VT",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2000,
+            "sold_ron": 124239.0
+          },
+          {
+            "institutie": "PENSIEPILON2VT",
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2024,
+            "sold_ron": 37359.0
+          },
+          {
+            "institutie": "PENSIEPILON2VT",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2025,
+            "sold_ron": 4950.0
+          },
+          {
+            "institutie": "Unicredit",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2025,
+            "sold_ron": 97116.55
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "1911",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 1230.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "98 %",
+            "valoare_ron": 2200.0
+          },
+          {
+            "emitent": null,
+            "tip": null,
+            "nr_titluri": "50 %",
+            "valoare_ron": 1000.0
+          },
+          {
+            "emitent": null,
+            "tip": null,
+            "nr_titluri": "100 %",
+            "valoare_ron": 500.0
+          },
+          {
+            "emitent": "Titluri de Stat Fidelis deţinute (titluri de stat, 180",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 200000.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 55000.0
+          }
+        ],
+        "total_active_monetare_ron": 3087788.2,
+        "avere_neta_ron": 3067088.2,
+        "nr_judete": 3,
+        "nr_companii": 6,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 1,
+        "an_prima_proprietate": 2006
       }
     ],
     "ultima_data": "2025-06-05",
-    "ultima_conturi_ron": 259930.0,
+    "ultima_conturi_ron": 2675853.2,
     "ultima_venituri_ron": 766202.0,
     "ultima_imobile_count": 4,
-    "delta_conturi_ron": -200000.0,
+    "ultima_bijuterii_ron": 152005.0,
+    "ultima_plasamente_ron": 259930.0,
+    "ultima_datorii_ron": 20700.0,
+    "ultima_total_active_ron": 3087788.2,
+    "ultima_avere_neta_ron": 3067088.2,
+    "ultima_nr_judete": 3,
+    "ultima_nr_companii": 6,
+    "delta_conturi_ron": 681685.1000000003,
     "delta_imobile": 0
   }
 }

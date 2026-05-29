@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:05:15.473891Z",
+    "generated_at": "2026-05-29T17:21:37.829417Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 2
@@ -21,11 +21,181 @@
         "terenuri_count": 22,
         "cladiri_count": 4,
         "suprafata_total_mp": 36802.799999999996,
-        "conturi_total_ron": 225060.0,
-        "venituri_anuale_ron": 421513.0,
-        "datorii_total_ron": 48508.0,
+        "suprafata_agricol_mp": 22300.0,
+        "suprafata_forestier_mp": 5000.0,
+        "suprafata_intravilan_mp": 1014.0,
+        "suprafata_luciu_mp": 11.6,
+        "suprafata_alte_mp": 8000.0,
+        "suprafata_cladiri_mp": 447.2,
         "auto_count": 3,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 25250.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 15655.0,
+        "plasamente_total_ron": 225060.0,
+        "datorii_total_ron": 48508.0,
+        "cadouri_total_ron": 50000.0,
+        "venituri_anuale_ron": 421513.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "forestier",
+            "suprafata_mp": 5000.0,
+            "judet": "Vrancea",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 2000.0,
+            "judet": "Vrancea",
+            "an_dobandirii": 2000,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3500.0,
+            "judet": "Neamt",
+            "an_dobandirii": 2002,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 514.0,
+            "judet": "Prahova",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 9100.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 7700.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 8000.0,
+            "judet": "de",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/10",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 500.0,
+            "judet": "Venera",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/10",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 11.6,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2024,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 174.0,
+            "judet": "Contract",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 200.0,
+            "judet": "locuit",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/10",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 73.2,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2024,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Dacia Logan",
+            "an_fabricatie": 2006,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "1",
+            "an_fabricatie": 2022,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Ploiesti",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 15655.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "SC ARPACOR SA 3390",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 27060.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 198000.0
+          }
+        ],
+        "total_active_monetare_ron": 265965.0,
+        "avere_neta_ron": 217457.0,
+        "nr_judete": 9,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 1,
+        "terenuri_agricole_count": 4,
+        "an_prima_proprietate": 2000
       },
       {
         "data_depunere": "2025-06-11",
@@ -35,18 +205,203 @@
         "terenuri_count": 22,
         "cladiri_count": 4,
         "suprafata_total_mp": 36802.799999999996,
-        "conturi_total_ron": 27060.0,
-        "venituri_anuale_ron": 468470.0,
-        "datorii_total_ron": 137495.0,
+        "suprafata_agricol_mp": 22300.0,
+        "suprafata_forestier_mp": 5000.0,
+        "suprafata_intravilan_mp": 1014.0,
+        "suprafata_luciu_mp": 11.6,
+        "suprafata_alte_mp": 8000.0,
+        "suprafata_cladiri_mp": 447.2,
         "auto_count": 3,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 25250.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 180000.0,
+        "plasamente_total_ron": 27060.0,
+        "datorii_total_ron": 137495.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 468470.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "forestier",
+            "suprafata_mp": 5000.0,
+            "judet": "Vrancea",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 2000.0,
+            "judet": "Vrancea",
+            "an_dobandirii": 2000,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3500.0,
+            "judet": "Neamt",
+            "an_dobandirii": 2002,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 514.0,
+            "judet": "Prahova",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 9100.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 7700.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 8000.0,
+            "judet": "de",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/10",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 500.0,
+            "judet": "Venera",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/10",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 11.6,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2024,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 174.0,
+            "judet": "Contract",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 200.0,
+            "judet": "locuit",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/10",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 73.2,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2024,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Dacia Logan",
+            "an_fabricatie": 2006,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "1",
+            "an_fabricatie": 2022,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2025,
+            "sold_ron": 50000.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2025,
+            "sold_ron": 110000.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2025,
+            "sold_ron": 20000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "SC ARPACOR SA 3390",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 27060.0
+          }
+        ],
+        "total_active_monetare_ron": 232310.0,
+        "avere_neta_ron": 94815.0,
+        "nr_judete": 9,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 1,
+        "terenuri_agricole_count": 4,
+        "an_prima_proprietate": 2000
       }
     ],
     "ultima_data": "2025-06-11",
-    "ultima_conturi_ron": 27060.0,
+    "ultima_conturi_ron": 180000.0,
     "ultima_venituri_ron": 468470.0,
     "ultima_imobile_count": 26,
-    "delta_conturi_ron": -198000.0,
+    "ultima_bijuterii_ron": 25250.0,
+    "ultima_plasamente_ron": 27060.0,
+    "ultima_datorii_ron": 137495.0,
+    "ultima_total_active_ron": 232310.0,
+    "ultima_avere_neta_ron": 94815.0,
+    "ultima_nr_judete": 9,
+    "ultima_nr_companii": 1,
+    "delta_conturi_ron": 164345.0,
     "delta_imobile": 0
   }
 }

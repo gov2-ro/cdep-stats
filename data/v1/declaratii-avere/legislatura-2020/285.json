@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:52:32.815526Z",
+    "generated_at": "2026-05-29T17:31:54.625536Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 7
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-02-04",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-09",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-05-19",
@@ -63,11 +126,147 @@
         "terenuri_count": 3,
         "cladiri_count": 5,
         "suprafata_total_mp": 8379.94,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 680277.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2500.0,
+        "suprafata_luciu_mp": 473.0,
+        "suprafata_alte_mp": 4999.0,
+        "suprafata_cladiri_mp": 407.94,
+        "auto_count": 2,
+        "bijuterii_total_ron": 75750.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 49000.0,
+        "conturi_total_ron": 21891.0645,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 680277.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 4999.0,
+            "judet": "Olt",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2500.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 473.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 35.26,
+            "judet": "Ilfov",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 70.68,
+            "judet": "Ilfov",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 102.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 102.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 98.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2011,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2013,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 21424.15
+          },
+          {
+            "institutie": "Dezvoltare",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 38.43
+          },
+          {
+            "institutie": "Dezvoltare",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 419.95
+          },
+          {
+            "institutie": "Dezvoltare",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2012,
+            "sold_ron": 8.5345
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 97641.06450000001,
+        "avere_neta_ron": 97641.06450000001,
+        "nr_judete": 4,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2016
       },
       {
         "data_depunere": "2023-06-13",
@@ -77,11 +276,141 @@
         "terenuri_count": 3,
         "cladiri_count": 5,
         "suprafata_total_mp": 8379.94,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 1023202.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2500.0,
+        "suprafata_luciu_mp": 473.0,
+        "suprafata_alte_mp": 4999.0,
+        "suprafata_cladiri_mp": 407.94,
+        "auto_count": 1,
+        "bijuterii_total_ron": 95950.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 48000.0,
+        "conturi_total_ron": 24171.769,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1023202.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 4999.0,
+            "judet": "Olt",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2500.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 473.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 35.26,
+            "judet": "Ilfov",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 70.68,
+            "judet": "Ilfov",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 102.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 102.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 98.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2011,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 4992.98
+          },
+          {
+            "institutie": "Dezvoltare",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 8.27
+          },
+          {
+            "institutie": "Dezvoltare",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 19167.59
+          },
+          {
+            "institutie": "Dezvoltare",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2012,
+            "sold_ron": 2.929
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 120121.769,
+        "avere_neta_ron": 120121.769,
+        "nr_judete": 4,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2016
       },
       {
         "data_depunere": "2024-06-13",
@@ -91,11 +420,150 @@
         "terenuri_count": 4,
         "cladiri_count": 5,
         "suprafata_total_mp": 8505.68,
-        "conturi_total_ron": 100000.0,
-        "venituri_anuale_ron": 312996.0,
+        "suprafata_agricol_mp": 473.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2500.0,
+        "suprafata_luciu_mp": 105.0,
+        "suprafata_alte_mp": 4999.0,
+        "suprafata_cladiri_mp": 428.68,
+        "auto_count": 1,
+        "bijuterii_total_ron": 95950.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 479750.0,
+        "conturi_total_ron": 34846.5,
+        "plasamente_total_ron": 100000.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 312996.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 4999.0,
+            "judet": "Olt",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2500.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 473.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 105.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 70.68,
+            "judet": "Ilfov",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 102.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 102.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 98.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 56.0,
+            "judet": "locuit",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2011,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 34354.0
+          },
+          {
+            "institutie": "Dezvoltare",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 442.0
+          },
+          {
+            "institutie": "Dezvoltare",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2012,
+            "sold_ron": 50.5
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "-",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 100000.0
+          }
+        ],
+        "total_active_monetare_ron": 230796.5,
+        "avere_neta_ron": 230796.5,
+        "nr_judete": 6,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 1,
+        "an_prima_proprietate": 2016
       },
       {
         "data_depunere": "2025-01-16",
@@ -105,18 +573,146 @@
         "terenuri_count": 5,
         "cladiri_count": 2,
         "suprafata_total_mp": 8631.0,
-        "conturi_total_ron": 197000.0,
-        "venituri_anuale_ron": 383823.0,
+        "suprafata_agricol_mp": 473.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2605.0,
+        "suprafata_luciu_mp": 400.0,
+        "suprafata_alte_mp": 4999.0,
+        "suprafata_cladiri_mp": 154.0,
+        "auto_count": 0,
+        "bijuterii_total_ron": 95950.0,
+        "bunuri_instrainate_count": 5,
+        "bunuri_instrainate_total_ron": 1490199.0,
+        "conturi_total_ron": 77661.65,
+        "plasamente_total_ron": 197000.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 4,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 383823.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 4999.0,
+            "judet": "Olt",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2500.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 473.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 105.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 400.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 98.0,
+            "judet": "Bacau",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 56.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 35335.0
+          },
+          {
+            "institutie": "Dezvoltare",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 3.0
+          },
+          {
+            "institutie": "Dezvoltare",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 22462.0
+          },
+          {
+            "institutie": "Dezvoltare",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2012,
+            "sold_ron": 19861.649999999998
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Românilor-contribuție",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 197000.0
+          }
+        ],
+        "total_active_monetare_ron": 370611.65,
+        "avere_neta_ron": 370611.65,
+        "nr_judete": 5,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 1,
+        "an_prima_proprietate": 2016
       }
     ],
     "ultima_data": "2025-01-16",
-    "ultima_conturi_ron": 197000.0,
+    "ultima_conturi_ron": 77661.65,
     "ultima_venituri_ron": 383823.0,
     "ultima_imobile_count": 7,
-    "delta_conturi_ron": 197000.0,
+    "ultima_bijuterii_ron": 95950.0,
+    "ultima_plasamente_ron": 197000.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 370611.65,
+    "ultima_avere_neta_ron": 370611.65,
+    "ultima_nr_judete": 5,
+    "ultima_nr_companii": 1,
+    "delta_conturi_ron": 77661.65,
     "delta_imobile": 7
   }
 }

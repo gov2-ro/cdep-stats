@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:07:32.979852Z",
+    "generated_at": "2026-05-29T17:28:14.200288Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-02",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-08",
@@ -49,11 +91,193 @@
         "terenuri_count": 8,
         "cladiri_count": 7,
         "suprafata_total_mp": 40854.520000000004,
-        "conturi_total_ron": 171132.0,
-        "venituri_anuale_ron": 154249.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 9471.0,
+        "suprafata_luciu_mp": 4100.0,
+        "suprafata_alte_mp": 26356.0,
+        "suprafata_cladiri_mp": 927.5200000000001,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 55550.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 145540.0,
+        "plasamente_total_ron": 171132.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 154249.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 506.0,
+            "judet": "Prahova",
+            "an_dobandirii": 1991,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 470.0,
+            "judet": "IONESCU",
+            "an_dobandirii": 1995,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 3880.0,
+            "judet": "Contract",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 3738.0,
+            "judet": "IONESCU",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 877.0,
+            "judet": "IONESCU",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 16456.0,
+            "judet": "Alte",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 9900.0,
+            "judet": "de",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 4100.0,
+            "judet": "Alte",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 229.8,
+            "judet": "IONESCU",
+            "an_dobandirii": 1996,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 83.12,
+            "judet": "IONESCU",
+            "an_dobandirii": 1996,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 46.78,
+            "judet": "Prahova",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 296.68,
+            "judet": "IONESCU",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 211.97,
+            "judet": "IONESCU",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 59.17,
+            "judet": "Apartament",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "MERCEDES",
+            "an_fabricatie": 2012,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 145540.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "S.C CONPET SA 40",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 132.0
+          },
+          {
+            "emitent": "S.C GENIC S.R.L 80000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 80000.0
+          },
+          {
+            "emitent": "91000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 91000.0
+          }
+        ],
+        "total_active_monetare_ron": 372222.0,
+        "avere_neta_ron": 372222.0,
+        "nr_judete": 6,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1991
       },
       {
         "data_depunere": "2023-06-12",
@@ -63,11 +287,199 @@
         "terenuri_count": 8,
         "cladiri_count": 7,
         "suprafata_total_mp": 40854.520000000004,
-        "conturi_total_ron": 331132.0,
-        "venituri_anuale_ron": 163436.0,
-        "datorii_total_ron": 50000.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 9471.0,
+        "suprafata_luciu_mp": 4100.0,
+        "suprafata_alte_mp": 26356.0,
+        "suprafata_cladiri_mp": 927.5200000000001,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 55550.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 73988.0,
+        "plasamente_total_ron": 331132.0,
+        "datorii_total_ron": 50000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 163436.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 506.0,
+            "judet": "Prahova",
+            "an_dobandirii": 1991,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 470.0,
+            "judet": "IONESCU",
+            "an_dobandirii": 1995,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 3880.0,
+            "judet": "Contract",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 3738.0,
+            "judet": "IONESCU",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 877.0,
+            "judet": "IONESCU",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 16456.0,
+            "judet": "Alte",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 9900.0,
+            "judet": "de",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 4100.0,
+            "judet": "Alte",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 229.8,
+            "judet": "IONESCU",
+            "an_dobandirii": 1996,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 83.12,
+            "judet": "IONESCU",
+            "an_dobandirii": 1996,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 46.78,
+            "judet": "Prahova",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 296.68,
+            "judet": "IONESCU",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 211.97,
+            "judet": "IONESCU",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 59.17,
+            "judet": "Apartament",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "MERCEDES",
+            "an_fabricatie": 2012,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 73988.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "S.C CONPET SA 40",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 132.0
+          },
+          {
+            "emitent": "S.C GENIC S.R.L 80000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 80000.0
+          },
+          {
+            "emitent": "236000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 236000.0
+          },
+          {
+            "emitent": "Partidul Forta Dreptei 15000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 15000.0
+          }
+        ],
+        "total_active_monetare_ron": 460670.0,
+        "avere_neta_ron": 410670.0,
+        "nr_judete": 6,
+        "nr_companii": 4,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1991
       },
       {
         "data_depunere": "2024-06-13",
@@ -77,11 +489,184 @@
         "terenuri_count": 8,
         "cladiri_count": 6,
         "suprafata_total_mp": 42479.6,
-        "conturi_total_ron": 203432.0,
-        "venituri_anuale_ron": 167494.0,
-        "datorii_total_ron": 50000.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 10857.0,
+        "suprafata_luciu_mp": 4100.0,
+        "suprafata_alte_mp": 26356.0,
+        "suprafata_cladiri_mp": 1166.6000000000001,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 55550.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 84326.0,
+        "plasamente_total_ron": 203432.0,
+        "datorii_total_ron": 50000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 167494.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 506.0,
+            "judet": "Prahova",
+            "an_dobandirii": 1991,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1856.0,
+            "judet": "Prahova",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 3880.0,
+            "judet": "Intravilan",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 3738.0,
+            "judet": "IONESCU",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 877.0,
+            "judet": "IONESCU",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 16456.0,
+            "judet": "Alte",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 9900.0,
+            "judet": "de",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 4100.0,
+            "judet": "Alte",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 552.0,
+            "judet": "Prahova",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 46.78,
+            "judet": "Prahova",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 296.68,
+            "judet": "IONESCU",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 211.97,
+            "judet": "IONESCU",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 59.17,
+            "judet": "IONESCU",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "MERCEDES",
+            "an_fabricatie": 2012,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 84326.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "S.C CONPET SA 40",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 132.0
+          },
+          {
+            "emitent": "S.C GENIC S.R.L 0",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 70000.0
+          },
+          {
+            "emitent": "0",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 133300.0
+          }
+        ],
+        "total_active_monetare_ron": 343308.0,
+        "avere_neta_ron": 293308.0,
+        "nr_judete": 5,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1991
       },
       {
         "data_depunere": "2025-01-27",
@@ -91,18 +676,192 @@
         "terenuri_count": 8,
         "cladiri_count": 6,
         "suprafata_total_mp": 42479.6,
-        "conturi_total_ron": 98832.0,
-        "venituri_anuale_ron": 167789.0,
-        "datorii_total_ron": 900000.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 10857.0,
+        "suprafata_luciu_mp": 4100.0,
+        "suprafata_alte_mp": 26356.0,
+        "suprafata_cladiri_mp": 1166.6000000000001,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 55550.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 220315.0,
+        "plasamente_total_ron": 98832.0,
+        "datorii_total_ron": 900000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 167789.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 506.0,
+            "judet": "Prahova",
+            "an_dobandirii": 1991,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1856.0,
+            "judet": "Prahova",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 3880.0,
+            "judet": "Intravilan",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 3738.0,
+            "judet": "IONESCU",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 877.0,
+            "judet": "IONESCU",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 16456.0,
+            "judet": "Alte",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 9900.0,
+            "judet": "de",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 4100.0,
+            "judet": "Alte",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 552.0,
+            "judet": "Prahova",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 46.78,
+            "judet": "Prahova",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 296.68,
+            "judet": "IONESCU",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 211.97,
+            "judet": "IONESCU",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 59.17,
+            "judet": "IONESCU",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "MERCEDES",
+            "an_fabricatie": 2012,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 220315.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "S.C CONPET SA 40",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 132.0
+          },
+          {
+            "emitent": "98700",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 98700.0
+          }
+        ],
+        "total_active_monetare_ron": 374697.0,
+        "avere_neta_ron": -525303.0,
+        "nr_judete": 5,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1991
       }
     ],
     "ultima_data": "2025-01-27",
-    "ultima_conturi_ron": 98832.0,
+    "ultima_conturi_ron": 220315.0,
     "ultima_venituri_ron": 167789.0,
     "ultima_imobile_count": 14,
-    "delta_conturi_ron": 98832.0,
+    "ultima_bijuterii_ron": 55550.0,
+    "ultima_plasamente_ron": 98832.0,
+    "ultima_datorii_ron": 900000.0,
+    "ultima_total_active_ron": 374697.0,
+    "ultima_avere_neta_ron": -525303.0,
+    "ultima_nr_judete": 5,
+    "ultima_nr_companii": 2,
+    "delta_conturi_ron": 220315.0,
     "delta_imobile": 14
   }
 }

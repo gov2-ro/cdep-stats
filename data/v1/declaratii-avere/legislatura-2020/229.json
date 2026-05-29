@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:46:31.290740Z",
+    "generated_at": "2026-05-29T17:30:25.989137Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 7
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-01-13",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-05-31",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-14",
@@ -63,11 +126,89 @@
         "terenuri_count": 2,
         "cladiri_count": 1,
         "suprafata_total_mp": 1807.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 268055.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 764.0,
+        "suprafata_luciu_mp": 775.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 268.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 48906.93,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 273156.9365,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 268055.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 764.0,
+            "judet": "Vaslui",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 775.0,
+            "judet": "Vaslui",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/6",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 268.0,
+            "judet": "Vaslui",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "DACIA LOGAN VAN",
+            "an_fabricatie": 2007,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 48880.5
+          },
+          {
+            "institutie": "REVOLUT BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 17.37
+          },
+          {
+            "institutie": "REVOLUT BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 9.06
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 48906.93,
+        "avere_neta_ron": -224250.00650000002,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2016
       },
       {
         "data_depunere": "2023-05-23",
@@ -77,11 +218,115 @@
         "terenuri_count": 2,
         "cladiri_count": 1,
         "suprafata_total_mp": 1807.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 219509.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 764.0,
+        "suprafata_luciu_mp": 775.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 268.0,
+        "auto_count": 3,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 64856.58,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 273156.9365,
-        "auto_count": 7,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 219509.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 764.0,
+            "judet": "Vaslui",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 775.0,
+            "judet": "Vaslui",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/6",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 268.0,
+            "judet": "Vaslui",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "DACIA LOGAN VAN",
+            "an_fabricatie": 2007,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "SKODA SUPERB",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "SEAT IBIZA",
+            "an_fabricatie": 2012,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 32956.11
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 3944.04
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 7.03
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 13822.74
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 14126.66
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 64856.58,
+        "avere_neta_ron": -208300.3565,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2016
       },
       {
         "data_depunere": "2024-06-15",
@@ -91,11 +336,147 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 398250.0,
-        "venituri_anuale_ron": 190664.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 2,
+        "bunuri_instrainate_total_ron": 1026350.0,
+        "conturi_total_ron": 829470.929,
+        "plasamente_total_ron": 398250.0,
         "datorii_total_ron": 97569.66,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 190664.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "SKODA SUPERB",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "SEAT IBIZA",
+            "an_fabricatie": 2012,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 12655.04
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 6000.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 16942.74
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 17246.66
+          },
+          {
+            "institutie": "CEC BANK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 10805.04
+          },
+          {
+            "institutie": "CEC BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 600.0
+          },
+          {
+            "institutie": "CEC BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 15029.65
+          },
+          {
+            "institutie": "ROMANA",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 500000.0
+          },
+          {
+            "institutie": "ROMANA",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 250000.0
+          },
+          {
+            "institutie": "CEC BANK",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 191.79899999999998
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 185000.0
+          },
+          {
+            "emitent": "Minica Marius Vasile",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 10000.0
+          },
+          {
+            "emitent": "Smeria Viorel",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 10000.0
+          },
+          {
+            "emitent": "Curpan Alina Carmen",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 16500.0
+          },
+          {
+            "emitent": "deţinute (titluri de stat, 350",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 176750.0
+          }
+        ],
+        "total_active_monetare_ron": 1227720.929,
+        "avere_neta_ron": 1130151.269,
+        "nr_judete": 0,
+        "nr_companii": 5,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2025-01-17",
@@ -105,18 +486,135 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 1203765.0,
-        "venituri_anuale_ron": 602477.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 234683.07899999997,
+        "plasamente_total_ron": 1203765.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 602477.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "SKODA SUPERB",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "SEAT IBIZA",
+            "an_fabricatie": 2012,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 9455.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 6000.0
+          },
+          {
+            "institutie": "AEGON ROMANIA",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 17863.0
+          },
+          {
+            "institutie": "AEGON ROMANIA",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 18169.0
+          },
+          {
+            "institutie": "CEC BANK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 9646.0
+          },
+          {
+            "institutie": "CEC BANK",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2024,
+            "sold_ron": 158583.12999999998
+          },
+          {
+            "institutie": "CEC BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 14962.0
+          },
+          {
+            "institutie": "CEC BANK",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 4.949
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Persoana Fizica",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 49765.0
+          },
+          {
+            "emitent": "MINISTERUL DE FINANTE deţinute (titluri de stat, 800",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 404000.0
+          },
+          {
+            "emitent": "MINISTERUL DE FINANTE deţinute (titluri de stat, 7500",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 750000.0
+          }
+        ],
+        "total_active_monetare_ron": 1438448.079,
+        "avere_neta_ron": 1438448.079,
+        "nr_judete": 0,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       }
     ],
     "ultima_data": "2025-01-17",
-    "ultima_conturi_ron": 1203765.0,
+    "ultima_conturi_ron": 234683.07899999997,
     "ultima_venituri_ron": 602477.0,
     "ultima_imobile_count": 0,
-    "delta_conturi_ron": 1203765.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 1203765.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 1438448.079,
+    "ultima_avere_neta_ron": 1438448.079,
+    "ultima_nr_judete": 0,
+    "ultima_nr_companii": 3,
+    "delta_conturi_ron": 234683.07899999997,
     "delta_imobile": 0
   }
 }

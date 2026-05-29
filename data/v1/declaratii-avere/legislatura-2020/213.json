@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:44:50.925944Z",
+    "generated_at": "2026-05-29T17:30:00.435271Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-09",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-16",
@@ -49,11 +91,190 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 875.0,
-        "conturi_total_ron": 549725.0,
-        "venituri_anuale_ron": 198177.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 435.0,
+        "suprafata_luciu_mp": 175.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 265.0,
+        "auto_count": 3,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 2,
+        "bunuri_instrainate_total_ron": 102515.0,
+        "conturi_total_ron": 155181.9,
+        "plasamente_total_ron": 549725.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 198177.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 435.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2008,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 175.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 214.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 51.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autovehicul",
+            "marca": "AIXAM",
+            "an_fabricatie": 2022,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 19205.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 20000.0
+          },
+          {
+            "institutie": "ROMANA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 300.0
+          },
+          {
+            "institutie": "ROMANA",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2009,
+            "sold_ron": 8297.15
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2018,
+            "sold_ron": 29277.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 1987,
+            "sold_ron": 5444.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2009,
+            "sold_ron": 56534.75
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 3430.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 2344.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2016,
+            "sold_ron": 10350.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "BERILA ADRIANA",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 25250.0
+          },
+          {
+            "emitent": "MOISUC LUCIAN",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 150000.0
+          },
+          {
+            "emitent": "PRAJESCU LIVIU",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 75000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 100000.0
+          },
+          {
+            "emitent": "AGRIGOROAEI IONEL",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 199475.0
+          }
+        ],
+        "total_active_monetare_ron": 704906.9,
+        "avere_neta_ron": 704906.9,
+        "nr_judete": 1,
+        "nr_companii": 5,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2008
       },
       {
         "data_depunere": "2023-06-14",
@@ -63,11 +284,178 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 1893.0,
-        "conturi_total_ron": 716515.0,
-        "venituri_anuale_ron": 196452.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 613.0,
+        "suprafata_luciu_mp": 1015.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 265.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 2,
+        "bunuri_instrainate_total_ron": 240515.0,
+        "conturi_total_ron": 196985.3,
+        "plasamente_total_ron": 716515.0,
         "datorii_total_ron": 379394.4,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 196452.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 613.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2008,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1015.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 214.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 51.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "AIXAM",
+            "an_fabricatie": 2022,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 24481.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 20000.0
+          },
+          {
+            "institutie": "ROMANA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 10482.0
+          },
+          {
+            "institutie": "ROMANA",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2009,
+            "sold_ron": 20230.3
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2018,
+            "sold_ron": 25353.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 5444.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2009,
+            "sold_ron": 80800.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 3997.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 1500.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2016,
+            "sold_ron": 4698.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "BERILA ADRIANA",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 35350.0
+          },
+          {
+            "emitent": "MOISUC LUCIAN",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 150000.0
+          },
+          {
+            "emitent": "PRAJESCU LIVIU",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 82500.0
+          },
+          {
+            "emitent": "AGRIGOROAEI IONEL",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 199475.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 249190.0
+          }
+        ],
+        "total_active_monetare_ron": 913500.3,
+        "avere_neta_ron": 534105.9,
+        "nr_judete": 1,
+        "nr_companii": 5,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2008
       },
       {
         "data_depunere": "2024-04-17",
@@ -77,11 +465,178 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 1893.0,
-        "conturi_total_ron": 754617.0,
-        "venituri_anuale_ron": 226572.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 613.0,
+        "suprafata_luciu_mp": 1015.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 265.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 191173.8,
+        "plasamente_total_ron": 754617.0,
         "datorii_total_ron": 379394.4,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 226572.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 613.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2008,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1015.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 214.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 51.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "AIXAM",
+            "an_fabricatie": 2022,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 48058.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 20000.0
+          },
+          {
+            "institutie": "ROMANA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 187.0
+          },
+          {
+            "institutie": "ROMANA",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2009,
+            "sold_ron": 3792.5499999999997
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2018,
+            "sold_ron": 25173.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 51778.0
+          },
+          {
+            "institutie": "BANK",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2009,
+            "sold_ron": 36183.25
+          },
+          {
+            "institutie": "BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 1298.0
+          },
+          {
+            "institutie": "BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 6.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2016,
+            "sold_ron": 4698.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "BERILA ADRIANA",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 35350.0
+          },
+          {
+            "emitent": "MOISUC LUCIAN",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 150000.0
+          },
+          {
+            "emitent": "PRAJESCU LIVIU",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 82500.0
+          },
+          {
+            "emitent": "AGRIGOROAEI IONEL",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 199475.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 287292.0
+          }
+        ],
+        "total_active_monetare_ron": 945790.8,
+        "avere_neta_ron": 566396.4,
+        "nr_judete": 1,
+        "nr_companii": 5,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2008
       },
       {
         "data_depunere": "2024-11-25",
@@ -91,18 +646,191 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 1893.0,
-        "conturi_total_ron": 894618.0,
-        "venituri_anuale_ron": 226572.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 613.0,
+        "suprafata_luciu_mp": 1015.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 265.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 173758.85,
+        "plasamente_total_ron": 894618.0,
         "datorii_total_ron": 589935.95,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 226572.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 613.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2008,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1015.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 214.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 51.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "AIXAM",
+            "an_fabricatie": 2022,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 89186.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 20000.0
+          },
+          {
+            "institutie": "ROMANA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 33.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2018,
+            "sold_ron": 15957.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 768.0
+          },
+          {
+            "institutie": "BANK",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2009,
+            "sold_ron": 26143.85
+          },
+          {
+            "institutie": "BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 6648.0
+          },
+          {
+            "institutie": "BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 11873.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2016,
+            "sold_ron": 3150.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "BERILA ADRIANA",
+            "tip": "imprumut",
+            "nr_titluri": "1 %",
+            "valoare_ron": 35350.0
+          },
+          {
+            "emitent": "MOISUC LUCIAN",
+            "tip": "imprumut",
+            "nr_titluri": "1 %",
+            "valoare_ron": 50000.0
+          },
+          {
+            "emitent": "PRAJESCU LIVIU",
+            "tip": "imprumut",
+            "nr_titluri": "1 %",
+            "valoare_ron": 82500.0
+          },
+          {
+            "emitent": "AGRIGOROAEI IONEL",
+            "tip": "imprumut",
+            "nr_titluri": "1 %",
+            "valoare_ron": 199475.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "1 %",
+            "valoare_ron": 427292.0
+          },
+          {
+            "emitent": "SCUTARU SILVIU 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 100001.0
+          }
+        ],
+        "total_active_monetare_ron": 1068376.85,
+        "avere_neta_ron": 478440.90000000014,
+        "nr_judete": 1,
+        "nr_companii": 6,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2008
       }
     ],
     "ultima_data": "2024-11-25",
-    "ultima_conturi_ron": 894618.0,
+    "ultima_conturi_ron": 173758.85,
     "ultima_venituri_ron": 226572.0,
     "ultima_imobile_count": 4,
-    "delta_conturi_ron": 894618.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 894618.0,
+    "ultima_datorii_ron": 589935.95,
+    "ultima_total_active_ron": 1068376.85,
+    "ultima_avere_neta_ron": 478440.90000000014,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 6,
+    "delta_conturi_ron": 173758.85,
     "delta_imobile": 4
   }
 }

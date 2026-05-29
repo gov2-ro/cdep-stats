@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:04:42.808008Z",
+    "generated_at": "2026-05-29T17:20:57.171621Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 1
@@ -21,17 +21,81 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 25250.0,
-        "datorii_total_ron": 85850.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 101000.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 82626.95,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 85850.0,
+        "cadouri_total_ron": 124230.0,
+        "venituri_anuale_ron": 25250.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "kia",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 17083.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 6070.099999999999
+          },
+          {
+            "institutie": "Poste Italiane",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 8973.85
+          },
+          {
+            "institutie": "Poste Italiane",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2024,
+            "sold_ron": 50500.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 183626.95,
+        "avere_neta_ron": 97776.95000000001,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       }
     ],
     "ultima_data": "2025-01-19",
-    "ultima_conturi_ron": 0.0,
+    "ultima_conturi_ron": 82626.95,
     "ultima_venituri_ron": 25250.0,
     "ultima_imobile_count": 0,
+    "ultima_bijuterii_ron": 101000.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 85850.0,
+    "ultima_total_active_ron": 183626.95,
+    "ultima_avere_neta_ron": 97776.95000000001,
+    "ultima_nr_judete": 0,
+    "ultima_nr_companii": 0,
     "delta_conturi_ron": 0.0,
     "delta_imobile": 0
   }

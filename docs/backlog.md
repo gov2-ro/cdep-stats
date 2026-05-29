@@ -17,7 +17,15 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
   - Audit case: Iordache Ion (leg-2024 idm=153) — all 73 terenuri + 10 cladiri are at 1/2; stored 10,858,310 m², actual personal share ≈ 5,429,155 m².
 
 
+## Profile pages
+
+- [ ] **Avere comparison / rankings on deputy profile page**
+  - Add a contextual rankings section to the deputat avere profile: how does this deputy rank vs. national average, vs. party average, vs. same age cohort, vs. same județ. Show percentile for key metrics: total_active_monetare_ron, suprafata_total_mp, nr_imobile, venituri_anuale_ron.
+  - Requires: age from deputat profile (birth_date), județ from deputat profile, pre-computed party/age/județ aggregates in the stats build step.
+
 ## Misc
 
-- [ ] enhance avere.html with thumbnails for ppl and partide
+- [ ] replace cdep link from /pls/parlam/structura2015.mp?idm={ID}&cam=2&leg=2024 to /ords/pls/parlam/structura2015.mp?idm={ID}&leg=2024
+- [ ] link to [monitorul.ai](https://monitorul.ai) via [MCP](https://monitorul.ai/mcp)
+- [x] enhance avere.html with thumbnails for ppl and partide
 - [ ] show cars, homes, teremnui as icons, one per each? - relative to suprafata or kph?

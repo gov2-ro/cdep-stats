@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:45:38.629691Z",
+    "generated_at": "2026-05-29T17:30:12.839381Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 7
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-02-01",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-14",
@@ -63,11 +126,216 @@
         "terenuri_count": 3,
         "cladiri_count": 3,
         "suprafata_total_mp": 2981.0,
-        "conturi_total_ron": 1620281.5,
-        "venituri_anuale_ron": 184472.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2047.0,
+        "suprafata_luciu_mp": 398.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 536.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 42925.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 188860.0,
+        "conturi_total_ron": 373480.0,
+        "plasamente_total_ron": 1620281.5,
         "datorii_total_ron": 190000.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 184472.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1044.0,
+            "judet": "Arges",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1003.0,
+            "judet": "Arges",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 398.0,
+            "judet": "Arges",
+            "an_dobandirii": 2020,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 434.0,
+            "judet": "Arges",
+            "an_dobandirii": 2003,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 40.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 62.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Renault Clio",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "ING Bank Pitesti",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 2500.0
+          },
+          {
+            "institutie": "ING Bank Pitesti",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 218000.0
+          },
+          {
+            "institutie": "Ideea Bank Pitesti",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 63630.0
+          },
+          {
+            "institutie": "Ideea Bank Pitesti",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2018,
+            "sold_ron": 32850.0
+          },
+          {
+            "institutie": "CAR Colibasi",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 31500.0
+          },
+          {
+            "institutie": "CAR ROLAST",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 25000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 30300.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 15000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 100000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 15000.0
+          },
+          {
+            "emitent": "SC Nigeioro Total",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 390103.0
+          },
+          {
+            "emitent": "Gabriela avans 100",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 90900.0
+          },
+          {
+            "emitent": "SC Nigeioro Total",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 200.0
+          },
+          {
+            "emitent": "SC RETIRO",
+            "tip": "imprumut",
+            "nr_titluri": "20 %",
+            "valoare_ron": 135000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 631250.0
+          },
+          {
+            "emitent": "NN Investitii deţinute (titluri de stat,",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 35775.0
+          },
+          {
+            "emitent": "deţinute (titluri de stat,",
+            "tip": "titluri_stat",
+            "nr_titluri": "100 %",
+            "valoare_ron": 6500.0
+          },
+          {
+            "emitent": "deţinute (titluri de stat,",
+            "tip": "titluri_stat",
+            "nr_titluri": "100 %",
+            "valoare_ron": 7322.5
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 162931.0
+          }
+        ],
+        "total_active_monetare_ron": 2036686.5,
+        "avere_neta_ron": 1846686.5,
+        "nr_judete": 2,
+        "nr_companii": 13,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2003
       },
       {
         "data_depunere": "2023-06-12",
@@ -77,11 +345,184 @@
         "terenuri_count": 1,
         "cladiri_count": 4,
         "suprafata_total_mp": 1634.0,
-        "conturi_total_ron": 1654060.0,
-        "venituri_anuale_ron": 181470.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 1044.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 590.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 42925.0,
+        "bunuri_instrainate_count": 3,
+        "bunuri_instrainate_total_ron": 240095.0,
+        "conturi_total_ron": 298940.0,
+        "plasamente_total_ron": 1654060.0,
         "datorii_total_ron": 155566.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 181470.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1044.0,
+            "judet": "Arges",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 434.0,
+            "judet": "Arges",
+            "an_dobandirii": 2003,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 40.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 62.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 54.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Renault Clio",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "ING Bank Pitesti",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 8600.0
+          },
+          {
+            "institutie": "ING Bank Pitesti",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 15500.0
+          },
+          {
+            "institutie": "Patria Bank Pitesti",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 181800.0
+          },
+          {
+            "institutie": "Patria Bank Pitesti",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2022,
+            "sold_ron": 34200.0
+          },
+          {
+            "institutie": "CAR Colibasi",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 32820.0
+          },
+          {
+            "institutie": "CAR ROLAST",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 19520.0
+          },
+          {
+            "institutie": "Patria Bank Pitesti",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 6500.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 100000.0
+          },
+          {
+            "emitent": "SC Nigeioro Total",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 466935.0
+          },
+          {
+            "emitent": "Gabriela avans 100",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 90900.0
+          },
+          {
+            "emitent": "SC Nigeioro Total",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 200.0
+          },
+          {
+            "emitent": "SC RETIRO",
+            "tip": "imprumut",
+            "nr_titluri": "20 %",
+            "valoare_ron": 135000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 631250.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 98475.0
+          },
+          {
+            "emitent": "SC ELLA NEW DESIGN",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 131300.0
+          }
+        ],
+        "total_active_monetare_ron": 1995925.0,
+        "avere_neta_ron": 1840359.0,
+        "nr_judete": 2,
+        "nr_companii": 8,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2003
       },
       {
         "data_depunere": "2024-06-17",
@@ -91,11 +532,191 @@
         "terenuri_count": 1,
         "cladiri_count": 5,
         "suprafata_total_mp": 1635.0,
-        "conturi_total_ron": 533727.0,
-        "venituri_anuale_ron": 185516.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 1044.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 591.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 42925.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 208960.0,
+        "plasamente_total_ron": 533727.0,
         "datorii_total_ron": 46000.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 185516.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1044.0,
+            "judet": "Arges",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 434.0,
+            "judet": "Arges",
+            "an_dobandirii": 2003,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 40.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 62.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 28.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 27.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Renault Clio",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "DACIA DUSTER",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "ING Bank Pitesti",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 10880.0
+          },
+          {
+            "institutie": "Patria Bank Pitesti",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 101000.0
+          },
+          {
+            "institutie": "CAR Colibasi",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 35780.0
+          },
+          {
+            "institutie": "CAR ROLAST",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 21300.0
+          },
+          {
+            "institutie": "Patria Bank Pitesti",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 40000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 100000.0
+          },
+          {
+            "emitent": "SC Nigeioro Total",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 39500.0
+          },
+          {
+            "emitent": "Gabriela avans 100",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 90900.0
+          },
+          {
+            "emitent": "SC Nigeioro Total",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 200.0
+          },
+          {
+            "emitent": "SC RETIRO",
+            "tip": "imprumut",
+            "nr_titluri": "20 %",
+            "valoare_ron": 135000.0
+          },
+          {
+            "emitent": "SC RING WELLNESS",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 17627.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50500.0
+          },
+          {
+            "emitent": "PARTIDUL SOCIAL",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50000.0
+          }
+        ],
+        "total_active_monetare_ron": 785612.0,
+        "avere_neta_ron": 739612.0,
+        "nr_judete": 2,
+        "nr_companii": 9,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2003
       },
       {
         "data_depunere": "2025-01-20",
@@ -105,18 +726,183 @@
         "terenuri_count": 0,
         "cladiri_count": 5,
         "suprafata_total_mp": 591.0,
-        "conturi_total_ron": 631227.0,
-        "venituri_anuale_ron": 170174.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 591.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 42925.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 218825.0,
+        "conturi_total_ron": 198080.0,
+        "plasamente_total_ron": 631227.0,
         "datorii_total_ron": 27500.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 170174.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 434.0,
+            "judet": "Arges",
+            "an_dobandirii": 2003,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 40.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 62.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 28.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 27.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Renault Clio",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "DACIA DUSTER",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Patria Bank Pitesti",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 101000.0
+          },
+          {
+            "institutie": "CAR Colibasi",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 35780.0
+          },
+          {
+            "institutie": "CAR ROLAST",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 21300.0
+          },
+          {
+            "institutie": "Patria Bank Pitesti",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 40000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 100000.0
+          },
+          {
+            "emitent": "SC Nigeioro Total",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 39500.0
+          },
+          {
+            "emitent": "Gabriela avans 100",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 90900.0
+          },
+          {
+            "emitent": "SC Nigeioro Total",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 200.0
+          },
+          {
+            "emitent": "SC RETIRO",
+            "tip": "imprumut",
+            "nr_titluri": "20 %",
+            "valoare_ron": 135000.0
+          },
+          {
+            "emitent": "SC RING WELLNESS",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 17627.0
+          },
+          {
+            "emitent": "PARTIDUL SOCIAL",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 198000.0
+          }
+        ],
+        "total_active_monetare_ron": 872232.0,
+        "avere_neta_ron": 844732.0,
+        "nr_judete": 2,
+        "nr_companii": 8,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2003
       }
     ],
     "ultima_data": "2025-01-20",
-    "ultima_conturi_ron": 631227.0,
+    "ultima_conturi_ron": 198080.0,
     "ultima_venituri_ron": 170174.0,
     "ultima_imobile_count": 5,
-    "delta_conturi_ron": 631227.0,
+    "ultima_bijuterii_ron": 42925.0,
+    "ultima_plasamente_ron": 631227.0,
+    "ultima_datorii_ron": 27500.0,
+    "ultima_total_active_ron": 872232.0,
+    "ultima_avere_neta_ron": 844732.0,
+    "ultima_nr_judete": 2,
+    "ultima_nr_companii": 8,
+    "delta_conturi_ron": 198080.0,
     "delta_imobile": 5
   }
 }

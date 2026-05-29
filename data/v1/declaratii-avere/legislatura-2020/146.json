@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:07:24.918959Z",
+    "generated_at": "2026-05-29T17:28:04.366916Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 7
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-08",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-09",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-04-04",
@@ -63,11 +126,141 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 8333.0,
-        "conturi_total_ron": 1131498.35,
-        "venituri_anuale_ron": 192573.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 8245.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 88.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 398016.6,
+        "plasamente_total_ron": 1131498.35,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 192573.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 8245.0,
+            "judet": "Neamt",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 88.0,
+            "judet": "Neamt",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Volkswagen",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 95071.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 103343.2
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2007,
+            "sold_ron": 16990.0
+          },
+          {
+            "institutie": "Lloyds TSB UK",
+            "tip": "cont_curent",
+            "valuta": "GBP",
+            "an_deschis": 2000,
+            "sold_ron": 138672.19999999998
+          },
+          {
+            "institutie": "Lloyds TSB UK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 16107.0
+          },
+          {
+            "institutie": "Lloyds TSB UK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 5907.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 151.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2021,
+            "sold_ron": 525.1999999999999
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 21250.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Ichim Valerica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 432000.0
+          },
+          {
+            "emitent": "Ichim Valerica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 592198.35
+          },
+          {
+            "emitent": "Ichim Constantin-Adrian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 107300.0
+          }
+        ],
+        "total_active_monetare_ron": 1529514.9500000002,
+        "avere_neta_ron": 1529514.9500000002,
+        "nr_judete": 1,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2017
       },
       {
         "data_depunere": "2023-05-25",
@@ -77,11 +270,141 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 8333.0,
-        "conturi_total_ron": 1131498.35,
-        "venituri_anuale_ron": 215652.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 8245.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 88.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 406302.45,
+        "plasamente_total_ron": 1131498.35,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 215652.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 8245.0,
+            "judet": "Neamt",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 88.0,
+            "judet": "Neamt",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Volkswagen",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 87521.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 119084.05
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2007,
+            "sold_ron": 4370.0
+          },
+          {
+            "institutie": "Lloyds TSB UK",
+            "tip": "cont_curent",
+            "valuta": "GBP",
+            "an_deschis": 2000,
+            "sold_ron": 135203.8
+          },
+          {
+            "institutie": "Lloyds TSB UK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 27850.0
+          },
+          {
+            "institutie": "Lloyds TSB UK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 4090.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 95.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2021,
+            "sold_ron": 1474.6
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 26614.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Ichim Valerica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 432000.0
+          },
+          {
+            "emitent": "Ichim Valerica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 592198.35
+          },
+          {
+            "emitent": "Ichim Constantin-Adrian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 107300.0
+          }
+        ],
+        "total_active_monetare_ron": 1537800.8,
+        "avere_neta_ron": 1537800.8,
+        "nr_judete": 1,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2017
       },
       {
         "data_depunere": "2024-05-20",
@@ -91,11 +414,146 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 8333.0,
-        "conturi_total_ron": 1373813.8,
-        "venituri_anuale_ron": 213949.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 8245.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 88.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 391074.5,
+        "plasamente_total_ron": 1373813.8,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 213949.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 8245.0,
+            "judet": "Neamt",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 88.0,
+            "judet": "Neamt",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Volkswagen",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 159640.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 111.1
+          },
+          {
+            "institutie": "Lloyds TSB UK",
+            "tip": "cont_curent",
+            "valuta": "GBP",
+            "an_deschis": 2000,
+            "sold_ron": 135203.8
+          },
+          {
+            "institutie": "Lloyds TSB UK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 41889.0
+          },
+          {
+            "institutie": "Lloyds TSB UK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 18458.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 45.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2021,
+            "sold_ron": 666.6
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 35061.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Ichim Valerica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 400000.0
+          },
+          {
+            "emitent": "Ichim Valerica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 388850.0
+          },
+          {
+            "emitent": "Ichim Constantin-Adrian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 104400.0
+          },
+          {
+            "emitent": "Ministerul Finantelor deţinute (titluri de stat, 500",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 53455.0
+          },
+          {
+            "emitent": "Ministerul Finantelor deţinute (titluri de stat, 800",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 427108.8
+          }
+        ],
+        "total_active_monetare_ron": 1764888.3,
+        "avere_neta_ron": 1764888.3,
+        "nr_judete": 1,
+        "nr_companii": 5,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2017
       },
       {
         "data_depunere": "2024-12-29",
@@ -105,18 +563,160 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 8333.0,
-        "conturi_total_ron": 1357982.0,
-        "venituri_anuale_ron": 213949.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 8245.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 88.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 419147.95,
+        "plasamente_total_ron": 1357982.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 213949.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 8245.0,
+            "judet": "Neamt",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 88.0,
+            "judet": "Neamt",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Volkswagen",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 153589.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 5156.05
+          },
+          {
+            "institutie": "Lloyds TSB UK",
+            "tip": "cont_curent",
+            "valuta": "GBP",
+            "an_deschis": 2000,
+            "sold_ron": 142639.4
+          },
+          {
+            "institutie": "Lloyds TSB UK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 49271.0
+          },
+          {
+            "institutie": "Lloyds TSB UK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 24786.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 1700.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2021,
+            "sold_ron": 656.5
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 41350.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Ichim Valerica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 400000.0
+          },
+          {
+            "emitent": "Ichim Valerica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 388850.0
+          },
+          {
+            "emitent": "Ichim Constantin-Adrian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 104400.0
+          },
+          {
+            "emitent": "Ministerul Finantelor deţinute (titluri de stat, 500",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 51440.0
+          },
+          {
+            "emitent": "Ministerul Finantelor deţinute (titluri de stat, 800",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 413292.0
+          }
+        ],
+        "total_active_monetare_ron": 1777129.95,
+        "avere_neta_ron": 1777129.95,
+        "nr_judete": 1,
+        "nr_companii": 5,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2017
       }
     ],
     "ultima_data": "2024-12-29",
-    "ultima_conturi_ron": 1357982.0,
+    "ultima_conturi_ron": 419147.95,
     "ultima_venituri_ron": 213949.0,
     "ultima_imobile_count": 2,
-    "delta_conturi_ron": 1357982.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 1357982.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 1777129.95,
+    "ultima_avere_neta_ron": 1777129.95,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 5,
+    "delta_conturi_ron": 419147.95,
     "delta_imobile": 2
   }
 }

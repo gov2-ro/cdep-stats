@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:04:26.380360Z",
+    "generated_at": "2026-05-29T17:20:37.044233Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 1
@@ -21,17 +21,424 @@
         "terenuri_count": 3,
         "cladiri_count": 13,
         "suprafata_total_mp": 4966.0,
-        "conturi_total_ron": 25565629.0,
-        "venituri_anuale_ron": 1848761.4000000001,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2679.0,
+        "suprafata_luciu_mp": 92.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 2195.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 505000.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 2639839.25,
+        "plasamente_total_ron": 25565629.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1848761.4000000001,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 999.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1680.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 92.0,
+            "judet": "-",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 195.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2012,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 996.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 192.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 192.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "vacanta",
+            "suprafata_mp": 180.0,
+            "judet": "-",
+            "an_dobandirii": 2001,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "vacanta",
+            "suprafata_mp": 220.0,
+            "judet": "-",
+            "an_dobandirii": 2001,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 32.0,
+            "judet": "-",
+            "an_dobandirii": 2020,
+            "cota_parte": "50/50",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 33.0,
+            "judet": "-",
+            "an_dobandirii": 2023,
+            "cota_parte": "50/50",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 35.0,
+            "judet": "-",
+            "an_dobandirii": 2022,
+            "cota_parte": "50/50",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 36.0,
+            "judet": "-",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 31.0,
+            "judet": "-",
+            "an_dobandirii": 2023,
+            "cota_parte": "50/50",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 29.0,
+            "judet": "-",
+            "an_dobandirii": 2023,
+            "cota_parte": "50/50",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 24.0,
+            "judet": "-",
+            "an_dobandirii": 2024,
+            "cota_parte": "50/50",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Land Rover",
+            "an_fabricatie": 2010,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Bruynseels",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 37946.0
+          },
+          {
+            "institutie": "Bruynseels",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 200000.0
+          },
+          {
+            "institutie": "Bruynseels",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 841592.6
+          },
+          {
+            "institutie": "Bruynseels",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 29927.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 1989.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 2648.0
+          },
+          {
+            "institutie": "Bruynseels",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 372.0
+          },
+          {
+            "institutie": "Bruynseels",
+            "tip": "cont_curent",
+            "valuta": "GBP",
+            "an_deschis": 2012,
+            "sold_ron": 522.0
+          },
+          {
+            "institutie": "Bruynseels",
+            "tip": "depozit",
+            "valuta": "GBP",
+            "an_deschis": 2012,
+            "sold_ron": 1266575.0
+          },
+          {
+            "institutie": "La Caixa Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2001,
+            "sold_ron": 38698.15
+          },
+          {
+            "institutie": "Bruynseels",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 1380.0
+          },
+          {
+            "institutie": "Bruynseels",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 9.0
+          },
+          {
+            "institutie": "Bruynseels",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2011,
+            "sold_ron": 4.5
+          },
+          {
+            "institutie": "Bruynseels",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 200.0
+          },
+          {
+            "institutie": "Bruynseels",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 200.0
+          },
+          {
+            "institutie": "Bruynseels",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 1171.0
+          },
+          {
+            "institutie": "Bruynseels",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 18673.0
+          },
+          {
+            "institutie": "Bruynseels",
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2024,
+            "sold_ron": 31500.0
+          },
+          {
+            "institutie": "BCR",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2024,
+            "sold_ron": 61200.0
+          },
+          {
+            "institutie": "BCR",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 100000.0
+          },
+          {
+            "institutie": "BCR Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 5232.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 631250.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 16781150.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 5706209.0
+          },
+          {
+            "emitent": "Consult SRL Dominic",
+            "tip": "imprumut",
+            "nr_titluri": "95 %",
+            "valoare_ron": 190.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 39500.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 67500.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 838300.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 266859.0
+          },
+          {
+            "emitent": "Unirea Romanilor",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 404000.0
+          },
+          {
+            "emitent": "90",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 900.0
+          },
+          {
+            "emitent": "deţinute (titluri de stat, 100",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 21771.0
+          },
+          {
+            "emitent": "Liberal Dominic",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 404000.0
+          },
+          {
+            "emitent": "Liberal Ramona",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 404000.0
+          }
+        ],
+        "total_active_monetare_ron": 28710468.25,
+        "avere_neta_ron": 28710468.25,
+        "nr_judete": 4,
+        "nr_companii": 13,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2001
       }
     ],
     "ultima_data": "2025-01-21",
-    "ultima_conturi_ron": 25565629.0,
+    "ultima_conturi_ron": 2639839.25,
     "ultima_venituri_ron": 1848761.4000000001,
     "ultima_imobile_count": 16,
+    "ultima_bijuterii_ron": 505000.0,
+    "ultima_plasamente_ron": 25565629.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 28710468.25,
+    "ultima_avere_neta_ron": 28710468.25,
+    "ultima_nr_judete": 4,
+    "ultima_nr_companii": 13,
     "delta_conturi_ron": 0.0,
     "delta_imobile": 0
   }

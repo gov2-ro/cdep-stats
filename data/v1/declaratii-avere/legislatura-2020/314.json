@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:55:42.327419Z",
+    "generated_at": "2026-05-29T17:32:40.511285Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-14",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-14",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-06-07",
@@ -63,11 +126,140 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 1030.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 215289.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 700.0,
+        "suprafata_luciu_mp": 120.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 210.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 26500.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 553444.302,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 126250.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 215289.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 700.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2015,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 120.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 170.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 40.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2014,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 38333.55
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 207793.06
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 111612.27199999998
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 164.43
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 49112.69
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 114865.19
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 4766.84
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 1116.05
+          },
+          {
+            "institutie": "Metropolitan Life",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 25680.22
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 579944.302,
+        "avere_neta_ron": 453694.302,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2015
       },
       {
         "data_depunere": "2024-06-12",
@@ -77,11 +269,154 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 1030.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 236636.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 700.0,
+        "suprafata_luciu_mp": 120.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 210.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 26500.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 399169.602,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 126250.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 236636.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 700.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2015,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 120.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 170.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 40.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2014,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 15391.79
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 2126.1
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 111430.472
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 252.0
+          },
+          {
+            "institutie": "NN Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 64584.33
+          },
+          {
+            "institutie": "NN Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 3333.3
+          },
+          {
+            "institutie": "NN Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 16819.06
+          },
+          {
+            "institutie": "NN Pensii",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 1116.05
+          },
+          {
+            "institutie": "Metropolitan Life",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 34016.5
+          },
+          {
+            "institutie": "Metropolitan Life",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 150000.0
+          },
+          {
+            "institutie": "Metropolitan Life",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 100.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 425669.602,
+        "avere_neta_ron": 299419.602,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2015
       },
       {
         "data_depunere": "2024-11-13",
@@ -91,18 +426,161 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 1030.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 236636.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 700.0,
+        "suprafata_luciu_mp": 120.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 210.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 26500.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 622258.122,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 126250.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 236636.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 700.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2015,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 120.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 170.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 40.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2014,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 380719.81
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 27236.84
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 111354.722
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 1514.51
+          },
+          {
+            "institutie": "NN Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 64584.33
+          },
+          {
+            "institutie": "NN Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 1157.77
+          },
+          {
+            "institutie": "NN Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 202.66
+          },
+          {
+            "institutie": "NN Pensii",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 1368.55
+          },
+          {
+            "institutie": "Metropolitan Life",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 34016.5
+          },
+          {
+            "institutie": "Metropolitan Life",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 102.43
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 648758.122,
+        "avere_neta_ron": 522508.122,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2015
       }
     ],
     "ultima_data": "2024-11-13",
-    "ultima_conturi_ron": 0.0,
+    "ultima_conturi_ron": 622258.122,
     "ultima_venituri_ron": 236636.0,
     "ultima_imobile_count": 4,
-    "delta_conturi_ron": 0.0,
+    "ultima_bijuterii_ron": 26500.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 126250.0,
+    "ultima_total_active_ron": 648758.122,
+    "ultima_avere_neta_ron": 522508.122,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 0,
+    "delta_conturi_ron": 622258.122,
     "delta_imobile": 4
   }
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:05:30.759023Z",
+    "generated_at": "2026-05-29T17:25:41.285815Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-14",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-14",
@@ -49,11 +91,217 @@
         "terenuri_count": 12,
         "cladiri_count": 4,
         "suprafata_total_mp": 2931.99,
-        "conturi_total_ron": 49890.0,
-        "venituri_anuale_ron": 1004937.0,
-        "datorii_total_ron": 221461.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2263.93,
+        "suprafata_luciu_mp": 314.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 354.06,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 52187.3,
+        "plasamente_total_ron": 49890.0,
+        "datorii_total_ron": 221461.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1004937.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 500.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2007,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 185.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 133.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 20.93,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/15",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 314.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2018,
+            "cota_parte": "2693/100000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 226.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 226.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 226.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 119.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 314.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": "800/10000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 314.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": "33/10000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 34.48,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 119.66,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 138.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 61.92,
+            "judet": "Cambera",
+            "an_dobandirii": 2007,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2007,
+            "sold_ron": 511.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 13637.13
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 25542.52
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 8605.1
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 3891.55
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "14",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 140.0
+          },
+          {
+            "emitent": "NICO TOURS 4975",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 49750.0
+          }
+        ],
+        "total_active_monetare_ron": 102077.3,
+        "avere_neta_ron": -119383.7,
+        "nr_judete": 4,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2007
       },
       {
         "data_depunere": "2023-06-14",
@@ -63,11 +311,208 @@
         "terenuri_count": 11,
         "cladiri_count": 4,
         "suprafata_total_mp": 2431.9900000000002,
-        "conturi_total_ron": 49890.0,
-        "venituri_anuale_ron": 1246445.0,
-        "datorii_total_ron": 158127.99,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 1763.93,
+        "suprafata_luciu_mp": 314.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 354.06,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 195648.0,
+        "conturi_total_ron": 672163.68,
+        "plasamente_total_ron": 49890.0,
+        "datorii_total_ron": 158127.99,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1246445.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 185.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 133.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 20.93,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/15",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 314.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2018,
+            "cota_parte": "2693/100000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 226.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 226.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 226.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 119.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 314.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": "800/10000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 314.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": "33/10000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 34.48,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 119.66,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 138.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 61.92,
+            "judet": "Contract",
+            "an_dobandirii": 2007,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 18766.96
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 30178.42
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 9968.8
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 3249.5
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 610000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "14",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 140.0
+          },
+          {
+            "emitent": "NICO TOURS 4975",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 49750.0
+          }
+        ],
+        "total_active_monetare_ron": 722053.68,
+        "avere_neta_ron": 563925.6900000001,
+        "nr_judete": 3,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2007
       },
       {
         "data_depunere": "2024-06-17",
@@ -77,11 +522,216 @@
         "terenuri_count": 12,
         "cladiri_count": 4,
         "suprafata_total_mp": 3431.9900000000002,
-        "conturi_total_ron": 79890.0,
-        "venituri_anuale_ron": 622359.0,
-        "datorii_total_ron": 141166.8,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2077.9300000000003,
+        "suprafata_luciu_mp": 1000.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 354.06,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 722030.0,
+        "plasamente_total_ron": 79890.0,
+        "datorii_total_ron": 141166.8,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 622359.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 185.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 133.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 20.93,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/15",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 314.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2018,
+            "cota_parte": "2693/100000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 226.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 226.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 226.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 119.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 314.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": "800/10000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 314.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": "33/10000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1000.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 34.48,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 119.66,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 138.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 61.92,
+            "judet": "Cambera",
+            "an_dobandirii": 2007,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 61663.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 37604.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 12763.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 610000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "14",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 140.0
+          },
+          {
+            "emitent": "NICO TOURS 4975",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 49750.0
+          },
+          {
+            "emitent": "30000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 30000.0
+          }
+        ],
+        "total_active_monetare_ron": 801920.0,
+        "avere_neta_ron": 660753.2,
+        "nr_judete": 4,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2007
       },
       {
         "data_depunere": "2025-02-17",
@@ -91,18 +741,230 @@
         "terenuri_count": 12,
         "cladiri_count": 4,
         "suprafata_total_mp": 3431.9900000000002,
-        "conturi_total_ron": 79890.0,
-        "venituri_anuale_ron": 658657.0,
-        "datorii_total_ron": 123888.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2077.9300000000003,
+        "suprafata_luciu_mp": 1000.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 354.06,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 685002.0,
+        "plasamente_total_ron": 79890.0,
+        "datorii_total_ron": 123888.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 658657.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 185.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 133.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 20.93,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/15",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 314.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2018,
+            "cota_parte": "2693/100000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 226.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 226.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 226.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 119.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 314.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": "800/10000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 314.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": "33/10000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1000.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 34.48,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 119.66,
+            "judet": "Ilfov",
+            "an_dobandirii": 2017,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 138.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 61.92,
+            "judet": "Cambera",
+            "an_dobandirii": 2007,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 22959.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 38783.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 13260.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 610000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "14",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 140.0
+          },
+          {
+            "emitent": "NICO TOURS 4975",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 49750.0
+          },
+          {
+            "emitent": "30000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 30000.0
+          }
+        ],
+        "total_active_monetare_ron": 764892.0,
+        "avere_neta_ron": 641004.0,
+        "nr_judete": 4,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2007
       }
     ],
     "ultima_data": "2025-02-17",
-    "ultima_conturi_ron": 79890.0,
+    "ultima_conturi_ron": 685002.0,
     "ultima_venituri_ron": 658657.0,
     "ultima_imobile_count": 16,
-    "delta_conturi_ron": 79890.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 79890.0,
+    "ultima_datorii_ron": 123888.0,
+    "ultima_total_active_ron": 764892.0,
+    "ultima_avere_neta_ron": 641004.0,
+    "ultima_nr_judete": 4,
+    "ultima_nr_companii": 3,
+    "delta_conturi_ron": 685002.0,
     "delta_imobile": 16
   }
 }

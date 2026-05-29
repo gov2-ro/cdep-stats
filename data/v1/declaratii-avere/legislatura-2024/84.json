@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:04:53.036271Z",
+    "generated_at": "2026-05-29T17:21:09.706937Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 3
@@ -21,11 +21,388 @@
         "terenuri_count": 20,
         "cladiri_count": 13,
         "suprafata_total_mp": 117569.29999999999,
-        "conturi_total_ron": 8767712.5,
-        "venituri_anuale_ron": 9890046.0605,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 5000.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 8418.8,
+        "suprafata_luciu_mp": 67681.0,
+        "suprafata_alte_mp": 28229.0,
+        "suprafata_cladiri_mp": 8168.5,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 323200.0,
+        "bunuri_instrainate_count": 3,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 2272712.4255,
+        "plasamente_total_ron": 8767712.5,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 9890046.0605,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 300.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1413.0,
+            "judet": "CRUSOVEAN",
+            "an_dobandirii": 2008,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 3789.0,
+            "judet": "de",
+            "an_dobandirii": 2005,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 18440.0,
+            "judet": "de",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 6000.0,
+            "judet": "Tulcea",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 196.0,
+            "judet": "CRUSOVEAN",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 15.1,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 24.8,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 16.5,
+            "judet": "CRUSOVEAN",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 16.1,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 16.2,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 16.1,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2478.0,
+            "judet": "VASILICA",
+            "an_dobandirii": 2023,
+            "cota_parte": "3/24",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 5000.0,
+            "judet": "Comanescu",
+            "an_dobandirii": 2024,
+            "cota_parte": "3/24",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1963.5,
+            "judet": "cumpărare",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1963.5,
+            "judet": "Contract",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 67681.0,
+            "judet": "Crusoveanu",
+            "an_dobandirii": 2024,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 560.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 6311.5,
+            "judet": "Alte",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 184.0,
+            "judet": "Crusoveanu",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 59.2,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 97.5,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 64.7,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 63.2,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 63.6,
+            "judet": "Crusoveanu",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 63.5,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 270.0,
+            "judet": "GEORGETA",
+            "an_dobandirii": 2023,
+            "cota_parte": "3/24",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 167.3,
+            "judet": "CRUSOVEAN",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 264.0,
+            "judet": "Contract",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 743.1
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2005,
+            "sold_ron": 38.986
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 15.05
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 6311.52
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 243457.4195
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 28396.35
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2024,
+            "sold_ron": 1893750.0
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 100000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "25 %",
+            "valoare_ron": 409950.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "25 %",
+            "valoare_ron": 16412.5
+          },
+          {
+            "emitent": "BARBU CRISTIAN",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 388850.0
+          },
+          {
+            "emitent": "ION MIHAI CORNELIU",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 215000.0
+          },
+          {
+            "emitent": "ASFALT DOBROGEA SRL 18.",
+            "tip": "imprumut",
+            "nr_titluri": "75 %",
+            "valoare_ron": 3737500.0
+          },
+          {
+            "emitent": "ASFALT DOBROGEA SRL 18.",
+            "tip": "imprumut",
+            "nr_titluri": "75 %",
+            "valoare_ron": 4000000.0
+          }
+        ],
+        "total_active_monetare_ron": 11363624.9255,
+        "avere_neta_ron": 11363624.9255,
+        "nr_judete": 11,
+        "nr_companii": 6,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 1,
+        "an_prima_proprietate": 2005
       },
       {
         "data_depunere": "2024-12-31",
@@ -35,11 +412,394 @@
         "terenuri_count": 20,
         "cladiri_count": 13,
         "suprafata_total_mp": 117569.29999999999,
-        "conturi_total_ron": 8565712.5,
-        "venituri_anuale_ron": 10290046.0605,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 5000.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 8418.8,
+        "suprafata_luciu_mp": 67681.0,
+        "suprafata_alte_mp": 28229.0,
+        "suprafata_cladiri_mp": 8168.5,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 323200.0,
+        "bunuri_instrainate_count": 3,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 2260456.9455,
+        "plasamente_total_ron": 8565712.5,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 10290046.0605,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 300.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1413.0,
+            "judet": "CRUSOVEAN",
+            "an_dobandirii": 2008,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 3789.0,
+            "judet": "de",
+            "an_dobandirii": 2005,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 18440.0,
+            "judet": "de",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 6000.0,
+            "judet": "Tulcea",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 196.0,
+            "judet": "CRUSOVEAN",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 15.1,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 24.8,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 16.5,
+            "judet": "CRUSOVEAN",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 16.1,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 16.2,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 16.1,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2478.0,
+            "judet": "VASILICA",
+            "an_dobandirii": 2023,
+            "cota_parte": "3/24",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 5000.0,
+            "judet": "Comanescu",
+            "an_dobandirii": 2024,
+            "cota_parte": "3/24",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1963.5,
+            "judet": "cumpărare",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1963.5,
+            "judet": "Contract",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 67681.0,
+            "judet": "Crusoveanu",
+            "an_dobandirii": 2024,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 560.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 6311.5,
+            "judet": "Alte",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 184.0,
+            "judet": "Crusoveanu",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 59.2,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 97.5,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 64.7,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 63.2,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 63.6,
+            "judet": "Crusoveanu",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 63.5,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 270.0,
+            "judet": "GEORGETA",
+            "an_dobandirii": 2023,
+            "cota_parte": "3/24",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 167.3,
+            "judet": "CRUSOVEAN",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 264.0,
+            "judet": "Contract",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 388.96
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2005,
+            "sold_ron": 38.986
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 15.05
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 2211.52
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 243457.4195
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 20595.01
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2024,
+            "sold_ron": 1893750.0
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 100000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "25 %",
+            "valoare_ron": 9950.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "25 %",
+            "valoare_ron": 16412.5
+          },
+          {
+            "emitent": "BARBU CRISTIAN",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 388850.0
+          },
+          {
+            "emitent": "ION MIHAI CORNELIU",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 215000.0
+          },
+          {
+            "emitent": "ASFALT DOBROGEA SRL 18.",
+            "tip": "imprumut",
+            "nr_titluri": "75 %",
+            "valoare_ron": 3737500.0
+          },
+          {
+            "emitent": "ASFALT DOBROGEA SRL 18.",
+            "tip": "imprumut",
+            "nr_titluri": "75 %",
+            "valoare_ron": 4000000.0
+          },
+          {
+            "emitent": "cotributie camapnie",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 198000.0
+          }
+        ],
+        "total_active_monetare_ron": 11149369.4455,
+        "avere_neta_ron": 11149369.4455,
+        "nr_judete": 11,
+        "nr_companii": 7,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 1,
+        "an_prima_proprietate": 2005
       },
       {
         "data_depunere": "2025-04-29",
@@ -49,18 +809,389 @@
         "terenuri_count": 16,
         "cladiri_count": 12,
         "suprafata_total_mp": 70979.79999999999,
-        "conturi_total_ron": 17940945.75,
-        "venituri_anuale_ron": 12149641.18,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 33840.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 5042.3,
+        "suprafata_luciu_mp": 1963.5,
+        "suprafata_alte_mp": 28229.0,
+        "suprafata_cladiri_mp": 1857.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 323200.0,
+        "bunuri_instrainate_count": 3,
+        "bunuri_instrainate_total_ron": 11118211.299999999,
+        "conturi_total_ron": 2559899.014,
+        "plasamente_total_ron": 17940945.75,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 12149641.18,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 300.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 3789.0,
+            "judet": "de",
+            "an_dobandirii": 2005,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 18440.0,
+            "judet": "de",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 6000.0,
+            "judet": "Tulcea",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 196.0,
+            "judet": "CRUSOVEAN",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 15.1,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 24.8,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 16.5,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 16.1,
+            "judet": "U",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 16.2,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 16.1,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2478.0,
+            "judet": "VASILICA",
+            "an_dobandirii": 2023,
+            "cota_parte": "3/24",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 33840.0,
+            "judet": "vânzare",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1963.5,
+            "judet": "Crusoveanu",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1963.5,
+            "judet": "uzufruct",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 560.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 184.0,
+            "judet": "Crusoveanu",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 59.2,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 97.5,
+            "judet": "Contract",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 64.7,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 63.2,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 63.6,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 63.5,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 270.0,
+            "judet": "ANDREI",
+            "an_dobandirii": 2023,
+            "cota_parte": "3/24",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 167.3,
+            "judet": "CRUSOVEAN",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 264.0,
+            "judet": "Contract",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 1123.13
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2005,
+            "sold_ron": 26.310499999999998
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 84.4
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 10600.0
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 297694.8235
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 13870.35
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2025,
+            "sold_ron": 1666500.0
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 100000.0
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2025,
+            "sold_ron": 250000.0
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2025,
+            "sold_ron": 220000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "BARBU CRISTIAN",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 388850.0
+          },
+          {
+            "emitent": "ASFALT DOBROGEA SRL 18.",
+            "tip": "imprumut",
+            "nr_titluri": "75 %",
+            "valoare_ron": 2240500.0
+          },
+          {
+            "emitent": "ASFALT DOBROGEA SRL 18.",
+            "tip": "imprumut",
+            "nr_titluri": "75 %",
+            "valoare_ron": 4000000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 250000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 10920195.75
+          },
+          {
+            "emitent": "FARCAS VIOREL",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 141400.0
+          }
+        ],
+        "total_active_monetare_ron": 20824044.764,
+        "avere_neta_ron": 20824044.764,
+        "nr_judete": 11,
+        "nr_companii": 6,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 1,
+        "an_prima_proprietate": 2005
       }
     ],
     "ultima_data": "2025-04-29",
-    "ultima_conturi_ron": 17940945.75,
+    "ultima_conturi_ron": 2559899.014,
     "ultima_venituri_ron": 12149641.18,
     "ultima_imobile_count": 28,
-    "delta_conturi_ron": 9173233.25,
+    "ultima_bijuterii_ron": 323200.0,
+    "ultima_plasamente_ron": 17940945.75,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 20824044.764,
+    "ultima_avere_neta_ron": 20824044.764,
+    "ultima_nr_judete": 11,
+    "ultima_nr_companii": 6,
+    "delta_conturi_ron": 287186.58850000007,
     "delta_imobile": -5
   }
 }

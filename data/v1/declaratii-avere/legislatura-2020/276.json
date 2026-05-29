@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:51:36.013471Z",
+    "generated_at": "2026-05-29T17:31:39.522452Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 7
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-11",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -63,11 +126,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-06-12",
@@ -77,11 +161,85 @@
         "terenuri_count": 0,
         "cladiri_count": 1,
         "suprafata_total_mp": 94.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 134328.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 94.0,
+        "auto_count": 0,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 55262.0,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 4,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 134328.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 94.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "Private",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 39238.0
+          },
+          {
+            "institutie": "Private",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 15221.0
+          },
+          {
+            "institutie": "Private",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 3.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 7.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2018,
+            "sold_ron": 45.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 748.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 55262.0,
+        "avere_neta_ron": 55262.0,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2018
       },
       {
         "data_depunere": "2024-06-17",
@@ -91,11 +249,92 @@
         "terenuri_count": 0,
         "cladiri_count": 1,
         "suprafata_total_mp": 94.0,
-        "conturi_total_ron": 40000.0,
-        "venituri_anuale_ron": 137330.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 94.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 98120.0,
+        "plasamente_total_ron": 40000.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 137330.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 94.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Volvo",
+            "an_fabricatie": 2013,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Carpatia Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 55644.0
+          },
+          {
+            "institutie": "Carpatia Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 29307.0
+          },
+          {
+            "institutie": "Carpatia Pensii",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 12615.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 135.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 419.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 40000.0
+          }
+        ],
+        "total_active_monetare_ron": 138120.0,
+        "avere_neta_ron": 138120.0,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2018
       },
       {
         "data_depunere": "2024-12-29",
@@ -105,18 +344,118 @@
         "terenuri_count": 0,
         "cladiri_count": 1,
         "suprafata_total_mp": 94.0,
-        "conturi_total_ron": 75000.0,
-        "venituri_anuale_ron": 137330.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 94.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 79882.0,
+        "plasamente_total_ron": 75000.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 137330.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 94.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Volvo",
+            "an_fabricatie": 2013,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Carpatia Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 61915.99
+          },
+          {
+            "institutie": "Carpatia Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 17140.24
+          },
+          {
+            "institutie": "Carpatia Pensii",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 12.3
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 568.83
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 244.64
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 41000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 19000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 15000.0
+          }
+        ],
+        "total_active_monetare_ron": 154882.0,
+        "avere_neta_ron": 154882.0,
+        "nr_judete": 1,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2018
       }
     ],
     "ultima_data": "2024-12-29",
-    "ultima_conturi_ron": 75000.0,
+    "ultima_conturi_ron": 79882.0,
     "ultima_venituri_ron": 137330.0,
     "ultima_imobile_count": 1,
-    "delta_conturi_ron": 75000.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 75000.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 154882.0,
+    "ultima_avere_neta_ron": 154882.0,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 3,
+    "delta_conturi_ron": 79882.0,
     "delta_imobile": 1
   }
 }

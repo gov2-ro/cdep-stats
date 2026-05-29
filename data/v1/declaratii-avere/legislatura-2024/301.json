@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:50.838853Z",
+    "generated_at": "2026-05-29T17:23:37.320845Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 1
@@ -21,17 +21,179 @@
         "terenuri_count": 6,
         "cladiri_count": 7,
         "suprafata_total_mp": 5333.0,
-        "conturi_total_ron": 250000.0,
-        "venituri_anuale_ron": 71900.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 3258.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 2075.0,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 92200.0,
+        "plasamente_total_ron": 250000.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 71900.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 490.0,
+            "judet": "Teleorman",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1331.0,
+            "judet": "Teleorman",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 537.0,
+            "judet": "Intravilan",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 800.0,
+            "judet": "Teleorman",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 100.0,
+            "judet": "Teleorman",
+            "an_dobandirii": 2014,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 400.0,
+            "judet": "Teleorman",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 1100.0,
+            "judet": "Teleorman",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 350.0,
+            "judet": "Teleorman",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 55.0,
+            "judet": "Teleorman",
+            "an_dobandirii": 2018,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 80.0,
+            "judet": "Teleorman",
+            "an_dobandirii": 1990,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 90.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2001,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Wolswagen",
+            "an_fabricatie": 2014,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autovehicul",
+            "marca": "Pegeot",
+            "an_fabricatie": 2010,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Republicii",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 92200.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "deţinute (titluri de stat, 150000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 150000.0
+          },
+          {
+            "emitent": "deţinute (titluri de stat, 100000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 100000.0
+          }
+        ],
+        "total_active_monetare_ron": 342200.0,
+        "avere_neta_ron": 342200.0,
+        "nr_judete": 3,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1990
       }
     ],
     "ultima_data": "2025-01-19",
-    "ultima_conturi_ron": 250000.0,
+    "ultima_conturi_ron": 92200.0,
     "ultima_venituri_ron": 71900.0,
     "ultima_imobile_count": 13,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 250000.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 342200.0,
+    "ultima_avere_neta_ron": 342200.0,
+    "ultima_nr_judete": 3,
+    "ultima_nr_companii": 2,
     "delta_conturi_ron": 0.0,
     "delta_imobile": 0
   }

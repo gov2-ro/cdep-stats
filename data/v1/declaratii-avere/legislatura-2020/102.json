@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:26.910920Z",
+    "generated_at": "2026-05-29T17:26:51.500244Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-14",
@@ -49,11 +91,206 @@
         "terenuri_count": 6,
         "cladiri_count": 5,
         "suprafata_total_mp": 61939.0,
-        "conturi_total_ron": 200650.0,
-        "venituri_anuale_ron": 137256.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 20050.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 29000.0,
+        "suprafata_luciu_mp": 10554.0,
+        "suprafata_alte_mp": 2030.0,
+        "suprafata_cladiri_mp": 305.0,
         "auto_count": 3,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 151500.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 251704.5,
+        "plasamente_total_ron": 200650.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 137256.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 9500.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 24000.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2007,
+            "cota_parte": "13/20",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 5000.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 10550.0,
+            "judet": "-",
+            "an_dobandirii": 2004,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 2030.0,
+            "judet": "-",
+            "an_dobandirii": 2009,
+            "cota_parte": "50/50",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 10554.0,
+            "judet": "-",
+            "an_dobandirii": 2014,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 60.0,
+            "judet": "Brasov",
+            "an_dobandirii": 1994,
+            "cota_parte": "14/365",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 68.0,
+            "judet": "-",
+            "an_dobandirii": 2002,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 58.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 42.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2016,
+            "cota_parte": "562/678",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 77.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "Iveco",
+            "an_fabricatie": 2007,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Opel",
+            "an_fabricatie": 2008,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Intesa San Paolo",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 79077.0
+          },
+          {
+            "institutie": "Intesa San Paolo",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 55418.7
+          },
+          {
+            "institutie": "Intesa San Paolo",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 9090.0
+          },
+          {
+            "institutie": "Monterotondo",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 181.79999999999998
+          },
+          {
+            "institutie": "Monterotondo",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 107937.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Persoana Fizica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 15150.0
+          },
+          {
+            "emitent": "Persoana Fizica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50500.0
+          },
+          {
+            "emitent": "Valsoft Prosistem Srl",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 135000.0
+          }
+        ],
+        "total_active_monetare_ron": 603854.5,
+        "avere_neta_ron": 603854.5,
+        "nr_judete": 2,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 2,
+        "an_prima_proprietate": 1994
       },
       {
         "data_depunere": "2023-06-07",
@@ -63,11 +300,206 @@
         "terenuri_count": 6,
         "cladiri_count": 5,
         "suprafata_total_mp": 61939.0,
-        "conturi_total_ron": 200650.0,
-        "venituri_anuale_ron": 137256.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 20050.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 29000.0,
+        "suprafata_luciu_mp": 10554.0,
+        "suprafata_alte_mp": 2030.0,
+        "suprafata_cladiri_mp": 305.0,
         "auto_count": 3,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 151500.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 314429.1895,
+        "plasamente_total_ron": 200650.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 137256.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 9500.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 24000.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2007,
+            "cota_parte": "13/20",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 5000.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 10550.0,
+            "judet": "-",
+            "an_dobandirii": 2004,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 2030.0,
+            "judet": "-",
+            "an_dobandirii": 2009,
+            "cota_parte": "50/50",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 10554.0,
+            "judet": "-",
+            "an_dobandirii": 2014,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 60.0,
+            "judet": "Brasov",
+            "an_dobandirii": 1994,
+            "cota_parte": "14/365",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 68.0,
+            "judet": "-",
+            "an_dobandirii": 2002,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 58.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 42.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2016,
+            "cota_parte": "562/678",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 77.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "Iveco",
+            "an_fabricatie": 2007,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Opel",
+            "an_fabricatie": 2008,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Intesa San Paolo",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 106851.98
+          },
+          {
+            "institutie": "Intesa San Paolo",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 48070.1925
+          },
+          {
+            "institutie": "Intesa San Paolo",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 9090.0
+          },
+          {
+            "institutie": "Monterotondo",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 2842.847
+          },
+          {
+            "institutie": "Monterotondo",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 147574.17
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Persoana Fizica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 15150.0
+          },
+          {
+            "emitent": "Persoana Fizica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50500.0
+          },
+          {
+            "emitent": "Valsoft Prosistem Srl",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 135000.0
+          }
+        ],
+        "total_active_monetare_ron": 666579.1895,
+        "avere_neta_ron": 666579.1895,
+        "nr_judete": 2,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 2,
+        "an_prima_proprietate": 1994
       },
       {
         "data_depunere": "2024-06-14",
@@ -77,11 +509,238 @@
         "terenuri_count": 7,
         "cladiri_count": 6,
         "suprafata_total_mp": 62290.0,
-        "conturi_total_ron": 200650.0,
-        "venituri_anuale_ron": 167908.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 20050.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 39554.0,
+        "suprafata_luciu_mp": 265.0,
+        "suprafata_alte_mp": 2030.0,
+        "suprafata_cladiri_mp": 391.0,
         "auto_count": 3,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 151500.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 388374.83150000003,
+        "plasamente_total_ron": 200650.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 167908.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 9500.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 24000.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2007,
+            "cota_parte": "13/20",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 5000.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 10550.0,
+            "judet": "-",
+            "an_dobandirii": 2004,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 2030.0,
+            "judet": "-",
+            "an_dobandirii": 2009,
+            "cota_parte": "50/50",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 10554.0,
+            "judet": "-",
+            "an_dobandirii": 2014,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 265.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2023,
+            "cota_parte": "3/16",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 60.0,
+            "judet": "Brasov",
+            "an_dobandirii": 1994,
+            "cota_parte": "14/365",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 68.0,
+            "judet": "-",
+            "an_dobandirii": 2002,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 58.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 42.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2016,
+            "cota_parte": "562/678",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 77.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 86.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2023,
+            "cota_parte": "5/8",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "Iveco",
+            "an_fabricatie": 2007,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Opel",
+            "an_fabricatie": 2008,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Intesa San Paolo",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 4536.47
+          },
+          {
+            "institutie": "Intesa San Paolo",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 392.2335
+          },
+          {
+            "institutie": "Monterotondo",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 2424.0
+          },
+          {
+            "institutie": "Monterotondo",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 93785.99
+          },
+          {
+            "institutie": "Romana",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 130000.0
+          },
+          {
+            "institutie": "Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 48450.507999999994
+          },
+          {
+            "institutie": "Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 108785.63
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Persoana Fizica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 15150.0
+          },
+          {
+            "emitent": "Persoana Fizica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50500.0
+          },
+          {
+            "emitent": "Valsoft Prosistem Srl",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 135000.0
+          }
+        ],
+        "total_active_monetare_ron": 740524.8315000001,
+        "avere_neta_ron": 740524.8315000001,
+        "nr_judete": 2,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 2,
+        "an_prima_proprietate": 1994
       },
       {
         "data_depunere": "2025-01-21",
@@ -91,18 +750,252 @@
         "terenuri_count": 7,
         "cladiri_count": 6,
         "suprafata_total_mp": 62290.0,
-        "conturi_total_ron": 200650.0,
-        "venituri_anuale_ron": 167908.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 20050.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 39554.0,
+        "suprafata_luciu_mp": 265.0,
+        "suprafata_alte_mp": 2030.0,
+        "suprafata_cladiri_mp": 391.0,
         "auto_count": 3,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 151500.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 388374.83150000003,
+        "plasamente_total_ron": 200650.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 167908.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 9500.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 24000.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2007,
+            "cota_parte": "13/20",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 5000.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 10550.0,
+            "judet": "-",
+            "an_dobandirii": 2004,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 2030.0,
+            "judet": "-",
+            "an_dobandirii": 2009,
+            "cota_parte": "50/50",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 10554.0,
+            "judet": "-",
+            "an_dobandirii": 2014,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 265.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2023,
+            "cota_parte": "3/16",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 60.0,
+            "judet": "Brasov",
+            "an_dobandirii": 1994,
+            "cota_parte": "14/365",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 68.0,
+            "judet": "-",
+            "an_dobandirii": 2002,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 58.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2018,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 42.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2016,
+            "cota_parte": "562/678",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 77.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 86.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2023,
+            "cota_parte": "5/8",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "Iveco",
+            "an_fabricatie": 2007,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Opel",
+            "an_fabricatie": 2008,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Intesa San Paolo",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 4536.47
+          },
+          {
+            "institutie": "Intesa San Paolo",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 392.2335
+          },
+          {
+            "institutie": "Monterotondo",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 2424.0
+          },
+          {
+            "institutie": "Monterotondo",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 93785.99
+          },
+          {
+            "institutie": "Romana",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 130000.0
+          },
+          {
+            "institutie": "Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 48450.507999999994
+          },
+          {
+            "institutie": "Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 108785.63
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Persoana Fizica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 15150.0
+          },
+          {
+            "emitent": "Persoana Fizica 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50500.0
+          },
+          {
+            "emitent": "Valsoft Prosistem Srl",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 135000.0
+          }
+        ],
+        "total_active_monetare_ron": 740524.8315000001,
+        "avere_neta_ron": 740524.8315000001,
+        "nr_judete": 2,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 2,
+        "an_prima_proprietate": 1994
       }
     ],
     "ultima_data": "2025-01-21",
-    "ultima_conturi_ron": 200650.0,
+    "ultima_conturi_ron": 388374.83150000003,
     "ultima_venituri_ron": 167908.0,
     "ultima_imobile_count": 13,
-    "delta_conturi_ron": 200650.0,
+    "ultima_bijuterii_ron": 151500.0,
+    "ultima_plasamente_ron": 200650.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 740524.8315000001,
+    "ultima_avere_neta_ron": 740524.8315000001,
+    "ultima_nr_judete": 2,
+    "ultima_nr_companii": 3,
+    "delta_conturi_ron": 388374.83150000003,
     "delta_imobile": 13
   }
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:54:43.839722Z",
+    "generated_at": "2026-05-29T17:32:26.243795Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -49,11 +91,123 @@
         "terenuri_count": 1,
         "cladiri_count": 2,
         "suprafata_total_mp": 3525.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 190692.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 3200.0,
+        "suprafata_cladiri_mp": 325.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 452661.85,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 190692.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 3200.0,
+            "judet": "de",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 110.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2003,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 215.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2000,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "AUDI",
+            "an_fabricatie": 2014,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "1",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2001,
+            "sold_ron": 354474.64999999997
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2001,
+            "sold_ron": 9675.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2001,
+            "sold_ron": 1000.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 83150.0
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 30.299999999999997
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 4231.9
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 100.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 452661.85,
+        "avere_neta_ron": 452661.85,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2000
       },
       {
         "data_depunere": "2023-06-14",
@@ -63,11 +217,123 @@
         "terenuri_count": 1,
         "cladiri_count": 2,
         "suprafata_total_mp": 3525.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 192550.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 3200.0,
+        "suprafata_cladiri_mp": 325.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 452157.15,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 192550.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 3200.0,
+            "judet": "de",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 110.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2003,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 215.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2000,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "AUDI",
+            "an_fabricatie": 2014,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "1",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2001,
+            "sold_ron": 354661.5
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2001,
+            "sold_ron": 9148.5
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2001,
+            "sold_ron": 1000.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 87030.0
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 30.299999999999997
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 186.85
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 100.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 452157.15,
+        "avere_neta_ron": 452157.15,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2000
       },
       {
         "data_depunere": "2024-06-10",
@@ -77,11 +343,130 @@
         "terenuri_count": 1,
         "cladiri_count": 2,
         "suprafata_total_mp": 3525.0,
-        "conturi_total_ron": 25000.0,
-        "venituri_anuale_ron": 215970.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 3200.0,
+        "suprafata_cladiri_mp": 325.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 480519.39,
+        "plasamente_total_ron": 25000.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 215970.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 3200.0,
+            "judet": "de",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 110.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2003,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 215.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2000,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "AUDI",
+            "an_fabricatie": 2014,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "1",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2001,
+            "sold_ron": 356151.25
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2001,
+            "sold_ron": 8784.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2001,
+            "sold_ron": 862.14
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 114420.0
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 30.299999999999997
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 171.7
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 100.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "-",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 25000.0
+          }
+        ],
+        "total_active_monetare_ron": 505519.39,
+        "avere_neta_ron": 505519.39,
+        "nr_judete": 2,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2000
       },
       {
         "data_depunere": "2024-12-31",
@@ -91,18 +476,150 @@
         "terenuri_count": 1,
         "cladiri_count": 2,
         "suprafata_total_mp": 3525.0,
-        "conturi_total_ron": 223000.0,
-        "venituri_anuale_ron": 215970.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 3200.0,
+        "suprafata_cladiri_mp": 325.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 287688.55,
+        "plasamente_total_ron": 223000.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 215970.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 3200.0,
+            "judet": "de",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 110.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2003,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 215.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2000,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "AUDI",
+            "an_fabricatie": 2014,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "1",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2001,
+            "sold_ron": 150490.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2001,
+            "sold_ron": 8595.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2001,
+            "sold_ron": 879.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 127468.0
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 30.299999999999997
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 126.25
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 100.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "-",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 25000.0
+          },
+          {
+            "emitent": "0",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 198000.0
+          }
+        ],
+        "total_active_monetare_ron": 510688.55,
+        "avere_neta_ron": 510688.55,
+        "nr_judete": 2,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2000
       }
     ],
     "ultima_data": "2024-12-31",
-    "ultima_conturi_ron": 223000.0,
+    "ultima_conturi_ron": 287688.55,
     "ultima_venituri_ron": 215970.0,
     "ultima_imobile_count": 3,
-    "delta_conturi_ron": 223000.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 223000.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 510688.55,
+    "ultima_avere_neta_ron": 510688.55,
+    "ultima_nr_judete": 2,
+    "ultima_nr_companii": 2,
+    "delta_conturi_ron": 287688.55,
     "delta_imobile": 3
   }
 }

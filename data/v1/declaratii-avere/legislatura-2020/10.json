@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:04:22.624128Z",
+    "generated_at": "2026-05-29T17:24:15.157987Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-08",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-08",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-06-07",
@@ -63,11 +126,100 @@
         "terenuri_count": 2,
         "cladiri_count": 4,
         "suprafata_total_mp": 3120.38,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 194402.0,
-        "datorii_total_ron": 76319.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2470.0,
+        "suprafata_luciu_mp": 300.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 350.38,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 76319.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 194402.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2470.0,
+            "judet": "Contract",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 300.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 64.8,
+            "judet": "Constanta",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 88.79,
+            "judet": "Constanta",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 135.35,
+            "judet": "Constanta",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 61.44,
+            "judet": "Contract",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Volkswagen Polo",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Audi",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": -76319.0,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2006
       },
       {
         "data_depunere": "2024-06-13",
@@ -77,11 +229,100 @@
         "terenuri_count": 2,
         "cladiri_count": 4,
         "suprafata_total_mp": 3120.38,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 207122.0,
-        "datorii_total_ron": 76319.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2470.0,
+        "suprafata_luciu_mp": 300.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 350.38,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 76319.0,
+        "cadouri_total_ron": 29000.0,
+        "venituri_anuale_ron": 207122.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2470.0,
+            "judet": "Contract",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 300.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 64.8,
+            "judet": "Constanta",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 88.79,
+            "judet": "Constanta",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 135.35,
+            "judet": "Constanta",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 61.44,
+            "judet": "Contract",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Volkswagen Polo",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Audi",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": -76319.0,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2006
       },
       {
         "data_depunere": "2024-12-23",
@@ -91,17 +332,113 @@
         "terenuri_count": 2,
         "cladiri_count": 4,
         "suprafata_total_mp": 3120.38,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 207122.0,
-        "datorii_total_ron": 76319.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2470.0,
+        "suprafata_luciu_mp": 300.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 350.38,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 76319.0,
+        "cadouri_total_ron": 29000.0,
+        "venituri_anuale_ron": 207122.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2470.0,
+            "judet": "Contract",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 300.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 64.8,
+            "judet": "Constanta",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 88.79,
+            "judet": "Constanta",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 135.35,
+            "judet": "Constanta",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 61.44,
+            "judet": "Contract",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Volkswagen Polo",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Audi",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": -76319.0,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2006
       }
     ],
     "ultima_data": "2024-12-23",
     "ultima_conturi_ron": 0.0,
     "ultima_venituri_ron": 207122.0,
     "ultima_imobile_count": 6,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 76319.0,
+    "ultima_total_active_ron": 0.0,
+    "ultima_avere_neta_ron": -76319.0,
+    "ultima_nr_judete": 2,
+    "ultima_nr_companii": 0,
     "delta_conturi_ron": 0.0,
     "delta_imobile": 6
   }

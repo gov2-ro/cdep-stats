@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:51.104333Z",
+    "generated_at": "2026-05-29T17:23:37.723836Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 1
@@ -21,17 +21,141 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 254782.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 4,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 310456.221,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 254782.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "1",
+            "an_fabricatie": 2015,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "FORD FUSION",
+            "an_fabricatie": 2007,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "şalup",
+            "marca": "LAGUNA",
+            "an_fabricatie": 2009,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "HYUNDAI TUCSON",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 481.21
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 31061.85
+          },
+          {
+            "institutie": "BT TÎLVĂR ANGEL",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 239249.911
+          },
+          {
+            "institutie": "BT TÎLVĂR ANGEL",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 1152.0
+          },
+          {
+            "institutie": "BT TÎLVĂR ANGEL",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2021,
+            "sold_ron": 25.25
+          },
+          {
+            "institutie": "BT TÎLVĂR ANCA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2001,
+            "sold_ron": 2231.0
+          },
+          {
+            "institutie": "BT TÎLVĂR ANCA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 2120.0
+          },
+          {
+            "institutie": "BT TÎLVĂR ANCA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2007,
+            "sold_ron": 1135.0
+          },
+          {
+            "institutie": "T TÎLVĂR ANCA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 16000.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 17000.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 310456.221,
+        "avere_neta_ron": 310456.221,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       }
     ],
     "ultima_data": "2024-12-29",
-    "ultima_conturi_ron": 0.0,
+    "ultima_conturi_ron": 310456.221,
     "ultima_venituri_ron": 254782.0,
     "ultima_imobile_count": 0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 310456.221,
+    "ultima_avere_neta_ron": 310456.221,
+    "ultima_nr_judete": 0,
+    "ultima_nr_companii": 0,
     "delta_conturi_ron": 0.0,
     "delta_imobile": 0
   }

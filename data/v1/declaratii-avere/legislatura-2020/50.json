@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:05:18.137719Z",
+    "generated_at": "2026-05-29T17:25:25.356058Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-14",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -49,11 +91,108 @@
         "terenuri_count": 0,
         "cladiri_count": 1,
         "suprafata_total_mp": 80.0,
-        "conturi_total_ron": 45000.0,
-        "venituri_anuale_ron": 283920.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 80.0,
+        "auto_count": 6,
+        "bijuterii_total_ron": 85850.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 75250.0,
+        "plasamente_total_ron": 45000.0,
         "datorii_total_ron": 292500.0,
-        "auto_count": 2,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 283920.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 80.0,
+            "judet": "Valcea",
+            "an_dobandirii": 2018,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 2003,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 1995,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 1990,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 1990,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autovehicul",
+            "marca": "Iveco",
+            "an_fabricatie": 2013,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Audi",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "JUDETUL VALCEA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 25000.0
+          },
+          {
+            "institutie": "JUDETUL VALCEA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 25000.0
+          },
+          {
+            "institutie": "JUDETUL VALCEA",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 25250.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "S.C. LOVAGRO S.R.L.",
+            "tip": "imprumut",
+            "nr_titluri": "90 %",
+            "valoare_ron": 45000.0
+          }
+        ],
+        "total_active_monetare_ron": 206100.0,
+        "avere_neta_ron": -86400.0,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2018
       },
       {
         "data_depunere": "2023-06-09",
@@ -63,11 +202,95 @@
         "terenuri_count": 0,
         "cladiri_count": 1,
         "suprafata_total_mp": 80.0,
-        "conturi_total_ron": 25000.0,
-        "venituri_anuale_ron": 153312.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 80.0,
+        "auto_count": 5,
+        "bijuterii_total_ron": 85850.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 50000.0,
+        "plasamente_total_ron": 25000.0,
         "datorii_total_ron": 292500.0,
-        "auto_count": 2,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 153312.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 80.0,
+            "judet": "Valcea",
+            "an_dobandirii": 2018,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 2003,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 1995,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 1990,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autovehicul",
+            "marca": "Iveco",
+            "an_fabricatie": 2013,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Audi",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "JUDETUL VALCEA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 25000.0
+          },
+          {
+            "institutie": "JUDETUL VALCEA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 25000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "S.C. LOVAGRO S.R.L.",
+            "tip": "imprumut",
+            "nr_titluri": "90 %",
+            "valoare_ron": 25000.0
+          }
+        ],
+        "total_active_monetare_ron": 160850.0,
+        "avere_neta_ron": -131650.0,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2018
       },
       {
         "data_depunere": "2024-06-12",
@@ -77,11 +300,95 @@
         "terenuri_count": 0,
         "cladiri_count": 1,
         "suprafata_total_mp": 80.0,
-        "conturi_total_ron": 25755.0,
-        "venituri_anuale_ron": 153312.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 80.0,
+        "auto_count": 5,
+        "bijuterii_total_ron": 85850.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 50000.0,
+        "plasamente_total_ron": 25755.0,
         "datorii_total_ron": 252500.0,
-        "auto_count": 2,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 153312.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 80.0,
+            "judet": "Valcea",
+            "an_dobandirii": 2018,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 2003,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 1995,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 1990,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autovehicul",
+            "marca": "Iveco",
+            "an_fabricatie": 2013,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Audi",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "JUDETUL VALCEA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 25000.0
+          },
+          {
+            "institutie": "JUDETUL VALCEA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 25000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "S.C. LOVAGRO S.R.L.",
+            "tip": "imprumut",
+            "nr_titluri": "90 %",
+            "valoare_ron": 25755.0
+          }
+        ],
+        "total_active_monetare_ron": 161605.0,
+        "avere_neta_ron": -90895.0,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2018
       },
       {
         "data_depunere": "2024-12-31",
@@ -91,18 +398,115 @@
         "terenuri_count": 0,
         "cladiri_count": 1,
         "suprafata_total_mp": 80.0,
-        "conturi_total_ron": 223755.0,
-        "venituri_anuale_ron": 153312.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 80.0,
+        "auto_count": 5,
+        "bijuterii_total_ron": 85850.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 34500.0,
+        "plasamente_total_ron": 223755.0,
         "datorii_total_ron": 452500.0,
-        "auto_count": 2,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 153312.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 80.0,
+            "judet": "Valcea",
+            "an_dobandirii": 2018,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 2003,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 1995,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Alt mijloc",
+            "marca": "de",
+            "an_fabricatie": 1990,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autovehicul",
+            "marca": "Iveco",
+            "an_fabricatie": 2013,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Audi",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "JUDETUL VALCEA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 2500.0
+          },
+          {
+            "institutie": "JUDETUL VALCEA",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 32000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "S.C. LOVAGRO S.R.L.",
+            "tip": "imprumut",
+            "nr_titluri": "90 %",
+            "valoare_ron": 25755.0
+          },
+          {
+            "emitent": "198000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 198000.0
+          }
+        ],
+        "total_active_monetare_ron": 344105.0,
+        "avere_neta_ron": -108395.0,
+        "nr_judete": 1,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2018
       }
     ],
     "ultima_data": "2024-12-31",
-    "ultima_conturi_ron": 223755.0,
+    "ultima_conturi_ron": 34500.0,
     "ultima_venituri_ron": 153312.0,
     "ultima_imobile_count": 1,
-    "delta_conturi_ron": 223755.0,
+    "ultima_bijuterii_ron": 85850.0,
+    "ultima_plasamente_ron": 223755.0,
+    "ultima_datorii_ron": 452500.0,
+    "ultima_total_active_ron": 344105.0,
+    "ultima_avere_neta_ron": -108395.0,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 2,
+    "delta_conturi_ron": 34500.0,
     "delta_imobile": 1
   }
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:04:37.917686Z",
+    "generated_at": "2026-05-29T17:20:51.198966Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 2
@@ -21,11 +21,131 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 773.3399999999999,
-        "conturi_total_ron": 593010.0,
-        "venituri_anuale_ron": 232270.0,
-        "datorii_total_ron": 35000.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 387.0,
+        "suprafata_luciu_mp": 61.79,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 324.55,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 115214.1805,
+        "plasamente_total_ron": 593010.0,
+        "datorii_total_ron": 35000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 232270.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 387.0,
+            "judet": "Buzau",
+            "an_dobandirii": 2002,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 61.79,
+            "judet": "Buzau",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 281.51,
+            "judet": "Buzau",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 43.04,
+            "judet": "Buzau",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2003,
+            "sold_ron": 52745.05
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 4095.44
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 516.413
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 30103.12
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 27698.997499999998
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 55.16
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Ciolacu Mihai-Cristian 490000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 490000.0
+          },
+          {
+            "emitent": "ALCOM SRL 301",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 3010.0
+          },
+          {
+            "emitent": "100000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 100000.0
+          }
+        ],
+        "total_active_monetare_ron": 708224.1805,
+        "avere_neta_ron": 673224.1805,
+        "nr_judete": 1,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1999
       },
       {
         "data_depunere": "2025-05-29",
@@ -35,18 +155,161 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 773.3399999999999,
-        "conturi_total_ron": 3010.0,
-        "venituri_anuale_ron": 344376.0,
-        "datorii_total_ron": 35000.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 387.0,
+        "suprafata_luciu_mp": 61.79,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 324.55,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 792289.9005,
+        "plasamente_total_ron": 3010.0,
+        "datorii_total_ron": 35000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 344376.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 387.0,
+            "judet": "Buzau",
+            "an_dobandirii": 2002,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 61.79,
+            "judet": "Buzau",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 281.51,
+            "judet": "Buzau",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 43.04,
+            "judet": "Buzau",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2003,
+            "sold_ron": 223158.37
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 3745.59
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 516.413
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 36633.12
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 27683.8475
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 103.13
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 449.43
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2025,
+            "sold_ron": 200000.0
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2025,
+            "sold_ron": 200000.0
+          },
+          {
+            "institutie": "TRANSILVANIA",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2025,
+            "sold_ron": 100000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "ALCOM SRL 301",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 3010.0
+          }
+        ],
+        "total_active_monetare_ron": 795299.9005,
+        "avere_neta_ron": 760299.9005,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1999
       }
     ],
     "ultima_data": "2025-05-29",
-    "ultima_conturi_ron": 3010.0,
+    "ultima_conturi_ron": 792289.9005,
     "ultima_venituri_ron": 344376.0,
     "ultima_imobile_count": 4,
-    "delta_conturi_ron": -590000.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 3010.0,
+    "ultima_datorii_ron": 35000.0,
+    "ultima_total_active_ron": 795299.9005,
+    "ultima_avere_neta_ron": 760299.9005,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 1,
+    "delta_conturi_ron": 677075.72,
     "delta_imobile": 0
   }
 }

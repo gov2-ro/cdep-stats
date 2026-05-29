@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:16.169302Z",
+    "generated_at": "2026-05-29T17:22:54.120192Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 1
@@ -21,17 +21,62 @@
         "terenuri_count": 0,
         "cladiri_count": 1,
         "suprafata_total_mp": 150.0,
-        "conturi_total_ron": 100000.0,
-        "venituri_anuale_ron": 128846.0,
-        "datorii_total_ron": 1979500.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 150.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 106050.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 100000.0,
+        "datorii_total_ron": 1979500.0,
+        "cadouri_total_ron": 75750.0,
+        "venituri_anuale_ron": 128846.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 150.0,
+            "judet": "Contract",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Persoana fizica -",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 100000.0
+          }
+        ],
+        "total_active_monetare_ron": 206050.0,
+        "avere_neta_ron": -1773450.0,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2019
       }
     ],
     "ultima_data": "2024-12-29",
-    "ultima_conturi_ron": 100000.0,
+    "ultima_conturi_ron": 0.0,
     "ultima_venituri_ron": 128846.0,
     "ultima_imobile_count": 1,
+    "ultima_bijuterii_ron": 106050.0,
+    "ultima_plasamente_ron": 100000.0,
+    "ultima_datorii_ron": 1979500.0,
+    "ultima_total_active_ron": 206050.0,
+    "ultima_avere_neta_ron": -1773450.0,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 1,
     "delta_conturi_ron": 0.0,
     "delta_imobile": 0
   }

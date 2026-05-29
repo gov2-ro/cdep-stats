@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:04:29.467549Z",
+    "generated_at": "2026-05-29T17:24:23.996759Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 7
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-14",
@@ -49,11 +91,149 @@
         "terenuri_count": 6,
         "cladiri_count": 2,
         "suprafata_total_mp": 13729.68,
-        "conturi_total_ron": 550900.0,
-        "venituri_anuale_ron": 203094.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 3108.0,
+        "suprafata_luciu_mp": 10000.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 621.6800000000001,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 2,
+        "bunuri_instrainate_total_ron": 824160.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 550900.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 203094.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 400.0,
+            "judet": "Timis",
+            "an_dobandirii": 2000,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 568.0,
+            "judet": "Timis",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 782.0,
+            "judet": "Timis",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 808.0,
+            "judet": "Timis",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 550.0,
+            "judet": "Timis",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 10000.0,
+            "judet": "Timis",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 233.68,
+            "judet": "Timis",
+            "an_dobandirii": 2002,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 388.0,
+            "judet": "Timis",
+            "an_dobandirii": 2008,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "WV Golf V",
+            "an_fabricatie": 2007,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Ardelean Rebeca 45000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 227250.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 82000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 82000.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 94700",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 94700.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 71200",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 71200.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 15000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 75750.0
+          }
+        ],
+        "total_active_monetare_ron": 550900.0,
+        "avere_neta_ron": 550900.0,
+        "nr_judete": 1,
+        "nr_companii": 5,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2000
       },
       {
         "data_depunere": "2022-06-15",
@@ -63,11 +243,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-06-14",
@@ -77,11 +278,151 @@
         "terenuri_count": 6,
         "cladiri_count": 2,
         "suprafata_total_mp": 13729.68,
-        "conturi_total_ron": 550900.0,
-        "venituri_anuale_ron": 205666.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 3108.0,
+        "suprafata_luciu_mp": 10000.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 621.6800000000001,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 2,
+        "bunuri_instrainate_total_ron": 439513.0,
+        "conturi_total_ron": 155929.0,
+        "plasamente_total_ron": 550900.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 205666.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 400.0,
+            "judet": "Timis",
+            "an_dobandirii": 2000,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 568.0,
+            "judet": "Timis",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 782.0,
+            "judet": "Timis",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 808.0,
+            "judet": "Timis",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 550.0,
+            "judet": "Timis",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 10000.0,
+            "judet": "Timis",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 233.68,
+            "judet": "Timis",
+            "an_dobandirii": 2002,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 388.0,
+            "judet": "Timis",
+            "an_dobandirii": 2008,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 155929.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Ardelean Rebeca 45000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 227250.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 82000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 82000.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 94700",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 94700.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 71200",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 71200.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 15000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 75750.0
+          }
+        ],
+        "total_active_monetare_ron": 706829.0,
+        "avere_neta_ron": 706829.0,
+        "nr_judete": 1,
+        "nr_companii": 5,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2000
       },
       {
         "data_depunere": "2024-06-12",
@@ -91,11 +432,158 @@
         "terenuri_count": 6,
         "cladiri_count": 2,
         "suprafata_total_mp": 13000.68,
-        "conturi_total_ron": 550900.0,
-        "venituri_anuale_ron": 214978.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 2670.0,
+        "suprafata_luciu_mp": 10000.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 330.68,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 444400.0,
+        "conturi_total_ron": 594965.0,
+        "plasamente_total_ron": 550900.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 214978.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 400.0,
+            "judet": "Timis",
+            "an_dobandirii": 2000,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 568.0,
+            "judet": "Timis",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 782.0,
+            "judet": "Timis",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 808.0,
+            "judet": "Timis",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 112.0,
+            "judet": "Timis",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 10000.0,
+            "judet": "Timis",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 233.68,
+            "judet": "Timis",
+            "an_dobandirii": 2002,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 97.0,
+            "judet": "Timis",
+            "an_dobandirii": 2008,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 150565.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 444400.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Ardelean Rebeca 45000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 227250.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 82000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 82000.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 94700",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 94700.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 71200",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 71200.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 15000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 75750.0
+          }
+        ],
+        "total_active_monetare_ron": 1145865.0,
+        "avere_neta_ron": 1145865.0,
+        "nr_judete": 1,
+        "nr_companii": 5,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2000
       },
       {
         "data_depunere": "2025-01-15",
@@ -105,18 +593,172 @@
         "terenuri_count": 6,
         "cladiri_count": 2,
         "suprafata_total_mp": 13438.68,
-        "conturi_total_ron": 550900.0,
-        "venituri_anuale_ron": 214978.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 3108.0,
+        "suprafata_luciu_mp": 10000.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 330.68,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 594965.0,
+        "plasamente_total_ron": 550900.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 214978.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 400.0,
+            "judet": "Timis",
+            "an_dobandirii": 2000,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 568.0,
+            "judet": "Timis",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 782.0,
+            "judet": "Timis",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 808.0,
+            "judet": "Timis",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 550.0,
+            "judet": "Timis",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 10000.0,
+            "judet": "Timis",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 233.68,
+            "judet": "Timis",
+            "an_dobandirii": 2002,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 97.0,
+            "judet": "Timis",
+            "an_dobandirii": 2008,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 150565.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 444400.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Ardelean Rebeca 45000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 227250.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 82000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 82000.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 94700",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 94700.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 71200",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 71200.0
+          },
+          {
+            "emitent": "Ardelean Rebeca 15000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 75750.0
+          }
+        ],
+        "total_active_monetare_ron": 1145865.0,
+        "avere_neta_ron": 1145865.0,
+        "nr_judete": 1,
+        "nr_companii": 5,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2000
       }
     ],
     "ultima_data": "2025-01-15",
-    "ultima_conturi_ron": 550900.0,
+    "ultima_conturi_ron": 594965.0,
     "ultima_venituri_ron": 214978.0,
     "ultima_imobile_count": 8,
-    "delta_conturi_ron": 550900.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 550900.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 1145865.0,
+    "ultima_avere_neta_ron": 1145865.0,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 5,
+    "delta_conturi_ron": 594965.0,
     "delta_imobile": 8
   }
 }

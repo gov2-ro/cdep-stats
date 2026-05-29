@@ -1,0 +1,2320 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: cdep.api
+      - link "← Înapoi" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+      - button "Switch to English" [ref=e7] [cursor=pointer]: EN
+  - generic [ref=e9]:
+    - generic [ref=e10]:
+      - button "2024" [ref=e11] [cursor=pointer]
+      - button "2020" [ref=e12] [cursor=pointer]
+    - combobox [ref=e13] [cursor=pointer]:
+      - option "Ședințe (prezență)" [selected]
+      - option "Luări de cuvânt"
+      - option "Propuneri legislative"
+      - option "Legi promulgate"
+      - option "Declarații politice"
+      - option "Întrebări / interpelări"
+    - generic [ref=e14]:
+      - generic [ref=e15] [cursor=pointer]: PSD
+      - generic [ref=e16] [cursor=pointer]: AUR
+      - generic [ref=e17] [cursor=pointer]: PNL
+      - generic [ref=e18] [cursor=pointer]: USR
+      - generic [ref=e19] [cursor=pointer]: UDMR
+      - generic [ref=e20] [cursor=pointer]: Minoritati
+      - generic [ref=e22] [cursor=pointer]: Neafiliat
+      - generic [ref=e24] [cursor=pointer]: UPR
+      - generic [ref=e25] [cursor=pointer]: SOS RO
+    - textbox "Caută deputat…" [ref=e27]
+    - generic [ref=e28]: 335 deputați
+  - generic [ref=e29]:
+    - heading "Activitate parlamentară" [level=1] [ref=e30]
+    - paragraph [ref=e31]: Fiecare cerc = un deputat · Ședințe · legislatura 2024
+    - generic [ref=e32]:
+      - link "Vedinaş Verginia SOS RO Vedinaş Verginia 75" [ref=e33] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/319.json
+        - generic [ref=e34]:
+          - img "Vedinaş Verginia" [ref=e36]
+          - generic: SOS RO
+        - generic [ref=e37]: Vedinaş Verginia
+        - generic [ref=e38]: "75"
+      - link "Andronache Gabriel PNL Andronache Gabriel 69" [ref=e39] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/9.json
+        - generic [ref=e40]:
+          - img "Andronache Gabriel" [ref=e42]
+          - generic: PNL
+        - generic [ref=e43]: Andronache Gabriel
+        - generic [ref=e44]: "69"
+      - link "Dimitriu Alexandru-Paul USR Dimitriu Alexandru-Paul 68" [ref=e45] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/90.json
+        - generic [ref=e46]:
+          - img "Dimitriu Alexandru-Paul" [ref=e48]
+          - generic: USR
+        - generic [ref=e49]: Dimitriu Alexandru-Paul
+        - generic [ref=e50]: "68"
+      - link "Câciu Adrian PSD Câciu Adrian 63" [ref=e51] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/51.json
+        - generic [ref=e52]:
+          - img "Câciu Adrian" [ref=e54]
+          - generic: PSD
+        - generic [ref=e55]: Câciu Adrian
+        - generic [ref=e56]: "63"
+      - link "Coleşa Ilie-Alin AUR Coleşa Ilie-Alin 63" [ref=e57] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/72.json
+        - generic [ref=e58]:
+          - img "Coleşa Ilie-Alin" [ref=e60]
+          - generic: AUR
+        - generic [ref=e61]: Coleşa Ilie-Alin
+        - generic [ref=e62]: "63"
+      - link "Coarnă Dumitru Neafiliat Coarnă Dumitru 61" [ref=e63] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/70.json
+        - generic [ref=e64]:
+          - img "Coarnă Dumitru" [ref=e66]
+          - generic: Neafiliat
+        - generic [ref=e67]: Coarnă Dumitru
+        - generic [ref=e68]: "61"
+      - link "Enachi Raisa Neafiliat Enachi Raisa 57" [ref=e69] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/101.json
+        - generic [ref=e70]:
+          - img "Enachi Raisa" [ref=e72]
+          - generic: Neafiliat
+        - generic [ref=e73]: Enachi Raisa
+        - generic [ref=e74]: "57"
+      - link "Intotero Natalia-Elena PSD Intotero Natalia-Elena 57" [ref=e75] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/147.json
+        - generic [ref=e76]:
+          - img "Intotero Natalia-Elena" [ref=e78]
+          - generic: PSD
+        - generic [ref=e79]: Intotero Natalia-Elena
+        - generic [ref=e80]: "57"
+      - link "Simion George-Nicolae AUR Simion George-Nicolae 57" [ref=e81] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/279.json
+        - generic [ref=e82]:
+          - img "Simion George-Nicolae" [ref=e84]
+          - generic: AUR
+        - generic [ref=e85]: Simion George-Nicolae
+        - generic [ref=e86]: "57"
+      - link "Şerban Gianina AUR Şerban Gianina 52" [ref=e87] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/296.json
+        - generic [ref=e88]:
+          - img "Şerban Gianina" [ref=e90]
+          - generic: AUR
+        - generic [ref=e91]: Şerban Gianina
+        - generic [ref=e92]: "52"
+      - link "Velcescu Florin-Bogdan AUR Velcescu Florin-Bogdan 49" [ref=e93] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/321.json
+        - generic [ref=e94]:
+          - img "Velcescu Florin-Bogdan" [ref=e96]
+          - generic: AUR
+        - generic [ref=e97]: Velcescu Florin-Bogdan
+        - generic [ref=e98]: "49"
+      - link "Gheorghe Andrei Daniel PNL Gheorghe Andrei Daniel 47" [ref=e99] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/118.json
+        - generic [ref=e100]:
+          - img "Gheorghe Andrei Daniel" [ref=e102]
+          - generic: PNL
+        - generic [ref=e103]: Gheorghe Andrei Daniel
+        - generic [ref=e104]: "47"
+      - link "Ionescu Tudor SOS RO Ionescu Tudor 47" [ref=e105] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/152.json
+        - generic [ref=e106]:
+          - img "Ionescu Tudor" [ref=e108]
+          - generic: SOS RO
+        - generic [ref=e109]: Ionescu Tudor
+        - generic [ref=e110]: "47"
+      - link "Tanasă Dan AUR Tanasă Dan 47" [ref=e111] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/298.json
+        - generic [ref=e112]:
+          - img "Tanasă Dan" [ref=e114]
+          - generic: AUR
+        - generic [ref=e115]: Tanasă Dan
+        - generic [ref=e116]: "47"
+      - link "Gurlui Silviu-Octavian AUR Gurlui Silviu-Octavian 46" [ref=e117] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/136.json
+        - generic [ref=e118]:
+          - img "Gurlui Silviu-Octavian" [ref=e120]
+          - generic: AUR
+        - generic [ref=e121]: Gurlui Silviu-Octavian
+        - generic [ref=e122]: "46"
+      - link "Lăpuşan Remus-Gabriel PSD Lăpuşan Remus-Gabriel 45" [ref=e123] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/168.json
+        - generic [ref=e124]:
+          - img "Lăpuşan Remus-Gabriel" [ref=e126]
+          - generic: PSD
+        - generic [ref=e127]: Lăpuşan Remus-Gabriel
+        - generic [ref=e128]: "45"
+      - link "Alecu Robert Neafiliat Alecu Robert 41" [ref=e129] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/5.json
+        - generic [ref=e130]:
+          - img "Alecu Robert" [ref=e132]
+          - generic: Neafiliat
+        - generic [ref=e133]: Alecu Robert
+        - generic [ref=e134]: "41"
+      - link "Moş Patricia-Simina-Arina PNL Moş Patricia-Simina-Arina 41" [ref=e135] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/208.json
+        - generic [ref=e136]:
+          - img "Moş Patricia-Simina-Arina" [ref=e138]
+          - generic: PNL
+        - generic [ref=e139]: Moş Patricia-Simina-Arina
+        - generic [ref=e140]: "41"
+      - link "Simu Aurora-Tasica Neafiliat Simu Aurora-Tasica 41" [ref=e141] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/280.json
+        - generic [ref=e142]:
+          - img "Simu Aurora-Tasica" [ref=e144]
+          - generic: Neafiliat
+        - generic [ref=e145]: Simu Aurora-Tasica
+        - generic [ref=e146]: "41"
+      - link "Muncaciu Sorin-Titus AUR Muncaciu Sorin-Titus 40" [ref=e147] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/210.json
+        - generic [ref=e148]:
+          - img "Muncaciu Sorin-Titus" [ref=e150]
+          - generic: AUR
+        - generic [ref=e151]: Muncaciu Sorin-Titus
+        - generic [ref=e152]: "40"
+      - link "Ciucă Liviu-Bogdan PSD Ciucă Liviu-Bogdan 39" [ref=e153] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/63.json
+        - generic [ref=e154]:
+          - img "Ciucă Liviu-Bogdan" [ref=e156]
+          - generic: PSD
+        - generic [ref=e157]: Ciucă Liviu-Bogdan
+        - generic [ref=e158]: "39"
+      - link "Petreţchi Nicolae-Miroslav Minoritati Petreţchi Nicolae-Miroslav 39" [ref=e159] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/241.json
+        - generic [ref=e160]:
+          - img "Petreţchi Nicolae-Miroslav" [ref=e162]
+          - generic: Minoritati
+        - generic [ref=e163]: Petreţchi Nicolae-Miroslav
+        - generic [ref=e164]: "39"
+      - link "Gavrilă Anamaria UPR Gavrilă Anamaria 38" [ref=e165] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/113.json
+        - generic [ref=e166]:
+          - img "Gavrilă Anamaria" [ref=e168]
+          - generic: UPR
+        - generic [ref=e169]: Gavrilă Anamaria
+        - generic [ref=e170]: "38"
+      - link "Suciu Vasile-Daniel PSD Suciu Vasile-Daniel 38" [ref=e171] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/290.json
+        - generic [ref=e172]:
+          - img "Suciu Vasile-Daniel" [ref=e174]
+          - generic: PSD
+        - generic [ref=e175]: Suciu Vasile-Daniel
+        - generic [ref=e176]: "38"
+      - link "Cristian Brian USR Cristian Brian 37" [ref=e177] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/82.json
+        - generic [ref=e178]:
+          - img "Cristian Brian" [ref=e180]
+          - generic: USR
+        - generic [ref=e181]: Cristian Brian
+        - generic [ref=e182]: "37"
+      - link "Moiseev Alexandrin PNL Moiseev Alexandrin 37" [ref=e183] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/204.json
+        - generic [ref=e184]:
+          - img "Moiseev Alexandrin" [ref=e186]
+          - generic: PNL
+        - generic [ref=e187]: Moiseev Alexandrin
+        - generic [ref=e188]: "37"
+      - link "Toma Ilie PSD Toma Ilie 37" [ref=e189] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/305.json
+        - generic [ref=e190]:
+          - img "Toma Ilie" [ref=e192]
+          - generic: PSD
+        - generic [ref=e193]: Toma Ilie
+        - generic [ref=e194]: "37"
+      - link "Munteanu Valeriu AUR Munteanu Valeriu 36" [ref=e195] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/211.json
+        - generic [ref=e196]:
+          - img "Munteanu Valeriu" [ref=e198]
+          - generic: AUR
+        - generic [ref=e199]: Munteanu Valeriu
+        - generic [ref=e200]: "36"
+      - link "Ţiplea Dumitru PNL Ţiplea Dumitru 36" [ref=e201] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/311.json
+        - generic [ref=e202]:
+          - img "Ţiplea Dumitru" [ref=e204]
+          - generic: PNL
+        - generic [ref=e205]: Ţiplea Dumitru
+        - generic [ref=e206]: "36"
+      - link "Vârgă Mariana Neafiliat Vârgă Mariana 36" [ref=e207] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/318.json
+        - generic [ref=e208]:
+          - img "Vârgă Mariana" [ref=e210]
+          - generic: Neafiliat
+        - generic [ref=e211]: Vârgă Mariana
+        - generic [ref=e212]: "36"
+      - link "Cozma Adrian-Felician PNL Cozma Adrian-Felician 35" [ref=e213] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/81.json
+        - generic [ref=e214]:
+          - img "Cozma Adrian-Felician" [ref=e216]
+          - generic: PNL
+        - generic [ref=e217]: Cozma Adrian-Felician
+        - generic [ref=e218]: "35"
+      - link "Făget Mădălin-Laurenţiu Neafiliat Făget Mădălin-Laurenţiu 35" [ref=e219] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/103.json
+        - generic [ref=e220]:
+          - img "Făget Mădălin-Laurenţiu" [ref=e222]
+          - generic: Neafiliat
+        - generic [ref=e223]: Făget Mădălin-Laurenţiu
+        - generic [ref=e224]: "35"
+      - link "Murariu Oana USR Murariu Oana 34" [ref=e225] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/213.json
+        - generic [ref=e226]:
+          - img "Murariu Oana" [ref=e228]
+          - generic: USR
+        - generic [ref=e229]: Murariu Oana
+        - generic [ref=e230]: "34"
+      - link "Roman Florin-Claudiu PNL Roman Florin-Claudiu 34" [ref=e231] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/271.json
+        - generic [ref=e232]:
+          - img "Roman Florin-Claudiu" [ref=e234]
+          - generic: PNL
+        - generic [ref=e235]: Roman Florin-Claudiu
+        - generic [ref=e236]: "34"
+      - link "Bruynseels Ramona-Ioana AUR Bruynseels Ramona-Ioana 33" [ref=e237] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/38.json
+        - generic [ref=e238]:
+          - img "Bruynseels Ramona-Ioana" [ref=e240]
+          - generic: AUR
+        - generic [ref=e241]: Bruynseels Ramona-Ioana
+        - generic [ref=e242]: "33"
+      - link "Enache Mihai-Adrian AUR Enache Mihai-Adrian 33" [ref=e243] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/100.json
+        - generic [ref=e244]:
+          - img "Enache Mihai-Adrian" [ref=e246]
+          - generic: AUR
+        - generic [ref=e247]: Enache Mihai-Adrian
+        - generic [ref=e248]: "33"
+      - link "Turcan Raluca PNL Turcan Raluca 32" [ref=e249] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/308.json
+        - generic [ref=e250]:
+          - img "Turcan Raluca" [ref=e252]
+          - generic: PNL
+        - generic [ref=e253]: Turcan Raluca
+        - generic [ref=e254]: "32"
+      - link "Ciunt Ionel PSD Ciunt Ionel 31" [ref=e255] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/64.json
+        - generic [ref=e256]:
+          - img "Ciunt Ionel" [ref=e258]
+          - generic: PSD
+        - generic [ref=e259]: Ciunt Ionel
+        - generic [ref=e260]: "31"
+      - link "Drulă Cătălin USR Drulă Cătălin 31" [ref=e261] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/96.json
+        - generic [ref=e262]:
+          - img "Drulă Cătălin" [ref=e264]
+          - generic: USR
+        - generic [ref=e265]: Drulă Cătălin
+        - generic [ref=e266]: "31"
+      - link "Matieş Călin-Gheorghe AUR Matieş Călin-Gheorghe 31" [ref=e267] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/185.json
+        - generic [ref=e268]:
+          - img "Matieş Călin-Gheorghe" [ref=e270]
+          - generic: AUR
+        - generic [ref=e271]: Matieş Călin-Gheorghe
+        - generic [ref=e272]: "31"
+      - link "Popa Ştefan-Ovidiu PSD Popa Ştefan-Ovidiu 31" [ref=e273] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/254.json
+        - generic [ref=e274]:
+          - img "Popa Ştefan-Ovidiu" [ref=e276]
+          - generic: PSD
+        - generic [ref=e277]: Popa Ştefan-Ovidiu
+        - generic [ref=e278]: "31"
+      - link "Ungureanu Emanuel-Dumitru USR Ungureanu Emanuel-Dumitru 31" [ref=e279] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/314.json
+        - generic [ref=e280]:
+          - img "Ungureanu Emanuel-Dumitru" [ref=e282]
+          - generic: USR
+        - generic [ref=e283]: Ungureanu Emanuel-Dumitru
+        - generic [ref=e284]: "31"
+      - link "Ciornei Daniel-Cătălin AUR Ciornei Daniel-Cătălin 30" [ref=e285] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/60.json
+        - generic [ref=e286]:
+          - img "Ciornei Daniel-Cătălin" [ref=e288]
+          - generic: AUR
+        - generic [ref=e289]: Ciornei Daniel-Cătălin
+        - generic [ref=e290]: "30"
+      - link "Paraschiv Ciprian-Constantin AUR Paraschiv Ciprian-Constantin 30" [ref=e291] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/235.json
+        - generic [ref=e292]:
+          - img "Paraschiv Ciprian-Constantin" [ref=e294]
+          - generic: AUR
+        - generic [ref=e295]: Paraschiv Ciprian-Constantin
+        - generic [ref=e296]: "30"
+      - link "Prună Cristina-Mădălina USR Prună Cristina-Mădălina 30" [ref=e297] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/260.json
+        - generic [ref=e298]:
+          - img "Prună Cristina-Mădălina" [ref=e300]
+          - generic: USR
+        - generic [ref=e301]: Prună Cristina-Mădălina
+        - generic [ref=e302]: "30"
+      - link "Rodeanu Bogdan-Ionel USR Rodeanu Bogdan-Ionel 29" [ref=e303] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/269.json
+        - generic [ref=e304]:
+          - img "Rodeanu Bogdan-Ionel" [ref=e306]
+          - generic: USR
+        - generic [ref=e307]: Rodeanu Bogdan-Ionel
+        - generic [ref=e308]: "29"
+      - link "Albu Dumitriţa Neafiliat Albu Dumitriţa 28" [ref=e309] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/3.json
+        - generic [ref=e310]:
+          - img "Albu Dumitriţa" [ref=e312]
+          - generic: Neafiliat
+        - generic [ref=e313]: Albu Dumitriţa
+        - generic [ref=e314]: "28"
+      - link "Ciubuc Ciprian Neafiliat Ciubuc Ciprian 28" [ref=e315] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/62.json
+        - generic [ref=e316]:
+          - img "Ciubuc Ciprian" [ref=e318]
+          - generic: Neafiliat
+        - generic [ref=e319]: Ciubuc Ciprian
+        - generic [ref=e320]: "28"
+      - link "Fechet Mircea PNL Fechet Mircea 28" [ref=e321] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/104.json
+        - generic [ref=e322]:
+          - img "Fechet Mircea" [ref=e324]
+          - generic: PNL
+        - generic [ref=e325]: Fechet Mircea
+        - generic [ref=e326]: "28"
+      - link "Porumboiu Gabriela UPR Porumboiu Gabriela 28" [ref=e327] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/257.json
+        - generic [ref=e328]:
+          - img "Porumboiu Gabriela" [ref=e330]
+          - generic: UPR
+        - generic [ref=e331]: Porumboiu Gabriela
+        - generic [ref=e332]: "28"
+      - link "Mitrea Dumitrina AUR Mitrea Dumitrina 27" [ref=e333] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/200.json
+        - generic [ref=e334]:
+          - img "Mitrea Dumitrina" [ref=e336]
+          - generic: AUR
+        - generic [ref=e337]: Mitrea Dumitrina
+        - generic [ref=e338]: "27"
+      - link "Negrea Petru-Gabriel AUR Negrea Petru-Gabriel 27" [ref=e339] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/228.json
+        - generic [ref=e340]:
+          - img "Negrea Petru-Gabriel" [ref=e342]
+          - generic: AUR
+        - generic [ref=e343]: Negrea Petru-Gabriel
+        - generic [ref=e344]: "27"
+      - link "Szőke Ecaterina-Mariana PSD Szőke Ecaterina-Mariana 27" [ref=e345] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/292.json
+        - generic [ref=e346]:
+          - img "Szőke Ecaterina-Mariana" [ref=e348]
+          - generic: PSD
+        - generic [ref=e349]: Szőke Ecaterina-Mariana
+        - generic [ref=e350]: "27"
+      - link "Coliban Allen USR Coliban Allen 26" [ref=e351] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/73.json
+        - generic [ref=e352]:
+          - img "Coliban Allen" [ref=e354]
+          - generic: USR
+        - generic [ref=e355]: Coliban Allen
+        - generic [ref=e356]: "26"
+      - link "Cîmpan Cristian-Emanuel PSD Cîmpan Cristian-Emanuel 25" [ref=e357] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/65.json
+        - generic [ref=e358]:
+          - img "Cîmpan Cristian-Emanuel" [ref=e360]
+          - generic: PSD
+        - generic [ref=e361]: Cîmpan Cristian-Emanuel
+        - generic [ref=e362]: "25"
+      - link "Gheorghiu Andrei-Florin USR Gheorghiu Andrei-Florin 25" [ref=e363] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/121.json
+        - generic [ref=e364]:
+          - img "Gheorghiu Andrei-Florin" [ref=e366]
+          - generic: USR
+        - generic [ref=e367]: Gheorghiu Andrei-Florin
+        - generic [ref=e368]: "25"
+      - link "Goidescu Ionel SOS RO Goidescu Ionel 25" [ref=e369] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/128.json
+        - generic [ref=e370]:
+          - img "Goidescu Ionel" [ref=e372]
+          - generic: SOS RO
+        - generic [ref=e373]: Goidescu Ionel
+        - generic [ref=e374]: "25"
+      - link "Pascalini Nini-Alexandru SOS RO Pascalini Nini-Alexandru 25" [ref=e375] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/237.json
+        - generic [ref=e376]:
+          - img "Pascalini Nini-Alexandru" [ref=e378]
+          - generic: SOS RO
+        - generic [ref=e379]: Pascalini Nini-Alexandru
+        - generic [ref=e380]: "25"
+      - link "Pîclişan Gheorghe-Petru UPR Pîclişan Gheorghe-Petru 25" [ref=e381] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/245.json
+        - generic [ref=e382]:
+          - img "Pîclişan Gheorghe-Petru" [ref=e384]
+          - generic: UPR
+        - generic [ref=e385]: Pîclişan Gheorghe-Petru
+        - generic [ref=e386]: "25"
+      - link "Bende Sándor UDMR Bende Sándor 24" [ref=e387] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/25.json
+        - generic [ref=e388]:
+          - img "Bende Sándor" [ref=e390]
+          - generic: UDMR
+        - generic [ref=e391]: Bende Sándor
+        - generic [ref=e392]: "24"
+      - link "Coman Dragoş-Florin AUR Coman Dragoş-Florin 24" [ref=e393] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/74.json
+        - generic [ref=e394]:
+          - img "Coman Dragoş-Florin" [ref=e396]
+          - generic: AUR
+        - generic [ref=e397]: Coman Dragoş-Florin
+        - generic [ref=e398]: "24"
+      - link "Dascălu Cristina-Emanuela AUR Dascălu Cristina-Emanuela 24" [ref=e399] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/89.json
+        - generic [ref=e400]:
+          - img "Dascălu Cristina-Emanuela" [ref=e402]
+          - generic: AUR
+        - generic [ref=e403]: Dascălu Cristina-Emanuela
+        - generic [ref=e404]: "24"
+      - link "Ghigiu Alexandru-Mihai PSD Ghigiu Alexandru-Mihai 24" [ref=e405] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/124.json
+        - generic [ref=e406]:
+          - img "Ghigiu Alexandru-Mihai" [ref=e408]
+          - generic: PSD
+        - generic [ref=e409]: Ghigiu Alexandru-Mihai
+        - generic [ref=e410]: "24"
+      - link "Oltenaşu Sorin-George SOS RO Oltenaşu Sorin-George 24" [ref=e411] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/231.json
+        - generic [ref=e412]:
+          - img "Oltenaşu Sorin-George" [ref=e414]
+          - generic: SOS RO
+        - generic [ref=e415]: Oltenaşu Sorin-George
+        - generic [ref=e416]: "24"
+      - link "Stoica Alin-Bogdan USR Stoica Alin-Bogdan 24" [ref=e417] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/285.json
+        - generic [ref=e418]:
+          - img "Stoica Alin-Bogdan" [ref=e420]
+          - generic: USR
+        - generic [ref=e421]: Stoica Alin-Bogdan
+        - generic [ref=e422]: "24"
+      - link "Alecsandru Marius-Nicolae USR Alecsandru Marius-Nicolae 23" [ref=e423] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/4.json
+        - generic [ref=e424]:
+          - img "Alecsandru Marius-Nicolae" [ref=e426]
+          - generic: USR
+        - generic [ref=e427]: Alecsandru Marius-Nicolae
+        - generic [ref=e428]: "23"
+      - link "Bode Lucian Nicolae PNL Bode Lucian Nicolae 23" [ref=e429] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/30.json
+        - generic [ref=e430]:
+          - img "Bode Lucian Nicolae" [ref=e432]
+          - generic: PNL
+        - generic [ref=e433]: Bode Lucian Nicolae
+        - generic [ref=e434]: "23"
+      - link "Cîmpean Ovidiu-Vasile PNL Cîmpean Ovidiu-Vasile 23" [ref=e435] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/66.json
+        - generic [ref=e436]:
+          - img "Cîmpean Ovidiu-Vasile" [ref=e438]
+          - generic: PNL
+        - generic [ref=e439]: Cîmpean Ovidiu-Vasile
+        - generic [ref=e440]: "23"
+      - link "Corendea Cosmin-Ioan AUR Corendea Cosmin-Ioan 23" [ref=e441] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/78.json
+        - generic [ref=e442]:
+          - img "Corendea Cosmin-Ioan" [ref=e444]
+          - generic: AUR
+        - generic [ref=e445]: Corendea Cosmin-Ioan
+        - generic [ref=e446]: "23"
+      - link "Csoma Botond UDMR Csoma Botond 23" [ref=e447] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/87.json
+        - generic [ref=e448]:
+          - img "Csoma Botond" [ref=e450]
+          - generic: UDMR
+        - generic [ref=e451]: Csoma Botond
+        - generic [ref=e452]: "23"
+      - link "Gorghiu Alina-Ştefania PNL Gorghiu Alina-Ştefania 23" [ref=e453] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/129.json
+        - generic [ref=e454]:
+          - img "Gorghiu Alina-Ştefania" [ref=e456]
+          - generic: PNL
+        - generic [ref=e457]: Gorghiu Alina-Ştefania
+        - generic [ref=e458]: "23"
+      - link "Neamţu George-Mihail AUR Neamţu George-Mihail 23" [ref=e459] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/224.json
+        - generic [ref=e460]:
+          - img "Neamţu George-Mihail" [ref=e462]
+          - generic: AUR
+        - generic [ref=e463]: Neamţu George-Mihail
+        - generic [ref=e464]: "23"
+      - link "Ţiu Mihai-Adrian SOS RO Ţiu Mihai-Adrian 23" [ref=e465] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/312.json
+        - generic [ref=e466]:
+          - img "Ţiu Mihai-Adrian" [ref=e468]
+          - generic: SOS RO
+        - generic [ref=e469]: Ţiu Mihai-Adrian
+        - generic [ref=e470]: "23"
+      - link "Chirilă Virgil Alin PSD Chirilă Virgil Alin 22" [ref=e471] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/54.json
+        - generic [ref=e472]:
+          - img "Chirilă Virgil Alin" [ref=e474]
+          - generic: PSD
+        - generic [ref=e475]: Chirilă Virgil Alin
+        - generic [ref=e476]: "22"
+      - link "Cojocaru Petru-Bogdan PSD Cojocaru Petru-Bogdan 22" [ref=e477] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/71.json
+        - generic [ref=e478]:
+          - img "Cojocaru Petru-Bogdan" [ref=e480]
+          - generic: PSD
+        - generic [ref=e481]: Cojocaru Petru-Bogdan
+        - generic [ref=e482]: "22"
+      - link "Andruşcă Lucian-Nicolae PSD Andruşcă Lucian-Nicolae 21" [ref=e483] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/10.json
+        - generic [ref=e484]:
+          - img "Andruşcă Lucian-Nicolae" [ref=e486]
+          - generic: PSD
+        - generic [ref=e487]: Andruşcă Lucian-Nicolae
+        - generic [ref=e488]: "21"
+      - link "Bouda Ştefan Minoritati Bouda Ştefan 21" [ref=e489] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/37.json
+        - generic [ref=e490]:
+          - img "Bouda Ştefan" [ref=e492]
+          - generic: Minoritati
+        - generic [ref=e493]: Bouda Ştefan
+        - generic [ref=e494]: "21"
+      - link "Mihalcea Silvia-Claudia PSD Mihalcea Silvia-Claudia 21" [ref=e495] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/192.json
+        - generic [ref=e496]:
+          - img "Mihalcea Silvia-Claudia" [ref=e498]
+          - generic: PSD
+        - generic [ref=e499]: Mihalcea Silvia-Claudia
+        - generic [ref=e500]: "21"
+      - link "Moşteanu Liviu-Ionuţ USR Moşteanu Liviu-Ionuţ 21" [ref=e501] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/209.json
+        - generic [ref=e502]:
+          - img "Moşteanu Liviu-Ionuţ" [ref=e504]
+          - generic: USR
+        - generic [ref=e505]: Moşteanu Liviu-Ionuţ
+        - generic [ref=e506]: "21"
+      - link "Szabó Ödön UDMR Szabó Ödön 21" [ref=e507] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/291.json
+        - generic [ref=e508]:
+          - img "Szabó Ödön" [ref=e510]
+          - generic: UDMR
+        - generic [ref=e511]: Szabó Ödön
+        - generic [ref=e512]: "21"
+      - link "Gheorghe Ionel AUR Gheorghe Ionel 20" [ref=e513] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/119.json
+        - generic [ref=e514]:
+          - img "Gheorghe Ionel" [ref=e516]
+          - generic: AUR
+        - generic [ref=e517]: Gheorghe Ionel
+        - generic [ref=e518]: "20"
+      - link "Huţucă Bogdan-Iulian PNL Huţucă Bogdan-Iulian 20" [ref=e519] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/143.json
+        - generic [ref=e520]:
+          - img "Huţucă Bogdan-Iulian" [ref=e522]
+          - generic: PNL
+        - generic [ref=e523]: Huţucă Bogdan-Iulian
+        - generic [ref=e524]: "20"
+      - link "Rinder Ana-Smaranda PSD Rinder Ana-Smaranda 20" [ref=e525] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/268.json
+        - generic [ref=e526]:
+          - img "Rinder Ana-Smaranda" [ref=e528]
+          - generic: PSD
+        - generic [ref=e529]: Rinder Ana-Smaranda
+        - generic [ref=e530]: "20"
+      - link "Tilea Dumitru AUR Tilea Dumitru 20" [ref=e531] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/301.json
+        - generic [ref=e532]:
+          - img "Tilea Dumitru" [ref=e534]
+          - generic: AUR
+        - generic [ref=e535]: Tilea Dumitru
+        - generic [ref=e536]: "20"
+      - link "Atanasiu Corina USR Atanasiu Corina 19" [ref=e537] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/12.json
+        - generic [ref=e538]:
+          - img "Atanasiu Corina" [ref=e540]
+          - generic: USR
+        - generic [ref=e541]: Atanasiu Corina
+        - generic [ref=e542]: "19"
+      - link "Buzoianu Diana-Anda USR Buzoianu Diana-Anda 19" [ref=e543] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/48.json
+        - generic [ref=e544]:
+          - img "Buzoianu Diana-Anda" [ref=e546]
+          - generic: USR
+        - generic [ref=e547]: Buzoianu Diana-Anda
+        - generic [ref=e548]: "19"
+      - link "Cernit Maria UPR Cernit Maria 19" [ref=e549] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/52.json
+        - generic [ref=e550]:
+          - img "Cernit Maria" [ref=e552]
+          - generic: UPR
+        - generic [ref=e553]: Cernit Maria
+        - generic [ref=e554]: "19"
+      - link "Csép Éva-Andrea UDMR Csép Éva-Andrea 19" [ref=e555] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/85.json
+        - generic [ref=e556]:
+          - img "Csép Éva-Andrea" [ref=e558]
+          - generic: UDMR
+        - generic [ref=e559]: Csép Éva-Andrea
+        - generic [ref=e560]: "19"
+      - link "Iagăr Monica AUR Iagăr Monica 19" [ref=e561] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/144.json
+        - generic [ref=e562]:
+          - img "Iagăr Monica" [ref=e564]
+          - generic: AUR
+        - generic [ref=e565]: Iagăr Monica
+        - generic [ref=e566]: "19"
+      - link "Sandu Viorica PSD Sandu Viorica 19" [ref=e567] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/275.json
+        - generic [ref=e568]:
+          - img "Sandu Viorica" [ref=e570]
+          - generic: PSD
+        - generic [ref=e571]: Sandu Viorica
+        - generic [ref=e572]: "19"
+      - link "Grindeanu Sorin-Mihai PSD Grindeanu Sorin-Mihai 18" [ref=e573] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/131.json
+        - generic [ref=e574]:
+          - img "Grindeanu Sorin-Mihai" [ref=e576]
+          - generic: PSD
+        - generic [ref=e577]: Grindeanu Sorin-Mihai
+        - generic [ref=e578]: "18"
+      - link "Grosu Veronica AUR Grosu Veronica 18" [ref=e579] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/134.json
+        - generic [ref=e580]:
+          - img "Grosu Veronica" [ref=e582]
+          - generic: AUR
+        - generic [ref=e583]: Grosu Veronica
+        - generic [ref=e584]: "18"
+      - link "Popa Maricel PSD Popa Maricel 18" [ref=e585] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/253.json
+        - generic [ref=e586]:
+          - img "Popa Maricel" [ref=e588]
+          - generic: PSD
+        - generic [ref=e589]: Popa Maricel
+        - generic [ref=e590]: "18"
+      - link "Vass Levente UDMR Vass Levente 18" [ref=e591] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/316.json
+        - generic [ref=e592]:
+          - img "Vass Levente" [ref=e594]
+          - generic: UDMR
+        - generic [ref=e595]: Vass Levente
+        - generic [ref=e596]: "18"
+      - link "Baş Ana-Marcela SOS RO Baş Ana-Marcela 17" [ref=e597] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/21.json
+        - generic [ref=e598]:
+          - img "Baş Ana-Marcela" [ref=e600]
+          - generic: SOS RO
+        - generic [ref=e601]: Baş Ana-Marcela
+        - generic [ref=e602]: "17"
+      - link "Ene Gabriela-Corina PSD Ene Gabriela-Corina 17" [ref=e603] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/102.json
+        - generic [ref=e604]:
+          - img "Ene Gabriela-Corina" [ref=e606]
+          - generic: PSD
+        - generic [ref=e607]: Ene Gabriela-Corina
+        - generic [ref=e608]: "17"
+      - link "Lőrincz Ştefan-Iulian USR Lőrincz Ştefan-Iulian 17" [ref=e609] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/172.json
+        - generic [ref=e610]:
+          - img "Lőrincz Ştefan-Iulian" [ref=e612]
+          - generic: USR
+        - generic [ref=e613]: Lőrincz Ştefan-Iulian
+        - generic [ref=e614]: "17"
+      - link "Priescu Ionelia-Florenţa AUR Priescu Ionelia-Florenţa 17" [ref=e615] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/258.json
+        - generic [ref=e616]:
+          - img "Priescu Ionelia-Florenţa" [ref=e618]
+          - generic: AUR
+        - generic [ref=e619]: Priescu Ionelia-Florenţa
+        - generic [ref=e620]: "17"
+      - link "Solomon Adrian PSD Solomon Adrian 17" [ref=e621] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/281.json
+        - generic [ref=e622]:
+          - img "Solomon Adrian" [ref=e624]
+          - generic: PSD
+        - generic [ref=e625]: Solomon Adrian
+        - generic [ref=e626]: "17"
+      - link "Adomnicăi Mirela Elena PSD Adomnicăi Mirela Elena 16" [ref=e627] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/1.json
+        - generic [ref=e628]:
+          - img "Adomnicăi Mirela Elena" [ref=e630]
+          - generic: PSD
+        - generic [ref=e631]: Adomnicăi Mirela Elena
+        - generic [ref=e632]: "16"
+      - link "Groza Călin-Florin UPR Groza Călin-Florin 16" [ref=e633] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/135.json
+        - generic [ref=e634]:
+          - img "Groza Călin-Florin" [ref=e636]
+          - generic: UPR
+        - generic [ref=e637]: Groza Călin-Florin
+        - generic [ref=e638]: "16"
+      - link "Ion Nicolae-Mirel SOS RO Ion Nicolae-Mirel 16" [ref=e639] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/148.json
+        - generic [ref=e640]:
+          - img "Ion Nicolae-Mirel" [ref=e642]
+          - generic: SOS RO
+        - generic [ref=e643]: Ion Nicolae-Mirel
+        - generic [ref=e644]: "16"
+      - link "Mititelu Eduard-Tatian PNL Mititelu Eduard-Tatian 16" [ref=e645] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/199.json
+        - generic [ref=e646]:
+          - img "Mititelu Eduard-Tatian" [ref=e648]
+          - generic: PNL
+        - generic [ref=e649]: Mititelu Eduard-Tatian
+        - generic [ref=e650]: "16"
+      - link "Neagu Petre-Emanoil PNL Neagu Petre-Emanoil 16" [ref=e651] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/223.json
+        - generic [ref=e652]:
+          - img "Neagu Petre-Emanoil" [ref=e654]
+          - generic: PNL
+        - generic [ref=e655]: Neagu Petre-Emanoil
+        - generic [ref=e656]: "16"
+      - link "Plopeanu Rodica PSD Plopeanu Rodica 16" [ref=e657] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/246.json
+        - generic [ref=e658]:
+          - img "Plopeanu Rodica" [ref=e660]
+          - generic: PSD
+        - generic [ref=e661]: Plopeanu Rodica
+        - generic [ref=e662]: "16"
+      - link "Popa Cristian-Alexandru UPR Popa Cristian-Alexandru 16" [ref=e663] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/250.json
+        - generic [ref=e664]:
+          - img "Popa Cristian-Alexandru" [ref=e666]
+          - generic: UPR
+        - generic [ref=e667]: Popa Cristian-Alexandru
+        - generic [ref=e668]: "16"
+      - link "Puşcaşu Petre AUR Puşcaşu Petre 16" [ref=e669] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/262.json
+        - generic [ref=e670]:
+          - img "Puşcaşu Petre" [ref=e672]
+          - generic: AUR
+        - generic [ref=e673]: Puşcaşu Petre
+        - generic [ref=e674]: "16"
+      - link "Şerban Ciprian-Constantin PSD Şerban Ciprian-Constantin 16" [ref=e675] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/294.json
+        - generic [ref=e676]:
+          - img "Şerban Ciprian-Constantin" [ref=e678]
+          - generic: PSD
+        - generic [ref=e679]: Şerban Ciprian-Constantin
+        - generic [ref=e680]: "16"
+      - link "Vuşcan Voicu PSD Vuşcan Voicu 16" [ref=e681] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/326.json
+        - generic [ref=e682]:
+          - img "Vuşcan Voicu" [ref=e684]
+          - generic: PSD
+        - generic [ref=e685]: Vuşcan Voicu
+        - generic [ref=e686]: "16"
+      - link "Drăgoescu Cezar-Mihail USR Drăgoescu Cezar-Mihail 15" [ref=e687] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/94.json
+        - generic [ref=e688]:
+          - img "Drăgoescu Cezar-Mihail" [ref=e690]
+          - generic: USR
+        - generic [ref=e691]: Drăgoescu Cezar-Mihail
+        - generic [ref=e692]: "15"
+      - link "Govor Mircea-Vasile PSD Govor Mircea-Vasile 15" [ref=e693] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/130.json
+        - generic [ref=e694]:
+          - img "Govor Mircea-Vasile" [ref=e696]
+          - generic: PSD
+        - generic [ref=e697]: Govor Mircea-Vasile
+        - generic [ref=e698]: "15"
+      - link "Lovin Ramona AUR Lovin Ramona 15" [ref=e699] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/173.json
+        - generic [ref=e700]:
+          - img "Lovin Ramona" [ref=e702]
+          - generic: AUR
+        - generic [ref=e703]: Lovin Ramona
+        - generic [ref=e704]: "15"
+      - link "Muşat Doru-Lucian AUR Muşat Doru-Lucian 15" [ref=e705] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/215.json
+        - generic [ref=e706]:
+          - img "Muşat Doru-Lucian" [ref=e708]
+          - generic: AUR
+        - generic [ref=e709]: Muşat Doru-Lucian
+        - generic [ref=e710]: "15"
+      - link "Vadim-Tudor Lidia AUR Vadim-Tudor Lidia 15" [ref=e711] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/315.json
+        - generic [ref=e712]:
+          - img "Vadim-Tudor Lidia" [ref=e714]
+          - generic: AUR
+        - generic [ref=e715]: Vadim-Tudor Lidia
+        - generic [ref=e716]: "15"
+      - link "Cîmpianu Andreea-Petronela SOS RO Cîmpianu Andreea-Petronela 14" [ref=e717] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/67.json
+        - generic [ref=e718]:
+          - img "Cîmpianu Andreea-Petronela" [ref=e720]
+          - generic: SOS RO
+        - generic [ref=e721]: Cîmpianu Andreea-Petronela
+        - generic [ref=e722]: "14"
+      - link "Ganţ Ovidiu Victor Minoritati Ganţ Ovidiu Victor 14" [ref=e723] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/112.json
+        - generic [ref=e724]:
+          - img "Ganţ Ovidiu Victor" [ref=e726]
+          - generic: Minoritati
+        - generic [ref=e727]: Ganţ Ovidiu Victor
+        - generic [ref=e728]: "14"
+      - link "Matichescu Mirela-Florenţa PSD Matichescu Mirela-Florenţa 14" [ref=e729] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/184.json
+        - generic [ref=e730]:
+          - img "Matichescu Mirela-Florenţa" [ref=e732]
+          - generic: PSD
+        - generic [ref=e733]: Matichescu Mirela-Florenţa
+        - generic [ref=e734]: "14"
+      - link "Miruţă Radu-Dinel USR Miruţă Radu-Dinel 14" [ref=e735] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/198.json
+        - generic [ref=e736]:
+          - img "Miruţă Radu-Dinel" [ref=e738]
+          - generic: USR
+        - generic [ref=e739]: Miruţă Radu-Dinel
+        - generic [ref=e740]: "14"
+      - link "Stoica Diana USR Stoica Diana 14" [ref=e741] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/287.json
+        - generic [ref=e742]:
+          - img "Stoica Diana" [ref=e744]
+          - generic: USR
+        - generic [ref=e745]: Stoica Diana
+        - generic [ref=e746]: "14"
+      - link "Bordian Alexandru AUR Bordian Alexandru 13" [ref=e747] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/33.json
+        - generic [ref=e748]:
+          - img "Bordian Alexandru" [ref=e750]
+          - generic: AUR
+        - generic [ref=e751]: Bordian Alexandru
+        - generic [ref=e752]: "13"
+      - link "Butură Cristina-Irina AUR Butură Cristina-Irina 13" [ref=e753] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/47.json
+        - generic [ref=e754]:
+          - img "Butură Cristina-Irina" [ref=e756]
+          - generic: AUR
+        - generic [ref=e757]: Butură Cristina-Irina
+        - generic [ref=e758]: "13"
+      - link "Gal Călin-Graţian PNL Gal Călin-Graţian 13" [ref=e759] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/110.json
+        - generic [ref=e760]:
+          - img "Gal Călin-Graţian" [ref=e762]
+          - generic: PNL
+        - generic [ref=e763]: Gal Călin-Graţian
+        - generic [ref=e764]: "13"
+      - link "Rogobete Alexandru-Florin PSD Rogobete Alexandru-Florin 13" [ref=e765] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/270.json
+        - generic [ref=e766]:
+          - img "Rogobete Alexandru-Florin" [ref=e768]
+          - generic: PSD
+        - generic [ref=e769]: Rogobete Alexandru-Florin
+        - generic [ref=e770]: "13"
+      - link "Stănescu Vetuţa PNL Stănescu Vetuţa 13" [ref=e771] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/283.json
+        - generic [ref=e772]:
+          - img "Stănescu Vetuţa" [ref=e774]
+          - generic: PNL
+        - generic [ref=e775]: Stănescu Vetuţa
+        - generic [ref=e776]: "13"
+      - link "Avrămescu Ştefăniţă-Alin AUR Avrămescu Ştefăniţă-Alin 12" [ref=e777] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/13.json
+        - generic [ref=e778]:
+          - img "Avrămescu Ştefăniţă-Alin" [ref=e780]
+          - generic: AUR
+        - generic [ref=e781]: Avrămescu Ştefăniţă-Alin
+        - generic [ref=e782]: "12"
+      - link "Biro Daniel-Răzvan AUR Biro Daniel-Răzvan 12" [ref=e783] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/27.json
+        - generic [ref=e784]:
+          - img "Biro Daniel-Răzvan" [ref=e786]
+          - generic: AUR
+        - generic [ref=e787]: Biro Daniel-Răzvan
+        - generic [ref=e788]: "12"
+      - link "Bucur Ariana-Oana PSD Bucur Ariana-Oana 12" [ref=e789] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/39.json
+        - generic [ref=e790]:
+          - img "Bucur Ariana-Oana" [ref=e792]
+          - generic: PSD
+        - generic [ref=e793]: Bucur Ariana-Oana
+        - generic [ref=e794]: "12"
+      - link "Chilat Crina-Fiorela PSD Chilat Crina-Fiorela 12" [ref=e795] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/53.json
+        - generic [ref=e796]:
+          - img "Chilat Crina-Fiorela" [ref=e798]
+          - generic: PSD
+        - generic [ref=e799]: Chilat Crina-Fiorela
+        - generic [ref=e800]: "12"
+      - link "Dunava Costel Neculai PSD Dunava Costel Neculai 12" [ref=e801] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/97.json
+        - generic [ref=e802]:
+          - img "Dunava Costel Neculai" [ref=e804]
+          - generic: PSD
+        - generic [ref=e805]: Dunava Costel Neculai
+        - generic [ref=e806]: "12"
+      - link "Echert Adrian USR Echert Adrian 12" [ref=e807] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/98.json
+        - generic [ref=e808]:
+          - img "Echert Adrian" [ref=e810]
+          - generic: USR
+        - generic [ref=e811]: Echert Adrian
+        - generic [ref=e812]: "12"
+      - link "Grofu Daniel UPR Grofu Daniel 12" [ref=e813] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/132.json
+        - generic [ref=e814]:
+          - img "Grofu Daniel" [ref=e816]
+          - generic: UPR
+        - generic [ref=e817]: Grofu Daniel
+        - generic [ref=e818]: "12"
+      - link "Tomoescu Ion-Alin PSD Tomoescu Ion-Alin 12" [ref=e819] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/306.json
+        - generic [ref=e820]:
+          - img "Tomoescu Ion-Alin" [ref=e822]
+          - generic: PSD
+        - generic [ref=e823]: Tomoescu Ion-Alin
+        - generic [ref=e824]: "12"
+      - link "Vexler Silviu Minoritati Vexler Silviu 12" [ref=e825] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/322.json
+        - generic [ref=e826]:
+          - img "Vexler Silviu" [ref=e828]
+          - generic: Minoritati
+        - generic [ref=e829]: Vexler Silviu
+        - generic [ref=e830]: "12"
+      - link "Botez Mihai-Cătălin USR Botez Mihai-Cătălin 11" [ref=e831] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/36.json
+        - generic [ref=e832]:
+          - img "Botez Mihai-Cătălin" [ref=e834]
+          - generic: USR
+        - generic [ref=e835]: Botez Mihai-Cătălin
+        - generic [ref=e836]: "11"
+      - link "Burduja Sebastian-Ioan PNL Burduja Sebastian-Ioan 11" [ref=e837] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/46.json
+        - generic [ref=e838]:
+          - img "Burduja Sebastian-Ioan" [ref=e840]
+          - generic: PNL
+        - generic [ref=e841]: Burduja Sebastian-Ioan
+        - generic [ref=e842]: "11"
+      - link "Ciobotaru Dragoş-Fănică PNL Ciobotaru Dragoş-Fănică 11" [ref=e843] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/57.json
+        - generic [ref=e844]:
+          - img "Ciobotaru Dragoş-Fănică" [ref=e846]
+          - generic: PNL
+        - generic [ref=e847]: Ciobotaru Dragoş-Fănică
+        - generic [ref=e848]: "11"
+      - link "Cîrligeanu Ariadna-Elena AUR Cîrligeanu Ariadna-Elena 11" [ref=e849] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/69.json
+        - generic [ref=e850]:
+          - img "Cîrligeanu Ariadna-Elena" [ref=e852]
+          - generic: AUR
+        - generic [ref=e853]: Cîrligeanu Ariadna-Elena
+        - generic [ref=e854]: "11"
+      - link "Ghera Giureci-Slobodan Minoritati Ghera Giureci-Slobodan 11" [ref=e855] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/122.json
+        - generic [ref=e856]:
+          - img "Ghera Giureci-Slobodan" [ref=e858]
+          - generic: Minoritati
+        - generic [ref=e859]: Ghera Giureci-Slobodan
+        - generic [ref=e860]: "11"
+      - link "Isac Marius-Adrian PSD Isac Marius-Adrian 11" [ref=e861] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/156.json
+        - generic [ref=e862]:
+          - img "Isac Marius-Adrian" [ref=e864]
+          - generic: PSD
+        - generic [ref=e865]: Isac Marius-Adrian
+        - generic [ref=e866]: "11"
+      - link "Lungu Romeo-Daniel PSD Lungu Romeo-Daniel 11" [ref=e867] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/174.json
+        - generic [ref=e868]:
+          - img "Lungu Romeo-Daniel" [ref=e870]
+          - generic: PSD
+        - generic [ref=e871]: Lungu Romeo-Daniel
+        - generic [ref=e872]: "11"
+      - link "Rigman Ciprian-Doru USR Rigman Ciprian-Doru 11" [ref=e873] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/267.json
+        - generic [ref=e874]:
+          - img "Rigman Ciprian-Doru" [ref=e876]
+          - generic: USR
+        - generic [ref=e877]: Rigman Ciprian-Doru
+        - generic [ref=e878]: "11"
+      - link "Trif Bogdan Gheorghe PSD Trif Bogdan Gheorghe 11" [ref=e879] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/307.json
+        - generic [ref=e880]:
+          - img "Trif Bogdan Gheorghe" [ref=e882]
+          - generic: PSD
+        - generic [ref=e883]: Trif Bogdan Gheorghe
+        - generic [ref=e884]: "11"
+      - link "Chiriţă Răzvan-Mirel UPR Chiriţă Răzvan-Mirel 10" [ref=e885] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/55.json
+        - generic [ref=e886]:
+          - img "Chiriţă Răzvan-Mirel" [ref=e888]
+          - generic: UPR
+        - generic [ref=e889]: Chiriţă Răzvan-Mirel
+        - generic [ref=e890]: "10"
+      - link "Cotinescu Ilie-Aurelian PNL Cotinescu Ilie-Aurelian 10" [ref=e891] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/79.json
+        - generic [ref=e892]:
+          - img "Cotinescu Ilie-Aurelian" [ref=e894]
+          - generic: PNL
+        - generic [ref=e895]: Cotinescu Ilie-Aurelian
+        - generic [ref=e896]: "10"
+      - link "Feodor Silviu Minoritati Feodor Silviu 10" [ref=e897] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/105.json
+        - generic [ref=e898]:
+          - img "Feodor Silviu" [ref=e900]
+          - generic: Minoritati
+        - generic [ref=e901]: Feodor Silviu
+        - generic [ref=e902]: "10"
+      - link "Florea Gabriel-Florinel AUR Florea Gabriel-Florinel 10" [ref=e903] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/108.json
+        - generic [ref=e904]:
+          - img "Florea Gabriel-Florinel" [ref=e906]
+          - generic: AUR
+        - generic [ref=e907]: Florea Gabriel-Florinel
+        - generic [ref=e908]: "10"
+      - link "Gima George USR Gima George 10" [ref=e909] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/125.json
+        - generic [ref=e910]:
+          - img "Gima George" [ref=e912]
+          - generic: USR
+        - generic [ref=e913]: Gima George
+        - generic [ref=e914]: "10"
+      - link "Macovei Ilie Simona-Elena SOS RO Macovei Ilie Simona-Elena 10" [ref=e915] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/175.json
+        - generic [ref=e916]:
+          - img "Macovei Ilie Simona-Elena" [ref=e918]
+          - generic: SOS RO
+        - generic [ref=e919]: Macovei Ilie Simona-Elena
+        - generic [ref=e920]: "10"
+      - link "Mihaiu Radu-Nicolae USR Mihaiu Radu-Nicolae 10" [ref=e921] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/189.json
+        - generic [ref=e922]:
+          - img "Mihaiu Radu-Nicolae" [ref=e924]
+          - generic: USR
+        - generic [ref=e925]: Mihaiu Radu-Nicolae
+        - generic [ref=e926]: "10"
+      - link "Mîndroc Cătălin-Viorel PSD Mîndroc Cătălin-Viorel 10" [ref=e927] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/202.json
+        - generic [ref=e928]:
+          - img "Mîndroc Cătălin-Viorel" [ref=e930]
+          - generic: PSD
+        - generic [ref=e931]: Mîndroc Cătălin-Viorel
+        - generic [ref=e932]: "10"
+      - link "Tanasă Ştefan USR Tanasă Ştefan 10" [ref=e933] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/299.json
+        - generic [ref=e934]:
+          - img "Tanasă Ştefan" [ref=e936]
+          - generic: USR
+        - generic [ref=e937]: Tanasă Ştefan
+        - generic [ref=e938]: "10"
+      - link "Ţoiu Oana-Silvia USR Ţoiu Oana-Silvia 10" [ref=e939] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/313.json
+        - generic [ref=e940]:
+          - img "Ţoiu Oana-Silvia" [ref=e942]
+          - generic: USR
+        - generic [ref=e943]: Ţoiu Oana-Silvia
+        - generic [ref=e944]: "10"
+      - link "Năcuţă Sorin PNL Năcuţă Sorin 10" [ref=e945] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/332.json
+        - generic [ref=e946]:
+          - img "Năcuţă Sorin" [ref=e948]
+          - generic: PNL
+        - generic [ref=e949]: Năcuţă Sorin
+        - generic [ref=e950]: "10"
+      - link "Barstan Tiberiu-Claudiu AUR Barstan Tiberiu-Claudiu 9" [ref=e951] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/20.json
+        - generic [ref=e952]:
+          - img "Barstan Tiberiu-Claudiu" [ref=e954]
+          - generic: AUR
+        - generic [ref=e955]: Barstan Tiberiu-Claudiu
+        - generic [ref=e956]: "9"
+      - link "Bogdan Ionel-Ovidiu PNL Bogdan Ionel-Ovidiu 9" [ref=e957] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/31.json
+        - generic [ref=e958]:
+          - img "Bogdan Ionel-Ovidiu" [ref=e960]
+          - generic: PNL
+        - generic [ref=e961]: Bogdan Ionel-Ovidiu
+        - generic [ref=e962]: "9"
+      - link "Borş George-Mădălin PSD Borş George-Mădălin 9" [ref=e963] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/34.json
+        - generic [ref=e964]:
+          - img "Borş George-Mădălin" [ref=e966]
+          - generic: PSD
+        - generic [ref=e967]: Borş George-Mădălin
+        - generic [ref=e968]: "9"
+      - link "Corcheş Codruţa-Maria UPR Corcheş Codruţa-Maria 9" [ref=e969] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/77.json
+        - generic [ref=e970]:
+          - img "Corcheş Codruţa-Maria" [ref=e972]
+          - generic: UPR
+        - generic [ref=e973]: Corcheş Codruţa-Maria
+        - generic [ref=e974]: "9"
+      - link "Doboş Elena AUR Doboş Elena 9" [ref=e975] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/91.json
+        - generic [ref=e976]:
+          - img "Doboş Elena" [ref=e978]
+          - generic: AUR
+        - generic [ref=e979]: Doboş Elena
+        - generic [ref=e980]: "9"
+      - link "Gherasim Laura AUR Gherasim Laura 9" [ref=e981] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/123.json
+        - generic [ref=e982]:
+          - img "Gherasim Laura" [ref=e984]
+          - generic: AUR
+        - generic [ref=e985]: Gherasim Laura
+        - generic [ref=e986]: "9"
+      - link "Hangan Pollyanna-Hanellore USR Hangan Pollyanna-Hanellore 9" [ref=e987] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/140.json
+        - generic [ref=e988]:
+          - img "Hangan Pollyanna-Hanellore" [ref=e990]
+          - generic: USR
+        - generic [ref=e991]: Hangan Pollyanna-Hanellore
+        - generic [ref=e992]: "9"
+      - link "Koler Eduard-Virgil AUR Koler Eduard-Virgil 9" [ref=e993] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/162.json
+        - generic [ref=e994]:
+          - img "Koler Eduard-Virgil" [ref=e996]
+          - generic: AUR
+        - generic [ref=e997]: Koler Eduard-Virgil
+        - generic [ref=e998]: "9"
+      - link "Mihăescu Mugur AUR Mihăescu Mugur 9" [ref=e999] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/193.json
+        - generic [ref=e1000]:
+          - img "Mihăescu Mugur" [ref=e1002]
+          - generic: AUR
+        - generic [ref=e1003]: Mihăescu Mugur
+        - generic [ref=e1004]: "9"
+      - link "Pambuccian Varujan Minoritati Pambuccian Varujan 9" [ref=e1005] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/233.json
+        - generic [ref=e1006]:
+          - img "Pambuccian Varujan" [ref=e1008]
+          - generic: Minoritati
+        - generic [ref=e1009]: Pambuccian Varujan
+        - generic [ref=e1010]: "9"
+      - link "Pistru-Popa Simona-Geanina PNL Pistru-Popa Simona-Geanina 9" [ref=e1011] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/244.json
+        - generic [ref=e1012]:
+          - img "Pistru-Popa Simona-Geanina" [ref=e1014]
+          - generic: PNL
+        - generic [ref=e1015]: Pistru-Popa Simona-Geanina
+        - generic [ref=e1016]: "9"
+      - link "Popovici Florin-Cornel AUR Popovici Florin-Cornel 9" [ref=e1017] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/256.json
+        - generic [ref=e1018]:
+          - img "Popovici Florin-Cornel" [ref=e1020]
+          - generic: AUR
+        - generic [ref=e1021]: Popovici Florin-Cornel
+        - generic [ref=e1022]: "9"
+      - link "Rafila Alexandru PSD Rafila Alexandru 9" [ref=e1023] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/264.json
+        - generic [ref=e1024]:
+          - img "Rafila Alexandru" [ref=e1026]
+          - generic: PSD
+        - generic [ref=e1027]: Rafila Alexandru
+        - generic [ref=e1028]: "9"
+      - link "Rusu Sebastian-Mihai PNL Rusu Sebastian-Mihai 9" [ref=e1029] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/273.json
+        - generic [ref=e1030]:
+          - img "Rusu Sebastian-Mihai" [ref=e1032]
+          - generic: PNL
+        - generic [ref=e1033]: Rusu Sebastian-Mihai
+        - generic [ref=e1034]: "9"
+      - link "Blaga Daniel-Codruţ USR Blaga Daniel-Codruţ 8" [ref=e1035] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/29.json
+        - generic [ref=e1036]:
+          - img "Blaga Daniel-Codruţ" [ref=e1038]
+          - generic: USR
+        - generic [ref=e1039]: Blaga Daniel-Codruţ
+        - generic [ref=e1040]: "8"
+      - link "Bulearcă Marius-Felix USR Bulearcă Marius-Felix 8" [ref=e1041] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/45.json
+        - generic [ref=e1042]:
+          - img "Bulearcă Marius-Felix" [ref=e1044]
+          - generic: USR
+        - generic [ref=e1045]: Bulearcă Marius-Felix
+        - generic [ref=e1046]: "8"
+      - link "Constantinescu Andra-Claudia AUR Constantinescu Andra-Claudia 8" [ref=e1047] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/75.json
+        - generic [ref=e1048]:
+          - img "Constantinescu Andra-Claudia" [ref=e1050]
+          - generic: AUR
+        - generic [ref=e1051]: Constantinescu Andra-Claudia
+        - generic [ref=e1052]: "8"
+      - link "Hristu Cosmin AUR Hristu Cosmin 8" [ref=e1053] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/142.json
+        - generic [ref=e1054]:
+          - img "Hristu Cosmin" [ref=e1056]
+          - generic: AUR
+        - generic [ref=e1057]: Hristu Cosmin
+        - generic [ref=e1058]: "8"
+      - link "Merka Adrian-Miroslav Minoritati Merka Adrian-Miroslav 8" [ref=e1059] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/187.json
+        - generic [ref=e1060]:
+          - img "Merka Adrian-Miroslav" [ref=e1062]
+          - generic: Minoritati
+        - generic [ref=e1063]: Merka Adrian-Miroslav
+        - generic [ref=e1064]: "8"
+      - link "Miclău Samuel-Virgil AUR Miclău Samuel-Virgil 8" [ref=e1065] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/188.json
+        - generic [ref=e1066]:
+          - img "Miclău Samuel-Virgil" [ref=e1068]
+          - generic: AUR
+        - generic [ref=e1069]: Miclău Samuel-Virgil
+        - generic [ref=e1070]: "8"
+      - link "Moisin Radu-Marin PNL Moisin Radu-Marin 8" [ref=e1071] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/205.json
+        - generic [ref=e1072]:
+          - img "Moisin Radu-Marin" [ref=e1074]
+          - generic: PNL
+        - generic [ref=e1075]: Moisin Radu-Marin
+        - generic [ref=e1076]: "8"
+      - link "Oprea Octavian PNL Oprea Octavian 8" [ref=e1077] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/232.json
+        - generic [ref=e1078]:
+          - img "Oprea Octavian" [ref=e1080]
+          - generic: PNL
+        - generic [ref=e1081]: Oprea Octavian
+        - generic [ref=e1082]: "8"
+      - link "Paraschivescu Ovidiu-Romulus USR Paraschivescu Ovidiu-Romulus 8" [ref=e1083] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/236.json
+        - generic [ref=e1084]:
+          - img "Paraschivescu Ovidiu-Romulus" [ref=e1086]
+          - generic: USR
+        - generic [ref=e1087]: Paraschivescu Ovidiu-Romulus
+        - generic [ref=e1088]: "8"
+      - link "Popescu Antonio-Gabi AUR Popescu Antonio-Gabi 8" [ref=e1089] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/255.json
+        - generic [ref=e1090]:
+          - img "Popescu Antonio-Gabi" [ref=e1092]
+          - generic: AUR
+        - generic [ref=e1093]: Popescu Antonio-Gabi
+        - generic [ref=e1094]: "8"
+      - link "Radu Fabian-Cristian AUR Radu Fabian-Cristian 8" [ref=e1095] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/263.json
+        - generic [ref=e1096]:
+          - img "Radu Fabian-Cristian" [ref=e1098]
+          - generic: AUR
+        - generic [ref=e1099]: Radu Fabian-Cristian
+        - generic [ref=e1100]: "8"
+      - link "Şendroiu Vlad-Ioan USR Şendroiu Vlad-Ioan 8" [ref=e1101] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/293.json
+        - generic [ref=e1102]:
+          - img "Şendroiu Vlad-Ioan" [ref=e1104]
+          - generic: USR
+        - generic [ref=e1105]: Şendroiu Vlad-Ioan
+        - generic [ref=e1106]: "8"
+      - link "Berescu Monica-Elena USR Berescu Monica-Elena 7" [ref=e1107] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/26.json
+        - generic [ref=e1108]:
+          - img "Berescu Monica-Elena" [ref=e1110]
+          - generic: USR
+        - generic [ref=e1111]: Berescu Monica-Elena
+        - generic [ref=e1112]: "7"
+      - link "Cotîrleţ Paul-Claudiu PSD Cotîrleţ Paul-Claudiu 7" [ref=e1113] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/80.json
+        - generic [ref=e1114]:
+          - img "Cotîrleţ Paul-Claudiu" [ref=e1116]
+          - generic: PSD
+        - generic [ref=e1117]: Cotîrleţ Paul-Claudiu
+        - generic [ref=e1118]: "7"
+      - link "Geamănu Aurora-Adela PSD Geamănu Aurora-Adela 7" [ref=e1119] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/116.json
+        - generic [ref=e1120]:
+          - img "Geamănu Aurora-Adela" [ref=e1122]
+          - generic: PSD
+        - generic [ref=e1123]: Geamănu Aurora-Adela
+        - generic [ref=e1124]: "7"
+      - link "Giurgiu Adrian USR Giurgiu Adrian 7" [ref=e1125] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/126.json
+        - generic [ref=e1126]:
+          - img "Giurgiu Adrian" [ref=e1128]
+          - generic: USR
+        - generic [ref=e1129]: Giurgiu Adrian
+        - generic [ref=e1130]: "7"
+      - link "Grosaru Ioana Neafiliat Grosaru Ioana 7" [ref=e1131] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/133.json
+        - generic [ref=e1132]:
+          - img "Grosaru Ioana" [ref=e1134]
+          - generic: Neafiliat
+        - generic [ref=e1135]: Grosaru Ioana
+        - generic [ref=e1136]: "7"
+      - link "Hagiu Augustin-Florin PSD Hagiu Augustin-Florin 7" [ref=e1137] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/138.json
+        - generic [ref=e1138]:
+          - img "Hagiu Augustin-Florin" [ref=e1140]
+          - generic: PSD
+        - generic [ref=e1141]: Hagiu Augustin-Florin
+        - generic [ref=e1142]: "7"
+      - link "Irimia Ancuţa-Florina UPR Irimia Ancuţa-Florina 7" [ref=e1143] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/155.json
+        - generic [ref=e1144]:
+          - img "Irimia Ancuţa-Florina" [ref=e1146]
+          - generic: UPR
+        - generic [ref=e1147]: Irimia Ancuţa-Florina
+        - generic [ref=e1148]: "7"
+      - link "Magyar Loránd-Bálint UDMR Magyar Loránd-Bálint 7" [ref=e1149] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/176.json
+        - generic [ref=e1150]:
+          - img "Magyar Loránd-Bálint" [ref=e1152]
+          - generic: UDMR
+        - generic [ref=e1153]: Magyar Loránd-Bálint
+        - generic [ref=e1154]: "7"
+      - link "Marussi George-Nicolae USR Marussi George-Nicolae 7" [ref=e1155] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/181.json
+        - generic [ref=e1156]:
+          - img "Marussi George-Nicolae" [ref=e1158]
+          - generic: USR
+        - generic [ref=e1159]: Marussi George-Nicolae
+        - generic [ref=e1160]: "7"
+      - link "Miklós Zoltán UDMR Miklós Zoltán 7" [ref=e1161] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/195.json
+        - generic [ref=e1162]:
+          - img "Miklós Zoltán" [ref=e1164]
+          - generic: UDMR
+        - generic [ref=e1165]: Miklós Zoltán
+        - generic [ref=e1166]: "7"
+      - link "Muraru Iulian-Alexandru PNL Muraru Iulian-Alexandru 7" [ref=e1167] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/214.json
+        - generic [ref=e1168]:
+          - img "Muraru Iulian-Alexandru" [ref=e1170]
+          - generic: PNL
+        - generic [ref=e1171]: Muraru Iulian-Alexandru
+        - generic [ref=e1172]: "7"
+      - link "Neaţă Eugen PSD Neaţă Eugen 7" [ref=e1173] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/225.json
+        - generic [ref=e1174]:
+          - img "Neaţă Eugen" [ref=e1176]
+          - generic: PSD
+        - generic [ref=e1177]: Neaţă Eugen
+        - generic [ref=e1178]: "7"
+      - link "Pascariu Mihai-Cosmin AUR Pascariu Mihai-Cosmin 7" [ref=e1179] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/238.json
+        - generic [ref=e1180]:
+          - img "Pascariu Mihai-Cosmin" [ref=e1182]
+          - generic: AUR
+        - generic [ref=e1183]: Pascariu Mihai-Cosmin
+        - generic [ref=e1184]: "7"
+      - link "Plujar Andrei George USR Plujar Andrei George 7" [ref=e1185] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/247.json
+        - generic [ref=e1186]:
+          - img "Plujar Andrei George" [ref=e1188]
+          - generic: USR
+        - generic [ref=e1189]: Plujar Andrei George
+        - generic [ref=e1190]: "7"
+      - link "Sighiartău Robert-Ionatan PNL Sighiartău Robert-Ionatan 7" [ref=e1191] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/278.json
+        - generic [ref=e1192]:
+          - img "Sighiartău Robert-Ionatan" [ref=e1194]
+          - generic: PNL
+        - generic [ref=e1195]: Sighiartău Robert-Ionatan
+        - generic [ref=e1196]: "7"
+      - link "Toader Elena-Laura SOS RO Toader Elena-Laura 7" [ref=e1197] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/304.json
+        - generic [ref=e1198]:
+          - img "Toader Elena-Laura" [ref=e1200]
+          - generic: SOS RO
+        - generic [ref=e1201]: Toader Elena-Laura
+        - generic [ref=e1202]: "7"
+      - link "Ţintă Ştefan PSD Ţintă Ştefan 7" [ref=e1203] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/310.json
+        - generic [ref=e1204]:
+          - img "Ţintă Ştefan" [ref=e1206]
+          - generic: PSD
+        - generic [ref=e1207]: Ţintă Ştefan
+        - generic [ref=e1208]: "7"
+      - link "Zisopol Dragoş Gabriel Minoritati Zisopol Dragoş Gabriel 7" [ref=e1209] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/331.json
+        - generic [ref=e1210]:
+          - img "Zisopol Dragoş Gabriel" [ref=e1212]
+          - generic: Minoritati
+        - generic [ref=e1213]: Zisopol Dragoş Gabriel
+        - generic [ref=e1214]: "7"
+      - link "Cadar Răzvan-Olimpiu PNL Cadar Răzvan-Olimpiu 6" [ref=e1215] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/49.json
+        - generic [ref=e1216]:
+          - img "Cadar Răzvan-Olimpiu" [ref=e1218]
+          - generic: PNL
+        - generic [ref=e1219]: Cadar Răzvan-Olimpiu
+        - generic [ref=e1220]: "6"
+      - link "Caragaţă Florin SOS RO Caragaţă Florin 6" [ref=e1221] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/50.json
+        - generic [ref=e1222]:
+          - img "Caragaţă Florin" [ref=e1224]
+          - generic: SOS RO
+        - generic [ref=e1225]: Caragaţă Florin
+        - generic [ref=e1226]: "6"
+      - link "Ciocan Doiniţa PSD Ciocan Doiniţa 6" [ref=e1227] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/58.json
+        - generic [ref=e1228]:
+          - img "Ciocan Doiniţa" [ref=e1230]
+          - generic: PSD
+        - generic [ref=e1231]: Ciocan Doiniţa
+        - generic [ref=e1232]: "6"
+      - link "Drinceanu Vlad-Florentin PSD Drinceanu Vlad-Florentin 6" [ref=e1233] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/95.json
+        - generic [ref=e1234]:
+          - img "Drinceanu Vlad-Florentin" [ref=e1236]
+          - generic: PSD
+        - generic [ref=e1237]: Drinceanu Vlad-Florentin
+        - generic [ref=e1238]: "6"
+      - link "Furtună Mirela PSD Furtună Mirela 6" [ref=e1239] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/109.json
+        - generic [ref=e1240]:
+          - img "Furtună Mirela" [ref=e1242]
+          - generic: PSD
+        - generic [ref=e1243]: Furtună Mirela
+        - generic [ref=e1244]: "6"
+      - link "Gliga Dumitriţa PSD Gliga Dumitriţa 6" [ref=e1245] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/127.json
+        - generic [ref=e1246]:
+          - img "Gliga Dumitriţa" [ref=e1248]
+          - generic: PSD
+        - generic [ref=e1249]: Gliga Dumitriţa
+        - generic [ref=e1250]: "6"
+      - link "Longher Ghervazen Minoritati Longher Ghervazen 6" [ref=e1251] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/171.json
+        - generic [ref=e1252]:
+          - img "Longher Ghervazen" [ref=e1254]
+          - generic: Minoritati
+        - generic [ref=e1255]: Longher Ghervazen
+        - generic [ref=e1256]: "6"
+      - link "Nacov Gheorghe Minoritati Nacov Gheorghe 6" [ref=e1257] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/216.json
+        - generic [ref=e1258]:
+          - img "Nacov Gheorghe" [ref=e1260]
+          - generic: Minoritati
+        - generic [ref=e1261]: Nacov Gheorghe
+        - generic [ref=e1262]: "6"
+      - link "Păun Nicolae Minoritati Păun Nicolae 6" [ref=e1263] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/239.json
+        - generic [ref=e1264]:
+          - img "Păun Nicolae" [ref=e1266]
+          - generic: Minoritati
+        - generic [ref=e1267]: Păun Nicolae
+        - generic [ref=e1268]: "6"
+      - link "Vela Ion-Marcel PNL Vela Ion-Marcel 6" [ref=e1269] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/320.json
+        - generic [ref=e1270]:
+          - img "Vela Ion-Marcel" [ref=e1272]
+          - generic: PNL
+        - generic [ref=e1273]: Vela Ion-Marcel
+        - generic [ref=e1274]: "6"
+      - link "Vulpoiu Dorel AUR Vulpoiu Dorel 6" [ref=e1275] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/325.json
+        - generic [ref=e1276]:
+          - img "Vulpoiu Dorel" [ref=e1278]
+          - generic: AUR
+        - generic [ref=e1279]: Vulpoiu Dorel
+        - generic [ref=e1280]: "6"
+      - link "Amet Varol Minoritati Amet Varol 5" [ref=e1281] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/6.json
+        - generic [ref=e1282]:
+          - img "Amet Varol" [ref=e1284]
+          - generic: Minoritati
+        - generic [ref=e1285]: Amet Varol
+        - generic [ref=e1286]: "5"
+      - link "Bara Nicolae-Adrian PSD Bara Nicolae-Adrian 5" [ref=e1287] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/18.json
+        - generic [ref=e1288]:
+          - img "Bara Nicolae-Adrian" [ref=e1290]
+          - generic: PSD
+        - generic [ref=e1291]: Bara Nicolae-Adrian
+        - generic [ref=e1292]: "5"
+      - link "Bejinariu Eugen PSD Bejinariu Eugen 5" [ref=e1293] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/24.json
+        - generic [ref=e1294]:
+          - img "Bejinariu Eugen" [ref=e1296]
+          - generic: PSD
+        - generic [ref=e1297]: Bejinariu Eugen
+        - generic [ref=e1298]: "5"
+      - link "Cruşoveanu Marian PNL Cruşoveanu Marian 5" [ref=e1299] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/84.json
+        - generic [ref=e1300]:
+          - img "Cruşoveanu Marian" [ref=e1302]
+          - generic: PNL
+        - generic [ref=e1303]: Cruşoveanu Marian
+        - generic [ref=e1304]: "5"
+      - link "Dobre Ciprian-Minodor PNL Dobre Ciprian-Minodor 5" [ref=e1305] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/92.json
+        - generic [ref=e1306]:
+          - img "Dobre Ciprian-Minodor" [ref=e1308]
+          - generic: PNL
+        - generic [ref=e1309]: Dobre Ciprian-Minodor
+        - generic [ref=e1310]: "5"
+      - link "Georgescu Gheorghe-Daniel PSD Georgescu Gheorghe-Daniel 5" [ref=e1311] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/117.json
+        - generic [ref=e1312]:
+          - img "Georgescu Gheorghe-Daniel" [ref=e1314]
+          - generic: PSD
+        - generic [ref=e1315]: Georgescu Gheorghe-Daniel
+        - generic [ref=e1316]: "5"
+      - link "Ionescu Monica Neafiliat Ionescu Monica 5" [ref=e1317] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/150.json
+        - generic [ref=e1318]:
+          - img "Ionescu Monica" [ref=e1320]
+          - generic: Neafiliat
+        - generic [ref=e1321]: Ionescu Monica
+        - generic [ref=e1322]: "5"
+      - link "Kelemen Hunor UDMR Kelemen Hunor 5" [ref=e1323] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/160.json
+        - generic [ref=e1324]:
+          - img "Kelemen Hunor" [ref=e1326]
+          - generic: UDMR
+        - generic [ref=e1327]: Kelemen Hunor
+        - generic [ref=e1328]: "5"
+      - link "Kolcsár Anquetil-Károly UDMR Kolcsár Anquetil-Károly 5" [ref=e1329] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/161.json
+        - generic [ref=e1330]:
+          - img "Kolcsár Anquetil-Károly" [ref=e1332]
+          - generic: UDMR
+        - generic [ref=e1333]: Kolcsár Anquetil-Károly
+        - generic [ref=e1334]: "5"
+      - link "Manole Petre-Florin PSD Manole Petre-Florin 5" [ref=e1335] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/177.json
+        - generic [ref=e1336]:
+          - img "Manole Petre-Florin" [ref=e1338]
+          - generic: PSD
+        - generic [ref=e1339]: Manole Petre-Florin
+        - generic [ref=e1340]: "5"
+      - link "Manta Claudiu PSD Manta Claudiu 5" [ref=e1341] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/178.json
+        - generic [ref=e1342]:
+          - img "Manta Claudiu" [ref=e1344]
+          - generic: PSD
+        - generic [ref=e1345]: Manta Claudiu
+        - generic [ref=e1346]: "5"
+      - link "Mîndrescu Nicolae AUR Mîndrescu Nicolae 5" [ref=e1347] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/201.json
+        - generic [ref=e1348]:
+          - img "Mîndrescu Nicolae" [ref=e1350]
+          - generic: AUR
+        - generic [ref=e1351]: Mîndrescu Nicolae
+        - generic [ref=e1352]: "5"
+      - link "Negoescu Mihai-Bogdan AUR Negoescu Mihai-Bogdan 5" [ref=e1353] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/227.json
+        - generic [ref=e1354]:
+          - img "Negoescu Mihai-Bogdan" [ref=e1356]
+          - generic: AUR
+        - generic [ref=e1357]: Negoescu Mihai-Bogdan
+        - generic [ref=e1358]: "5"
+      - link "Oancea Silviu-Florin AUR Oancea Silviu-Florin 5" [ref=e1359] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/230.json
+        - generic [ref=e1360]:
+          - img "Oancea Silviu-Florin" [ref=e1362]
+          - generic: AUR
+        - generic [ref=e1363]: Oancea Silviu-Florin
+        - generic [ref=e1364]: "5"
+      - link "Scarlat George PNL Scarlat George 5" [ref=e1365] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/276.json
+        - generic [ref=e1366]:
+          - img "Scarlat George" [ref=e1368]
+          - generic: PNL
+        - generic [ref=e1369]: Scarlat George
+        - generic [ref=e1370]: "5"
+      - link "Seres Dénes UDMR Seres Dénes 5" [ref=e1371] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/277.json
+        - generic [ref=e1372]:
+          - img "Seres Dénes" [ref=e1374]
+          - generic: UDMR
+        - generic [ref=e1375]: Seres Dénes
+        - generic [ref=e1376]: "5"
+      - link "Ştirbu Gigel-Sorinel PNL Ştirbu Gigel-Sorinel 5" [ref=e1377] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/297.json
+        - generic [ref=e1378]:
+          - img "Ştirbu Gigel-Sorinel" [ref=e1380]
+          - generic: PNL
+        - generic [ref=e1381]: Ştirbu Gigel-Sorinel
+        - generic [ref=e1382]: "5"
+      - link "Vidra Vlad-Andrei SOS RO Vidra Vlad-Andrei 5" [ref=e1383] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/323.json
+        - generic [ref=e1384]:
+          - img "Vidra Vlad-Andrei" [ref=e1386]
+          - generic: SOS RO
+        - generic [ref=e1387]: Vidra Vlad-Andrei
+        - generic [ref=e1388]: "5"
+      - link "Wiener Adrian USR Wiener Adrian 5" [ref=e1389] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/328.json
+        - generic [ref=e1390]:
+          - img "Wiener Adrian" [ref=e1392]
+          - generic: USR
+        - generic [ref=e1393]: Wiener Adrian
+        - generic [ref=e1394]: "5"
+      - link "Zahoranszki Brigitta-Eva UDMR Zahoranszki Brigitta-Eva 5" [ref=e1395] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/329.json
+        - generic [ref=e1396]:
+          - img "Zahoranszki Brigitta-Eva" [ref=e1398]
+          - generic: UDMR
+        - generic [ref=e1399]: Zahoranszki Brigitta-Eva
+        - generic [ref=e1400]: "5"
+      - link "Andrei Cosmin PSD Andrei Cosmin 4" [ref=e1401] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/8.json
+        - generic [ref=e1402]:
+          - img "Andrei Cosmin" [ref=e1404]
+          - generic: PSD
+        - generic [ref=e1405]: Andrei Cosmin
+        - generic [ref=e1406]: "4"
+      - link "Baciu Romică-Andrei PNL Baciu Romică-Andrei 4" [ref=e1407] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/14.json
+        - generic [ref=e1408]:
+          - img "Baciu Romică-Andrei" [ref=e1410]
+          - generic: PNL
+        - generic [ref=e1411]: Baciu Romică-Andrei
+        - generic [ref=e1412]: "4"
+      - link "Badiu Georgel AUR Badiu Georgel 4" [ref=e1413] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/16.json
+        - generic [ref=e1414]:
+          - img "Badiu Georgel" [ref=e1416]
+          - generic: AUR
+        - generic [ref=e1417]: Badiu Georgel
+        - generic [ref=e1418]: "4"
+      - link "Biró Rozália-Ibolya UDMR Biró Rozália-Ibolya 4" [ref=e1419] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/28.json
+        - generic [ref=e1420]:
+          - img "Biró Rozália-Ibolya" [ref=e1422]
+          - generic: UDMR
+        - generic [ref=e1423]: Biró Rozália-Ibolya
+        - generic [ref=e1424]: "4"
+      - link "Bogdănel Lucian-Gabriel PSD Bogdănel Lucian-Gabriel 4" [ref=e1425] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/32.json
+        - generic [ref=e1426]:
+          - img "Bogdănel Lucian-Gabriel" [ref=e1428]
+          - generic: PSD
+        - generic [ref=e1429]: Bogdănel Lucian-Gabriel
+        - generic [ref=e1430]: "4"
+      - link "Bucura-Oprescu Simona PSD Bucura-Oprescu Simona 4" [ref=e1431] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/40.json
+        - generic [ref=e1432]:
+          - img "Bucura-Oprescu Simona" [ref=e1434]
+          - generic: PSD
+        - generic [ref=e1435]: Bucura-Oprescu Simona
+        - generic [ref=e1436]: "4"
+      - link "Budăi Marius-Constantin PSD Budăi Marius-Constantin 4" [ref=e1437] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/42.json
+        - generic [ref=e1438]:
+          - img "Budăi Marius-Constantin" [ref=e1440]
+          - generic: PSD
+        - generic [ref=e1441]: Budăi Marius-Constantin
+        - generic [ref=e1442]: "4"
+      - link "Bulai Iulian USR Bulai Iulian 4" [ref=e1443] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/44.json
+        - generic [ref=e1444]:
+          - img "Bulai Iulian" [ref=e1446]
+          - generic: USR
+        - generic [ref=e1447]: Bulai Iulian
+        - generic [ref=e1448]: "4"
+      - link "Ciobanu Adrian-Virgil PNL Ciobanu Adrian-Virgil 4" [ref=e1449] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/56.json
+        - generic [ref=e1450]:
+          - img "Ciobanu Adrian-Virgil" [ref=e1452]
+          - generic: PNL
+        - generic [ref=e1453]: Ciobanu Adrian-Virgil
+        - generic [ref=e1454]: "4"
+      - link "Ciolacu Ion-Marcel PSD Ciolacu Ion-Marcel 4" [ref=e1455] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/59.json
+        - generic [ref=e1456]:
+          - img "Ciolacu Ion-Marcel" [ref=e1458]
+          - generic: PSD
+        - generic [ref=e1459]: Ciolacu Ion-Marcel
+        - generic [ref=e1460]: "4"
+      - link "Gál Károly UDMR Gál Károly 4" [ref=e1461] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/111.json
+        - generic [ref=e1462]:
+          - img "Gál Károly" [ref=e1464]
+          - generic: UDMR
+        - generic [ref=e1465]: Gál Károly
+        - generic [ref=e1466]: "4"
+      - link "Guşă Andrei-Cosmin AUR Guşă Andrei-Cosmin 4" [ref=e1467] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/137.json
+        - generic [ref=e1468]:
+          - img "Guşă Andrei-Cosmin" [ref=e1470]
+          - generic: AUR
+        - generic [ref=e1471]: Guşă Andrei-Cosmin
+        - generic [ref=e1472]: "4"
+      - link "Hajdu Gábor UDMR Hajdu Gábor 4" [ref=e1473] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/139.json
+        - generic [ref=e1474]:
+          - img "Hajdu Gábor" [ref=e1476]
+          - generic: UDMR
+        - generic [ref=e1477]: Hajdu Gábor
+        - generic [ref=e1478]: "4"
+      - link "Holban Georgeta-Carmen PSD Holban Georgeta-Carmen 4" [ref=e1479] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/141.json
+        - generic [ref=e1480]:
+          - img "Holban Georgeta-Carmen" [ref=e1482]
+          - generic: PSD
+        - generic [ref=e1483]: Holban Georgeta-Carmen
+        - generic [ref=e1484]: "4"
+      - link "Ion Stelian-Cristian USR Ion Stelian-Cristian 4" [ref=e1485] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/149.json
+        - generic [ref=e1486]:
+          - img "Ion Stelian-Cristian" [ref=e1488]
+          - generic: USR
+        - generic [ref=e1489]: Ion Stelian-Cristian
+        - generic [ref=e1490]: "4"
+      - link "Iosub Cosmin-Teodor AUR Iosub Cosmin-Teodor 4" [ref=e1491] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/154.json
+        - generic [ref=e1492]:
+          - img "Iosub Cosmin-Teodor" [ref=e1494]
+          - generic: AUR
+        - generic [ref=e1495]: Iosub Cosmin-Teodor
+        - generic [ref=e1496]: "4"
+      - link "Könczei Csaba UDMR Könczei Csaba 4" [ref=e1497] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/163.json
+        - generic [ref=e1498]:
+          - img "Könczei Csaba" [ref=e1500]
+          - generic: UDMR
+        - generic [ref=e1501]: Könczei Csaba
+        - generic [ref=e1502]: "4"
+      - link "Kroncsiş Sebastian-Andrei UPR Kroncsiş Sebastian-Andrei 4" [ref=e1503] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/164.json
+        - generic [ref=e1504]:
+          - img "Kroncsiş Sebastian-Andrei" [ref=e1506]
+          - generic: UPR
+        - generic [ref=e1507]: Kroncsiş Sebastian-Andrei
+        - generic [ref=e1508]: "4"
+      - link "Lipă Elisabeta PSD Lipă Elisabeta 4" [ref=e1509] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/170.json
+        - generic [ref=e1510]:
+          - img "Lipă Elisabeta" [ref=e1512]
+          - generic: PSD
+        - generic [ref=e1513]: Lipă Elisabeta
+        - generic [ref=e1514]: "4"
+      - link "Markó Attila-Gábor UDMR Markó Attila-Gábor 4" [ref=e1515] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/180.json
+        - generic [ref=e1516]:
+          - img "Markó Attila-Gábor" [ref=e1518]
+          - generic: UDMR
+        - generic [ref=e1519]: Markó Attila-Gábor
+        - generic [ref=e1520]: "4"
+      - link "Matei Aneta PNL Matei Aneta 4" [ref=e1521] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/182.json
+        - generic [ref=e1522]:
+          - img "Matei Aneta" [ref=e1524]
+          - generic: PNL
+        - generic [ref=e1525]: Matei Aneta
+        - generic [ref=e1526]: "4"
+      - link "Mihalcea Remus-Gabriel PSD Mihalcea Remus-Gabriel 4" [ref=e1527] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/191.json
+        - generic [ref=e1528]:
+          - img "Mihalcea Remus-Gabriel" [ref=e1530]
+          - generic: PSD
+        - generic [ref=e1531]: Mihalcea Remus-Gabriel
+        - generic [ref=e1532]: "4"
+      - link "Mina Marian PSD Mina Marian 4" [ref=e1533] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/196.json
+        - generic [ref=e1534]:
+          - img "Mina Marian" [ref=e1536]
+          - generic: PSD
+        - generic [ref=e1537]: Mina Marian
+        - generic [ref=e1538]: "4"
+      - link "Nassar Rodica PSD Nassar Rodica 4" [ref=e1539] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/219.json
+        - generic [ref=e1540]:
+          - img "Nassar Rodica" [ref=e1542]
+          - generic: PSD
+        - generic [ref=e1543]: Nassar Rodica
+        - generic [ref=e1544]: "4"
+      - link "Popa Dorin PSD Popa Dorin 4" [ref=e1545] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/251.json
+        - generic [ref=e1546]:
+          - img "Popa Dorin" [ref=e1548]
+          - generic: PSD
+        - generic [ref=e1549]: Popa Dorin
+        - generic [ref=e1550]: "4"
+      - link "Artimon Dan-Cătălin AUR Artimon Dan-Cătălin 3" [ref=e1551] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/11.json
+        - generic [ref=e1552]:
+          - img "Artimon Dan-Cătălin" [ref=e1554]
+          - generic: AUR
+        - generic [ref=e1555]: Artimon Dan-Cătălin
+        - generic [ref=e1556]: "3"
+      - link "Barbu Florin-Ionuţ PSD Barbu Florin-Ionuţ 3" [ref=e1557] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/19.json
+        - generic [ref=e1558]:
+          - img "Barbu Florin-Ionuţ" [ref=e1560]
+          - generic: PSD
+        - generic [ref=e1561]: Barbu Florin-Ionuţ
+        - generic [ref=e1562]: "3"
+      - link "Dolineaschi Andrei PSD Dolineaschi Andrei 3" [ref=e1563] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/93.json
+        - generic [ref=e1564]:
+          - img "Dolineaschi Andrei" [ref=e1566]
+          - generic: PSD
+        - generic [ref=e1567]: Dolineaschi Andrei
+        - generic [ref=e1568]: "3"
+      - link "Enache Diana AUR Enache Diana 3" [ref=e1569] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/99.json
+        - generic [ref=e1570]:
+          - img "Enache Diana" [ref=e1572]
+          - generic: AUR
+        - generic [ref=e1573]: Enache Diana
+        - generic [ref=e1574]: "3"
+      - link "Fifor Mihai-Viorel PSD Fifor Mihai-Viorel 3" [ref=e1575] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/106.json
+        - generic [ref=e1576]:
+          - img "Fifor Mihai-Viorel" [ref=e1578]
+          - generic: PSD
+        - generic [ref=e1579]: Fifor Mihai-Viorel
+        - generic [ref=e1580]: "3"
+      - link "Firczak Iulius Marian Minoritati Firczak Iulius Marian 3" [ref=e1581] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/107.json
+        - generic [ref=e1582]:
+          - img "Firczak Iulius Marian" [ref=e1584]
+          - generic: Minoritati
+        - generic [ref=e1585]: Firczak Iulius Marian
+        - generic [ref=e1586]: "3"
+      - link "Gavrilă Bianca-Eugenia UPR Gavrilă Bianca-Eugenia 3" [ref=e1587] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/114.json
+        - generic [ref=e1588]:
+          - img "Gavrilă Bianca-Eugenia" [ref=e1590]
+          - generic: UPR
+        - generic [ref=e1591]: Gavrilă Bianca-Eugenia
+        - generic [ref=e1592]: "3"
+      - link "Gavrilescu Graţiela Leocadia PSD Gavrilescu Graţiela Leocadia 3" [ref=e1593] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/115.json
+        - generic [ref=e1594]:
+          - img "Gavrilescu Graţiela Leocadia" [ref=e1596]
+          - generic: PSD
+        - generic [ref=e1597]: Gavrilescu Graţiela Leocadia
+        - generic [ref=e1598]: "3"
+      - link "Ivan Bogdan-Gruia PSD Ivan Bogdan-Gruia 3" [ref=e1599] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/157.json
+        - generic [ref=e1600]:
+          - img "Ivan Bogdan-Gruia" [ref=e1602]
+          - generic: PSD
+        - generic [ref=e1603]: Ivan Bogdan-Gruia
+        - generic [ref=e1604]: "3"
+      - link "Kántor Boglárka UDMR Kántor Boglárka 3" [ref=e1605] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/159.json
+        - generic [ref=e1606]:
+          - img "Kántor Boglárka" [ref=e1608]
+          - generic: UDMR
+        - generic [ref=e1609]: Kántor Boglárka
+        - generic [ref=e1610]: "3"
+      - link "Matei Sergiu-Lucian UPR Matei Sergiu-Lucian 3" [ref=e1611] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/183.json
+        - generic [ref=e1612]:
+          - img "Matei Sergiu-Lucian" [ref=e1614]
+          - generic: UPR
+        - generic [ref=e1615]: Matei Sergiu-Lucian
+        - generic [ref=e1616]: "3"
+      - link "Molnar Andrei UDMR Molnar Andrei 3" [ref=e1617] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/206.json
+        - generic [ref=e1618]:
+          - img "Molnar Andrei" [ref=e1620]
+          - generic: UDMR
+        - generic [ref=e1621]: Molnar Andrei
+        - generic [ref=e1622]: "3"
+      - link "Murad Mohammad AUR Murad Mohammad 3" [ref=e1623] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/212.json
+        - generic [ref=e1624]:
+          - img "Murad Mohammad" [ref=e1626]
+          - generic: AUR
+        - generic [ref=e1627]: Murad Mohammad
+        - generic [ref=e1628]: "3"
+      - link "Nagy Szabolcs UDMR Nagy Szabolcs 3" [ref=e1629] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/217.json
+        - generic [ref=e1630]:
+          - img "Nagy Szabolcs" [ref=e1632]
+          - generic: UDMR
+        - generic [ref=e1633]: Nagy Szabolcs
+        - generic [ref=e1634]: "3"
+      - link "Năsui Claudiu-Iulius-Gavril USR Năsui Claudiu-Iulius-Gavril 3" [ref=e1635] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/220.json
+        - generic [ref=e1636]:
+          - img "Năsui Claudiu-Iulius-Gavril" [ref=e1638]
+          - generic: USR
+        - generic [ref=e1639]: Năsui Claudiu-Iulius-Gavril
+        - generic [ref=e1640]: "3"
+      - link "Puşcaşu Lucian-Florin AUR Puşcaşu Lucian-Florin 3" [ref=e1641] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/261.json
+        - generic [ref=e1642]:
+          - img "Puşcaşu Lucian-Florin" [ref=e1644]
+          - generic: AUR
+        - generic [ref=e1645]: Puşcaşu Lucian-Florin
+        - generic [ref=e1646]: "3"
+      - link "Răducanu Sebastian PSD Răducanu Sebastian 3" [ref=e1647] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/265.json
+        - generic [ref=e1648]:
+          - img "Răducanu Sebastian" [ref=e1650]
+          - generic: PSD
+        - generic [ref=e1651]: Răducanu Sebastian
+        - generic [ref=e1652]: "3"
+      - link "Răducea Gheorghe-Valentin UPR Răducea Gheorghe-Valentin 3" [ref=e1653] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/266.json
+        - generic [ref=e1654]:
+          - img "Răducea Gheorghe-Valentin" [ref=e1656]
+          - generic: UPR
+        - generic [ref=e1657]: Răducea Gheorghe-Valentin
+        - generic [ref=e1658]: "3"
+      - link "Stroe Ionuţ-Marian PNL Stroe Ionuţ-Marian 3" [ref=e1659] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/289.json
+        - generic [ref=e1660]:
+          - img "Stroe Ionuţ-Marian" [ref=e1662]
+          - generic: PNL
+        - generic [ref=e1663]: Stroe Ionuţ-Marian
+        - generic [ref=e1664]: "3"
+      - link "Toader Bogdan-Andrei PSD Toader Bogdan-Andrei 3" [ref=e1665] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/303.json
+        - generic [ref=e1666]:
+          - img "Toader Bogdan-Andrei" [ref=e1668]
+          - generic: PSD
+        - generic [ref=e1669]: Toader Bogdan-Andrei
+        - generic [ref=e1670]: "3"
+      - link "Văduva Dumitru USR Văduva Dumitru 3" [ref=e1671] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/317.json
+        - generic [ref=e1672]:
+          - img "Văduva Dumitru" [ref=e1674]
+          - generic: USR
+        - generic [ref=e1675]: Văduva Dumitru
+        - generic [ref=e1676]: "3"
+      - link "Weber Mihai PSD Weber Mihai 3" [ref=e1677] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/327.json
+        - generic [ref=e1678]:
+          - img "Weber Mihai" [ref=e1680]
+          - generic: PSD
+        - generic [ref=e1681]: Weber Mihai
+        - generic [ref=e1682]: "3"
+      - link "Zakarias Zoltán Neafiliat Zakarias Zoltán 3" [ref=e1683] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/330.json
+        - generic [ref=e1684]:
+          - img "Zakarias Zoltán" [ref=e1686]
+          - generic: Neafiliat
+        - generic [ref=e1687]: Zakarias Zoltán
+        - generic [ref=e1688]: "3"
+      - link "Badea Nelu-Valentin AUR Badea Nelu-Valentin 2" [ref=e1689] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/15.json
+        - generic [ref=e1690]:
+          - img "Badea Nelu-Valentin" [ref=e1692]
+          - generic: AUR
+        - generic [ref=e1693]: Badea Nelu-Valentin
+        - generic [ref=e1694]: "2"
+      - link "Balan Ioan PNL Balan Ioan 2" [ref=e1695] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/17.json
+        - generic [ref=e1696]:
+          - img "Balan Ioan" [ref=e1698]
+          - generic: PNL
+        - generic [ref=e1699]: Balan Ioan
+        - generic [ref=e1700]: "2"
+      - link "Băişanu Ştefan-Alexandru PSD Băişanu Ştefan-Alexandru 2" [ref=e1701] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/22.json
+        - generic [ref=e1702]:
+          - img "Băişanu Ştefan-Alexandru" [ref=e1704]
+          - generic: PSD
+        - generic [ref=e1705]: Băişanu Ştefan-Alexandru
+        - generic [ref=e1706]: "2"
+      - link "Boşutar Tiberiu-Nicolae AUR Boşutar Tiberiu-Nicolae 2" [ref=e1707] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/35.json
+        - generic [ref=e1708]:
+          - img "Boşutar Tiberiu-Nicolae" [ref=e1710]
+          - generic: AUR
+        - generic [ref=e1711]: Boşutar Tiberiu-Nicolae
+        - generic [ref=e1712]: "2"
+      - link "Constantinescu Sergiu-Mircea PSD Constantinescu Sergiu-Mircea 2" [ref=e1713] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/76.json
+        - generic [ref=e1714]:
+          - img "Constantinescu Sergiu-Mircea" [ref=e1716]
+          - generic: PSD
+        - generic [ref=e1717]: Constantinescu Sergiu-Mircea
+        - generic [ref=e1718]: "2"
+      - link "Ionescu Radu-Mihail Neafiliat Ionescu Radu-Mihail 2" [ref=e1719] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/151.json
+        - generic [ref=e1720]:
+          - img "Ionescu Radu-Mihail" [ref=e1722]
+          - generic: Neafiliat
+        - generic [ref=e1723]: Ionescu Radu-Mihail
+        - generic [ref=e1724]: "2"
+      - link "Kulcsár-Terza József-György UDMR Kulcsár-Terza József-György 2" [ref=e1725] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/165.json
+        - generic [ref=e1726]:
+          - img "Kulcsár-Terza József-György" [ref=e1728]
+          - generic: UDMR
+        - generic [ref=e1729]: Kulcsár-Terza József-György
+        - generic [ref=e1730]: "2"
+      - link "Ladányi László-Zsolt UDMR Ladányi László-Zsolt 2" [ref=e1731] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/166.json
+        - generic [ref=e1732]:
+          - img "Ladányi László-Zsolt" [ref=e1734]
+          - generic: UDMR
+        - generic [ref=e1735]: Ladányi László-Zsolt
+        - generic [ref=e1736]: "2"
+      - link "Lăzăroi Ioan SOS RO Lăzăroi Ioan 2" [ref=e1737] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/169.json
+        - generic [ref=e1738]:
+          - img "Lăzăroi Ioan" [ref=e1740]
+          - generic: SOS RO
+        - generic [ref=e1741]: Lăzăroi Ioan
+        - generic [ref=e1742]: "2"
+      - link "Marinescu Radu PSD Marinescu Radu 2" [ref=e1743] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/179.json
+        - generic [ref=e1744]:
+          - img "Marinescu Radu" [ref=e1746]
+          - generic: PSD
+        - generic [ref=e1747]: Marinescu Radu
+        - generic [ref=e1748]: "2"
+      - link "Mărgărit Mitică-Marius PSD Mărgărit Mitică-Marius 2" [ref=e1749] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/186.json
+        - generic [ref=e1750]:
+          - img "Mărgărit Mitică-Marius" [ref=e1752]
+          - generic: PSD
+        - generic [ref=e1753]: Mărgărit Mitică-Marius
+        - generic [ref=e1754]: "2"
+      - link "Mihalcea Ioan PSD Mihalcea Ioan 2" [ref=e1755] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/190.json
+        - generic [ref=e1756]:
+          - img "Mihalcea Ioan" [ref=e1758]
+          - generic: PSD
+        - generic [ref=e1759]: Mihalcea Ioan
+        - generic [ref=e1760]: "2"
+      - link "Mircea Florin PSD Mircea Florin 2" [ref=e1761] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/197.json
+        - generic [ref=e1762]:
+          - img "Mircea Florin" [ref=e1764]
+          - generic: PSD
+        - generic [ref=e1765]: Mircea Florin
+        - generic [ref=e1766]: "2"
+      - link "Nagy Vasile SOS RO Nagy Vasile 2" [ref=e1767] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/218.json
+        - generic [ref=e1768]:
+          - img "Nagy Vasile" [ref=e1770]
+          - generic: SOS RO
+        - generic [ref=e1771]: Nagy Vasile
+        - generic [ref=e1772]: "2"
+      - link "Nicolae Dan-Mihai UPR Nicolae Dan-Mihai 2" [ref=e1773] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/229.json
+        - generic [ref=e1774]:
+          - img "Nicolae Dan-Mihai" [ref=e1776]
+          - generic: UPR
+        - generic [ref=e1777]: Nicolae Dan-Mihai
+        - generic [ref=e1778]: "2"
+      - link "Pandea Ciprian PNL Pandea Ciprian 2" [ref=e1779] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/234.json
+        - generic [ref=e1780]:
+          - img "Pandea Ciprian" [ref=e1782]
+          - generic: PNL
+        - generic [ref=e1783]: Pandea Ciprian
+        - generic [ref=e1784]: "2"
+      - link "Popa George-Adrian PSD Popa George-Adrian 2" [ref=e1785] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/252.json
+        - generic [ref=e1786]:
+          - img "Popa George-Adrian" [ref=e1788]
+          - generic: PSD
+        - generic [ref=e1789]: Popa George-Adrian
+        - generic [ref=e1790]: "2"
+      - link "Prişcă Răzvan Sorin PNL Prişcă Răzvan Sorin 2" [ref=e1791] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/259.json
+        - generic [ref=e1792]:
+          - img "Prişcă Răzvan Sorin" [ref=e1794]
+          - generic: PNL
+        - generic [ref=e1795]: Prişcă Răzvan Sorin
+        - generic [ref=e1796]: "2"
+      - link "Roşca Mircea PNL Roşca Mircea 2" [ref=e1797] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/272.json
+        - generic [ref=e1798]:
+          - img "Roşca Mircea" [ref=e1800]
+          - generic: PNL
+        - generic [ref=e1801]: Roşca Mircea
+        - generic [ref=e1802]: "2"
+      - link "Stancu Ionel Minoritati Stancu Ionel 2" [ref=e1803] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/282.json
+        - generic [ref=e1804]:
+          - img "Stancu Ionel" [ref=e1806]
+          - generic: Minoritati
+        - generic [ref=e1807]: Stancu Ionel
+        - generic [ref=e1808]: "2"
+      - link "Stoica Bogdan-Alin Minoritati Stoica Bogdan-Alin 2" [ref=e1809] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/286.json
+        - generic [ref=e1810]:
+          - img "Stoica Bogdan-Alin" [ref=e1812]
+          - generic: Minoritati
+        - generic [ref=e1813]: Stoica Bogdan-Alin
+        - generic [ref=e1814]: "2"
+      - link "Şerban George Cătălin PNL Şerban George Cătălin 2" [ref=e1815] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/295.json
+        - generic [ref=e1816]:
+          - img "Şerban George Cătălin" [ref=e1818]
+          - generic: PNL
+        - generic [ref=e1819]: Şerban George Cătălin
+        - generic [ref=e1820]: "2"
+      - link "Tîlvăr Angel PSD Tîlvăr Angel 2" [ref=e1821] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/302.json
+        - generic [ref=e1822]:
+          - img "Tîlvăr Angel" [ref=e1824]
+          - generic: PSD
+        - generic [ref=e1825]: Tîlvăr Angel
+        - generic [ref=e1826]: "2"
+      - link "Tuşa Adriana Diana PSD Tuşa Adriana Diana 2" [ref=e1827] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/309.json
+        - generic [ref=e1828]:
+          - img "Tuşa Adriana Diana" [ref=e1830]
+          - generic: PSD
+        - generic [ref=e1831]: Tuşa Adriana Diana
+        - generic [ref=e1832]: "2"
+      - link "AS Afloarei Sorin-Alexandru 0" [ref=e1833] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/2.json
+        - generic [ref=e1836]: AS
+        - generic [ref=e1837]: Afloarei Sorin-Alexandru
+        - generic [ref=e1838]: "0"
+      - link "Andrei Alexandru-Ioan Andrei Alexandru-Ioan 0" [ref=e1839] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/7.json
+        - img "Andrei Alexandru-Ioan" [ref=e1842]
+        - generic [ref=e1843]: Andrei Alexandru-Ioan
+        - generic [ref=e1844]: "0"
+      - link "Becali George Becali George 0" [ref=e1845] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/23.json
+        - img "Becali George" [ref=e1848]
+        - generic [ref=e1849]: Becali George
+        - generic [ref=e1850]: "0"
+      - link "Budacă Vasile Budacă Vasile 0" [ref=e1851] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/41.json
+        - img "Budacă Vasile" [ref=e1854]
+        - generic [ref=e1855]: Budacă Vasile
+        - generic [ref=e1856]: "0"
+      - link "Buican Cristian Buican Cristian 0" [ref=e1857] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/43.json
+        - img "Buican Cristian" [ref=e1860]
+        - generic [ref=e1861]: Buican Cristian
+        - generic [ref=e1862]: "0"
+      - link "Ciortea Răzvan-Iulian Ciortea Răzvan-Iulian 0" [ref=e1863] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/61.json
+        - img "Ciortea Răzvan-Iulian" [ref=e1866]
+        - generic [ref=e1867]: Ciortea Răzvan-Iulian
+        - generic [ref=e1868]: "0"
+      - link "Cîrligea Florin-Eugen Cîrligea Florin-Eugen 0" [ref=e1869] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/68.json
+        - img "Cîrligea Florin-Eugen" [ref=e1872]
+        - generic [ref=e1873]: Cîrligea Florin-Eugen
+        - generic [ref=e1874]: "0"
+      - link "Crîstici Ognean Crîstici Ognean 0" [ref=e1875] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/83.json
+        - img "Crîstici Ognean" [ref=e1878]
+        - generic [ref=e1879]: Crîstici Ognean
+        - generic [ref=e1880]: "0"
+      - link "Csillag Andrei Csillag Andrei 0" [ref=e1881] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/86.json
+        - img "Csillag Andrei" [ref=e1884]
+        - generic [ref=e1885]: Csillag Andrei
+        - generic [ref=e1886]: "0"
+      - link "Culeafă Mihai Culeafă Mihai 0" [ref=e1887] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/88.json
+        - img "Culeafă Mihai" [ref=e1890]
+        - generic [ref=e1891]: Culeafă Mihai
+        - generic [ref=e1892]: "0"
+      - link "Gheorghe Mihai-Claudiu Gheorghe Mihai-Claudiu 0" [ref=e1893] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/120.json
+        - img "Gheorghe Mihai-Claudiu" [ref=e1896]
+        - generic [ref=e1897]: Gheorghe Mihai-Claudiu
+        - generic [ref=e1898]: "0"
+      - link "Iancu Marius-Ionel Iancu Marius-Ionel 0" [ref=e1899] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/145.json
+        - img "Iancu Marius-Ionel" [ref=e1902]
+        - generic [ref=e1903]: Iancu Marius-Ionel
+        - generic [ref=e1904]: "0"
+      - link "Ibram Iusein Ibram Iusein 0" [ref=e1905] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/146.json
+        - img "Ibram Iusein" [ref=e1908]
+        - generic [ref=e1909]: Ibram Iusein
+        - generic [ref=e1910]: "0"
+      - link "Iordache Ion Iordache Ion 0" [ref=e1911] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/153.json
+        - img "Iordache Ion" [ref=e1914]
+        - generic [ref=e1915]: Iordache Ion
+        - generic [ref=e1916]: "0"
+      - link "Jianu Iosif-Florin Jianu Iosif-Florin 0" [ref=e1917] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/158.json
+        - img "Jianu Iosif-Florin" [ref=e1920]
+        - generic [ref=e1921]: Jianu Iosif-Florin
+        - generic [ref=e1922]: "0"
+      - link "Lazăr Teodor Lazăr Teodor 0" [ref=e1923] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/167.json
+        - img "Lazăr Teodor" [ref=e1926]
+        - generic [ref=e1927]: Lazăr Teodor
+        - generic [ref=e1928]: "0"
+      - link "Mihuţi Bogdan-Florian Mihuţi Bogdan-Florian 0" [ref=e1929] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/194.json
+        - img "Mihuţi Bogdan-Florian" [ref=e1932]
+        - generic [ref=e1933]: Mihuţi Bogdan-Florian
+        - generic [ref=e1934]: "0"
+      - link "Mocanu Adrian Mocanu Adrian 0" [ref=e1935] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/203.json
+        - img "Mocanu Adrian" [ref=e1938]
+        - generic [ref=e1939]: Mocanu Adrian
+        - generic [ref=e1940]: "0"
+      - link "Morar Lucian-Ioan-Titus Morar Lucian-Ioan-Titus 0" [ref=e1941] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/207.json
+        - img "Morar Lucian-Ioan-Titus" [ref=e1944]
+        - generic [ref=e1945]: Morar Lucian-Ioan-Titus
+        - generic [ref=e1946]: "0"
+      - link "Neacşu Andreea-Firuţa Neacşu Andreea-Firuţa 0" [ref=e1947] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/221.json
+        - img "Neacşu Andreea-Firuţa" [ref=e1950]
+        - generic [ref=e1951]: Neacşu Andreea-Firuţa
+        - generic [ref=e1952]: "0"
+      - link "Neacşu Marian Neacşu Marian 0" [ref=e1953] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/222.json
+        - img "Neacşu Marian" [ref=e1956]
+        - generic [ref=e1957]: Neacşu Marian
+        - generic [ref=e1958]: "0"
+      - link "Neculaescu Laurenţiu Adrian Neculaescu Laurenţiu Adrian 0" [ref=e1959] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/226.json
+        - img "Neculaescu Laurenţiu Adrian" [ref=e1962]
+        - generic [ref=e1963]: Neculaescu Laurenţiu Adrian
+        - generic [ref=e1964]: "0"
+      - link "Păunescu Silviu-Titus Păunescu Silviu-Titus 0" [ref=e1965] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/240.json
+        - img "Păunescu Silviu-Titus" [ref=e1968]
+        - generic [ref=e1969]: Păunescu Silviu-Titus
+        - generic [ref=e1970]: "0"
+      - link "Peţa-Ştefănescu Eliza-Mădălina Peţa-Ştefănescu Eliza-Mădălina 0" [ref=e1971] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/242.json
+        - img "Peţa-Ştefănescu Eliza-Mădălina" [ref=e1974]
+        - generic [ref=e1975]: Peţa-Ştefănescu Eliza-Mădălina
+        - generic [ref=e1976]: "0"
+      - link "Pirtea Marilen - Gabriel Pirtea Marilen - Gabriel 0" [ref=e1977] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/243.json
+        - img "Pirtea Marilen - Gabriel" [ref=e1980]
+        - generic [ref=e1981]: Pirtea Marilen - Gabriel
+        - generic [ref=e1982]: "0"
+      - link "Ponta Victor-Viorel Ponta Victor-Viorel 0" [ref=e1983] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/248.json
+        - img "Ponta Victor-Viorel" [ref=e1986]
+        - generic [ref=e1987]: Ponta Victor-Viorel
+        - generic [ref=e1988]: "0"
+      - link "Popa Alexandru Popa Alexandru 0" [ref=e1989] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/249.json
+        - img "Popa Alexandru" [ref=e1992]
+        - generic [ref=e1993]: Popa Alexandru
+        - generic [ref=e1994]: "0"
+      - link "Samoilă Ion Samoilă Ion 0" [ref=e1995] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/274.json
+        - img "Samoilă Ion" [ref=e1998]
+        - generic [ref=e1999]: Samoilă Ion
+        - generic [ref=e2000]: "0"
+      - link "Stoenică Irina-Florentina Stoenică Irina-Florentina 0" [ref=e2001] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/284.json
+        - img "Stoenică Irina-Florentina" [ref=e2004]
+        - generic [ref=e2005]: Stoenică Irina-Florentina
+        - generic [ref=e2006]: "0"
+      - link "Stoica Ştefan-Bucur Stoica Ştefan-Bucur 0" [ref=e2007] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/288.json
+        - img "Stoica Ştefan-Bucur" [ref=e2010]
+        - generic [ref=e2011]: Stoica Ştefan-Bucur
+        - generic [ref=e2012]: "0"
+      - link "Teslariu Andrei-Ionuţ Teslariu Andrei-Ionuţ 0" [ref=e2013] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/300.json
+        - img "Teslariu Andrei-Ionuţ" [ref=e2016]
+        - generic [ref=e2017]: Teslariu Andrei-Ionuţ
+        - generic [ref=e2018]: "0"
+      - link "Vulpescu Ioan Vulpescu Ioan 0" [ref=e2019] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/324.json
+        - img "Vulpescu Ioan" [ref=e2022]
+        - generic [ref=e2023]: Vulpescu Ioan
+        - generic [ref=e2024]: "0"
+      - link "Priceputu Vasilică Priceputu Vasilică 0" [ref=e2025] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/333.json
+        - img "Priceputu Vasilică" [ref=e2028]
+        - generic [ref=e2029]: Priceputu Vasilică
+        - generic [ref=e2030]: "0"
+      - link "Matache Oana Matache Oana 0" [ref=e2031] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/334.json
+        - img "Matache Oana" [ref=e2034]
+        - generic [ref=e2035]: Matache Oana
+        - generic [ref=e2036]: "0"
+      - link "Vărşan Ciprian-Nicolae Vărşan Ciprian-Nicolae 0" [ref=e2037] [cursor=pointer]:
+        - /url: data/v1/deputati/legislatura-2024/335.json
+        - img "Vărşan Ciprian-Nicolae" [ref=e2040]
+        - generic [ref=e2041]: Vărşan Ciprian-Nicolae
+        - generic [ref=e2042]: "0"
+  - contentinfo [ref=e2043]:
+    - paragraph [ref=e2044]:
+      - text: Date din
+      - link "cdep.ro" [ref=e2045] [cursor=pointer]:
+        - /url: https://cdep.ro
+      - text: "· Sursa:"
+      - link "activitate-deputies-2024.json" [ref=e2046] [cursor=pointer]:
+        - /url: data/v1/stats/activitate-deputies-2024.json
+      - text: ·
+      - link "Pagina principală" [ref=e2047] [cursor=pointer]:
+        - /url: index.html

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:53:11.259320Z",
+    "generated_at": "2026-05-29T17:32:04.442405Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-03",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-08",
@@ -49,11 +91,73 @@
         "terenuri_count": 2,
         "cladiri_count": 1,
         "suprafata_total_mp": 2274.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 548.0,
+        "suprafata_luciu_mp": 1500.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 226.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
         "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 401490.0,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 204200.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 401490.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 548.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2014,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1500.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2007,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 226.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2015,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Toyota Yaris",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Jeep Compass",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": -204200.0,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2007
       },
       {
         "data_depunere": "2023-05-24",
@@ -63,11 +167,73 @@
         "terenuri_count": 2,
         "cladiri_count": 1,
         "suprafata_total_mp": 2274.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 548.0,
+        "suprafata_luciu_mp": 1500.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 226.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
         "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 183108.0,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 65000.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 183108.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 548.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2014,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1500.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2007,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 226.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2015,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Toyota Yaris",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Jeep Compass",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": -65000.0,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2007
       },
       {
         "data_depunere": "2024-06-11",
@@ -77,11 +243,123 @@
         "terenuri_count": 2,
         "cladiri_count": 1,
         "suprafata_total_mp": 2274.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 186186.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 548.0,
+        "suprafata_luciu_mp": 1500.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 226.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 2,
+        "bunuri_instrainate_total_ron": 159200.0,
+        "conturi_total_ron": 142495.28,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 71450.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 186186.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 548.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2014,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1500.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2007,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 226.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2015,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Toyota",
+            "an_fabricatie": 2023,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Volkswagen",
+            "an_fabricatie": 2023,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Raiffesen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 78882.72
+          },
+          {
+            "institutie": "Raiffesen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 670.19
+          },
+          {
+            "institutie": "Raiffesen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 5111.76
+          },
+          {
+            "institutie": "Raiffesen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 46.21
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 57133.51
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 623.63
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 27.26
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 142495.28,
+        "avere_neta_ron": 71045.28,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2007
       },
       {
         "data_depunere": "2025-01-13",
@@ -91,18 +369,138 @@
         "terenuri_count": 2,
         "cladiri_count": 1,
         "suprafata_total_mp": 2274.0,
-        "conturi_total_ron": 195000.0,
-        "venituri_anuale_ron": 186186.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 548.0,
+        "suprafata_luciu_mp": 1500.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 226.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 135000.0,
+        "conturi_total_ron": 220879.0,
+        "plasamente_total_ron": 195000.0,
         "datorii_total_ron": 22000.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 186186.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 548.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2014,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1500.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2007,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 226.0,
+            "judet": "Sibiu",
+            "an_dobandirii": 2015,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Toyota",
+            "an_fabricatie": 2023,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Raiffesen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 22983.0
+          },
+          {
+            "institutie": "Raiffesen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 383.0
+          },
+          {
+            "institutie": "Raiffesen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 928.0
+          },
+          {
+            "institutie": "Raiffesen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 15.0
+          },
+          {
+            "institutie": "sen Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 195000.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 1500.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 70.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "campanie electorală 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 195000.0
+          }
+        ],
+        "total_active_monetare_ron": 415879.0,
+        "avere_neta_ron": 393879.0,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2007
       }
     ],
     "ultima_data": "2025-01-13",
-    "ultima_conturi_ron": 195000.0,
+    "ultima_conturi_ron": 220879.0,
     "ultima_venituri_ron": 186186.0,
     "ultima_imobile_count": 3,
-    "delta_conturi_ron": 195000.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 195000.0,
+    "ultima_datorii_ron": 22000.0,
+    "ultima_total_active_ron": 415879.0,
+    "ultima_avere_neta_ron": 393879.0,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 1,
+    "delta_conturi_ron": 220879.0,
     "delta_imobile": 3
   }
 }

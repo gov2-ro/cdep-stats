@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:05:00.220500Z",
+    "generated_at": "2026-05-29T17:25:02.686831Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 8
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-02-17",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -63,11 +126,141 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 104069.0,
-        "venituri_anuale_ron": 1141239.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 1334479.0,
+        "plasamente_total_ron": 104069.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1141239.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 1678.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 14040.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2012,
+            "sold_ron": 18067.5
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 5517.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 1585.7
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 896481.0499999999
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 174098.75
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 140949.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 906.0
+          },
+          {
+            "institutie": "Citibank",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2001,
+            "sold_ron": 16011.0
+          },
+          {
+            "institutie": "NN Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 65145.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "SC Prems Librexim SRL 1390",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 13900.0
+          },
+          {
+            "emitent": "SC Frisbo Efulfillment SA 88",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 880.0
+          },
+          {
+            "emitent": "1950",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 19500.0
+          },
+          {
+            "emitent": "SC Frisbo Efulfillment SA 18142",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 18142.0
+          },
+          {
+            "emitent": "51647",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 51647.0
+          }
+        ],
+        "total_active_monetare_ron": 1438548.0,
+        "avere_neta_ron": 1438548.0,
+        "nr_judete": 0,
+        "nr_companii": 5,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-06-15",
@@ -77,11 +270,263 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 148402.8,
-        "venituri_anuale_ron": 165636.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 1284152.1,
+        "plasamente_total_ron": 148402.8,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 165636.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 3137.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 49072.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2012,
+            "sold_ron": 17896.5
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 1589.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 22305.85
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 525200.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 22548.25
+          },
+          {
+            "institutie": "ING",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 92731.5
+          },
+          {
+            "institutie": "ING",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 2051.0
+          },
+          {
+            "institutie": "Citibank",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2001,
+            "sold_ron": 8680.5
+          },
+          {
+            "institutie": "NN Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 81284.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 151500.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2023,
+            "sold_ron": 189751.5
+          },
+          {
+            "institutie": "BRD",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 663.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2023,
+            "sold_ron": 48523.5
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2023,
+            "sold_ron": 45207.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 10352.5
+          },
+          {
+            "institutie": "a Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2022,
+            "sold_ron": 9450.0
+          },
+          {
+            "institutie": "BT Broker",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 2209.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "SC Prems Librexim SRL 2430",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 24300.0
+          },
+          {
+            "emitent": "SC Frisbo Efulfillment SA 88",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 880.0
+          },
+          {
+            "emitent": "1950",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 19500.0
+          },
+          {
+            "emitent": "SC Frisbo Efulfillment SA 18142",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 18142.0
+          },
+          {
+            "emitent": "50247",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50247.0
+          },
+          {
+            "emitent": "UiPath Inc 70",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 5679.0
+          },
+          {
+            "emitent": "Vroom Inc 3700",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 19786.5
+          },
+          {
+            "emitent": "Airbus 3",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1949.3
+          },
+          {
+            "emitent": "Boeing 1",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 976.5
+          },
+          {
+            "emitent": "Tesla inc 1",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1147.5
+          },
+          {
+            "emitent": "Google 4",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 2214.0
+          },
+          {
+            "emitent": "Amazon 2",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1134.0
+          },
+          {
+            "emitent": "Ascendia SA 200",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 690.0
+          },
+          {
+            "emitent": "Fondul Proprietatea 200",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 377.0
+          },
+          {
+            "emitent": "OMV Petrom 2000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 994.0
+          },
+          {
+            "emitent": "Banca Transilvania 20",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 386.0
+          }
+        ],
+        "total_active_monetare_ron": 1432554.9000000001,
+        "avere_neta_ron": 1432554.9000000001,
+        "nr_judete": 0,
+        "nr_companii": 16,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2024-06-15",
@@ -91,11 +536,249 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 148402.8,
-        "venituri_anuale_ron": 144341.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 807430.8,
+        "plasamente_total_ron": 148402.8,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 144341.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 6417.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 27213.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 2714.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 101813.05
+          },
+          {
+            "institutie": "ING",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 8105.25
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 2461.5
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 1102.0
+          },
+          {
+            "institutie": "Citibank",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2001,
+            "sold_ron": 6205.5
+          },
+          {
+            "institutie": "NN Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 104313.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 151500.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2023,
+            "sold_ron": 278145.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 484.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2023,
+            "sold_ron": 3550.5
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2023,
+            "sold_ron": 91039.5
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 7019.5
+          },
+          {
+            "institutie": "a Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2022,
+            "sold_ron": 12375.0
+          },
+          {
+            "institutie": "BT Broker",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 2973.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "SC Prems Librexim SRL 2430",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 24300.0
+          },
+          {
+            "emitent": "SC Frisbo Efulfillment SA 88",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 880.0
+          },
+          {
+            "emitent": "1950",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 19500.0
+          },
+          {
+            "emitent": "SC Frisbo Efulfillment SA 18142",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 18142.0
+          },
+          {
+            "emitent": "50247",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50247.0
+          },
+          {
+            "emitent": "UiPath Inc 70",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 5679.0
+          },
+          {
+            "emitent": "Vroom Inc 3700",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 19786.5
+          },
+          {
+            "emitent": "Airbus 3",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1949.3
+          },
+          {
+            "emitent": "Boeing 1",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 976.5
+          },
+          {
+            "emitent": "Tesla inc 1",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1147.5
+          },
+          {
+            "emitent": "Google 4",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 2214.0
+          },
+          {
+            "emitent": "Amazon 2",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1134.0
+          },
+          {
+            "emitent": "Ascendia SA 200",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 690.0
+          },
+          {
+            "emitent": "Fondul Proprietatea 200",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 377.0
+          },
+          {
+            "emitent": "OMV Petrom 2000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 994.0
+          },
+          {
+            "emitent": "Banca Transilvania 20",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 386.0
+          }
+        ],
+        "total_active_monetare_ron": 955833.6000000001,
+        "avere_neta_ron": 955833.6000000001,
+        "nr_judete": 0,
+        "nr_companii": 16,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2024-07-10",
@@ -105,11 +788,273 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 604819.7,
-        "venituri_anuale_ron": 144341.0,
-        "datorii_total_ron": 40000.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 860167.8,
+        "plasamente_total_ron": 604819.7,
+        "datorii_total_ron": 40000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 144341.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 6417.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 79950.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 2714.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 101813.05
+          },
+          {
+            "institutie": "ING",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 8105.25
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 2461.5
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 1102.0
+          },
+          {
+            "institutie": "Citibank",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2001,
+            "sold_ron": 6205.5
+          },
+          {
+            "institutie": "NN Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 104313.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 151500.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2023,
+            "sold_ron": 278145.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 484.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2023,
+            "sold_ron": 3550.5
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2023,
+            "sold_ron": 91039.5
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 7019.5
+          },
+          {
+            "institutie": "a Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2022,
+            "sold_ron": 12375.0
+          },
+          {
+            "institutie": "BT Broker",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 2973.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "SC Prems Librexim SRL 2430",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 24300.0
+          },
+          {
+            "emitent": "SC Frisbo Efulfillment SA 88",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 880.0
+          },
+          {
+            "emitent": "1950",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 19500.0
+          },
+          {
+            "emitent": "SC Frisbo Efulfillment SA 18142",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 18142.0
+          },
+          {
+            "emitent": "50247",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50247.0
+          },
+          {
+            "emitent": "UiPath Inc 60",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 3199.5
+          },
+          {
+            "emitent": "Vroom Inc 150",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 6385.5
+          },
+          {
+            "emitent": "Airbus 3",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 2004.85
+          },
+          {
+            "emitent": "Boeing 1",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 832.5
+          },
+          {
+            "emitent": "Embraer 10",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1246.5
+          },
+          {
+            "emitent": "Google 2",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1710.0
+          },
+          {
+            "emitent": "Societe Generale 9",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1035.25
+          },
+          {
+            "emitent": "Target 1",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 670.5
+          },
+          {
+            "emitent": "Ascendia SA 200",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 820.0
+          },
+          {
+            "emitent": "Fondul Proprietatea 1500",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 585.0
+          },
+          {
+            "emitent": "OMV Petrom 2000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1522.0
+          },
+          {
+            "emitent": "Banca Transilvania 22",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 714.0
+          },
+          {
+            "emitent": "Titluri Fidelis RON deţinute (titluri de stat, 50",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 5298.0
+          },
+          {
+            "emitent": "Titluri Fidelis EUR Hârtii de valoare 900",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 462287.1
+          },
+          {
+            "emitent": "Hidroelectrica 27",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 3440.0
+          }
+        ],
+        "total_active_monetare_ron": 1464987.5,
+        "avere_neta_ron": 1424987.5,
+        "nr_judete": 0,
+        "nr_companii": 20,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2025-01-19",
@@ -119,18 +1064,288 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 466453.1,
-        "venituri_anuale_ron": 141533.0,
-        "datorii_total_ron": 40000.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 967246.4,
+        "plasamente_total_ron": 466453.10000000003,
+        "datorii_total_ron": 40000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 141533.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 5014.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 1050.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 1609.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 107969.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 63039.149999999994
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 2286.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 1067.0
+          },
+          {
+            "institutie": "Citibank",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2001,
+            "sold_ron": 5706.0
+          },
+          {
+            "institutie": "NN Pensii",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 110355.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 101000.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2023,
+            "sold_ron": 279936.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 428.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2023,
+            "sold_ron": 4392.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2023,
+            "sold_ron": 91534.5
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 9544.5
+          },
+          {
+            "institutie": "a Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2022,
+            "sold_ron": 16200.0
+          },
+          {
+            "institutie": "BT Broker",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 7420.0
+          },
+          {
+            "institutie": "BT Broker",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 158696.25
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "SC Prems Librexim SRL 2430",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 24300.0
+          },
+          {
+            "emitent": "SC Frisbo Efulfillment SA 88",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 880.0
+          },
+          {
+            "emitent": "1950",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 19500.0
+          },
+          {
+            "emitent": "SC Frisbo Efulfillment SA 18142",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 18142.0
+          },
+          {
+            "emitent": "50247",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50247.0
+          },
+          {
+            "emitent": "UiPath Inc 40",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 2353.5
+          },
+          {
+            "emitent": "Vroom Inc 160",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 4320.0
+          },
+          {
+            "emitent": "Airbus 3",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 2439.15
+          },
+          {
+            "emitent": "Boeing 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 769.5
+          },
+          {
+            "emitent": "SC Beng Beng SRL 14000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 14000.0
+          },
+          {
+            "emitent": "Google 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 882.0
+          },
+          {
+            "emitent": "Target 1",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 598.5
+          },
+          {
+            "emitent": "Ascendia SA 200",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 734.0
+          },
+          {
+            "emitent": "Fondul Proprietatea 1600",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 518.0
+          },
+          {
+            "emitent": "OMV Petrom 1000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 727.0
+          },
+          {
+            "emitent": "Banca Transilvania 10",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 271.0
+          },
+          {
+            "emitent": "Titluri Fidelis RON deţinute (titluri de stat, 53",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 5420.0
+          },
+          {
+            "emitent": "Titluri Fidelis EUR deţinute (titluri de stat, 621",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 318498.45
+          },
+          {
+            "emitent": "Hidroelectrica 15",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 1853.0
+          }
+        ],
+        "total_active_monetare_ron": 1433699.5,
+        "avere_neta_ron": 1393699.5,
+        "nr_judete": 0,
+        "nr_companii": 19,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       }
     ],
     "ultima_data": "2025-01-19",
-    "ultima_conturi_ron": 466453.1,
+    "ultima_conturi_ron": 967246.4,
     "ultima_venituri_ron": 141533.0,
     "ultima_imobile_count": 0,
-    "delta_conturi_ron": 466453.1,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 466453.10000000003,
+    "ultima_datorii_ron": 40000.0,
+    "ultima_total_active_ron": 1433699.5,
+    "ultima_avere_neta_ron": 1393699.5,
+    "ultima_nr_judete": 0,
+    "ultima_nr_companii": 19,
+    "delta_conturi_ron": 967246.4,
     "delta_imobile": 0
   }
 }

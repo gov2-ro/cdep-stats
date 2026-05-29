@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:07:17.261842Z",
+    "generated_at": "2026-05-29T17:27:54.678172Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -49,11 +91,159 @@
         "terenuri_count": 1,
         "cladiri_count": 3,
         "suprafata_total_mp": 336.0,
-        "conturi_total_ron": 450.0,
-        "venituri_anuale_ron": 571695.0,
-        "datorii_total_ron": 879410.06,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 336.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 580750.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 146551.9145,
+        "plasamente_total_ron": 450.0,
+        "datorii_total_ron": 879410.06,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 571695.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 70.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 83.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 183.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 866.22
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2007,
+            "sold_ron": 241.73
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2008,
+            "sold_ron": 14099.7515
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 27.73
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 10080.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 83.27
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 18.5335
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 21203.89
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 3572.92
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 53983.4395
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 80.68
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 40400.0
+          },
+          {
+            "institutie": "criptomonede",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 1893.75
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "4.",
+            "tip": "imprumut",
+            "nr_titluri": "50 %",
+            "valoare_ron": 450.0
+          }
+        ],
+        "total_active_monetare_ron": 727751.9145,
+        "avere_neta_ron": -151658.1455000001,
+        "nr_judete": 2,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2004
       },
       {
         "data_depunere": "2023-06-13",
@@ -63,11 +253,171 @@
         "terenuri_count": 1,
         "cladiri_count": 3,
         "suprafata_total_mp": 336.0,
-        "conturi_total_ron": 14400.0,
-        "venituri_anuale_ron": 516668.0,
-        "datorii_total_ron": 791240.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 336.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 631250.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 178070.767,
+        "plasamente_total_ron": 14400.0,
+        "datorii_total_ron": 791240.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 516668.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 70.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 83.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 183.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2007,
+            "sold_ron": 79.09
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2007,
+            "sold_ron": 928.12
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 205.2825
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 20039.41
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 43.86
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 35890.1985
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 55088.7
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 7574.99
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 15000.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2011,
+            "sold_ron": 85.44600000000001
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 841.92
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 40400.0
+          },
+          {
+            "institutie": "criptomonede",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 1893.75
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "4.50",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 450.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 200.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 13750.0
+          }
+        ],
+        "total_active_monetare_ron": 823720.767,
+        "avere_neta_ron": 32480.766999999993,
+        "nr_judete": 2,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2004
       },
       {
         "data_depunere": "2023-07-13",
@@ -77,11 +427,163 @@
         "terenuri_count": 1,
         "cladiri_count": 3,
         "suprafata_total_mp": 336.0,
-        "conturi_total_ron": 21497.0,
-        "venituri_anuale_ron": 516668.0,
-        "datorii_total_ron": 783924.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 336.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 631250.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 171043.5615,
+        "plasamente_total_ron": 21497.0,
+        "datorii_total_ron": 783924.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 516668.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 70.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 83.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 183.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2007,
+            "sold_ron": 16318.67
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2007,
+            "sold_ron": 2256.9
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 182.55749999999998
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 2114.55
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 10.17
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 29424.734
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 67028.46
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 10169.6
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 1244.17
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 40400.0
+          },
+          {
+            "institutie": "criptomonede",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 1893.75
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "4.",
+            "tip": "imprumut",
+            "nr_titluri": "50 %",
+            "valoare_ron": 450.0
+          },
+          {
+            "emitent": "Hidroelectrica 64",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 7097.0
+          },
+          {
+            "emitent": null,
+            "tip": null,
+            "nr_titluri": "100 %",
+            "valoare_ron": 200.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 13750.0
+          }
+        ],
+        "total_active_monetare_ron": 823790.5615000001,
+        "avere_neta_ron": 39866.56150000007,
+        "nr_judete": 2,
+        "nr_companii": 4,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2004
       },
       {
         "data_depunere": "2024-01-17",
@@ -91,18 +593,171 @@
         "terenuri_count": 1,
         "cladiri_count": 3,
         "suprafata_total_mp": 336.0,
-        "conturi_total_ron": 9226.0,
-        "venituri_anuale_ron": 542940.0,
-        "datorii_total_ron": 738788.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 336.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 681750.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 170714.582,
+        "plasamente_total_ron": 9226.0,
+        "datorii_total_ron": 738788.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 542940.0,
+        "imobile_detaliate": [
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 70.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 83.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 183.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2007,
+            "sold_ron": 4.49
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2007,
+            "sold_ron": 3495.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 67.771
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 7395.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 107.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 22.320999999999998
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 93565.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 12.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 24697.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 949.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 40400.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "4.",
+            "tip": "imprumut",
+            "nr_titluri": "50 %",
+            "valoare_ron": 450.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 200.0
+          },
+          {
+            "emitent": "Hidroelectrica 64",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 8576.0
+          }
+        ],
+        "total_active_monetare_ron": 861690.5819999999,
+        "avere_neta_ron": 122902.58199999994,
+        "nr_judete": 2,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2004
       }
     ],
     "ultima_data": "2024-01-17",
-    "ultima_conturi_ron": 9226.0,
+    "ultima_conturi_ron": 170714.582,
     "ultima_venituri_ron": 542940.0,
     "ultima_imobile_count": 4,
-    "delta_conturi_ron": 9226.0,
+    "ultima_bijuterii_ron": 681750.0,
+    "ultima_plasamente_ron": 9226.0,
+    "ultima_datorii_ron": 738788.0,
+    "ultima_total_active_ron": 861690.5819999999,
+    "ultima_avere_neta_ron": 122902.58199999994,
+    "ultima_nr_judete": 2,
+    "ultima_nr_companii": 3,
+    "delta_conturi_ron": 170714.582,
     "delta_imobile": 4
   }
 }

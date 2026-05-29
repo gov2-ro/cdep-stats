@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:04:52.780205Z",
+    "generated_at": "2026-05-29T17:24:53.320751Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -49,11 +91,369 @@
         "terenuri_count": 5,
         "cladiri_count": 4,
         "suprafata_total_mp": 7809.0,
-        "conturi_total_ron": 3295032.327,
-        "venituri_anuale_ron": 714694.0,
-        "datorii_total_ron": 130250.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 6535.0,
+        "suprafata_luciu_mp": 666.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 608.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 754423.8375,
+        "plasamente_total_ron": 3295032.327,
+        "datorii_total_ron": 130250.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 714694.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 4730.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2016,
+            "cota_parte": "877/473000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1170.0,
+            "judet": "Cluj",
+            "an_dobandirii": 1995,
+            "cota_parte": "24/1170",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 325.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 310.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 666.0,
+            "judet": "Alba",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 55.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 73.0,
+            "judet": "Cluj",
+            "an_dobandirii": 1995,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 297.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 183.0,
+            "judet": "Alba",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Volkswagen ID",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 18782.58
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 429.75499999999994
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2001,
+            "sold_ron": 310437.22
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2001,
+            "sold_ron": 15708.529999999999
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 57257.62
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 22119.61
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2008,
+            "sold_ron": 5.05
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 30564.26
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 21325.53
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2008,
+            "sold_ron": 4235.6875
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 29463.1
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 32707.4
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 46458.81
+          },
+          {
+            "institutie": "NN Romania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2000,
+            "sold_ron": 20698.79
+          },
+          {
+            "institutie": "NN Romania",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 48853.7
+          },
+          {
+            "institutie": "NN Romania",
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2021,
+            "sold_ron": 4536.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 9478.85
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2021,
+            "sold_ron": 5022.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2021,
+            "sold_ron": 8684.235
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 6774.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 25254.56
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 10114.8
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2011,
+            "sold_ron": 15397.449999999999
+          },
+          {
+            "institutie": "Bucuresti",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 10114.3
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "BRD Societe General SA 5050",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 67165.0
+          },
+          {
+            "emitent": "7205",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 9928.49
+          },
+          {
+            "emitent": "SIF Banat Crisana SA 15000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 36600.0
+          },
+          {
+            "emitent": "OMV Petrom SA 28191",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 12967.86
+          },
+          {
+            "emitent": "Banca Transilvania SA 70571",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 163371.88
+          },
+          {
+            "emitent": "Teraplast SA 8146",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 5677.76
+          },
+          {
+            "emitent": "deţinute (titluri de stat, 260",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 25048.4
+          },
+          {
+            "emitent": "deţinute (titluri de stat, 46",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 21833.877
+          },
+          {
+            "emitent": "Trend Furniture SRL",
+            "tip": "titluri_stat",
+            "nr_titluri": "92 %",
+            "valoare_ron": 2620070.0
+          },
+          {
+            "emitent": "Fast Investors SRL",
+            "tip": "titluri_stat",
+            "nr_titluri": "18 %",
+            "valoare_ron": 358.0
+          },
+          {
+            "emitent": "Gyn Praxis SRL",
+            "tip": null,
+            "nr_titluri": "100 %",
+            "valoare_ron": 173334.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 9300.0
+          },
+          {
+            "emitent": "Fast Investors SRL 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 149377.06
+          }
+        ],
+        "total_active_monetare_ron": 4049456.1645,
+        "avere_neta_ron": 3919206.1645,
+        "nr_judete": 2,
+        "nr_companii": 13,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1995
       },
       {
         "data_depunere": "2023-06-14",
@@ -63,11 +463,384 @@
         "terenuri_count": 5,
         "cladiri_count": 5,
         "suprafata_total_mp": 7910.82,
-        "conturi_total_ron": 5077912.641,
-        "venituri_anuale_ron": 696725.2,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 6535.0,
+        "suprafata_luciu_mp": 666.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 709.8199999999999,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 630885.3375,
+        "plasamente_total_ron": 5077912.641,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 696725.2,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 4730.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2016,
+            "cota_parte": "877/473000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1170.0,
+            "judet": "Cluj",
+            "an_dobandirii": 1995,
+            "cota_parte": "24/1170",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 325.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 310.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 666.0,
+            "judet": "Alba",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 55.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 73.0,
+            "judet": "Cluj",
+            "an_dobandirii": 1995,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 297.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 183.0,
+            "judet": "Alba",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 101.82,
+            "judet": "-",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Volkswagen ID",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 21936.29
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 859.5099999999999
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2001,
+            "sold_ron": 123744.6
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2001,
+            "sold_ron": 11289.0225
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 58250.32
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 25201.06
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2008,
+            "sold_ron": 5.05
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 31229.41
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 21894.42
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2008,
+            "sold_ron": 4235.6875
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 25363.41
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 44825.8
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 57006.64
+          },
+          {
+            "institutie": "NN Romania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2000,
+            "sold_ron": 23017.9
+          },
+          {
+            "institutie": "NN Romania",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 77813.5815
+          },
+          {
+            "institutie": "NN Romania",
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2021,
+            "sold_ron": 4536.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 7635.599999999999
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2021,
+            "sold_ron": 5161.05
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2021,
+            "sold_ron": 6075.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 6521.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 29209.6
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 9701.93
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2011,
+            "sold_ron": 4126.456
+          },
+          {
+            "institutie": "Bucuresti",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 31246.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "BRD Societe General SA 5050",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 63024.0
+          },
+          {
+            "emitent": "9606",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 9010.43
+          },
+          {
+            "emitent": "Lion Capital SA 15000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 36300.0
+          },
+          {
+            "emitent": "OMV Petrom SA 53100",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 26390.7
+          },
+          {
+            "emitent": "Banca Transilvania SA 7912",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 151673.05
+          },
+          {
+            "emitent": "Teraplast SA 8146",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 4235.92
+          },
+          {
+            "emitent": "deţinute (titluri de stat, 260",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 26140.4
+          },
+          {
+            "emitent": "deţinute (titluri de stat, 46",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 21713.081
+          },
+          {
+            "emitent": "Trend Furniture SRL",
+            "tip": "titluri_stat",
+            "nr_titluri": "92 %",
+            "valoare_ron": 4205554.0
+          },
+          {
+            "emitent": "Fast Investors SRL",
+            "tip": "titluri_stat",
+            "nr_titluri": "18 %",
+            "valoare_ron": 358.0
+          },
+          {
+            "emitent": "Gyn Praxis SRL",
+            "tip": null,
+            "nr_titluri": "100 %",
+            "valoare_ron": 224836.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 9300.0
+          },
+          {
+            "emitent": "Fast Investors SRL 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 149377.06
+          },
+          {
+            "emitent": "Namarte CCL SRL 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 150000.0
+          }
+        ],
+        "total_active_monetare_ron": 5708797.9785,
+        "avere_neta_ron": 5708797.9785,
+        "nr_judete": 3,
+        "nr_companii": 14,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1995
       },
       {
         "data_depunere": "2024-04-30",
@@ -77,11 +850,385 @@
         "terenuri_count": 5,
         "cladiri_count": 5,
         "suprafata_total_mp": 7910.82,
-        "conturi_total_ron": 7576332.558999999,
-        "venituri_anuale_ron": 1195196.4,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 6535.0,
+        "suprafata_luciu_mp": 666.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 709.8199999999999,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 622938.2795,
+        "plasamente_total_ron": 7576332.559,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1195196.4,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 4730.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2016,
+            "cota_parte": "877/473000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1170.0,
+            "judet": "Cluj",
+            "an_dobandirii": 1995,
+            "cota_parte": "24/1170",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 325.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 310.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 666.0,
+            "judet": "Alba",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 55.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 73.0,
+            "judet": "Cluj",
+            "an_dobandirii": 1995,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 297.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 183.0,
+            "judet": "Alba",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 101.82,
+            "judet": "-",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Volkswagen ID",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 53018.63
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 1289.265
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2001,
+            "sold_ron": 92175.53
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2001,
+            "sold_ron": 11658.2785
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 62103.94
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 22.38
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2008,
+            "sold_ron": 5.05
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 32738.81
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 293.81
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2008,
+            "sold_ron": 4235.6875
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 26519.5
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 59744.71
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 67008.27
+          },
+          {
+            "institutie": "NN Romania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2000,
+            "sold_ron": 25573.28
+          },
+          {
+            "institutie": "NN Romania",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 81359.843
+          },
+          {
+            "institutie": "NN Romania",
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2021,
+            "sold_ron": 4536.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 5656.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2021,
+            "sold_ron": 7462.5869999999995
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2021,
+            "sold_ron": 8585.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 14811.95
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 34832.4
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 5750.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2011,
+            "sold_ron": 2620.95
+          },
+          {
+            "institutie": "Bucuresti",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 17345.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 3591.4084999999995
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "BRD Societe General SA 5050",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 105797.5
+          },
+          {
+            "emitent": "9606",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 8405.25
+          },
+          {
+            "emitent": "Lion Capital SA 15000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 43200.0
+          },
+          {
+            "emitent": "OMV Petrom SA 53100",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 36585.9
+          },
+          {
+            "emitent": "Banca Transilvania SA 8929",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 253583.6
+          },
+          {
+            "emitent": "Teraplast SA 8146",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 4561.76
+          },
+          {
+            "emitent": "deţinute (titluri de stat, 46",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 22400.689
+          },
+          {
+            "emitent": "Trend Furniture SRL",
+            "tip": "titluri_stat",
+            "nr_titluri": "90 %",
+            "valoare_ron": 6449807.0
+          },
+          {
+            "emitent": "Fast Investors SRL",
+            "tip": "titluri_stat",
+            "nr_titluri": "18 %",
+            "valoare_ron": 358.0
+          },
+          {
+            "emitent": "Gyn Praxis SRL",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 154674.0
+          },
+          {
+            "emitent": "Fast Investors SRL 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 149377.06
+          },
+          {
+            "emitent": "Food OS SA 28884",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 288840.0
+          },
+          {
+            "emitent": "Hidroelectrica SA 443",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 58741.8
+          }
+        ],
+        "total_active_monetare_ron": 8199270.838500001,
+        "avere_neta_ron": 8199270.838500001,
+        "nr_judete": 3,
+        "nr_companii": 13,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1995
       },
       {
         "data_depunere": "2025-01-03",
@@ -91,18 +1238,395 @@
         "terenuri_count": 5,
         "cladiri_count": 5,
         "suprafata_total_mp": 7910.82,
-        "conturi_total_ron": 8103378.59,
-        "venituri_anuale_ron": 1195196.4,
-        "datorii_total_ron": 100000.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 6535.0,
+        "suprafata_luciu_mp": 666.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 709.8199999999999,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 1091931.9395,
+        "plasamente_total_ron": 8103378.59,
+        "datorii_total_ron": 100000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1195196.4,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 4730.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2016,
+            "cota_parte": "877/473000",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1170.0,
+            "judet": "Cluj",
+            "an_dobandirii": 1995,
+            "cota_parte": "24/1170",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 325.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 310.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2006,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 666.0,
+            "judet": "Alba",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 55.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 73.0,
+            "judet": "Cluj",
+            "an_dobandirii": 1995,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 297.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 183.0,
+            "judet": "Alba",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 101.82,
+            "judet": "-",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Volkswagen ID",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Goldring S.A.",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 268576.0
+          },
+          {
+            "institutie": "Goldring S.A.",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 1289.265
+          },
+          {
+            "institutie": "Goldring S.A.",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2001,
+            "sold_ron": 386337.75
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2001,
+            "sold_ron": 8645.852499999999
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 2782.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2008,
+            "sold_ron": 9377.85
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 33585.18
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2008,
+            "sold_ron": 5.05
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 27031.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 68777.92
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 70719.05
+          },
+          {
+            "institutie": "NN Romania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2000,
+            "sold_ron": 25573.28
+          },
+          {
+            "institutie": "NN Romania",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 79370.84999999999
+          },
+          {
+            "institutie": "NN Romania",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2021,
+            "sold_ron": 9622.472
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 16827.19
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 36444.88
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 3939.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2011,
+            "sold_ron": 9968.699999999999
+          },
+          {
+            "institutie": "Bucuresti",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 12793.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 11776.6
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 8489.05
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "BRD Societe General SA 2550",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 47532.0
+          },
+          {
+            "emitent": "13996",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 6018.28
+          },
+          {
+            "emitent": "Lion Capital SA 15000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 42750.0
+          },
+          {
+            "emitent": "OMV Petrom SA 13100",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 9287.9
+          },
+          {
+            "emitent": "Banca Transilvania SA 1902",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 51354.0
+          },
+          {
+            "emitent": "Teraplast SA 8976",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 4102.03
+          },
+          {
+            "emitent": "deţinute (titluri de stat, 46",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 22858.319999999996
+          },
+          {
+            "emitent": "Trend Furniture SRL",
+            "tip": "titluri_stat",
+            "nr_titluri": "90 %",
+            "valoare_ron": 6449807.0
+          },
+          {
+            "emitent": "Fast Investors SRL",
+            "tip": "titluri_stat",
+            "nr_titluri": "18 %",
+            "valoare_ron": 358.0
+          },
+          {
+            "emitent": "Gyn Praxis SRL",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 154674.0
+          },
+          {
+            "emitent": "Fast Investors SRL 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 149377.06
+          },
+          {
+            "emitent": "Food OS SA 28884",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 288840.0
+          },
+          {
+            "emitent": "Hidroelectrica SA 200",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 24400.0
+          },
+          {
+            "emitent": "PREBET SA Aiud 96200",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 202020.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 400000.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50000.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 200000.0
+          }
+        ],
+        "total_active_monetare_ron": 9195310.5295,
+        "avere_neta_ron": 9095310.5295,
+        "nr_judete": 3,
+        "nr_companii": 17,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1995
       }
     ],
     "ultima_data": "2025-01-03",
-    "ultima_conturi_ron": 8103378.59,
+    "ultima_conturi_ron": 1091931.9395,
     "ultima_venituri_ron": 1195196.4,
     "ultima_imobile_count": 10,
-    "delta_conturi_ron": 8103378.59,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 8103378.59,
+    "ultima_datorii_ron": 100000.0,
+    "ultima_total_active_ron": 9195310.5295,
+    "ultima_avere_neta_ron": 9095310.5295,
+    "ultima_nr_judete": 3,
+    "ultima_nr_companii": 17,
+    "delta_conturi_ron": 1091931.9395,
     "delta_imobile": 10
   }
 }

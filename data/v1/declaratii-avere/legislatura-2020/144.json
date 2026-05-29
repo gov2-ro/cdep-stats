@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:07:22.647067Z",
+    "generated_at": "2026-05-29T17:28:01.528946Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -49,11 +91,212 @@
         "terenuri_count": 21,
         "cladiri_count": 4,
         "suprafata_total_mp": 29402.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 188081.0,
-        "datorii_total_ron": 195000.0,
+        "suprafata_agricol_mp": 21470.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 3592.0,
+        "suprafata_luciu_mp": 4246.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 94.0,
         "auto_count": 3,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 43750.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 195000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 188081.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1801.0,
+            "judet": "Olt",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/4",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1791.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3728.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 300.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 1940.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 2609.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 2413.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 6100.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 500.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3880.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 4246.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 53.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 41.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2017,
+            "mod_dobandire": null
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Dacia Logan",
+            "an_fabricatie": 2008,
+            "mod_dobandire": null
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "CHEVROLET",
+            "an_fabricatie": 2009,
+            "mod_dobandire": null
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 33.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 20000.0
+          },
+          {
+            "institutie": "RAIFFEISEN",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 3000.0
+          },
+          {
+            "institutie": "NN ASIGURARI",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 11756.0
+          },
+          {
+            "institutie": "NN ASIGURARI",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 5381.0
+          },
+          {
+            "institutie": "NN ASIGURARI",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 3580.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 43750.0,
+        "avere_neta_ron": -151250.0,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 8,
+        "an_prima_proprietate": 2019
       },
       {
         "data_depunere": "2023-06-13",
@@ -63,11 +306,196 @@
         "terenuri_count": 20,
         "cladiri_count": 4,
         "suprafata_total_mp": 27601.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 188554.0,
-        "datorii_total_ron": 238000.0,
+        "suprafata_agricol_mp": 25716.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 1791.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 94.0,
         "auto_count": 3,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 20000.0,
+        "conturi_total_ron": 12258.25,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 238000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 188554.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3728.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 300.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 1940.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 2609.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 2413.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 6100.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 500.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3880.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 4246.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1791.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 53.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 41.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2017,
+            "mod_dobandire": null
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Dacia Logan",
+            "an_fabricatie": 2008,
+            "mod_dobandire": null
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "CHEVROLET",
+            "an_fabricatie": 2009,
+            "mod_dobandire": null
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 1042.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 126.25
+          },
+          {
+            "institutie": "RAIFFEISEN",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 640.0
+          },
+          {
+            "institutie": "NN ASIGURARI",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 6587.0
+          },
+          {
+            "institutie": "NN ASIGURARI",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 3863.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 12258.25,
+        "avere_neta_ron": -225741.75,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 9,
+        "an_prima_proprietate": 2021
       },
       {
         "data_depunere": "2024-06-12",
@@ -77,11 +505,190 @@
         "terenuri_count": 20,
         "cladiri_count": 4,
         "suprafata_total_mp": 27601.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 222794.0,
-        "datorii_total_ron": 238000.0,
+        "suprafata_agricol_mp": 25716.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 1791.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 94.0,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 25054.4,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 238000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 222794.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3728.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 300.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 1940.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 2609.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 2413.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 6100.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 500.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3880.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 4246.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1791.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 53.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 41.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2017,
+            "mod_dobandire": null
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "CHEVROLET",
+            "an_fabricatie": 2009,
+            "mod_dobandire": null
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 10420.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 40.4
+          },
+          {
+            "institutie": "RAIFFEISEN",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 1617.0
+          },
+          {
+            "institutie": "NN ASIGURARI",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 8392.0
+          },
+          {
+            "institutie": "NN ASIGURARI",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 4585.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 25054.4,
+        "avere_neta_ron": -212945.6,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 9,
+        "an_prima_proprietate": 2021
       },
       {
         "data_depunere": "2024-12-29",
@@ -91,18 +698,202 @@
         "terenuri_count": 20,
         "cladiri_count": 2,
         "suprafata_total_mp": 27652.0,
-        "conturi_total_ron": 150000.0,
-        "venituri_anuale_ron": 222794.0,
-        "datorii_total_ron": 143000.0,
+        "suprafata_agricol_mp": 25716.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 1791.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 145.0,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 30644.4,
+        "plasamente_total_ron": 150000.0,
+        "datorii_total_ron": 143000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 222794.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3728.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 300.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 1940.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 2609.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 2413.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 6100.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 500.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 3880.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 4246.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1791.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 145.0,
+            "judet": "Olt",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2017,
+            "mod_dobandire": null
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "CHEVROLET",
+            "an_fabricatie": 2009,
+            "mod_dobandire": null
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 14500.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 40.4
+          },
+          {
+            "institutie": "RAIFFEISEN",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 3000.0
+          },
+          {
+            "institutie": "NN ASIGURARI",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 8601.0
+          },
+          {
+            "institutie": "NN ASIGURARI",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 4503.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 150000.0
+          }
+        ],
+        "total_active_monetare_ron": 180644.4,
+        "avere_neta_ron": 37644.399999999994,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 9,
+        "an_prima_proprietate": 2021
       }
     ],
     "ultima_data": "2024-12-29",
-    "ultima_conturi_ron": 150000.0,
+    "ultima_conturi_ron": 30644.4,
     "ultima_venituri_ron": 222794.0,
     "ultima_imobile_count": 22,
-    "delta_conturi_ron": 150000.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 150000.0,
+    "ultima_datorii_ron": 143000.0,
+    "ultima_total_active_ron": 180644.4,
+    "ultima_avere_neta_ron": 37644.399999999994,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 1,
+    "delta_conturi_ron": 30644.4,
     "delta_imobile": 22
   }
 }

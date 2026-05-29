@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:47:54.159858Z",
+    "generated_at": "2026-05-29T17:30:47.561749Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-06-15",
@@ -63,11 +126,54 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 230.0,
-        "venituri_anuale_ron": 273084.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 0,
+        "bijuterii_total_ron": 227250.0,
+        "bunuri_instrainate_count": 2,
+        "bunuri_instrainate_total_ron": 130670.0,
+        "conturi_total_ron": 51736.08,
+        "plasamente_total_ron": 230.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 4,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 273084.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 50718.22
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 1017.86
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "QIIZE.COM SRL 23",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 230.0
+          }
+        ],
+        "total_active_monetare_ron": 279216.08,
+        "avere_neta_ron": 279216.08,
+        "nr_judete": 0,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2024-06-14",
@@ -77,11 +183,68 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 230.0,
-        "venituri_anuale_ron": 235055.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 0,
+        "bijuterii_total_ron": 227250.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 48310.248999999996,
+        "plasamente_total_ron": 230.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 4,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 235055.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 34007.75
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2004,
+            "sold_ron": 7812.753999999999
+          },
+          {
+            "institutie": "BCR",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 580.03
+          },
+          {
+            "institutie": "BCR",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2024,
+            "sold_ron": 5909.715
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "QIIZE.COM SRL 23",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 230.0
+          }
+        ],
+        "total_active_monetare_ron": 275790.249,
+        "avere_neta_ron": 275790.249,
+        "nr_judete": 0,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2024-12-31",
@@ -91,18 +254,81 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 198230.0,
-        "venituri_anuale_ron": 235055.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 0,
+        "bijuterii_total_ron": 227250.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 43063.335,
+        "plasamente_total_ron": 198230.0,
         "datorii_total_ron": 198000.0,
-        "auto_count": 4,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 235055.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 38085.25
+          },
+          {
+            "institutie": "BCR",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 1097.51
+          },
+          {
+            "institutie": "BCR",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2024,
+            "sold_ron": 3880.5750000000003
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "QIIZE.COM SRL 23",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 230.0
+          },
+          {
+            "emitent": "campanie electorală 198000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 198000.0
+          }
+        ],
+        "total_active_monetare_ron": 468543.33499999996,
+        "avere_neta_ron": 270543.33499999996,
+        "nr_judete": 0,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       }
     ],
     "ultima_data": "2024-12-31",
-    "ultima_conturi_ron": 198230.0,
+    "ultima_conturi_ron": 43063.335,
     "ultima_venituri_ron": 235055.0,
     "ultima_imobile_count": 0,
-    "delta_conturi_ron": 198230.0,
+    "ultima_bijuterii_ron": 227250.0,
+    "ultima_plasamente_ron": 198230.0,
+    "ultima_datorii_ron": 198000.0,
+    "ultima_total_active_ron": 468543.33499999996,
+    "ultima_avere_neta_ron": 270543.33499999996,
+    "ultima_nr_judete": 0,
+    "ultima_nr_companii": 2,
+    "delta_conturi_ron": 43063.335,
     "delta_imobile": 0
   }
 }

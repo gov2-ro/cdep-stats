@@ -1,0 +1,219 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: cdep.api
+      - link "← Înapoi" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+      - link "⬤ Vizualizare cercuri ↗" [ref=e6] [cursor=pointer]:
+        - /url: deputati-avere.html?leg=2024
+      - button "Switch to English" [ref=e8] [cursor=pointer]: EN
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - heading "Averi deputați" [level=1] [ref=e12]
+      - generic [ref=e13]:
+        - button "2024" [ref=e14] [cursor=pointer]
+        - button "2020" [ref=e15] [cursor=pointer]
+    - paragraph [ref=e16]: Extras automat din declarațiile de avere ANI · 332 deputați · 159 cu ≥2 declarații (evoluție în mandat)
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]: "332"
+        - generic [ref=e20]: Deputați
+      - generic [ref=e21]:
+        - generic [ref=e22]: "4.455"
+        - generic [ref=e23]: Median conturi
+      - generic [ref=e24]:
+        - generic [ref=e25]: "231.174"
+        - generic [ref=e26]: Median venituri/an
+      - generic [ref=e27]:
+        - generic [ref=e28]: "159"
+        - generic [ref=e29]: Cu evoluție
+    - generic [ref=e30]:
+      - heading "Topuri" [level=2] [ref=e31]
+      - generic [ref=e32]:
+        - button "Conturi (lichidități)" [ref=e33] [cursor=pointer]
+        - button "Venituri anuale" [ref=e34] [cursor=pointer]
+        - button "Datorii" [ref=e35] [cursor=pointer]
+        - button "Imobile (număr)" [ref=e36] [cursor=pointer]
+        - button "⬆ Creștere conturi în mandat" [ref=e37] [cursor=pointer]
+        - button "⬇ Scădere conturi în mandat" [ref=e38] [cursor=pointer]
+        - button "Imobile noi în mandat" [ref=e39] [cursor=pointer]
+      - table [ref=e41]:
+        - rowgroup [ref=e42]:
+          - row "Deputat RON Decl." [ref=e43]:
+            - columnheader [ref=e44]
+            - columnheader "Deputat" [ref=e45]
+            - columnheader "RON" [ref=e46]
+            - columnheader "Decl." [ref=e47]
+        - rowgroup [ref=e48]:
+          - row "1 Becali George Neafiliat 385M 1" [ref=e49]:
+            - cell "1" [ref=e50]
+            - cell "Becali George Neafiliat" [ref=e51]:
+              - link "Becali George" [ref=e52] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/23.json
+              - text: Neafiliat
+            - cell "385M" [ref=e53]
+            - cell "1" [ref=e54]
+          - row "2 Cîrligea Florin-Eugen AUR 33M 2" [ref=e55]:
+            - cell "2" [ref=e56]
+            - cell "Cîrligea Florin-Eugen AUR" [ref=e57]:
+              - link "Cîrligea Florin-Eugen" [ref=e58] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/68.json
+              - text: AUR
+            - cell "33M" [ref=e59]
+            - cell "2" [ref=e60]
+          - row "3 Tuşa Adriana Diana PSD 31M 1" [ref=e61]:
+            - cell "3" [ref=e62]
+            - cell "Tuşa Adriana Diana PSD" [ref=e63]:
+              - link "Tuşa Adriana Diana" [ref=e64] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/309.json
+              - text: PSD
+            - cell "31M" [ref=e65]
+            - cell "1" [ref=e66]
+          - row "4 Bruynseels Ramona-Ioana AUR 26M 1" [ref=e67]:
+            - cell "4" [ref=e68]
+            - cell "Bruynseels Ramona-Ioana AUR" [ref=e69]:
+              - link "Bruynseels Ramona-Ioana" [ref=e70] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/38.json
+              - text: AUR
+            - cell "26M" [ref=e71]
+            - cell "1" [ref=e72]
+          - row "5 Cruşoveanu Marian PNL 18M 3" [ref=e73]:
+            - cell "5" [ref=e74]
+            - cell "Cruşoveanu Marian PNL" [ref=e75]:
+              - link "Cruşoveanu Marian" [ref=e76] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/84.json
+              - text: PNL
+            - cell "18M" [ref=e77]
+            - cell "3" [ref=e78]
+          - row "6 Drulă Cătălin USR 12M 2" [ref=e79]:
+            - cell "6" [ref=e80]
+            - cell "Drulă Cătălin USR" [ref=e81]:
+              - link "Drulă Cătălin" [ref=e82] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/96.json
+              - text: USR
+            - cell "12M" [ref=e83]
+            - cell "2" [ref=e84]
+          - row "7 Mîndrescu Nicolae AUR 8.5M 2" [ref=e85]:
+            - cell "7" [ref=e86]
+            - cell "Mîndrescu Nicolae AUR" [ref=e87]:
+              - link "Mîndrescu Nicolae" [ref=e88] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/201.json
+              - text: AUR
+            - cell "8.5M" [ref=e89]
+            - cell "2" [ref=e90]
+          - row "8 Murad Mohammad AUR 7.4M 1" [ref=e91]:
+            - cell "8" [ref=e92]
+            - cell "Murad Mohammad AUR" [ref=e93]:
+              - link "Murad Mohammad" [ref=e94] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/212.json
+              - text: AUR
+            - cell "7.4M" [ref=e95]
+            - cell "1" [ref=e96]
+          - row "9 Vuşcan Voicu PSD 6.4M 2" [ref=e97]:
+            - cell "9" [ref=e98]
+            - cell "Vuşcan Voicu PSD" [ref=e99]:
+              - link "Vuşcan Voicu" [ref=e100] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/326.json
+              - text: PSD
+            - cell "6.4M" [ref=e101]
+            - cell "2" [ref=e102]
+          - row "10 Gorghiu Alina-Ştefania PNL 5.7M 2" [ref=e103]:
+            - cell "10" [ref=e104]
+            - cell "Gorghiu Alina-Ştefania PNL" [ref=e105]:
+              - link "Gorghiu Alina-Ştefania" [ref=e106] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/129.json
+              - text: PNL
+            - cell "5.7M" [ref=e107]
+            - cell "2" [ref=e108]
+          - row "11 Muraru Iulian-Alexandru PNL 4.8M 2" [ref=e109]:
+            - cell "11" [ref=e110]
+            - cell "Muraru Iulian-Alexandru PNL" [ref=e111]:
+              - link "Muraru Iulian-Alexandru" [ref=e112] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/214.json
+              - text: PNL
+            - cell "4.8M" [ref=e113]
+            - cell "2" [ref=e114]
+          - row "12 Koler Eduard-Virgil AUR 3.7M 1" [ref=e115]:
+            - cell "12" [ref=e116]
+            - cell "Koler Eduard-Virgil AUR" [ref=e117]:
+              - link "Koler Eduard-Virgil" [ref=e118] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/162.json
+              - text: AUR
+            - cell "3.7M" [ref=e119]
+            - cell "1" [ref=e120]
+          - row "13 Rafila Alexandru PSD 3.6M 2" [ref=e121]:
+            - cell "13" [ref=e122]
+            - cell "Rafila Alexandru PSD" [ref=e123]:
+              - link "Rafila Alexandru" [ref=e124] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/264.json
+              - text: PSD
+            - cell "3.6M" [ref=e125]
+            - cell "2" [ref=e126]
+          - row "14 Lăpuşan Remus-Gabriel PSD 2.8M 2" [ref=e127]:
+            - cell "14" [ref=e128]
+            - cell "Lăpuşan Remus-Gabriel PSD" [ref=e129]:
+              - link "Lăpuşan Remus-Gabriel" [ref=e130] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/168.json
+              - text: PSD
+            - cell "2.8M" [ref=e131]
+            - cell "2" [ref=e132]
+          - row "15 Berescu Monica-Elena USR 2.7M 2" [ref=e133]:
+            - cell "15" [ref=e134]
+            - cell "Berescu Monica-Elena USR" [ref=e135]:
+              - link "Berescu Monica-Elena" [ref=e136] [cursor=pointer]:
+                - /url: data/v1/declaratii-avere/legislatura-2024/26.json
+              - text: USR
+            - cell "2.7M" [ref=e137]
+            - cell "2" [ref=e138]
+    - generic [ref=e139]:
+      - heading "Comparație pe partide" [level=2] [ref=e140]
+      - strong [ref=e142]: Median conturi (RON)
+      - strong [ref=e145]: Median venituri anuale (RON)
+    - generic [ref=e147]:
+      - heading "Distribuția conturilor pe partide" [level=2] [ref=e148]
+      - paragraph [ref=e149]: Interval q1–q3 (bară) + median (linie) al conturilor, per partid. Scală tăiată la q3 maxim pentru lizibilitate.
+      - generic [ref=e150]:
+        - generic [ref=e151]: PSD (92)
+        - generic [ref=e155]: med 42.940
+      - generic [ref=e156]:
+        - generic [ref=e157]: AUR (62)
+        - generic [ref=e161]: med 29.750
+      - generic [ref=e162]:
+        - generic [ref=e163]: PNL (55)
+        - generic [ref=e167]: med 198.000
+      - generic [ref=e168]:
+        - generic [ref=e169]: USR (40)
+        - generic [ref=e173]: med 67.500
+      - generic [ref=e174]:
+        - generic [ref=e175]: UDMR (21)
+        - generic [ref=e179]: med 5.900
+      - generic [ref=e180]:
+        - generic [ref=e181]: Minoritati (18)
+        - generic [ref=e185]: med 0
+      - generic [ref=e186]:
+        - generic [ref=e187]: UPR (16)
+        - generic [ref=e191]: med 0
+      - generic [ref=e192]:
+        - generic [ref=e193]: SOS RO (15)
+        - generic [ref=e197]: med 0
+      - generic [ref=e198]:
+        - generic [ref=e199]: Neafiliat (13)
+        - generic [ref=e203]: med 0
+    - generic [ref=e204]:
+      - heading "Metodologie" [level=2] [ref=e205]
+      - generic [ref=e206]:
+        - text: Cifre extrase automat din PDF-urile ANI cu pdfplumber; pot conține erori de parsare. Sumele în valută sunt normalizate la RON la cursuri fixe (EUR 5.05, USD 4.50). Imobilele și autovehiculele sunt NUMĂRĂTORI (nu valori). Nu calculăm un 'net worth' unic — clasăm pe câmpurile reale măsurate.
+        - link "Descarcă datele agregate (JSON)" [ref=e207] [cursor=pointer]:
+          - /url: data/v1/stats/avere-2024.json
+        - text: .
+  - contentinfo [ref=e208]:
+    - paragraph [ref=e209]:
+      - text: Date din
+      - link "cdep.ro" [ref=e210] [cursor=pointer]:
+        - /url: https://cdep.ro
+      - text: "· Sursa:"
+      - link "/data/v1/stats/avere-2024.json" [ref=e211] [cursor=pointer]:
+        - /url: data/v1/stats/avere-2024.json
+      - text: ·
+      - link "Pagina principală" [ref=e212] [cursor=pointer]:
+        - /url: index.html

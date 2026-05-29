@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:56:48.171260Z",
+    "generated_at": "2026-05-29T17:32:56.777549Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-06-14",
@@ -63,11 +126,150 @@
         "terenuri_count": 5,
         "cladiri_count": 4,
         "suprafata_total_mp": 32425.0,
-        "conturi_total_ron": 1110022.0,
-        "venituri_anuale_ron": 564764.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 29040.0,
+        "suprafata_luciu_mp": 533.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 2852.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 41012.0,
+        "plasamente_total_ron": 1110022.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 564764.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 21063.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2002,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 5293.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2010,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2310.0,
+            "judet": "Timis",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 374.0,
+            "judet": "Timis",
+            "an_dobandirii": 2012,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 533.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 556.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2002,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 250.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2002,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 1889.0,
+            "judet": "Timis",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 157.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "BMW",
+            "an_fabricatie": 2011,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 28089.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 11533.0
+          },
+          {
+            "institutie": "Romana",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 1390.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Ministerul Finantelor deţinute (titluri de stat, 1110022",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 1110022.0
+          }
+        ],
+        "total_active_monetare_ron": 1151034.0,
+        "avere_neta_ron": 1151034.0,
+        "nr_judete": 2,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2002
       },
       {
         "data_depunere": "2024-06-14",
@@ -77,11 +279,149 @@
         "terenuri_count": 5,
         "cladiri_count": 4,
         "suprafata_total_mp": 32425.0,
-        "conturi_total_ron": 1169298.0,
-        "venituri_anuale_ron": 489715.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 29040.0,
+        "suprafata_luciu_mp": 533.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 2852.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 23345.0,
+        "plasamente_total_ron": 1169298.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 489715.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 21063.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2002,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 5293.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2010,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2310.0,
+            "judet": "Timis",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 374.0,
+            "judet": "Timis",
+            "an_dobandirii": 2012,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 533.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 556.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2002,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 250.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2002,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 1889.0,
+            "judet": "Timis",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 157.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "BMW",
+            "an_fabricatie": 2011,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 12041.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 11304.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Ministerul Finantelor deţinute (titluri de stat, 378521",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 378521.0
+          },
+          {
+            "emitent": "Vilceanu Elisabeta -",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 790777.0
+          }
+        ],
+        "total_active_monetare_ron": 1192643.0,
+        "avere_neta_ron": 1192643.0,
+        "nr_judete": 2,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2002
       },
       {
         "data_depunere": "2025-01-16",
@@ -91,18 +431,150 @@
         "terenuri_count": 5,
         "cladiri_count": 4,
         "suprafata_total_mp": 32425.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 379948.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 29040.0,
+        "suprafata_luciu_mp": 533.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 2852.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 90786.0,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 379948.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 21063.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2002,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 5293.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2010,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2310.0,
+            "judet": "Timis",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 374.0,
+            "judet": "Timis",
+            "an_dobandirii": 2012,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 533.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 556.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2002,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 250.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2002,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 1889.0,
+            "judet": "Timis",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 157.0,
+            "judet": "Gorj",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "BMW",
+            "an_fabricatie": 2011,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 86931.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 3855.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 90786.0,
+        "avere_neta_ron": 90786.0,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2002
       }
     ],
     "ultima_data": "2025-01-16",
-    "ultima_conturi_ron": 0.0,
+    "ultima_conturi_ron": 90786.0,
     "ultima_venituri_ron": 379948.0,
     "ultima_imobile_count": 9,
-    "delta_conturi_ron": 0.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 90786.0,
+    "ultima_avere_neta_ron": 90786.0,
+    "ultima_nr_judete": 2,
+    "ultima_nr_companii": 0,
+    "delta_conturi_ron": 90786.0,
     "delta_imobile": 9
   }
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:08:02.203650Z",
+    "generated_at": "2026-05-29T17:28:50.780738Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 3
@@ -21,11 +21,100 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 461.0,
-        "conturi_total_ron": 1048000.0,
-        "venituri_anuale_ron": 206724.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 370.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 91.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 957386.55,
+        "plasamente_total_ron": 736000.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 437500.0,
+        "venituri_anuale_ron": 206724.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 370.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 91.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 795600.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 618.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 9852.55
+          },
+          {
+            "institutie": "Bucuresti",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 89350.0
+          },
+          {
+            "institutie": "Bucuresti",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 61966.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Pirvu Marian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 700000.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 36000.0
+          }
+        ],
+        "total_active_monetare_ron": 1693386.55,
+        "avere_neta_ron": 1693386.55,
+        "nr_judete": 1,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2016
       },
       {
         "data_depunere": "2024-05-13",
@@ -35,11 +124,106 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 461.0,
-        "conturi_total_ron": 1212000.0,
-        "venituri_anuale_ron": 259210.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 370.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 91.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 34762.45,
+        "plasamente_total_ron": 900000.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 259210.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 370.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 91.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 343.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 27500.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 5903.45
+          },
+          {
+            "institutie": "Bucuresti",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 940.0
+          },
+          {
+            "institutie": "Bucuresti",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 76.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Pirvu Marian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 700000.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 100000.0
+          },
+          {
+            "emitent": "Titluri de stat deţinute (titluri de stat, 100000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 100000.0
+          }
+        ],
+        "total_active_monetare_ron": 934762.45,
+        "avere_neta_ron": 934762.45,
+        "nr_judete": 1,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2016
       },
       {
         "data_depunere": "2024-12-21",
@@ -49,18 +233,119 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 461.0,
-        "conturi_total_ron": 1340500.0,
-        "venituri_anuale_ron": 259210.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 370.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 91.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 79490.0,
+        "plasamente_total_ron": 1089000.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 259210.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 370.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 91.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2016,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 850.0
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 24400.0
+          },
+          {
+            "institutie": "Bucuresti",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 150.0
+          },
+          {
+            "institutie": "Bucuresti",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 54090.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Pirvu Marian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 600000.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 100000.0
+          },
+          {
+            "emitent": "Titluri de stat deţinute (titluri de stat, 200000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 200000.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 189000.0
+          }
+        ],
+        "total_active_monetare_ron": 1168490.0,
+        "avere_neta_ron": 1168490.0,
+        "nr_judete": 1,
+        "nr_companii": 4,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2016
       }
     ],
     "ultima_data": "2024-12-21",
-    "ultima_conturi_ron": 1340500.0,
+    "ultima_conturi_ron": 79490.0,
     "ultima_venituri_ron": 259210.0,
     "ultima_imobile_count": 2,
-    "delta_conturi_ron": 292500.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 1089000.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 1168490.0,
+    "ultima_avere_neta_ron": 1168490.0,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 4,
+    "delta_conturi_ron": -877896.55,
     "delta_imobile": 0
   }
 }

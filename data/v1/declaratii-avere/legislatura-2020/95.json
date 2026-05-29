@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:17.769510Z",
+    "generated_at": "2026-05-29T17:26:40.229848Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -49,11 +91,64 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 78.2,
-        "conturi_total_ron": 149000.0,
-        "venituri_anuale_ron": 156909.0,
-        "datorii_total_ron": 305500.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 11.5,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 66.7,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 22500.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 149000.0,
+        "datorii_total_ron": 305500.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 156909.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 11.5,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 66.7,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 99000.0
+          },
+          {
+            "emitent": "BADEA VASILE ALIN",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50000.0
+          }
+        ],
+        "total_active_monetare_ron": 149000.0,
+        "avere_neta_ron": -156500.0,
+        "nr_judete": 1,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2013
       },
       {
         "data_depunere": "2023-06-15",
@@ -63,11 +158,64 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 78.2,
-        "conturi_total_ron": 202000.0,
-        "venituri_anuale_ron": 171756.0,
-        "datorii_total_ron": 337489.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 11.5,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 66.7,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 202000.0,
+        "datorii_total_ron": 337489.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 171756.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 11.5,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 66.7,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 152000.0
+          },
+          {
+            "emitent": "BADEA VASILE ALIN",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50000.0
+          }
+        ],
+        "total_active_monetare_ron": 202000.0,
+        "avere_neta_ron": -135489.0,
+        "nr_judete": 1,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2013
       },
       {
         "data_depunere": "2024-06-17",
@@ -77,11 +225,124 @@
         "terenuri_count": 8,
         "cladiri_count": 5,
         "suprafata_total_mp": 2059.2,
-        "conturi_total_ron": 360245.0,
-        "venituri_anuale_ron": 149256.0,
-        "datorii_total_ron": 542001.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 746.5,
+        "suprafata_luciu_mp": 1000.0,
+        "suprafata_alte_mp": 9.0,
+        "suprafata_cladiri_mp": 271.7,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 360245.0,
+        "datorii_total_ron": 542001.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 149256.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 11.5,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 20.0,
+            "judet": "Ialomita",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 9.0,
+            "judet": "Alte",
+            "an_dobandirii": 2024,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 715.0,
+            "judet": "Calarasi",
+            "an_dobandirii": 2024,
+            "cota_parte": "5/16",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1000.0,
+            "judet": "Calarasi",
+            "an_dobandirii": 2024,
+            "cota_parte": "5/16",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 66.7,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 64.0,
+            "judet": "Ialomita",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 141.0,
+            "judet": "Calarasi",
+            "an_dobandirii": 2024,
+            "cota_parte": "5/16",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 204745.0
+          },
+          {
+            "emitent": "BADEA VASILE ALIN",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 105500.0
+          }
+        ],
+        "total_active_monetare_ron": 360245.0,
+        "avere_neta_ron": -181756.0,
+        "nr_judete": 4,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2013
       },
       {
         "data_depunere": "2025-01-19",
@@ -91,18 +352,111 @@
         "terenuri_count": 5,
         "cladiri_count": 3,
         "suprafata_total_mp": 171.2,
-        "conturi_total_ron": 332045.6,
-        "venituri_anuale_ron": 181658.12,
-        "datorii_total_ron": 670638.83,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 31.5,
+        "suprafata_luciu_mp": 9.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 130.7,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 2,
+        "bunuri_instrainate_total_ron": 162100.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 332045.6,
+        "datorii_total_ron": 670638.83,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 181658.12,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 11.5,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 20.0,
+            "judet": "Ialomita",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 9.0,
+            "judet": "Alte",
+            "an_dobandirii": 2024,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 66.7,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 64.0,
+            "judet": "Ialomita",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 139345.6
+          },
+          {
+            "emitent": "BADEA VASILE ALIN",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 142700.0
+          }
+        ],
+        "total_active_monetare_ron": 332045.6,
+        "avere_neta_ron": -338593.23,
+        "nr_judete": 3,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2013
       }
     ],
     "ultima_data": "2025-01-19",
-    "ultima_conturi_ron": 332045.6,
+    "ultima_conturi_ron": 0.0,
     "ultima_venituri_ron": 181658.12,
     "ultima_imobile_count": 8,
-    "delta_conturi_ron": 332045.6,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 332045.6,
+    "ultima_datorii_ron": 670638.83,
+    "ultima_total_active_ron": 332045.6,
+    "ultima_avere_neta_ron": -338593.23,
+    "ultima_nr_judete": 3,
+    "ultima_nr_companii": 3,
+    "delta_conturi_ron": 0.0,
     "delta_imobile": 8
   }
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:04:34.483567Z",
+    "generated_at": "2026-05-29T17:20:46.881402Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 2
@@ -21,11 +21,213 @@
         "terenuri_count": 11,
         "cladiri_count": 4,
         "suprafata_total_mp": 92310.7,
-        "conturi_total_ron": 325100.0,
-        "venituri_anuale_ron": 582686.0,
-        "datorii_total_ron": 23726.0,
+        "suprafata_agricol_mp": 79571.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 11290.0,
+        "suprafata_luciu_mp": 700.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 737.7,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 106640.0,
+        "conturi_total_ron": 86429.0,
+        "plasamente_total_ron": 325100.0,
+        "datorii_total_ron": 23726.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 582686.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1467.0,
+            "judet": "Maramures",
+            "an_dobandirii": 1998,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1347.0,
+            "judet": "calin",
+            "an_dobandirii": 2014,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 7564.0,
+            "judet": "Maramures",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 912.0,
+            "judet": "Maramures",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 21868.0,
+            "judet": "cozmuta",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/3",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 57703.0,
+            "judet": "chilat",
+            "an_dobandirii": 2016,
+            "cota_parte": "4/12",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 700.0,
+            "judet": "Contract",
+            "an_dobandirii": 2020,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 308.0,
+            "judet": "Maramures",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 133.0,
+            "judet": "crina",
+            "an_dobandirii": 2014,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 241.0,
+            "judet": "calin",
+            "an_dobandirii": 2014,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 55.7,
+            "judet": "chilat",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "mitsubishi",
+            "an_fabricatie": 2004,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "ford kuga",
+            "an_fabricatie": 2015,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 29000.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 34740.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 7850.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 109.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 8043.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 6687.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "micral expert srl",
+            "tip": "imprumut",
+            "nr_titluri": "98 %",
+            "valoare_ron": 490.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "36 %",
+            "valoare_ron": 360.0
+          },
+          {
+            "emitent": "cozmuta ana -",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 126250.0
+          },
+          {
+            "emitent": "partidul social democrat 100",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 198000.0
+          }
+        ],
+        "total_active_monetare_ron": 411529.0,
+        "avere_neta_ron": 387803.0,
+        "nr_judete": 6,
+        "nr_companii": 4,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 2,
+        "an_prima_proprietate": 1998
       },
       {
         "data_depunere": "2025-06-09",
@@ -35,18 +237,221 @@
         "terenuri_count": 11,
         "cladiri_count": 4,
         "suprafata_total_mp": 92440.7,
-        "conturi_total_ron": 850.0,
-        "venituri_anuale_ron": 601326.0,
-        "datorii_total_ron": 17540.0,
+        "suprafata_agricol_mp": 79571.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 11420.0,
+        "suprafata_luciu_mp": 700.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 737.7,
         "auto_count": 3,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 2,
+        "bunuri_instrainate_total_ron": 141640.0,
+        "conturi_total_ron": 304876.61,
+        "plasamente_total_ron": 850.0,
+        "datorii_total_ron": 17540.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 601326.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1597.0,
+            "judet": "Maramures",
+            "an_dobandirii": 1998,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1347.0,
+            "judet": "calin",
+            "an_dobandirii": 2014,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 7564.0,
+            "judet": "Maramures",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 912.0,
+            "judet": "Maramures",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 21868.0,
+            "judet": "cozmuta",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/3",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 57703.0,
+            "judet": "cozmuta",
+            "an_dobandirii": 2016,
+            "cota_parte": "4/12",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 700.0,
+            "judet": "Contract",
+            "an_dobandirii": 2020,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 308.0,
+            "judet": "Maramures",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 133.0,
+            "judet": "crina",
+            "an_dobandirii": 2014,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 241.0,
+            "judet": "calin",
+            "an_dobandirii": 2014,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 55.7,
+            "judet": "chilat",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "mitsubishi",
+            "an_fabricatie": 2004,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autovehicul",
+            "marca": "audi",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autovehicul",
+            "marca": "hyundai tucson",
+            "an_fabricatie": 2025,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 29000.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 20377.19
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 7850.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 181374.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 58429.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 7846.42
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "micral expert srl",
+            "tip": "imprumut",
+            "nr_titluri": "98 %",
+            "valoare_ron": 490.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "36 %",
+            "valoare_ron": 360.0
+          }
+        ],
+        "total_active_monetare_ron": 305726.61,
+        "avere_neta_ron": 288186.61,
+        "nr_judete": 6,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 2,
+        "an_prima_proprietate": 1998
       }
     ],
     "ultima_data": "2025-06-09",
-    "ultima_conturi_ron": 850.0,
+    "ultima_conturi_ron": 304876.61,
     "ultima_venituri_ron": 601326.0,
     "ultima_imobile_count": 15,
-    "delta_conturi_ron": -324250.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 850.0,
+    "ultima_datorii_ron": 17540.0,
+    "ultima_total_active_ron": 305726.61,
+    "ultima_avere_neta_ron": 288186.61,
+    "ultima_nr_judete": 6,
+    "ultima_nr_companii": 2,
+    "delta_conturi_ron": 218447.61,
     "delta_imobile": 0
   }
 }

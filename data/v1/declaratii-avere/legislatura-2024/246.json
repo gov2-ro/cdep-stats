@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:22.312164Z",
+    "generated_at": "2026-05-29T17:23:01.513565Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 2
@@ -21,11 +21,96 @@
         "terenuri_count": 1,
         "cladiri_count": 2,
         "suprafata_total_mp": 1025.0,
-        "conturi_total_ron": 497242.5,
-        "venituri_anuale_ron": 35950.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 780.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 245.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 45450.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 796139.5,
+        "plasamente_total_ron": 195000.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 35950.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 780.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 176.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2012,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 69.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 15000.0
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 55000.0
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 726139.5
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Organizatia Judeteana",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 195000.0
+          }
+        ],
+        "total_active_monetare_ron": 1036589.5,
+        "avere_neta_ron": 1036589.5,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2011
       },
       {
         "data_depunere": "2025-06-06",
@@ -35,18 +120,117 @@
         "terenuri_count": 1,
         "cladiri_count": 2,
         "suprafata_total_mp": 1025.0,
-        "conturi_total_ron": 418312.5,
-        "venituri_anuale_ron": 35950.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 780.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 245.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 45450.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 1042640.5,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 35950.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 780.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2011,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 176.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2012,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 69.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2023,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 15000.0
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 275582.0
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 719877.5
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 12181.0
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 20000.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 1088090.5,
+        "avere_neta_ron": 1088090.5,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2011
       }
     ],
     "ultima_data": "2025-06-06",
-    "ultima_conturi_ron": 418312.5,
+    "ultima_conturi_ron": 1042640.5,
     "ultima_venituri_ron": 35950.0,
     "ultima_imobile_count": 3,
-    "delta_conturi_ron": -78930.0,
+    "ultima_bijuterii_ron": 45450.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 1088090.5,
+    "ultima_avere_neta_ron": 1088090.5,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 0,
+    "delta_conturi_ron": 246501.0,
     "delta_imobile": 0
   }
 }

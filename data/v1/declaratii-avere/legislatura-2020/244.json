@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:48:06.185009Z",
+    "generated_at": "2026-05-29T17:30:49.963368Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-02",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-08",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-05-24",
@@ -63,11 +126,67 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 50500.0,
-        "venituri_anuale_ron": 131412.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 23231.0,
+        "plasamente_total_ron": 50500.0,
         "datorii_total_ron": 100000.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 131412.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Ford",
+            "an_fabricatie": 2015,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "București",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 24.0
+          },
+          {
+            "institutie": "București",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 23207.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Diana Mihaela Pătrașcu",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50500.0
+          }
+        ],
+        "total_active_monetare_ron": 73731.0,
+        "avere_neta_ron": -26269.0,
+        "nr_judete": 0,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2024-06-04",
@@ -77,11 +196,61 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 50500.0,
-        "venituri_anuale_ron": 131412.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 25000.0,
+        "conturi_total_ron": 19460.61,
+        "plasamente_total_ron": 50500.0,
         "datorii_total_ron": 100000.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 131412.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "București",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 0.61
+          },
+          {
+            "institutie": "București",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 19460.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Diana Mihaela Pătrașcu",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50500.0
+          }
+        ],
+        "total_active_monetare_ron": 69960.61,
+        "avere_neta_ron": -30039.39,
+        "nr_judete": 0,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2024-12-21",
@@ -91,18 +260,81 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 230500.0,
-        "venituri_anuale_ron": 131412.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 25000.0,
+        "conturi_total_ron": 21371.08,
+        "plasamente_total_ron": 230500.0,
         "datorii_total_ron": 180000.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 131412.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "București",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 9188.63
+          },
+          {
+            "institutie": "București",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 12182.45
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Diana Mihaela Pătrașcu",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50500.0
+          },
+          {
+            "emitent": "contributie campanie 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 180000.0
+          }
+        ],
+        "total_active_monetare_ron": 251871.08000000002,
+        "avere_neta_ron": 71871.08000000002,
+        "nr_judete": 0,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       }
     ],
     "ultima_data": "2024-12-21",
-    "ultima_conturi_ron": 230500.0,
+    "ultima_conturi_ron": 21371.08,
     "ultima_venituri_ron": 131412.0,
     "ultima_imobile_count": 0,
-    "delta_conturi_ron": 230500.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 230500.0,
+    "ultima_datorii_ron": 180000.0,
+    "ultima_total_active_ron": 251871.08000000002,
+    "ultima_avere_neta_ron": 71871.08000000002,
+    "ultima_nr_judete": 0,
+    "ultima_nr_companii": 2,
+    "delta_conturi_ron": 21371.08,
     "delta_imobile": 0
   }
 }

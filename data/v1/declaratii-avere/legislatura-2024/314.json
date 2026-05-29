@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:57.463329Z",
+    "generated_at": "2026-05-29T17:23:45.836541Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 1
@@ -21,17 +21,126 @@
         "terenuri_count": 1,
         "cladiri_count": 4,
         "suprafata_total_mp": 1127.5,
-        "conturi_total_ron": 198000.0,
-        "venituri_anuale_ron": 636756.0,
-        "datorii_total_ron": 538373.76,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 944.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 183.5,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 20792.69,
+        "plasamente_total_ron": 198000.0,
+        "datorii_total_ron": 538373.76,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 636756.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 944.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2004,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 74.5,
+            "judet": "Cluj",
+            "an_dobandirii": 2009,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 45.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 24.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 40.0,
+            "judet": "Suceava",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "1",
+            "an_fabricatie": 2020,
+            "mod_dobandire": null
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "1",
+            "an_fabricatie": 2016,
+            "mod_dobandire": null
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 6763.05
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 14029.64
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 198000.0
+          }
+        ],
+        "total_active_monetare_ron": 218792.69,
+        "avere_neta_ron": -319581.07,
+        "nr_judete": 3,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2004
       }
     ],
     "ultima_data": "2024-12-31",
-    "ultima_conturi_ron": 198000.0,
+    "ultima_conturi_ron": 20792.69,
     "ultima_venituri_ron": 636756.0,
     "ultima_imobile_count": 5,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 198000.0,
+    "ultima_datorii_ron": 538373.76,
+    "ultima_total_active_ron": 218792.69,
+    "ultima_avere_neta_ron": -319581.07,
+    "ultima_nr_judete": 3,
+    "ultima_nr_companii": 1,
     "delta_conturi_ron": 0.0,
     "delta_imobile": 0
   }

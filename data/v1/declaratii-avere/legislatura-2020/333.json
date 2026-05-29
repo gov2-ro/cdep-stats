@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:56:28.381781Z",
+    "generated_at": "2026-05-29T17:32:52.693876Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-09",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-05-31",
@@ -49,11 +91,96 @@
         "terenuri_count": 1,
         "cladiri_count": 2,
         "suprafata_total_mp": 710.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 363934.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 110.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 15150.0,
+        "conturi_total_ron": 457016.8,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 363934.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 50.0,
+            "judet": "Brasov",
+            "an_dobandirii": 1991,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 60.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Toyota",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "BCR",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 50500.0
+          },
+          {
+            "institutie": "BCR",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 21795.8
+          },
+          {
+            "institutie": "BCR",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 26624.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 358097.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 457016.8,
+        "avere_neta_ron": 457016.8,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1991
       },
       {
         "data_depunere": "2023-06-14",
@@ -63,11 +190,96 @@
         "terenuri_count": 1,
         "cladiri_count": 2,
         "suprafata_total_mp": 710.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 378474.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 110.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 554440.6,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 378474.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 50.0,
+            "judet": "Brasov",
+            "an_dobandirii": 1991,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 60.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Toyota",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "BCR",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 50500.0
+          },
+          {
+            "institutie": "BCR",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 30865.6
+          },
+          {
+            "institutie": "BCR",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 41532.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 431543.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 554440.6,
+        "avere_neta_ron": 554440.6,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1991
       },
       {
         "data_depunere": "2024-05-14",
@@ -77,11 +289,103 @@
         "terenuri_count": 1,
         "cladiri_count": 2,
         "suprafata_total_mp": 710.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 271703.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 110.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 588037.958,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 271703.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 50.0,
+            "judet": "Brasov",
+            "an_dobandirii": 1991,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 60.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Toyota",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "BCR",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 50500.0
+          },
+          {
+            "institutie": "BCR",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 18074.757999999998
+          },
+          {
+            "institutie": "BCR",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 41873.61
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 474005.59
+          },
+          {
+            "institutie": "BT capital Partners",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 3584.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 588037.958,
+        "avere_neta_ron": 588037.958,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1991
       },
       {
         "data_depunere": "2024-12-11",
@@ -91,18 +395,124 @@
         "terenuri_count": 1,
         "cladiri_count": 2,
         "suprafata_total_mp": 710.0,
-        "conturi_total_ron": 50000.0,
-        "venituri_anuale_ron": 271703.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 110.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 624309.0,
+        "plasamente_total_ron": 50000.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 271703.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 50.0,
+            "judet": "Brasov",
+            "an_dobandirii": 1991,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 60.0,
+            "judet": "Brasov",
+            "an_dobandirii": 2019,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Toyota",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "BCR",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 50500.0
+          },
+          {
+            "institutie": "BCR",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 103525.0
+          },
+          {
+            "institutie": "BCR",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 38700.0
+          },
+          {
+            "institutie": "ING",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 428000.0
+          },
+          {
+            "institutie": "BT capital Partners",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 3584.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Ariton Georgeta 50000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50000.0
+          }
+        ],
+        "total_active_monetare_ron": 674309.0,
+        "avere_neta_ron": 674309.0,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1991
       }
     ],
     "ultima_data": "2024-12-11",
-    "ultima_conturi_ron": 50000.0,
+    "ultima_conturi_ron": 624309.0,
     "ultima_venituri_ron": 271703.0,
     "ultima_imobile_count": 3,
-    "delta_conturi_ron": 50000.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 50000.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 674309.0,
+    "ultima_avere_neta_ron": 674309.0,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 1,
+    "delta_conturi_ron": 624309.0,
     "delta_imobile": 3
   }
 }

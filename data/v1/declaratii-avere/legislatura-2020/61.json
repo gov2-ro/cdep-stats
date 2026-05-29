@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:05:32.430272Z",
+    "generated_at": "2026-05-29T17:25:43.375494Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-03",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-06-14",
@@ -63,11 +126,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2024-06-14",
@@ -77,11 +161,165 @@
         "terenuri_count": 4,
         "cladiri_count": 2,
         "suprafata_total_mp": 11480.0,
-        "conturi_total_ron": 45450.0,
-        "venituri_anuale_ron": 543479.0,
-        "datorii_total_ron": 185176.0,
+        "suprafata_agricol_mp": 1000.0,
+        "suprafata_forestier_mp": 4400.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 2000.0,
+        "suprafata_alte_mp": 3900.0,
+        "suprafata_cladiri_mp": 180.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 3,
+        "bunuri_instrainate_total_ron": 792850.0,
+        "conturi_total_ron": 656249.6995,
+        "plasamente_total_ron": 45450.0,
+        "datorii_total_ron": 185176.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 543479.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "forestier",
+            "suprafata_mp": 4400.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 1000.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 3900.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 2000.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 100.0,
+            "judet": "Cluj",
+            "an_dobandirii": 1972,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 80.0,
+            "judet": "Cluj",
+            "an_dobandirii": 1997,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes GLK",
+            "an_fabricatie": 2013,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 35885.2495
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 54339.04
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 202146.44999999998
+          },
+          {
+            "institutie": "Banca transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 282730.81
+          },
+          {
+            "institutie": "banca transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 15866.63
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 665.26
+          },
+          {
+            "institutie": "banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 9.73
+          },
+          {
+            "institutie": "banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 47941.53
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2017,
+            "sold_ron": 16665.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Persoana fizica 0",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 45450.0
+          }
+        ],
+        "total_active_monetare_ron": 701699.6995,
+        "avere_neta_ron": 516523.6995,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 1,
+        "terenuri_agricole_count": 1,
+        "an_prima_proprietate": 1972
       },
       {
         "data_depunere": "2024-12-23",
@@ -91,18 +329,165 @@
         "terenuri_count": 4,
         "cladiri_count": 2,
         "suprafata_total_mp": 11480.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 543479.0,
-        "datorii_total_ron": 104500.0,
+        "suprafata_agricol_mp": 1000.0,
+        "suprafata_forestier_mp": 4400.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 2000.0,
+        "suprafata_alte_mp": 3900.0,
+        "suprafata_cladiri_mp": 180.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 2,
+        "bunuri_instrainate_total_ron": 585800.0,
+        "conturi_total_ron": 364776.7995,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 104500.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 543479.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "forestier",
+            "suprafata_mp": 4400.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 1000.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 3900.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 2000.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 100.0,
+            "judet": "Cluj",
+            "an_dobandirii": 1972,
+            "cota_parte": "1/4",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 80.0,
+            "judet": "Cluj",
+            "an_dobandirii": 1997,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes GLK",
+            "an_fabricatie": 2013,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 35885.2495
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 40667.69
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 162519.1
+          },
+          {
+            "institutie": "Banca transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 52633.86
+          },
+          {
+            "institutie": "banca transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 14110.14
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 10449.67
+          },
+          {
+            "institutie": "banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 130.09
+          },
+          {
+            "institutie": "banca Transilvania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 48381.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 364776.7995,
+        "avere_neta_ron": 260276.79950000002,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 1,
+        "terenuri_agricole_count": 1,
+        "an_prima_proprietate": 1972
       }
     ],
     "ultima_data": "2024-12-23",
-    "ultima_conturi_ron": 0.0,
+    "ultima_conturi_ron": 364776.7995,
     "ultima_venituri_ron": 543479.0,
     "ultima_imobile_count": 6,
-    "delta_conturi_ron": 0.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 104500.0,
+    "ultima_total_active_ron": 364776.7995,
+    "ultima_avere_neta_ron": 260276.79950000002,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 0,
+    "delta_conturi_ron": 364776.7995,
     "delta_imobile": 6
   }
 }

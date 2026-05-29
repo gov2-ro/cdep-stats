@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:20.264140Z",
+    "generated_at": "2026-05-29T17:22:58.953505Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 1
@@ -21,17 +21,86 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 683.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 215419.0,
-        "datorii_total_ron": 308150.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 531.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 152.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 3524.6800000000003,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 308150.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 215419.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 531.0,
+            "judet": "Maramures",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 152.0,
+            "judet": "Maramures",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Volvo",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 966.95
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2011,
+            "sold_ron": 2557.73
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 3524.6800000000003,
+        "avere_neta_ron": -304625.32,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2013
       }
     ],
     "ultima_data": "2024-12-23",
-    "ultima_conturi_ron": 0.0,
+    "ultima_conturi_ron": 3524.6800000000003,
     "ultima_venituri_ron": 215419.0,
     "ultima_imobile_count": 2,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 308150.0,
+    "ultima_total_active_ron": 3524.6800000000003,
+    "ultima_avere_neta_ron": -304625.32,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 0,
     "delta_conturi_ron": 0.0,
     "delta_imobile": 0
   }

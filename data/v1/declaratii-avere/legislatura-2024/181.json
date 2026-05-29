@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:05:48.488844Z",
+    "generated_at": "2026-05-29T17:22:20.031175Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 1
@@ -21,17 +21,249 @@
         "terenuri_count": 3,
         "cladiri_count": 4,
         "suprafata_total_mp": 4263.9,
-        "conturi_total_ron": 480609.0,
-        "venituri_anuale_ron": 525718.0,
-        "datorii_total_ron": 252500.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 3462.0,
+        "suprafata_luciu_mp": 325.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 476.9,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 69700.0,
+        "conturi_total_ron": 1293888.4,
+        "plasamente_total_ron": 480609.0,
+        "datorii_total_ron": 252500.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 525718.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 3104.0,
+            "judet": "Marussi",
+            "an_dobandirii": 1994,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 358.0,
+            "judet": "Marussi",
+            "an_dobandirii": 2003,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 325.0,
+            "judet": "Mihaela",
+            "an_dobandirii": 2005,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "vacanta",
+            "suprafata_mp": 159.4,
+            "judet": "Marussi",
+            "an_dobandirii": 1994,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 222.0,
+            "judet": "Madalina",
+            "an_dobandirii": 2003,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 21.7,
+            "judet": "Madalina",
+            "an_dobandirii": 2005,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 73.8,
+            "judet": "Nicolae",
+            "an_dobandirii": 2004,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Land Rover",
+            "an_fabricatie": 2013,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "BRD GSG",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2007,
+            "sold_ron": 32530.0
+          },
+          {
+            "institutie": "BRD GSG",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 72018.0
+          },
+          {
+            "institutie": "BRD GSG",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 56194.0
+          },
+          {
+            "institutie": "BRD GSG",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2004,
+            "sold_ron": 59489.0
+          },
+          {
+            "institutie": "BRD GSG",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 162583.0
+          },
+          {
+            "institutie": "BRD GSG",
+            "tip": "depozit",
+            "valuta": "GBP",
+            "an_deschis": 2020,
+            "sold_ron": 170351.8
+          },
+          {
+            "institutie": "BRD GSG",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2004,
+            "sold_ron": 10266.65
+          },
+          {
+            "institutie": "BRD GSG",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2002,
+            "sold_ron": 2943.0
+          },
+          {
+            "institutie": "BRD GSG",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2023,
+            "sold_ron": 114102.0
+          },
+          {
+            "institutie": "BRD GSG",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 111253.0
+          },
+          {
+            "institutie": "BRD GSG",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 20000.0
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 15648.0
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 62392.75
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2024,
+            "sold_ron": 75750.0
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 15651.0
+          },
+          {
+            "institutie": "RAIFFEISEN BANK",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2024,
+            "sold_ron": 260953.69999999998
+          },
+          {
+            "institutie": "EXIMBANK",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2024,
+            "sold_ron": 51762.5
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "PETROSTAR S.A. 5071",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 400609.0
+          },
+          {
+            "emitent": "80000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 80000.0
+          }
+        ],
+        "total_active_monetare_ron": 1774497.4,
+        "avere_neta_ron": 1521997.4,
+        "nr_judete": 4,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1994
       }
     ],
     "ultima_data": "2025-01-16",
-    "ultima_conturi_ron": 480609.0,
+    "ultima_conturi_ron": 1293888.4,
     "ultima_venituri_ron": 525718.0,
     "ultima_imobile_count": 7,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 480609.0,
+    "ultima_datorii_ron": 252500.0,
+    "ultima_total_active_ron": 1774497.4,
+    "ultima_avere_neta_ron": 1521997.4,
+    "ultima_nr_judete": 4,
+    "ultima_nr_companii": 2,
     "delta_conturi_ron": 0.0,
     "delta_imobile": 0
   }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:05:01.751451Z",
+    "generated_at": "2026-05-29T17:25:04.617374Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-09",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-14",
@@ -49,11 +91,508 @@
         "terenuri_count": 5,
         "cladiri_count": 2,
         "suprafata_total_mp": 4203.43,
-        "conturi_total_ron": 2959723.65,
-        "venituri_anuale_ron": 863307.6799999999,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 3283.0,
+        "suprafata_luciu_mp": 712.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 208.42999999999998,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 7287520.777,
+        "plasamente_total_ron": 2878723.65,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 863307.6799999999,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 460.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2012,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1062.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 579.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1182.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 712.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 56.98,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 151.45,
+            "judet": "Iasi",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Ford Fiesta",
+            "an_fabricatie": 2003,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Hyundai Tucson",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 1515000.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 1028281.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 6083.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 146.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 415.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 106423.7
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2016,
+            "sold_ron": 265.5
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 2000.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 40322.078499999996
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 3517082.6
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 778391.85
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 129567.84999999999
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 12079.6
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2018,
+            "sold_ron": 139500.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 3786.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 1032.56
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 5621.82
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 229.57
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 1292.6485
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Webjet ltd 6150",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 120033.45
+          },
+          {
+            "emitent": "Alibaba 350",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 182729.19999999998
+          },
+          {
+            "emitent": "Baidu 1050",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 95293.5
+          },
+          {
+            "emitent": "Carnival Corp 2100",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 110297.05
+          },
+          {
+            "emitent": "Walt Disney Company 277",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 130870.75
+          },
+          {
+            "emitent": "ASML Holding 10",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 25002.55
+          },
+          {
+            "emitent": "Digital World Acqusition 20",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 4161.2
+          },
+          {
+            "emitent": "UiPath Inc. 70",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 6272.099999999999
+          },
+          {
+            "emitent": "Cinewold Group Plc 10000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 13938.0
+          },
+          {
+            "emitent": "Coinbase Global Inc 9",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 2509.85
+          },
+          {
+            "emitent": "HSBC MSCI China UCITS 4000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 137925.6
+          },
+          {
+            "emitent": "Alibaba 9",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 4851.0
+          },
+          {
+            "emitent": "Delta Airlines 20",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 3168.0
+          },
+          {
+            "emitent": "Boeing 3",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 2250.0
+          },
+          {
+            "emitent": "Beyond Meat 6",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 639.0
+          },
+          {
+            "emitent": "CloudLab AG",
+            "tip": null,
+            "nr_titluri": "10 %",
+            "valoare_ron": 540000.0
+          },
+          {
+            "emitent": "Disruptech AG",
+            "tip": null,
+            "nr_titluri": "21 %",
+            "valoare_ron": 58514.4
+          },
+          {
+            "emitent": "Ibeinteritx SRL",
+            "tip": null,
+            "nr_titluri": "99 %",
+            "valoare_ron": 198.0
+          },
+          {
+            "emitent": "Erebul Consulting SRL",
+            "tip": null,
+            "nr_titluri": "1 %",
+            "valoare_ron": 500.0
+          },
+          {
+            "emitent": "Montessori Centrum SRL",
+            "tip": null,
+            "nr_titluri": "14 %",
+            "valoare_ron": 6430.0
+          },
+          {
+            "emitent": "Antibiotice S.A 26350",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 14492.0
+          },
+          {
+            "emitent": "Bursa de valori 261",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 7308.0
+          },
+          {
+            "emitent": "Conpet SA 200",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 14040.0
+          },
+          {
+            "emitent": "496",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 19443.0
+          },
+          {
+            "emitent": "Electrica SA 2180",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 19881.0
+          },
+          {
+            "emitent": "Fondul propietatea SA 24600",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 48904.0
+          },
+          {
+            "emitent": "Med Life SA 1200",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 23688.0
+          },
+          {
+            "emitent": "One United Properties 10800",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 15055.0
+          },
+          {
+            "emitent": "Ropharma SA 6000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1296.0
+          },
+          {
+            "emitent": "Sphera Franchise Group 44",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 596.0
+          },
+          {
+            "emitent": "SIF Banat Crisana S.A 2500",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 6075.0
+          },
+          {
+            "emitent": "SIF Muntenia S.A 6000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 7350.0
+          },
+          {
+            "emitent": "SNGN Romgaz 300",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 14610.0
+          },
+          {
+            "emitent": "SN Nuclearelectrica 960",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 41760.0
+          },
+          {
+            "emitent": "OMV Petrom SA 140600",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 64394.0
+          },
+          {
+            "emitent": "200",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 3880.0
+          },
+          {
+            "emitent": "CNTEE Transelectrica 400",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 7520.0
+          },
+          {
+            "emitent": "SNTGN Transgaz S.A. 8",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1944.0
+          },
+          {
+            "emitent": "Banca Transilvania S.A. 12100",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 29040.0
+          },
+          {
+            "emitent": "12000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 3180.0
+          },
+          {
+            "emitent": "Purcari Wineries 742",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 6796.0
+          },
+          {
+            "emitent": "Berescu Ciprian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 378750.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 367313.0
+          },
+          {
+            "emitent": "Prisacaru Adrian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 335825.0
+          }
+        ],
+        "total_active_monetare_ron": 10166244.427,
+        "avere_neta_ron": 10166244.427,
+        "nr_judete": 1,
+        "nr_companii": 44,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2012
       },
       {
         "data_depunere": "2023-06-15",
@@ -63,11 +602,398 @@
         "terenuri_count": 6,
         "cladiri_count": 2,
         "suprafata_total_mp": 4408.429999999999,
-        "conturi_total_ron": 10223031.9,
-        "venituri_anuale_ron": 1890693.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 3995.0,
+        "suprafata_luciu_mp": 205.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 208.42999999999998,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 30300.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 398950.0,
+        "conturi_total_ron": 2133747.267,
+        "plasamente_total_ron": 10155531.9,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1890693.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 460.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2012,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1062.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 579.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1182.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 712.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 205.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 56.98,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 151.45,
+            "judet": "Iasi",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Ford Fiesta",
+            "an_fabricatie": 2003,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Hyundai Tucson",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2022,
+            "sold_ron": 461803.61299999995
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 163923.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 495402.61
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 3894.65
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 321.28099999999995
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2016,
+            "sold_ron": 454.81499999999994
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 500.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 40322.078499999996
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 2.727
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 780016.9905
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 121386.84999999999
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 1004.9499999999999
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "USD",
+            "an_deschis": 2018,
+            "sold_ron": 11565.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 3786.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 1718.46
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 8.78
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 2134.58
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 61.3575
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 44952.5245
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 487.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Alibaba 350",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 139541.6
+          },
+          {
+            "emitent": "Baidu 1050",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 82885.65
+          },
+          {
+            "emitent": "Walt Disney Company 277",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 118740.65
+          },
+          {
+            "emitent": "ASML Holding 10",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 33663.299999999996
+          },
+          {
+            "emitent": "Digital World Acqusition 20",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1196.85
+          },
+          {
+            "emitent": "UiPath Inc. 70",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 5605.5
+          },
+          {
+            "emitent": "Cinewold Group Plc 10000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 717.1
+          },
+          {
+            "emitent": "Coinbase Global Inc 9",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 2237.15
+          },
+          {
+            "emitent": "CloudLab AG",
+            "tip": null,
+            "nr_titluri": "10 %",
+            "valoare_ron": 540000.0
+          },
+          {
+            "emitent": "Ibeinteritx SRL",
+            "tip": null,
+            "nr_titluri": "99 %",
+            "valoare_ron": 198.0
+          },
+          {
+            "emitent": "Erebul Consulting SRL",
+            "tip": null,
+            "nr_titluri": "1 %",
+            "valoare_ron": 500.0
+          },
+          {
+            "emitent": "Montessori Centrum SRL",
+            "tip": "imprumut",
+            "nr_titluri": "14 %",
+            "valoare_ron": 6430.0
+          },
+          {
+            "emitent": "Munteanu Mihai 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 681750.0
+          },
+          {
+            "emitent": "Manoila Adrian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50500.0
+          },
+          {
+            "emitent": "Etcu Cornel 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 181800.0
+          },
+          {
+            "emitent": "deţinute (titluri de stat, 1000000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 5245631.95
+          },
+          {
+            "emitent": "deţinute (titluri de stat, 80000",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 333663.6
+          },
+          {
+            "emitent": "Romania 275 2025 deţinute (titluri de stat, 278000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 1386179.55
+          },
+          {
+            "emitent": "Berescu Ciprian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 378750.0
+          },
+          {
+            "emitent": "Romani 2050 deţinute (titluri de stat, 140",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 433391.0
+          },
+          {
+            "emitent": "Romani 2023 deţinute (titluri de stat, 15",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 135945.0
+          },
+          {
+            "emitent": "Romani 2031 deţinute (titluri de stat, 19",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 146205.0
+          },
+          {
+            "emitent": "Trezoreria Romana deţinute (titluri de stat, 1",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 250000.0
+          }
+        ],
+        "total_active_monetare_ron": 12319579.167,
+        "avere_neta_ron": 12319579.167,
+        "nr_judete": 1,
+        "nr_companii": 23,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2012
       },
       {
         "data_depunere": "2024-06-13",
@@ -77,11 +1003,287 @@
         "terenuri_count": 7,
         "cladiri_count": 2,
         "suprafata_total_mp": 5364.429999999999,
-        "conturi_total_ron": 3196148.0,
-        "venituri_anuale_ron": 431961.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 4200.0,
+        "suprafata_luciu_mp": 956.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 208.42999999999998,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 30300.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 9544718.4805,
+        "plasamente_total_ron": 2971148.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 431961.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 460.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2012,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1062.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 579.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1182.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 712.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 205.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 956.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2024,
+            "cota_parte": "1/4",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 56.98,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 151.45,
+            "judet": "Iasi",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Ford Fiesta",
+            "an_fabricatie": 2003,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Hyundai Tucson",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 8626263.0955
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 698177.87
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 569.0
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 20.2
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2016,
+            "sold_ron": 54198.0
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 53.0
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 40960.853
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 100.192
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 121386.84999999999
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 1010.0
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 51.59
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 1663.76
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 257.0
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 7.069999999999999
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "ibeinteritx srl",
+            "tip": "imprumut",
+            "nr_titluri": "99 %",
+            "valoare_ron": 198.0
+          },
+          {
+            "emitent": "Munteanu Mihai 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 757500.0
+          },
+          {
+            "emitent": "Manoila Adrian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50500.0
+          },
+          {
+            "emitent": "Etcu Cornel 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 101000.0
+          },
+          {
+            "emitent": "Berescu Ciprian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 378750.0
+          },
+          {
+            "emitent": "Romani 2023 deţinute (titluri de stat, 15",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 135945.0
+          },
+          {
+            "emitent": "Romani 2031 deţinute (titluri de stat, 19",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 146205.0
+          },
+          {
+            "emitent": "Trezoreria Romana deţinute (titluri de stat, 1",
+            "tip": "titluri_stat",
+            "nr_titluri": null,
+            "valoare_ron": 250000.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 611050.0
+          },
+          {
+            "emitent": "Cloudlab AG",
+            "tip": "imprumut",
+            "nr_titluri": "10 %",
+            "valoare_ron": 540000.0
+          }
+        ],
+        "total_active_monetare_ron": 12546166.4805,
+        "avere_neta_ron": 12546166.4805,
+        "nr_judete": 1,
+        "nr_companii": 10,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2012
       },
       {
         "data_depunere": "2025-01-15",
@@ -91,18 +1293,282 @@
         "terenuri_count": 7,
         "cladiri_count": 2,
         "suprafata_total_mp": 5364.429999999999,
-        "conturi_total_ron": 2964498.0,
-        "venituri_anuale_ron": 1723277.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 4200.0,
+        "suprafata_luciu_mp": 956.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 208.42999999999998,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 30300.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 10061859.0195,
+        "plasamente_total_ron": 2739498.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1723277.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 460.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2012,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1062.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 579.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1182.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 712.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 205.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 956.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2024,
+            "cota_parte": "1/4",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 56.98,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 151.45,
+            "judet": "Iasi",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Ford Fiesta",
+            "an_fabricatie": 2003,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Hyundai Tucson",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 8970981.6
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 700888.0
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 197424.75
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2013,
+            "sold_ron": 1513.2324999999998
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2016,
+            "sold_ron": 177.93
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 5651.69
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 42066.80299999999
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2018,
+            "sold_ron": 3.03
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "fond_investitii",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 138124.974
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2018,
+            "sold_ron": 2900.0
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 4.44
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 2001.88
+          },
+          {
+            "institutie": "raiffeisen bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 120.69
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "ibeinteritx srl",
+            "tip": "imprumut",
+            "nr_titluri": "99 %",
+            "valoare_ron": 198.0
+          },
+          {
+            "emitent": "Munteanu Mihai 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 757500.0
+          },
+          {
+            "emitent": "Manoila Adrian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50500.0
+          },
+          {
+            "emitent": "Etcu Cornel 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 101000.0
+          },
+          {
+            "emitent": "Berescu Ciprian 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 378750.0
+          },
+          {
+            "emitent": "Trezoreria Romana deţinute (titluri de stat, 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 250000.0
+          },
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 661550.0
+          },
+          {
+            "emitent": "Cloudlab AG",
+            "tip": "imprumut",
+            "nr_titluri": "10 %",
+            "valoare_ron": 540000.0
+          }
+        ],
+        "total_active_monetare_ron": 12831657.0195,
+        "avere_neta_ron": 12831657.0195,
+        "nr_judete": 1,
+        "nr_companii": 8,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2012
       }
     ],
     "ultima_data": "2025-01-15",
-    "ultima_conturi_ron": 2964498.0,
+    "ultima_conturi_ron": 10061859.0195,
     "ultima_venituri_ron": 1723277.0,
     "ultima_imobile_count": 9,
-    "delta_conturi_ron": 2964498.0,
+    "ultima_bijuterii_ron": 30300.0,
+    "ultima_plasamente_ron": 2739498.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 12831657.0195,
+    "ultima_avere_neta_ron": 12831657.0195,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 8,
+    "delta_conturi_ron": 10061859.0195,
     "delta_imobile": 9
   }
 }

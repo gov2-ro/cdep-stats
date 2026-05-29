@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:50:59.543162Z",
+    "generated_at": "2026-05-29T17:31:31.925982Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 7
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-07",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-12-02",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-05-24",
@@ -63,11 +126,169 @@
         "terenuri_count": 3,
         "cladiri_count": 6,
         "suprafata_total_mp": 5183.36,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 289690.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 1301.5,
+        "suprafata_luciu_mp": 3500.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 381.86,
+        "auto_count": 3,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 408331.43,
+        "plasamente_total_ron": 0.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 7,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 289690.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1212.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 89.5,
+            "judet": "Stanescu",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 3500.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 65.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 2002,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 48.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 1997,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 58.86,
+            "judet": "Stanescu",
+            "an_dobandirii": 1994,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 100.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 60.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 50.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMV",
+            "an_fabricatie": 2001,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "VOLVO",
+            "an_fabricatie": 2011,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "AUDI",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 130703.68
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 216224.941
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2005,
+            "sold_ron": 4636.808999999999
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 40266.0
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 16500.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 408331.43,
+        "avere_neta_ron": 408331.43,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1994
       },
       {
         "data_depunere": "2023-05-31",
@@ -77,11 +298,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2024-05-14",
@@ -91,11 +333,176 @@
         "terenuri_count": 3,
         "cladiri_count": 6,
         "suprafata_total_mp": 5183.36,
-        "conturi_total_ron": 100000.0,
-        "venituri_anuale_ron": 295205.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 1301.5,
+        "suprafata_luciu_mp": 3500.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 381.86,
+        "auto_count": 3,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 415325.719,
+        "plasamente_total_ron": 100000.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 7,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 295205.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1212.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 89.5,
+            "judet": "Stanescu",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 3500.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 65.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 2002,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 48.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 1997,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 58.86,
+            "judet": "Stanescu",
+            "an_dobandirii": 1994,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 100.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 60.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 50.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMV",
+            "an_fabricatie": 2001,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "VOLVO",
+            "an_fabricatie": 2011,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "AUDI",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 140555.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 202217.15
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2005,
+            "sold_ron": 344.309
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 55699.18
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 16510.08
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "100000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 100000.0
+          }
+        ],
+        "total_active_monetare_ron": 515325.719,
+        "avere_neta_ron": 515325.719,
+        "nr_judete": 2,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1994
       },
       {
         "data_depunere": "2024-12-21",
@@ -105,18 +512,197 @@
         "terenuri_count": 3,
         "cladiri_count": 6,
         "suprafata_total_mp": 5183.36,
-        "conturi_total_ron": 198000.0,
-        "venituri_anuale_ron": 295205.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 1301.5,
+        "suprafata_luciu_mp": 3500.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 381.86,
+        "auto_count": 3,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 395429.3175,
+        "plasamente_total_ron": 198000.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 7,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 295205.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1212.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 89.5,
+            "judet": "Stanescu",
+            "an_dobandirii": 2004,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 3500.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 65.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 2002,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 48.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 1997,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 58.86,
+            "judet": "Stanescu",
+            "an_dobandirii": 1994,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 100.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 60.0,
+            "judet": "Stanescu",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 50.0,
+            "judet": "Hunedoara",
+            "an_dobandirii": 2007,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMV",
+            "an_fabricatie": 2001,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "VOLVO",
+            "an_fabricatie": 2011,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "AUDI",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 143022.62
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 204043.0785
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2005,
+            "sold_ron": 162.509
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 29691.03
+          },
+          {
+            "institutie": "Raiffeisen Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 16510.08
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 2000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 198000.0
+          }
+        ],
+        "total_active_monetare_ron": 593429.3175,
+        "avere_neta_ron": 593429.3175,
+        "nr_judete": 2,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 1994
       }
     ],
     "ultima_data": "2024-12-21",
-    "ultima_conturi_ron": 198000.0,
+    "ultima_conturi_ron": 395429.3175,
     "ultima_venituri_ron": 295205.0,
     "ultima_imobile_count": 9,
-    "delta_conturi_ron": 198000.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 198000.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 593429.3175,
+    "ultima_avere_neta_ron": 593429.3175,
+    "ultima_nr_judete": 2,
+    "ultima_nr_companii": 1,
+    "delta_conturi_ron": 395429.3175,
     "delta_imobile": 9
   }
 }

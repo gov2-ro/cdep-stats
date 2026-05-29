@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:41:26.200399Z",
+    "generated_at": "2026-05-29T17:29:06.137791Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 8
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-07-08",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-10",
@@ -63,11 +126,92 @@
         "terenuri_count": 1,
         "cladiri_count": 0,
         "suprafata_total_mp": 4000.0,
-        "conturi_total_ron": 301600.0,
-        "venituri_anuale_ron": 2083896.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 4000.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 1070600.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 17751.5,
+        "plasamente_total_ron": 301600.0,
         "datorii_total_ron": 16480000.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 5297886.0,
+        "venituri_anuale_ron": 2083896.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 4000.0,
+            "judet": "Arges",
+            "an_dobandirii": 2020,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "Citroen",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "BRD Pitesti",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 3300.0
+          },
+          {
+            "institutie": "BRD Pitesti",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 12500.0
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 308.0
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 1432.0
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2018,
+            "sold_ron": 211.5
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "3016",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 301600.0
+          }
+        ],
+        "total_active_monetare_ron": 1389951.5,
+        "avere_neta_ron": -15090048.5,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2020
       },
       {
         "data_depunere": "2023-06-15",
@@ -77,11 +221,92 @@
         "terenuri_count": 1,
         "cladiri_count": 0,
         "suprafata_total_mp": 4000.0,
-        "conturi_total_ron": 301600.0,
-        "venituri_anuale_ron": 2947799.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 4000.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 0,
+        "bijuterii_total_ron": 1070600.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 153320.0,
+        "conturi_total_ron": 60922.5,
+        "plasamente_total_ron": 301600.0,
         "datorii_total_ron": 15555134.0,
-        "auto_count": 4,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 2947799.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 4000.0,
+            "judet": "Arges",
+            "an_dobandirii": 2020,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "BRD Pitesti",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 5211.0
+          },
+          {
+            "institutie": "Alianz Tiriac",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 12500.0
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 9000.0
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 2000.0
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2018,
+            "sold_ron": 211.5
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 32000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "3016",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 301600.0
+          }
+        ],
+        "total_active_monetare_ron": 1433122.5,
+        "avere_neta_ron": -14122011.5,
+        "nr_judete": 1,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2020
       },
       {
         "data_depunere": "2024-06-14",
@@ -91,11 +316,93 @@
         "terenuri_count": 2,
         "cladiri_count": 0,
         "suprafata_total_mp": 1006.0,
-        "conturi_total_ron": 801600.0,
-        "venituri_anuale_ron": 6616188.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 507.0,
+        "suprafata_luciu_mp": 499.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 0,
+        "bijuterii_total_ron": 1070600.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 61083.0,
+        "plasamente_total_ron": 801600.0,
         "datorii_total_ron": 16019022.0,
-        "auto_count": 4,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 6616188.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 507.0,
+            "judet": "Arges",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 499.0,
+            "judet": "Arges",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 641.0
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 28342.0
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 32000.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 100.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "3016",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 301600.0
+          },
+          {
+            "emitent": "PSD 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 500000.0
+          }
+        ],
+        "total_active_monetare_ron": 1933283.0,
+        "avere_neta_ron": -14085739.0,
+        "nr_judete": 1,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2024
       },
       {
         "data_depunere": "2024-07-10",
@@ -105,11 +412,93 @@
         "terenuri_count": 2,
         "cladiri_count": 0,
         "suprafata_total_mp": 1006.0,
-        "conturi_total_ron": 351600.0,
-        "venituri_anuale_ron": 6616188.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 507.0,
+        "suprafata_luciu_mp": 499.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 0,
+        "bijuterii_total_ron": 1070600.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 61083.0,
+        "plasamente_total_ron": 351600.0,
         "datorii_total_ron": 15569022.0,
-        "auto_count": 4,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 6616188.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 507.0,
+            "judet": "Arges",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 499.0,
+            "judet": "Arges",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 641.0
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 28342.0
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 32000.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 100.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "3016",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 301600.0
+          },
+          {
+            "emitent": "PSD 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50000.0
+          }
+        ],
+        "total_active_monetare_ron": 1483283.0,
+        "avere_neta_ron": -14085739.0,
+        "nr_judete": 1,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2024
       },
       {
         "data_depunere": "2024-12-23",
@@ -119,18 +508,134 @@
         "terenuri_count": 2,
         "cladiri_count": 0,
         "suprafata_total_mp": 1006.0,
-        "conturi_total_ron": 351600.0,
-        "venituri_anuale_ron": 6616188.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 507.0,
+        "suprafata_luciu_mp": 499.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 1070600.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 54318.0,
+        "plasamente_total_ron": 351600.0,
         "datorii_total_ron": 16048414.0,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 6616188.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 507.0,
+            "judet": "Arges",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 499.0,
+            "judet": "Arges",
+            "an_dobandirii": 2024,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Audi",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Cayenne",
+            "an_fabricatie": 2012,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "BRD Pitesti",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 693.0
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 2000.0
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 12625.0
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 32000.0
+          },
+          {
+            "institutie": "Ionica",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 5600.0
+          },
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2024,
+            "sold_ron": 1400.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "3016",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 301600.0
+          },
+          {
+            "emitent": "PSD 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 50000.0
+          }
+        ],
+        "total_active_monetare_ron": 1476518.0,
+        "avere_neta_ron": -14571896.0,
+        "nr_judete": 1,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2024
       }
     ],
     "ultima_data": "2024-12-23",
-    "ultima_conturi_ron": 351600.0,
+    "ultima_conturi_ron": 54318.0,
     "ultima_venituri_ron": 6616188.0,
     "ultima_imobile_count": 2,
-    "delta_conturi_ron": 351600.0,
+    "ultima_bijuterii_ron": 1070600.0,
+    "ultima_plasamente_ron": 351600.0,
+    "ultima_datorii_ron": 16048414.0,
+    "ultima_total_active_ron": 1476518.0,
+    "ultima_avere_neta_ron": -14571896.0,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 2,
+    "delta_conturi_ron": 54318.0,
     "delta_imobile": 2
   }
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:56:22.386755Z",
+    "generated_at": "2026-05-29T17:32:51.343959Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-08",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-06-14",
@@ -63,11 +126,124 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 73.44,
-        "conturi_total_ron": 544758.0,
-        "venituri_anuale_ron": 198704.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 20.44,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 53.0,
+        "auto_count": 2,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 103495.4,
+        "plasamente_total_ron": 544758.0,
         "datorii_total_ron": 119034.58,
-        "auto_count": 6,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 198704.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 20.44,
+            "judet": "Arad",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 53.0,
+            "judet": "Arad",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Nissan Micra",
+            "an_fabricatie": 2006,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Ford Focus",
+            "an_fabricatie": 2018,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Private pilonul II",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 60995.83
+          },
+          {
+            "institutie": "Private pilonul II",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 10699.57
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 21000.0
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 10800.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "JUDETEAN DE",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 10000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 251412.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 78308.0
+          },
+          {
+            "emitent": "SC INFOARQ MEDIA SRL",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 10434.0
+          },
+          {
+            "emitent": "MANAGEMENT ADVISOR",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 194604.0
+          }
+        ],
+        "total_active_monetare_ron": 648253.4,
+        "avere_neta_ron": 529218.8200000001,
+        "nr_judete": 1,
+        "nr_companii": 5,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2015
       },
       {
         "data_depunere": "2024-06-17",
@@ -77,11 +253,124 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 73.44,
-        "conturi_total_ron": 1678876.5899999999,
-        "venituri_anuale_ron": 2677221.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 20.44,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 53.0,
+        "auto_count": 3,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 117590.33,
+        "plasamente_total_ron": 1678876.5899999999,
         "datorii_total_ron": 115776.0,
-        "auto_count": 7,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 2677221.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 20.44,
+            "judet": "Arad",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 53.0,
+            "judet": "Arad",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Nissan Micra",
+            "an_fabricatie": 2006,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Ford Focus",
+            "an_fabricatie": 2018,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes GLC",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Private pilonul II",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 81611.57
+          },
+          {
+            "institutie": "Private pilonul II",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 14178.76
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 11000.0
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 10800.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "MARINEL CANDIDAT PNL -",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 150000.0
+          },
+          {
+            "emitent": "-",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 873218.72
+          },
+          {
+            "emitent": "-",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 615657.87
+          },
+          {
+            "emitent": "-",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 40000.0
+          }
+        ],
+        "total_active_monetare_ron": 1796466.92,
+        "avere_neta_ron": 1680690.92,
+        "nr_judete": 1,
+        "nr_companii": 4,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2015
       },
       {
         "data_depunere": "2025-01-19",
@@ -91,18 +380,138 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 73.44,
-        "conturi_total_ron": 489000.0,
-        "venituri_anuale_ron": 1001907.4299999999,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 20.44,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 53.0,
+        "auto_count": 3,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 117590.33,
+        "plasamente_total_ron": 489000.0,
         "datorii_total_ron": 465776.0,
-        "auto_count": 7,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1001907.4299999999,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 20.44,
+            "judet": "Arad",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 53.0,
+            "judet": "Arad",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Nissan Micra",
+            "an_fabricatie": 2006,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Ford Focus",
+            "an_fabricatie": 2018,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes GLC",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Private pilonul II",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 81611.57
+          },
+          {
+            "institutie": "Private pilonul II",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 14178.76
+          },
+          {
+            "institutie": "Banca Transilvania",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 11000.0
+          },
+          {
+            "institutie": "ING BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 10800.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "100",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 70000.0
+          },
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 198000.0
+          },
+          {
+            "emitent": "candidat parlamentare",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 100000.0
+          },
+          {
+            "emitent": "100",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 121000.0
+          }
+        ],
+        "total_active_monetare_ron": 606590.33,
+        "avere_neta_ron": 140814.32999999996,
+        "nr_judete": 1,
+        "nr_companii": 4,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2015
       }
     ],
     "ultima_data": "2025-01-19",
-    "ultima_conturi_ron": 489000.0,
+    "ultima_conturi_ron": 117590.33,
     "ultima_venituri_ron": 1001907.4299999999,
     "ultima_imobile_count": 2,
-    "delta_conturi_ron": 489000.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 489000.0,
+    "ultima_datorii_ron": 465776.0,
+    "ultima_total_active_ron": 606590.33,
+    "ultima_avere_neta_ron": 140814.32999999996,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 4,
+    "delta_conturi_ron": 117590.33,
     "delta_imobile": 2
   }
 }

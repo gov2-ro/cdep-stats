@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:07:38.514880Z",
+    "generated_at": "2026-05-29T17:28:21.151328Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-07",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-08",
@@ -49,11 +91,84 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 1177.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 236941.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 198.0,
+        "suprafata_luciu_mp": 712.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 267.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 147322.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 62934.0,
+        "venituri_anuale_ron": 236941.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 198.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 712.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 210.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 57.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": "BCR",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 95747.0
+          },
+          {
+            "institutie": "BCR",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 51575.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 147322.0,
+        "avere_neta_ron": 147322.0,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2005
       },
       {
         "data_depunere": "2023-06-07",
@@ -63,11 +178,91 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 1177.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 200253.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 198.0,
+        "suprafata_luciu_mp": 712.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 267.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 166967.44,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 200253.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 198.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 712.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 210.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 57.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "MERCEDES BENZ",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "BCR",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 112573.07
+          },
+          {
+            "institutie": "BCR",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 54394.37
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 166967.44,
+        "avere_neta_ron": 166967.44,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2005
       },
       {
         "data_depunere": "2024-06-05",
@@ -77,11 +272,91 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 1177.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 173024.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 198.0,
+        "suprafata_luciu_mp": 712.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 267.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 464875.86,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 173024.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 198.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 712.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 210.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 57.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "MERCEDES BENZ",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "BCR",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 364875.86
+          },
+          {
+            "institutie": "BCR",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 100000.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 464875.86,
+        "avere_neta_ron": 464875.86,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2005
       },
       {
         "data_depunere": "2024-12-31",
@@ -91,18 +366,105 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 1177.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 173024.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 198.0,
+        "suprafata_luciu_mp": 712.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 267.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 698610.33,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 173024.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 198.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 712.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 210.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2010,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 57.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "MERCEDES BENZ",
+            "an_fabricatie": 2019,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "BCR",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 598610.33
+          },
+          {
+            "institutie": "BCR",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 100000.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 698610.33,
+        "avere_neta_ron": 698610.33,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2005
       }
     ],
     "ultima_data": "2024-12-31",
-    "ultima_conturi_ron": 0.0,
+    "ultima_conturi_ron": 698610.33,
     "ultima_venituri_ron": 173024.0,
     "ultima_imobile_count": 4,
-    "delta_conturi_ron": 0.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 698610.33,
+    "ultima_avere_neta_ron": 698610.33,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 0,
+    "delta_conturi_ron": 698610.33,
     "delta_imobile": 4
   }
 }

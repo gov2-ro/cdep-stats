@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:04:24.184362Z",
+    "generated_at": "2026-05-29T17:20:34.246351Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 2
@@ -21,11 +21,39 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 198000.0,
-        "venituri_anuale_ron": 53500.0,
-        "datorii_total_ron": 200000.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 303000.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 198000.0,
+        "datorii_total_ron": 200000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 53500.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [
+          {
+            "emitent": "PSD Teleorman 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 198000.0
+          }
+        ],
+        "total_active_monetare_ron": 501000.0,
+        "avere_neta_ron": 301000.0,
+        "nr_judete": 0,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2025-06-02",
@@ -35,17 +63,52 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 198000.0,
-        "venituri_anuale_ron": 58180.0,
-        "datorii_total_ron": 200000.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 303000.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 198000.0,
+        "datorii_total_ron": 200000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 58180.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [
+          {
+            "emitent": "PSD Teleorman 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 198000.0
+          }
+        ],
+        "total_active_monetare_ron": 501000.0,
+        "avere_neta_ron": 301000.0,
+        "nr_judete": 0,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       }
     ],
     "ultima_data": "2025-06-02",
-    "ultima_conturi_ron": 198000.0,
+    "ultima_conturi_ron": 0.0,
     "ultima_venituri_ron": 58180.0,
     "ultima_imobile_count": 0,
+    "ultima_bijuterii_ron": 303000.0,
+    "ultima_plasamente_ron": 198000.0,
+    "ultima_datorii_ron": 200000.0,
+    "ultima_total_active_ron": 501000.0,
+    "ultima_avere_neta_ron": 301000.0,
+    "ultima_nr_judete": 0,
+    "ultima_nr_companii": 1,
     "delta_conturi_ron": 0.0,
     "delta_imobile": 0
   }

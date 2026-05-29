@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:07:01.611113Z",
+    "generated_at": "2026-05-29T17:27:34.976340Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-09",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-14",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-06-07",
@@ -63,11 +126,80 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 996.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 442533.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 632.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 364.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 101000.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 433791.9,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 442533.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 632.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2020,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 364.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2020,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 271500.0
+          },
+          {
+            "institutie": "Cluj Napoca",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 138662.9
+          },
+          {
+            "institutie": "Cluj Napoca",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 23629.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 534791.9,
+        "avere_neta_ron": 534791.9,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2020
       },
       {
         "data_depunere": "2024-06-04",
@@ -77,11 +209,80 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 996.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 282644.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 632.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 364.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 101000.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 437336.41,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 282644.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 632.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2020,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 364.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2020,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 282782.0
+          },
+          {
+            "institutie": "Cluj Napoca",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 137627.65
+          },
+          {
+            "institutie": "Cluj Napoca",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 16926.76
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 538336.4099999999,
+        "avere_neta_ron": 538336.4099999999,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2020
       },
       {
         "data_depunere": "2025-01-20",
@@ -91,18 +292,94 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 996.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 283447.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 632.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 364.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 101000.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 352592.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 283447.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 632.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2020,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 364.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2020,
+            "cota_parte": null,
+            "modul_dobandirii": "altele"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Mercedes",
+            "an_fabricatie": 2017,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 288788.0
+          },
+          {
+            "institutie": "Cluj Napoca",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 11110.0
+          },
+          {
+            "institutie": "Cluj Napoca",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2015,
+            "sold_ron": 52694.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 453592.0,
+        "avere_neta_ron": 453592.0,
+        "nr_judete": 1,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2020
       }
     ],
     "ultima_data": "2025-01-20",
-    "ultima_conturi_ron": 0.0,
+    "ultima_conturi_ron": 352592.0,
     "ultima_venituri_ron": 283447.0,
     "ultima_imobile_count": 2,
-    "delta_conturi_ron": 0.0,
+    "ultima_bijuterii_ron": 101000.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 453592.0,
+    "ultima_avere_neta_ron": 453592.0,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 0,
+    "delta_conturi_ron": 352592.0,
     "delta_imobile": 2
   }
 }

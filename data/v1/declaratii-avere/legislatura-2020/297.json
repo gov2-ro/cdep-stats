@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:53:54.595441Z",
+    "generated_at": "2026-05-29T17:32:14.972013Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 7
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-02-01",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-05-27",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-14",
@@ -63,11 +126,260 @@
         "terenuri_count": 1,
         "cladiri_count": 1,
         "suprafata_total_mp": 518.0,
-        "conturi_total_ron": 20409.0,
-        "venituri_anuale_ron": 349378.5,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 303.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 215.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 75750.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 3013482.85,
+        "plasamente_total_ron": 20409.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 349378.5,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 303.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2012,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 215.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "1",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 6229.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2005,
+            "sold_ron": 166508.6
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2005,
+            "sold_ron": 4353.099999999999
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 720675.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 112166.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 43727.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 9010.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 58.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2014,
+            "sold_ron": 15644.9
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 25280.3
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 15190.4
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 40495.95
+          },
+          {
+            "institutie": "Tradeville Broker",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2003,
+            "sold_ron": 947.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 93.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2017,
+            "sold_ron": 10377.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 1.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2004,
+            "sold_ron": 1119838.5
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2004,
+            "sold_ron": 14806.6
+          },
+          {
+            "institutie": "Dristor",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 699754.5
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 8327.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "BRD 500",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 6550.0
+          },
+          {
+            "emitent": "1000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 1110.0
+          },
+          {
+            "emitent": "OMV PETROM S.A. Acţiuni sau părţi sociale 8500",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 4024.0
+          },
+          {
+            "emitent": "436",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1009.0
+          },
+          {
+            "emitent": "INVESTMENTS ALLIANCE 2000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 516.0
+          },
+          {
+            "emitent": "SC TreeWorks SRL 330",
+            "tip": "actiuni",
+            "nr_titluri": null,
+            "valoare_ron": 3300.0
+          },
+          {
+            "emitent": "330",
+            "tip": "actiuni",
+            "nr_titluri": null,
+            "valoare_ron": 3300.0
+          },
+          {
+            "emitent": "SC Netreal Media SRL 15",
+            "tip": "actiuni",
+            "nr_titluri": null,
+            "valoare_ron": 150.0
+          },
+          {
+            "emitent": "SC Workzone SRL 15",
+            "tip": "actiuni",
+            "nr_titluri": null,
+            "valoare_ron": 150.0
+          },
+          {
+            "emitent": "SC Freeroad SRL 3",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 300.0
+          }
+        ],
+        "total_active_monetare_ron": 3109641.85,
+        "avere_neta_ron": 3109641.85,
+        "nr_judete": 1,
+        "nr_companii": 10,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2012
       },
       {
         "data_depunere": "2023-06-15",
@@ -77,11 +389,273 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 606.0,
-        "conturi_total_ron": 20103.0,
-        "venituri_anuale_ron": 903964.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 303.0,
+        "suprafata_luciu_mp": 37.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 266.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 90900.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 2961238.5,
+        "plasamente_total_ron": 20103.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 903964.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 303.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2012,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 37.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 215.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 51.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "1",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 8918.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2005,
+            "sold_ron": 166508.6
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2005,
+            "sold_ron": 5459.05
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 653269.5
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 12006.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 49977.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 12244.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 12148.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2014,
+            "sold_ron": 15644.9
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 25280.3
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 25330.8
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 40566.65
+          },
+          {
+            "institutie": "Tradeville Broker",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2003,
+            "sold_ron": 296.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 2241.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2017,
+            "sold_ron": 108.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 1.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2004,
+            "sold_ron": 1119847.5
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2004,
+            "sold_ron": 14564.199999999999
+          },
+          {
+            "institutie": "Dristor",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 754812.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 8327.0
+          },
+          {
+            "institutie": "Private",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 33689.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "BRD 500",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 6240.0
+          },
+          {
+            "emitent": "1000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 1235.0
+          },
+          {
+            "emitent": "OMV PETROM S.A. 8500",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 4224.0
+          },
+          {
+            "emitent": "48",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 926.0
+          },
+          {
+            "emitent": "INVESTMENTS ALLIANCE 2000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 578.0
+          },
+          {
+            "emitent": "SC TreeWorks SRL 330",
+            "tip": "actiuni",
+            "nr_titluri": null,
+            "valoare_ron": 3300.0
+          },
+          {
+            "emitent": "330",
+            "tip": "actiuni",
+            "nr_titluri": null,
+            "valoare_ron": 3300.0
+          },
+          {
+            "emitent": "SC Freeroad SRL 3",
+            "tip": "actiuni",
+            "nr_titluri": null,
+            "valoare_ron": 300.0
+          }
+        ],
+        "total_active_monetare_ron": 3072241.5,
+        "avere_neta_ron": 3072241.5,
+        "nr_judete": 1,
+        "nr_companii": 8,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2012
       },
       {
         "data_depunere": "2024-06-15",
@@ -91,11 +665,273 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 606.0,
-        "conturi_total_ron": 26579.0,
-        "venituri_anuale_ron": 268119.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 303.0,
+        "suprafata_luciu_mp": 37.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 266.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 90900.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 2621093.3935,
+        "plasamente_total_ron": 26579.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 268119.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 303.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2012,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 37.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 215.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 51.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "1",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 12733.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2005,
+            "sold_ron": 14.4935
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2005,
+            "sold_ron": 5459.05
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 482314.5
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 10006.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 41977.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 12244.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 12148.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2014,
+            "sold_ron": 15644.9
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 25280.3
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 25330.8
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 40566.65
+          },
+          {
+            "institutie": "Tradeville Broker",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2003,
+            "sold_ron": 296.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 1230.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2017,
+            "sold_ron": 108.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 1.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2004,
+            "sold_ron": 1124347.5
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2004,
+            "sold_ron": 14564.199999999999
+          },
+          {
+            "institutie": "Dristor",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 754812.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 8327.0
+          },
+          {
+            "institutie": "Private",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 33689.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "BRD 500",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 9500.0
+          },
+          {
+            "emitent": "1000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 1395.0
+          },
+          {
+            "emitent": "OMV PETROM S.A. 8500",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 6374.0
+          },
+          {
+            "emitent": "48",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1701.0
+          },
+          {
+            "emitent": "INVESTMENTS ALLIANCE 2000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 709.0
+          },
+          {
+            "emitent": "SC TreeWorks SRL 330",
+            "tip": "actiuni",
+            "nr_titluri": null,
+            "valoare_ron": 3300.0
+          },
+          {
+            "emitent": "330",
+            "tip": "actiuni",
+            "nr_titluri": null,
+            "valoare_ron": 3300.0
+          },
+          {
+            "emitent": "SC Freeroad SRL 3",
+            "tip": "actiuni",
+            "nr_titluri": null,
+            "valoare_ron": 300.0
+          }
+        ],
+        "total_active_monetare_ron": 2738572.3935,
+        "avere_neta_ron": 2738572.3935,
+        "nr_judete": 1,
+        "nr_companii": 8,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2012
       },
       {
         "data_depunere": "2024-12-29",
@@ -105,18 +941,299 @@
         "terenuri_count": 2,
         "cladiri_count": 2,
         "suprafata_total_mp": 606.0,
-        "conturi_total_ron": 226579.0,
-        "venituri_anuale_ron": 268119.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 303.0,
+        "suprafata_luciu_mp": 37.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 266.0,
+        "auto_count": 1,
+        "bijuterii_total_ron": 90900.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 3006579.1165,
+        "plasamente_total_ron": 226579.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 268119.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 303.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2012,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 37.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 215.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 51.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2022,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "1",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2005,
+            "sold_ron": 5800.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2005,
+            "sold_ron": 107.71649999999998
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2005,
+            "sold_ron": 5459.05
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 926307.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 1206.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 10.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 12244.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 12148.0
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2014,
+            "sold_ron": 15644.9
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2015,
+            "sold_ron": 25280.3
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2016,
+            "sold_ron": 25330.8
+          },
+          {
+            "institutie": "ING Bank",
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2020,
+            "sold_ron": 40566.65
+          },
+          {
+            "institutie": "Tradeville Broker",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2003,
+            "sold_ron": 296.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 330.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2017,
+            "sold_ron": 108.0
+          },
+          {
+            "institutie": "Revolut",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 1.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2004,
+            "sold_ron": 1124347.5
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2004,
+            "sold_ron": 14564.199999999999
+          },
+          {
+            "institutie": "Dristor",
+            "tip": "depozit",
+            "valuta": "USD",
+            "an_deschis": 2010,
+            "sold_ron": 754812.0
+          },
+          {
+            "institutie": null,
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 8327.0
+          },
+          {
+            "institutie": "Private",
+            "tip": "fond_investitii",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 33689.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "BRD 500",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 9500.0
+          },
+          {
+            "emitent": "1000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 1395.0
+          },
+          {
+            "emitent": "OMV PETROM S.A. 8500",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 6374.0
+          },
+          {
+            "emitent": "48",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 1701.0
+          },
+          {
+            "emitent": "INVESTMENTS ALLIANCE 2000",
+            "tip": null,
+            "nr_titluri": null,
+            "valoare_ron": 709.0
+          },
+          {
+            "emitent": "SC TreeWorks SRL 330",
+            "tip": "actiuni",
+            "nr_titluri": null,
+            "valoare_ron": 3300.0
+          },
+          {
+            "emitent": "330",
+            "tip": "actiuni",
+            "nr_titluri": null,
+            "valoare_ron": 3300.0
+          },
+          {
+            "emitent": "SC Freeroad SRL 3",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 300.0
+          },
+          {
+            "emitent": "Partidul REPER 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 100000.0
+          },
+          {
+            "emitent": "Partidul REPER 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 100000.0
+          }
+        ],
+        "total_active_monetare_ron": 3324058.1165,
+        "avere_neta_ron": 3324058.1165,
+        "nr_judete": 1,
+        "nr_companii": 10,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2012
       }
     ],
     "ultima_data": "2024-12-29",
-    "ultima_conturi_ron": 226579.0,
+    "ultima_conturi_ron": 3006579.1165,
     "ultima_venituri_ron": 268119.0,
     "ultima_imobile_count": 4,
-    "delta_conturi_ron": 226579.0,
+    "ultima_bijuterii_ron": 90900.0,
+    "ultima_plasamente_ron": 226579.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 3324058.1165,
+    "ultima_avere_neta_ron": 3324058.1165,
+    "ultima_nr_judete": 1,
+    "ultima_nr_companii": 10,
+    "delta_conturi_ron": 3006579.1165,
     "delta_imobile": 4
   }
 }

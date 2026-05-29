@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:53:17.324529Z",
+    "generated_at": "2026-05-29T17:32:06.003791Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-08",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-14",
@@ -49,11 +91,120 @@
         "terenuri_count": 7,
         "cladiri_count": 2,
         "suprafata_total_mp": 25631.0,
-        "conturi_total_ron": 101000.0,
-        "venituri_anuale_ron": 1368179.0,
+        "suprafata_agricol_mp": 20117.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 4260.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 654.0,
+        "auto_count": 0,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 16412500.0,
+        "plasamente_total_ron": 101000.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 4,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1368179.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 9000.0,
+            "judet": "Contract",
+            "an_dobandirii": 2003,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 11117.0,
+            "judet": "Contract",
+            "an_dobandirii": 2000,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2336.0,
+            "judet": "Vrancea",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1000.0,
+            "judet": "Contract",
+            "an_dobandirii": 1999,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 924.0,
+            "judet": "Contract",
+            "an_dobandirii": 1999,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 130.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 524.0,
+            "judet": "Contract",
+            "an_dobandirii": 1999,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 16412500.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Persoana fizica 20000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 101000.0
+          }
+        ],
+        "total_active_monetare_ron": 16513500.0,
+        "avere_neta_ron": 16513500.0,
+        "nr_judete": 3,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 2,
+        "an_prima_proprietate": 1999
       },
       {
         "data_depunere": "2023-06-08",
@@ -63,11 +214,124 @@
         "terenuri_count": 7,
         "cladiri_count": 2,
         "suprafata_total_mp": 14525.12,
-        "conturi_total_ron": 15882250.0,
-        "venituri_anuale_ron": 3434730.0,
+        "suprafata_agricol_mp": 9011.12,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 4260.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 654.0,
+        "auto_count": 0,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 15882250.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 4,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 3434730.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 9000.0,
+            "judet": "Contract",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 11.12,
+            "judet": "Contract",
+            "an_dobandirii": 2000,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2336.0,
+            "judet": "Vrancea",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1000.0,
+            "judet": "Contract",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 924.0,
+            "judet": "Contract",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/4",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 130.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/4",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 524.0,
+            "judet": "Contract",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Persoana fizica 150000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 757500.0
+          },
+          {
+            "emitent": "Ministerul Finantelor deţinute (titluri de stat, 29900",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 15099500.0
+          },
+          {
+            "emitent": "Persoana fizica 5000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 25250.0
+          }
+        ],
+        "total_active_monetare_ron": 15882250.0,
+        "avere_neta_ron": 15882250.0,
+        "nr_judete": 3,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 2,
+        "an_prima_proprietate": 1999
       },
       {
         "data_depunere": "2024-06-15",
@@ -77,11 +341,132 @@
         "terenuri_count": 7,
         "cladiri_count": 2,
         "suprafata_total_mp": 14525.12,
-        "conturi_total_ron": 14771250.0,
-        "venituri_anuale_ron": 3526295.0,
+        "suprafata_agricol_mp": 9011.12,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 4260.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 654.0,
+        "auto_count": 0,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 3535000.0,
+        "plasamente_total_ron": 14771250.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 4,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 3526295.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 9000.0,
+            "judet": "Contract",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 11.12,
+            "judet": "Contract",
+            "an_dobandirii": 2000,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2336.0,
+            "judet": "Vrancea",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1000.0,
+            "judet": "Contract",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 924.0,
+            "judet": "Contract",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/4",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 130.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/4",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 524.0,
+            "judet": "Contract",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2024,
+            "sold_ron": 3535000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Persoana fizica 50000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 252500.0
+          },
+          {
+            "emitent": "Ministerul Finantelor deţinute (titluri de stat, 25755",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 13003750.0
+          },
+          {
+            "emitent": "Persoana fizica 300000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 1515000.0
+          }
+        ],
+        "total_active_monetare_ron": 18306250.0,
+        "avere_neta_ron": 18306250.0,
+        "nr_judete": 3,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 2,
+        "an_prima_proprietate": 1999
       },
       {
         "data_depunere": "2025-01-20",
@@ -91,18 +476,146 @@
         "terenuri_count": 7,
         "cladiri_count": 2,
         "suprafata_total_mp": 14525.12,
-        "conturi_total_ron": 14771250.0,
-        "venituri_anuale_ron": 32497.14,
+        "suprafata_agricol_mp": 9011.12,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 4260.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 654.0,
+        "auto_count": 0,
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 3535000.0,
+        "plasamente_total_ron": 14771250.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 4,
-        "imobile_detaliate": []
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 32497.14,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 9000.0,
+            "judet": "Contract",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 11.12,
+            "judet": "Contract",
+            "an_dobandirii": 2000,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 2336.0,
+            "judet": "Vrancea",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1000.0,
+            "judet": "Contract",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 924.0,
+            "judet": "Contract",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/4",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 130.0,
+            "judet": "Iasi",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/4",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 524.0,
+            "judet": "Contract",
+            "an_dobandirii": 1999,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "depozit",
+            "valuta": "EUR",
+            "an_deschis": 2024,
+            "sold_ron": 3535000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Persoana fizica 50000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 252500.0
+          },
+          {
+            "emitent": "Ministerul Finantelor deţinute (titluri de stat, 25755",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 13003750.0
+          },
+          {
+            "emitent": "Persoana fizica 300000",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 1515000.0
+          }
+        ],
+        "total_active_monetare_ron": 18306250.0,
+        "avere_neta_ron": 18306250.0,
+        "nr_judete": 3,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 2,
+        "an_prima_proprietate": 1999
       }
     ],
     "ultima_data": "2025-01-20",
-    "ultima_conturi_ron": 14771250.0,
+    "ultima_conturi_ron": 3535000.0,
     "ultima_venituri_ron": 32497.14,
     "ultima_imobile_count": 9,
-    "delta_conturi_ron": 14771250.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 14771250.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 18306250.0,
+    "ultima_avere_neta_ron": 18306250.0,
+    "ultima_nr_judete": 3,
+    "ultima_nr_companii": 3,
+    "delta_conturi_ron": 3535000.0,
     "delta_imobile": 9
   }
 }

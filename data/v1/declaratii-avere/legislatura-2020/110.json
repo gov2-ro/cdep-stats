@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:36.208339Z",
+    "generated_at": "2026-05-29T17:27:03.265941Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-02",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-09",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-05-24",
@@ -63,11 +126,102 @@
         "terenuri_count": 2,
         "cladiri_count": 3,
         "suprafata_total_mp": 864.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 173471.0,
-        "datorii_total_ron": 363712.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 248.0,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 151500.0,
+        "conturi_total_ron": 65018.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 363712.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 173471.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2018,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 48.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 200.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2018,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "volkswagen tiguan",
+            "an_fabricatie": 2014,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autovehicul",
+            "marca": "1",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 8801.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 17782.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 6620.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 31815.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 65018.0,
+        "avere_neta_ron": -298694.0,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2018
       },
       {
         "data_depunere": "2024-05-22",
@@ -77,11 +231,102 @@
         "terenuri_count": 2,
         "cladiri_count": 3,
         "suprafata_total_mp": 864.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 172731.0,
-        "datorii_total_ron": 363712.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 248.0,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 9375.55,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 363712.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 172731.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2018,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 48.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 200.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2018,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "volkswagen tiguan",
+            "an_fabricatie": 2014,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autovehicul",
+            "marca": "1",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 3803.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 5051.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 365.0
+          },
+          {
+            "institutie": "BRD",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 156.54999999999998
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 9375.55,
+        "avere_neta_ron": -354336.45,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2018
       },
       {
         "data_depunere": "2024-12-23",
@@ -91,18 +336,123 @@
         "terenuri_count": 2,
         "cladiri_count": 3,
         "suprafata_total_mp": 864.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 172731.0,
-        "datorii_total_ron": 363712.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 248.0,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 24434.895,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 363712.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 172731.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2018,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 48.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2021,
+            "cota_parte": null,
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 200.0,
+            "judet": "Ilfov",
+            "an_dobandirii": 2018,
+            "cota_parte": "3/8",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "volkswagen tiguan",
+            "an_fabricatie": 2014,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autovehicul",
+            "marca": "1",
+            "an_fabricatie": 2020,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2010,
+            "sold_ron": 3234.62
+          },
+          {
+            "institutie": "BRD",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 14547.46
+          },
+          {
+            "institutie": "BRD",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 147.74
+          },
+          {
+            "institutie": "BRD",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2022,
+            "sold_ron": 981.89
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2023,
+            "sold_ron": 5523.185
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 24434.895,
+        "avere_neta_ron": -339277.105,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2018
       }
     ],
     "ultima_data": "2024-12-23",
-    "ultima_conturi_ron": 0.0,
+    "ultima_conturi_ron": 24434.895,
     "ultima_venituri_ron": 172731.0,
     "ultima_imobile_count": 5,
-    "delta_conturi_ron": 0.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 363712.0,
+    "ultima_total_active_ron": 24434.895,
+    "ultima_avere_neta_ron": -339277.105,
+    "ultima_nr_judete": 2,
+    "ultima_nr_companii": 0,
+    "delta_conturi_ron": 24434.895,
     "delta_imobile": 5
   }
 }

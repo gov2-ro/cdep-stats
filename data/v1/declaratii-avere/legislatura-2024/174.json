@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:05:45.042293Z",
+    "generated_at": "2026-05-29T17:22:15.794884Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 2
@@ -21,11 +21,103 @@
         "terenuri_count": 1,
         "cladiri_count": 2,
         "suprafata_total_mp": 459.0,
-        "conturi_total_ron": 178624.0,
-        "venituri_anuale_ron": 227996.0,
-        "datorii_total_ron": 405456.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 208.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 251.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 88059.65,
+        "plasamente_total_ron": 178624.0,
+        "datorii_total_ron": 405456.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 227996.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 208.0,
+            "judet": "Buzau",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 201.0,
+            "judet": "Buzau",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 50.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Hunday",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 60203.28
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 1210.3
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 13804.28
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 12841.79
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "DEMOCART BUZAU 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 178624.0
+          }
+        ],
+        "total_active_monetare_ron": 266683.65,
+        "avere_neta_ron": -138772.34999999998,
+        "nr_judete": 2,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2021
       },
       {
         "data_depunere": "2025-06-05",
@@ -35,18 +127,110 @@
         "terenuri_count": 1,
         "cladiri_count": 2,
         "suprafata_total_mp": 459.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 421779.0,
-        "datorii_total_ron": 304456.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 208.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 251.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 179967.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 304456.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 421779.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 208.0,
+            "judet": "Buzau",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 201.0,
+            "judet": "Buzau",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 50.0,
+            "judet": "Bucuresti",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Hunday",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2017,
+            "sold_ron": 149627.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2016,
+            "sold_ron": 100.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2009,
+            "sold_ron": 15240.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 15000.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 179967.0,
+        "avere_neta_ron": -124489.0,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2021
       }
     ],
     "ultima_data": "2025-06-05",
-    "ultima_conturi_ron": 0.0,
+    "ultima_conturi_ron": 179967.0,
     "ultima_venituri_ron": 421779.0,
     "ultima_imobile_count": 3,
-    "delta_conturi_ron": -178624.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 304456.0,
+    "ultima_total_active_ron": 179967.0,
+    "ultima_avere_neta_ron": -124489.0,
+    "ultima_nr_judete": 2,
+    "ultima_nr_companii": 0,
+    "delta_conturi_ron": 91907.35,
     "delta_imobile": 0
   }
 }

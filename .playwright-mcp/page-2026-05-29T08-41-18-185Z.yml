@@ -1,0 +1,322 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "cdep.api" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+      - navigation [ref=e5]:
+        - link "Averi" [ref=e6] [cursor=pointer]:
+          - /url: avere.html
+        - link "Cercuri avere" [ref=e7] [cursor=pointer]:
+          - /url: deputati-avere.html
+        - link "Activitate" [ref=e8] [cursor=pointer]:
+          - /url: deputati-activitate.html
+        - link "Interpelări" [ref=e9] [cursor=pointer]:
+          - /url: interpelari-stats.html
+        - link "Proiecte" [ref=e10] [cursor=pointer]:
+          - /url: proiecte-stats.html
+        - link "Caută" [ref=e11] [cursor=pointer]:
+          - /url: search.html
+        - button "Switch to English" [ref=e13] [cursor=pointer]: EN
+  - generic [ref=e15]:
+    - generic [ref=e16]:
+      - heading "Interpelări — legislatura 2024" [level=1] [ref=e17]
+      - generic [ref=e18]:
+        - button "2024" [ref=e19] [cursor=pointer]
+        - button "2020" [ref=e20] [cursor=pointer]
+    - paragraph [ref=e21]: 9.758 interpelări și întrebări scrise înregistrate · date din cdep.ro
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: "9.758"
+        - generic [ref=e25]: Total
+      - generic [ref=e26]:
+        - generic [ref=e27]: 82.7%
+        - generic [ref=e28]: Rată răspuns
+      - generic [ref=e29]:
+        - generic [ref=e30]: "8.067"
+        - generic [ref=e31]: Răspunse
+      - generic [ref=e32]:
+        - generic [ref=e33]: 42z
+        - generic [ref=e34]: Zile medii răspuns
+      - generic [ref=e35]:
+        - generic [ref=e36]: 35z
+        - generic [ref=e37]: Zile median răspuns
+    - generic [ref=e38]:
+      - heading "Evoluție lunară" [level=2] [ref=e39]
+      - generic [ref=e70]:
+        - generic [ref=e71]: 24-01
+        - generic [ref=e72]: 24-02
+        - generic [ref=e73]: 24-03
+        - generic [ref=e74]: 24-04
+        - generic [ref=e75]: 24-05
+        - generic [ref=e76]: 24-06
+        - generic [ref=e77]: 24-07
+        - generic [ref=e78]: 24-08
+        - generic [ref=e79]: 24-09
+        - generic [ref=e80]: 24-10
+        - generic [ref=e81]: 24-11
+        - generic [ref=e82]: 24-12
+        - generic [ref=e83]: 25-01
+        - generic [ref=e84]: 25-02
+        - generic [ref=e85]: 25-03
+        - generic [ref=e86]: 25-04
+        - generic [ref=e87]: 25-05
+        - generic [ref=e88]: 25-06
+        - generic [ref=e89]: 25-07
+        - generic [ref=e90]: 25-08
+        - generic [ref=e91]: 25-09
+        - generic [ref=e92]: 25-10
+        - generic [ref=e93]: 25-11
+        - generic [ref=e94]: 25-12
+        - generic [ref=e95]: 26-01
+        - generic [ref=e96]: 26-02
+        - generic [ref=e97]: 26-03
+        - generic [ref=e98]: 26-04
+        - generic [ref=e99]: 26-05
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Top 15 interpelatori" [level=2] [ref=e102]
+        - table [ref=e103]:
+          - rowgroup [ref=e104]:
+            - row "Deputat Total" [ref=e105]:
+              - columnheader [ref=e106]
+              - columnheader "Deputat" [ref=e107]
+              - columnheader "Total" [ref=e108]
+          - rowgroup [ref=e109]:
+            - row "1 Cristina-Emanuela Dascălu - deputat AUR AUR 505" [ref=e110]:
+              - cell "1" [ref=e111]
+              - cell "Cristina-Emanuela Dascălu - deputat AUR AUR" [ref=e112]
+              - cell "505" [ref=e113]
+            - row "2 Vasile Nagy SOS RO 334" [ref=e114]:
+              - cell "2" [ref=e115]
+              - cell "Vasile Nagy SOS RO" [ref=e116]
+              - cell "334" [ref=e117]
+            - row "3 Dan Tanasă AUR 259" [ref=e118]:
+              - cell "3" [ref=e119]
+              - cell "Dan Tanasă AUR" [ref=e120]
+              - cell "259" [ref=e121]
+            - row "4 Iulian-Alexandru Badea - deputat PSD PSD 240" [ref=e122]:
+              - cell "4" [ref=e123]
+              - cell "Iulian-Alexandru Badea - deputat PSD PSD" [ref=e124]
+              - cell "240" [ref=e125]
+            - row "5 Daniel-Răzvan Biro - deputat AUR AUR 228" [ref=e126]:
+              - cell "5" [ref=e127]
+              - cell "Daniel-Răzvan Biro - deputat AUR AUR" [ref=e128]
+              - cell "228" [ref=e129]
+            - row "6 Silviu-Titus Păunescu - deputat AUR AUR 195" [ref=e130]:
+              - cell "6" [ref=e131]
+              - cell "Silviu-Titus Păunescu - deputat AUR AUR" [ref=e132]
+              - cell "195" [ref=e133]
+            - row "7 Remus-Gabriel Lăpuşan - deputat PSD PSD 188" [ref=e134]:
+              - cell "7" [ref=e135]
+              - cell "Remus-Gabriel Lăpuşan - deputat PSD PSD" [ref=e136]
+              - cell "188" [ref=e137]
+            - row "8 George-Nicolae Simion - deputat AUR AUR 188" [ref=e138]:
+              - cell "8" [ref=e139]
+              - cell "George-Nicolae Simion - deputat AUR AUR" [ref=e140]
+              - cell "188" [ref=e141]
+            - row "9 Petre Puşcaşu AUR 156" [ref=e142]:
+              - cell "9" [ref=e143]
+              - cell "Petre Puşcaşu AUR" [ref=e144]
+              - cell "156" [ref=e145]
+            - row "10 Radu Tudor Ciornei USR 153" [ref=e146]:
+              - cell "10" [ref=e147]
+              - cell "Radu Tudor Ciornei USR" [ref=e148]
+              - cell "153" [ref=e149]
+            - row "11 Nicolae-Adrian Bara - deputat PSD PSD 144" [ref=e150]:
+              - cell "11" [ref=e151]
+              - cell "Nicolae-Adrian Bara - deputat PSD PSD" [ref=e152]
+              - cell "144" [ref=e153]
+            - row "12 Ion-Marian Lazăr - deputat USR USR 140" [ref=e154]:
+              - cell "12" [ref=e155]
+              - cell "Ion-Marian Lazăr - deputat USR USR" [ref=e156]
+              - cell "140" [ref=e157]
+            - row "13 Adrian-Felician Cozma - deputat PNL PNL 124" [ref=e158]:
+              - cell "13" [ref=e159]
+              - cell "Adrian-Felician Cozma - deputat PNL PNL" [ref=e160]
+              - cell "124" [ref=e161]
+            - row "14 Silviu-Octavian Gurlui - deputat AUR AUR 124" [ref=e162]:
+              - cell "14" [ref=e163]
+              - cell "Silviu-Octavian Gurlui - deputat AUR AUR" [ref=e164]
+              - cell "124" [ref=e165]
+            - row "15 Florin-Cornel Popovici - deputat AUR AUR 123" [ref=e166]:
+              - cell "15" [ref=e167]
+              - cell "Florin-Cornel Popovici - deputat AUR AUR" [ref=e168]
+              - cell "123" [ref=e169]
+      - generic [ref=e170]:
+        - heading "Top ministere interpelate" [level=2] [ref=e171]
+        - table [ref=e172]:
+          - rowgroup [ref=e173]:
+            - row "Minister Total Răspuns" [ref=e174]:
+              - columnheader [ref=e175]
+              - columnheader "Minister" [ref=e176]
+              - columnheader "Total" [ref=e177]
+              - columnheader "Răspuns" [ref=e178]
+          - rowgroup [ref=e179]:
+            - row "1 Min. Sănătăţii 926 81.4%" [ref=e180]:
+              - cell "1" [ref=e181]
+              - cell "Min. Sănătăţii" [ref=e182]
+              - cell "926" [ref=e183]
+              - cell "81.4%" [ref=e184]:
+                - generic [ref=e188]: 81.4%
+            - row "2 Guvernul României 688 78.9%" [ref=e189]:
+              - cell "2" [ref=e190]
+              - cell "Guvernul României" [ref=e191]
+              - cell "688" [ref=e192]
+              - cell "78.9%" [ref=e193]:
+                - generic [ref=e197]: 78.9%
+            - row "3 Min. Educaţiei şi Cercetării 670 83.7%" [ref=e198]:
+              - cell "3" [ref=e199]
+              - cell "Min. Educaţiei şi Cercetării" [ref=e200]
+              - cell "670" [ref=e201]
+              - cell "83.7%" [ref=e202]:
+                - generic [ref=e206]: 83.7%
+            - row "4 Min. Transporturilor şi Infrastructurii 668 92.2%" [ref=e207]:
+              - cell "4" [ref=e208]
+              - cell "Min. Transporturilor şi Infrastructurii" [ref=e209]
+              - cell "668" [ref=e210]
+              - cell "92.2%" [ref=e211]:
+                - generic [ref=e215]: 92.2%
+            - row "5 Min. Mediului, Apelor şi Pădurilor 668 78.4%" [ref=e216]:
+              - cell "5" [ref=e217]
+              - cell "Min. Mediului, Apelor şi Pădurilor" [ref=e218]
+              - cell "668" [ref=e219]
+              - cell "78.4%" [ref=e220]:
+                - generic [ref=e224]: 78.4%
+            - row "6 Min. Afacerilor Interne 573 89.7%" [ref=e225]:
+              - cell "6" [ref=e226]
+              - cell "Min. Afacerilor Interne" [ref=e227]
+              - cell "573" [ref=e228]
+              - cell "89.7%" [ref=e229]:
+                - generic [ref=e233]: 89.7%
+            - row "7 Min. Finanțelor 540 82.4%" [ref=e234]:
+              - cell "7" [ref=e235]
+              - cell "Min. Finanțelor" [ref=e236]
+              - cell "540" [ref=e237]
+              - cell "82.4%" [ref=e238]:
+                - generic [ref=e242]: 82.4%
+            - row "8 Min. Energiei 425 59.8%" [ref=e243]:
+              - cell "8" [ref=e244]
+              - cell "Min. Energiei" [ref=e245]
+              - cell "425" [ref=e246]
+              - cell "59.8%" [ref=e247]:
+                - generic [ref=e251]: 59.8%
+            - row "9 Min. Agriculturii şi Dezvoltării Rurale 388 89.9%" [ref=e252]:
+              - cell "9" [ref=e253]
+              - cell "Min. Agriculturii şi Dezvoltării Rurale" [ref=e254]
+              - cell "388" [ref=e255]
+              - cell "89.9%" [ref=e256]:
+                - generic [ref=e260]: 89.9%
+            - row "10 Min. Afacerilor Externe 377 61%" [ref=e261]:
+              - cell "10" [ref=e262]
+              - cell "Min. Afacerilor Externe" [ref=e263]
+              - cell "377" [ref=e264]
+              - cell "61%" [ref=e265]:
+                - generic [ref=e269]: 61%
+            - row "11 Min. Dezvoltării, Lucrărilor Publice si Administrației 353 88.7%" [ref=e270]:
+              - cell "11" [ref=e271]
+              - cell "Min. Dezvoltării, Lucrărilor Publice si Administrației" [ref=e272]
+              - cell "353" [ref=e273]
+              - cell "88.7%" [ref=e274]:
+                - generic [ref=e278]: 88.7%
+            - row "12 Min. Educației 347 98.6%" [ref=e279]:
+              - cell "12" [ref=e280]
+              - cell "Min. Educației" [ref=e281]
+              - cell "347" [ref=e282]
+              - cell "98.6%" [ref=e283]:
+                - generic [ref=e287]: 98.6%
+            - row "13 Min. Muncii, Familiei, Tineretului și Solidarității Sociale 340 83.2%" [ref=e288]:
+              - cell "13" [ref=e289]
+              - cell "Min. Muncii, Familiei, Tineretului și Solidarității Sociale" [ref=e290]
+              - cell "340" [ref=e291]
+              - cell "83.2%" [ref=e292]:
+                - generic [ref=e296]: 83.2%
+            - row "14 Min. Economiei, Digitalizării, Antreprenoriatului și Turismului 286 75.9%" [ref=e297]:
+              - cell "14" [ref=e298]
+              - cell "Min. Economiei, Digitalizării, Antreprenoriatului și Turismului" [ref=e299]
+              - cell "286" [ref=e300]
+              - cell "75.9%" [ref=e301]:
+                - generic [ref=e305]: 75.9%
+            - row "15 Min. Apărării Naţionale 244 85.7%" [ref=e306]:
+              - cell "15" [ref=e307]
+              - cell "Min. Apărării Naţionale" [ref=e308]
+              - cell "244" [ref=e309]
+              - cell "85.7%" [ref=e310]:
+                - generic [ref=e314]: 85.7%
+    - generic [ref=e315]:
+      - heading "Pe partid" [level=2] [ref=e316]
+      - table [ref=e317]:
+        - rowgroup [ref=e318]:
+          - row "Partid Interpelări Răspunse Rata răspuns" [ref=e319]:
+            - columnheader [ref=e320]
+            - columnheader "Partid" [ref=e321]
+            - columnheader "Interpelări" [ref=e322]
+            - columnheader "Răspunse" [ref=e323]
+            - columnheader "Rata răspuns" [ref=e324]
+        - rowgroup [ref=e325]:
+          - row "1 AUR 1.344 1.042 77.5%" [ref=e326]:
+            - cell "1" [ref=e327]
+            - cell "AUR" [ref=e328]
+            - cell "1.344" [ref=e329]
+            - cell "1.042" [ref=e330]
+            - cell "77.5%" [ref=e331]:
+              - generic [ref=e335]: 77.5%
+          - row "2 PSD 775 609 78.6%" [ref=e336]:
+            - cell "2" [ref=e337]
+            - cell "PSD" [ref=e338]
+            - cell "775" [ref=e339]
+            - cell "609" [ref=e340]
+            - cell "78.6%" [ref=e341]:
+              - generic [ref=e345]: 78.6%
+          - row "3 PNL 611 473 77.4%" [ref=e346]:
+            - cell "3" [ref=e347]
+            - cell "PNL" [ref=e348]
+            - cell "611" [ref=e349]
+            - cell "473" [ref=e350]
+            - cell "77.4%" [ref=e351]:
+              - generic [ref=e355]: 77.4%
+          - row "4 USR 426 382 89.7%" [ref=e356]:
+            - cell "4" [ref=e357]
+            - cell "USR" [ref=e358]
+            - cell "426" [ref=e359]
+            - cell "382" [ref=e360]
+            - cell "89.7%" [ref=e361]:
+              - generic [ref=e365]: 89.7%
+          - row "5 SOS RO 277 148 53.4%" [ref=e366]:
+            - cell "5" [ref=e367]
+            - cell "SOS RO" [ref=e368]
+            - cell "277" [ref=e369]
+            - cell "148" [ref=e370]
+            - cell "53.4%" [ref=e371]:
+              - generic [ref=e375]: 53.4%
+          - row "6 UDMR 130 102 78.5%" [ref=e376]:
+            - cell "6" [ref=e377]
+            - cell "UDMR" [ref=e378]
+            - cell "130" [ref=e379]
+            - cell "102" [ref=e380]
+            - cell "78.5%" [ref=e381]:
+              - generic [ref=e385]: 78.5%
+          - row "7 Minoritati 30 27 90%" [ref=e386]:
+            - cell "7" [ref=e387]
+            - cell "Minoritati" [ref=e388]
+            - cell "30" [ref=e389]
+            - cell "27" [ref=e390]
+            - cell "90%" [ref=e391]:
+              - generic [ref=e395]: 90%
+          - row "8 POT 17 11 64.7%" [ref=e396]:
+            - cell "8" [ref=e397]
+            - cell "POT" [ref=e398]
+            - cell "17" [ref=e399]
+            - cell "11" [ref=e400]
+            - cell "64.7%" [ref=e401]:
+              - generic [ref=e405]: 64.7%
+  - contentinfo [ref=e406]:
+    - paragraph [ref=e407]:
+      - text: Date din
+      - link "cdep.ro" [ref=e408] [cursor=pointer]:
+        - /url: https://cdep.ro
+      - text: "· Sursa:"
+      - link "interpelari-2024.json" [ref=e409] [cursor=pointer]:
+        - /url: data/v1/stats/interpelari-2024.json
+      - text: ·
+      - link "Pagina principală" [ref=e410] [cursor=pointer]:
+        - /url: index.html

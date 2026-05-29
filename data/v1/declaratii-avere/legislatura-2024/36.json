@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:04:25.206109Z",
+    "generated_at": "2026-05-29T17:20:35.540985Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 2
@@ -21,11 +21,88 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 80000.0,
-        "venituri_anuale_ron": 135610.0,
-        "datorii_total_ron": 110000.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 15471.375,
+        "plasamente_total_ron": 80000.0,
+        "datorii_total_ron": 110000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 135610.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "FORD",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "FORD",
+            "an_fabricatie": 2009,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "IDEA BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 9706.0
+          },
+          {
+            "institutie": "IDEA BANK",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2014,
+            "sold_ron": 2411.375
+          },
+          {
+            "institutie": "IDEA BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 221.0
+          },
+          {
+            "institutie": "Revolut Bank UAB",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 2820.0
+          },
+          {
+            "institutie": "IDEA BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 313.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": null,
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 80000.0
+          }
+        ],
+        "total_active_monetare_ron": 95471.375,
+        "avere_neta_ron": -14528.625,
+        "nr_judete": 0,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2025-05-20",
@@ -35,18 +112,102 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 60000.0,
-        "venituri_anuale_ron": 131412.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 46578.3,
+        "plasamente_total_ron": 50000.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 131412.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "FORD",
+            "an_fabricatie": 2021,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "FORD",
+            "an_fabricatie": 2009,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "SALT BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 7311.0
+          },
+          {
+            "institutie": "SALT BANK",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2014,
+            "sold_ron": 1848.3
+          },
+          {
+            "institutie": "SALT BANK",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2008,
+            "sold_ron": 3231.0
+          },
+          {
+            "institutie": "Revolut Bank UAB",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 3642.0
+          },
+          {
+            "institutie": "SALT BANK",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2014,
+            "sold_ron": 30546.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "DAN NICUȘOR-DANIEL",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50000.0
+          }
+        ],
+        "total_active_monetare_ron": 96578.3,
+        "avere_neta_ron": 96578.3,
+        "nr_judete": 0,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       }
     ],
     "ultima_data": "2025-05-20",
-    "ultima_conturi_ron": 60000.0,
+    "ultima_conturi_ron": 46578.3,
     "ultima_venituri_ron": 131412.0,
     "ultima_imobile_count": 0,
-    "delta_conturi_ron": -20000.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 50000.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 96578.3,
+    "ultima_avere_neta_ron": 96578.3,
+    "ultima_nr_judete": 0,
+    "ultima_nr_companii": 1,
+    "delta_conturi_ron": 31106.925000000003,
     "delta_imobile": 0
   }
 }

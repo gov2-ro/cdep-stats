@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:06:28.214943Z",
+    "generated_at": "2026-05-29T17:23:09.063741Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 2
@@ -21,11 +21,67 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 230500.0,
-        "venituri_anuale_ron": 131412.0,
-        "datorii_total_ron": 180000.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 1,
+        "bunuri_instrainate_total_ron": 25000.0,
+        "conturi_total_ron": 21371.08,
+        "plasamente_total_ron": 230500.0,
+        "datorii_total_ron": 180000.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 131412.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "București",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 9188.63
+          },
+          {
+            "institutie": "București",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 12182.45
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Diana Mihaela Pătrașcu",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50500.0
+          },
+          {
+            "emitent": "contributie campanie 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 180000.0
+          }
+        ],
+        "total_active_monetare_ron": 251871.08000000002,
+        "avere_neta_ron": 71871.08000000002,
+        "nr_judete": 0,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2025-05-12",
@@ -35,18 +91,82 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 50500.0,
-        "venituri_anuale_ron": 311374.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 95421.81,
+        "plasamente_total_ron": 50500.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 311374.0,
+        "imobile_detaliate": [],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "BMW",
+            "an_fabricatie": 2016,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "București",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2004,
+            "sold_ron": 18792.51
+          },
+          {
+            "institutie": "București",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2013,
+            "sold_ron": 37189.3
+          },
+          {
+            "institutie": "București",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2025,
+            "sold_ron": 39440.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "Diana Mihaela Pătrașcu",
+            "tip": "imprumut",
+            "nr_titluri": "100 %",
+            "valoare_ron": 50500.0
+          }
+        ],
+        "total_active_monetare_ron": 145921.81,
+        "avere_neta_ron": 145921.81,
+        "nr_judete": 0,
+        "nr_companii": 1,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       }
     ],
     "ultima_data": "2025-05-12",
-    "ultima_conturi_ron": 50500.0,
+    "ultima_conturi_ron": 95421.81,
     "ultima_venituri_ron": 311374.0,
     "ultima_imobile_count": 0,
-    "delta_conturi_ron": -180000.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 50500.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 145921.81,
+    "ultima_avere_neta_ron": 145921.81,
+    "ultima_nr_judete": 0,
+    "ultima_nr_companii": 1,
+    "delta_conturi_ron": 74050.73,
     "delta_imobile": 0
   }
 }

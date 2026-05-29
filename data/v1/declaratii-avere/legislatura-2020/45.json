@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:05:09.273219Z",
+    "generated_at": "2026-05-29T17:25:14.143725Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-09",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-14",
@@ -49,11 +91,89 @@
         "terenuri_count": 2,
         "cladiri_count": 1,
         "suprafata_total_mp": 1292.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 149346.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 600.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 92.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 210465.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 149346.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 600.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Intravilan",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 92.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "Opel Insignia",
+            "an_fabricatie": 2010,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Romania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 131000.0
+          },
+          {
+            "institutie": "Romania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2011,
+            "sold_ron": 36865.0
+          },
+          {
+            "institutie": "Romania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 42600.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 210465.0,
+        "avere_neta_ron": 210465.0,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2009
       },
       {
         "data_depunere": "2023-06-14",
@@ -63,11 +183,96 @@
         "terenuri_count": 2,
         "cladiri_count": 1,
         "suprafata_total_mp": 1292.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 191199.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 600.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 92.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 365254.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 191199.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 600.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Intravilan",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 92.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "Opel Insignia",
+            "an_fabricatie": 2010,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Romania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 64441.0
+          },
+          {
+            "institutie": "Romania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2011,
+            "sold_ron": 35350.0
+          },
+          {
+            "institutie": "Romania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 15463.0
+          },
+          {
+            "institutie": "Romania",
+            "tip": "depozit",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 250000.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 365254.0,
+        "avere_neta_ron": 365254.0,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2009
       },
       {
         "data_depunere": "2024-06-15",
@@ -77,11 +282,89 @@
         "terenuri_count": 2,
         "cladiri_count": 1,
         "suprafata_total_mp": 1292.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 236729.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 600.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 92.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 411455.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 236729.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 600.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Intravilan",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 92.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "Opel Insignia",
+            "an_fabricatie": 2010,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Romania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 323178.0
+          },
+          {
+            "institutie": "Romania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2011,
+            "sold_ron": 34340.0
+          },
+          {
+            "institutie": "Romania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 53937.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 411455.0,
+        "avere_neta_ron": 411455.0,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2009
       },
       {
         "data_depunere": "2025-01-21",
@@ -91,18 +374,103 @@
         "terenuri_count": 2,
         "cladiri_count": 1,
         "suprafata_total_mp": 1292.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 219296.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 600.0,
+        "suprafata_luciu_mp": 600.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 92.0,
         "auto_count": 1,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 194120.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 219296.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 600.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2021,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 600.0,
+            "judet": "Intravilan",
+            "an_dobandirii": 2009,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 92.0,
+            "judet": "Constanta",
+            "an_dobandirii": 2013,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autovehicul",
+            "marca": "Opel Insignia",
+            "an_fabricatie": 2010,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Romania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2006,
+            "sold_ron": 117000.0
+          },
+          {
+            "institutie": "Romania",
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2011,
+            "sold_ron": 37370.0
+          },
+          {
+            "institutie": "Romania",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 39750.0
+          }
+        ],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 194120.0,
+        "avere_neta_ron": 194120.0,
+        "nr_judete": 2,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": 2009
       }
     ],
     "ultima_data": "2025-01-21",
-    "ultima_conturi_ron": 0.0,
+    "ultima_conturi_ron": 194120.0,
     "ultima_venituri_ron": 219296.0,
     "ultima_imobile_count": 3,
-    "delta_conturi_ron": 0.0,
+    "ultima_bijuterii_ron": 0.0,
+    "ultima_plasamente_ron": 0.0,
+    "ultima_datorii_ron": 0.0,
+    "ultima_total_active_ron": 194120.0,
+    "ultima_avere_neta_ron": 194120.0,
+    "ultima_nr_judete": 2,
+    "ultima_nr_companii": 0,
+    "delta_conturi_ron": 194120.0,
     "delta_imobile": 3
   }
 }

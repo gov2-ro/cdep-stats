@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:05:03.019775Z",
+    "generated_at": "2026-05-29T17:25:06.232230Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 6
@@ -21,11 +21,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2021-06-15",
@@ -35,11 +56,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2022-06-15",
@@ -49,11 +91,32 @@
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
-        "conturi_total_ron": 0.0,
-        "venituri_anuale_ron": 0.0,
-        "datorii_total_ron": 0.0,
+        "suprafata_agricol_mp": 0.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 0.0,
+        "suprafata_luciu_mp": 0.0,
+        "suprafata_alte_mp": 0.0,
+        "suprafata_cladiri_mp": 0.0,
         "auto_count": 0,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 0.0,
+        "bunuri_instrainate_count": 0,
+        "bunuri_instrainate_total_ron": 0.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 0.0,
+        "datorii_total_ron": 0.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 0.0,
+        "imobile_detaliate": [],
+        "vehicule": [],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [],
+        "total_active_monetare_ron": 0.0,
+        "avere_neta_ron": 0.0,
+        "nr_judete": 0,
+        "nr_companii": 0,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 0,
+        "an_prima_proprietate": null
       },
       {
         "data_depunere": "2023-06-14",
@@ -63,11 +126,263 @@
         "terenuri_count": 14,
         "cladiri_count": 8,
         "suprafata_total_mp": 368209.0,
-        "conturi_total_ron": 1147698.0,
-        "venituri_anuale_ron": 1738486.0,
-        "datorii_total_ron": 174600.0,
+        "suprafata_agricol_mp": 37027.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 176703.0,
+        "suprafata_luciu_mp": 1657.0,
+        "suprafata_alte_mp": 150700.0,
+        "suprafata_cladiri_mp": 2122.0,
         "auto_count": 3,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 224000.0,
+        "bunuri_instrainate_count": 3,
+        "bunuri_instrainate_total_ron": 230575.0,
+        "conturi_total_ron": 0.0,
+        "plasamente_total_ron": 1147698.0,
+        "datorii_total_ron": 174600.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 1738486.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1304.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 3565.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 37027.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 24072.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 139100.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 10000.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 6948.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2005,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 932.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2012,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 69700.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 757.0,
+            "judet": "Harghita",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 71000.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2014,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 25.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2020,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 1657.0,
+            "judet": "Harghita",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 498.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "vacanta",
+            "suprafata_mp": 270.0,
+            "judet": "Mures",
+            "an_dobandirii": 2012,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "altele"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 86.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "necunoscuta",
+            "suprafata_mp": 267.0,
+            "judet": "Harghita",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 81.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 390.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 530.0,
+            "judet": "-",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Lexus RX",
+            "an_fabricatie": 2010,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "1",
+            "an_fabricatie": 2015,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Toyota C HR",
+            "an_fabricatie": 2022,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [],
+        "plasamente_detaliate": [
+          {
+            "emitent": "SC Alexis SRL -",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 6755.0
+          },
+          {
+            "emitent": "-",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 56568.0
+          },
+          {
+            "emitent": "SC Varmezo SRL -",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 131635.0
+          },
+          {
+            "emitent": "SC West Impulse SA -",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 17200.0
+          },
+          {
+            "emitent": "SC Top Invest SRL -",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 935540.0
+          }
+        ],
+        "total_active_monetare_ron": 1371698.0,
+        "avere_neta_ron": 1197098.0,
+        "nr_judete": 5,
+        "nr_companii": 5,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 1,
+        "an_prima_proprietate": 2001
       },
       {
         "data_depunere": "2024-06-14",
@@ -77,11 +392,250 @@
         "terenuri_count": 14,
         "cladiri_count": 7,
         "suprafata_total_mp": 365791.0,
-        "conturi_total_ron": 11847.0,
-        "venituri_anuale_ron": 732640.0,
-        "datorii_total_ron": 72500.0,
+        "suprafata_agricol_mp": 37027.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 171412.0,
+        "suprafata_luciu_mp": 4800.0,
+        "suprafata_alte_mp": 150700.0,
+        "suprafata_cladiri_mp": 1852.0,
         "auto_count": 4,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 224000.0,
+        "bunuri_instrainate_count": 2,
+        "bunuri_instrainate_total_ron": 303000.0,
+        "conturi_total_ron": 29950.0,
+        "plasamente_total_ron": 11847.0,
+        "datorii_total_ron": 72500.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 732640.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1304.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 3565.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 37027.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 24072.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 139100.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 10000.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 932.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2012,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 69700.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 757.0,
+            "judet": "Harghita",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 71000.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2014,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 25.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2020,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1657.0,
+            "judet": "Harghita",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 4800.0,
+            "judet": "Mures",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 498.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 86.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 267.0,
+            "judet": "Spaţii",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 81.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 390.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 530.0,
+            "judet": "-",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Lexus RX",
+            "an_fabricatie": 2010,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "1",
+            "an_fabricatie": 2015,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Toyota C HR",
+            "an_fabricatie": 2022,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Toyota Aygo X",
+            "an_fabricatie": 2022,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": "Banca Raiffeisen",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 29950.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "SC Alexis SRL",
+            "tip": "imprumut",
+            "nr_titluri": "9 %",
+            "valoare_ron": 6755.0
+          },
+          {
+            "emitent": "SC Varmezo SRL",
+            "tip": "imprumut",
+            "nr_titluri": "10 %",
+            "valoare_ron": 5092.0
+          }
+        ],
+        "total_active_monetare_ron": 265797.0,
+        "avere_neta_ron": 193297.0,
+        "nr_judete": 6,
+        "nr_companii": 2,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 1,
+        "an_prima_proprietate": 2001
       },
       {
         "data_depunere": "2024-12-31",
@@ -91,18 +645,316 @@
         "terenuri_count": 14,
         "cladiri_count": 8,
         "suprafata_total_mp": 366045.4,
-        "conturi_total_ron": 161847.0,
-        "venituri_anuale_ron": 782130.0,
-        "datorii_total_ron": 221774.0,
+        "suprafata_agricol_mp": 37027.0,
+        "suprafata_forestier_mp": 0.0,
+        "suprafata_intravilan_mp": 171325.0,
+        "suprafata_luciu_mp": 4800.0,
+        "suprafata_alte_mp": 150700.0,
+        "suprafata_cladiri_mp": 2193.4,
         "auto_count": 2,
-        "imobile_detaliate": []
+        "bijuterii_total_ron": 269000.0,
+        "bunuri_instrainate_count": 5,
+        "bunuri_instrainate_total_ron": 518927.0,
+        "conturi_total_ron": 259124.7,
+        "plasamente_total_ron": 161847.0,
+        "datorii_total_ron": 221774.0,
+        "cadouri_total_ron": 0.0,
+        "venituri_anuale_ron": 782130.0,
+        "imobile_detaliate": [
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1304.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 3565.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2003,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "agricol",
+            "suprafata_mp": 37027.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 24072.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 139100.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 10000.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2001,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 845.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2012,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 69700.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 757.0,
+            "judet": "Harghita",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "extravilan",
+            "suprafata_mp": 71000.0,
+            "judet": "Cluj",
+            "an_dobandirii": 2014,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 25.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2020,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "teren",
+            "categorie": "intravilan",
+            "suprafata_mp": 1657.0,
+            "judet": "Harghita",
+            "an_dobandirii": 2022,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "teren",
+            "categorie": "luciu_apa",
+            "suprafata_mp": 4800.0,
+            "judet": "Mures",
+            "an_dobandirii": 2023,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 498.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2006,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 86.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 267.0,
+            "judet": "Spaţii",
+            "an_dobandirii": 2015,
+            "cota_parte": "1/1",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "apartament",
+            "suprafata_mp": 81.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2016,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 390.0,
+            "judet": "Bihor",
+            "an_dobandirii": 2017,
+            "cota_parte": "1/1",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "locuinta",
+            "suprafata_mp": 530.0,
+            "judet": "-",
+            "an_dobandirii": 2019,
+            "cota_parte": "1/2",
+            "modul_dobandirii": null
+          },
+          {
+            "tip": "cladire",
+            "categorie": "comercial",
+            "suprafata_mp": 341.4,
+            "judet": "Mures",
+            "an_dobandirii": 2012,
+            "cota_parte": "1/2",
+            "modul_dobandirii": "cumparare"
+          }
+        ],
+        "vehicule": [
+          {
+            "natura": "Autoturism",
+            "marca": "Toyota C HR",
+            "an_fabricatie": 2022,
+            "mod_dobandire": "cumparare"
+          },
+          {
+            "natura": "Autoturism",
+            "marca": "Toyota Aygo X",
+            "an_fabricatie": 2022,
+            "mod_dobandire": "cumparare"
+          }
+        ],
+        "conturi_detaliate": [
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2019,
+            "sold_ron": 24063.0
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2019,
+            "sold_ron": 13544.1
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "USD",
+            "an_deschis": 2019,
+            "sold_ron": 31.5
+          },
+          {
+            "institutie": null,
+            "tip": "cont_curent",
+            "valuta": "EUR",
+            "an_deschis": 2014,
+            "sold_ron": 2636.1
+          },
+          {
+            "institutie": "soțul Biro Barna",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2012,
+            "sold_ron": 202000.0
+          },
+          {
+            "institutie": "soțul Biro Barna",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2021,
+            "sold_ron": 14356.0
+          },
+          {
+            "institutie": "Biro Bernadett",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2023,
+            "sold_ron": 494.0
+          },
+          {
+            "institutie": "Biro Bernadett",
+            "tip": "cont_curent",
+            "valuta": "RON",
+            "an_deschis": 2020,
+            "sold_ron": 2000.0
+          }
+        ],
+        "plasamente_detaliate": [
+          {
+            "emitent": "SC Alexis SRL",
+            "tip": "imprumut",
+            "nr_titluri": "9 %",
+            "valoare_ron": 6755.0
+          },
+          {
+            "emitent": "SC Varmezo SRL",
+            "tip": "imprumut",
+            "nr_titluri": "10 %",
+            "valoare_ron": 5092.0
+          },
+          {
+            "emitent": "conform legii campanii 1",
+            "tip": "imprumut",
+            "nr_titluri": null,
+            "valoare_ron": 150000.0
+          }
+        ],
+        "total_active_monetare_ron": 689971.7,
+        "avere_neta_ron": 468197.69999999995,
+        "nr_judete": 6,
+        "nr_companii": 3,
+        "terenuri_forestiere_count": 0,
+        "terenuri_agricole_count": 1,
+        "an_prima_proprietate": 2001
       }
     ],
     "ultima_data": "2024-12-31",
-    "ultima_conturi_ron": 161847.0,
+    "ultima_conturi_ron": 259124.7,
     "ultima_venituri_ron": 782130.0,
     "ultima_imobile_count": 22,
-    "delta_conturi_ron": 161847.0,
+    "ultima_bijuterii_ron": 269000.0,
+    "ultima_plasamente_ron": 161847.0,
+    "ultima_datorii_ron": 221774.0,
+    "ultima_total_active_ron": 689971.7,
+    "ultima_avere_neta_ron": 468197.69999999995,
+    "ultima_nr_judete": 6,
+    "ultima_nr_companii": 3,
+    "delta_conturi_ron": 259124.7,
     "delta_imobile": 22
   }
 }
