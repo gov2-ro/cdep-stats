@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T07:49:50.896703Z",
+    "generated_at": "2026-05-29T09:07:46.388138Z",
     "source_url": "https://endimion2k.github.io/cdep-api-poc/data/v1/declaratii-avere/legislatura-2020.json",
     "scraper_version": "0.1.0",
     "count": 354
@@ -336,7 +336,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 9,
       "suprafata_mp": 1452.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 225000.0
     },
     {
@@ -348,7 +348,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 14,
       "suprafata_mp": 3524.35,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -360,7 +360,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 420.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 244750.0
     },
     {
@@ -372,7 +372,7 @@
       "conturi_ron": 1500000.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 1500000.0
     },
     {
@@ -384,7 +384,7 @@
       "conturi_ron": 1635000.0,
       "imobile_count": 8,
       "suprafata_mp": 3675.4,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 225000.0
     },
     {
@@ -396,7 +396,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 5,
       "suprafata_mp": 1536.89,
-      "auto_count": 7,
+      "auto_count": 3,
       "datorii_ron": 0.0
     },
     {
@@ -408,7 +408,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 100000.0
     },
     {
@@ -420,7 +420,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 851386.0
     },
     {
@@ -432,7 +432,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 4,
       "suprafata_mp": 3090.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 165000.0
     },
     {
@@ -456,7 +456,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 480.0,
-      "auto_count": 7,
+      "auto_count": 3,
       "datorii_ron": 193333.0
     },
     {
@@ -468,7 +468,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 1,
       "suprafata_mp": 48.79,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 23000.0
     },
     {
@@ -480,7 +480,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 637.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 405419.05
     },
     {
@@ -660,7 +660,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 6,
       "suprafata_mp": 3120.38,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 76319.0
     },
     {
@@ -672,7 +672,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 33,
       "suprafata_mp": 32265.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 303864.0
     },
     {
@@ -684,7 +684,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 8,
       "suprafata_mp": 8652.5,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -696,7 +696,7 @@
       "conturi_ron": 2229.0,
       "imobile_count": 3,
       "suprafata_mp": 220.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 358550.0
     },
     {
@@ -708,7 +708,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 6,
       "suprafata_mp": 2876.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 0.0
     },
     {
@@ -720,7 +720,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 305.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -732,7 +732,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 1319.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -864,7 +864,7 @@
       "conturi_ron": 278000.0,
       "imobile_count": 1,
       "suprafata_mp": 47.33,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -876,7 +876,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 4,
       "suprafata_mp": 54761.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 0.0
     },
     {
@@ -888,7 +888,7 @@
       "conturi_ron": 304400.0,
       "imobile_count": 20,
       "suprafata_mp": 89897.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 268104.5
     },
     {
@@ -900,7 +900,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 4,
       "suprafata_mp": 115.69999999999999,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 100000.0
     },
     {
@@ -912,7 +912,7 @@
       "conturi_ron": 550900.0,
       "imobile_count": 8,
       "suprafata_mp": 13438.68,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -924,7 +924,7 @@
       "conturi_ron": 198000.0,
       "imobile_count": 5,
       "suprafata_mp": 182.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 208000.0
     },
     {
@@ -936,7 +936,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 5,
       "suprafata_mp": 2535.3599999999997,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 171384.0
     },
     {
@@ -948,7 +948,7 @@
       "conturi_ron": 128100.0,
       "imobile_count": 6,
       "suprafata_mp": 1477.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 675000.0
     },
     {
@@ -972,7 +972,7 @@
       "conturi_ron": 936266.0,
       "imobile_count": 8,
       "suprafata_mp": 1074.8,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -984,7 +984,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 7,
       "suprafata_mp": 1418.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 252500.0
     },
     {
@@ -996,7 +996,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 9,
       "suprafata_mp": 24154.11,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 609586.44
     },
     {
@@ -1008,7 +1008,7 @@
       "conturi_ron": 477238.52,
       "imobile_count": 2,
       "suprafata_mp": 1155.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 497500.0
     },
     {
@@ -1020,7 +1020,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 890.7,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 456251.5
     },
     {
@@ -1032,7 +1032,7 @@
       "conturi_ron": 273750.0,
       "imobile_count": 10,
       "suprafata_mp": 7265.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 521522.0
     },
     {
@@ -1044,7 +1044,7 @@
       "conturi_ron": 223755.0,
       "imobile_count": 1,
       "suprafata_mp": 80.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 452500.0
     },
     {
@@ -1056,7 +1056,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 150000.0
     },
     {
@@ -1068,7 +1068,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 6,
       "suprafata_mp": 42041.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 2021989.5
     },
     {
@@ -1080,7 +1080,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -1092,7 +1092,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 7,
       "suprafata_mp": 814.16,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 501972.0
     },
     {
@@ -1104,7 +1104,7 @@
       "conturi_ron": 236800.0,
       "imobile_count": 13,
       "suprafata_mp": 32070.739999999994,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 227441.32
     },
     {
@@ -1116,7 +1116,7 @@
       "conturi_ron": 180000.0,
       "imobile_count": 5,
       "suprafata_mp": 5562.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 250425.0
     },
     {
@@ -1128,7 +1128,7 @@
       "conturi_ron": 40000.0,
       "imobile_count": 3,
       "suprafata_mp": 3542.91,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 0.0
     },
     {
@@ -1140,7 +1140,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 213.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 150000.0
     },
     {
@@ -1152,7 +1152,7 @@
       "conturi_ron": 528987.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 1682470.0
     },
     {
@@ -1164,7 +1164,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 13,
       "suprafata_mp": 52145.0,
-      "auto_count": 8,
+      "auto_count": 4,
       "datorii_ron": 514250.0
     },
     {
@@ -1176,7 +1176,7 @@
       "conturi_ron": 358850.0,
       "imobile_count": 4,
       "suprafata_mp": 7805.59,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 1593388.65
     },
     {
@@ -1188,7 +1188,7 @@
       "conturi_ron": 8767712.5,
       "imobile_count": 33,
       "suprafata_mp": 117569.29999999999,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -1200,7 +1200,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 10,
       "suprafata_mp": 18373.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 50500.0
     },
     {
@@ -1212,7 +1212,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 9,
       "suprafata_mp": 9498.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -1224,7 +1224,7 @@
       "conturi_ron": 198000.0,
       "imobile_count": 14,
       "suprafata_mp": 2775.39,
-      "auto_count": 8,
+      "auto_count": 4,
       "datorii_ron": 1005903.26
     },
     {
@@ -1236,7 +1236,7 @@
       "conturi_ron": 25000.0,
       "imobile_count": 6,
       "suprafata_mp": 11321.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 17500.0
     },
     {
@@ -1248,7 +1248,7 @@
       "conturi_ron": 198000.0,
       "imobile_count": 3,
       "suprafata_mp": 147.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 198000.0
     },
     {
@@ -1260,7 +1260,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 698.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -1272,7 +1272,7 @@
       "conturi_ron": 400000.0,
       "imobile_count": 4,
       "suprafata_mp": 2734.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 101000.0
     },
     {
@@ -1284,7 +1284,7 @@
       "conturi_ron": 200650.0,
       "imobile_count": 13,
       "suprafata_mp": 62290.0,
-      "auto_count": 7,
+      "auto_count": 3,
       "datorii_ron": 0.0
     },
     {
@@ -1296,7 +1296,7 @@
       "conturi_ron": 198000.0,
       "imobile_count": 3,
       "suprafata_mp": 1114.8,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 344868.2
     },
     {
@@ -1308,7 +1308,7 @@
       "conturi_ron": 447060.0,
       "imobile_count": 1,
       "suprafata_mp": 129.8,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -1320,7 +1320,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 336.01,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 60000.0
     },
     {
@@ -1332,7 +1332,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 10,
       "suprafata_mp": 4993.4,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 562200.0
     },
     {
@@ -1344,7 +1344,7 @@
       "conturi_ron": 9226.0,
       "imobile_count": 4,
       "suprafata_mp": 336.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 738788.0
     },
     {
@@ -1356,7 +1356,7 @@
       "conturi_ron": 270130.0,
       "imobile_count": 7,
       "suprafata_mp": 24409.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 0.0
     },
     {
@@ -1368,7 +1368,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 5140.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 0.0
     },
     {
@@ -1380,7 +1380,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 4,
       "suprafata_mp": 1177.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -1896,7 +1896,7 @@
       "conturi_ron": 75750.0,
       "imobile_count": 3,
       "suprafata_mp": 1426.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 0.0
     },
     {
@@ -1908,7 +1908,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 1,
       "suprafata_mp": 62.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 192349.5
     },
     {
@@ -1920,7 +1920,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 35,
       "suprafata_mp": 106375.51000000001,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -1932,7 +1932,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 351.0,
-      "auto_count": 7,
+      "auto_count": 3,
       "datorii_ron": 201000.0
     },
     {
@@ -1944,7 +1944,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 1482.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 180000.0
     },
     {
@@ -1956,7 +1956,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 1,
       "suprafata_mp": 54.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 450000.0
     },
     {
@@ -1968,7 +1968,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 5901.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -1980,7 +1980,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 988.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 238200.0
     },
     {
@@ -1992,7 +1992,7 @@
       "conturi_ron": 997702.85,
       "imobile_count": 16,
       "suprafata_mp": 29905.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -2003,8 +2003,8 @@
       "venituri_ron": 396237.0,
       "conturi_ron": 8290547.0,
       "imobile_count": 32,
-      "suprafata_mp": 443806.75,
-      "auto_count": 4,
+      "suprafata_mp": 743806.75,
+      "auto_count": 0,
       "datorii_ron": 1160000.0
     },
     {
@@ -2016,7 +2016,7 @@
       "conturi_ron": 248000.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 44001.0
     },
     {
@@ -2028,7 +2028,7 @@
       "conturi_ron": 698000.0,
       "imobile_count": 1,
       "suprafata_mp": 63.9,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 1093000.0
     },
     {
@@ -2040,7 +2040,7 @@
       "conturi_ron": 250063.89,
       "imobile_count": 2,
       "suprafata_mp": 606.0,
-      "auto_count": 8,
+      "auto_count": 4,
       "datorii_ron": 0.0
     },
     {
@@ -2052,7 +2052,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 6,
       "suprafata_mp": 1810.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 252500.0
     },
     {
@@ -2064,7 +2064,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 5,
       "suprafata_mp": 3606.83,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 619725.8999999999
     },
     {
@@ -2076,7 +2076,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 68211.0
     },
     {
@@ -2088,7 +2088,7 @@
       "conturi_ron": 198000.0,
       "imobile_count": 5,
       "suprafata_mp": 3409.52,
-      "auto_count": 7,
+      "auto_count": 3,
       "datorii_ron": 654000.0
     },
     {
@@ -2100,7 +2100,7 @@
       "conturi_ron": 130550.0,
       "imobile_count": 2,
       "suprafata_mp": 271.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -2112,7 +2112,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 1,
       "suprafata_mp": 2300.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 176436.63
     },
     {
@@ -2124,7 +2124,7 @@
       "conturi_ron": 248000.0,
       "imobile_count": 15,
       "suprafata_mp": 6603.349999999999,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 300727.89
     },
     {
@@ -2136,7 +2136,7 @@
       "conturi_ron": 593010.0,
       "imobile_count": 4,
       "suprafata_mp": 773.3399999999999,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 35000.0
     },
     {
@@ -2147,8 +2147,8 @@
       "venituri_ron": 719959.11,
       "conturi_ron": 15750354.54,
       "imobile_count": 20,
-      "suprafata_mp": 113582.40000000001,
-      "auto_count": 6,
+      "suprafata_mp": 213582.39999999997,
+      "auto_count": 2,
       "datorii_ron": 23411256.04
     },
     {
@@ -2160,7 +2160,7 @@
       "conturi_ron": 665201.7,
       "imobile_count": 8,
       "suprafata_mp": 714.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 51000.0
     },
     {
@@ -2172,7 +2172,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 1,
       "suprafata_mp": 60.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 198000.0
     },
     {
@@ -2184,7 +2184,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 3130.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 100000.0
     },
     {
@@ -2196,7 +2196,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 6,
       "suprafata_mp": 11480.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 104500.0
     },
     {
@@ -2208,7 +2208,7 @@
       "conturi_ron": 50000.0,
       "imobile_count": 5,
       "suprafata_mp": 1002.3299999999999,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 341611.0
     },
     {
@@ -2220,7 +2220,7 @@
       "conturi_ron": 100000.0,
       "imobile_count": 3,
       "suprafata_mp": 1421.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 375452.35
     },
     {
@@ -2232,7 +2232,7 @@
       "conturi_ron": 198000.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -2244,7 +2244,7 @@
       "conturi_ron": 332045.6,
       "imobile_count": 8,
       "suprafata_mp": 171.2,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 670638.83
     },
     {
@@ -2256,7 +2256,7 @@
       "conturi_ron": 732482.0,
       "imobile_count": 14,
       "suprafata_mp": 45069.130000000005,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 1344466.0
     },
     {
@@ -2268,7 +2268,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 1,
       "suprafata_mp": 87.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 289218.0
     },
     {
@@ -2280,7 +2280,7 @@
       "conturi_ron": 190000.0,
       "imobile_count": 1,
       "suprafata_mp": 55.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 547932.0
     },
     {
@@ -2292,7 +2292,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 2590.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -2304,7 +2304,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 5,
       "suprafata_mp": 864.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 363712.0
     },
     {
@@ -2316,7 +2316,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 9,
       "suprafata_mp": 11534.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 40000.0
     },
     {
@@ -2328,7 +2328,7 @@
       "conturi_ron": 198200.0,
       "imobile_count": 11,
       "suprafata_mp": 3283.62,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -2340,7 +2340,7 @@
       "conturi_ron": 225060.0,
       "imobile_count": 26,
       "suprafata_mp": 36802.799999999996,
-      "auto_count": 7,
+      "auto_count": 3,
       "datorii_ron": 48508.0
     },
     {
@@ -2352,7 +2352,7 @@
       "conturi_ron": 50000.0,
       "imobile_count": 8,
       "suprafata_mp": 20645.199999999997,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -2364,7 +2364,7 @@
       "conturi_ron": 65047.5,
       "imobile_count": 10,
       "suprafata_mp": 45983.86,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 0.0
     },
     {
@@ -2376,7 +2376,7 @@
       "conturi_ron": 2077126.0,
       "imobile_count": 10,
       "suprafata_mp": 11373.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -2388,7 +2388,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 996.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -2400,7 +2400,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 11,
       "suprafata_mp": 141676.0,
-      "auto_count": 9,
+      "auto_count": 5,
       "datorii_ron": 0.0
     },
     {
@@ -2412,7 +2412,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 6,
       "suprafata_mp": 5471.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 374620.0
     },
     {
@@ -2424,7 +2424,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 1294.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 586932.0
     },
     {
@@ -2436,7 +2436,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 4,
       "suprafata_mp": 127129.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 473025.0
     },
     {
@@ -2448,7 +2448,7 @@
       "conturi_ron": 35880.0,
       "imobile_count": 10,
       "suprafata_mp": 6439.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 395000.0
     },
     {
@@ -2460,7 +2460,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 4,
       "suprafata_mp": 3344.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 0.0
     },
     {
@@ -2472,7 +2472,7 @@
       "conturi_ron": 149000.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 75087.0
     },
     {
@@ -2484,7 +2484,7 @@
       "conturi_ron": 150000.0,
       "imobile_count": 22,
       "suprafata_mp": 27652.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 143000.0
     },
     {
@@ -2496,7 +2496,7 @@
       "conturi_ron": 30000.0,
       "imobile_count": 3,
       "suprafata_mp": 950.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 359975.0
     },
     {
@@ -2508,7 +2508,7 @@
       "conturi_ron": 223000.0,
       "imobile_count": 9,
       "suprafata_mp": 19602.6,
-      "auto_count": 8,
+      "auto_count": 4,
       "datorii_ron": 175569.11
     },
     {
@@ -2520,7 +2520,7 @@
       "conturi_ron": 282440.0,
       "imobile_count": 3,
       "suprafata_mp": 1115.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 548000.0
     },
     {
@@ -3312,7 +3312,7 @@
       "conturi_ron": 190000.0,
       "imobile_count": 3,
       "suprafata_mp": 5258.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -3324,7 +3324,7 @@
       "conturi_ron": 15000.0,
       "imobile_count": 8,
       "suprafata_mp": 1132.0,
-      "auto_count": 7,
+      "auto_count": 3,
       "datorii_ron": 0.0
     },
     {
@@ -3335,8 +3335,8 @@
       "venituri_ron": 782130.0,
       "conturi_ron": 161847.0,
       "imobile_count": 22,
-      "suprafata_mp": 266045.4,
-      "auto_count": 6,
+      "suprafata_mp": 366045.4,
+      "auto_count": 2,
       "datorii_ron": 221774.0
     },
     {
@@ -3348,7 +3348,7 @@
       "conturi_ron": 75000.0,
       "imobile_count": 5,
       "suprafata_mp": 1545.47,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 326500.0
     },
     {
@@ -3360,7 +3360,7 @@
       "conturi_ron": 198000.0,
       "imobile_count": 4,
       "suprafata_mp": 1812.44,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -3372,7 +3372,7 @@
       "conturi_ron": 315000.0,
       "imobile_count": 3,
       "suprafata_mp": 2391.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 0.0
     },
     {
@@ -3384,7 +3384,7 @@
       "conturi_ron": 198000.0,
       "imobile_count": 11,
       "suprafata_mp": 3285.78,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 174500.0
     },
     {
@@ -3396,7 +3396,7 @@
       "conturi_ron": 620306.0,
       "imobile_count": 6,
       "suprafata_mp": 3794.0,
-      "auto_count": 8,
+      "auto_count": 4,
       "datorii_ron": 1542908.8499999999
     },
     {
@@ -3408,7 +3408,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 5,
       "suprafata_mp": 3464.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -3420,7 +3420,7 @@
       "conturi_ron": 140000.0,
       "imobile_count": 8,
       "suprafata_mp": 7157.700000000001,
-      "auto_count": 8,
+      "auto_count": 4,
       "datorii_ron": 0.0
     },
     {
@@ -3432,7 +3432,7 @@
       "conturi_ron": 1325364.0,
       "imobile_count": 28,
       "suprafata_mp": 48843.880000000005,
-      "auto_count": 10,
+      "auto_count": 6,
       "datorii_ron": 663000.0
     },
     {
@@ -3444,7 +3444,7 @@
       "conturi_ron": 60000.0,
       "imobile_count": 2,
       "suprafata_mp": 196.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 121607.0
     },
     {
@@ -3456,7 +3456,7 @@
       "conturi_ron": 75000.0,
       "imobile_count": 1,
       "suprafata_mp": 68.0,
-      "auto_count": 7,
+      "auto_count": 3,
       "datorii_ron": 90564.0
     },
     {
@@ -3468,7 +3468,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 1163.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 130000.0
     },
     {
@@ -3552,7 +3552,7 @@
       "conturi_ron": 12500.0,
       "imobile_count": 1,
       "suprafata_mp": 62.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 277750.0
     },
     {
@@ -3564,7 +3564,7 @@
       "conturi_ron": 1475424.0,
       "imobile_count": 9,
       "suprafata_mp": 12204.050000000001,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 234833.0
     },
     {
@@ -3576,7 +3576,7 @@
       "conturi_ron": 50000.0,
       "imobile_count": 10,
       "suprafata_mp": 2121.05,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 54000.0
     },
     {
@@ -3588,7 +3588,7 @@
       "conturi_ron": 197325.75,
       "imobile_count": 5,
       "suprafata_mp": 1581.76,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 1050000.0
     },
     {
@@ -3600,7 +3600,7 @@
       "conturi_ron": 2964498.0,
       "imobile_count": 9,
       "suprafata_mp": 5364.429999999999,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 0.0
     },
     {
@@ -3612,7 +3612,7 @@
       "conturi_ron": 528330.0,
       "imobile_count": 6,
       "suprafata_mp": 5791.12,
-      "auto_count": 7,
+      "auto_count": 3,
       "datorii_ron": 0.0
     },
     {
@@ -3624,7 +3624,7 @@
       "conturi_ron": 80000.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 110000.0
     },
     {
@@ -3636,7 +3636,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 9,
       "suprafata_mp": 9072.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -3648,7 +3648,7 @@
       "conturi_ron": 120000.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -3660,7 +3660,7 @@
       "conturi_ron": 8103378.59,
       "imobile_count": 10,
       "suprafata_mp": 7910.82,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 100000.0
     },
     {
@@ -3672,7 +3672,7 @@
       "conturi_ron": 205852.8,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 130000.0
     },
     {
@@ -3684,7 +3684,7 @@
       "conturi_ron": 155000.0,
       "imobile_count": 8,
       "suprafata_mp": 2109.81,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 469638.00749999995
     },
     {
@@ -3696,7 +3696,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 1,
       "suprafata_mp": 90.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 181800.0
     },
     {
@@ -3708,7 +3708,7 @@
       "conturi_ron": 12962254.549999999,
       "imobile_count": 1,
       "suprafata_mp": 1490.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -3720,7 +3720,7 @@
       "conturi_ron": 50000.0,
       "imobile_count": 8,
       "suprafata_mp": 5989.95,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 0.0
     },
     {
@@ -3732,7 +3732,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 14,
       "suprafata_mp": 4170.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 150000.0
     },
     {
@@ -3744,7 +3744,7 @@
       "conturi_ron": 101871.0,
       "imobile_count": 6,
       "suprafata_mp": 1102.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -3756,7 +3756,7 @@
       "conturi_ron": 99807.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -3768,7 +3768,7 @@
       "conturi_ron": 50500.0,
       "imobile_count": 11,
       "suprafata_mp": 15861.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 556000.0
     },
     {
@@ -3780,7 +3780,7 @@
       "conturi_ron": 165000.0,
       "imobile_count": 1,
       "suprafata_mp": 80.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 0.0
     },
     {
@@ -4020,7 +4020,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 5,
       "suprafata_mp": 13370.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 0.0
     },
     {
@@ -4032,7 +4032,7 @@
       "conturi_ron": 147500.0,
       "imobile_count": 14,
       "suprafata_mp": 91764.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 500000.0
     },
     {
@@ -4044,7 +4044,7 @@
       "conturi_ron": 466453.1,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 40000.0
     },
     {
@@ -4056,7 +4056,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 1292.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -4068,7 +4068,7 @@
       "conturi_ron": 25250.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -4080,7 +4080,7 @@
       "conturi_ron": 250000.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -4092,7 +4092,7 @@
       "conturi_ron": 79890.0,
       "imobile_count": 16,
       "suprafata_mp": 3431.9900000000002,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 123888.0
     },
     {
@@ -4104,7 +4104,7 @@
       "conturi_ron": 348200.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -4116,7 +4116,7 @@
       "conturi_ron": 107500.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 240000.0
     },
     {
@@ -4128,7 +4128,7 @@
       "conturi_ron": 572188.0,
       "imobile_count": 2,
       "suprafata_mp": 3300.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -4140,7 +4140,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 6,
       "suprafata_mp": 6890.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 125000.0
     },
     {
@@ -4152,7 +4152,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 9,
       "suprafata_mp": 20439.600000000002,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 214189.0
     },
     {
@@ -4164,7 +4164,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 350.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 106220.0
     },
     {
@@ -4176,7 +4176,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 17000.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 635300.0
     },
     {
@@ -4188,7 +4188,7 @@
       "conturi_ron": 140000.0,
       "imobile_count": 3,
       "suprafata_mp": 190.72,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -4200,7 +4200,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 820.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -4212,7 +4212,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 5,
       "suprafata_mp": 10376.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 0.0
     },
     {
@@ -4224,7 +4224,7 @@
       "conturi_ron": 55550.0,
       "imobile_count": 8,
       "suprafata_mp": 20220.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 91935.25
     },
     {
@@ -4236,7 +4236,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 8868.0,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 108900.0
     },
     {
@@ -4248,7 +4248,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 0.0
     },
     {
@@ -4260,7 +4260,7 @@
       "conturi_ron": 1357982.0,
       "imobile_count": 2,
       "suprafata_mp": 8333.0,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 0.0
     },
     {
@@ -4272,7 +4272,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 4,
       "suprafata_mp": 1650.3,
-      "auto_count": 4,
+      "auto_count": 0,
       "datorii_ron": 437377.0
     },
     {
@@ -4284,7 +4284,7 @@
       "conturi_ron": 98832.0,
       "imobile_count": 14,
       "suprafata_mp": 42479.6,
-      "auto_count": 5,
+      "auto_count": 1,
       "datorii_ron": 900000.0
     },
     {
@@ -4296,7 +4296,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 8,
       "suprafata_mp": 2970.9999999999995,
-      "auto_count": 7,
+      "auto_count": 3,
       "datorii_ron": 1678137.3
     },
     {
@@ -4308,7 +4308,7 @@
       "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 2418.29,
-      "auto_count": 6,
+      "auto_count": 2,
       "datorii_ron": 272700.0
     },
     {

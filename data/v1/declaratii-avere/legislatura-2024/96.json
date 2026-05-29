@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-26T18:58:12.035213Z",
+    "generated_at": "2026-05-29T09:05:05.436866Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2024",
     "scraper_version": "0.1.0",
     "count": 2
@@ -24,7 +24,7 @@
         "conturi_total_ron": 12962254.549999999,
         "venituri_anuale_ron": 197808.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
+        "auto_count": 1,
         "imobile_detaliate": []
       },
       {
@@ -38,7 +38,7 @@
         "conturi_total_ron": 11542022.2,
         "venituri_anuale_ron": 203880.0,
         "datorii_total_ron": 0.0,
-        "auto_count": 5,
+        "auto_count": 1,
         "imobile_detaliate": []
       }
     ],

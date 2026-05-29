@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:47:29.938974Z",
+    "generated_at": "2026-05-29T09:06:18.539938Z",
     "source_url": "https://endimion2k.github.io/cdep-api-poc/data/v1/declaratii-avere/legislatura-2024.json",
     "scraper_version": "0.1.0",
     "count": 332,
@@ -388,7 +388,7 @@
         "value": 85,
         "n_declaratii": 2,
         "detail_url": "declaratii-avere/legislatura-2024/153.json",
-        "suprafata_mp": 1897569.0
+        "suprafata_mp": 12197569.0
       },
       {
         "cdep_idm": 88,
@@ -415,7 +415,7 @@
         "value": 39,
         "n_declaratii": 1,
         "detail_url": "declaratii-avere/legislatura-2024/228.json",
-        "suprafata_mp": 205645.0
+        "suprafata_mp": 305645.0
       },
       {
         "cdep_idm": 318,
@@ -496,7 +496,7 @@
         "value": 22,
         "n_declaratii": 1,
         "detail_url": "declaratii-avere/legislatura-2024/28.json",
-        "suprafata_mp": 266045.4
+        "suprafata_mp": 366045.4
       },
       {
         "cdep_idm": 227,
@@ -949,7 +949,7 @@
       "median_venituri": 144541.73,
       "median_datorii": 64650.0,
       "total_imobile": 300,
-      "total_suprafata_mp": 802007.6,
+      "total_suprafata_mp": 902007.6,
       "conturi_values": [
         0.0,
         0.0,
@@ -1023,7 +1023,7 @@
       "median_venituri": 342975.0,
       "median_datorii": 150000.0,
       "total_imobile": 441,
-      "total_suprafata_mp": 3282680.9,
+      "total_suprafata_mp": 13682680.9,
       "conturi_values": [
         198000.0,
         304400.0,
@@ -1142,7 +1142,7 @@
       "median_venituri": 248900.0,
       "median_datorii": 75000.0,
       "total_imobile": 159,
-      "total_suprafata_mp": 735174.1,
+      "total_suprafata_mp": 835174.1,
       "conturi_values": [
         0.0,
         161847.0,
@@ -1260,7 +1260,7 @@
       "median_venituri": 252217.0,
       "median_datorii": 78100.0,
       "total_imobile": 109,
-      "total_suprafata_mp": 801056.7,
+      "total_suprafata_mp": 1001056.7,
       "conturi_values": [
         0.0,
         49000.0,

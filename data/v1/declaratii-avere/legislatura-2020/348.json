@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T19:25:51.459172Z",
+    "generated_at": "2026-05-29T09:05:06.988792Z",
     "source_url": "https://www.cdep.ro/ords/pls/dic/declaratii2015.deputati?tip=ai&leg=2020",
     "scraper_version": "0.1.0",
     "count": 2
@@ -20,11 +20,11 @@
         "error": null,
         "terenuri_count": 25,
         "cladiri_count": 7,
-        "suprafata_total_mp": 443806.75,
+        "suprafata_total_mp": 743806.75,
         "conturi_total_ron": 8290547.0,
         "venituri_anuale_ron": 396237.0,
         "datorii_total_ron": 1160000.0,
-        "auto_count": 4,
+        "auto_count": 0,
         "imobile_detaliate": []
       },
       {
@@ -34,11 +34,11 @@
         "error": null,
         "terenuri_count": 25,
         "cladiri_count": 7,
-        "suprafata_total_mp": 443806.75,
+        "suprafata_total_mp": 743806.75,
         "conturi_total_ron": 8290547.0,
         "venituri_anuale_ron": 396237.0,
         "datorii_total_ron": 1160000.0,
-        "auto_count": 4,
+        "auto_count": 0,
         "imobile_detaliate": []
       }
     ],
