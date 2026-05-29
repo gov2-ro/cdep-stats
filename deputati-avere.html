@@ -191,10 +191,16 @@ function magGroup(v){
   return Math.floor(Math.log10(v));
 }
 
-// Circle diameter: sqrt-scale normalised to maxValue, clamped [12, 68]
+// ── Circle size tuning ───────────────────────────────────────────────
+// Multiply CIRCLE_SCALE to resize all circles uniformly (base range 12–68 px).
+const CIRCLE_SCALE = 1.25;
+const CIRC_MIN = 12 * CIRCLE_SCALE;   // ~15 px  (null / zero value)
+const CIRC_MAX = 68 * CIRCLE_SCALE;   // ~85 px  (largest value)
+// ─────────────────────────────────────────────────────────────────────
+
 function circleSize(v,maxV){
-  if(v==null||v<=0||maxV<=0)return 12;
-  return Math.round(Math.max(12,Math.min(68,12+56*Math.sqrt(v/maxV))));
+  if(v==null||v<=0||maxV<=0)return CIRC_MIN;
+  return Math.round(Math.max(CIRC_MIN,Math.min(CIRC_MAX,CIRC_MIN+(CIRC_MAX-CIRC_MIN)*Math.sqrt(v/maxV))));
 }
 
 function initials(name){
