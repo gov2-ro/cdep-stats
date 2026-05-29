@@ -4,6 +4,10 @@ Chronological record of meaningful work. Newest entries on top within each secti
 
 ## Data Quality
 
+### 2026-05-29 — Add derived aggregate fields to avere parser + schema
+
+Added 7 derived fields computed at parse time: `total_active_monetare_ron` (conturi + plasamente + bijuterii), `avere_neta_ron` (total_active − datorii), `nr_judete` (distinct counties with property), `nr_companii` (number of company stakes/loans), `terenuri_forestiere_count`, `terenuri_agricole_count`, `an_prima_proprietate`. Added corresponding 5 `ultima_*` snapshot fields to `AvereDeputat` and `AvereSummary`. All monetary values already in RON (converted via fixed May-2026 rates at parse time). 34 unit tests passing.
+
 ### 2026-05-29 — Full PDF extraction pipeline: all ANI form sections + per-row detail lists
 
 **What was done**
