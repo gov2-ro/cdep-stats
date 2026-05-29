@@ -50,10 +50,22 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
 .logo{font-size:15px;font-weight:600;color:var(--text)}
 .logo span{color:var(--green)}
 .badge{font-size:11px;padding:3px 8px;border-radius:4px;font-family:var(--mono);background:var(--green-bg);color:var(--green-text);font-weight:500}
-.nav{margin-left:auto;display:flex;gap:4px}
-.nav a{font-size:13px;padding:6px 12px;border-radius:var(--radius-sm);color:var(--text2)}
+.nav{margin-left:auto;display:flex;gap:2px;align-items:center}
+.nav a{font-size:13px;padding:6px 10px;border-radius:var(--radius-sm);color:var(--text2)}
 .nav a:hover{background:var(--bg2);text-decoration:none}
 .nav a.active{color:var(--text);font-weight:500}
+.nav-dd{position:relative;display:flex;align-items:center}
+.info-btn{font-size:13px;padding:5px 9px;border-radius:var(--radius-sm);color:var(--text2);background:none;border:none;cursor:pointer;display:flex;align-items:center;gap:3px;line-height:1;height:32px}
+.info-btn:hover{background:var(--bg2)}
+.info-btn.active{color:var(--text);font-weight:500;background:var(--bg2)}
+.info-caret{font-size:9px;opacity:.6;transition:transform .15s}
+.info-btn[aria-expanded=true] .info-caret{transform:rotate(180deg)}
+.info-menu{position:absolute;top:calc(100% + 4px);left:0;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);box-shadow:0 4px 16px rgba(0,0,0,.12);min-width:148px;z-index:200;display:none;padding:4px}
+.info-menu.open{display:block}
+.info-menu a{display:block;padding:7px 12px;font-size:13px;color:var(--text2);text-decoration:none;border-radius:4px;white-space:nowrap}
+.info-menu a:hover{background:var(--bg2);color:var(--text)}
+.info-menu a.active{color:var(--text);font-weight:500;background:var(--bg3)}
+.info-menu hr{border:none;border-top:1px solid var(--border);margin:4px 0}
 
 /* Hero */
 .hero{max-width:1100px;margin:0 auto;padding:48px 24px 32px}
@@ -189,17 +201,26 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
     <span class="logo" aria-label="cdep API logo">cdep<span>.api</span></span>
     <span class="badge">v1.0 DRAFT</span>
     <nav class="nav" role="navigation" aria-label="Navigație principală">
-      <a href="#" class="active" onclick="showPage('docs',this)"><span data-i18n="docs">Documentație</span></a>
-      <a href="#" onclick="showPage('demo',this)"><span data-i18n="demo">Demo</span></a>
-      <a href="#" onclick="showPage('stats',this)"><span data-i18n="stats">Statistici</span></a>
-      <a href="avere.html" style="margin-left:8px"><span data-i18n="nav_avere">Averi</span> ↗</a>
-      <a href="deputati-avere.html">Cercuri avere ↗</a>
-      <a href="deputati-activitate.html">Activitate ↗</a>
-      <a href="interpelari-stats.html">Interpelări ↗</a>
-      <a href="proiecte-stats.html">Proiecte ↗</a>
-      <a href="search.html"><span data-i18n="search">Caută</span> ↗</a>
-      <a href="docs/swagger.html"><span data-i18n="swagger">Swagger UI</span> ↗</a>
-      <span id="lang-toggle-slot" style="margin-left:8px;display:flex;align-items:center"></span>
+      <div class="nav-dd" id="info-dd">
+        <button class="info-btn" id="info-btn" onclick="toggleInfo(event)"
+                aria-haspopup="true" aria-expanded="false" aria-label="Info">
+          ⓘ <span class="info-caret">▾</span>
+        </button>
+        <div class="info-menu" id="info-menu">
+          <a href="#" class="active" onclick="showPage('docs',this)" data-i18n="docs">Documentație</a>
+          <a href="#" onclick="showPage('demo',this)" data-i18n="demo">Demo</a>
+          <a href="#" onclick="showPage('stats',this)" data-i18n="stats">Statistici</a>
+          <hr>
+          <a href="docs/swagger.html" data-i18n="swagger">Swagger UI</a>
+        </div>
+      </div>
+      <a href="avere.html" data-i18n="nav_avere">Averi</a>
+      <a href="deputati-avere.html">Cercuri avere</a>
+      <a href="deputati-activitate.html">Activitate</a>
+      <a href="interpelari-stats.html">Interpelări</a>
+      <a href="proiecte-stats.html">Proiecte</a>
+      <a href="search.html" data-i18n="search">Caută</a>
+      <span id="lang-toggle-slot" style="margin-left:6px;display:flex;align-items:center"></span>
     </nav>
   </div>
 </header>
@@ -1104,13 +1125,29 @@ function tryEndpoint(btn, key) {
   wrap.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
+function toggleInfo(e) {
+  e.stopPropagation();
+  const menu = document.getElementById('info-menu');
+  const btn = document.getElementById('info-btn');
+  const open = menu.classList.toggle('open');
+  btn.setAttribute('aria-expanded', open);
+}
+function closeInfo() {
+  document.getElementById('info-menu')?.classList.remove('open');
+  document.getElementById('info-btn')?.setAttribute('aria-expanded', 'false');
+}
+document.addEventListener('click', () => closeInfo());
+
 function showPage(id, link) {
-  document.querySelectorAll('.nav a').forEach(a => a.classList.remove('active'));
+  document.querySelectorAll('.nav a, .info-menu a').forEach(a => a.classList.remove('active'));
   link.classList.add('active');
+  const inDropdown = !!link.closest('#info-menu');
+  document.getElementById('info-btn')?.classList.toggle('active', inDropdown);
   ['docs', 'demo', 'stats'].forEach(p => {
     const el = document.getElementById('page-' + p);
     if (el) el.style.display = p === id ? 'block' : 'none';
   });
+  closeInfo();
 }
 
 function scrollTo(id) {
