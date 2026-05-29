@@ -4,6 +4,25 @@ Chronological record of meaningful work. Newest entries on top within each secti
 
 ## Dashboards
 
+### 2026-05-29 — Deputies Avere Circle Dashboard — implementation
+
+Built `deputati-avere.html` — per-deputy wealth visualization as a circle grid.
+
+**What was done**
+- New build script `scripts/build_avere_deputies.py`: joins avere index + per-deputy detail files + deputati index. Emits `data/v1/stats/avere-deputies-2024.json` with 332 deputies and a `parties` lookup dict.
+- New page `deputati-avere.html`: sticky toolbar (Cercuri/Listă toggle, metric dropdown, party chips, search, count badge), circle grid sorted descending by selected metric, circles sized by √(value/max) clamped [12, 68]px, party badge overlaid at circle bottom, photo with initials fallback, hover tooltip, click opens raw detail JSON.
+- i18n keys added to `i18n.js` (ro + en) for all toolbar labels and metric names.
+- Link added to `avere.html` header: "⬤ Vizualizare cercuri ↗".
+- 6 unit tests covering join logic, null handling, and parties dict.
+
+**Decisions**
+- `build_leg(leg, root=ROOT)` accepts an explicit `root` parameter so tests can point at `tmp_path` without module patching.
+- All 2024 deputies have declarations, so null-val deputies (greyed at 12px) only appear if a future leg has deputies without filings — the path is implemented and tested via fixtures.
+- `parties` dict in JSON is the full historical CSV (319 entries); the page builds chips only from parties actually present in the deputies array.
+- Liste view button present but disabled (deferred per spec).
+
+---
+
 ### 2026-05-28 — Deputies avere visual dashboard — design spec
 
 Brainstormed and specced a new per-deputy wealth visualization page (`deputati-avere.html`).
