@@ -69,20 +69,34 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
 .error{padding:24px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius);margin:20px 0}
 .footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
 .footer a{color:var(--text2)}
+.dep-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.dep-table{width:100%;border-collapse:collapse;font-size:12px;min-width:680px}
+.dep-table thead th{padding:9px 10px;background:var(--bg2);border-bottom:2px solid var(--border);font-weight:500;color:var(--text3);cursor:pointer;white-space:nowrap;user-select:none;text-align:left}
+.dep-table thead th.sort-active{color:var(--blue);border-bottom-color:var(--blue)}
+.dep-table thead th.sort-name{cursor:default;min-width:160px;position:sticky;left:0;z-index:1;background:var(--bg2)}
+.dep-table tbody tr{border-bottom:1px solid var(--border);cursor:pointer}
+.dep-table tbody tr:hover{background:var(--bg2)}
+.dep-table tbody td{padding:6px 10px;vertical-align:middle}
+.dep-table td.td-name{position:sticky;left:0;background:var(--bg);white-space:nowrap;z-index:1}
+.dep-table tbody tr:hover td.td-name{background:var(--bg2)}
+.bar-cell-val{font-size:11px;margin-bottom:3px;font-variant-numeric:tabular-nums}
+.bar-cell-track{height:3px;background:var(--bg3);border-radius:2px;width:80px}
+.bar-cell-fill{height:100%;border-radius:2px;opacity:0.75}
+.dep-table .null-val{color:var(--text3);font-style:italic;font-size:11px}
 </style>
 </head>
 <body>
 
 <header class="header">
   <div class="header-inner">
-    <a href="index.html" class="logo">cdep<span>.api</span></a>
+    <a href="index.html" class="logo">cdep<span>-api</span> <em>stats</em></a>
     <nav class="nav">
       <a href="avere.html">Averi</a>
-      <a href="deputati-avere.html">Averi<sup>ALT</sup></a>
+      <a href="deputati-avere.html">Averi++</a>
       <a href="deputati-activitate.html" class="active">Activitate</a>
       <a href="interpelari-stats.html">Interpelări</a>
       <a href="proiecte-stats.html">Proiecte</a>
-      <a href="search.html" data-i18n="search">Caută</a>
+      <!-- <a href="search.html" data-i18n="search">Caută</a> -->
       <span id="lang-toggle-slot" style="margin-left:4px;display:flex;align-items:center"></span>
     </nav>
   </div>
@@ -91,6 +105,10 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
 <div class="toolbar">
   <div class="toolbar-inner">
     <div class="view-toggle" id="leg-toggle"></div>
+    <div class="view-toggle">
+      <button class="view-btn active" id="btn-circles">⬤ Cercuri</button>
+      <button class="view-btn" id="btn-table">≡ Tabel</button>
+    </div>
     <select class="metric-select" id="metric-select">
       <option value="activitate_sedinte">Ședințe (prezență)</option>
       <option value="activitate_luari_cuvant">Luări de cuvânt</option>
@@ -170,6 +188,16 @@ function initials(name){
 }
 
 let ALL=[],PARTIES={},activeParties=new Set(),query='',metric='activitate_sedinte';
+let viewMode='circles', sortKey=null, sortDir='desc';
+
+const COLUMNS=[
+  {key:'activitate_sedinte',               label:'Ședințe',    fmt:v=>fmtVal(v), isDebt:false},
+  {key:'activitate_luari_cuvant',          label:'Cuvânt',     fmt:v=>fmtVal(v), isDebt:false},
+  {key:'activitate_propuneri_legislative', label:'Propuneri',  fmt:v=>fmtVal(v), isDebt:false},
+  {key:'activitate_legi_promulgate',       label:'Legi',       fmt:v=>fmtVal(v), isDebt:false},
+  {key:'activitate_declaratii_politice',   label:'Declarații', fmt:v=>fmtVal(v), isDebt:false},
+  {key:'activitate_intrebari_interpelari', label:'Întrebări',  fmt:v=>fmtVal(v), isDebt:false},
+];
 
 function filtered(){
   return ALL.filter(d=>activeParties.has(d.partid)&&(!query||d.name.toLowerCase().includes(query)));
@@ -178,15 +206,87 @@ function sorted(deps){
   return[...deps].sort((a,b)=>(b[metric]||0)-(a[metric]||0));
 }
 
-function render(){
-  const deps=sorted(filtered());
-  const grid=document.getElementById('circle-grid');
-  const vals=deps.map(d=>d[metric]||0).filter(v=>v>0);
-  const maxV=vals.length?Math.max(...vals):1;
+function renderTable(){
+  const deps=filtered();
+  if(!deps.length)return'<p style="color:var(--text3);padding:40px 0">Niciun deputat.</p>';
 
-  document.getElementById('count-badge').textContent=deps.length+' deputați';
+  const sk=sortKey||COLUMNS[0].key;
+  const rows=[...deps].sort((a,b)=>{
+    const av=a[sk]??null,bv=b[sk]??null;
+    if(av===null&&bv===null)return 0;
+    if(av===null)return 1;
+    if(bv===null)return-1;
+    return sortDir==='asc'?av-bv:bv-av;
+  });
+
+  const maxes=Object.fromEntries(COLUMNS.map(c=>[c.key,Math.max(0,...deps.map(d=>Math.abs(d[c.key]??0)))]));
+
+  const headers=COLUMNS.map(c=>{
+    const active=c.key===sk;
+    const arrow=active?(sortDir==='desc'?' ↓':' ↑'):'';
+    return`<th class="dep-table-th${active?' sort-active':''}" data-sort="${c.key}" style="min-width:90px">${c.label}${arrow}</th>`;
+  }).join('');
+
+  const bodyRows=rows.map(d=>{
+    const url=`deputat.html?id=${d.cdep_idm}&leg=${LEG}`;
+    const color=partyColor(d.partid);
+    const logo=PARTIES[d.partid];
+    const ini=initials(d.name);
+    const shortName=d.name.split(',')[0].trim();
+    const photoHtml=d.image
+      ?`<img src="${d.image}" alt="" onerror="this.style.display='none';this.nextSibling.style.display='flex'" style="width:28px;height:28px;border-radius:50%;object-fit:cover;flex-shrink:0"><div style="display:none;width:28px;height:28px;border-radius:50%;background:${color};align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff;flex-shrink:0">${ini}</div>`
+      :`<div style="width:28px;height:28px;border-radius:50%;background:${color};display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff;flex-shrink:0">${ini}</div>`;
+    const badgeImg=logo?`<img src="data/assets/imagini/partide/${logo}" onerror="this.style.display='none'" style="width:10px;height:10px;object-fit:contain;margin-right:2px;vertical-align:middle">`:'';
+
+    const cells=COLUMNS.map(c=>{
+      const v=d[c.key];
+      const active=c.key===sk;
+      if(v==null)return`<td class="dep-table-td"><span class="null-val">—</span></td>`;
+      const mx=maxes[c.key];
+      const barW=mx>0?Math.min(100,Math.abs(v)/mx*100).toFixed(1):0;
+      const valColor=active?'var(--blue)':'var(--text2)';
+      const fillColor=active?'var(--blue)':'var(--border2)';
+      return`<td class="dep-table-td">
+        <div class="bar-cell-val" style="color:${valColor}">${c.fmt(v)}</div>
+        <div class="bar-cell-track"><div class="bar-cell-fill" style="width:${barW}%;background:${fillColor}"></div></div>
+      </td>`;
+    }).join('');
+
+    return`<tr class="dep-table-row" onclick="location.href='${url}'">
+      <td class="dep-table-td td-name">
+        <div style="display:flex;align-items:center;gap:8px">
+          ${photoHtml}
+          <div>
+            <div style="font-size:12px;color:var(--text);font-weight:500">${shortName}</div>
+            <span style="font-size:10px;padding:1px 5px;border-radius:3px;background:${color}22;color:${color}">${badgeImg}${d.partid}</span>
+          </div>
+        </div>
+      </td>${cells}
+    </tr>`;
+  }).join('');
+
+  return`<div class="dep-table-wrap">
+    <table class="dep-table">
+      <thead><tr>
+        <th class="dep-table-th sort-name">Deputat</th>${headers}
+      </tr></thead>
+      <tbody>${bodyRows}</tbody>
+    </table>
+  </div>`;
+}
+
+function render(){
+  const unfiltered=filtered();
+  document.getElementById('count-badge').textContent=unfiltered.length+' deputați';
+  const grid=document.getElementById('circle-grid');
+
+  if(viewMode==='table'){grid.innerHTML=renderTable();return;}
+
   document.getElementById('page-sub').textContent=
     `Fiecare cerc = un deputat · ${METRIC_LABELS[metric]||metric} · legislatura ${LEG}`;
+  const deps=sorted(unfiltered);
+  const vals=deps.map(d=>d[metric]||0).filter(v=>v>0);
+  const maxV=vals.length?Math.max(...vals):1;
 
   if(!deps.length){grid.innerHTML='<p style="color:var(--text3);padding:40px 0">Niciun deputat.</p>';return;}
 
@@ -269,6 +369,41 @@ async function load(){
 
 document.getElementById('metric-select').addEventListener('change',e=>{metric=e.target.value;render();});
 document.getElementById('search-input').addEventListener('input',e=>{query=e.target.value.toLowerCase().trim();render();});
+
+document.getElementById('btn-circles').addEventListener('click',()=>{
+  if(viewMode==='circles')return;
+  viewMode='circles';
+  document.getElementById('btn-circles').classList.add('active');
+  document.getElementById('btn-table').classList.remove('active');
+  document.getElementById('metric-select').style.display='';
+  const metricKeys=COLUMNS.map(c=>c.key);
+  if(sortKey&&metricKeys.includes(sortKey)){
+    metric=sortKey;
+    document.getElementById('metric-select').value=metric;
+  }
+  render();
+});
+
+document.getElementById('btn-table').addEventListener('click',()=>{
+  if(viewMode==='table')return;
+  viewMode='table';
+  document.getElementById('btn-table').classList.add('active');
+  document.getElementById('btn-circles').classList.remove('active');
+  document.getElementById('metric-select').style.display='none';
+  if(!sortKey)sortKey=metric;
+  render();
+});
+
+document.getElementById('circle-grid').addEventListener('click',e=>{
+  const th=e.target.closest('[data-sort]');
+  if(!th)return;
+  const key=th.dataset.sort;
+  if(sortKey===key){
+    if(sortDir==='desc')sortDir='asc';
+    else{sortKey=null;sortDir='desc';}
+  }else{sortKey=key;sortDir='desc';}
+  render();
+});
 
 load();
 </script>
