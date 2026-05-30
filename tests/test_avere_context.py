@@ -110,9 +110,9 @@ def _make_records(overrides=None):
 
 def _make_dep_lookup():
     return {
-        "aaa": {"birth_date": "1974-01-01", "judet": "Ilfov"},
-        "bbb": {"birth_date": "1980-06-15", "judet": "Cluj"},
-        "ccc": {"birth_date": "1974-05-20", "judet": "Ilfov"},
+        "1": {"birth_date": "1974-01-01", "judet": "Ilfov"},
+        "2": {"birth_date": "1980-06-15", "judet": "Cluj"},
+        "3": {"birth_date": "1974-05-20", "judet": "Ilfov"},
     }
 
 

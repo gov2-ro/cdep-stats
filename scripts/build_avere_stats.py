@@ -146,15 +146,15 @@ def _rank_from_top(val: float, all_vals: list[float]) -> int:
 
 
 def _load_deputati_lookup(leg: int) -> dict[str, dict]:
-    """Returns {canonical_id: {birth_date, judet}} from deputati index."""
+    """Returns {str(cdep_idm): {birth_date, judet}} from deputati index."""
     dep_file = ROOT / "data" / "v1" / "deputati" / f"legislatura-{leg}.json"
     if not dep_file.exists():
         return {}
     deps = json.loads(dep_file.read_text(encoding="utf-8")).get("data", [])
     return {
-        d["id"]: {"birth_date": d.get("birth_date"), "judet": d.get("judet")}
+        str(d["cdep_idm"]): {"birth_date": d.get("birth_date"), "judet": d.get("judet")}
         for d in deps
-        if d.get("id")
+        if d.get("cdep_idm")
     }
 
 
@@ -173,7 +173,7 @@ def _build_context(
     # Attach deputati metadata
     leg_year: int = valid[0].get("legislatura", 2024) if valid else 2024
     for r in valid:
-        info = dep_lookup.get(r.get("id", ""), {})
+        info = dep_lookup.get(str(r["cdep_idm"]), {})
         r["_birth_date"] = info.get("birth_date")
         r["_judet"] = info.get("judet")
         r["_age_cohort"] = _age_cohort(r["_birth_date"], leg_year)
