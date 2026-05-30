@@ -362,7 +362,7 @@ function pushState(){
   if(metric!==COLUMNS[0].key)params.set('metric',metric);
   const allKeys=[...activeParties].sort().join(',');
   const fullKeys=[...new Set(ALL.map(d=>d.partid))].sort().join(',');
-  if(allKeys!==fullKeys)params.set('parties',[...activeParties].sort().join(','));
+  if(allKeys!==fullKeys)params.set('parties',allKeys);
   if(viewMode!=='circles')params.set('view',viewMode);
   const qs=params.toString();
   history.replaceState(null,'',qs?'?'+qs:location.pathname);
@@ -480,7 +480,7 @@ function buildPartyDropdown(partids){
 }
 
 function updatePartyDropdownBtn(){
-  const total=[...new Set(ALL.map(d=>d.partid))].length;
+  const total=parseInt(document.getElementById('party-dd-total').textContent)||0;
   const sel=activeParties.size;
   document.getElementById('party-dd-count').textContent=sel<total?`(${sel}/${total})`:'';
 }
