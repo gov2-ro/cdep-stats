@@ -271,7 +271,7 @@ function renderTable(){
     return sortDir==='asc'?av-bv:bv-av;
   });
 
-  const maxes=Object.fromEntries(COLUMNS.map(c=>[c.key,Math.max(0,...deps.map(d=>d[c.key]??0))]));
+  const maxes=Object.fromEntries(COLUMNS.map(c=>[c.key,Math.max(0,...deps.map(d=>Math.abs(d[c.key]??0)))]));
 
   const headers=COLUMNS.map(c=>{
     const active=c.key===sk;
@@ -295,7 +295,7 @@ function renderTable(){
       const active=c.key===sk;
       if(v==null)return`<td class="dep-table-td"><span class="null-val">—</span></td>`;
       const mx=maxes[c.key];
-      const barW=mx>0?Math.min(100,v/mx*100).toFixed(1):0;
+      const barW=mx>0?Math.min(100,Math.abs(v)/mx*100).toFixed(1):0;
       const valColor=active?'var(--blue)':(c.isDebt&&v>0?'var(--red-text)':'var(--text2)');
       const fillColor=active?'var(--blue)':(c.isDebt?'var(--red-text)':'var(--border2)');
       return`<td class="dep-table-td">
