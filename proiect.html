@@ -67,14 +67,14 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 <body>
 <header class="header">
   <div class="header-inner">
-    <a href="index.html" class="logo">cdep<span>.api</span></a>
+    <a href="index.html" class="logo">cdep<span>-api</span> <em>stats</em></a>
     <nav class="nav">
       <a href="avere.html">Averi</a>
       <a href="deputati-avere.html">Averi<sup>ALT</sup></a>
       <a href="deputati-activitate.html">Activitate</a>
       <a href="interpelari-stats.html">Interpelări</a>
       <a href="proiecte-stats.html">Proiecte</a>
-      <a href="search.html" data-i18n="search">Caută</a>
+      <!-- <a href="search.html" data-i18n="search">Caută</a> -->
       <span id="lang-toggle-slot" style="margin-left:4px;display:flex;align-items:center"></span>
     </nav>
   </div>
@@ -83,7 +83,7 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
   <div id="content"><div class="loading" data-i18n="loading">Se încarcă proiectul...</div></div>
 </div>
 <footer class="footer">
-  <a href="index.html" data-i18n="home">Pagina principală</a> · <a href="search.html" data-i18n="search">Caută</a> · <span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API: <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a>
+  <a href="index.html" data-i18n="home">Pagina principală</a> · <!-- <a href="search.html" data-i18n="search">Caută</a> --> · <span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API: <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a>
 </footer>
 <script>
 function getParam(n) { return new URL(window.location).searchParams.get(n); }

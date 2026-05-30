@@ -92,7 +92,7 @@ git commit -m "feat(nav): remove info dropdown menu"
 
 Locate:
 ```html
-<a href="search.html" data-i18n="search">Caută</a>
+<!-- <a href="search.html" data-i18n="search">Caută</a> -->
 ```
 
 - [ ] **Step 2: Delete the search link**

@@ -2,6 +2,17 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-05-30 — Nav polish + data refresh
+
+**What was done**
+- Renamed nav label "Averi<sup>ALT</sup>" → "Averi++" across all 12 pages for consistency with the current branding in `deputati-avere.html`.
+- Fixed logo text on older pages from `cdep.api` → `cdep-api stats` to match the landing page.
+- Commented out the broken `search.html` link from pages that still had it.
+- `index.html` landing: replaced `<ul>` link list with inline middot-separated links — cleaner visual.
+- Regenerated `data/v1/stats/avere-2024.json` — `median_conturi` updated from 4,455 to 61,100 RON following the improved PDF parser (conturi section now parsed correctly).
+
+---
+
 ### 2026-05-30 — Sortable table view for deputati-avere and deputati-activitate
 
 **What was done**
