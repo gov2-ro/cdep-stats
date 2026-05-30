@@ -23,7 +23,7 @@ import json
 import statistics
 import sys
 from collections import defaultdict
-from datetime import UTC, datetime
+from datetime import UTC, date as _date, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -116,6 +116,46 @@ def _board(rows: list[dict], reverse: bool, predicate=None) -> list[dict]:
     if predicate:
         items = [r for r in items if predicate(r)]
     return items[:TOP_N]
+
+
+def _age_cohort(birth_date_str: str | None, ref_year: int) -> str | None:
+    """Returns '50–54' bracket for age on Dec 31 of ref_year. None if missing."""
+    if not birth_date_str:
+        return None
+    try:
+        birth = _date.fromisoformat(birth_date_str)
+        ref = _date(ref_year, 12, 31)
+        # Year arithmetic avoids the leap-year drift of (ref - birth).days // 365
+        age = ref.year - birth.year - ((ref.month, ref.day) < (birth.month, birth.day))
+        start = (age // 5) * 5
+        return f"{start}–{start + 4}"
+    except (ValueError, TypeError):
+        return None
+
+
+def _pct_from_bottom(val: float, sorted_vals: list[float]) -> int:
+    """Percentile rank 0-100. Higher = wealthier. Count of values strictly below val."""
+    if not sorted_vals:
+        return 0
+    return round(sum(1 for v in sorted_vals if v < val) / len(sorted_vals) * 100)
+
+
+def _rank_from_top(val: float, all_vals: list[float]) -> int:
+    """1-indexed rank from top. Ties share the same rank."""
+    return sum(1 for v in all_vals if v > val) + 1
+
+
+def _load_deputati_lookup(leg: int) -> dict[str, dict]:
+    """Returns {canonical_id: {birth_date, judet}} from deputati index."""
+    dep_file = ROOT / "data" / "v1" / "deputati" / f"legislatura-{leg}.json"
+    if not dep_file.exists():
+        return {}
+    deps = json.loads(dep_file.read_text(encoding="utf-8"))["data"]
+    return {
+        d["id"]: {"birth_date": d.get("birth_date"), "judet": d.get("judet")}
+        for d in deps
+        if d.get("id")
+    }
 
 
 def build_leg(leg: int) -> int:
