@@ -2,6 +2,24 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-05-30 — Toolbar redesign, URL state, OG meta tags
+
+**What was done**
+- Replaced `<select id="metric-select">` with a connected segmented button strip (`.metric-btns`) on both `deputati-avere.html` and `deputati-activitate.html`. Active metric highlights blue; on mobile (≤600px) buttons wrap as individual pills.
+- Replaced party-chips inline display with a compact `[Partide ▾]` dropdown (`.party-dd`): shows party color dot, logo, name, deputy count, checkbox per row. Button label updates to `(N/total)` when filtered. Closes on outside click.
+- Removed search input and `query` state from both pages entirely.
+- Moved year toggle to far right of toolbar via DOM reorder (count badge keeps `margin-left:auto`).
+- Added `pushState()` / `applyURLState()` to both pages: params `metric`, `parties`, `view` persisted via `history.replaceState`. `leg` param carried forward if non-default.
+- Added OG meta tags (`og:title`, `og:description`, `og:url`, `og:image` 1200×630, `twitter:card: summary_large_image`) to all 6 main pages. Updated existing partial tags on `index.html`.
+- Added `scripts/generate_og.py`: starts a local HTTP server, screenshots all 6 pages at 1200×630 with Playwright, saves to `data/assets/og/`.
+
+**Decisions**
+- `pushState` preserves `?leg=` param so leg-2020 URLs remain stable across metric/party changes.
+- OG image paths use the GitHub Pages base URL; screenshots need to be committed to `data/assets/og/` for them to resolve.
+- Search removed completely — no hidden input kept, per spec.
+
+---
+
 ### 2026-05-30 — Nav polish + data refresh
 
 **What was done**
