@@ -158,6 +158,108 @@ def _load_deputati_lookup(leg: int) -> dict[str, dict]:
     }
 
 
+def _build_context(
+    valid: list[dict],
+    dep_lookup: dict[str, dict],
+) -> dict[str, dict]:
+    """Per-deputy ranking context for deputat.html.
+
+    Records must already have ``_suprafata`` and ``_datorii`` attached
+    (done by ``build_leg()`` before calling this).
+    Mutates records in-place to add ``_birth_date``, ``_judet``, ``_age_cohort``.
+
+    Returns ``{str(cdep_idm): {national, party, age, judet}}``.
+    """
+    # Attach deputati metadata
+    leg_year: int = valid[0].get("legislatura", 2024) if valid else 2024
+    for r in valid:
+        info = dep_lookup.get(r.get("id", ""), {})
+        r["_birth_date"] = info.get("birth_date")
+        r["_judet"] = info.get("judet")
+        r["_age_cohort"] = _age_cohort(r["_birth_date"], leg_year)
+
+    METRICS: list[tuple[str, str]] = [
+        ("active", "ultima_total_active_ron"),
+        ("venituri", "ultima_venituri_ron"),
+        ("imobile", "ultima_imobile_count"),
+        ("suprafata", "_suprafata"),
+        ("datorii", "_datorii"),
+    ]
+
+    # National sorted lists for percentile computation
+    nat_sorted: dict[str, list[float]] = {
+        key: sorted(float(r.get(field) or 0) for r in valid)
+        for key, field in METRICS
+    }
+    # Datorii: only non-zero deputies participate in datorii ranking
+    datorii_nonzero = sorted(v for v in nat_sorted["datorii"] if v > 0)
+
+    # All values for rank_from_top (active + venituri only)
+    all_active = [float(r.get("ultima_total_active_ron") or 0) for r in valid]
+    all_venituri = [float(r.get("ultima_venituri_ron") or 0) for r in valid]
+
+    # Group records by party / age cohort / județ
+    by_party: dict[str, list[dict]] = defaultdict(list)
+    by_age: dict[str, list[dict]] = defaultdict(list)
+    by_judet: dict[str, list[dict]] = defaultdict(list)
+    for r in valid:
+        by_party[r.get("partid_short") or "Neafiliat"].append(r)
+        if r["_age_cohort"]:
+            by_age[r["_age_cohort"]].append(r)
+        if r["_judet"]:
+            by_judet[r["_judet"]].append(r)
+
+    def _group_pcts(group: list[dict], cdep_idm: int) -> dict:
+        a_sorted = sorted(float(rec.get("ultima_total_active_ron") or 0) for rec in group)
+        v_sorted = sorted(float(rec.get("ultima_venituri_ron") or 0) for rec in group)
+        rec = next(x for x in group if x["cdep_idm"] == cdep_idm)
+        return {
+            "n": len(group),
+            "active_pct": _pct_from_bottom(float(rec.get("ultima_total_active_ron") or 0), a_sorted),
+            "venituri_pct": _pct_from_bottom(float(rec.get("ultima_venituri_ron") or 0), v_sorted),
+        }
+
+    result: dict[str, dict] = {}
+    for r in valid:
+        cdep_idm = r["cdep_idm"]
+
+        # National percentiles
+        national: dict = {"n": len(valid)}
+        for key, field in METRICS:
+            val = float(r.get(field) or 0)
+            if key == "datorii":
+                national["datorii_pct"] = (
+                    _pct_from_bottom(val, datorii_nonzero) if val > 0 else None
+                )
+            else:
+                national[f"{key}_pct"] = _pct_from_bottom(val, nat_sorted[key])
+        national["active_rank"] = _rank_from_top(float(r.get("ultima_total_active_ron") or 0), all_active)
+        national["venituri_rank"] = _rank_from_top(float(r.get("ultima_venituri_ron") or 0), all_venituri)
+
+        # Group comparisons
+        partid = r.get("partid_short") or "Neafiliat"
+        party_data = {"name": partid, **_group_pcts(by_party[partid], cdep_idm)}
+
+        cohort = r.get("_age_cohort")
+        age_data = (
+            {"cohort": cohort, **_group_pcts(by_age[cohort], cdep_idm)} if cohort else None
+        )
+
+        judet = r.get("_judet")
+        judet_data = (
+            {"name": judet, **_group_pcts(by_judet[judet], cdep_idm)} if judet else None
+        )
+
+        result[str(cdep_idm)] = {
+            "national": national,
+            "party": party_data,
+            "age": age_data,
+            "judet": judet_data,
+        }
+
+    return result
+
+
 def build_leg(leg: int) -> int:
     index_file = ROOT / "data" / "v1" / "declaratii-avere" / f"legislatura-{leg}.json"
     if not index_file.exists():
