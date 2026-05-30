@@ -381,6 +381,33 @@ def build_leg(leg: int) -> int:
 
     out_dir = ROOT / "data" / "v1" / "stats"
     out_dir.mkdir(parents=True, exist_ok=True)
+
+    # === Avere context (per-deputy ranking) ===
+    dep_lookup = _load_deputati_lookup(leg)
+    context_deputies = _build_context(valid, dep_lookup)
+
+    context_payload = {
+        "meta": {
+            **Meta(
+                generated_at=datetime.now(UTC),
+                source_url=(
+                    "https://endimion2k.github.io/cdep-api-poc/"
+                    f"data/v1/declaratii-avere/legislatura-{leg}.json"
+                ),
+                scraper_version="0.1.0",
+                count=len(valid),
+            ).model_dump(mode="json"),
+            "legislatura": leg,
+        },
+        "deputies": context_deputies,
+    }
+
+    ctx_path = out_dir / f"avere-context-{leg}.json"
+    ctx_path.write_text(
+        json.dumps(context_payload, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    print(f"OK context leg {leg}: {len(context_deputies)} deputies → {ctx_path}")
+
     out_path = out_dir / f"avere-{leg}.json"
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"OK leg {leg}: {len(valid)} deputați · {len(per_partid)} partide → {out_path}")
