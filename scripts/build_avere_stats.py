@@ -359,17 +359,19 @@ def build_leg(leg: int) -> int:
         "n_cu_evolutie": sum(1 for d in valid if d.get("n_declaratii", 0) > 1),
     }
 
+    meta_base = Meta(
+        generated_at=datetime.now(UTC),
+        source_url=(
+            "https://endimion2k.github.io/cdep-api-poc/"
+            f"data/v1/declaratii-avere/legislatura-{leg}.json"
+        ),
+        scraper_version="0.1.0",
+        count=len(valid),
+    ).model_dump(mode="json")
+
     payload = {
         "meta": {
-            **Meta(
-                generated_at=datetime.now(UTC),
-                source_url=(
-                    "https://endimion2k.github.io/cdep-api-poc/"
-                    f"data/v1/declaratii-avere/legislatura-{leg}.json"
-                ),
-                scraper_version="0.1.0",
-                count=len(valid),
-            ).model_dump(mode="json"),
+            **meta_base,
             "caveats": CAVEATS,
             "legislatura": leg,
         },
@@ -384,19 +386,13 @@ def build_leg(leg: int) -> int:
 
     # === Avere context (per-deputy ranking) ===
     dep_lookup = _load_deputati_lookup(leg)
+    # _build_context mutates valid in-place (adds _birth_date/_judet/_age_cohort);
+    # payload refs are safe because _row() and per_partid entries copy scalar values.
     context_deputies = _build_context(valid, dep_lookup)
 
     context_payload = {
         "meta": {
-            **Meta(
-                generated_at=datetime.now(UTC),
-                source_url=(
-                    "https://endimion2k.github.io/cdep-api-poc/"
-                    f"data/v1/declaratii-avere/legislatura-{leg}.json"
-                ),
-                scraper_version="0.1.0",
-                count=len(valid),
-            ).model_dump(mode="json"),
+            **meta_base,
             "legislatura": leg,
         },
         "deputies": context_deputies,
