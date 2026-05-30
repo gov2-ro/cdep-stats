@@ -280,7 +280,11 @@ function render(){
   document.getElementById('count-badge').textContent=unfiltered.length+' deputați';
   const grid=document.getElementById('circle-grid');
 
-  if(viewMode==='table'){grid.innerHTML=renderTable();return;}
+  if(viewMode==='table'){
+    document.getElementById('page-sub').textContent='';
+    grid.innerHTML=renderTable();
+    return;
+  }
 
   document.getElementById('page-sub').textContent=
     `Fiecare cerc = un deputat · ${METRIC_LABELS[metric]||metric} · legislatura ${LEG}`;
