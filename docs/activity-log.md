@@ -65,6 +65,21 @@ Fix: added `alt mijloc` to the regex alternation group.
 
 ## Dashboards
 
+### 2026-05-30 — Avere ranking section on deputy profile pages
+
+**What was done**
+- Extended `scripts/build_avere_stats.py` with four new helpers: `_load_deputati_lookup()`, `_age_cohort()`, `_pct_from_bottom()`, `_rank_from_top()`, and the main `_build_context()` function.
+- New output `data/v1/stats/avere-context-2024.json`: per-deputy percentile ranks across 5 metrics (active, venituri, imobile, suprafata, datorii) × 4 comparison groups (national, party, age cohort, județ).
+- `deputat.html` now fetches `avere-context-{leg}.json` and renders a ranking section between the stat cards and detail lists: 5 percentile bars (with national median marker) + group comparison chips.
+- 21 unit tests added in `tests/test_avere_context.py`.
+
+**Decisions**
+- Zero-datorii deputies excluded from datorii ranking (0 = no debt, not last place).
+- Group chips hidden when N < 3 (too small to be statistically meaningful).
+- `avere-context-{leg}.json` is a separate file from `avere-{leg}.json` to keep both files small and focused.
+- Age cohorts are 5-year brackets computed at December 31 of the legislature's opening year.
+- Join keyed on `cdep_idm` (not `id`) — the two datasets use incompatible hash-based ID schemes.
+
 ### 2026-05-29 — Avere sections on deputy profile page
 
 Added 5 wealth declaration sections to the bottom of `deputat.html`, loading `data/v1/declaratii-avere/legislatura-{leg}/{idm}.json` in the existing `Promise.all`. New `renderAvere()` function generates: (1) stat cards grid with total active, avere netă, nr imobile, suprafață, venituri, conturi, bijuterii, vehicule; (2) imobile grouped by category from `imobile_detaliate[]`, sorted by area descending, with parcel count; (3) vehicule list (natura + marca + an fabricație); (4) plasamente list with type tag (hidden when empty); (5) bunuri înstrăinate summary (hidden when empty). Added `fmtRON()` and `fmtMP()` helpers (M/K/plain thresholds). Missing avere file → all sections silently absent.
