@@ -76,20 +76,31 @@ a:hover{text-decoration:underline}
 
 .footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
 .footer a{color:var(--text2)}
+.rank-bar-row{margin-bottom:14px}
+.rank-bar-header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:5px}
+.rank-bar-label{font-size:13px;color:var(--text)}
+.rank-bar-value{font-size:12px;font-weight:600}
+.rank-bar-track{background:var(--bg3);border-radius:4px;height:7px;position:relative}
+.rank-bar-fill{height:100%;border-radius:4px;opacity:0.75}
+.rank-bar-median{position:absolute;top:-3px;left:50%;width:1.5px;height:13px;background:var(--border2);border-radius:1px}
+.rank-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;padding-top:14px;border-top:1px solid var(--border)}
+.rank-chip{background:var(--bg2);border-radius:var(--radius-sm);padding:8px 12px}
+.rank-chip-label{font-size:10px;color:var(--text3);margin-bottom:3px;text-transform:uppercase;letter-spacing:0.4px}
+.rank-chip-vals{font-size:12px;color:var(--text)}
 </style>
 </head>
 <body>
 
 <header class="header">
   <div class="header-inner">
-    <a href="index.html" class="logo">cdep<span>.api</span></a>
+    <a href="index.html" class="logo">cdep<span>-api</span> <em>stats</em></a>
     <nav class="nav">
       <a href="avere.html">Averi</a>
       <a href="deputati-avere.html">Averi<sup>ALT</sup></a>
       <a href="deputati-activitate.html">Activitate</a>
       <a href="interpelari-stats.html">Interpelări</a>
       <a href="proiecte-stats.html">Proiecte</a>
-      <a href="search.html" data-i18n="search">Caută</a>
+      <!-- <a href="search.html" data-i18n="search">Caută</a> -->
       <span id="lang-toggle-slot" style="margin-left:4px;display:flex;align-items:center"></span>
     </nav>
   </div>
@@ -136,7 +147,66 @@ function fmtMP(v) {
   return Math.round(v).toLocaleString('ro-RO') + ' m²';
 }
 
-function renderAvere(avere) {
+function renderAvereRanking(ctx) {
+  if (!ctx) return '';
+  const n = ctx.national.n;
+  const METRICS = [
+    { key: 'active',    label: 'Active lichide totale', color: 'var(--blue)' },
+    { key: 'venituri',  label: 'Venituri anuale',       color: 'var(--green)' },
+    { key: 'imobile',   label: 'Nr. imobile',           color: 'var(--text2)' },
+    { key: 'suprafata', label: 'Suprafață totală',       color: 'var(--text2)' },
+    { key: 'datorii',   label: 'Datorii',               color: 'var(--text2)' },
+  ];
+
+  const bars = METRICS.map(({ key, label, color }) => {
+    const pct = ctx.national[`${key}_pct`];
+    const rank = key === 'active' ? ctx.national.active_rank
+               : key === 'venituri' ? ctx.national.venituri_rank : null;
+
+    if (pct === null || pct === undefined) {
+      return `<div class="rank-bar-row">
+        <div class="rank-bar-header">
+          <span class="rank-bar-label">${label}</span>
+          <span class="rank-bar-value" style="color:var(--text3);font-style:italic">${key === 'datorii' ? 'nu figurează' : '—'}</span>
+        </div>
+        <div class="rank-bar-track"><div class="rank-bar-fill" style="width:0%"></div><div class="rank-bar-median"></div></div>
+      </div>`;
+    }
+
+    const topPct = Math.max(1, 100 - pct);
+    const rankText = rank ? ` · #${rank} din ${n}` : '';
+    return `<div class="rank-bar-row">
+      <div class="rank-bar-header">
+        <span class="rank-bar-label">${label}</span>
+        <span class="rank-bar-value" style="color:${color}">top ${topPct}%${rankText}</span>
+      </div>
+      <div class="rank-bar-track">
+        <div class="rank-bar-fill" style="width:${pct}%;background:${color}"></div>
+        <div class="rank-bar-median"></div>
+      </div>
+    </div>`;
+  }).join('');
+
+  const chips = [
+    ctx.party && ctx.party.n >= 3
+      ? `<div class="rank-chip"><div class="rank-chip-label">față de ${ctx.party.name} (${ctx.party.n} dep.)</div><div class="rank-chip-vals">active: top ${Math.max(1, 100 - ctx.party.active_pct)}% · venituri: top ${Math.max(1, 100 - ctx.party.venituri_pct)}%</div></div>`
+      : '',
+    ctx.age && ctx.age.n >= 3
+      ? `<div class="rank-chip"><div class="rank-chip-label">față de ${ctx.age.cohort} ani (${ctx.age.n} dep.)</div><div class="rank-chip-vals">active: top ${Math.max(1, 100 - ctx.age.active_pct)}% · venituri: top ${Math.max(1, 100 - ctx.age.venituri_pct)}%</div></div>`
+      : '',
+    ctx.judet && ctx.judet.n >= 3
+      ? `<div class="rank-chip"><div class="rank-chip-label">față de ${ctx.judet.name} (${ctx.judet.n} dep.)</div><div class="rank-chip-vals">active: top ${Math.max(1, 100 - ctx.judet.active_pct)}% · venituri: top ${Math.max(1, 100 - ctx.judet.venituri_pct)}%</div></div>`
+      : '',
+  ].filter(Boolean).join('');
+
+  return `<div class="section">
+    <h2>Ranking național <span style="font-weight:400;color:var(--text3);font-size:13px">· ${n} deputați cu declarație</span></h2>
+    <div>${bars}</div>
+    ${chips ? `<div class="rank-chips">${chips}</div>` : ''}
+  </div>`;
+}
+
+function renderAvere(avere, ctx = null) {
   if (!avere?.data?.declaratii?.length) return '';
   const decl = avere.data.declaratii[avere.data.declaratii.length - 1];
 
@@ -253,7 +323,7 @@ function renderAvere(avere) {
       </div>`;
   }
 
-  return sec1 + sec2 + sec3 + sec4 + sec5;
+  return sec1 + renderAvereRanking(ctx) + sec2 + sec3 + sec4 + sec5;
 }
 
 function getParam(name) {
@@ -273,15 +343,17 @@ async function loadDeputat() {
   document.getElementById('json-link').href = jsonUrl;
   document.getElementById('json-link').textContent = jsonUrl;
 
-  let dep, allInterpelari, allMotiuni, avereResp;
+  let dep, allInterpelari, allMotiuni, avereResp, avereCtx = null;
   try {
-    const [depResp, intResp, motResp, avereJson] = await Promise.all([
+    const [depResp, intResp, motResp, avereJson, ctxJson] = await Promise.all([
       fetch(jsonUrl).then(r => r.json()),
       fetch(`data/v1/interpelari/legislatura-${leg}.json`).then(r => r.json()).catch(() => null),
       fetch(`data/v1/motiuni/legislatura-${leg}.json`).then(r => r.json()).catch(() => null),
       fetch(`data/v1/declaratii-avere/legislatura-${leg}/${parseInt(id)}.json`).then(r => r.json()).catch(() => null),
+      fetch(`data/v1/stats/avere-context-${leg}.json`).then(r => r.json()).catch(() => null),
     ]);
     avereResp = avereJson;
+    avereCtx = ctxJson?.deputies?.[String(parseInt(id))] ?? null;
     const idNum = parseInt(id);
     dep = depResp.data.find(d => d.cdep_idm === idNum);
     allInterpelari = intResp?.data || [];
@@ -381,7 +453,7 @@ async function loadDeputat() {
         </a>
       </div>
     </div>
-    ${renderAvere(avereResp)}
+    ${renderAvere(avereResp, avereCtx)}
   `;
   if (typeof applyI18n === 'function') applyI18n();
 }
