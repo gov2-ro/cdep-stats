@@ -87,6 +87,31 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
 .bar-cell-track{height:3px;background:var(--bg3);border-radius:2px;width:80px}
 .bar-cell-fill{height:100%;border-radius:2px;opacity:0.75}
 .dep-table .null-val{color:var(--text3);font-style:italic;font-size:11px}
+
+/* Metric buttons */
+.metric-btns{display:flex;border:1px solid var(--border2);border-radius:var(--radius-sm);overflow:hidden;flex-shrink:0}
+.metric-btn{padding:5px 10px;font-size:12px;border:none;background:var(--bg);color:var(--text2);cursor:pointer;white-space:nowrap;border-right:1px solid var(--border2)}
+.metric-btn:last-child{border-right:none}
+.metric-btn.active{background:var(--blue-bg);color:var(--blue-text);font-weight:600}
+
+/* Party dropdown */
+.party-dd{position:relative;flex-shrink:0}
+.party-dd-btn{padding:5px 10px;font-size:12px;border:1px solid var(--border2);border-radius:var(--radius-sm);background:var(--bg);color:var(--text);cursor:pointer}
+.party-dd-pop{display:none;position:absolute;top:calc(100% + 4px);left:0;z-index:50;background:var(--bg);border:1px solid var(--border2);border-radius:var(--radius);min-width:200px;box-shadow:0 8px 24px rgba(0,0,0,.15)}
+.party-dd-pop.open{display:block}
+.party-dd-hdr{display:flex;align-items:center;gap:8px;padding:7px 12px;border-bottom:1px solid var(--border);font-size:11px;color:var(--text3)}
+.party-dd-hdr a{cursor:pointer;color:var(--blue)}
+.party-dd-hdr a:last-child{color:var(--text3)}
+.party-dd-row{display:flex;align-items:center;gap:8px;padding:7px 12px;cursor:pointer;border-bottom:1px solid var(--border);font-size:12px}
+.party-dd-row:last-child{border-bottom:none}
+.party-dd-row input[type=checkbox]{flex-shrink:0;accent-color:var(--blue);cursor:pointer}
+.party-dd-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.party-dd-count-label{margin-left:auto;font-size:10px;color:var(--text3)}
+
+@media(max-width:600px){
+  .metric-btns{flex-wrap:wrap;gap:4px;border:none}
+  .metric-btn{border-radius:var(--radius-sm);border:1px solid var(--border2)}
+}
 </style>
 </head>
 <body>
@@ -108,23 +133,30 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
 
 <div class="toolbar">
   <div class="toolbar-inner">
-    <div class="view-toggle" id="leg-toggle"></div>
     <div class="view-toggle">
       <button class="view-btn active" id="btn-circles">⬤ Cercuri</button>
       <button class="view-btn" id="btn-table">≡ Tabel</button>
     </div>
-    <select class="metric-select" id="metric-select">
-      <option value="venituri_ron" data-i18n="metric_venituri">Venituri anuale</option>
-      <option value="conturi_ron" data-i18n="metric_conturi">Conturi bancare</option>
-      <option value="imobile_count" data-i18n="metric_imobile">Nr. imobile</option>
-      <option value="suprafata_mp" data-i18n="metric_suprafata">Suprafață terenuri (mp)</option>
-      <option value="auto_count" data-i18n="metric_auto">Nr. autovehicule</option>
-      <option value="datorii_ron" data-i18n="metric_datorii">Datorii</option>
-    </select>
-    <div class="party-chips" id="party-chips"></div>
-    <input class="search-input" id="search-input" type="text" placeholder="Caută deputat…"
-           data-i18n-attr="placeholder:search_deputies">
+    <div class="metric-btns" id="metric-btns">
+      <button class="metric-btn active" data-metric="venituri_ron">Venituri</button>
+      <button class="metric-btn" data-metric="conturi_ron">Conturi</button>
+      <button class="metric-btn" data-metric="imobile_count">Imobile</button>
+      <button class="metric-btn" data-metric="suprafata_mp">Suprafață</button>
+      <button class="metric-btn" data-metric="auto_count">Auto</button>
+      <button class="metric-btn" data-metric="datorii_ron">Datorii</button>
+    </div>
+    <div class="party-dd" id="party-dd">
+      <button class="party-dd-btn" id="party-dd-btn">Partide <span id="party-dd-count"></span> ▾</button>
+      <div class="party-dd-pop" id="party-dd-pop">
+        <div class="party-dd-hdr">
+          <span id="party-dd-total"></span>
+          <a onclick="selectAllParties()">Toate</a>
+          <a onclick="selectNoParties()">Niciuna</a>
+        </div>
+      </div>
+    </div>
     <span class="count-badge" id="count-badge"></span>
+    <div class="view-toggle" id="leg-toggle"></div>
   </div>
 </div>
 
@@ -223,7 +255,7 @@ function initials(name){
   return name.slice(0,2).toUpperCase();
 }
 
-let ALL=[],PARTIES={},activeParties=new Set(),query='',metric='venituri_ron';
+let ALL=[],PARTIES={},activeParties=new Set(),metric='venituri_ron';
 let viewMode='circles', sortKey=null, sortDir='desc';
 
 const COLUMNS=[
@@ -236,11 +268,7 @@ const COLUMNS=[
 ];
 
 function filtered(){
-  return ALL.filter(d=>{
-    if(!activeParties.has(d.partid))return false;
-    if(query&&!d.name.toLowerCase().includes(query))return false;
-    return true;
-  });
+  return ALL.filter(d=>activeParties.has(d.partid));
 }
 
 function sorted(deps){
@@ -327,6 +355,46 @@ function renderTable(){
   </div>`;
 }
 
+function pushState(){
+  const params=new URLSearchParams();
+  const leg=getParam('leg');
+  if(leg&&leg!=='2024')params.set('leg',leg);
+  if(metric!==COLUMNS[0].key)params.set('metric',metric);
+  const allKeys=[...activeParties].sort().join(',');
+  const fullKeys=[...new Set(ALL.map(d=>d.partid))].sort().join(',');
+  if(allKeys!==fullKeys)params.set('parties',[...activeParties].sort().join(','));
+  if(viewMode!=='circles')params.set('view',viewMode);
+  const qs=params.toString();
+  history.replaceState(null,'',qs?'?'+qs:location.pathname);
+}
+
+function applyURLState(){
+  const params=new URLSearchParams(location.search);
+  if(params.has('metric')){
+    const m=params.get('metric');
+    if(COLUMNS.some(c=>c.key===m)){
+      metric=m;
+      document.querySelectorAll('.metric-btn').forEach(b=>
+        b.classList.toggle('active',b.dataset.metric===metric));
+    }
+  }
+  if(params.has('parties')){
+    const requested=new Set(params.get('parties').split(',').filter(Boolean));
+    activeParties=new Set([...requested].filter(p=>ALL.some(d=>d.partid===p)));
+    document.querySelectorAll('.party-dd-row input[type=checkbox]').forEach(cb=>{
+      cb.checked=activeParties.has(cb.dataset.partid);
+    });
+    updatePartyDropdownBtn();
+  }
+  if(params.get('view')==='table'){
+    viewMode='table';
+    document.getElementById('btn-table').classList.add('active');
+    document.getElementById('btn-circles').classList.remove('active');
+    document.getElementById('metric-btns').style.display='none';
+    if(!sortKey)sortKey=metric;
+  }
+}
+
 function render(){
   const unfiltered=filtered();
   document.getElementById('count-badge').textContent=unfiltered.length+' '+t('deputies_count');
@@ -388,25 +456,61 @@ function render(){
   grid.innerHTML=parts.join('');
 }
 
-function buildChips(partids){
-  const el=document.getElementById('party-chips');
-  el.innerHTML=partids.map(p=>{
-    const logo=PARTIES[p];
+function buildPartyDropdown(partids){
+  document.getElementById('party-dd-total').textContent=partids.length+' partide';
+  const pop=document.getElementById('party-dd-pop');
+  pop.querySelectorAll('.party-dd-row').forEach(r=>r.remove());
+  partids.forEach(p=>{
     const color=partyColor(p);
-    const img=logo
-      ?`<img src="data/assets/imagini/partide/${logo}" onerror="this.style.display='none'" alt="">`
-      :`<span style="width:10px;height:10px;border-radius:2px;background:${color};display:inline-block;flex-shrink:0"></span>`;
-    return`<span class="party-chip" data-partid="${p}" onclick="toggleParty('${p}')">${img}${p}</span>`;
-  }).join('');
+    const logo=PARTIES[p];
+    const count=ALL.filter(d=>d.partid===p).length;
+    const row=document.createElement('div');
+    row.className='party-dd-row';
+    row.innerHTML=`<input type="checkbox" data-partid="${p}"${activeParties.has(p)?' checked':''}>`
+      +(logo?`<img src="data/assets/imagini/partide/${logo}" onerror="this.style.display='none'" style="width:14px;height:14px;object-fit:contain;flex-shrink:0">`:'')
+      +`<span class="party-dd-dot" style="background:${color}"></span>`
+      +`<span>${p}</span><span class="party-dd-count-label">${count} dep.</span>`;
+    row.querySelector('input').addEventListener('change',()=>toggleParty(p));
+    row.addEventListener('click',e=>{
+      if(e.target.tagName!=='INPUT'){row.querySelector('input').click();}
+    });
+    pop.appendChild(row);
+  });
+  updatePartyDropdownBtn();
+}
+
+function updatePartyDropdownBtn(){
+  const total=[...new Set(ALL.map(d=>d.partid))].length;
+  const sel=activeParties.size;
+  document.getElementById('party-dd-count').textContent=sel<total?`(${sel}/${total})`:'';
 }
 
 function toggleParty(p){
   if(activeParties.has(p))activeParties.delete(p);
   else activeParties.add(p);
-  document.querySelectorAll('.party-chip').forEach(el=>{
-    el.classList.toggle('off',!activeParties.has(el.dataset.partid));
-  });
+  const cb=document.querySelector(`.party-dd-row input[data-partid="${p}"]`);
+  if(cb)cb.checked=activeParties.has(p);
+  updatePartyDropdownBtn();
   render();
+  pushState();
+}
+
+function selectAllParties(){
+  activeParties=new Set(ALL.map(d=>d.partid));
+  document.querySelectorAll('.party-dd-row input[type=checkbox]').forEach(cb=>{
+    cb.checked=activeParties.has(cb.dataset.partid);
+  });
+  updatePartyDropdownBtn();
+  render();
+  pushState();
+}
+
+function selectNoParties(){
+  activeParties=new Set();
+  document.querySelectorAll('.party-dd-row input[type=checkbox]').forEach(cb=>{cb.checked=false;});
+  updatePartyDropdownBtn();
+  render();
+  pushState();
 }
 
 // Tooltip
@@ -441,7 +545,8 @@ async function load(){
     const partids=Object.keys(counts).sort((a,b)=>counts[b]-counts[a]);
     activeParties=new Set(partids);
 
-    buildChips(partids);
+    buildPartyDropdown(partids);
+    applyURLState();
     render();
   }catch(e){
     document.getElementById('circle-grid').innerHTML=
@@ -449,13 +554,13 @@ async function load(){
   }
 }
 
-document.getElementById('metric-select').addEventListener('change',e=>{
-  metric=e.target.value;
+document.getElementById('metric-btns').addEventListener('click',e=>{
+  const btn=e.target.closest('.metric-btn');
+  if(!btn)return;
+  metric=btn.dataset.metric;
+  document.querySelectorAll('.metric-btn').forEach(b=>b.classList.toggle('active',b===btn));
   render();
-});
-document.getElementById('search-input').addEventListener('input',e=>{
-  query=e.target.value.toLowerCase().trim();
-  render();
+  pushState();
 });
 
 document.getElementById('btn-circles').addEventListener('click',()=>{
@@ -463,13 +568,15 @@ document.getElementById('btn-circles').addEventListener('click',()=>{
   viewMode='circles';
   document.getElementById('btn-circles').classList.add('active');
   document.getElementById('btn-table').classList.remove('active');
-  document.getElementById('metric-select').style.display='';
+  document.getElementById('metric-btns').style.display='';
   const metricKeys=COLUMNS.map(c=>c.key);
   if(sortKey&&metricKeys.includes(sortKey)){
     metric=sortKey;
-    document.getElementById('metric-select').value=metric;
+    document.querySelectorAll('.metric-btn').forEach(b=>
+      b.classList.toggle('active',b.dataset.metric===metric));
   }
   render();
+  pushState();
 });
 
 document.getElementById('btn-table').addEventListener('click',()=>{
@@ -477,9 +584,10 @@ document.getElementById('btn-table').addEventListener('click',()=>{
   viewMode='table';
   document.getElementById('btn-table').classList.add('active');
   document.getElementById('btn-circles').classList.remove('active');
-  document.getElementById('metric-select').style.display='none';
+  document.getElementById('metric-btns').style.display='none';
   if(!sortKey)sortKey=metric;
   render();
+  pushState();
 });
 
 document.getElementById('circle-grid').addEventListener('click',e=>{
@@ -491,6 +599,16 @@ document.getElementById('circle-grid').addEventListener('click',e=>{
     else{sortKey=null;sortDir='desc';}
   }else{sortKey=key;sortDir='desc';}
   render();
+});
+
+document.getElementById('party-dd-btn').addEventListener('click',e=>{
+  e.stopPropagation();
+  document.getElementById('party-dd-pop').classList.toggle('open');
+});
+document.addEventListener('click',e=>{
+  if(!document.getElementById('party-dd').contains(e.target)){
+    document.getElementById('party-dd-pop').classList.remove('open');
+  }
 });
 
 load();
