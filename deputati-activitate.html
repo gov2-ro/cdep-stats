@@ -191,12 +191,12 @@ let ALL=[],PARTIES={},activeParties=new Set(),query='',metric='activitate_sedint
 let viewMode='circles', sortKey=null, sortDir='desc';
 
 const COLUMNS=[
-  {key:'activitate_sedinte',               label:'Ședințe',    fmt:v=>fmtVal(v), isDebt:false},
-  {key:'activitate_luari_cuvant',          label:'Cuvânt',     fmt:v=>fmtVal(v), isDebt:false},
-  {key:'activitate_propuneri_legislative', label:'Propuneri',  fmt:v=>fmtVal(v), isDebt:false},
-  {key:'activitate_legi_promulgate',       label:'Legi',       fmt:v=>fmtVal(v), isDebt:false},
-  {key:'activitate_declaratii_politice',   label:'Declarații', fmt:v=>fmtVal(v), isDebt:false},
-  {key:'activitate_intrebari_interpelari', label:'Întrebări',  fmt:v=>fmtVal(v), isDebt:false},
+  {key:'activitate_sedinte',               label:'Ședințe',    fmt:v=>fmtVal(v)},
+  {key:'activitate_luari_cuvant',          label:'Cuvânt',     fmt:v=>fmtVal(v)},
+  {key:'activitate_propuneri_legislative', label:'Propuneri',  fmt:v=>fmtVal(v)},
+  {key:'activitate_legi_promulgate',       label:'Legi',       fmt:v=>fmtVal(v)},
+  {key:'activitate_declaratii_politice',   label:'Declarații', fmt:v=>fmtVal(v)},
+  {key:'activitate_intrebari_interpelari', label:'Întrebări',  fmt:v=>fmtVal(v)},
 ];
 
 function filtered(){
