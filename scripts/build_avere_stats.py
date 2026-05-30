@@ -183,16 +183,15 @@ def _build_context(
         ("venituri", "ultima_venituri_ron"),
         ("imobile", "ultima_imobile_count"),
         ("suprafata", "_suprafata"),
-        ("datorii", "_datorii"),
     ]
 
-    # National sorted lists for percentile computation
+    # National sorted lists for percentile computation (excludes datorii — handled separately)
     nat_sorted: dict[str, list[float]] = {
         key: sorted(float(r.get(field) or 0) for r in valid)
         for key, field in METRICS
     }
     # Datorii: only non-zero deputies participate in datorii ranking
-    datorii_nonzero = sorted(v for v in nat_sorted["datorii"] if v > 0)
+    datorii_nonzero = sorted(float(r.get("_datorii") or 0) for r in valid if (r.get("_datorii") or 0) > 0)
 
     # All values for rank_from_top (active + venituri only)
     all_active = [float(r.get("ultima_total_active_ron") or 0) for r in valid]
@@ -227,12 +226,12 @@ def _build_context(
         national: dict = {"n": len(valid)}
         for key, field in METRICS:
             val = float(r.get(field) or 0)
-            if key == "datorii":
-                national["datorii_pct"] = (
-                    _pct_from_bottom(val, datorii_nonzero) if val > 0 else None
-                )
-            else:
-                national[f"{key}_pct"] = _pct_from_bottom(val, nat_sorted[key])
+            national[f"{key}_pct"] = _pct_from_bottom(val, nat_sorted[key])
+        # Datorii ranked separately — zero debt is excluded from the ranking
+        datorii_val = float(r.get("_datorii") or 0)
+        national["datorii_pct"] = (
+            _pct_from_bottom(datorii_val, datorii_nonzero) if datorii_val > 0 else None
+        )
         national["active_rank"] = _rank_from_top(float(r.get("ultima_total_active_ron") or 0), all_active)
         national["venituri_rank"] = _rank_from_top(float(r.get("ultima_venituri_ron") or 0), all_venituri)
 

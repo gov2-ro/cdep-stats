@@ -180,3 +180,20 @@ def test_build_context_missing_dep_lookup(mod):
     result = mod._build_context(records, {})  # empty lookup
     assert result["1"]["age"] is None
     assert result["1"]["judet"] is None
+
+
+def test_build_context_value_assertions(mod):
+    result = mod._build_context(_make_records(), _make_dep_lookup())
+    nat1 = result["1"]["national"]
+    nat3 = result["3"]["national"]
+
+    # National active percentiles
+    assert nat1["active_pct"] == 67   # 300 is highest of [50,100,300]: 2/3 below → 67%
+    assert nat3["active_pct"] == 0    # 50 is lowest: 0 below → 0%
+
+    # Venituri ranks
+    assert result["3"]["national"]["venituri_rank"] == 1   # 200 is highest venituri
+    assert result["1"]["national"]["venituri_rank"] == 2   # 150 is middle
+
+    # Party group percentile (dep1 in PSD with dep2; active=[100,300])
+    assert result["1"]["party"]["active_pct"] == 50   # 1 of 2 below 300 → 50%
