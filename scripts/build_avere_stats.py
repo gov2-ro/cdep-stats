@@ -133,11 +133,11 @@ def _age_cohort(birth_date_str: str | None, ref_year: int) -> str | None:
         return None
 
 
-def _pct_from_bottom(val: float, sorted_vals: list[float]) -> int:
+def _pct_from_bottom(val: float, all_vals: list[float]) -> int:
     """Percentile rank 0-100. Higher = wealthier. Count of values strictly below val."""
-    if not sorted_vals:
+    if not all_vals:
         return 0
-    return round(sum(1 for v in sorted_vals if v < val) / len(sorted_vals) * 100)
+    return round(sum(1 for v in all_vals if v < val) / len(all_vals) * 100)
 
 
 def _rank_from_top(val: float, all_vals: list[float]) -> int:
@@ -150,7 +150,7 @@ def _load_deputati_lookup(leg: int) -> dict[str, dict]:
     dep_file = ROOT / "data" / "v1" / "deputati" / f"legislatura-{leg}.json"
     if not dep_file.exists():
         return {}
-    deps = json.loads(dep_file.read_text(encoding="utf-8"))["data"]
+    deps = json.loads(dep_file.read_text(encoding="utf-8")).get("data", [])
     return {
         d["id"]: {"birth_date": d.get("birth_date"), "judet": d.get("judet")}
         for d in deps
