@@ -2,6 +2,22 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-05-30 — Sortable table view for deputati-avere and deputati-activitate
+
+**What was done**
+- Added `≡ Tabel` toggle button to both `deputati-avere.html` and `deputati-activitate.html` toolbars. The avere page already had a disabled list button; it was enabled and repurposed. The activitate page got a new toggle inserted between the legislature selector and the metric dropdown.
+- In table view: all 6 metric columns shown simultaneously (vs. one at a time in circle view), each cell shows value above a 3px inline bar scaled to the column max.
+- Clicking any column header sorts the table; clicking twice flips to ascending; clicking a third time resets to default.
+- The metric dropdown is hidden in table view. Switching back to circles syncs the dropdown to the last sort column.
+- Name column is sticky-left for horizontal scroll on narrow screens.
+- Bar scaling uses `Math.abs` so negative `datorii_ron` values display correctly.
+
+**Decisions**
+- No shared JS file — both pages are self-contained to match existing project conventions.
+- Bar width scales to column max within the current filtered set — rescales when search/party filters change.
+- Datorii column value text is red (debt stands out) in the avere table unless it is the active sort column (blue takes priority).
+- activitate COLUMNS omit `isDebt` (all values are non-negative counts).
+
 ## Data Quality
 
 ### 2026-05-29 — Add derived aggregate fields to avere parser + schema
