@@ -223,8 +223,10 @@ function renderList(){
     // negative numbers, so ascending = biggest drops first.
     const neg=listMetric==='scadere';
     const dir=neg?(listSubset==='bottom'?'desc':'asc'):(listSubset==='bottom'?'asc':'desc');
+    grid.classList.remove('circle-grid');
     grid.innerHTML=AVERE.renderTable(deps,{parties:PARTIES,leg:LEG,sortKey:listMetric,sortDir:dir});
   }else{
+    grid.classList.add('circle-grid');
     grid.innerHTML=AVERE.renderCircles(deps,{valueFn:m.val,fmtMetric:m.fmt,parties:PARTIES,leg:LEG});
   }
   syncFullListLink();
