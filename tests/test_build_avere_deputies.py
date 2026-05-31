@@ -46,6 +46,9 @@ def fixture_root(tmp_path: Path) -> Path:
                     "ultima_conturi_ron": 100000.0,
                     "ultima_venituri_ron": 50000.0,
                     "ultima_imobile_count": 2,
+                    # Single declaration: delta present in index but must be nulled in output.
+                    "delta_conturi_ron": 0.0,
+                    "delta_imobile": 0,
                 },
                 {
                     "cdep_idm": 2,
@@ -56,6 +59,19 @@ def fixture_root(tmp_path: Path) -> Path:
                     "ultima_conturi_ron": None,
                     "ultima_venituri_ron": None,
                     "ultima_imobile_count": None,
+                },
+                {
+                    "cdep_idm": 3,
+                    "deputat_nume": "Vasile Dan",
+                    "legislatura": leg,
+                    "partid_short": "PSD",
+                    "n_declaratii": 2,
+                    "ultima_conturi_ron": 250000.0,
+                    "ultima_venituri_ron": 90000.0,
+                    "ultima_imobile_count": 3,
+                    # ≥2 declarations: evolution deltas should pass through to output.
+                    "delta_conturi_ron": 60294.0,
+                    "delta_imobile": 1,
                 },
             ],
         },
@@ -116,7 +132,7 @@ def test_deputies_count(fixture_root: Path) -> None:
     payload = json.loads(
         (fixture_root / "data/v1/stats/avere-deputies-2024.json").read_text(encoding="utf-8")
     )
-    assert len(payload["deputies"]) == 2
+    assert len(payload["deputies"]) == 3
 
 
 def test_deputy_with_declaration(fixture_root: Path) -> None:
@@ -147,6 +163,26 @@ def test_deputy_without_declaration_has_nulls(fixture_root: Path) -> None:
     assert dep["conturi_ron"] is None
     assert dep["suprafata_mp"] is None
     assert dep["image"] == "https://cdep.ro/img/2.jpg"
+
+
+def test_evolution_deltas(fixture_root: Path) -> None:
+    """delta_* are null unless the deputy has ≥2 declarations (evolution)."""
+    mod = _load_module()
+    mod.build_leg(2024, root=fixture_root)
+    payload = json.loads(
+        (fixture_root / "data/v1/stats/avere-deputies-2024.json").read_text(encoding="utf-8")
+    )
+    by_id = {d["cdep_idm"]: d for d in payload["deputies"]}
+    # All records carry the keys.
+    assert "delta_conturi_ron" in by_id[1] and "delta_imobile" in by_id[1]
+    # Single declaration -> nulled even though the index had a value.
+    assert by_id[1]["delta_conturi_ron"] is None
+    assert by_id[1]["delta_imobile"] is None
+    # No declaration -> null.
+    assert by_id[2]["delta_conturi_ron"] is None
+    # ≥2 declarations -> passed through.
+    assert by_id[3]["delta_conturi_ron"] == 60294.0
+    assert by_id[3]["delta_imobile"] == 1
 
 
 def test_parties_dict_present(fixture_root: Path) -> None:

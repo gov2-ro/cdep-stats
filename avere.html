@@ -54,10 +54,6 @@ h1{font-size:26px;font-weight:600;margin-bottom:6px}
 .section{margin-bottom:36px}
 .section h2{font-size:18px;font-weight:600;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--border)}
 
-.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
-.tab{font-size:12px;padding:6px 11px;border-radius:var(--radius-sm);border:1px solid var(--border);background:var(--bg);color:var(--text2);cursor:pointer}
-.tab.active{background:var(--blue-bg);color:var(--blue-text);border-color:var(--blue-bg);font-weight:600}
-
 table{width:100%;border-collapse:collapse;font-size:14px}
 th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border)}
 th{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--text3)}
@@ -77,11 +73,56 @@ td.num,th.num{text-align:right;font-family:var(--mono);white-space:nowrap}
 .note{background:var(--amber-bg);color:var(--amber-text);border-radius:var(--radius);padding:14px 16px;font-size:13px;line-height:1.5}
 .loading{text-align:center;padding:60px 0;color:var(--text3)}
 .view-toggle{display:inline-flex;border:1px solid var(--border2);border-radius:var(--radius-sm);overflow:hidden;vertical-align:middle}
-.view-btn{padding:4px 11px;font-size:12px;border:none;background:var(--bg);color:var(--text2);cursor:pointer}
+.view-btn{padding:5px 11px;font-size:12px;border:none;background:var(--bg);color:var(--text2);cursor:pointer;font-family:inherit}
 .view-btn.active{background:var(--blue-bg);color:var(--blue-text);font-weight:600}
 .error{padding:24px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius);margin:20px 0}
 .footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
 .footer a{color:var(--text2)}
+
+/* Deputy list — rendered by the shared module assets/avere-list.js */
+.list-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:12px}
+.metric-btns{display:flex;flex-wrap:wrap;gap:4px;flex-shrink:1;max-width:100%}
+.metric-btn{padding:5px 10px;font-size:12px;border:1px solid var(--border2);border-radius:var(--radius-sm);background:var(--bg);color:var(--text2);cursor:pointer;white-space:nowrap;font-family:inherit}
+.metric-btn.active{background:var(--blue-bg);color:var(--blue-text);font-weight:600;border-color:var(--blue-bg)}
+.subset-toggle .view-btn{text-decoration:none;display:inline-flex;align-items:center}
+.list-caption{font-size:12px;color:var(--text3);margin:0 0 12px}
+
+.circle-grid{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;padding:8px 0}
+.dep-item{display:flex;flex-direction:column;align-items:center;cursor:pointer;position:relative;text-decoration:none;color:inherit}
+.dep-item:hover .dep-circle{opacity:0.82}
+.dep-circle{border-radius:50%;overflow:visible;position:relative;flex-shrink:0;transition:width .25s,height .25s}
+.dep-circle-inner{width:100%;height:100%;border-radius:50%;overflow:hidden;position:relative}
+.dep-circle-inner img{width:100%;height:100%;object-fit:cover;display:block}
+.dep-initials{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff;border-radius:50%;font-size:inherit}
+.dep-badge{position:absolute;bottom:-1px;left:50%;transform:translateX(-50%);display:inline-flex;align-items:center;gap:2px;padding:1px 5px;border-radius:3px;font-size:9px;color:#fff;font-weight:700;white-space:nowrap;pointer-events:none;line-height:1.4}
+.dep-badge img{width:10px;height:10px;object-fit:contain;flex-shrink:0}
+.dep-name{font-size:9px;color:var(--text2);margin-top:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;line-height:1.3}
+.dep-value{font-size:8px;color:var(--text3);text-align:center;line-height:1.3}
+.dep-value b{color:var(--text2);font-weight:700}
+.mag-break{width:100%;height:0;border-top:1px dashed var(--border);margin:8px 0;opacity:.7}
+.dep-item.null-val .dep-circle-inner{opacity:0.4}
+.dep-item.null-val .dep-value{font-style:italic}
+.tooltip{position:fixed;z-index:100;background:rgba(0,0,0,.82);color:#fff;font-size:12px;padding:7px 10px;border-radius:6px;pointer-events:none;max-width:240px;line-height:1.5;display:none}
+
+.dep-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.dep-table{width:100%;border-collapse:collapse;font-size:12px;min-width:680px}
+.dep-table thead th{padding:9px 10px;background:var(--bg2);border-bottom:2px solid var(--border);font-weight:500;color:var(--text3);cursor:pointer;white-space:nowrap;user-select:none;text-align:left}
+.dep-table thead th.sort-active{color:var(--blue);border-bottom-color:var(--blue)}
+.dep-table thead th.sort-name{cursor:default;min-width:160px;position:sticky;left:0;z-index:1;background:var(--bg2)}
+.dep-table tbody tr{border-bottom:1px solid var(--border);cursor:pointer}
+.dep-table tbody tr:hover{background:var(--bg2)}
+.dep-table tbody td{padding:6px 10px;vertical-align:middle}
+.dep-table td.td-name{position:sticky;left:0;background:var(--bg);white-space:nowrap;z-index:1}
+.dep-table tbody tr:hover td.td-name{background:var(--bg2)}
+.bar-cell-val{font-size:11px;margin-bottom:3px;font-variant-numeric:tabular-nums}
+.bar-cell-track{height:3px;background:var(--bg3);border-radius:2px;width:80px}
+.bar-cell-fill{height:100%;border-radius:2px;opacity:0.75}
+.dep-table .null-val{color:var(--text3);font-style:italic;font-size:11px}
+@media(max-width:600px){
+  .list-toolbar{flex-direction:column;align-items:flex-start}
+  .metric-btns{flex-wrap:wrap;gap:4px;border:none;max-width:100%}
+  .metric-btn{border-radius:var(--radius-sm);border:1px solid var(--border2)}
+}
 </style>
 </head>
 <body>
@@ -91,7 +132,6 @@ td.num,th.num{text-align:right;font-family:var(--mono);white-space:nowrap}
     <a href="index.html" class="logo">cdep<span>-api</span> <em>stats</em></a>
     <nav class="nav">
       <a href="avere.html" class="active">Averi</a>
-      <a id="circles-link" href="deputati-avere.html">Averi++</a>
       <a href="deputati-activitate.html">Activitate</a>
       <a href="interpelari-stats.html">Interpelări</a>
       <a href="proiecte-stats.html">Proiecte</a>
@@ -107,6 +147,8 @@ td.num,th.num{text-align:right;font-family:var(--mono);white-space:nowrap}
   <div id="content"><div class="loading" data-i18n="loading">Se încarcă datele…</div></div>
 </div>
 
+<div class="tooltip" id="tooltip"></div>
+
 <footer class="footer">
   <p><span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API: <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a> ·
   <span data-i18n="source">Sursă JSON</span>: <a id="json-link" href="#">/data/v1/stats/avere-2024.json</a> ·
@@ -114,6 +156,7 @@ td.num,th.num{text-align:right;font-family:var(--mono);white-space:nowrap}
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="assets/avere-list.js"></script>
 <script>
 function getParam(n){return new URL(location).searchParams.get(n);}
 
@@ -126,33 +169,125 @@ function fmtRON(v){
   return s+Math.round(a);
 }
 
-const BOARDS=[
-  {key:'top_conturi',   label:'Conturi (lichidități)', unit:'RON', money:true},
-  {key:'top_venituri',  label:'Venituri anuale',       unit:'RON/an', money:true},
-  {key:'top_datorii',   label:'Datorii',               unit:'RON', money:true},
-  {key:'top_imobile',   label:'Imobile (număr)',       unit:'', money:false},
-  {key:'delta_crestere',label:'⬆ Creștere conturi în mandat', unit:'RON', money:true, signed:true},
-  {key:'delta_scadere', label:'⬇ Scădere conturi în mandat',  unit:'RON', money:true, signed:true},
-  {key:'delta_imobile', label:'Imobile noi în mandat', unit:'', money:false, signed:true},
-];
+// ── Deputy list (Top 50 / Bottom 50; full list opens deputati-avere.html) ──
+let LEG='2024', DEPUTIES=[], PARTIES={};
+let listMetric='conturi_ron', listView='table', listSubset='top';
 
-function boardTable(rows, b){
-  if(!rows || !rows.length) return '<p style="color:var(--text3)">Fără date.</p>';
-  const r = rows.map((x,i)=>{
-    const cls = b.signed ? (x.value>0?'pos':(x.value<0?'neg':'')) : '';
-    const sign = b.signed && x.value>0 ? '+' : '';
-    const val = b.money ? fmtRON(x.value) : x.value.toLocaleString('ro-RO');
-    const extra = x.suprafata_mp!=null ? ` <span class="pill">${Math.round(x.suprafata_mp).toLocaleString('ro-RO')} m²</span>`:'';
-    return `<tr>
-      <td class="rank">${i+1}</td>
-      <td><a href="data/v1/${x.detail_url}">${x.nume}</a> <span class="pill">${x.partid}</span>${extra}</td>
-      <td class="num ${cls}">${sign}${val}</td>
-      <td class="num" style="color:var(--text3)">${x.n_declaratii}</td>
-    </tr>`;
-  }).join('');
-  return `<table><thead><tr><th class="rank"></th><th>Deputat</th>
-    <th class="num">${b.unit||'#'}</th><th class="num" title="număr declarații">Decl.</th></tr></thead><tbody>${r}</tbody></table>`;
+// Rankable metrics: 6 base + 3 mandate-evolution. `val(d)` is the ranking value
+// (always positive — higher = "more"; null = not applicable). The top list is
+// computed over the FULL dataset, so e.g. "Creștere conturi" surfaces the biggest
+// gainers across all deputies, not just whoever is in the current 50.
+const METRICS=[
+  {key:'venituri_ron',  label:'Venituri',         fmt:'venituri_ron', val:d=>d.venituri_ron},
+  {key:'conturi_ron',   label:'Conturi',          fmt:'conturi_ron',  val:d=>d.conturi_ron},
+  {key:'imobile_count', label:'Imobile',          fmt:'imobile_count',val:d=>d.imobile_count},
+  {key:'suprafata_mp',  label:'Suprafață',        fmt:'suprafata_mp', val:d=>d.suprafata_mp},
+  {key:'auto_count',    label:'Auto',             fmt:'auto_count',   val:d=>d.auto_count},
+  {key:'datorii_ron',   label:'Datorii',          fmt:'datorii_ron',  val:d=>d.datorii_ron},
+  {key:'crestere',      label:'Creștere conturi', fmt:'conturi_ron',  val:d=>(d.delta_conturi_ron!=null&&d.delta_conturi_ron>0?d.delta_conturi_ron:null)},
+  {key:'scadere',       label:'Scădere conturi',  fmt:'conturi_ron',  val:d=>(d.delta_conturi_ron!=null&&d.delta_conturi_ron<0?-d.delta_conturi_ron:null)},
+  {key:'imobile_noi',   label:'Imobile noi',      fmt:'imobile_count',val:d=>(d.delta_imobile!=null&&d.delta_imobile>0?d.delta_imobile:null)},
+];
+const METRIC_BY_KEY=Object.fromEntries(METRICS.map(m=>[m.key,m]));
+function activeMetric(){return METRIC_BY_KEY[listMetric]||METRICS[1];}
+
+// 50 deputies ranked over the whole dataset by the active metric (others excluded).
+function subsetDeps(){
+  const m=activeMetric();
+  const withVal=DEPUTIES.filter(d=>m.val(d)!=null);
+  withVal.sort((a,b)=>m.val(b)-m.val(a));
+  return listSubset==='bottom' ? withVal.slice(-50) : withVal.slice(0,50);
 }
+
+function syncFullListLink(){
+  const a=document.getElementById('full-list-link');
+  if(!a)return;
+  // deputati-avere only understands the 6 base metrics in its URL state.
+  const base=AVERE.METRIC_KEYS.includes(listMetric)?listMetric:'conturi_ron';
+  a.href=`deputati-avere.html?leg=${LEG}&metric=${base}&view=${listView}`;
+}
+
+function renderList(){
+  const m=activeMetric();
+  const deps=subsetDeps();
+  const grid=document.getElementById('dep-list');
+  const nWithVal=DEPUTIES.filter(d=>m.val(d)!=null).length;
+  const cap=document.getElementById('list-caption');
+  if(cap)cap.textContent=`${listSubset==='top'?'Top 50':'Ultimii 50'} după ${m.label} · din ${nWithVal} deputați`;
+  if(listView==='table'){
+    // Order the visible 50 by the ranking value. The 'scadere' column holds
+    // negative numbers, so ascending = biggest drops first.
+    const neg=listMetric==='scadere';
+    const dir=neg?(listSubset==='bottom'?'desc':'asc'):(listSubset==='bottom'?'asc':'desc');
+    grid.innerHTML=AVERE.renderTable(deps,{parties:PARTIES,leg:LEG,sortKey:listMetric,sortDir:dir});
+  }else{
+    grid.innerHTML=AVERE.renderCircles(deps,{valueFn:m.val,fmtMetric:m.fmt,parties:PARTIES,leg:LEG});
+  }
+  syncFullListLink();
+}
+
+function syncToolbar(){
+  document.querySelectorAll('#metric-btns .metric-btn').forEach(b=>b.classList.toggle('active',b.dataset.metric===listMetric));
+  document.querySelectorAll('.subset-toggle [data-subset]').forEach(b=>b.classList.toggle('active',b.dataset.subset===listSubset));
+}
+
+function wireListToolbar(){
+  document.getElementById('btn-circles').addEventListener('click',()=>{
+    if(listView==='circles')return;
+    listView='circles';
+    document.getElementById('btn-circles').classList.add('active');
+    document.getElementById('btn-table').classList.remove('active');
+    renderList();
+  });
+  document.getElementById('btn-table').addEventListener('click',()=>{
+    if(listView==='table')return;
+    listView='table';
+    document.getElementById('btn-table').classList.add('active');
+    document.getElementById('btn-circles').classList.remove('active');
+    renderList();
+  });
+  document.getElementById('metric-btns').addEventListener('click',e=>{
+    const btn=e.target.closest('.metric-btn');
+    if(!btn)return;
+    listMetric=btn.dataset.metric;
+    listSortKey=null;
+    document.querySelectorAll('#metric-btns .metric-btn').forEach(b=>b.classList.toggle('active',b===btn));
+    renderList();
+  });
+  document.querySelectorAll('.subset-toggle [data-subset]').forEach(b=>{
+    b.addEventListener('click',()=>{
+      listSubset=b.dataset.subset;
+      listSortKey=null;
+      document.querySelectorAll('.subset-toggle [data-subset]').forEach(x=>x.classList.toggle('active',x===b));
+      renderList();
+    });
+  });
+  // Sortable table headers (re-sorts the visible 50).
+  document.getElementById('dep-list').addEventListener('click',e=>{
+    const th=e.target.closest('[data-sort]');
+    if(!th)return;
+    const key=th.dataset.sort;
+    if(listSortKey===key){
+      if(listSortDir==='desc')listSortDir='asc';
+      else{listSortKey=null;listSortDir='desc';}
+    }else{listSortKey=key;listSortDir='desc';}
+    renderList();
+  });
+}
+
+// Circle hover tooltip
+(function(){
+  const tip=document.getElementById('tooltip');
+  document.addEventListener('mouseover',e=>{
+    const item=e.target.closest('#dep-list .dep-item');
+    if(!item){tip.style.display='none';return;}
+    const raw=item.dataset.value;const v=raw===''?null:Number(raw);
+    tip.textContent=`${item.dataset.name} · ${item.dataset.partid} · ${AVERE.fmtVal(v,listMetric)}`;
+    tip.style.display='block';
+  });
+  document.addEventListener('mousemove',e=>{tip.style.left=(e.clientX+14)+'px';tip.style.top=(e.clientY-32)+'px';});
+  document.addEventListener('mouseout',e=>{if(!e.target.closest('#dep-list .dep-item'))tip.style.display='none';});
+})();
 
 // Box-plot CSS pe lichidități per partid (q1–q3 + median), scală comună
 function boxPlots(perPartid){
@@ -195,6 +330,7 @@ function drawCharts(perPartid){
 
 async function load(){
   const leg = getParam('leg') || '2024';
+  LEG = leg;
   const url = `data/v1/stats/avere-${leg}.json`;
   document.getElementById('json-link').href = url;
   document.getElementById('json-link').textContent = '/'+url;
@@ -202,11 +338,17 @@ async function load(){
   try{ d = await fetch(url).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}); }
   catch(e){ document.getElementById('content').innerHTML=`<div class="error">Nu pot încărca ${url} (${e.message}). Rulează <code>python scripts/build_avere_stats.py --leg ${leg}</code>.</div>`; return; }
 
-  const c=d.cards;
-  const tabBtns = BOARDS.map((b,i)=>`<button class="tab ${i===0?'active':''}" data-i="${i}">${b.label}</button>`).join('');
+  // Per-deputy list (Top/Bottom 50 + full list). Degrades gracefully if absent.
+  try{
+    const dep = await fetch(`data/v1/stats/avere-deputies-${leg}.json`).then(r=>r.ok?r.json():null);
+    DEPUTIES = dep?.deputies || [];
+    PARTIES = dep?.parties || {};
+  }catch(e){ DEPUTIES=[]; PARTIES={}; }
 
-  const otherLeg = leg === '2024' ? '2020' : '2024';
-  document.getElementById('circles-link').href = `deputati-avere.html?leg=${leg}`;
+  const c=d.cards;
+  const mbtns=Object.entries(METRIC_LABELS)
+    .map(([k,l])=>`<button class="metric-btn${k===listMetric?' active':''}" data-metric="${k}">${l}</button>`).join('');
+
   document.getElementById('content').innerHTML = `
     <div style="display:flex;align-items:center;gap:12px;margin-bottom:6px;flex-wrap:wrap">
       <h1 style="margin:0">Averi deputați</h1>
@@ -225,9 +367,21 @@ async function load(){
     </div>
 
     <div class="section">
-      <h2>Topuri</h2>
-      <div class="tabs">${tabBtns}</div>
-      <div id="board"></div>
+      <h2>Clasament deputați</h2>
+      <div class="list-toolbar">
+        <div class="view-toggle">
+          <button class="view-btn" id="btn-circles">⬤ Cercuri</button>
+          <button class="view-btn active" id="btn-table">≡ Tabel</button>
+        </div>
+        <div class="metric-btns" id="metric-btns">${mbtns}</div>
+        <div class="view-toggle subset-toggle">
+          <button class="view-btn active" data-subset="top">Top 50</button>
+          <button class="view-btn" data-subset="bottom">Ultimii 50</button>
+          <a class="view-btn" id="full-list-link" target="_blank" rel="noopener">Lista completă ↗</a>
+        </div>
+      </div>
+      <p class="list-caption" id="list-caption"></p>
+      <div id="dep-list"></div>
     </div>
 
     <div class="section">
@@ -247,14 +401,8 @@ async function load(){
     </div>
   `;
 
-  // Tabs
-  const boardEl=document.getElementById('board');
-  function showBoard(i){ boardEl.innerHTML = boardTable(d.leaderboards[BOARDS[i].key], BOARDS[i]); }
-  document.querySelectorAll('.tab').forEach(btn=>btn.addEventListener('click',()=>{
-    document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
-    btn.classList.add('active'); showBoard(+btn.dataset.i);
-  }));
-  showBoard(0);
+  wireListToolbar();
+  renderList();
   drawCharts(d.per_partid);
   if(typeof applyI18n==='function') applyI18n();
 }

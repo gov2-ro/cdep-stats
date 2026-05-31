@@ -91,6 +91,8 @@ def build_leg(leg: int, root: Path = ROOT) -> int:
         idm: int = d["cdep_idm"]
         ex = extras.get(idm, {})
         has_decl = d.get("n_declaratii", 0) > 0
+        # Evoluție în mandat: only meaningful cu ≥2 declarații; altfel null (afișat ca "—").
+        has_evo = d.get("n_declaratii", 0) > 1
         deputies.append(
             {
                 "cdep_idm": idm,
@@ -103,6 +105,8 @@ def build_leg(leg: int, root: Path = ROOT) -> int:
                 "suprafata_mp": ex.get("suprafata_mp") if has_decl else None,
                 "auto_count": ex.get("auto_count") if has_decl else None,
                 "datorii_ron": ex.get("datorii_ron") if has_decl else None,
+                "delta_conturi_ron": d.get("delta_conturi_ron") if has_evo else None,
+                "delta_imobile": d.get("delta_imobile") if has_evo else None,
             }
         )
 

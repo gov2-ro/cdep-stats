@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T09:11:32.275622Z",
+    "generated_at": "2026-05-31T13:20:34.989134Z",
     "source_url": "https://endimion2k.github.io/cdep-api-poc/data/v1/declaratii-avere/legislatura-2020.json",
     "scraper_version": "0.1.0",
     "count": 354
@@ -333,11 +333,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/AcatrineiDorelGheorghe.JPG",
       "venituri_ron": 1372779.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 349687.9795,
       "imobile_count": 9,
       "suprafata_mp": 1452.0,
       "auto_count": 0,
-      "datorii_ron": 225000.0
+      "datorii_ron": 225000.0,
+      "delta_conturi_ron": 349687.9795,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 4,
@@ -345,11 +347,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/AeleneiDanut.JPG",
       "venituri_ron": 269186.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 1475302.9155,
       "imobile_count": 14,
       "suprafata_mp": 3524.35,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 1475302.9155,
+      "delta_imobile": 14
     },
     {
       "cdep_idm": 5,
@@ -361,7 +365,9 @@
       "imobile_count": 2,
       "suprafata_mp": 420.0,
       "auto_count": 0,
-      "datorii_ron": 244750.0
+      "datorii_ron": 244750.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 13,
@@ -369,11 +375,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/AndrusceacAntonio.JPG",
       "venituri_ron": 129579.0,
-      "conturi_ron": 1500000.0,
+      "conturi_ron": 75293.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 1500000.0
+      "datorii_ron": 1500000.0,
+      "delta_conturi_ron": 75293.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 19,
@@ -381,11 +389,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/AxiniaAdrianGeorge.JPG",
       "venituri_ron": 481412.0,
-      "conturi_ron": 1635000.0,
+      "conturi_ron": 40634.9,
       "imobile_count": 8,
       "suprafata_mp": 3675.4,
       "auto_count": 0,
-      "datorii_ron": 225000.0
+      "datorii_ron": 225000.0,
+      "delta_conturi_ron": 40634.9,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 22,
@@ -393,11 +403,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/BadiuGeorgel.JPG",
       "venituri_ron": 488064.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 151996.0,
       "imobile_count": 5,
       "suprafata_mp": 1536.89,
       "auto_count": 3,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 151996.0,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 23,
@@ -409,7 +421,9 @@
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 100000.0
+      "datorii_ron": 100000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 64,
@@ -417,11 +431,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/ChelaruMircia.JPG",
       "venituri_ron": 235500.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 49015.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 851386.0
+      "datorii_ron": 851386.0,
+      "delta_conturi_ron": 49015.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 75,
@@ -429,11 +445,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/ColesaIlieAlin.JPG",
       "venituri_ron": 234000.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 192957.5,
       "imobile_count": 4,
       "suprafata_mp": 3090.0,
       "auto_count": 2,
-      "datorii_ron": 165000.0
+      "datorii_ron": 165000.0,
+      "delta_conturi_ron": 192957.5,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 106,
@@ -445,7 +463,9 @@
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 112,
@@ -456,8 +476,10 @@
       "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 480.0,
-      "auto_count": 3,
-      "datorii_ron": 193333.0
+      "auto_count": 4,
+      "datorii_ron": 193333.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 336,
@@ -465,11 +487,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/GradinaruRaduVincentiu.JPG",
       "venituri_ron": 176565.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 80000.0,
       "imobile_count": 1,
       "suprafata_mp": 48.79,
       "auto_count": 1,
-      "datorii_ron": 23000.0
+      "datorii_ron": 23000.0,
+      "delta_conturi_ron": 50000.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 153,
@@ -481,7 +505,9 @@
       "imobile_count": 3,
       "suprafata_mp": 637.0,
       "auto_count": 2,
-      "datorii_ron": 405419.05
+      "datorii_ron": 405419.05,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 187,
@@ -493,7 +519,9 @@
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 127576.8
+      "datorii_ron": 127576.8,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 195,
@@ -501,11 +529,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/MuncaciuSorinTitus.JPG",
       "venituri_ron": 316521.0,
-      "conturi_ron": 380000.0,
+      "conturi_ron": 656410.0,
       "imobile_count": 3,
       "suprafata_mp": 657.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 656410.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 213,
@@ -513,11 +543,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/OstaficiucMariusEugen.JPG",
       "venituri_ron": 226572.0,
-      "conturi_ron": 894618.0,
+      "conturi_ron": 173758.85,
       "imobile_count": 4,
       "suprafata_mp": 1893.0,
       "auto_count": 1,
-      "datorii_ron": 589935.95
+      "datorii_ron": 589935.95,
+      "delta_conturi_ron": 173758.85,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 231,
@@ -528,8 +560,10 @@
       "conturi_ron": 0.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
-      "auto_count": 1,
-      "datorii_ron": 150000.0
+      "auto_count": 2,
+      "datorii_ron": 150000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 247,
@@ -541,7 +575,9 @@
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 344,
@@ -549,11 +585,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/PuscasuPetre.JPG",
       "venituri_ron": 185405.0,
-      "conturi_ron": 190000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 5,
       "suprafata_mp": 4725.43,
       "auto_count": 2,
-      "datorii_ron": 872250.0
+      "datorii_ron": 872250.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 222,
@@ -565,7 +603,9 @@
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 151500.0
+      "datorii_ron": 151500.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 256,
@@ -577,7 +617,9 @@
       "imobile_count": 1,
       "suprafata_mp": 1400.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 265,
@@ -589,7 +631,9 @@
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 275,
@@ -597,11 +641,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/StoicaCiprianTiti.JPG",
       "venituri_ron": 138801.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 21112.27,
       "imobile_count": 2,
       "suprafata_mp": 60.0,
       "auto_count": 2,
-      "datorii_ron": 184547.61800000002
+      "datorii_ron": 184547.61800000002,
+      "delta_conturi_ron": 21112.27,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 280,
@@ -609,11 +655,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/SuciuSebastianIlie.JPG",
       "venituri_ron": 154714.96,
-      "conturi_ron": 189000.0,
+      "conturi_ron": 82859.406,
       "imobile_count": 37,
       "suprafata_mp": 112748.87999999999,
       "auto_count": 3,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 82859.406,
+      "delta_imobile": 37
     },
     {
       "cdep_idm": 294,
@@ -621,11 +669,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/TanasaDan.JPG",
       "venituri_ron": 200730.0,
-      "conturi_ron": 38425.0,
+      "conturi_ron": 87282.0,
       "imobile_count": 2,
       "suprafata_mp": 126.0,
       "auto_count": 1,
-      "datorii_ron": 1304692.0
+      "datorii_ron": 1304692.0,
+      "delta_conturi_ron": 87282.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 324,
@@ -633,11 +683,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/VolosatiiBoris.JPG",
       "venituri_ron": 168981.0,
-      "conturi_ron": 190000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 177.1,
       "auto_count": 2,
-      "datorii_ron": 555090.95
+      "datorii_ron": 555090.95,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 285,
@@ -645,11 +697,13 @@
       "partid": "AUR",
       "image": "https://www.cdep.ro/parlamentari/l2020/SerbanGianina.JPG",
       "venituri_ron": 383823.0,
-      "conturi_ron": 197000.0,
+      "conturi_ron": 77661.65,
       "imobile_count": 7,
       "suprafata_mp": 8631.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 77661.65,
+      "delta_imobile": 7
     },
     {
       "cdep_idm": 10,
@@ -661,7 +715,9 @@
       "imobile_count": 6,
       "suprafata_mp": 3120.38,
       "auto_count": 2,
-      "datorii_ron": 76319.0
+      "datorii_ron": 76319.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 82,
@@ -669,11 +725,13 @@
       "partid": "Minoritati",
       "image": "https://www.cdep.ro/parlamentari/l2020/CristiciOgnean.JPG",
       "venituri_ron": 224187.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 49836.0,
       "imobile_count": 33,
       "suprafata_mp": 32265.0,
       "auto_count": 1,
-      "datorii_ron": 303864.0
+      "datorii_ron": 303864.0,
+      "delta_conturi_ron": 49836.0,
+      "delta_imobile": 33
     },
     {
       "cdep_idm": 105,
@@ -685,7 +743,9 @@
       "imobile_count": 8,
       "suprafata_mp": 8652.5,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 108,
@@ -693,11 +753,13 @@
       "partid": "Minoritati",
       "image": null,
       "venituri_ron": 163019.0,
-      "conturi_ron": 2229.0,
+      "conturi_ron": 36900.0,
       "imobile_count": 3,
       "suprafata_mp": 220.0,
       "auto_count": 0,
-      "datorii_ron": 358550.0
+      "datorii_ron": 358550.0,
+      "delta_conturi_ron": 36900.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 117,
@@ -705,11 +767,13 @@
       "partid": "Minoritati",
       "image": "https://www.cdep.ro/parlamentari/l2020/GantOvidiuVictor.JPG",
       "venituri_ron": 212640.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 1337004.786,
       "imobile_count": 6,
       "suprafata_mp": 2876.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 1337004.786,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 124,
@@ -717,11 +781,13 @@
       "partid": "Minoritati",
       "image": "https://www.cdep.ro/parlamentari/l2020/GheraGiureciSlobodan.JPG",
       "venituri_ron": 143374.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 829114.5,
       "imobile_count": 3,
       "suprafata_mp": 305.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 829114.5,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 145,
@@ -733,7 +799,9 @@
       "imobile_count": 3,
       "suprafata_mp": 1319.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 166,
@@ -741,11 +809,13 @@
       "partid": "Minoritati",
       "image": "https://www.cdep.ro/parlamentari/l2020/LongherGhervazen.JPG",
       "venituri_ron": 221045.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 24000.0,
       "imobile_count": 1,
       "suprafata_mp": 217.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 24000.0,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 173,
@@ -753,11 +823,13 @@
       "partid": "Minoritati",
       "image": "https://www.cdep.ro/parlamentari/l2020/ManeaCatalinZamfir.JPG",
       "venituri_ron": 235040.0,
-      "conturi_ron": 150000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 1,
       "suprafata_mp": 7100.0,
       "auto_count": 0,
-      "datorii_ron": 150000.0
+      "datorii_ron": 150000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 179,
@@ -765,11 +837,13 @@
       "partid": "Minoritati",
       "image": "https://www.cdep.ro/parlamentari/l2020/MerkaAdrianMiroslav.JPG",
       "venituri_ron": 396852.0,
-      "conturi_ron": 95950.0,
+      "conturi_ron": 151388.0,
       "imobile_count": 18,
       "suprafata_mp": 10642.0,
       "auto_count": 0,
-      "datorii_ron": 2009860.0
+      "datorii_ron": 2009860.0,
+      "delta_conturi_ron": 151388.0,
+      "delta_imobile": 18
     },
     {
       "cdep_idm": 200,
@@ -777,11 +851,13 @@
       "partid": "Minoritati",
       "image": "https://www.cdep.ro/parlamentari/l2020/NacovGheorghe.JPG",
       "venituri_ron": 215705.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 82500.0,
       "imobile_count": 2,
       "suprafata_mp": 200.0,
       "auto_count": 3,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 82500.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 217,
@@ -789,11 +865,13 @@
       "partid": "Minoritati",
       "image": "https://www.cdep.ro/parlamentari/l2020/PambuccianVarujan.JPG",
       "venituri_ron": 219568.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 9971.0,
       "imobile_count": 2,
       "suprafata_mp": 128.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 9971.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 224,
@@ -801,11 +879,13 @@
       "partid": "Minoritati",
       "image": "https://www.cdep.ro/parlamentari/l2020/PetretchiNicolaeMiroslav.JPG",
       "venituri_ron": 215419.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 3524.6800000000003,
       "imobile_count": 2,
       "suprafata_mp": 683.0,
       "auto_count": 1,
-      "datorii_ron": 308150.0
+      "datorii_ron": 308150.0,
+      "delta_conturi_ron": 3524.6800000000003,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 268,
@@ -813,11 +893,13 @@
       "partid": "Minoritati",
       "image": "https://www.cdep.ro/parlamentari/l2020/StancuIonel.JPG",
       "venituri_ron": 238420.0,
-      "conturi_ron": 290000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 1185.0,
       "auto_count": 3,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 274,
@@ -825,11 +907,13 @@
       "partid": "Minoritati",
       "image": "https://www.cdep.ro/parlamentari/l2020/StoicaBogdanAlin.JPG",
       "venituri_ron": 187183.22,
-      "conturi_ron": 316329.0,
+      "conturi_ron": 95582.0,
       "imobile_count": 9,
       "suprafata_mp": 37863.98,
       "auto_count": 0,
-      "datorii_ron": 322800.0
+      "datorii_ron": 322800.0,
+      "delta_conturi_ron": 95582.0,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 321,
@@ -837,11 +921,13 @@
       "partid": "Minoritati",
       "image": "https://www.cdep.ro/parlamentari/l2020/VexlerSilviu.JPG",
       "venituri_ron": 497554.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 132439.97,
       "imobile_count": 8,
       "suprafata_mp": 15187.0,
       "auto_count": 0,
-      "datorii_ron": 339153.0
+      "datorii_ron": 339153.0,
+      "delta_conturi_ron": 132439.97,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 330,
@@ -849,11 +935,13 @@
       "partid": "Minoritati",
       "image": "https://www.cdep.ro/parlamentari/l2020/ZisopolDragosGabriel.JPG",
       "venituri_ron": 258084.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 475689.4635,
       "imobile_count": 25,
       "suprafata_mp": 21164.26,
       "auto_count": 4,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 475689.4635,
+      "delta_imobile": 25
     },
     {
       "cdep_idm": 9,
@@ -861,11 +949,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/AlexeFlorinAlexandru.JPG",
       "venituri_ron": 199485.0,
-      "conturi_ron": 278000.0,
+      "conturi_ron": 324679.652,
       "imobile_count": 1,
       "suprafata_mp": 47.33,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 324679.652,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 354,
@@ -877,7 +967,9 @@
       "imobile_count": 4,
       "suprafata_mp": 54761.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 11,
@@ -885,11 +977,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/AndreiAlexandruIoan.JPG",
       "venituri_ron": 364851.0,
-      "conturi_ron": 304400.0,
+      "conturi_ron": 370463.3,
       "imobile_count": 20,
       "suprafata_mp": 89897.0,
       "auto_count": 0,
-      "datorii_ron": 268104.5
+      "datorii_ron": 268104.5,
+      "delta_conturi_ron": 370463.3,
+      "delta_imobile": 20
     },
     {
       "cdep_idm": 12,
@@ -897,11 +991,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/AndronacheGabriel.JPG",
       "venituri_ron": 146016.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 161900.0,
       "imobile_count": 4,
       "suprafata_mp": 115.69999999999999,
       "auto_count": 1,
-      "datorii_ron": 100000.0
+      "datorii_ron": 100000.0,
+      "delta_conturi_ron": 161900.0,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 16,
@@ -909,11 +1005,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/ArdeleanBenOni.JPG",
       "venituri_ron": 214978.0,
-      "conturi_ron": 550900.0,
+      "conturi_ron": 594965.0,
       "imobile_count": 8,
       "suprafata_mp": 13438.68,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 594965.0,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 17,
@@ -921,11 +1019,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/AtanasiuOnutValeriu.JPG",
       "venituri_ron": 290192.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 473224.441,
       "imobile_count": 5,
       "suprafata_mp": 182.0,
       "auto_count": 1,
-      "datorii_ron": 208000.0
+      "datorii_ron": 208000.0,
+      "delta_conturi_ron": 473224.441,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 18,
@@ -936,8 +1036,10 @@
       "conturi_ron": 0.0,
       "imobile_count": 5,
       "suprafata_mp": 2535.3599999999997,
-      "auto_count": 2,
-      "datorii_ron": 171384.0
+      "auto_count": 3,
+      "datorii_ron": 171384.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 24,
@@ -945,11 +1047,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/BalanIoan.JPG",
       "venituri_ron": 164542.0,
-      "conturi_ron": 128100.0,
+      "conturi_ron": 82000.0,
       "imobile_count": 6,
       "suprafata_mp": 1477.0,
       "auto_count": 1,
-      "datorii_ron": 675000.0
+      "datorii_ron": 675000.0,
+      "delta_conturi_ron": 82000.0,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 26,
@@ -961,7 +1065,9 @@
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 27,
@@ -969,11 +1075,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/BaniasMirceaMarius.JPG",
       "venituri_ron": 1230274.24,
-      "conturi_ron": 936266.0,
+      "conturi_ron": 1028535.885,
       "imobile_count": 8,
       "suprafata_mp": 1074.8,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 1028535.885,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 28,
@@ -985,7 +1093,9 @@
       "imobile_count": 7,
       "suprafata_mp": 1418.0,
       "auto_count": 1,
-      "datorii_ron": 252500.0
+      "datorii_ron": 252500.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 7
     },
     {
       "cdep_idm": 30,
@@ -993,11 +1103,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/BarcariRodicaLuminita.JPG",
       "venituri_ron": 545357.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 100000.0,
       "imobile_count": 9,
       "suprafata_mp": 24154.11,
       "auto_count": 2,
-      "datorii_ron": 609586.44
+      "datorii_ron": 609586.44,
+      "delta_conturi_ron": 100000.0,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 340,
@@ -1005,11 +1117,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/BenchescuPecinginaClaudia.JPG",
       "venituri_ron": 297088.0,
-      "conturi_ron": 477238.52,
+      "conturi_ron": 167099.81399999998,
       "imobile_count": 2,
       "suprafata_mp": 1155.0,
-      "auto_count": 2,
-      "datorii_ron": 497500.0
+      "auto_count": 3,
+      "datorii_ron": 497500.0,
+      "delta_conturi_ron": 108840.555,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 44,
@@ -1017,11 +1131,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/BodeLucianNicolae.JPG",
       "venituri_ron": 502965.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 34823.3,
       "imobile_count": 3,
       "suprafata_mp": 890.7,
       "auto_count": 1,
-      "datorii_ron": 456251.5
+      "datorii_ron": 456251.5,
+      "delta_conturi_ron": 34823.3,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 46,
@@ -1029,11 +1145,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/BotaCalinIoan.JPG",
       "venituri_ron": 239381.0,
-      "conturi_ron": 273750.0,
+      "conturi_ron": 355417.9755,
       "imobile_count": 10,
       "suprafata_mp": 7265.0,
       "auto_count": 2,
-      "datorii_ron": 521522.0
+      "datorii_ron": 521522.0,
+      "delta_conturi_ron": 355417.9755,
+      "delta_imobile": 10
     },
     {
       "cdep_idm": 50,
@@ -1041,11 +1159,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/BuicanCristian.JPG",
       "venituri_ron": 153312.0,
-      "conturi_ron": 223755.0,
+      "conturi_ron": 34500.0,
       "imobile_count": 1,
       "suprafata_mp": 80.0,
-      "auto_count": 2,
-      "datorii_ron": 452500.0
+      "auto_count": 5,
+      "datorii_ron": 452500.0,
+      "delta_conturi_ron": 34500.0,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 54,
@@ -1057,7 +1177,9 @@
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 2,
-      "datorii_ron": 150000.0
+      "datorii_ron": 150000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 55,
@@ -1065,11 +1187,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/BurdujaSebastianIoan.JPG",
       "venituri_ron": 884953.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 535348.75,
       "imobile_count": 6,
       "suprafata_mp": 42041.0,
       "auto_count": 2,
-      "datorii_ron": 2021989.5
+      "datorii_ron": 2021989.5,
+      "delta_conturi_ron": 535348.75,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 41,
@@ -1081,7 +1205,9 @@
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 32,
@@ -1089,11 +1215,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/BacanuCristianTudor.JPG",
       "venituri_ron": 522468.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 630667.3145,
       "imobile_count": 7,
       "suprafata_mp": 814.16,
-      "auto_count": 1,
-      "datorii_ron": 501972.0
+      "auto_count": 2,
+      "datorii_ron": 501972.0,
+      "delta_conturi_ron": 630667.3145,
+      "delta_imobile": 7
     },
     {
       "cdep_idm": 57,
@@ -1101,11 +1229,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/CalistaMaraDaniela.JPG",
       "venituri_ron": 286072.0,
-      "conturi_ron": 236800.0,
+      "conturi_ron": 36653.9,
       "imobile_count": 13,
       "suprafata_mp": 32070.739999999994,
       "auto_count": 1,
-      "datorii_ron": 227441.32
+      "datorii_ron": 227441.32,
+      "delta_conturi_ron": 36653.9,
+      "delta_imobile": 13
     },
     {
       "cdep_idm": 60,
@@ -1113,11 +1243,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/CazanLaurentiuNicolae.JPG",
       "venituri_ron": 224581.0,
-      "conturi_ron": 180000.0,
+      "conturi_ron": 45174.84,
       "imobile_count": 5,
       "suprafata_mp": 5562.0,
       "auto_count": 1,
-      "datorii_ron": 250425.0
+      "datorii_ron": 250425.0,
+      "delta_conturi_ron": 45174.84,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 69,
@@ -1125,11 +1257,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/CiofuCatalina.JPG",
       "venituri_ron": 232704.1,
-      "conturi_ron": 40000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 3542.91,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 351,
@@ -1141,7 +1275,9 @@
       "imobile_count": 3,
       "suprafata_mp": 213.0,
       "auto_count": 0,
-      "datorii_ron": 150000.0
+      "datorii_ron": 150000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 76,
@@ -1149,11 +1285,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/ConstantinDaniel.JPG",
       "venituri_ron": 243135.0,
-      "conturi_ron": 528987.0,
+      "conturi_ron": 0.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 1682470.0
+      "datorii_ron": 1682470.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 77,
@@ -1161,11 +1299,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/CozmaAdrianFelician.JPG",
       "venituri_ron": 438852.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 307685.85,
       "imobile_count": 13,
       "suprafata_mp": 52145.0,
       "auto_count": 4,
-      "datorii_ron": 514250.0
+      "datorii_ron": 514250.0,
+      "delta_conturi_ron": 307685.85,
+      "delta_imobile": 13
     },
     {
       "cdep_idm": 78,
@@ -1173,11 +1313,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/CozmanciucCorneliuMugurel.JPG",
       "venituri_ron": 593016.0,
-      "conturi_ron": 358850.0,
+      "conturi_ron": 51106.0,
       "imobile_count": 4,
       "suprafata_mp": 7805.59,
       "auto_count": 1,
-      "datorii_ron": 1593388.65
+      "datorii_ron": 1593388.65,
+      "delta_conturi_ron": 51106.0,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 83,
@@ -1185,11 +1327,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/CrusoveanuMarian.JPG",
       "venituri_ron": 9890046.0605,
-      "conturi_ron": 8767712.5,
+      "conturi_ron": 2272712.4255,
       "imobile_count": 33,
       "suprafata_mp": 117569.29999999999,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 2272712.4255,
+      "delta_imobile": 33
     },
     {
       "cdep_idm": 86,
@@ -1197,11 +1341,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/CupsaIoan.JPG",
       "venituri_ron": 640060.9375,
-      "conturi_ron": 0.0,
+      "conturi_ron": 1511894.056,
       "imobile_count": 10,
       "suprafata_mp": 18373.0,
       "auto_count": 2,
-      "datorii_ron": 50500.0
+      "datorii_ron": 50500.0,
+      "delta_conturi_ron": 1511894.056,
+      "delta_imobile": 10
     },
     {
       "cdep_idm": 63,
@@ -1209,11 +1355,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/CausVasileAurel.JPG",
       "venituri_ron": 304320.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 187840.0,
       "imobile_count": 9,
       "suprafata_mp": 9498.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 187840.0,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 96,
@@ -1221,11 +1369,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/DumitruFlorianEmil.JPG",
       "venituri_ron": 240868.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 20703.559999999998,
       "imobile_count": 14,
       "suprafata_mp": 2775.39,
       "auto_count": 4,
-      "datorii_ron": 1005903.26
+      "datorii_ron": 1005903.26,
+      "delta_conturi_ron": 20703.559999999998,
+      "delta_imobile": 14
     },
     {
       "cdep_idm": 355,
@@ -1233,11 +1383,13 @@
       "partid": "PNL",
       "image": null,
       "venituri_ron": 239106.0,
-      "conturi_ron": 25000.0,
+      "conturi_ron": 100000.0,
       "imobile_count": 6,
       "suprafata_mp": 11321.0,
       "auto_count": 1,
-      "datorii_ron": 17500.0
+      "datorii_ron": 17500.0,
+      "delta_conturi_ron": 10000.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 104,
@@ -1245,11 +1397,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/FechetMircea.JPG",
       "venituri_ron": 182051.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 96505.74,
       "imobile_count": 3,
       "suprafata_mp": 147.0,
       "auto_count": 1,
-      "datorii_ron": 198000.0
+      "datorii_ron": 198000.0,
+      "delta_conturi_ron": 96505.74,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 114,
@@ -1261,7 +1415,9 @@
       "imobile_count": 3,
       "suprafata_mp": 698.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 101,
@@ -1269,11 +1425,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/FadorAngelica.JPG",
       "venituri_ron": 142202.0,
-      "conturi_ron": 400000.0,
+      "conturi_ron": 27706.39,
       "imobile_count": 4,
       "suprafata_mp": 2734.0,
       "auto_count": 1,
-      "datorii_ron": 101000.0
+      "datorii_ron": 101000.0,
+      "delta_conturi_ron": 27706.39,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 102,
@@ -1281,11 +1439,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/FagarasianValentinIlie.JPG",
       "venituri_ron": 167908.0,
-      "conturi_ron": 200650.0,
+      "conturi_ron": 388374.83150000003,
       "imobile_count": 13,
       "suprafata_mp": 62290.0,
       "auto_count": 3,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 388374.83150000003,
+      "delta_imobile": 13
     },
     {
       "cdep_idm": 122,
@@ -1293,11 +1453,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/GheorgheAndreiDaniel.JPG",
       "venituri_ron": 215839.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 1987.56,
       "imobile_count": 3,
       "suprafata_mp": 1114.8,
       "auto_count": 2,
-      "datorii_ron": 344868.2
+      "datorii_ron": 344868.2,
+      "delta_conturi_ron": 1987.56,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 123,
@@ -1305,11 +1467,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/GheorghiuBogdan.JPG",
       "venituri_ron": 414588.0,
-      "conturi_ron": 447060.0,
+      "conturi_ron": 696306.55,
       "imobile_count": 1,
       "suprafata_mp": 129.8,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 696306.55,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 126,
@@ -1317,11 +1481,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/GiugeaNicolae.JPG",
       "venituri_ron": 388205.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 158698.9,
       "imobile_count": 2,
       "suprafata_mp": 336.01,
       "auto_count": 2,
-      "datorii_ron": 60000.0
+      "datorii_ron": 60000.0,
+      "delta_conturi_ron": 158698.9,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 134,
@@ -1333,7 +1499,9 @@
       "imobile_count": 10,
       "suprafata_mp": 4993.4,
       "auto_count": 2,
-      "datorii_ron": 562200.0
+      "datorii_ron": 562200.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 10
     },
     {
       "cdep_idm": 141,
@@ -1341,11 +1509,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/HorgaMariaGabriela.JPG",
       "venituri_ron": 542940.0,
-      "conturi_ron": 9226.0,
+      "conturi_ron": 170714.582,
       "imobile_count": 4,
       "suprafata_mp": 336.0,
       "auto_count": 0,
-      "datorii_ron": 738788.0
+      "datorii_ron": 738788.0,
+      "delta_conturi_ron": 170714.582,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 143,
@@ -1353,11 +1523,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/HutucaBogdanIulian.JPG",
       "venituri_ron": 228361.0,
-      "conturi_ron": 270130.0,
+      "conturi_ron": 165144.4,
       "imobile_count": 7,
       "suprafata_mp": 24409.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 165144.4,
+      "delta_imobile": 7
     },
     {
       "cdep_idm": 139,
@@ -1365,11 +1537,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/HaratauElena.JPG",
       "venituri_ron": 131412.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 90125.0,
       "imobile_count": 3,
       "suprafata_mp": 5140.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 90125.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 156,
@@ -1377,11 +1551,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/KissJanos.JPG",
       "venituri_ron": 173024.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 698610.33,
       "imobile_count": 4,
       "suprafata_mp": 1177.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 698610.33,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 163,
@@ -1389,11 +1565,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/LazarIonMarian.JPG",
       "venituri_ron": 135585.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 34576.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 35000.0
+      "datorii_ron": 35000.0,
+      "delta_conturi_ron": 34576.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 165,
@@ -1401,11 +1579,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/LeoreanuLaurentiuDan.JPG",
       "venituri_ron": 228797.0,
-      "conturi_ron": 508085.0,
+      "conturi_ron": 100000.0,
       "imobile_count": 9,
       "suprafata_mp": 13409.0,
       "auto_count": 3,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 100000.0,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 338,
@@ -1413,11 +1593,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/MaresMara.JPG",
       "venituri_ron": 147148.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 883824.9615,
       "imobile_count": 10,
       "suprafata_mp": 53672.200000000004,
       "auto_count": 0,
-      "datorii_ron": 123363.0
+      "datorii_ron": 123363.0,
+      "delta_conturi_ron": 883824.9615,
+      "delta_imobile": 10
     },
     {
       "cdep_idm": 176,
@@ -1425,11 +1607,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/MarsalicJaroNorbert.JPG",
       "venituri_ron": 151995.0,
-      "conturi_ron": 368000.0,
+      "conturi_ron": 142877.22999999998,
       "imobile_count": 4,
       "suprafata_mp": 6558.67,
       "auto_count": 3,
-      "datorii_ron": 547000.0
+      "datorii_ron": 547000.0,
+      "delta_conturi_ron": 142877.22999999998,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 341,
@@ -1441,7 +1625,9 @@
       "imobile_count": 3,
       "suprafata_mp": 560.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 189,
@@ -1449,11 +1635,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/MoisinRaduMarin.JPG",
       "venituri_ron": 966030.91,
-      "conturi_ron": 775520.5,
+      "conturi_ron": 341681.988,
       "imobile_count": 9,
       "suprafata_mp": 2030.18,
       "auto_count": 2,
-      "datorii_ron": 150000.0
+      "datorii_ron": 150000.0,
+      "delta_conturi_ron": 341681.988,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 190,
@@ -1461,11 +1649,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/MoldovanSorinDan.JPG",
       "venituri_ron": 137256.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 45700.119,
       "imobile_count": 3,
       "suprafata_mp": 131.96,
       "auto_count": 0,
-      "datorii_ron": 84300.0
+      "datorii_ron": 84300.0,
+      "delta_conturi_ron": 45700.119,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 191,
@@ -1473,11 +1663,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/MolnarErvin.JPG",
       "venituri_ron": 148777.0,
-      "conturi_ron": 1850000.0,
+      "conturi_ron": 153793.0,
       "imobile_count": 2,
       "suprafata_mp": 1026.0,
       "auto_count": 0,
-      "datorii_ron": 750000.0
+      "datorii_ron": 750000.0,
+      "delta_conturi_ron": 153793.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 198,
@@ -1485,11 +1677,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/MuraruIulianAlexandru.JPG",
       "venituri_ron": 194349.0,
-      "conturi_ron": 4797624.0,
+      "conturi_ron": 149380.2975,
       "imobile_count": 5,
       "suprafata_mp": 764.54,
       "auto_count": 1,
-      "datorii_ron": 1526615.53
+      "datorii_ron": 1526615.53,
+      "delta_conturi_ron": 149380.2975,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 177,
@@ -1501,7 +1695,9 @@
       "imobile_count": 2,
       "suprafata_mp": 1413.0,
       "auto_count": 0,
-      "datorii_ron": 104100.0
+      "datorii_ron": 104100.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 204,
@@ -1509,11 +1705,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/NacutaSorin.JPG",
       "venituri_ron": 214056.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 123.0,
       "auto_count": 2,
-      "datorii_ron": 368000.0
+      "datorii_ron": 368000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 211,
@@ -1525,7 +1723,9 @@
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 216,
@@ -1533,11 +1733,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/PaladiGeorgeAdrian.JPG",
       "venituri_ron": 172663.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 20451.0,
       "imobile_count": 12,
       "suprafata_mp": 200429.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 20451.0,
+      "delta_imobile": 12
     },
     {
       "cdep_idm": 223,
@@ -1545,11 +1747,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/PecinginaGheorghe.JPG",
       "venituri_ron": 297088.0,
-      "conturi_ron": 477238.52,
+      "conturi_ron": 161672.454,
       "imobile_count": 2,
       "suprafata_mp": 1155.0,
-      "auto_count": 2,
-      "datorii_ron": 497500.0
+      "auto_count": 3,
+      "datorii_ron": 497500.0,
+      "delta_conturi_ron": 161672.454,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 227,
@@ -1557,11 +1761,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/PirteaMarilenGabriel.JPG",
       "venituri_ron": 761735.0,
-      "conturi_ron": 1208000.0,
+      "conturi_ron": 894791.611,
       "imobile_count": 10,
       "suprafata_mp": 13605.39,
-      "auto_count": 1,
-      "datorii_ron": 0.0
+      "auto_count": 2,
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 894791.611,
+      "delta_imobile": 10
     },
     {
       "cdep_idm": 229,
@@ -1569,11 +1775,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/PolakTudor.JPG",
       "venituri_ron": 602477.0,
-      "conturi_ron": 1203765.0,
+      "conturi_ron": 234683.07899999997,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 234683.07899999997,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 233,
@@ -1581,11 +1789,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/PopaAlexandru.JPG",
       "venituri_ron": 1022596.0,
-      "conturi_ron": 200000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 18,
       "suprafata_mp": 1375623.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 18
     },
     {
       "cdep_idm": 237,
@@ -1593,11 +1803,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/PopescuPavel.JPG",
       "venituri_ron": 137448.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 13828.095500000001,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 325750.0
+      "datorii_ron": 325750.0,
+      "delta_conturi_ron": 13828.095500000001,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 238,
@@ -1605,11 +1817,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/PopescuVirgilDaniel.jpg",
       "venituri_ron": 452898.0,
-      "conturi_ron": 2742806.3499999996,
+      "conturi_ron": 1499212.8275,
       "imobile_count": 19,
       "suprafata_mp": 127747.12,
       "auto_count": 0,
-      "datorii_ron": 1921300.0
+      "datorii_ron": 1921300.0,
+      "delta_conturi_ron": 1499212.8275,
+      "delta_imobile": 19
     },
     {
       "cdep_idm": 242,
@@ -1617,11 +1831,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/PredoiuMarianCatalin.JPG",
       "venituri_ron": 235055.0,
-      "conturi_ron": 198230.0,
+      "conturi_ron": 43063.335,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 198000.0
+      "datorii_ron": 198000.0,
+      "delta_conturi_ron": 43063.335,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 244,
@@ -1629,11 +1845,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/PriscaRazvanSorin.JPG",
       "venituri_ron": 131412.0,
-      "conturi_ron": 230500.0,
+      "conturi_ron": 21371.08,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 180000.0
+      "datorii_ron": 180000.0,
+      "delta_conturi_ron": 21371.08,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 252,
@@ -1641,11 +1859,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/RomanFlorinClaudiu.JPG",
       "venituri_ron": 898388.29,
-      "conturi_ron": 190000.0,
+      "conturi_ron": 224567.261,
       "imobile_count": 1,
       "suprafata_mp": 311.89,
       "auto_count": 1,
-      "datorii_ron": 90000.0
+      "datorii_ron": 90000.0,
+      "delta_conturi_ron": 224567.261,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 254,
@@ -1653,11 +1873,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/RoscaMircea.JPG",
       "venituri_ron": 234506.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 151500.0,
       "imobile_count": 3,
       "suprafata_mp": 1492.9,
       "auto_count": 2,
-      "datorii_ron": 287850.0
+      "datorii_ron": 287850.0,
+      "delta_conturi_ron": 151500.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 255,
@@ -1665,11 +1887,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/RujanDumitru.JPG",
       "venituri_ron": 284493.0,
-      "conturi_ron": 297999.0,
+      "conturi_ron": 21840.21,
       "imobile_count": 2,
       "suprafata_mp": 50045.0,
       "auto_count": 0,
-      "datorii_ron": 198000.0
+      "datorii_ron": 198000.0,
+      "delta_conturi_ron": 21840.21,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 264,
@@ -1677,11 +1901,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/SighiartauRobertIonatan.JPG",
       "venituri_ron": 1061225.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 57320.0,
       "imobile_count": 2,
       "suprafata_mp": 1098.0,
       "auto_count": 0,
-      "datorii_ron": 584872.0
+      "datorii_ron": 584872.0,
+      "delta_conturi_ron": 57320.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 278,
@@ -1689,11 +1915,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/StoicaStefanBucur.JPG",
       "venituri_ron": 181934.0,
-      "conturi_ron": 1607000.0,
+      "conturi_ron": 316185.58,
       "imobile_count": 7,
       "suprafata_mp": 43640.0,
       "auto_count": 0,
-      "datorii_ron": 402850.0
+      "datorii_ron": 402850.0,
+      "delta_conturi_ron": 316185.58,
+      "delta_imobile": 7
     },
     {
       "cdep_idm": 279,
@@ -1701,11 +1929,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/StroeIonutMarian.JPG",
       "venituri_ron": 490580.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 624913.25,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 208800.0
+      "datorii_ron": 208800.0,
+      "delta_conturi_ron": 624913.25,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 272,
@@ -1713,11 +1943,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/StangaGeorgeCatalin.JPG",
       "venituri_ron": 141186.0,
-      "conturi_ron": 594000.0,
+      "conturi_ron": 129859.1,
       "imobile_count": 3,
       "suprafata_mp": 1189.9,
       "auto_count": 1,
-      "datorii_ron": 244192.75
+      "datorii_ron": 244192.75,
+      "delta_conturi_ron": 129859.1,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 271,
@@ -1725,11 +1957,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/StanescuVetuta.JPG",
       "venituri_ron": 295205.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 395429.3175,
       "imobile_count": 9,
       "suprafata_mp": 5183.36,
       "auto_count": 3,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 395429.3175,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 300,
@@ -1737,11 +1971,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/ThellmannChristine.JPG",
       "venituri_ron": 160104.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 398227.85,
       "imobile_count": 5,
       "suprafata_mp": 4653.0,
       "auto_count": 1,
-      "datorii_ron": 10000.0
+      "datorii_ron": 10000.0,
+      "delta_conturi_ron": 398227.85,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 307,
@@ -1749,11 +1985,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/TrailaCristina.JPG",
       "venituri_ron": 514340.32,
-      "conturi_ron": 100000.0,
+      "conturi_ron": 421606.68500000006,
       "imobile_count": 4,
       "suprafata_mp": 4362.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 421606.68500000006,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 312,
@@ -1761,11 +1999,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/TurcanRaluca.JPG",
       "venituri_ron": 766202.0,
-      "conturi_ron": 459930.0,
+      "conturi_ron": 1994168.0999999999,
       "imobile_count": 4,
       "suprafata_mp": 4172.0,
       "auto_count": 0,
-      "datorii_ron": 80322.0
+      "datorii_ron": 80322.0,
+      "delta_conturi_ron": 1994168.0999999999,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 314,
@@ -1773,11 +2013,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/TutaGeorgeCristian.JPG",
       "venituri_ron": 236636.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 622258.122,
       "imobile_count": 4,
       "suprafata_mp": 1030.0,
       "auto_count": 1,
-      "datorii_ron": 126250.0
+      "datorii_ron": 126250.0,
+      "delta_conturi_ron": 622258.122,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 296,
@@ -1785,11 +2027,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/TataruNelu.JPG",
       "venituri_ron": 275506.0,
-      "conturi_ron": 150000.0,
+      "conturi_ron": 1785243.9,
       "imobile_count": 2,
       "suprafata_mp": 180.0,
       "auto_count": 0,
-      "datorii_ron": 578000.0
+      "datorii_ron": 578000.0,
+      "delta_conturi_ron": 1785243.9,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 346,
@@ -1797,11 +2041,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/UdristeIuliuAlin.JPG",
       "venituri_ron": 682143.91,
-      "conturi_ron": 1210.0,
+      "conturi_ron": 378340.0,
       "imobile_count": 20,
       "suprafata_mp": 117033.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 320,
@@ -1809,11 +2055,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/VargaGladAurel.JPG",
       "venituri_ron": 1001907.4299999999,
-      "conturi_ron": 489000.0,
+      "conturi_ron": 117590.33,
       "imobile_count": 2,
       "suprafata_mp": 73.44,
       "auto_count": 3,
-      "datorii_ron": 465776.0
+      "datorii_ron": 465776.0,
+      "delta_conturi_ron": 117590.33,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 333,
@@ -1821,11 +2069,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/VecerdiCristinaAgnes.JPG",
       "venituri_ron": 271703.0,
-      "conturi_ron": 50000.0,
+      "conturi_ron": 624309.0,
       "imobile_count": 3,
       "suprafata_mp": 710.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 624309.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 215,
@@ -1833,11 +2083,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/OzmenOanaMarciana.JPG",
       "venituri_ron": 909627.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 186800.423,
       "imobile_count": 5,
       "suprafata_mp": 4101.0,
       "auto_count": 1,
-      "datorii_ron": 853000.0
+      "datorii_ron": 853000.0,
+      "delta_conturi_ron": 186800.423,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 283,
@@ -1845,11 +2097,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/SandruCosmin.JPG",
       "venituri_ron": 252402.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 268579.77,
       "imobile_count": 1,
       "suprafata_mp": 120.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 268579.77,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 287,
@@ -1857,11 +2111,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/SiscuGeorge.JPG",
       "venituri_ron": 225112.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 78998.0,
       "imobile_count": 5,
       "suprafata_mp": 5581.0,
       "auto_count": 3,
-      "datorii_ron": 627132.4
+      "datorii_ron": 627132.4,
+      "delta_conturi_ron": 78998.0,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 290,
@@ -1873,7 +2129,9 @@
       "imobile_count": 2,
       "suprafata_mp": 993.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 293,
@@ -1881,11 +2139,13 @@
       "partid": "PNL",
       "image": "https://www.cdep.ro/parlamentari/l2020/StirbuGigelSorinel.JPG",
       "venituri_ron": 212778.0,
-      "conturi_ron": 150000.0,
+      "conturi_ron": 59529.0,
       "imobile_count": 6,
       "suprafata_mp": 1898.83,
       "auto_count": 0,
-      "datorii_ron": 202000.0
+      "datorii_ron": 202000.0,
+      "delta_conturi_ron": 59529.0,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 2,
@@ -1893,11 +2153,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/AchimasCadariuPatriciuAndrei.JPG",
       "venituri_ron": 793581.0,
-      "conturi_ron": 75750.0,
+      "conturi_ron": 1340239.109,
       "imobile_count": 3,
       "suprafata_mp": 1426.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 1340239.109,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 3,
@@ -1909,7 +2171,9 @@
       "imobile_count": 1,
       "suprafata_mp": 62.0,
       "auto_count": 2,
-      "datorii_ron": 192349.5
+      "datorii_ron": 192349.5,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 6,
@@ -1917,11 +2181,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/AlbotaEmilFlorin.JPG",
       "venituri_ron": 1405688.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 517811.85,
       "imobile_count": 35,
       "suprafata_mp": 106375.51000000001,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 517811.85,
+      "delta_imobile": 35
     },
     {
       "cdep_idm": 7,
@@ -1933,7 +2199,9 @@
       "imobile_count": 3,
       "suprafata_mp": 351.0,
       "auto_count": 3,
-      "datorii_ron": 201000.0
+      "datorii_ron": 201000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 347,
@@ -1945,7 +2213,9 @@
       "imobile_count": 3,
       "suprafata_mp": 1482.0,
       "auto_count": 2,
-      "datorii_ron": 180000.0
+      "datorii_ron": 180000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 352,
@@ -1953,11 +2223,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/AxinteVasile.JPG",
       "venituri_ron": 309746.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 2738150.0,
       "imobile_count": 1,
       "suprafata_mp": 54.0,
       "auto_count": 1,
-      "datorii_ron": 450000.0
+      "datorii_ron": 450000.0,
+      "delta_conturi_ron": 36600.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 20,
@@ -1969,7 +2241,9 @@
       "imobile_count": 2,
       "suprafata_mp": 5901.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 29,
@@ -1981,7 +2255,9 @@
       "imobile_count": 2,
       "suprafata_mp": 988.0,
       "auto_count": 1,
-      "datorii_ron": 238200.0
+      "datorii_ron": 238200.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 35,
@@ -1989,11 +2265,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/BejinariuEugen.JPG",
       "venituri_ron": 366466.0,
-      "conturi_ron": 997702.85,
+      "conturi_ron": 3550988.25,
       "imobile_count": 16,
       "suprafata_mp": 29905.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 3550988.25,
+      "delta_imobile": 16
     },
     {
       "cdep_idm": 348,
@@ -2001,11 +2279,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/BlanariLarisa.JPG",
       "venituri_ron": 396237.0,
-      "conturi_ron": 8290547.0,
+      "conturi_ron": 68645.0,
       "imobile_count": 32,
       "suprafata_mp": 743806.75,
       "auto_count": 0,
-      "datorii_ron": 1160000.0
+      "datorii_ron": 1160000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 48,
@@ -2013,11 +2293,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/BucuraOprescuSimona.JPG",
       "venituri_ron": 330903.0,
-      "conturi_ron": 248000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 44001.0
+      "datorii_ron": 44001.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 342,
@@ -2025,11 +2307,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/BudacaVasile.JPG",
       "venituri_ron": 232280.0,
-      "conturi_ron": 698000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 1,
       "suprafata_mp": 63.9,
       "auto_count": 0,
-      "datorii_ron": 1093000.0
+      "datorii_ron": 1093000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 49,
@@ -2037,11 +2321,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/BudaiMariusConstantin.JPG",
       "venituri_ron": 254421.0,
-      "conturi_ron": 250063.89,
+      "conturi_ron": 23399.64,
       "imobile_count": 2,
       "suprafata_mp": 606.0,
       "auto_count": 4,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 23399.64,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 51,
@@ -2049,11 +2335,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/BuicuCorneliuFlorin.JPG",
       "venituri_ron": 440144.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 596762.0,
       "imobile_count": 6,
       "suprafata_mp": 1810.0,
       "auto_count": 1,
-      "datorii_ron": 252500.0
+      "datorii_ron": 252500.0,
+      "delta_conturi_ron": 596762.0,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 53,
@@ -2061,11 +2349,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/BulaiOanaGianina.JPG",
       "venituri_ron": 161346.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 412137.75,
       "imobile_count": 5,
       "suprafata_mp": 3606.83,
       "auto_count": 0,
-      "datorii_ron": 619725.8999999999
+      "datorii_ron": 619725.8999999999,
+      "delta_conturi_ron": 412137.75,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 349,
@@ -2077,7 +2367,9 @@
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 68211.0
+      "datorii_ron": 68211.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 42,
@@ -2085,11 +2377,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/BircaConstantin.JPG",
       "venituri_ron": 257556.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 5,
       "suprafata_mp": 3409.52,
       "auto_count": 3,
-      "datorii_ron": 654000.0
+      "datorii_ron": 654000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 33,
@@ -2097,11 +2391,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/BalasoiuAurel.JPG",
       "venituri_ron": 166898.0,
-      "conturi_ron": 130550.0,
+      "conturi_ron": 38460.0,
       "imobile_count": 2,
       "suprafata_mp": 271.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 38460.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 65,
@@ -2109,11 +2405,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/ChesnoiuAdrianIonut.JPG",
       "venituri_ron": 136737.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 51915.87,
       "imobile_count": 1,
       "suprafata_mp": 2300.0,
       "auto_count": 0,
-      "datorii_ron": 176436.63
+      "datorii_ron": 176436.63,
+      "delta_conturi_ron": 51915.87,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 68,
@@ -2121,11 +2419,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/ChirilaVirgilAlin.JPG",
       "venituri_ron": 155712.0,
-      "conturi_ron": 248000.0,
+      "conturi_ron": 144352.00149999998,
       "imobile_count": 15,
       "suprafata_mp": 6603.349999999999,
       "auto_count": 1,
-      "datorii_ron": 300727.89
+      "datorii_ron": 300727.89,
+      "delta_conturi_ron": 144352.00149999998,
+      "delta_imobile": 15
     },
     {
       "cdep_idm": 70,
@@ -2133,11 +2433,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/CiolacuIonMarcel.JPG",
       "venituri_ron": 232270.0,
-      "conturi_ron": 593010.0,
+      "conturi_ron": 115214.1805,
       "imobile_count": 4,
       "suprafata_mp": 773.3399999999999,
       "auto_count": 0,
-      "datorii_ron": 35000.0
+      "datorii_ron": 35000.0,
+      "delta_conturi_ron": 115214.1805,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 353,
@@ -2145,11 +2447,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/CioncaAdrianIoan.JPG",
       "venituri_ron": 719959.11,
-      "conturi_ron": 15750354.54,
+      "conturi_ron": 0.0,
       "imobile_count": 20,
       "suprafata_mp": 213582.39999999997,
       "auto_count": 2,
-      "datorii_ron": 23411256.04
+      "datorii_ron": 23411256.04,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 79,
@@ -2157,11 +2461,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/CristeaAndiLucian.JPG",
       "venituri_ron": 668961.75,
-      "conturi_ron": 665201.7,
+      "conturi_ron": 201483.6,
       "imobile_count": 8,
       "suprafata_mp": 714.0,
       "auto_count": 2,
-      "datorii_ron": 51000.0
+      "datorii_ron": 51000.0,
+      "delta_conturi_ron": 201483.6,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 80,
@@ -2173,7 +2479,9 @@
       "imobile_count": 1,
       "suprafata_mp": 60.0,
       "auto_count": 0,
-      "datorii_ron": 198000.0
+      "datorii_ron": 198000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 73,
@@ -2181,11 +2489,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/CiteaVasile.JPG",
       "venituri_ron": 137256.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 36480.0,
       "imobile_count": 2,
       "suprafata_mp": 3130.0,
       "auto_count": 1,
-      "datorii_ron": 100000.0
+      "datorii_ron": 100000.0,
+      "delta_conturi_ron": 36480.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 61,
@@ -2193,11 +2503,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/CataniciuStelutaGustica.JPG",
       "venituri_ron": 543479.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 364776.7995,
       "imobile_count": 6,
       "suprafata_mp": 11480.0,
       "auto_count": 1,
-      "datorii_ron": 104500.0
+      "datorii_ron": 104500.0,
+      "delta_conturi_ron": 364776.7995,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 62,
@@ -2205,11 +2517,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/CatautaAnaMaria.JPG",
       "venituri_ron": 143294.74,
-      "conturi_ron": 50000.0,
+      "conturi_ron": 126465.22099999999,
       "imobile_count": 5,
       "suprafata_mp": 1002.3299999999999,
       "auto_count": 1,
-      "datorii_ron": 341611.0
+      "datorii_ron": 341611.0,
+      "delta_conturi_ron": 126465.22099999999,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 91,
@@ -2217,11 +2531,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/DinuCristinaElena.JPG",
       "venituri_ron": 369848.0,
-      "conturi_ron": 100000.0,
+      "conturi_ron": 250739.85,
       "imobile_count": 3,
       "suprafata_mp": 1421.0,
       "auto_count": 0,
-      "datorii_ron": 375452.35
+      "datorii_ron": 375452.35,
+      "delta_conturi_ron": 250739.85,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 94,
@@ -2229,11 +2545,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/DumitracheIleanaCristina.JPG",
       "venituri_ron": 386705.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 258445.5135,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 258445.5135,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 95,
@@ -2241,11 +2559,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/DumitrescuRalucaGiorgiana.JPG",
       "venituri_ron": 181658.12,
-      "conturi_ron": 332045.6,
+      "conturi_ron": 0.0,
       "imobile_count": 8,
       "suprafata_mp": 171.2,
       "auto_count": 0,
-      "datorii_ron": 670638.83
+      "datorii_ron": 670638.83,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 97,
@@ -2253,11 +2573,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/DunavaCostelNeculai.JPG",
       "venituri_ron": 249375.0,
-      "conturi_ron": 732482.0,
+      "conturi_ron": 373574.187,
       "imobile_count": 14,
       "suprafata_mp": 45069.130000000005,
       "auto_count": 1,
-      "datorii_ron": 1344466.0
+      "datorii_ron": 1344466.0,
+      "delta_conturi_ron": 373574.187,
+      "delta_imobile": 14
     },
     {
       "cdep_idm": 350,
@@ -2269,7 +2591,9 @@
       "imobile_count": 1,
       "suprafata_mp": 87.0,
       "auto_count": 0,
-      "datorii_ron": 289218.0
+      "datorii_ron": 289218.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 107,
@@ -2277,11 +2601,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/FiforMihaiViorel.JPG",
       "venituri_ron": 262370.0,
-      "conturi_ron": 190000.0,
+      "conturi_ron": 21613.9995,
       "imobile_count": 1,
       "suprafata_mp": 55.0,
       "auto_count": 2,
-      "datorii_ron": 547932.0
+      "datorii_ron": 547932.0,
+      "delta_conturi_ron": 21613.9995,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 109,
@@ -2289,11 +2615,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/FloreaDaniel.JPG",
       "venituri_ron": 144174.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 81202.0,
       "imobile_count": 2,
       "suprafata_mp": 2590.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 81202.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 110,
@@ -2301,11 +2629,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/FloreaOanaConsuela.JPG",
       "venituri_ron": 172731.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 24434.895,
       "imobile_count": 5,
       "suprafata_mp": 864.0,
       "auto_count": 2,
-      "datorii_ron": 363712.0
+      "datorii_ron": 363712.0,
+      "delta_conturi_ron": 24434.895,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 111,
@@ -2313,11 +2643,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/FloroiuIonel.JPG",
       "venituri_ron": 233060.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 92872.15,
       "imobile_count": 9,
       "suprafata_mp": 11534.0,
       "auto_count": 1,
-      "datorii_ron": 40000.0
+      "datorii_ron": 40000.0,
+      "delta_conturi_ron": 92872.15,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 115,
@@ -2325,11 +2657,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/FurtunaMirela.JPG",
       "venituri_ron": 383042.0,
-      "conturi_ron": 198200.0,
+      "conturi_ron": 1509550.6635,
       "imobile_count": 11,
       "suprafata_mp": 3283.62,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 1509550.6635,
+      "delta_imobile": 11
     },
     {
       "cdep_idm": 119,
@@ -2337,11 +2671,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/GavrilescuGratielaLeocadia.JPG",
       "venituri_ron": 421513.0,
-      "conturi_ron": 225060.0,
+      "conturi_ron": 15655.0,
       "imobile_count": 26,
       "suprafata_mp": 36802.799999999996,
       "auto_count": 3,
-      "datorii_ron": 48508.0
+      "datorii_ron": 48508.0,
+      "delta_conturi_ron": 15655.0,
+      "delta_imobile": 26
     },
     {
       "cdep_idm": 120,
@@ -2349,11 +2685,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/GeorgescuNicolae.JPG",
       "venituri_ron": 318868.3,
-      "conturi_ron": 50000.0,
+      "conturi_ron": 33335.79,
       "imobile_count": 8,
       "suprafata_mp": 20645.199999999997,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 33335.79,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 121,
@@ -2361,11 +2699,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/GhebaDanielSorin.JPG",
       "venituri_ron": 133292.0,
-      "conturi_ron": 65047.5,
+      "conturi_ron": 101440.89,
       "imobile_count": 10,
       "suprafata_mp": 45983.86,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 101440.89,
+      "delta_imobile": 10
     },
     {
       "cdep_idm": 129,
@@ -2373,11 +2713,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/GligaDumitrita.JPG",
       "venituri_ron": 1594208.34,
-      "conturi_ron": 2077126.0,
+      "conturi_ron": 0.0,
       "imobile_count": 10,
       "suprafata_mp": 11373.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 10
     },
     {
       "cdep_idm": 130,
@@ -2385,11 +2727,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/GoleacNicoletaMatilda.JPG",
       "venituri_ron": 283447.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 352592.0,
       "imobile_count": 2,
       "suprafata_mp": 996.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 352592.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 131,
@@ -2397,11 +2741,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/GrecuIonCatalin.JPG",
       "venituri_ron": 131412.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 10341.0,
       "imobile_count": 11,
       "suprafata_mp": 141676.0,
-      "auto_count": 5,
-      "datorii_ron": 0.0
+      "auto_count": 6,
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 10341.0,
+      "delta_imobile": 11
     },
     {
       "cdep_idm": 132,
@@ -2409,11 +2755,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/GrindeanuSorinMihai.JPG",
       "venituri_ron": 299065.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 256610.55,
       "imobile_count": 6,
       "suprafata_mp": 5471.0,
       "auto_count": 0,
-      "datorii_ron": 374620.0
+      "datorii_ron": 374620.0,
+      "delta_conturi_ron": 256610.55,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 128,
@@ -2425,7 +2773,9 @@
       "imobile_count": 3,
       "suprafata_mp": 1294.0,
       "auto_count": 2,
-      "datorii_ron": 586932.0
+      "datorii_ron": 586932.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 136,
@@ -2433,11 +2783,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/HaliciNicusor.JPG",
       "venituri_ron": 291657.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 11949.72,
       "imobile_count": 4,
       "suprafata_mp": 127129.0,
       "auto_count": 1,
-      "datorii_ron": 473025.0
+      "datorii_ron": 473025.0,
+      "delta_conturi_ron": 11949.72,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 140,
@@ -2445,11 +2797,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/HolbanGeorgetaCarmen.JPG",
       "venituri_ron": 760573.0,
-      "conturi_ron": 35880.0,
+      "conturi_ron": 50239.45,
       "imobile_count": 10,
       "suprafata_mp": 6439.0,
       "auto_count": 1,
-      "datorii_ron": 395000.0
+      "datorii_ron": 395000.0,
+      "delta_conturi_ron": 50239.45,
+      "delta_imobile": 10
     },
     {
       "cdep_idm": 142,
@@ -2457,11 +2811,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/HurduzeuFlorinSilviu.JPG",
       "venituri_ron": 218687.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 577075.14,
       "imobile_count": 4,
       "suprafata_mp": 3344.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 577075.14,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 332,
@@ -2469,11 +2825,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/HutuAlexandra.JPG",
       "venituri_ron": 298049.77,
-      "conturi_ron": 149000.0,
+      "conturi_ron": 70000.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 75087.0
+      "datorii_ron": 75087.0,
+      "delta_conturi_ron": 70000.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 144,
@@ -2481,11 +2839,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/IancuMariusIonel.JPG",
       "venituri_ron": 222794.0,
-      "conturi_ron": 150000.0,
+      "conturi_ron": 30644.4,
       "imobile_count": 22,
       "suprafata_mp": 27652.0,
       "auto_count": 2,
-      "datorii_ron": 143000.0
+      "datorii_ron": 143000.0,
+      "delta_conturi_ron": 30644.4,
+      "delta_imobile": 22
     },
     {
       "cdep_idm": 148,
@@ -2493,11 +2853,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/IlisanuClaudiuAugustin.JPG",
       "venituri_ron": 204804.0,
-      "conturi_ron": 30000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 950.0,
       "auto_count": 1,
-      "datorii_ron": 359975.0
+      "datorii_ron": 359975.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 149,
@@ -2505,11 +2867,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/IntoteroNataliaElena.JPG",
       "venituri_ron": 230446.0,
-      "conturi_ron": 223000.0,
+      "conturi_ron": 523607.73,
       "imobile_count": 9,
       "suprafata_mp": 19602.6,
       "auto_count": 4,
-      "datorii_ron": 175569.11
+      "datorii_ron": 175569.11,
+      "delta_conturi_ron": 523607.73,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 152,
@@ -2517,11 +2881,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/IvanBogdanGruia.JPG",
       "venituri_ron": 227616.0,
-      "conturi_ron": 282440.0,
+      "conturi_ron": 39348.0,
       "imobile_count": 3,
       "suprafata_mp": 1115.0,
       "auto_count": 2,
-      "datorii_ron": 548000.0
+      "datorii_ron": 548000.0,
+      "delta_conturi_ron": 39348.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 168,
@@ -2529,11 +2895,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/LungociDumitruLucian.JPG",
       "venituri_ron": 584516.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 373000.0,
       "imobile_count": 5,
       "suprafata_mp": 14462.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 373000.0,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 169,
@@ -2541,11 +2909,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/LunguRomeoDaniel.JPG",
       "venituri_ron": 227996.0,
-      "conturi_ron": 178624.0,
+      "conturi_ron": 88059.65,
       "imobile_count": 3,
       "suprafata_mp": 459.0,
       "auto_count": 1,
-      "datorii_ron": 405456.0
+      "datorii_ron": 405456.0,
+      "delta_conturi_ron": 88059.65,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 171,
@@ -2553,11 +2923,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/MacoveiSilviuNicu.JPG",
       "venituri_ron": 204996.0,
-      "conturi_ron": 242500.0,
+      "conturi_ron": 600091.3,
       "imobile_count": 3,
       "suprafata_mp": 5113.0,
       "auto_count": 1,
-      "datorii_ron": 485000.0
+      "datorii_ron": 485000.0,
+      "delta_conturi_ron": 600091.3,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 174,
@@ -2565,11 +2937,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/MangIoan.JPG",
       "venituri_ron": 359194.0,
-      "conturi_ron": 330820.0,
+      "conturi_ron": 58016.46950000001,
       "imobile_count": 7,
       "suprafata_mp": 4506.0,
       "auto_count": 1,
-      "datorii_ron": 217262.5
+      "datorii_ron": 217262.5,
+      "delta_conturi_ron": 58016.46950000001,
+      "delta_imobile": 7
     },
     {
       "cdep_idm": 339,
@@ -2577,11 +2951,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/Manole_Petre1.JPG",
       "venituri_ron": 259210.0,
-      "conturi_ron": 1340500.0,
+      "conturi_ron": 79490.0,
       "imobile_count": 2,
       "suprafata_mp": 461.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": -877896.55,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 175,
@@ -2589,11 +2965,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/MantaClaudiu.JPG",
       "venituri_ron": 641289.0,
-      "conturi_ron": 655364.0,
+      "conturi_ron": 198057.0,
       "imobile_count": 7,
       "suprafata_mp": 1522.0,
       "auto_count": 1,
-      "datorii_ron": 329800.0
+      "datorii_ron": 329800.0,
+      "delta_conturi_ron": 198057.0,
+      "delta_imobile": 7
     },
     {
       "cdep_idm": 334,
@@ -2605,7 +2983,9 @@
       "imobile_count": 1,
       "suprafata_mp": 1000.0,
       "auto_count": 2,
-      "datorii_ron": 114000.0
+      "datorii_ron": 114000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 181,
@@ -2613,11 +2993,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/MihalceaRemusGabriel.JPG",
       "venituri_ron": 6616188.0,
-      "conturi_ron": 351600.0,
+      "conturi_ron": 54318.0,
       "imobile_count": 2,
       "suprafata_mp": 1006.0,
       "auto_count": 2,
-      "datorii_ron": 16048414.0
+      "datorii_ron": 16048414.0,
+      "delta_conturi_ron": 54318.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 182,
@@ -2625,11 +3007,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/MihalcescuCarmenIleana.JPG",
       "venituri_ron": 570195.0,
-      "conturi_ron": 57924.0,
+      "conturi_ron": 2099944.1,
       "imobile_count": 2,
       "suprafata_mp": 608.0,
       "auto_count": 1,
-      "datorii_ron": 16695.3
+      "datorii_ron": 16695.3,
+      "delta_conturi_ron": 2099944.1,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 184,
@@ -2641,7 +3025,9 @@
       "imobile_count": 3,
       "suprafata_mp": 432.0,
       "auto_count": 0,
-      "datorii_ron": 128000.0
+      "datorii_ron": 128000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 185,
@@ -2649,11 +3035,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/MirceaFlorin.JPG",
       "venituri_ron": 306091.0,
-      "conturi_ron": 50000.0,
+      "conturi_ron": 226827.659,
       "imobile_count": 6,
       "suprafata_mp": 1707.9,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 226827.659,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 196,
@@ -2661,11 +3049,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/MunteanuRemus.JPG",
       "venituri_ron": 431082.0,
-      "conturi_ron": 1048320.0,
+      "conturi_ron": 35000.0,
       "imobile_count": 3,
       "suprafata_mp": 2735.0,
       "auto_count": 0,
-      "datorii_ron": 1439250.0
+      "datorii_ron": 1439250.0,
+      "delta_conturi_ron": 35000.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 199,
@@ -2673,11 +3063,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/MusoiuStefan.JPG",
       "venituri_ron": 483586.0,
-      "conturi_ron": 2463200.0,
+      "conturi_ron": 24700.0,
       "imobile_count": 4,
       "suprafata_mp": 1467.29,
       "auto_count": 0,
-      "datorii_ron": 2611758.0
+      "datorii_ron": 2611758.0,
+      "delta_conturi_ron": 24700.0,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 178,
@@ -2689,7 +3081,9 @@
       "imobile_count": 2,
       "suprafata_mp": 130.0,
       "auto_count": 0,
-      "datorii_ron": 505000.0
+      "datorii_ron": 505000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 203,
@@ -2697,11 +3091,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/NassarRodica.JPG",
       "venituri_ron": 207300.0,
-      "conturi_ron": 678500.0,
+      "conturi_ron": 126233.2,
       "imobile_count": 5,
       "suprafata_mp": 6493.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 126233.2,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 206,
@@ -2709,11 +3105,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/NeagaFlorianClaudiu.JPG",
       "venituri_ron": 498172.39,
-      "conturi_ron": 17422.5,
+      "conturi_ron": 90164.7,
       "imobile_count": 13,
       "suprafata_mp": 33129.0,
       "auto_count": 7,
-      "datorii_ron": 506750.0
+      "datorii_ron": 506750.0,
+      "delta_conturi_ron": 90164.7,
+      "delta_imobile": 13
     },
     {
       "cdep_idm": 208,
@@ -2721,11 +3119,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/NeataEugen.JPG",
       "venituri_ron": 392337.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 5,
       "suprafata_mp": 1358.6799999999998,
       "auto_count": 1,
-      "datorii_ron": 62800.0
+      "datorii_ron": 62800.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 209,
@@ -2733,11 +3133,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/NechitaAurel.JPG",
       "venituri_ron": 538007.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 2333199.95,
       "imobile_count": 6,
       "suprafata_mp": 1691.8,
       "auto_count": 3,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 2333199.95,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 210,
@@ -2749,7 +3151,9 @@
       "imobile_count": 97,
       "suprafata_mp": 1251279.0,
       "auto_count": 1,
-      "datorii_ron": 50000.0
+      "datorii_ron": 50000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 97
     },
     {
       "cdep_idm": 214,
@@ -2757,11 +3161,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/OtesanuDaniela.JPG",
       "venituri_ron": 279933.0,
-      "conturi_ron": 326574.0,
+      "conturi_ron": 2822059.0,
       "imobile_count": 16,
       "suprafata_mp": 28702.0,
       "auto_count": 1,
-      "datorii_ron": 52595.0
+      "datorii_ron": 52595.0,
+      "delta_conturi_ron": 2822059.0,
+      "delta_imobile": 16
     },
     {
       "cdep_idm": 219,
@@ -2769,11 +3175,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/ParaschivRodica.JPG",
       "venituri_ron": 364830.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 445502.0,
       "imobile_count": 6,
       "suprafata_mp": 1138.0,
       "auto_count": 1,
-      "datorii_ron": 40000.0
+      "datorii_ron": 40000.0,
+      "delta_conturi_ron": 445502.0,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 343,
@@ -2781,11 +3189,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/PatrichiLiviuDaniel.JPG",
       "venituri_ron": 311118.0,
-      "conturi_ron": 981500.0,
+      "conturi_ron": 337994.95,
       "imobile_count": 3,
       "suprafata_mp": 728.0,
       "auto_count": 0,
-      "datorii_ron": 66500.0
+      "datorii_ron": 66500.0,
+      "delta_conturi_ron": 65294.95000000001,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 220,
@@ -2793,11 +3203,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/PavelescuNicolae.JPG",
       "venituri_ron": 170174.0,
-      "conturi_ron": 631227.0,
+      "conturi_ron": 198080.0,
       "imobile_count": 5,
       "suprafata_mp": 591.0,
       "auto_count": 2,
-      "datorii_ron": 27500.0
+      "datorii_ron": 27500.0,
+      "delta_conturi_ron": 198080.0,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 225,
@@ -2805,11 +3217,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/PetaStefanescuElizaMadalina.JPG",
       "venituri_ron": 138218.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 175000.0
+      "datorii_ron": 175000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 226,
@@ -2817,11 +3231,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/PiperSavuFlorin.JPG",
       "venituri_ron": 341308.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 136339.0,
       "imobile_count": 3,
       "suprafata_mp": 1195.2,
       "auto_count": 1,
-      "datorii_ron": 100000.0
+      "datorii_ron": 100000.0,
+      "delta_conturi_ron": 136339.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 234,
@@ -2829,11 +3245,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/PopaRaduMihai.JPG",
       "venituri_ron": 947078.0,
-      "conturi_ron": 2482916.0,
+      "conturi_ron": 42712.2,
       "imobile_count": 1,
       "suprafata_mp": 37.0,
       "auto_count": 4,
-      "datorii_ron": 449908.53099999996
+      "datorii_ron": 449908.53099999996,
+      "delta_conturi_ron": 42712.2,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 235,
@@ -2841,11 +3259,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/PopaStefanOvidiu.JPG",
       "venituri_ron": 196894.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 661581.0,
       "imobile_count": 19,
       "suprafata_mp": 35291.0,
       "auto_count": 2,
-      "datorii_ron": 100000.0
+      "datorii_ron": 100000.0,
+      "delta_conturi_ron": 661581.0,
+      "delta_imobile": 19
     },
     {
       "cdep_idm": 236,
@@ -2853,11 +3273,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/PopescuDanCristian.JPG",
       "venituri_ron": 1221049.0,
-      "conturi_ron": 19652500.0,
+      "conturi_ron": 12331768.72,
       "imobile_count": 16,
       "suprafata_mp": 130085.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 12331768.72,
+      "delta_imobile": 16
     },
     {
       "cdep_idm": 239,
@@ -2865,11 +3287,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/PopescuVlad.JPG",
       "venituri_ron": 355882.0,
-      "conturi_ron": 200000.0,
+      "conturi_ron": 963302.0,
       "imobile_count": 7,
       "suprafata_mp": 1810.0,
       "auto_count": 7,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 963302.0,
+      "delta_imobile": 7
     },
     {
       "cdep_idm": 240,
@@ -2877,11 +3301,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/PopicaEduardAndrei.JPG",
       "venituri_ron": 812576.0,
-      "conturi_ron": 100000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 13562.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 243,
@@ -2889,11 +3315,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/PresuraAlexandra.JPG",
       "venituri_ron": 149891.0,
-      "conturi_ron": 298000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 395673.0
+      "datorii_ron": 395673.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 221,
@@ -2905,7 +3333,9 @@
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 248,
@@ -2913,11 +3343,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/RafilaAlexandru.JPG",
       "venituri_ron": 443395.0,
-      "conturi_ron": 3400278.0,
+      "conturi_ron": 3534936.85,
       "imobile_count": 5,
       "suprafata_mp": 3717.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 3534936.85,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 249,
@@ -2929,7 +3361,9 @@
       "imobile_count": 6,
       "suprafata_mp": 4370.0,
       "auto_count": 2,
-      "datorii_ron": 315852.0
+      "datorii_ron": 315852.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 250,
@@ -2937,11 +3371,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/RizeaCristinaCamelia.JPG",
       "venituri_ron": 143171.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 136799.7,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 136799.7,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 257,
@@ -2953,7 +3389,9 @@
       "imobile_count": 2,
       "suprafata_mp": 208.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 258,
@@ -2961,11 +3399,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/SanduViorica.JPG",
       "venituri_ron": 265668.0,
-      "conturi_ron": 66280.0,
+      "conturi_ron": 166049.0,
       "imobile_count": 7,
       "suprafata_mp": 3046.0,
       "auto_count": 1,
-      "datorii_ron": 79200.0
+      "datorii_ron": 79200.0,
+      "delta_conturi_ron": 166049.0,
+      "delta_imobile": 7
     },
     {
       "cdep_idm": 266,
@@ -2973,11 +3413,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/SimonisAlfredRobert.JPG",
       "venituri_ron": 854343.0,
-      "conturi_ron": 2495000.2,
+      "conturi_ron": 91093.9305,
       "imobile_count": 4,
       "suprafata_mp": 3960.03,
       "auto_count": 0,
-      "datorii_ron": 236808.54
+      "datorii_ron": 236808.54,
+      "delta_conturi_ron": 91093.9305,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 267,
@@ -2985,11 +3427,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/SolomonAdrian.JPG",
       "venituri_ron": 148584.0,
-      "conturi_ron": 50000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 7,
       "suprafata_mp": 937.3399999999999,
       "auto_count": 4,
-      "datorii_ron": 437234.29000000004
+      "datorii_ron": 437234.29000000004,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 7
     },
     {
       "cdep_idm": 269,
@@ -2997,11 +3441,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/StancuPaul.JPG",
       "venituri_ron": 219803.8,
-      "conturi_ron": 1378557.95,
+      "conturi_ron": 48417.5,
       "imobile_count": 3,
       "suprafata_mp": 64502.0,
       "auto_count": 1,
-      "datorii_ron": 230000.0
+      "datorii_ron": 230000.0,
+      "delta_conturi_ron": 48417.5,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 270,
@@ -3009,11 +3455,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/StativaIrinelIoan.JPG",
       "venituri_ron": 421462.84,
-      "conturi_ron": 60000.0,
+      "conturi_ron": 361333.27150000003,
       "imobile_count": 11,
       "suprafata_mp": 11302.42,
       "auto_count": 3,
-      "datorii_ron": 150000.0
+      "datorii_ron": 150000.0,
+      "delta_conturi_ron": 361333.27150000003,
+      "delta_imobile": 11
     },
     {
       "cdep_idm": 273,
@@ -3021,11 +3469,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/StoianMaria.JPG",
       "venituri_ron": 320179.0,
-      "conturi_ron": 90000.0,
+      "conturi_ron": 374444.45,
       "imobile_count": 6,
       "suprafata_mp": 18796.24,
       "auto_count": 3,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 374444.45,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 277,
@@ -3033,11 +3483,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/StoicaElena.JPG",
       "venituri_ron": 786143.0,
-      "conturi_ron": 442100.0,
+      "conturi_ron": 0.0,
       "imobile_count": 10,
       "suprafata_mp": 113008.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 10
     },
     {
       "cdep_idm": 281,
@@ -3045,11 +3497,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/SuciuVasileDaniel.JPG",
       "venituri_ron": 215624.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 35708.0,
       "imobile_count": 6,
       "suprafata_mp": 3010.1,
       "auto_count": 2,
-      "datorii_ron": 507863.30000000005
+      "datorii_ron": 507863.30000000005,
+      "delta_conturi_ron": 35708.0,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 298,
@@ -3057,11 +3511,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/TeodoroiuSimonaMaya.JPG",
       "venituri_ron": 543487.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 2691389.452,
       "imobile_count": 4,
       "suprafata_mp": 430.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 2691389.452,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 301,
@@ -3069,11 +3525,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/ToaderBogdanAndrei.JPG",
       "venituri_ron": 215412.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 5000.0,
       "imobile_count": 14,
       "suprafata_mp": 33946.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 5000.0,
+      "delta_imobile": 14
     },
     {
       "cdep_idm": 304,
@@ -3081,11 +3539,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/TodosiuBeniamin.JPG",
       "venituri_ron": 164831.0,
-      "conturi_ron": 190000.0,
+      "conturi_ron": 118162.0,
       "imobile_count": 2,
       "suprafata_mp": 1200.0,
       "auto_count": 0,
-      "datorii_ron": 90000.0
+      "datorii_ron": 90000.0,
+      "delta_conturi_ron": 118162.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 305,
@@ -3093,11 +3553,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/TomaIlie.JPG",
       "venituri_ron": 215970.0,
-      "conturi_ron": 223000.0,
+      "conturi_ron": 287688.55,
       "imobile_count": 3,
       "suprafata_mp": 3525.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 287688.55,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 306,
@@ -3105,11 +3567,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/TomaVasilica.JPG",
       "venituri_ron": 193561.0,
-      "conturi_ron": 221974.0,
+      "conturi_ron": 94420.2,
       "imobile_count": 14,
       "suprafata_mp": 32401.0,
       "auto_count": 0,
-      "datorii_ron": 372883.0
+      "datorii_ron": 372883.0,
+      "delta_conturi_ron": 94420.2,
+      "delta_imobile": 14
     },
     {
       "cdep_idm": 308,
@@ -3117,11 +3581,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/TrifBogdanGheorghe.JPG",
       "venituri_ron": 242018.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 1,
       "suprafata_mp": 83.0,
       "auto_count": 2,
-      "datorii_ron": 125000.0
+      "datorii_ron": 125000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 309,
@@ -3133,7 +3599,9 @@
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 310,
@@ -3141,11 +3609,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/TuhutRaduMarcel.JPG",
       "venituri_ron": 174072.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 365844.35,
       "imobile_count": 4,
       "suprafata_mp": 4331.0,
-      "auto_count": 1,
-      "datorii_ron": 105950.0
+      "auto_count": 2,
+      "datorii_ron": 105950.0,
+      "delta_conturi_ron": 365844.35,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 313,
@@ -3153,11 +3623,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/TusaAdrianaDiana.JPG",
       "venituri_ron": 5278316.0,
-      "conturi_ron": 31477360.9,
+      "conturi_ron": 2680554.38,
       "imobile_count": 9,
       "suprafata_mp": 2506.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 2680554.38,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 331,
@@ -3165,11 +3637,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/TanasescuAlinaElena.JPG",
       "venituri_ron": 137256.0,
-      "conturi_ron": 298000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 1,
       "suprafata_mp": 100.05,
       "auto_count": 0,
-      "datorii_ron": 198000.0
+      "datorii_ron": 198000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 322,
@@ -3177,11 +3651,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/VicolCiorbaLauraCatalina.JPG",
       "venituri_ron": 3432847.0,
-      "conturi_ron": 1881500.0,
+      "conturi_ron": 2687078.44,
       "imobile_count": 4,
       "suprafata_mp": 14233.74,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 2687078.44,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 325,
@@ -3189,11 +3665,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/VulpescuIoan.JPG",
       "venituri_ron": 153597.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 84.72,
       "auto_count": 0,
-      "datorii_ron": 400000.0
+      "datorii_ron": 400000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 326,
@@ -3201,11 +3679,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/WeberMihai.JPG",
       "venituri_ron": 1796875.52,
-      "conturi_ron": 391576.0,
+      "conturi_ron": 1008329.7855,
       "imobile_count": 9,
       "suprafata_mp": 106278.0,
       "auto_count": 4,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 1008329.7855,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 329,
@@ -3213,11 +3693,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/ZeteaGabrielValer.JPG",
       "venituri_ron": 222836.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 823298.674,
       "imobile_count": 5,
       "suprafata_mp": 11833.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 823298.674,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 284,
@@ -3229,7 +3711,9 @@
       "imobile_count": 4,
       "suprafata_mp": 137.56,
       "auto_count": 0,
-      "datorii_ron": 126250.0
+      "datorii_ron": 126250.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 286,
@@ -3237,11 +3721,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/SimonGheorghe.JPG",
       "venituri_ron": 138685.0,
-      "conturi_ron": 225709.0,
+      "conturi_ron": 523.21,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 29454.0
+      "datorii_ron": 29454.0,
+      "delta_conturi_ron": 523.21,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 288,
@@ -3253,7 +3739,9 @@
       "imobile_count": 4,
       "suprafata_mp": 3510.7000000000003,
       "auto_count": 3,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 289,
@@ -3261,11 +3749,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/SoldanGheorghe.JPG",
       "venituri_ron": 614105.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 166690.0,
       "imobile_count": 3,
       "suprafata_mp": 254.9,
       "auto_count": 2,
-      "datorii_ron": 25000.0
+      "datorii_ron": 25000.0,
+      "delta_conturi_ron": 166690.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 315,
@@ -3273,11 +3763,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/TachianuMarian.JPG",
       "venituri_ron": 340088.0,
-      "conturi_ron": 243202.0,
+      "conturi_ron": 3176451.321,
       "imobile_count": 1,
       "suprafata_mp": 589.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 3176451.321,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 316,
@@ -3285,11 +3777,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/TepelusLaurentiuCristinel.JPG",
       "venituri_ron": 245044.0,
-      "conturi_ron": 890000.0,
+      "conturi_ron": 287568.1,
       "imobile_count": 5,
       "suprafata_mp": 4307.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 287568.1,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 318,
@@ -3297,11 +3791,13 @@
       "partid": "PSD",
       "image": "https://www.cdep.ro/parlamentari/l2020/TutuianuMariusHoria.JPG",
       "venituri_ron": 204136.0,
-      "conturi_ron": 389453.0,
+      "conturi_ron": 47050.0,
       "imobile_count": 10,
       "suprafata_mp": 15578.0,
       "auto_count": 0,
-      "datorii_ron": 135000.0
+      "datorii_ron": 135000.0,
+      "delta_conturi_ron": 47050.0,
+      "delta_imobile": 10
     },
     {
       "cdep_idm": 36,
@@ -3309,11 +3805,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/BendeSandor.JPG",
       "venituri_ron": 141636.0,
-      "conturi_ron": 190000.0,
+      "conturi_ron": 63337.936,
       "imobile_count": 3,
       "suprafata_mp": 5258.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 63337.936,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 37,
@@ -3321,11 +3819,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/BenedekZacharie.JPG",
       "venituri_ron": 220828.0,
-      "conturi_ron": 15000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 8,
       "suprafata_mp": 1132.0,
       "auto_count": 3,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 40,
@@ -3333,11 +3833,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/BiroRozaliaIbolya.JPG",
       "venituri_ron": 782130.0,
-      "conturi_ron": 161847.0,
+      "conturi_ron": 259124.7,
       "imobile_count": 22,
       "suprafata_mp": 366045.4,
       "auto_count": 2,
-      "datorii_ron": 221774.0
+      "datorii_ron": 221774.0,
+      "delta_conturi_ron": 259124.7,
+      "delta_imobile": 22
     },
     {
       "cdep_idm": 85,
@@ -3345,11 +3847,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/CsomaBotond.JPG",
       "venituri_ron": 170256.0,
-      "conturi_ron": 75000.0,
+      "conturi_ron": 66048.1335,
       "imobile_count": 5,
       "suprafata_mp": 1545.47,
       "auto_count": 1,
-      "datorii_ron": 326500.0
+      "datorii_ron": 326500.0,
+      "delta_conturi_ron": 66048.1335,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 84,
@@ -3357,11 +3861,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/CsepEvaAndrea.JPG",
       "venituri_ron": 137256.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 9663.11,
       "imobile_count": 4,
       "suprafata_mp": 1812.44,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 9663.11,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 100,
@@ -3369,11 +3875,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/FaragoPetru.JPG",
       "venituri_ron": 153518.0,
-      "conturi_ron": 315000.0,
+      "conturi_ron": 497125.0,
       "imobile_count": 3,
       "suprafata_mp": 2391.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 497125.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 116,
@@ -3381,11 +3889,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/GalKaroly.JPG",
       "venituri_ron": 210071.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 41948.269,
       "imobile_count": 11,
       "suprafata_mp": 3285.78,
       "auto_count": 2,
-      "datorii_ron": 174500.0
+      "datorii_ron": 174500.0,
+      "delta_conturi_ron": 41948.269,
+      "delta_imobile": 11
     },
     {
       "cdep_idm": 135,
@@ -3393,11 +3903,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/HajduGabor.JPG",
       "venituri_ron": 131412.0,
-      "conturi_ron": 620306.0,
+      "conturi_ron": 168473.34999999998,
       "imobile_count": 6,
       "suprafata_mp": 3794.0,
       "auto_count": 4,
-      "datorii_ron": 1542908.8499999999
+      "datorii_ron": 1542908.8499999999,
+      "delta_conturi_ron": 168473.34999999998,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 154,
@@ -3405,11 +3917,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/KelemenAttila.JPG",
       "venituri_ron": 175187.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 310107.27,
       "imobile_count": 5,
       "suprafata_mp": 3464.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 310107.27,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 155,
@@ -3417,11 +3931,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/KelemenHunor.JPG",
       "venituri_ron": 555244.0,
-      "conturi_ron": 140000.0,
+      "conturi_ron": 848549.049,
       "imobile_count": 8,
       "suprafata_mp": 7157.700000000001,
       "auto_count": 4,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 848549.049,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 158,
@@ -3429,11 +3945,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/KolcsarAnquetilKaroly.JPG",
       "venituri_ron": 1058498.0,
-      "conturi_ron": 1325364.0,
+      "conturi_ron": 3216013.35,
       "imobile_count": 28,
       "suprafata_mp": 48843.880000000005,
-      "auto_count": 6,
-      "datorii_ron": 663000.0
+      "auto_count": 8,
+      "datorii_ron": 663000.0,
+      "delta_conturi_ron": 3216013.35,
+      "delta_imobile": 28
     },
     {
       "cdep_idm": 160,
@@ -3441,11 +3959,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/KulcsarTerzaJozsefGyorgy.JPG",
       "venituri_ron": 310370.0,
-      "conturi_ron": 60000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 2,
       "suprafata_mp": 196.0,
       "auto_count": 1,
-      "datorii_ron": 121607.0
+      "datorii_ron": 121607.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 159,
@@ -3453,11 +3973,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/KonczeiCsaba.JPG",
       "venituri_ron": 155717.0,
-      "conturi_ron": 75000.0,
+      "conturi_ron": 115148.0,
       "imobile_count": 1,
       "suprafata_mp": 68.0,
       "auto_count": 3,
-      "datorii_ron": 90564.0
+      "datorii_ron": 90564.0,
+      "delta_conturi_ron": 115148.0,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 161,
@@ -3469,7 +3991,9 @@
       "imobile_count": 3,
       "suprafata_mp": 1163.0,
       "auto_count": 2,
-      "datorii_ron": 130000.0
+      "datorii_ron": 130000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 172,
@@ -3477,11 +4001,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/MagyarLorandBalint.JPG",
       "venituri_ron": 338192.0,
-      "conturi_ron": 375200.0,
+      "conturi_ron": 0.0,
       "imobile_count": 3,
       "suprafata_mp": 5666.0,
       "auto_count": 0,
-      "datorii_ron": 616149.0
+      "datorii_ron": 616149.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 183,
@@ -3493,7 +4019,9 @@
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 201,
@@ -3501,11 +4029,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/NagySzabolcs.JPG",
       "venituri_ron": 248900.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 119070.0,
       "imobile_count": 2,
       "suprafata_mp": 1651.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 119070.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 263,
@@ -3513,11 +4043,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/SeresDenes.JPG",
       "venituri_ron": 284582.0,
-      "conturi_ron": 5900.0,
+      "conturi_ron": 276230.334,
       "imobile_count": 12,
       "suprafata_mp": 6017.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 276230.334,
+      "delta_imobile": 12
     },
     {
       "cdep_idm": 282,
@@ -3525,11 +4057,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/SzaboOdon.JPG",
       "venituri_ron": 233861.0,
-      "conturi_ron": 300000.0,
+      "conturi_ron": 641601.2910000001,
       "imobile_count": 4,
       "suprafata_mp": 738.0,
       "auto_count": 3,
-      "datorii_ron": 75000.0
+      "datorii_ron": 75000.0,
+      "delta_conturi_ron": 641601.2910000001,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 328,
@@ -3537,11 +4071,13 @@
       "partid": "UDMR",
       "image": "https://www.cdep.ro/parlamentari/l2020/ZakariasZoltan.JPG",
       "venituri_ron": 131412.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 30000.0,
       "imobile_count": 15,
       "suprafata_mp": 58186.05,
       "auto_count": 0,
-      "datorii_ron": 110152.0
+      "datorii_ron": 110152.0,
+      "delta_conturi_ron": 30000.0,
+      "delta_imobile": 15
     },
     {
       "cdep_idm": 8,
@@ -3549,11 +4085,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/AlexandruVictoriaVioleta.JPG",
       "venituri_ron": 225028.0,
-      "conturi_ron": 12500.0,
+      "conturi_ron": 481251.75,
       "imobile_count": 1,
       "suprafata_mp": 62.0,
       "auto_count": 1,
-      "datorii_ron": 277750.0
+      "datorii_ron": 277750.0,
+      "delta_conturi_ron": 481251.75,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 15,
@@ -3561,11 +4099,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/ApostolAlinGabriel.JPG",
       "venituri_ron": 169642.0,
-      "conturi_ron": 1475424.0,
+      "conturi_ron": 143516.2345,
       "imobile_count": 9,
       "suprafata_mp": 12204.050000000001,
       "auto_count": 2,
-      "datorii_ron": 234833.0
+      "datorii_ron": 234833.0,
+      "delta_conturi_ron": 143516.2345,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 21,
@@ -3573,11 +4113,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/BadeaMihaiAlexandru.JPG",
       "venituri_ron": 349087.0,
-      "conturi_ron": 50000.0,
+      "conturi_ron": 352071.14999999997,
       "imobile_count": 10,
       "suprafata_mp": 2121.05,
       "auto_count": 1,
-      "datorii_ron": 54000.0
+      "datorii_ron": 54000.0,
+      "delta_conturi_ron": 352071.14999999997,
+      "delta_imobile": 10
     },
     {
       "cdep_idm": 31,
@@ -3585,11 +4127,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/BarnaIlieDan.JPG",
       "venituri_ron": 433567.0,
-      "conturi_ron": 197325.75,
+      "conturi_ron": 2208707.627,
       "imobile_count": 5,
       "suprafata_mp": 1581.76,
       "auto_count": 0,
-      "datorii_ron": 1050000.0
+      "datorii_ron": 1050000.0,
+      "delta_conturi_ron": 2208707.627,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 39,
@@ -3597,11 +4141,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/BerescuMonicaElena.JPG",
       "venituri_ron": 1723277.0,
-      "conturi_ron": 2964498.0,
+      "conturi_ron": 10061859.0195,
       "imobile_count": 9,
       "suprafata_mp": 5364.429999999999,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 10061859.0195,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 43,
@@ -3609,11 +4155,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/BlagaDanielCodrut.JPG",
       "venituri_ron": 169351.0,
-      "conturi_ron": 528330.0,
+      "conturi_ron": 559567.85,
       "imobile_count": 6,
       "suprafata_mp": 5791.12,
       "auto_count": 3,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 559567.85,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 47,
@@ -3621,11 +4169,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/BotezMihaiCatalin.JPG",
       "venituri_ron": 135610.0,
-      "conturi_ron": 80000.0,
+      "conturi_ron": 16245.375,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 2,
-      "datorii_ron": 110000.0
+      "datorii_ron": 110000.0,
+      "delta_conturi_ron": 16245.375,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 52,
@@ -3637,7 +4187,9 @@
       "imobile_count": 9,
       "suprafata_mp": 9072.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 56,
@@ -3645,11 +4197,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/BuzoianuDianaAnda.JPG",
       "venituri_ron": 137256.0,
-      "conturi_ron": 120000.0,
+      "conturi_ron": 188662.41,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 188662.41,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 34,
@@ -3657,11 +4211,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/BaltaretuViorel.JPG",
       "venituri_ron": 1195196.4,
-      "conturi_ron": 8103378.59,
+      "conturi_ron": 1091931.9395,
       "imobile_count": 10,
       "suprafata_mp": 7910.82,
       "auto_count": 1,
-      "datorii_ron": 100000.0
+      "datorii_ron": 100000.0,
+      "delta_conturi_ron": 1091931.9395,
+      "delta_imobile": 10
     },
     {
       "cdep_idm": 81,
@@ -3669,11 +4225,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/CristianBrian.JPG",
       "venituri_ron": 138913.0,
-      "conturi_ron": 205852.8,
+      "conturi_ron": 37610.995,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 130000.0
+      "datorii_ron": 130000.0,
+      "delta_conturi_ron": 37610.995,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 90,
@@ -3681,11 +4239,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/DeheleanSilviu.JPG",
       "venituri_ron": 683354.8,
-      "conturi_ron": 155000.0,
+      "conturi_ron": 58309.0,
       "imobile_count": 8,
       "suprafata_mp": 2109.81,
       "auto_count": 2,
-      "datorii_ron": 469638.00749999995
+      "datorii_ron": 469638.00749999995,
+      "delta_conturi_ron": 58309.0,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 92,
@@ -3696,8 +4256,10 @@
       "conturi_ron": 0.0,
       "imobile_count": 1,
       "suprafata_mp": 90.0,
-      "auto_count": 0,
-      "datorii_ron": 181800.0
+      "auto_count": 1,
+      "datorii_ron": 181800.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 93,
@@ -3705,11 +4267,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/DrulaCatalin.JPG",
       "venituri_ron": 197808.0,
-      "conturi_ron": 12962254.549999999,
+      "conturi_ron": 1375691.35,
       "imobile_count": 1,
       "suprafata_mp": 1490.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 1375691.35,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 103,
@@ -3717,11 +4281,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/FalcoiNicu.JPG",
       "venituri_ron": 297380.0,
-      "conturi_ron": 50000.0,
+      "conturi_ron": 607664.85,
       "imobile_count": 8,
       "suprafata_mp": 5989.95,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 607664.85,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 127,
@@ -3729,11 +4295,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/GiurgiuAdrian.JPG",
       "venituri_ron": 146016.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 110631.9,
       "imobile_count": 14,
       "suprafata_mp": 4170.0,
       "auto_count": 2,
-      "datorii_ron": 150000.0
+      "datorii_ron": 150000.0,
+      "delta_conturi_ron": 110631.9,
+      "delta_imobile": 14
     },
     {
       "cdep_idm": 137,
@@ -3741,11 +4309,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/HanganPollyannaHanellore.JPG",
       "venituri_ron": 162858.8,
-      "conturi_ron": 101871.0,
+      "conturi_ron": 28425.0,
       "imobile_count": 6,
       "suprafata_mp": 1102.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 28425.0,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 138,
@@ -3753,11 +4323,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/HavarneanuFilip.JPG",
       "venituri_ron": 149132.0,
-      "conturi_ron": 99807.0,
+      "conturi_ron": 39383.85,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 39383.85,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 147,
@@ -3765,11 +4337,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/IlieVictor.JPG",
       "venituri_ron": 264204.0,
-      "conturi_ron": 50500.0,
+      "conturi_ron": 95245.45,
       "imobile_count": 11,
       "suprafata_mp": 15861.0,
       "auto_count": 2,
-      "datorii_ron": 556000.0
+      "datorii_ron": 556000.0,
+      "delta_conturi_ron": 95245.45,
+      "delta_imobile": 11
     },
     {
       "cdep_idm": 150,
@@ -3777,11 +4351,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/IonStelianCristian.JPG",
       "venituri_ron": 142169.0,
-      "conturi_ron": 165000.0,
+      "conturi_ron": 144878.5,
       "imobile_count": 1,
       "suprafata_mp": 80.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 144878.5,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 164,
@@ -3789,11 +4365,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/LazarTeodor.JPG",
       "venituri_ron": 195161.0,
-      "conturi_ron": 348000.0,
+      "conturi_ron": 76500.0,
       "imobile_count": 41,
       "suprafata_mp": 71465.0,
       "auto_count": 1,
-      "datorii_ron": 100000.0
+      "datorii_ron": 100000.0,
+      "delta_conturi_ron": 76500.0,
+      "delta_imobile": 41
     },
     {
       "cdep_idm": 167,
@@ -3801,11 +4379,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/LorinczStefanIulian.JPG",
       "venituri_ron": 134230.0,
-      "conturi_ron": 45000.0,
+      "conturi_ron": 10137.741,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 10137.741,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 180,
@@ -3813,11 +4393,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/MiftodeMariusAndrei.JPG",
       "venituri_ron": 293834.82,
-      "conturi_ron": 69592.5,
+      "conturi_ron": 100798.17,
       "imobile_count": 5,
       "suprafata_mp": 10394.16,
       "auto_count": 0,
-      "datorii_ron": 982460.1499999999
+      "datorii_ron": 982460.1499999999,
+      "delta_conturi_ron": 100798.17,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 186,
@@ -3825,11 +4407,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/MirutaRaduDinel.JPG",
       "venituri_ron": 484554.0,
-      "conturi_ron": 249096.53,
+      "conturi_ron": 2889160.1445,
       "imobile_count": 7,
       "suprafata_mp": 1720.1,
-      "auto_count": 2,
-      "datorii_ron": 0.0
+      "auto_count": 4,
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 2889160.1445,
+      "delta_imobile": 7
     },
     {
       "cdep_idm": 192,
@@ -3837,11 +4421,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/MolnarRaduIulian.JPG",
       "venituri_ron": 131194.0,
-      "conturi_ron": 101390.0,
+      "conturi_ron": 195320.9065,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 195320.9065,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 194,
@@ -3849,11 +4435,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/MosteanuLiviuIonut.JPG",
       "venituri_ron": 311393.0,
-      "conturi_ron": 454836.0,
+      "conturi_ron": 408474.6,
       "imobile_count": 6,
       "suprafata_mp": 210.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 408474.6,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 197,
@@ -3861,11 +4449,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/MurariuOana.JPG",
       "venituri_ron": 170270.0,
-      "conturi_ron": 100000.0,
+      "conturi_ron": 87482.0125,
       "imobile_count": 14,
       "suprafata_mp": 21338.54,
       "auto_count": 2,
-      "datorii_ron": 109000.0
+      "datorii_ron": 109000.0,
+      "delta_conturi_ron": 87482.0125,
+      "delta_imobile": 14
     },
     {
       "cdep_idm": 207,
@@ -3873,11 +4463,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/NeaguDenisaElena.JPG",
       "venituri_ron": 131968.0,
-      "conturi_ron": 100350.0,
+      "conturi_ron": 115359.61899999999,
       "imobile_count": 2,
       "suprafata_mp": 78.41,
       "auto_count": 1,
-      "datorii_ron": 338200.0
+      "datorii_ron": 338200.0,
+      "delta_conturi_ron": 115359.61899999999,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 205,
@@ -3885,11 +4477,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/NasuiClaudiuIuliusGavril.JPG",
       "venituri_ron": 233087.164,
-      "conturi_ron": 388920.8,
+      "conturi_ron": 80010.4905,
       "imobile_count": 3,
       "suprafata_mp": 158.6,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 80010.4905,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 218,
@@ -3897,11 +4491,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/PanaitRadu.JPG",
       "venituri_ron": 1394734.0699999998,
-      "conturi_ron": 6236217.5,
+      "conturi_ron": 1122332.0,
       "imobile_count": 8,
       "suprafata_mp": 7425.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 1122332.0,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 232,
@@ -3909,11 +4505,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/PopRaresTudor.JPG",
       "venituri_ron": 379780.0,
-      "conturi_ron": 75750.0,
+      "conturi_ron": 111100.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 111100.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 245,
@@ -3921,11 +4519,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/PrunaCristinaMadalina.JPG",
       "venituri_ron": 141072.785,
-      "conturi_ron": 99969.5,
+      "conturi_ron": 414207.113,
       "imobile_count": 1,
       "suprafata_mp": 49.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 414207.113,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 251,
@@ -3933,11 +4533,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/RodeanuBogdanIonel.JPG",
       "venituri_ron": 164256.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 27829.25,
       "imobile_count": 7,
       "suprafata_mp": 53438.1,
       "auto_count": 1,
-      "datorii_ron": 250697.15
+      "datorii_ron": 250697.15,
+      "delta_conturi_ron": 27829.25,
+      "delta_imobile": 7
     },
     {
       "cdep_idm": 262,
@@ -3945,11 +4547,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/SeidlerCristianGabriel.JPG",
       "venituri_ron": 135342.0,
-      "conturi_ron": 8000.0,
+      "conturi_ron": 183528.78,
       "imobile_count": 1,
       "suprafata_mp": 2947.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 183528.78,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 276,
@@ -3957,11 +4561,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/StoicaDiana.JPG",
       "venituri_ron": 137330.0,
-      "conturi_ron": 75000.0,
+      "conturi_ron": 79882.0,
       "imobile_count": 1,
       "suprafata_mp": 94.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 79882.0,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 299,
@@ -3969,11 +4575,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/TerenteEugen.JPG",
       "venituri_ron": 151896.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 3313.0,
       "imobile_count": 7,
       "suprafata_mp": 101662.55,
       "auto_count": 1,
-      "datorii_ron": 95000.0
+      "datorii_ron": 95000.0,
+      "delta_conturi_ron": 3313.0,
+      "delta_imobile": 7
     },
     {
       "cdep_idm": 319,
@@ -3981,11 +4589,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/UngureanuEmanuelDumitru.JPG",
       "venituri_ron": 636756.0,
-      "conturi_ron": 198000.0,
+      "conturi_ron": 20792.69,
       "imobile_count": 5,
       "suprafata_mp": 1127.5,
       "auto_count": 2,
-      "datorii_ron": 538373.76
+      "datorii_ron": 538373.76,
+      "delta_conturi_ron": 20792.69,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 327,
@@ -3993,11 +4603,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/WienerAdrian.JPG",
       "venituri_ron": 219628.0,
-      "conturi_ron": 85000.0,
+      "conturi_ron": 96927.837,
       "imobile_count": 4,
       "suprafata_mp": 1302.0,
       "auto_count": 1,
-      "datorii_ron": 302500.0
+      "datorii_ron": 302500.0,
+      "delta_conturi_ron": 96927.837,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 317,
@@ -4005,11 +4617,13 @@
       "partid": "USR",
       "image": "https://www.cdep.ro/parlamentari/l2020/ToiuOanaSilvia.JPG",
       "venituri_ron": 650249.0,
-      "conturi_ron": 50000.0,
+      "conturi_ron": 123379.95,
       "imobile_count": 4,
       "suprafata_mp": 535.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 123379.95,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 14,
@@ -4021,7 +4635,9 @@
       "imobile_count": 5,
       "suprafata_mp": 13370.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 25,
@@ -4029,11 +4645,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/BalintLiviuIoan.JPG",
       "venituri_ron": 383657.0,
-      "conturi_ron": 147500.0,
+      "conturi_ron": 119921.0,
       "imobile_count": 14,
       "suprafata_mp": 91764.0,
       "auto_count": 1,
-      "datorii_ron": 500000.0
+      "datorii_ron": 500000.0,
+      "delta_conturi_ron": 119921.0,
+      "delta_imobile": 14
     },
     {
       "cdep_idm": 38,
@@ -4041,11 +4659,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/BengaTudorVlad.JPG",
       "venituri_ron": 141533.0,
-      "conturi_ron": 466453.1,
+      "conturi_ron": 967246.4,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 40000.0
+      "datorii_ron": 40000.0,
+      "delta_conturi_ron": 967246.4,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 45,
@@ -4053,11 +4673,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/BolaBogdanAlexandru.JPG",
       "venituri_ron": 219296.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 194120.0,
       "imobile_count": 3,
       "suprafata_mp": 1292.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 194120.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 337,
@@ -4065,11 +4687,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/BortaRalucaMaria.JPG",
       "venituri_ron": 140040.0,
-      "conturi_ron": 25250.0,
+      "conturi_ron": 0.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 58,
@@ -4077,11 +4701,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/CalotaFloricaIca.JPG",
       "venituri_ron": 128674.0,
-      "conturi_ron": 250000.0,
+      "conturi_ron": 2070655.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 2070655.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 59,
@@ -4089,11 +4715,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/CamberaOanaAlexandra.JPG",
       "venituri_ron": 658657.0,
-      "conturi_ron": 79890.0,
+      "conturi_ron": 685002.0,
       "imobile_count": 16,
       "suprafata_mp": 3431.9900000000002,
       "auto_count": 0,
-      "datorii_ron": 123888.0
+      "datorii_ron": 123888.0,
+      "delta_conturi_ron": 685002.0,
+      "delta_imobile": 16
     },
     {
       "cdep_idm": 66,
@@ -4101,11 +4729,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/ChichirauCosettePaula.JPG",
       "venituri_ron": 135380.0,
-      "conturi_ron": 348200.0,
+      "conturi_ron": 1971543.7,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 1971543.7,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 67,
@@ -4113,11 +4743,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/ChiraClaudiuMartin.JPG",
       "venituri_ron": 889135.0,
-      "conturi_ron": 107500.0,
+      "conturi_ron": 78317.482,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 240000.0
+      "datorii_ron": 240000.0,
+      "delta_conturi_ron": 78317.482,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 71,
@@ -4125,11 +4757,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/CiorneiRaduTudor.JPG",
       "venituri_ron": 218594.0,
-      "conturi_ron": 572188.0,
+      "conturi_ron": 289966.0,
       "imobile_count": 2,
       "suprafata_mp": 3300.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 289966.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 72,
@@ -4141,7 +4775,9 @@
       "imobile_count": 6,
       "suprafata_mp": 6890.0,
       "auto_count": 2,
-      "datorii_ron": 125000.0
+      "datorii_ron": 125000.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 74,
@@ -4149,11 +4785,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/CoarnaDumitru.JPG",
       "venituri_ron": 389299.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 63900.0,
       "imobile_count": 9,
       "suprafata_mp": 20439.600000000002,
       "auto_count": 2,
-      "datorii_ron": 214189.0
+      "datorii_ron": 214189.0,
+      "delta_conturi_ron": 63900.0,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 87,
@@ -4165,7 +4803,9 @@
       "imobile_count": 3,
       "suprafata_mp": 350.0,
       "auto_count": 1,
-      "datorii_ron": 106220.0
+      "datorii_ron": 106220.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 88,
@@ -4173,11 +4813,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/DancaIonel.JPG",
       "venituri_ron": 201924.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 246902.5,
       "imobile_count": 3,
       "suprafata_mp": 17000.0,
       "auto_count": 1,
-      "datorii_ron": 635300.0
+      "datorii_ron": 635300.0,
+      "delta_conturi_ron": 246902.5,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 89,
@@ -4185,11 +4827,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/DamureanuRingo.JPG",
       "venituri_ron": 364435.0,
-      "conturi_ron": 140000.0,
+      "conturi_ron": 105212.25,
       "imobile_count": 3,
       "suprafata_mp": 190.72,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 105212.25,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 99,
@@ -4201,7 +4845,9 @@
       "imobile_count": 2,
       "suprafata_mp": 820.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 113,
@@ -4212,8 +4858,10 @@
       "conturi_ron": 0.0,
       "imobile_count": 5,
       "suprafata_mp": 10376.0,
-      "auto_count": 2,
-      "datorii_ron": 0.0
+      "auto_count": 3,
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 118,
@@ -4221,11 +4869,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/GavrilaAnamaria.JPG",
       "venituri_ron": 136618.0,
-      "conturi_ron": 55550.0,
+      "conturi_ron": 534704.0,
       "imobile_count": 8,
       "suprafata_mp": 20220.0,
       "auto_count": 1,
-      "datorii_ron": 91935.25
+      "datorii_ron": 91935.25,
+      "delta_conturi_ron": 534704.0,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 125,
@@ -4237,7 +4887,9 @@
       "imobile_count": 3,
       "suprafata_mp": 8868.0,
       "auto_count": 2,
-      "datorii_ron": 108900.0
+      "datorii_ron": 108900.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 133,
@@ -4245,11 +4897,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/GrosaruAndiGabriel.JPG",
       "venituri_ron": 131714.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 47533.926,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 47533.926,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 146,
@@ -4257,11 +4911,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/IchimCristianPaul.JPG",
       "venituri_ron": 213949.0,
-      "conturi_ron": 1357982.0,
+      "conturi_ron": 419147.95,
       "imobile_count": 2,
       "suprafata_mp": 8333.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 419147.95,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 335,
@@ -4273,7 +4929,9 @@
       "imobile_count": 4,
       "suprafata_mp": 1650.3,
       "auto_count": 0,
-      "datorii_ron": 437377.0
+      "datorii_ron": 437377.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 151,
@@ -4281,11 +4939,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/IonescuGeorge.JPG",
       "venituri_ron": 167789.0,
-      "conturi_ron": 98832.0,
+      "conturi_ron": 220315.0,
       "imobile_count": 14,
       "suprafata_mp": 42479.6,
       "auto_count": 1,
-      "datorii_ron": 900000.0
+      "datorii_ron": 900000.0,
+      "delta_conturi_ron": 220315.0,
+      "delta_imobile": 14
     },
     {
       "cdep_idm": 157,
@@ -4293,11 +4953,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/KocsisCristeaAlexandru.JPG",
       "venituri_ron": 489938.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 318475.9625,
       "imobile_count": 8,
       "suprafata_mp": 2970.9999999999995,
       "auto_count": 3,
-      "datorii_ron": 1678137.3
+      "datorii_ron": 1678137.3,
+      "delta_conturi_ron": 318475.9625,
+      "delta_imobile": 8
     },
     {
       "cdep_idm": 162,
@@ -4309,7 +4971,9 @@
       "imobile_count": 3,
       "suprafata_mp": 2418.29,
       "auto_count": 2,
-      "datorii_ron": 272700.0
+      "datorii_ron": 272700.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 170,
@@ -4317,11 +4981,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/LupuAndreiRazvan.JPG",
       "venituri_ron": 248744.0,
-      "conturi_ron": 40000.0,
+      "conturi_ron": 195903.127,
       "imobile_count": 3,
       "suprafata_mp": 683.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 195903.127,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 188,
@@ -4329,11 +4995,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/MiutescuGheorgheAdrian.JPG",
       "venituri_ron": 314436.0,
-      "conturi_ron": 71500.0,
+      "conturi_ron": 1700686.28,
       "imobile_count": 6,
       "suprafata_mp": 8768.599999999999,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 1700686.28,
+      "delta_imobile": 6
     },
     {
       "cdep_idm": 193,
@@ -4345,7 +5013,9 @@
       "imobile_count": 54,
       "suprafata_mp": 17546.170000000006,
       "auto_count": 1,
-      "datorii_ron": 248750.0
+      "datorii_ron": 248750.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 54
     },
     {
       "cdep_idm": 202,
@@ -4353,11 +5023,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/NagyVasile.JPG",
       "venituri_ron": 131412.0,
-      "conturi_ron": 1038000.0,
+      "conturi_ron": 728725.65,
       "imobile_count": 3,
       "suprafata_mp": 753.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 728725.65,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 212,
@@ -4365,11 +5037,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/OrbanLudovic.JPG",
       "venituri_ron": 131412.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 268333.1,
       "imobile_count": 1,
       "suprafata_mp": 200.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 268333.1,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 228,
@@ -4377,11 +5051,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/PlaiasuGabriel.JPG",
       "venituri_ron": 272300.0,
-      "conturi_ron": 267423.0,
+      "conturi_ron": 151305.0,
       "imobile_count": 4,
       "suprafata_mp": 2449.0,
       "auto_count": 2,
-      "datorii_ron": 30000.0
+      "datorii_ron": 30000.0,
+      "delta_conturi_ron": 151305.0,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 230,
@@ -4389,11 +5065,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/PoliteanuMihaiLaurentiu.JPG",
       "venituri_ron": 351794.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 84932.0,
       "imobile_count": 1,
       "suprafata_mp": 39.0,
-      "auto_count": 0,
-      "datorii_ron": 31660.0
+      "auto_count": 1,
+      "datorii_ron": 31660.0,
+      "delta_conturi_ron": 84932.0,
+      "delta_imobile": 1
     },
     {
       "cdep_idm": 241,
@@ -4401,11 +5079,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/PredescuAnaLoredana.JPG",
       "venituri_ron": 164876.25,
-      "conturi_ron": 108993.0,
+      "conturi_ron": 117822.0,
       "imobile_count": 3,
       "suprafata_mp": 300.24,
       "auto_count": 0,
-      "datorii_ron": 410000.0
+      "datorii_ron": 410000.0,
+      "delta_conturi_ron": 117822.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 246,
@@ -4413,11 +5093,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/PruneanAlinCostel.JPG",
       "venituri_ron": 127908.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 92274.43000000001,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 92274.43000000001,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 253,
@@ -4425,11 +5107,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/RomanNicolae.JPG",
       "venituri_ron": 399234.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 48146.265,
       "imobile_count": 11,
       "suprafata_mp": 79160.33,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 48146.265,
+      "delta_imobile": 11
     },
     {
       "cdep_idm": 259,
@@ -4437,11 +5121,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/SasLorantZoltan.JPG",
       "venituri_ron": 114989.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 28200.0,
       "imobile_count": 3,
       "suprafata_mp": 2590.0,
       "auto_count": 1,
-      "datorii_ron": 240000.0
+      "datorii_ron": 240000.0,
+      "delta_conturi_ron": 28200.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 261,
@@ -4449,11 +5135,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/ScripnicLilian.JPG",
       "venituri_ron": 214878.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 456254.0,
       "imobile_count": 9,
       "suprafata_mp": 7160.0,
-      "auto_count": 3,
-      "datorii_ron": 681750.0
+      "auto_count": 5,
+      "datorii_ron": 681750.0,
+      "delta_conturi_ron": 456254.0,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 260,
@@ -4461,11 +5149,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/SarmasIoanSabin.jpg",
       "venituri_ron": 387195.18,
-      "conturi_ron": 400000.0,
+      "conturi_ron": 90186.5485,
       "imobile_count": 14,
       "suprafata_mp": 49711.36,
       "auto_count": 1,
-      "datorii_ron": 947000.0
+      "datorii_ron": 947000.0,
+      "delta_conturi_ron": 90186.5485,
+      "delta_imobile": 14
     },
     {
       "cdep_idm": 297,
@@ -4473,11 +5163,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/TenitaDragosCatalin.JPG",
       "venituri_ron": 268119.0,
-      "conturi_ron": 226579.0,
+      "conturi_ron": 3006579.1165,
       "imobile_count": 4,
       "suprafata_mp": 606.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 3006579.1165,
+      "delta_imobile": 4
     },
     {
       "cdep_idm": 302,
@@ -4485,11 +5177,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/TobaFrancisc.JPG",
       "venituri_ron": 381605.0,
-      "conturi_ron": 707000.0,
+      "conturi_ron": 0.0,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 2,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 0.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 303,
@@ -4497,11 +5191,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/TodaDanielLiviu.JPG",
       "venituri_ron": 128674.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 583111.5915,
       "imobile_count": 5,
       "suprafata_mp": 44670.0,
-      "auto_count": 2,
-      "datorii_ron": 0.0
+      "auto_count": 3,
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 583111.5915,
+      "delta_imobile": 5
     },
     {
       "cdep_idm": 311,
@@ -4509,11 +5205,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/TulbureSiminaGeaninaDaniela.JPG",
       "venituri_ron": 131412.0,
-      "conturi_ron": 25250.0,
+      "conturi_ron": 242207.3,
       "imobile_count": 0,
       "suprafata_mp": 0.0,
       "auto_count": 0,
-      "datorii_ron": 14558.0
+      "datorii_ron": 14558.0,
+      "delta_conturi_ron": 242207.3,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 295,
@@ -4521,11 +5219,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/TanaseAntonel.JPG",
       "venituri_ron": 669132.0,
-      "conturi_ron": 90000.0,
+      "conturi_ron": 772765.8,
       "imobile_count": 2,
       "suprafata_mp": 512.0,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 772765.8,
+      "delta_imobile": 2
     },
     {
       "cdep_idm": 345,
@@ -4533,11 +5233,13 @@
       "partid": "Neafiliat",
       "image": null,
       "venituri_ron": 214998.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 335750.0,
       "imobile_count": 2,
       "suprafata_mp": 444.0,
       "auto_count": 3,
-      "datorii_ron": 256768.0
+      "datorii_ron": 256768.0,
+      "delta_conturi_ron": -39750.0,
+      "delta_imobile": 0
     },
     {
       "cdep_idm": 323,
@@ -4545,11 +5247,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/VilceanuDan.JPG",
       "venituri_ron": 379948.0,
-      "conturi_ron": 0.0,
+      "conturi_ron": 90786.0,
       "imobile_count": 9,
       "suprafata_mp": 32425.0,
       "auto_count": 1,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 90786.0,
+      "delta_imobile": 9
     },
     {
       "cdep_idm": 291,
@@ -4557,11 +5261,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/SovaialaConstantin.JPG",
       "venituri_ron": 186186.0,
-      "conturi_ron": 195000.0,
+      "conturi_ron": 220879.0,
       "imobile_count": 3,
       "suprafata_mp": 2274.0,
       "auto_count": 1,
-      "datorii_ron": 22000.0
+      "datorii_ron": 22000.0,
+      "delta_conturi_ron": 220879.0,
+      "delta_imobile": 3
     },
     {
       "cdep_idm": 292,
@@ -4569,11 +5275,13 @@
       "partid": "Neafiliat",
       "image": "https://www.cdep.ro/parlamentari/l2020/StefanIon.JPG",
       "venituri_ron": 32497.14,
-      "conturi_ron": 14771250.0,
+      "conturi_ron": 3535000.0,
       "imobile_count": 9,
       "suprafata_mp": 14525.12,
       "auto_count": 0,
-      "datorii_ron": 0.0
+      "datorii_ron": 0.0,
+      "delta_conturi_ron": 3535000.0,
+      "delta_imobile": 9
     }
   ]
 }

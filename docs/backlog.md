@@ -22,22 +22,34 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 - [ ] **Avere comparison / rankings on deputy profile page**
   - Add a contextual rankings section to the deputat avere profile: how does this deputy rank vs. national average, vs. party average, vs. same age cohort, vs. same județ. Show percentile for key metrics: total_active_monetare_ron, suprafata_total_mp, nr_imobile, venituri_anuale_ron.
   - Requires: age from deputat profile (birth_date), județ from deputat profile, pre-computed party/age/județ aggregates in the stats build step.
+  - [ ] use `data/assets/geo/romania-counties.geojson` for choropleth județe comparison
+- [x] enhance avere.html with thumbnails for ppl and partide
+- [ ] 3rd lists view mode: bar chart (per category) matrix (one for each deputat)
 - [x] party profile pages — `partid.html?id=PSD&leg=2024` built 2026-05-31
+
 
 ## Misc
 
-- [ ] replace cdep link from /pls/parlam/structura2015.mp?idm={ID}&cam=2&leg=2024 to /ords/pls/parlam/structura2015.mp?idm={ID}&leg=2024
-- [ ] link to [monitorul.ai](https://monitorul.ai) via [MCP](https://monitorul.ai/mcp)
-- [x] enhance avere.html with thumbnails for ppl and partide
-- [ ] show cars, homes, teremnui as icons, one per each? - relative to suprafata or kph?
+- [x] replace cdep link from /pls/parlam/structura2015.mp?idm={ID}&cam=2&leg=2024 to /ords/pls/parlam/structura2015.mp?idm={ID}&leg=2024
+- [ ] link to [monitorul.ai](https://monitorul.ai) via [MCP](https://monitorul.ai/mcp).  
+  - [ ] find URI correspondences
+  - [ ] Add contextual relevant links.
+- [x] OG info
+  - [ ] fix og:image
+- [ ] show cars, homes, terenuri as icons, one per each? - relative to suprafata or kph?
 - [x] **Remove dead CSS rules in deputati-avere.html and deputati-activitate.html** — done 2026-05-31; removed `.metric-select`, `.search-input`, `.party-chips`, `.party-chip` rules.
 
 ## Site consistency / front door
 
+- [ ] Top nav. Rename site title: Cdep stats. Normalize nav in all pages. Add link to cdep-api on all pages at the end. Remove language swticher border, add flag emoji.
+- [ ] add top bar with - not official gov.ro site notice (one time / dismissable, save state to browser/cookies)
+- [ ] top nav dark background?
 - [ ] **Refactor the 16 copy-pasted root pages to a shared header/nav/footer** — nav drift (pages
   falling behind on links/labels) keeps recurring because each page hand-copies its `<nav>`. Extract
   to a shared `assets/nav.js` (or generate these pages like `pages/`) so header/nav/footer live in
-  one place. This pass re-synced 5 pages by hand; the root cause remains.
+  one place. This pass re-synced 5 pages by hand; the root cause remains. (2026-05-31: the
+  avere/deputati-avere list logic was extracted to a shared `assets/avere-list.js` — a working
+  proof of the shared-module approach; nav/header/footer are still copy-pasted.)
 - [ ] **Relink and restyle `search.html`** — currently orphaned (no nav links into it) and on the
   old design. Re-add it to the nav and bring it on-brand. Left out of the 2026-05-31 consistency
   pass on purpose.
@@ -46,3 +58,4 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
   mislinks). Implement only if the match is provably clean; otherwise leave as text.
 - [ ] **`partid.html` long roster is heavy** — the flat ~92-row deputy list makes the page an
   endless scroll. Consider a compact row style or a show-more cap (without hiding data by default).
+

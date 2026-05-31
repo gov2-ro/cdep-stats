@@ -2,6 +2,45 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-05-31 — Merge avere.html + deputati-avere.html into one wealth page
+
+**What was done**
+- **`avere.html` is now the single wealth page.** Kept its aggregate stat cards, party bar-charts,
+  conturi box-plots and methodology, but replaced the old 7-tab "Topuri" leaderboard with a
+  deputati-avere-style **deputy list limited to 50**, controlled by a toolbar above it:
+  `⬤ Cercuri / ≡ Tabel` view toggle · 6-metric selector (Venituri/Conturi/Imobile/Suprafață/Auto/
+  Datorii) · `Top 50 / Ultimii 50 / Lista completă ↗`. Charts now sit **below** the list. Fetches
+  both `stats/avere-{leg}.json` (cards/charts) and `stats/avere-deputies-{leg}.json` (the list).
+- **`deputati-avere.html` is now the full-list-only page.** Delinked from the nav; reachable only
+  via the merged page's `Lista completă ↗` (opens in a new tab carrying `leg`/`metric`/`view`).
+- **`Averi++` removed site-wide.** Single `Averi` nav entry on all pages; `index.html` collapsed its
+  two wealth dashboard cards into one.
+- **Evolution columns.** The list's table view gained 3 columns — *Creștere conturi în mandat*,
+  *Scădere conturi în mandat*, *Imobile noi în mandat*. Backed by two new per-deputy fields
+  (`delta_conturi_ron`, `delta_imobile`) added to `scripts/build_avere_deputies.py` output (nulled
+  unless the deputy has ≥2 declarations); data regenerated for 2024 + 2020.
+- **Shared renderer.** Extracted the list/table/circle markup both pages used into
+  `assets/avere-list.js` (`AVERE.renderTable` / `AVERE.renderCircles` + formatting helpers). The two
+  pages now render from one source instead of diverging copies.
+
+**Decisions**
+- Top/Bottom 50 rank by the selected metric over deputies *with* a declaration (nulls excluded);
+  bottom view sorts ascending. The 3 evolution values are table-only columns (not in the metric
+  selector / circle sizing), matching the user's "keep these columns" intent.
+- i18n stays light (footer/loading only), per the existing dashboard convention — the new toolbar
+  labels are literal Romanian, like the metric buttons always were. Dropped the now-unused
+  `card_averepp_desc` i18n key.
+- `lipsa.jpg` (ANI placeholder logo) is filtered in the shared module's `logoOf()`, killing a
+  pre-existing 404 on both pages.
+
+**Verification** — `pytest tests/test_build_avere_deputies.py` green (incl. new evolution-field
+test); `ruff` clean; `node --check assets/avere-list.js` OK. Browser: merged page renders with 0
+console errors, Top/Bottom 50 + metric switch + Cercuri/Tabel + column sort all work, `Lista
+completă ↗` opens deputati-avere.html in the right state, 2024 & 2020 both load, no mobile overflow
+at 390px; `Averi++` gone from every nav.
+
+---
+
 ### 2026-05-31 — Homepage rebuild, site-wide consistency, cross-links, perf
 
 **What was done**
