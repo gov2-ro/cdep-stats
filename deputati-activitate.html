@@ -140,10 +140,10 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
 <div class="toolbar">
   <div class="toolbar-inner">
     <div class="view-toggle">
-      <button class="view-btn active" id="btn-circles">⬤ Cercuri</button>
-      <button class="view-btn" id="btn-table">≡ Tabel</button>
+      <button class="view-btn" id="btn-circles">⬤ Cercuri</button>
+      <button class="view-btn active" id="btn-table">≡ Tabel</button>
     </div>
-    <div class="metric-btns" id="metric-btns">
+    <div class="metric-btns" id="metric-btns" style="display:none">
       <button class="metric-btn active" data-metric="activitate_sedinte">Ședințe</button>
       <button class="metric-btn" data-metric="activitate_luari_cuvant">Cuvânt</button>
       <button class="metric-btn" data-metric="activitate_propuneri_legislative">Propuneri</button>
@@ -230,7 +230,7 @@ function initials(name){
 }
 
 let ALL=[],PARTIES={},activeParties=new Set(),metric='activitate_sedinte';
-let viewMode='circles', sortKey=null, sortDir='desc';
+let viewMode='table', sortKey=null, sortDir='desc';
 
 const COLUMNS=[
   {key:'activitate_sedinte',               label:'Ședințe',    fmt:v=>fmtVal(v)},
@@ -325,7 +325,7 @@ function pushState(){
   const allKeys=[...activeParties].sort().join(',');
   const fullKeys=[...new Set(ALL.map(d=>d.partid))].sort().join(',');
   if(allKeys!==fullKeys)params.set('parties',allKeys);
-  if(viewMode!=='circles')params.set('view',viewMode);
+  if(viewMode!=='table')params.set('view',viewMode);
   const qs=params.toString();
   history.replaceState(null,'',qs?'?'+qs:location.pathname);
 }
@@ -348,11 +348,11 @@ function applyURLState(){
     });
     updatePartyDropdownBtn();
   }
-  if(params.get('view')==='table'){
-    viewMode='table';
-    document.getElementById('btn-table').classList.add('active');
-    document.getElementById('btn-circles').classList.remove('active');
-    document.getElementById('metric-btns').style.display='none';
+  if(params.get('view')==='circles'){
+    viewMode='circles';
+    document.getElementById('btn-circles').classList.add('active');
+    document.getElementById('btn-table').classList.remove('active');
+    document.getElementById('metric-btns').style.display='';
     if(!sortKey)sortKey=metric;
   }
 }
