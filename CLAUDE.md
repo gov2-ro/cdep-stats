@@ -31,6 +31,7 @@ python scripts/build_amendamente.py --leg 2024
 python scripts/build_feeds.py --leg 2024 --per-type 15 --limit 60
 python scripts/build_declaratii_avere.py --leg 2024
 python scripts/build_avere_stats.py --leg 2024  # aggregate stats for the /avere.html dashboard
+python scripts/build_home_stats.py --leg 2024   # precomputed counts for index.html (avoids fetching ~18MB of raw files)
 
 # HTML pages + Pagefind index
 python scripts/generate_html.py

@@ -30,4 +30,19 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 - [ ] link to [monitorul.ai](https://monitorul.ai) via [MCP](https://monitorul.ai/mcp)
 - [x] enhance avere.html with thumbnails for ppl and partide
 - [ ] show cars, homes, teremnui as icons, one per each? - relative to suprafata or kph?
-- [ ] **Remove dead CSS rules in deputati-avere.html and deputati-activitate.html** — `.metric-select`, `.search-input`, `.party-chips`, `.party-chip` CSS rules remain in `<style>` blocks after toolbar redesign removed those elements. Cosmetic cleanup only.
+- [x] **Remove dead CSS rules in deputati-avere.html and deputati-activitate.html** — done 2026-05-31; removed `.metric-select`, `.search-input`, `.party-chips`, `.party-chip` rules.
+
+## Site consistency / front door
+
+- [ ] **Refactor the 16 copy-pasted root pages to a shared header/nav/footer** — nav drift (pages
+  falling behind on links/labels) keeps recurring because each page hand-copies its `<nav>`. Extract
+  to a shared `assets/nav.js` (or generate these pages like `pages/`) so header/nav/footer live in
+  one place. This pass re-synced 5 pages by hand; the root cause remains.
+- [ ] **Relink and restyle `search.html`** — currently orphaned (no nav links into it) and on the
+  old design. Re-add it to the nav and bring it on-brand. Left out of the 2026-05-31 consistency
+  pass on purpose.
+- [ ] **`proiect.html` initiator → deputy profile links** — the initiator is a free-text blob with
+  no IDs, so linking needs exact name→`cdep_idm` matching against deputati (fragile, risk of
+  mislinks). Implement only if the match is provably clean; otherwise leave as text.
+- [ ] **`partid.html` long roster is heavy** — the flat ~92-row deputy list makes the page an
+  endless scroll. Consider a compact row style or a show-more cap (without hiding data by default).

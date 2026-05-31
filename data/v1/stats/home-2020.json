@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "generated_at": "2026-05-31T08:33:42.738291Z",
+    "source_url": "https://endimion2k.github.io/cdep-api-poc/data/v1/stats/home-2020.json",
+    "scraper_version": "0.1.0",
+    "count": 26052,
+    "legislatura": 2020
+  },
+  "counts": {
+    "deputati": 354,
+    "voturi": 3616,
+    "proiecte": 3604,
+    "interpelari": 18040,
+    "comisii": 54,
+    "motiuni": 22,
+    "declaratii_avere": 354,
+    "sanctiuni": 8
+  }
+}

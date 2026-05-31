@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Județe — Camera Deputaților</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <meta name="description" content="Comparație județe după activitate parlamentară și avere — Camera Deputaților 2024">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -93,6 +94,7 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
       <a href="proiecte-stats.html">Proiecte</a>
       <a href="partide.html">Partide</a>
       <a href="judete.html" class="active">Județe</a>
+      <span id="lang-toggle-slot" style="margin-left:4px;display:flex;align-items:center"></span>
     </nav>
   </div>
 </header>
@@ -119,15 +121,15 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
   <h1>Județe — Camera Deputaților</h1>
   <p class="sub" id="page-sub">Fiecare cerc = un județ · mărimea = metrica selectată</p>
   <div id="circle-grid" class="circle-grid">
-    <div class="loading">Se încarcă...</div>
+    <div class="loading" data-i18n="loading">Se încarcă...</div>
   </div>
   <div id="judet-panel" style="display:none"></div>
 </div>
 
 <footer class="footer">
-  <p>Date din <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API:
+  <p><span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API:
   <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a> ·
-  <a href="index.html">Pagina principală</a></p>
+  <a href="index.html" data-i18n="page_main">Pagina principală</a></p>
 </footer>
 
 <script>
@@ -425,5 +427,6 @@ document.getElementById('circle-grid').addEventListener('click',e=>{
 
 load();
 </script>
+<script src="i18n.js"></script>
 </body>
 </html>

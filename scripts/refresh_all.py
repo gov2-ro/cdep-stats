@@ -54,6 +54,7 @@ STAGES = [
     # Derivate — rulate la urmă
     ("comisii", ["python", "scripts/build_comisii.py", "--leg", "2024"], True),
     ("avere-stats", ["python", "scripts/build_avere_stats.py", "--leg", "2024"], True),
+    ("home-stats", ["python", "scripts/build_home_stats.py", "--leg", "2024"], True),
     ("amendamente", ["python", "scripts/build_amendamente.py", "--leg", "2024"], True),
     ("feeds", ["python", "scripts/build_feeds.py", "--leg", "2024", "--per-type", "15"], True),
     ("split_files", ["python", "scripts/split_by_year.py", "--leg", "2024"], True),

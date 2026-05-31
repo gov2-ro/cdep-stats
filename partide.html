@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Partide — Camera Deputaților</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <meta name="description" content="Comparație partide — activitate parlamentară și avere declarată · Camera Deputaților 2024">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -80,6 +81,7 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
       <a href="proiecte-stats.html">Proiecte</a>
       <a href="partide.html" class="active">Partide</a>
       <a href="judete.html">Județe</a>
+      <span id="lang-toggle-slot" style="margin-left:4px;display:flex;align-items:center"></span>
     </nav>
   </div>
 </header>
@@ -110,14 +112,14 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
   <h1>Partide — Camera Deputaților</h1>
   <p class="sub" id="page-sub"></p>
   <div id="circle-grid" class="circle-grid">
-    <div class="loading">Se încarcă...</div>
+    <div class="loading" data-i18n="loading">Se încarcă...</div>
   </div>
 </div>
 
 <footer class="footer">
-  <p>Date din <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API:
+  <p><span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API:
   <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a> ·
-  <a href="index.html">Pagina principală</a></p>
+  <a href="index.html" data-i18n="page_main">Pagina principală</a></p>
 </footer>
 
 <script>
@@ -209,10 +211,12 @@ function renderTable(grid){
     {key:'partid',         label:'Partid',    fmt:(p)=>{
       const logo=PARTIES_LOGOS[p.partid];
       const color=partyColor(p.partid);
+      // colored-dot fallback: shown when no logo, or revealed if the logo file 404s
+      const dot=`<span style="display:${logo?'none':'inline-block'};width:10px;height:10px;border-radius:50%;background:${color};margin-right:7px;vertical-align:middle"></span>`;
       const img=logo
-        ?`<img src="data/assets/imagini/partide/${logo}" onerror="this.style.display='none'" style="width:18px;height:18px;object-fit:contain;margin-right:7px;vertical-align:middle">`
-        :`<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${color};margin-right:7px;vertical-align:middle"></span>`;
-      return`<a href="partid.html?id=${encodeURIComponent(p.partid)}&leg=${LEG}" style="display:flex;align-items:center;font-weight:600;color:inherit;text-decoration:none">${img}${p.partid}</a>`;
+        ?`<img src="data/assets/imagini/partide/${logo}" onerror="this.style.display='none';this.nextElementSibling.style.display='inline-block'" style="width:18px;height:18px;object-fit:contain;margin-right:7px;vertical-align:middle">`
+        :'';
+      return`<a href="partid.html?id=${encodeURIComponent(p.partid)}&leg=${LEG}" style="display:flex;align-items:center;font-weight:600;color:inherit;text-decoration:none">${img}${dot}${p.partid}</a>`;
     }},
     {key:'n',              label:'Dep.',       fmt:(p)=>p.n},
     {key:'sum_sedinte',    label:normMode==='avg'?'Șed./dep.':'Ședințe',    fmt:(p)=>normMode==='avg'?fmtAvg(p.sum_sedinte/p.n):p.sum_sedinte.toLocaleString('ro-RO')},
@@ -287,7 +291,8 @@ async function load(){
     return;
   }
 
-  PARTIES_LOGOS=avereData.parties||{};
+  PARTIES_LOGOS={};
+  for(const k in (avereData.parties||{})){const v=avereData.parties[k];if(v&&v!=='lipsa.jpg')PARTIES_LOGOS[k]=v;}
 
   const partyMap={};
   for(const d of activData.deputies){
@@ -374,5 +379,6 @@ document.getElementById('btn-avg').addEventListener('click',()=>{
 
 load();
 </script>
+<script src="i18n.js"></script>
 </body>
 </html>

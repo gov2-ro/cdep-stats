@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Profil deputat — Camera Deputaților</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <meta name="description" content="Profil complet deputat: partid, județ, comisii, activitate parlamentară, voturi.">
 <meta property="og:title" content="Profil deputat — cdep.api">
 <meta property="og:type" content="profile">
@@ -119,19 +120,31 @@ a:hover{text-decoration:underline}
 </footer>
 
 <script>
+// `current_party` folosește diacritice cu sedilă (ţ/ş) — normalizăm înainte de a căuta.
 const PARTY_INFO = [
-  {match:/Social Democrat/i, short:'PSD'},
-  {match:/Na[țt]ional Liberal/i, short:'PNL'},
-  {match:/Salva[țt]i Rom[âa]nia/i, short:'USR'},
-  {match:/Alian[țt]a pentru Unirea Rom[âa]nilor/i, short:'AUR'},
-  {match:/Democrat[ăa] Maghiar[ăa]/i, short:'UDMR'},
-  {match:/S\.O\.S\. Rom[âa]nia/i, short:'S.O.S.'},
-  {match:/Oamenilor Tineri/i, short:'POT'},
+  {test:'social democrat',    short:'PSD'},
+  {test:'national liberal',   short:'PNL'},
+  {test:'salvati romania',    short:'USR'},
+  {test:'unirea romanilor',   short:'AUR'},
+  {test:'democrata maghiara', short:'UDMR'},
+  {test:'s.o.s',              short:'S.O.S.'},
+  {test:'oamenilor tineri',   short:'POT'},
+  {test:'minoritat',          short:'Minorități'},
 ];
+// Cod partid → id pe partid.html (taxonomia paginii de profil partid).
+const PARTID_ID = {PSD:'PSD', PNL:'PNL', USR:'USR', AUR:'AUR', UDMR:'UDMR', 'S.O.S.':'SOS RO', 'Minorități':'Minoritati'};
+
+function normRo(s) {
+  return (s || '')
+    .replace(/[ăâ]/gi, 'a').replace(/î/gi, 'i')
+    .replace(/[țţ]/gi, 't').replace(/[șş]/gi, 's')
+    .toLowerCase();
+}
 
 function partyShort(name) {
   if (!name) return 'Neaf.';
-  for (const p of PARTY_INFO) if (p.match.test(name)) return p.short;
+  const n = normRo(name);
+  for (const p of PARTY_INFO) if (n.includes(p.test)) return p.short;
   return name.length > 20 ? name.slice(0, 20) + '…' : name;
 }
 
@@ -378,9 +391,13 @@ async function loadDeputat() {
     ? `<img src="${dep.image}" alt="${dep.name}" onerror="this.parentNode.innerHTML='${initials}'">`
     : initials;
 
+  const pid = PARTID_ID[partid];
+  const partyTag = pid
+    ? `<a class="tag tag-party" style="text-decoration:none" href="partid.html?id=${encodeURIComponent(pid)}&leg=${leg}">${partid}</a>`
+    : `<span class="tag tag-party">${partid}</span>`;
   const tags = [
-    `<span class="tag tag-party">${partid}</span>`,
-    dep.judet ? `<span class="tag tag-judet">${dep.judet}</span>` : '',
+    partyTag,
+    dep.judet ? `<a class="tag tag-judet" style="text-decoration:none" href="judete.html">${dep.judet}</a>` : '',
     dep.circumscriptie ? `<span class="tag tag-circ">circ. ${dep.circumscriptie}</span>` : '',
     dep.group_role && dep.group_role !== 'Membru' ? `<span class="tag tag-rol">${dep.group_role}</span>` : '',
   ].filter(Boolean).join('');

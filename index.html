@@ -13,6 +13,7 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/atom+xml" title="Camera Deputaților — Atom feed" href="data/v1/feed.atom">
 <link rel="alternate" type="application/feed+json" title="Camera Deputaților — JSON Feed" href="data/v1/feed.json">
 <link rel="sitemap" type="application/xml" href="sitemap.xml">
@@ -53,22 +54,10 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
 .logo{font-size:15px;font-weight:600;color:var(--text)}
 .logo span{color:var(--green)}
 .badge{font-size:11px;padding:3px 8px;border-radius:4px;font-family:var(--mono);background:var(--green-bg);color:var(--green-text);font-weight:500}
-.nav{margin-left:auto;display:flex;gap:2px;align-items:center}
+.nav{margin-left:auto;display:flex;gap:2px;align-items:center;flex-wrap:wrap}
 .nav a{font-size:13px;padding:6px 10px;border-radius:var(--radius-sm);color:var(--text2)}
 .nav a:hover{background:var(--bg2);text-decoration:none}
 .nav a.active{color:var(--text);font-weight:500}
-.nav-dd{position:relative;display:flex;align-items:center}
-.info-btn{font-size:13px;padding:5px 9px;border-radius:var(--radius-sm);color:var(--text2);background:none;border:none;cursor:pointer;display:flex;align-items:center;gap:3px;line-height:1;height:32px}
-.info-btn:hover{background:var(--bg2)}
-.info-btn.active{color:var(--text);font-weight:500;background:var(--bg2)}
-.info-caret{font-size:9px;opacity:.6;transition:transform .15s}
-.info-btn[aria-expanded=true] .info-caret{transform:rotate(180deg)}
-.info-menu{position:absolute;top:calc(100% + 4px);left:0;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);box-shadow:0 4px 16px rgba(0,0,0,.12);min-width:148px;z-index:200;display:none;padding:4px}
-.info-menu.open{display:block}
-.info-menu a{display:block;padding:7px 12px;font-size:13px;color:var(--text2);text-decoration:none;border-radius:4px;white-space:nowrap}
-.info-menu a:hover{background:var(--bg2);color:var(--text)}
-.info-menu a.active{color:var(--text);font-weight:500;background:var(--bg3)}
-.info-menu hr{border:none;border-top:1px solid var(--border);margin:4px 0}
 
 /* Stats bar */
 .stats-bar{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:16px 0}
@@ -77,14 +66,67 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
 .stat-num{font-size:22px;font-weight:600;color:var(--text)}
 .stat-lbl{font-size:12px;color:var(--text3)}
 
-/* Main layout */
-.main{display:none}
+/* Home layout */
+.home{max-width:1100px;margin:0 auto;padding:32px 24px}
+.home-intro{font-size:15px;color:var(--text2);margin-bottom:28px;max-width:700px;line-height:1.6}
+.section-header{margin:0 0 16px}
+.section-header h2{font-size:16px;font-weight:600}
 
+/* Dashboard entry cards */
+.dash-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-bottom:40px}
+.dash-card{display:block;border:1px solid var(--border);border-radius:var(--radius);padding:16px;background:var(--bg);text-decoration:none;color:inherit;transition:border-color .15s,transform .15s}
+.dash-card:hover{border-color:var(--green);text-decoration:none;transform:translateY(-2px)}
+.dc-title{font-size:15px;font-weight:600;margin-bottom:5px;display:flex;align-items:center;gap:8px}
+.dc-ico{font-size:18px;line-height:1}
+.dc-desc{font-size:12.5px;color:var(--text2);line-height:1.5}
 
+/* Demo cards (widgets) */
+.demo-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:40px}
+@media(max-width:700px){.demo-grid{grid-template-columns:1fr}}
+.demo-card{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:16px}
+.demo-card-title{font-size:11px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:.6px;margin-bottom:14px}
+
+/* Party seat bars */
+.party-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.party-name{font-size:13px;font-weight:500;width:44px}
+.party-bar-wrap{flex:1;height:22px;background:var(--bg3);border-radius:3px;overflow:hidden}
+.party-bar{height:100%;display:flex;align-items:center;padding-left:8px;border-radius:3px}
+.party-seats{font-size:11px;font-weight:600}
+
+/* Indicators (progress bars) */
+.progress-row{margin-bottom:16px}
+.progress-label{display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px}
+.progress-bar{height:8px;background:var(--bg3);border-radius:4px;overflow:hidden}
+.progress-fill{height:100%;border-radius:4px;background:var(--green)}
+
+/* Recent votes */
+.vote-row{padding:9px 0;border-bottom:1px solid var(--border)}
+.vote-row:last-child{border:none}
+.vote-title{font-size:13px;margin-bottom:5px;line-height:1.4}
+.vote-meta{font-size:11px;color:var(--text3);margin-bottom:5px}
+.vote-nums{display:flex;gap:4px;flex-wrap:wrap}
+.vnum{font-size:10px;padding:2px 7px;border-radius:3px;font-weight:500}
+.vfor{background:var(--green-bg);color:var(--green-text)}
+.vagainst{background:var(--red-bg);color:var(--red-text)}
+.vabs{background:var(--bg3);color:var(--text3)}
+.vadopted{background:var(--blue-bg);color:var(--blue-text)}
+
+/* Deputy finder */
+.filter-bar{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.filter-bar select,.filter-bar input{font-size:13px;padding:8px 10px;border:1px solid var(--border2);border-radius:var(--radius-sm);background:var(--bg);color:var(--text);font-family:var(--font);max-width:100%;min-width:0}
+.filter-bar select:focus,.filter-bar input:focus{outline:none;border-color:var(--green)}
+.dep-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
+@media(max-width:600px){.dep-grid{grid-template-columns:1fr}}
+.dep-row{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--border)}
+.avatar{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;flex-shrink:0;overflow:hidden}
+.avatar img{width:100%;height:100%;object-fit:cover}
+.dep-info .dep-name{font-size:13px;font-weight:500}
+.dep-info .dep-meta{font-size:11px;color:var(--text3)}
+.pbadge{font-size:10px;padding:2px 7px;border-radius:3px;font-weight:600;margin-left:auto}
 
 /* Footer */
 .footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px}
-.footer-inner{max-width:1100px;margin:0 auto;font-size:12px;color:var(--text3);display:flex;justify-content:space-between;flex-wrap:gap}
+.footer-inner{max-width:1100px;margin:0 auto;font-size:12px;color:var(--text3);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 </style>
 </head>
 <body>
@@ -92,7 +134,7 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
 
 <header class="header" role="banner">
   <div class="header-inner">
-    <span class="logo" aria-label="cdep stats">cdep<span>-api</span> <em>*stats*</em></span>
+    <span class="logo" aria-label="cdep stats">cdep<span>-api</span> <em>stats</em></span>
     <nav class="nav" role="navigation" aria-label="Navigație principală">
       <a href="avere.html" data-i18n="nav_avere">Averi</a>
       <a href="deputati-avere.html">Averi++</a>
@@ -120,41 +162,84 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
   </div>
 </div>
 
-<div style="max-width:600px;margin:0 auto;padding:32px 24px">
-  
-  
-  
-    <a href="avere.html">Averi</a> &nbsp;  &middot; &nbsp;
-    <a href="deputati-avere.html">Averi <sup>alt</sup></a> &nbsp;  &middot; &nbsp;
-    <a href="deputati-activitate.html">Activitate</a> &nbsp;  &middot; &nbsp;
-    <a href="interpelari-stats.html">Interpelări</a> &nbsp;  &middot; &nbsp;
-    <a href="proiecte-stats.html">Proiecte</a> 
-  
-</div>
+<main class="home" id="main-content">
+  <p class="home-intro" data-i18n="home_intro">Date deschise despre Camera Deputaților — explorează averi, activitate parlamentară, interpelări, proiecte de lege și voturi. Totul precalculat din surse publice.</p>
+
+  <div class="section-header"><h2 data-i18n="home_explore">Explorează datele</h2></div>
+  <div class="dash-grid">
+    <a class="dash-card" href="avere.html"><div class="dc-title"><span class="dc-ico">💰</span> Averi</div><div class="dc-desc" data-i18n="card_avere_desc">Topuri averi: conturi, venituri, datorii — agregat și pe partide.</div></a>
+    <a class="dash-card" href="deputati-avere.html"><div class="dc-title"><span class="dc-ico">⬤</span> Averi++</div><div class="dc-desc" data-i18n="card_averepp_desc">Averea fiecărui deputat, vizualizată cerc cu cerc.</div></a>
+    <a class="dash-card" href="deputati-activitate.html"><div class="dc-title"><span class="dc-ico">📊</span> Activitate</div><div class="dc-desc" data-i18n="card_activitate_desc">Ședințe, luări de cuvânt, propuneri și legi promulgate.</div></a>
+    <a class="dash-card" href="interpelari-stats.html"><div class="dc-title"><span class="dc-ico">❓</span> Interpelări</div><div class="dc-desc" data-i18n="card_interpelari_desc">Cine întreabă, pe cine și despre ce.</div></a>
+    <a class="dash-card" href="proiecte-stats.html"><div class="dc-title"><span class="dc-ico">📜</span> Proiecte</div><div class="dc-desc" data-i18n="card_proiecte_desc">Fluxul legislativ: înregistrate → adoptate → promulgate.</div></a>
+    <a class="dash-card" href="partide.html"><div class="dc-title"><span class="dc-ico">🏛️</span> Partide</div><div class="dc-desc" data-i18n="card_partide_desc">Comparație între grupurile parlamentare.</div></a>
+    <a class="dash-card" href="judete.html"><div class="dc-title"><span class="dc-ico">🗺️</span> Județe</div><div class="dc-desc" data-i18n="card_judete_desc">Deputați și averi, defalcate pe județ.</div></a>
+  </div>
+
+  <div class="demo-grid">
+    <div class="demo-card">
+      <div class="demo-card-title" data-i18n="home_parties">Distribuție mandate pe partide</div>
+      <div id="party-bars"></div>
+    </div>
+    <div class="demo-card">
+      <div class="demo-card-title" data-i18n="home_indicators">Indicatori activitate</div>
+      <div id="indicators"></div>
+    </div>
+  </div>
+
+  <div class="demo-grid">
+    <div class="demo-card">
+      <div class="demo-card-title" data-i18n="home_votes">Voturi recente</div>
+      <div id="vote-list"></div>
+    </div>
+    <div class="demo-card">
+      <div class="demo-card-title" data-i18n="home_disputed">Cele mai disputate proiecte (după amendamente)</div>
+      <div id="top-disputed"></div>
+    </div>
+  </div>
+
+  <div class="section-header"><h2 data-i18n="home_deputies">Caută un deputat</h2></div>
+  <div class="filter-bar">
+    <select id="f-partid" onchange="filterDeps()"></select>
+    <select id="f-judet" onchange="filterDeps()"></select>
+    <input type="text" id="f-search" placeholder="Caută deputat…" data-i18n-attr="placeholder:home_search_ph" oninput="filterDeps()" style="flex:1;min-width:160px">
+  </div>
+  <div id="dep-list" class="dep-grid"></div>
+</main>
 
 <footer class="footer">
   <div class="footer-inner">
-    
     <span><span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API: <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a> · <span data-i18n="license">Licență</span>: Open Government License v3.0</span>
   </div>
 </footer>
 
 <script>
-// Mapare nume partid → abreviere + culori
+// Mapare nume partid → abreviere + culori.
+// `current_party` din date folosește diacritice cu sedilă (ţ/ş, U+0163/U+015F), nu virgulă —
+// de aceea normalizăm numele înainte de a căuta substring-uri ASCII.
 const PARTY_INFO = [
-  {match:/Social Democrat/i, short:'PSD', color:'#185FA5', bg:'#E6F1FB'},
-  {match:/Na[țt]ional Liberal/i, short:'PNL', color:'#993C1D', bg:'#FAECE7'},
-  {match:/Salva[țt]i Rom[âa]nia/i, short:'USR', color:'#3B6D11', bg:'#EAF3DE'},
-  {match:/Alian[țt]a pentru Unirea Rom[âa]nilor/i, short:'AUR', color:'#854F0B', bg:'#FAEEDA'},
-  {match:/Democrat[ăa] Maghiar[ăa]/i, short:'UDMR', color:'#5F5E5A', bg:'#F1EFE8'},
-  {match:/S\.O\.S\. Rom[âa]nia/i, short:'S.O.S.', color:'#A32D2D', bg:'#FCEBEB'},
-  {match:/Oamenilor Tineri/i, short:'POT', color:'#553378', bg:'#EDE7F4'},
+  {test:'social democrat',    short:'PSD',    color:'#185FA5', bg:'#E6F1FB'},
+  {test:'national liberal',   short:'PNL',    color:'#993C1D', bg:'#FAECE7'},
+  {test:'salvati romania',    short:'USR',    color:'#3B6D11', bg:'#EAF3DE'},
+  {test:'unirea romanilor',   short:'AUR',    color:'#854F0B', bg:'#FAEEDA'},
+  {test:'democrata maghiara', short:'UDMR',   color:'#5F5E5A', bg:'#F1EFE8'},
+  {test:'s.o.s',              short:'S.O.S.', color:'#A32D2D', bg:'#FCEBEB'},
+  {test:'oamenilor tineri',   short:'POT',    color:'#553378', bg:'#EDE7F4'},
+  {test:'minoritat',          short:'Minorități', color:'#777', bg:'#eee'},
 ];
 const NEAF = {short:'Neaf.', color:'#888', bg:'#eee'};
 
+function normRo(s) {
+  return (s || '')
+    .replace(/[ăâ]/gi, 'a').replace(/î/gi, 'i')
+    .replace(/[țţ]/gi, 't').replace(/[șş]/gi, 's')
+    .toLowerCase();
+}
+
 function partyMeta(name) {
   if (!name) return NEAF;
-  for (const p of PARTY_INFO) if (p.match.test(name)) return p;
+  const n = normRo(name);
+  for (const p of PARTY_INFO) if (n.includes(p.test)) return p;
   return NEAF;
 }
 
@@ -173,114 +258,49 @@ function fmtDate(iso) {
   return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
 }
 
-function fmtNum(n) { return n.toLocaleString('ro-RO'); }
+function fmtNum(n) { return (n || 0).toLocaleString('ro-RO'); }
 
+let HOME = null;          // precomputed counts (data/v1/stats/home-{leg}.json)
 let DEPUTATI = [];
 let VOTURI = [];
-let SANCTIUNI = [];
-let INTERPELARI_TOTAL = 0;
-let COMISII_TOTAL = 0;
-let PROIECTE = [];
-let PROIECTE_TOTAL = 0;
+let PROIECTE_STATS = null; // data/v1/stats/proiecte-{leg}.json
 let AMENDAMENTE = [];
-let AMENDAMENTE_TOTAL = 0;
-let MOTIUNI_TOTAL = 0;
-let ORDINE_ZI_TOTAL = 0;
-let DECLARATII_AVERE_TOTAL = 0;
 
 async function loadData() {
-  const [dep, vot, san, intp, com, pro, amd, mot, ord, dav] = await Promise.all([
+  const [home, dep, vot, amd, pst] = await Promise.all([
+    fetch('data/v1/stats/home-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/deputati/legislatura-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/voturi/2024/_index.json').then(r => r.json()).catch(() => null),
-    fetch('data/v1/sanctiuni/legislatura-2024.json').then(r => r.json()).catch(() => null),
-    fetch('data/v1/interpelari/legislatura-2024.json').then(r => r.json()).catch(() => null),
-    fetch('data/v1/comisii/legislatura-2024.json').then(r => r.json()).catch(() => null),
-    fetch('data/v1/proiecte/legislatura-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/amendamente/legislatura-2024.json').then(r => r.json()).catch(() => null),
-    fetch('data/v1/motiuni/legislatura-2024.json').then(r => r.json()).catch(() => null),
-    fetch('data/v1/ordine-zi/legislatura-2024.json').then(r => r.json()).catch(() => null),
-    fetch('data/v1/declaratii-avere/legislatura-2024.json').then(r => r.json()).catch(() => null),
+    fetch('data/v1/stats/proiecte-2024.json').then(r => r.json()).catch(() => null),
   ]);
+  HOME = home;
   DEPUTATI = dep?.data || [];
   VOTURI = vot?.data || [];
-  SANCTIUNI = san?.data || [];
-  INTERPELARI_TOTAL = intp?.meta?.count || intp?.data?.length || 0;
-  COMISII_TOTAL = com?.meta?.count || com?.data?.length || 0;
-  PROIECTE = pro?.data || [];
-  PROIECTE_TOTAL = pro?.meta?.count || PROIECTE.length || 0;
   AMENDAMENTE = amd?.data || [];
-  AMENDAMENTE_TOTAL = AMENDAMENTE.reduce((s, a) => s + (a.amendamente_total || 0), 0);
-  MOTIUNI_TOTAL = mot?.meta?.count || mot?.data?.length || 0;
-  ORDINE_ZI_TOTAL = ord?.meta?.count || ord?.data?.length || 0;
-  DECLARATII_AVERE_TOTAL = dav?.meta?.count || dav?.data?.length || 0;
+  PROIECTE_STATS = pst;
 
   renderStats();
-  renderDeps(DEPUTATI);
-  renderVotes(VOTURI);
   renderParties();
   renderIndicators();
-  renderJudete();
+  renderVotes(VOTURI);
   renderTopDisputed();
+  renderFilters();
+  renderDeps(DEPUTATI);
 }
 
 function renderStats() {
-  const set = (id, n) => { const el = document.getElementById(id); if (el) el.textContent = fmtNum(n); };
-  set('stat-deputati', DEPUTATI.length);
-  set('stat-voturi', VOTURI.length);
-  set('stat-interpelari', INTERPELARI_TOTAL);
-  set('stat-sanctiuni', SANCTIUNI.length);
-  set('stat-comisii', COMISII_TOTAL);
-  set('stat-proiecte', PROIECTE_TOTAL);
-  set('stat-motiuni', MOTIUNI_TOTAL);
-  set('stat-ordine-zi', ORDINE_ZI_TOTAL);
-  set('stat-declaratii', DECLARATII_AVERE_TOTAL);
-  set('stats-deputati', DEPUTATI.length);
-  set('stats-voturi', VOTURI.length);
-  set('stats-interpelari', INTERPELARI_TOTAL);
-  set('stats-sanctiuni', SANCTIUNI.length);
-  set('stats-comisii', COMISII_TOTAL);
-  set('stats-proiecte', PROIECTE_TOTAL);
-}
-
-function renderDeps(list) {
-  const el = document.getElementById('dep-list');
-  if (!el) return;
-  if (!list.length) {
-    el.innerHTML = '<div style="font-size:13px;color:var(--text3);padding:20px 0;text-align:center">Niciun rezultat</div>';
-    return;
-  }
-  const sorted = [...list].sort((a, b) => (a.name || '').localeCompare(b.name || '', 'ro')).slice(0, 12);
-  el.innerHTML = sorted.map(d => {
-    const p = partyMeta(d.current_party);
-    return `<a href="deputat.html?id=${d.cdep_idm}" class="dep-row" style="text-decoration:none;color:inherit;display:flex;align-items:center;gap:10px">
-      <div class="avatar" style="background:${p.bg};color:${p.color}">${initials(d.name || '')}</div>
-      <div class="dep-info">
-        <div class="dep-name">${d.name || '?'}</div>
-        <div class="dep-meta">${d.judet || ''} · circ. ${d.circumscriptie || '-'}</div>
-      </div>
-      <span class="pbadge" style="background:${p.bg};color:${p.color};font-size:10px;padding:2px 7px;border-radius:3px;font-weight:600;margin-left:auto">${p.short}</span>
-    </a>`;
-  }).join('');
-}
-
-function renderVotes(list) {
-  const el = document.getElementById('vote-list');
-  if (!el) return;
-  const sorted = [...list].sort((a, b) => (b.timestamp || '').localeCompare(a.timestamp || '')).slice(0, 6);
-  el.innerHTML = sorted.map(v => {
-    const c = v.counts || {};
-    const adopted = (c.pentru || 0) > (c.contra || 0);
-    return `<a href="vot.html?idv=${v.cdep_idv}" class="vote-row" style="display:block;text-decoration:none;color:inherit;cursor:pointer">
-      <div class="vote-title">${v.descriere || '(fără descriere)'}</div>
-      <div class="vote-meta">${fmtDate(v.timestamp)}</div>
-      <div class="vote-nums">
-        <span class="vnum vfor">${c.pentru || 0} pentru</span>
-        <span class="vnum vagainst">${c.contra || 0} contra</span>
-        <span class="vnum vabs">${c.abtineri || 0} abț.</span>
-        ${adopted ? '<span class="vnum vadopted">adoptat</span>' : ''}
-      </div>
-    </a>`;
-  }).join('');
+  const c = HOME?.counts || {};
+  const set = (id, n) => { const el = document.getElementById(id); if (el && n != null) el.textContent = fmtNum(n); };
+  // counts come from the precomputed file; DEPUTATI/VOTURI lengths are a fallback if it's missing
+  set('stat-deputati', c.deputati ?? DEPUTATI.length);
+  set('stat-voturi', c.voturi ?? VOTURI.length);
+  set('stat-proiecte', c.proiecte ?? PROIECTE_STATS?.cards?.total);
+  set('stat-interpelari', c.interpelari);
+  set('stat-comisii', c.comisii);
+  set('stat-motiuni', c.motiuni);
+  set('stat-ordine-zi', c.ordine_zi);
+  set('stat-declaratii', c.declaratii_avere);
 }
 
 function renderParties() {
@@ -322,13 +342,11 @@ function renderIndicators() {
   const adopted = VOTURI.filter(v => (v.counts?.pentru || 0) > (v.counts?.contra || 0)).length;
   const pctAdopted = VOTURI.length ? Math.round(adopted / VOTURI.length * 100) : 0;
 
-  // Proiecte promulgate
-  const promulgate = PROIECTE.filter(p => p.lege_nr).length;
-  const pctPromulgate = PROIECTE.length ? Math.round(promulgate / PROIECTE.length * 100) : 0;
-
-  // Inițiator Guvern vs parlamentari
-  const initGuv = PROIECTE.filter(p => (p.initiator || '').toLowerCase().includes('guvern')).length;
-  const pctGuv = PROIECTE.length ? Math.round(initGuv / PROIECTE.length * 100) : 0;
+  // Proiecte: din statisticile precalculate (evită fișierul brut de 6 MB)
+  const cards = PROIECTE_STATS?.cards;
+  const pctPromulgate = cards ? cards.rate_promulgate : 0;
+  const guv = (PROIECTE_STATS?.per_partid || []).find(p => /guvern/i.test(p.partid));
+  const pctGuv = (guv && cards?.total) ? Math.round(guv.total / cards.total * 100) : 0;
 
   el.innerHTML = `
     <div class="progress-row">
@@ -357,6 +375,27 @@ function renderIndicators() {
   `;
 }
 
+function renderVotes(list) {
+  const el = document.getElementById('vote-list');
+  if (!el) return;
+  const sorted = [...list].sort((a, b) => (b.timestamp || '').localeCompare(a.timestamp || '')).slice(0, 6);
+  if (!sorted.length) { el.innerHTML = '<div style="font-size:13px;color:var(--text3)">—</div>'; return; }
+  el.innerHTML = sorted.map(v => {
+    const c = v.counts || {};
+    const adopted = (c.pentru || 0) > (c.contra || 0);
+    return `<a href="vot.html?idv=${v.cdep_idv}" class="vote-row" style="display:block;text-decoration:none;color:inherit;cursor:pointer">
+      <div class="vote-title">${v.descriere || '(fără descriere)'}</div>
+      <div class="vote-meta">${fmtDate(v.timestamp)}</div>
+      <div class="vote-nums">
+        <span class="vnum vfor">${c.pentru || 0} pentru</span>
+        <span class="vnum vagainst">${c.contra || 0} contra</span>
+        <span class="vnum vabs">${c.abtineri || 0} abț.</span>
+        ${adopted ? '<span class="vnum vadopted">adoptat</span>' : ''}
+      </div>
+    </a>`;
+  }).join('');
+}
+
 function renderTopDisputed() {
   const el = document.getElementById('top-disputed');
   if (!el || !AMENDAMENTE.length) return;
@@ -373,7 +412,7 @@ function renderTopDisputed() {
   }).join('');
 }
 
-function renderJudete() {
+function renderFilters() {
   const sel = document.getElementById('f-judet');
   if (sel) {
     const judete = [...new Set(DEPUTATI.map(d => d.judet).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ro'));
@@ -381,9 +420,34 @@ function renderJudete() {
   }
   const pSel = document.getElementById('f-partid');
   if (pSel) {
-    const partidNames = [...new Set(PARTY_INFO.map(p => p.short))];
+    const partidNames = [...new Set(DEPUTATI.map(d => partyMeta(d.current_party).short))].sort();
     pSel.innerHTML = '<option value="">Toate partidele</option>' + partidNames.map(s => `<option value="${s}">${s}</option>`).join('');
   }
+}
+
+function renderDeps(list) {
+  const el = document.getElementById('dep-list');
+  if (!el) return;
+  if (!list.length) {
+    el.innerHTML = '<div style="font-size:13px;color:var(--text3);padding:20px 0;text-align:center">Niciun rezultat</div>';
+    return;
+  }
+  const sorted = [...list].sort((a, b) => (a.name || '').localeCompare(b.name || '', 'ro')).slice(0, 24);
+  el.innerHTML = sorted.map(d => {
+    const p = partyMeta(d.current_party);
+    const ini = initials(d.name || '');
+    const photo = d.image
+      ? `<img src="${d.image}" alt="" loading="lazy" onerror="this.style.display='none'">`
+      : '';
+    return `<a href="deputat.html?id=${d.cdep_idm}" class="dep-row" style="text-decoration:none;color:inherit">
+      <div class="avatar" style="background:${p.bg};color:${p.color}">${photo || ini}</div>
+      <div class="dep-info">
+        <div class="dep-name">${d.name || '?'}</div>
+        <div class="dep-meta">${d.judet || ''} · circ. ${d.circumscriptie || '-'}</div>
+      </div>
+      <span class="pbadge" style="background:${p.bg};color:${p.color}">${p.short}</span>
+    </a>`;
+  }).join('');
 }
 
 function filterDeps() {

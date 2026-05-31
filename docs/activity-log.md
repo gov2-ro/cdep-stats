@@ -2,6 +2,53 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-05-31 — Homepage rebuild, site-wide consistency, cross-links, perf
+
+**What was done**
+- **Homepage (`index.html`) rebuilt rich.** Restored the real-data widgets the orphaned render
+  functions already implied: party seat-bars (`#party-bars`), legislative indicators
+  (`#indicators`), recent votes (`#vote-list`), most-disputed projects (`#top-disputed`), and a
+  filterable deputy finder (`#dep-list` + `#f-partid`/`#f-judet`/`#f-search`). Added 7 dashboard
+  entry cards so the page is a real hub. Removed the dead `.main{display:none}`; skip-link now
+  resolves to `#main-content`. (The old `git show 4aa3c60b4^` body was a mock API-docs console —
+  not restored.)
+- **Homepage payload ~20 MB → ~1.1 MB.** `loadData()` no longer pulls the 11.4 MB
+  `interpelari/legislatura-2024.json` or 6.4 MB `proiecte/legislatura-2024.json` just for counts.
+  New `scripts/build_home_stats.py` precomputes 9 2024-scoped counts → `data/v1/stats/home-2024.json`;
+  proiecte indicators read the existing 4.8 KB `stats/proiecte-2024.json`. Final fetch set: 5 data
+  files (home-stats + deputati + voturi index + amendamente + proiecte-stats). Verified in DevTools:
+  exactly those requests, no raw interpelari/proiecte. Wired the build into `scripts/refresh_all.py`
+  and documented it in `CLAUDE.md`.
+- **Nav drift fixed.** Synced `vot.html`, `proiect.html`, `motiune.html`, `sanctiune.html`,
+  `status.html` to the modern nav (adds Partide + Județe, drops the stale `Averi^ALT` label).
+- **i18n on the two newest pages.** `partide.html` and `judete.html` now load `i18n.js`, render the
+  EN/RO toggle, and carry `data-i18n` on loading + footer strings (using existing keys) so the
+  toggle actually switches language. Added the home-hub keys to `i18n.js` (ro + en).
+- **Favicon.** New `favicon.svg` (green bar-chart mark) + `<link rel="icon">` on all 16 root pages
+  (was 404 everywhere).
+- **Cross-links.** `deputat.html`: party badge → `partid.html?id={code}&leg={leg}`, județ →
+  `judete.html`. `vot.html`: 286 roster names → `deputat.html?id={cdep_idm}` via a collision-safe
+  word-sorted name→idm join (100% match).
+- **Dead CSS** removed from `deputati-avere.html` / `deputati-activitate.html` (`.metric-select`,
+  `.party-chips`, etc.). Logo unified to italic `stats` (dropped literal asterisks).
+
+**Bugs caught & fixed during browser verification**
+- `deputat.html` threw `Identifier 'leg' has already been declared` (duplicate `const leg`) — a
+  SyntaxError that silently killed the whole profile render. Removed the redeclaration.
+- `partide.html` logged a `lipsa.jpg` 404 (placeholder logo filename in `avereData.parties`) — now
+  filtered out at load so it falls back to the colored dot / initials cleanly.
+- `index.html` had 148 px of horizontal overflow at 390 px because the `#f-judet` select sized to
+  its longest option. Capped `.filter-bar select/input` at `max-width:100%;min-width:0`.
+
+**Decisions**
+- Party resolution uses a diacritic-insensitive `normRo()` substring match (data uses cedilla
+  `ţ/ş`, regexes used comma `ț/ș`) — fixed the same latent bug in `index.html` and `deputat.html`.
+- i18n on dashboard-style pages stays light (footer + loading only), matching the existing
+  `avere.html` convention — nav labels are left as proper-noun-ish text.
+- `search.html` left orphaned (explicitly out of scope this pass; tracked in backlog).
+
+---
+
 ### 2026-05-31 — Județe comparison page (judete.html)
 
 **What was done**
