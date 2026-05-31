@@ -91,6 +91,7 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
       <a href="deputati-activitate.html">Activitate</a>
       <a href="interpelari-stats.html">Interpelări</a>
       <a href="proiecte-stats.html">Proiecte</a>
+      <a href="partid.html?id=PSD">Partide</a>
       <a href="judete.html" class="active">Județe</a>
     </nav>
   </div>
@@ -99,10 +100,10 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
 <div class="toolbar">
   <div class="toolbar-inner">
     <div class="view-toggle">
-      <button class="view-btn active" id="btn-circles">⬤ Cercuri</button>
-      <button class="view-btn" id="btn-table">≡ Tabel</button>
+      <button class="view-btn" id="btn-circles">⬤ Cercuri</button>
+      <button class="view-btn active" id="btn-table">≡ Tabel</button>
     </div>
-    <div class="metric-btns" id="metric-btns">
+    <div class="metric-btns" id="metric-btns" style="display:none">
       <button class="metric-btn active" data-metric="n">N dep.</button>
       <button class="metric-btn" data-metric="med_sedinte">Ședințe</button>
       <button class="metric-btn" data-metric="med_propuneri">Propuneri</button>
@@ -189,7 +190,7 @@ function judAbbr(name){
 
 let ALL_JUDETE=[];
 let metric='n';
-let viewMode='circles';
+let viewMode='table';
 let sortKey='n';let sortDir='desc';
 let selectedJudet=null;
 
@@ -315,7 +316,7 @@ function pushState(){
   const params=new URLSearchParams();
   if(LEG!==2024)params.set('leg',LEG);
   if(metric!=='n')params.set('metric',metric);
-  if(viewMode!=='circles')params.set('view',viewMode);
+  if(viewMode!=='table')params.set('view',viewMode);
   if(selectedJudet)params.set('judet',selectedJudet);
   const qs=params.toString();
   history.replaceState(null,'',qs?'?'+qs:location.pathname);
@@ -330,11 +331,11 @@ function applyURLState(){
       document.querySelectorAll('.metric-btn').forEach(b=>b.classList.toggle('active',b.dataset.metric===m));
     }
   }
-  if(params.get('view')==='table'){
-    viewMode='table';
-    document.getElementById('btn-table').classList.add('active');
-    document.getElementById('btn-circles').classList.remove('active');
-    document.getElementById('metric-btns').style.display='none';
+  if(params.get('view')==='circles'){
+    viewMode='circles';
+    document.getElementById('btn-circles').classList.add('active');
+    document.getElementById('btn-table').classList.remove('active');
+    document.getElementById('metric-btns').style.display='';
   }
   if(params.has('judet'))selectedJudet=params.get('judet');
 }
