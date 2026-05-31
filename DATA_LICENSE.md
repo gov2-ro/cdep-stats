@@ -1,6 +1,6 @@
-# Licență date — cdep-api-poc
+# Licență date — cdep-stats
 
-Acest document clarifică statutul juridic al datelor expuse de acest API.
+Preluat de la https://github.com/Endimion2k/cdep-api-poc/blob/main/DATA_LICENSE.md
 
 ## Sursa datelor
 
@@ -64,11 +64,6 @@ Când utilizați aceste date într-un produs sau publicație, atribuirea recoman
 
 > Date din [www.cdep.ro](https://www.cdep.ro), agregate prin [cdep-api-poc](https://github.com/Endimion2k/cdep-api-poc)
 
-## Contact
-
-Pentru întrebări juridice sau cereri de rectificare:
-- **GitHub Issues**: https://github.com/Endimion2k/cdep-api-poc/issues
-- **Repo**: https://github.com/Endimion2k/cdep-api-poc
 
 ---
 
