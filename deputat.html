@@ -360,16 +360,18 @@ async function loadDeputat() {
 
   let dep, allInterpelari, allMotiuni, avereResp, avereCtx = null;
   try {
-    const [depResp, intResp, motResp, avereJson, ctxJson] = await Promise.all([
+    const [depResp, intResp, motResp, avereJson, ctxJson, corrJson] = await Promise.all([
       fetch(jsonUrl).then(r => r.json()),
       fetch(`data/v1/interpelari/legislatura-${leg}.json`).then(r => r.json()).catch(() => null),
       fetch(`data/v1/motiuni/legislatura-${leg}.json`).then(r => r.json()).catch(() => null),
       fetch(`data/v1/declaratii-avere/legislatura-${leg}/${parseInt(id)}.json`).then(r => r.json()).catch(() => null),
       fetch(`data/v1/stats/avere-context-${leg}.json`).then(r => r.json()).catch(() => null),
+      fetch(`data/v1/correspondence/monitorul_idm_lookup.json`).then(r => r.json()).catch(() => null),
     ]);
     avereResp = avereJson;
     avereCtx = ctxJson?.deputies?.[String(parseInt(id))] ?? null;
     const idNum = parseInt(id);
+    const monitorulUrl = corrJson?.[`${idNum}_${leg}`]?.monitorul_url ?? null;
     dep = depResp.data.find(d => d.cdep_idm === idNum);
     allInterpelari = intResp?.data || [];
     allMotiuni = motResp?.data || [];
@@ -429,6 +431,7 @@ async function loadDeputat() {
         ${dep.data_validare ? `<div class="bio-row"><strong>Validat:</strong> ${dep.data_validare} · ${dep.hcd_validare || ''}</div>` : ''}
         ${dep.birou_parlamentar ? `<div class="bio-row"><strong>Birou parlamentar:</strong> ${dep.birou_parlamentar}</div>` : ''}
         <div class="bio-row" style="margin-top:12px"><a href="${dep.profile_url}" target="_blank"><span data-i18n="profile_official">Profil oficial cdep.ro</span> ↗</a></div>
+        ${monitorulUrl ? `<div class="bio-row"><a href="${monitorulUrl}" target="_blank" rel="noopener"><span data-i18n="profile_monitorul">Profil monitorul.ai</span> ↗</a></div>` : ''}
       </div>
     </div>
 

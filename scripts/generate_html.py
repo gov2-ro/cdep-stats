@@ -96,6 +96,8 @@ def write_page(path: Path, title: str, body: str, meta_url: str = "") -> None:
 
 def generate_deputati() -> int:
     count = 0
+    corr_path = DATA / "correspondence" / "monitorul_idm_lookup.json"
+    corr = json.loads(corr_path.read_text(encoding="utf-8")) if corr_path.exists() else {}
     for leg in [2024, 2020, 2016]:
         f = DATA / "deputati" / f"legislatura-{leg}.json"
         if not f.exists():
@@ -111,6 +113,7 @@ def generate_deputati() -> int:
                 comisii_html += "</ul>"
             partid = d.get("current_party") or "fără partid"
             judet = d.get("judet") or "necunoscut"
+            monitorul_url = (corr.get(f"{d['cdep_idm']}_{d['legislatura']}") or {}).get("monitorul_url")
             body = f"""
 <p data-pagefind-filter="tip:deputat" data-pagefind-meta="tip:deputat">
 <strong data-pagefind-filter="legislatura:{d["legislatura"]}">Legislatura {d["legislatura"]}</strong>
@@ -122,6 +125,7 @@ def generate_deputati() -> int:
 {f"<p>Data nașterii: {d['birth_date']}</p>" if d.get("birth_date") else ""}
 {comisii_html}
 <p><a href="{safe(d["profile_url"])}" data-pagefind-ignore>Profil cdep.ro</a></p>
+{f'<p><a href="{safe(monitorul_url)}" data-pagefind-ignore>Profil monitorul.ai</a></p>' if monitorul_url else ''}
 """
             page_path = PAGES / "deputati" / f"{d['legislatura']}-{d['cdep_idm']}.html"
             write_page(

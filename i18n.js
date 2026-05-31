@@ -46,6 +46,7 @@ const I18N = {
     delegations: "Delegații",
     friendship_groups: "Grupuri de prietenie",
     profile_official: "Profil oficial cdep.ro",
+    profile_monitorul: "Profil monitorul.ai",
 
     // Vote page
     vote_final: "Vot final",
@@ -224,6 +225,7 @@ const I18N = {
     delegations: "Delegations",
     friendship_groups: "Friendship groups",
     profile_official: "Official profile cdep.ro",
+    profile_monitorul: "Profile on monitorul.ai",
 
     // Vote page
     vote_final: "Final vote",
