@@ -16,16 +16,16 @@ Dashboard de statistici și transparență parlamentară pentru Camera Deputați
 - **Comisii** — componență și conducere
 - **Declarații de avere** — sumar și delta față de declarația anterioară
 
+## Date 
+
+- Sursa datelor: [www.cdep.ro](https://www.cdep.ro) — date publice ale Camerei Deputaților, descărcate utilizând [Endimion2k/cdep-api-poc](https://github.com/Endimion2k/cdep-api-poc)
+- Licență: [Open Government License v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+
+----
+
 ![statistici deputați](docs/reference/screenshots/cdep-stats-0.png)
 ![avere deputați](docs/reference/screenshots/cdep-stats-1.png)
 ![avere deputați 2](docs/reference/screenshots/cdep-stats-2.png)
 ![activitate](docs/reference/screenshots/cdep-stats-3.png)
 ![proiecte](docs/reference/screenshots/cdep-stats-4.png)
 ![interpelări](docs/reference/screenshots/cdep-stats-5.png)
-
-
-## Date 
-
-- Sursa datelor: [www.cdep.ro](https://www.cdep.ro) — date publice ale Camerei Deputaților, descărcate utilizând [Endimion2k/cdep-api-poc](https://github.com/Endimion2k/cdep-api-poc)
-- Licență: [Open Government License v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
-
