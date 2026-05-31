@@ -251,14 +251,17 @@ function fmtNum(n) { return (n || 0).toLocaleString('ro-RO'); }
 
 let HOME = null;
 let DEPUTATI = [];
+let PROIECTE = null;
 
 async function loadData() {
-  const [home, dep] = await Promise.all([
+  const [home, dep, proiecte] = await Promise.all([
     fetch('data/v1/stats/home-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/deputati/legislatura-2024.json').then(r => r.json()).catch(() => null),
+    fetch('data/v1/stats/proiecte-2024.json').then(r => r.json()).catch(() => null),
   ]);
   HOME = home;
   DEPUTATI = dep?.data || [];
+  PROIECTE = proiecte;
 
   renderStats();
   renderParties();
@@ -317,19 +320,27 @@ function renderIndicators() {
   const mediaProp = Math.round(totalProp / DEPUTATI.length);
   const maxProp = Math.max(...DEPUTATI.map(d => d.activitate_propuneri_legislative || 0));
 
-  el.innerHTML = `
+  const cards = PROIECTE?.cards || {};
+  const pctPromulgate = cards.rate_promulgate != null ? cards.rate_promulgate : null;
+  const guvernEntry = PROIECTE?.per_partid?.find(p => p.partid === 'Guvern');
+  const pctGuvern = (guvernEntry && cards.total) ? Math.round(guvernEntry.total / cards.total * 100) : null;
+  const pctVoturi = HOME?.indicators?.voturi_adoptate_pct ?? null;
+
+  const bar = (label, pct, color) => pct == null ? '' : `
     <div class="progress-row">
-      <div class="progress-label"><span>Deputați cu cel puțin o lege promulgată</span><span>${pctLegi}%</span></div>
-      <div class="progress-bar"><div class="progress-fill" style="width:${pctLegi}%"></div></div>
-    </div>
-    <div class="progress-row">
-      <div class="progress-label"><span>Deputați cu interpelări sau întrebări</span><span>${pctInterpelari}%</span></div>
-      <div class="progress-bar"><div class="progress-fill" style="width:${pctInterpelari}%;background:#378ADD"></div></div>
-    </div>
-    <div style="margin-top:12px;font-size:12px;color:var(--text2);line-height:1.6">
+      <div class="progress-label"><span>${label}</span><span>${pct}%</span></div>
+      <div class="progress-bar"><div class="progress-fill" style="width:${pct}%;background:${color}"></div></div>
+    </div>`;
+
+  el.innerHTML =
+    bar('Deputați cu cel puțin o lege promulgată', pctLegi, 'var(--green)') +
+    bar('Deputați cu interpelări sau întrebări', pctInterpelari, '#378ADD') +
+    bar('Proiecte promulgate ca lege', pctPromulgate, 'var(--green)') +
+    bar('Proiecte inițiate de Guvern (vs. parlamentari)', pctGuvern, '#C8820A') +
+    bar('Voturi adoptate (pentru > contra)', pctVoturi, '#5B4FBE') +
+    `<div style="margin-top:12px;font-size:12px;color:var(--text2);line-height:1.6">
       <strong>${mediaProp}</strong> propuneri legislative în medie / deputat (max <strong>${maxProp}</strong>).
-    </div>
-  `;
+    </div>`;
 }
 
 

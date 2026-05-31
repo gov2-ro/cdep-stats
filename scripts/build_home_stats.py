@@ -60,6 +60,21 @@ def _count(path: Path) -> int | None:
     return len(data) if isinstance(data, list) else None
 
 
+def _voturi_adoptate_pct(base: Path, leg: int) -> float | None:
+    """% voturi unde pentru > contra, din indexul voturi/{leg}/_index.json."""
+    idx_path = base / f"voturi/{leg}/_index.json"
+    if not idx_path.is_file():
+        return None
+    try:
+        votes = json.loads(idx_path.read_text(encoding="utf-8")).get("data", [])
+    except (OSError, json.JSONDecodeError):
+        return None
+    if not votes:
+        return None
+    adopted = sum(1 for v in votes if v.get("counts", {}).get("pentru", 0) > v.get("counts", {}).get("contra", 0))
+    return round(adopted / len(votes) * 100, 1)
+
+
 def build_leg(leg: int, root: Path = ROOT) -> int:
     base = root / "data" / "v1"
     counts: dict[str, int] = {}
@@ -75,6 +90,11 @@ def build_leg(leg: int, root: Path = ROOT) -> int:
         print(f"WARN leg {leg}: niciun fișier-sursă găsit (sărit)")
         return 0
 
+    indicators: dict[str, float] = {}
+    pct = _voturi_adoptate_pct(base, leg)
+    if pct is not None:
+        indicators["voturi_adoptate_pct"] = pct
+
     payload = {
         "meta": {
             **Meta(
@@ -89,6 +109,7 @@ def build_leg(leg: int, root: Path = ROOT) -> int:
             "legislatura": leg,
         },
         "counts": counts,
+        **({"indicators": indicators} if indicators else {}),
     }
 
     out_dir = base / "stats"
