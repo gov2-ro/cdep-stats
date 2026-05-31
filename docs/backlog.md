@@ -36,6 +36,7 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
   - [ ] Add contextual relevant links.
 - [x] OG info
   - [ ] fix og:image
+- [x] move html files in folder, not root. — created `web/` deployment folder with build script (2026-06-01)
 - [ ] show cars, homes, terenuri as icons, one per each? - relative to suprafata or kph?
 - [x] **Remove dead CSS rules in deputati-avere.html and deputati-activitate.html** — done 2026-05-31; removed `.metric-select`, `.search-input`, `.party-chips`, `.party-chip` rules.
 

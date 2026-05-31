@@ -37,6 +37,10 @@ python scripts/build_home_stats.py --leg 2024   # precomputed counts for index.h
 python scripts/generate_html.py
 npx pagefind --site pages --output-path pagefind
 
+# Build deployment folder (web/ with all assets for shared hosting)
+python scripts/build_web.py
+# Then deploy: zip -r deploy.zip web/ && scp deploy.zip user@host:/path/
+
 # Validate generated data
 PYTHONPATH=. python scripts/validate_data.py
 

@@ -2,6 +2,26 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-01 — Create deployment folder structure for shared hosting
+
+**What was done**
+- Created `web/` folder with all assets needed for deployment to shared hosting (923MB).
+- Structure includes: 16 root HTML pages, favicon, i18n.js, assets/ (CSS/JS + images), pages/ 
+  (generated detail pages), pagefind/ (search index), and data/v1/ (API JSON data).
+- Added `scripts/build_web.py` to automate the assembly. Rebuilds web/ from source files in one pass.
+- Updated `.gitignore` to exclude web/ (generated artifact).
+- Updated CLAUDE.md with the new build step and deployment instructions.
+
+**Why**
+The repo previously used GitHub Pages (HTML files in root). After moving to shared hosting, the 
+deployment structure was unclear. Creating a clean `web/` folder makes it easy to zip and deploy 
+via scp to any shared host. Excluded unnecessary files: source code (scripts/), raw data beyond API 
+(data/analize, 1.1GB analysis stats not served by the app), and development artifacts.
+
+**How to apply**
+1. After running all scrapers and build steps: `python scripts/build_web.py`
+2. Deploy: `zip -r deploy.zip web/ && scp deploy.zip user@host:/path/to/public_html/`
+
 ### 2026-05-31 — Normalize site nav, title, and language switcher
 
 **What was done**
