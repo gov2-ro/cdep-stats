@@ -446,10 +446,23 @@ function fadeInIfTransitioning() {
   });
 }
 
+function initNoticeBar() {
+  const bar = document.getElementById("notice-bar");
+  if (!bar) return;
+  if (localStorage.getItem("cdep-notice-dismissed")) return;
+  bar.classList.remove("hidden");
+  const btn = document.getElementById("notice-close");
+  if (btn) btn.onclick = () => {
+    bar.classList.add("hidden");
+    localStorage.setItem("cdep-notice-dismissed", "1");
+  };
+}
+
 // Auto-init la load
 document.addEventListener("DOMContentLoaded", () => {
   document.documentElement.lang = getLang();
   applyI18n();
   injectLangToggle();
   fadeInIfTransitioning();
+  initNoticeBar();
 });
