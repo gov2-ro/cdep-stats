@@ -4,6 +4,16 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 
 ---
 
+## Deploy — Removed pages to revisit
+
+- [ ] **Re-evaluate `vot.html` (voturi recente widget) for the landing page**
+  - Individual vote pages (`data/v1/voturi/{leg}/{id}.json`) are 4 500+ files that bloat the archive. Removed `vot.html` and the "Voturi recente" widget from `index.html`. Revisit if a lightweight summary view (e.g. render from `_index.json` only, no drill-down) is worth adding back.
+
+- [ ] **Re-evaluate `proiect.html` (cele mai disputate proiecte widget) for the landing page**
+  - `proiect.html` had no inbound nav links. The "Cele mai disputate proiecte" widget on `index.html` (top 5 by amendments) was removed along with it. `data/v1/proiecte/` and `data/v1/amendamente/` are excluded from the deploy archive but kept on disk. Revisit if a project detail page is worth wiring into the nav properly.
+
+---
+
 ## PDF Parser — Known Limitations
 
 - [ ] **`venituri_anuale_ron` double-counts income from co-owned properties**
@@ -31,14 +41,18 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 ## Misc
 
 - [x] replace cdep link from /pls/parlam/structura2015.mp?idm={ID}&cam=2&leg=2024 to /ords/pls/parlam/structura2015.mp?idm={ID}&leg=2024
-- [ ] link to [monitorul.ai](https://monitorul.ai) via [MCP](https://monitorul.ai/mcp).  
-  - [ ] find URI correspondences
-  - [ ] Add contextual relevant links.
+- [x] link to [monitorul.ai](https://monitorul.ai) via [MCP](https://monitorul.ai/mcp).  
+  - [x] find URI correspondences
+  - [x] Add contextual relevant links.
+  - [ ] see if any pages from monitorul.ai are missing
+- [ ] cercuri in some views don't render right
 - [x] OG info
   - [ ] fix og:image
 - [x] move html files in folder, not root. — created `web/` deployment folder with build script (2026-06-01)
 - [ ] show cars, homes, terenuri as icons, one per each? - relative to suprafata or kph?
 - [x] **Remove dead CSS rules in deputati-avere.html and deputati-activitate.html** — done 2026-05-31; removed `.metric-select`, `.search-input`, `.party-chips`, `.party-chip` rules.
+- [ ] re-add sanctiune.html, vot.html and other pages found in https://github.com/Endimion2k/cdep-api-poc
+
 
 ## Site consistency / front door
 

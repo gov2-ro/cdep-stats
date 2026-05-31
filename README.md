@@ -1,4 +1,4 @@
-# Cdep Stats — statistici parlamentare Camera Deputaților
+# CDEP Stats — statistici parlamentare Camera Deputaților
 
 [lab.gov2.ro/cdep](https://lab.gov2.ro/cdep/)
 
@@ -15,6 +15,14 @@ Dashboard de statistici și transparență parlamentară pentru Camera Deputați
 - **Proiecte legislative** — stadiu, timeline, amendamente, promulgare
 - **Comisii** — componență și conducere
 - **Declarații de avere** — sumar și delta față de declarația anterioară
+
+![statistici deputați](docs/reference/screenshots/cdep-stats-0.png)
+![avere deputați](docs/reference/screenshots/cdep-stats-1.png)
+![avere deputați 2](docs/reference/screenshots/cdep-stats-2.png)
+![activitate](docs/reference/screenshots/cdep-stats-3.png)
+![proiecte](docs/reference/screenshots/cdep-stats-4.png)
+![interpelări](docs/reference/screenshots/cdep-stats-5.png)
+
 
 ## Date 
 

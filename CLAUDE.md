@@ -33,13 +33,9 @@ python scripts/build_declaratii_avere.py --leg 2024
 python scripts/build_avere_stats.py --leg 2024  # aggregate stats for the /avere.html dashboard
 python scripts/build_home_stats.py --leg 2024   # precomputed counts for index.html (avoids fetching ~18MB of raw files)
 
-# HTML pages + Pagefind index
-python scripts/generate_html.py
-npx pagefind --site pages --output-path pagefind
-
-# Build deployment folder (web/ with all assets for shared hosting)
+# Build deploy.zip (sources from web/*.html, assets/, data/v1/)
 python scripts/build_web.py
-# Then deploy: zip -r deploy.zip web/ && scp deploy.zip user@host:/path/
+# Then deploy: scp deploy.zip user@host:/path/ && unzip -o deploy.zip
 
 # Validate generated data
 PYTHONPATH=. python scripts/validate_data.py
