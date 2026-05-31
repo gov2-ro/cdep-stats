@@ -22,6 +22,7 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 - [ ] **Avere comparison / rankings on deputy profile page**
   - Add a contextual rankings section to the deputat avere profile: how does this deputy rank vs. national average, vs. party average, vs. same age cohort, vs. same județ. Show percentile for key metrics: total_active_monetare_ron, suprafata_total_mp, nr_imobile, venituri_anuale_ron.
   - Requires: age from deputat profile (birth_date), județ from deputat profile, pre-computed party/age/județ aggregates in the stats build step.
+- [x] party profile pages — `partid.html?id=PSD&leg=2024` built 2026-05-31
 
 ## Misc
 
@@ -29,3 +30,4 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 - [ ] link to [monitorul.ai](https://monitorul.ai) via [MCP](https://monitorul.ai/mcp)
 - [x] enhance avere.html with thumbnails for ppl and partide
 - [ ] show cars, homes, teremnui as icons, one per each? - relative to suprafata or kph?
+- [ ] **Remove dead CSS rules in deputati-avere.html and deputati-activitate.html** — `.metric-select`, `.search-input`, `.party-chips`, `.party-chip` CSS rules remain in `<style>` blocks after toolbar redesign removed those elements. Cosmetic cleanup only.
