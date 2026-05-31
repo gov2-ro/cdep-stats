@@ -69,6 +69,10 @@ monitorul.ai profiles. The `idm_lookup` file specifically supports resolving cde
 - **Shared renderer.** Extracted the list/table/circle markup both pages used into
   `assets/avere-list.js` (`AVERE.renderTable` / `AVERE.renderCircles` + formatting helpers). The two
   pages now render from one source instead of diverging copies.
+- **Toolbar polish.** In table view the metric pills are hidden (every metric is reachable by
+  clicking a column header anyway); they return for the single-metric circle view. Added a second
+  `Top 50 / Ultimii 50 / Lista completă ↗` toolbar below the list, right-aligned, with the currently
+  active subset option hidden so it reads as a "switch to the other view" footer.
 
 **Decisions**
 - **Ranking spans the full dataset, not the visible 50.** The old "Topuri" leaderboard ranked every

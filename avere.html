@@ -82,6 +82,7 @@ td.num,th.num{text-align:right;font-family:var(--mono);white-space:nowrap}
 
 /* Deputy list — rendered by the shared module assets/avere-list.js */
 .list-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:12px}
+.list-toolbar-bottom{margin:14px 0 0;justify-content:flex-end}
 .metric-btns{display:flex;flex-wrap:wrap;gap:4px;flex-shrink:1;max-width:100%}
 .metric-btn{padding:5px 10px;font-size:12px;border:1px solid var(--border2);border-radius:var(--radius-sm);background:var(--bg);color:var(--text2);cursor:pointer;white-space:nowrap;font-family:inherit}
 .metric-btn.active{background:var(--blue-bg);color:var(--blue-text);font-weight:600;border-color:var(--blue-bg)}
@@ -201,16 +202,18 @@ function subsetDeps(){
 }
 
 function syncFullListLink(){
-  const a=document.getElementById('full-list-link');
-  if(!a)return;
   // deputati-avere only understands the 6 base metrics in its URL state.
   const base=AVERE.METRIC_KEYS.includes(listMetric)?listMetric:'conturi_ron';
-  a.href=`deputati-avere.html?leg=${LEG}&metric=${base}&view=${listView}`;
+  const href=`deputati-avere.html?leg=${LEG}&metric=${base}&view=${listView}`;
+  document.querySelectorAll('.full-list-link').forEach(a=>{a.href=href;});
 }
 
 function renderList(){
   const m=activeMetric();
   const deps=subsetDeps();
+  // In table mode the metric pills are redundant — every metric is reachable by
+  // clicking a column header — so hide them; keep them for circle (single-metric) view.
+  document.getElementById('metric-btns').style.display=listView==='table'?'none':'';
   const grid=document.getElementById('dep-list');
   const nWithVal=DEPUTIES.filter(d=>m.val(d)!=null).length;
   const cap=document.getElementById('list-caption');
@@ -230,6 +233,8 @@ function renderList(){
 function syncToolbar(){
   document.querySelectorAll('#metric-btns .metric-btn').forEach(b=>b.classList.toggle('active',b.dataset.metric===listMetric));
   document.querySelectorAll('.subset-toggle [data-subset]').forEach(b=>b.classList.toggle('active',b.dataset.subset===listSubset));
+  // Bottom toolbar offers only the *other* option — hide whichever subset is active.
+  document.querySelectorAll('#list-toolbar-bottom [data-subset]').forEach(b=>{b.style.display=b.dataset.subset===listSubset?'none':'';});
 }
 
 function wireListToolbar(){
@@ -377,11 +382,18 @@ async function load(){
         <div class="view-toggle subset-toggle">
           <button class="view-btn active" data-subset="top">Top 50</button>
           <button class="view-btn" data-subset="bottom">Ultimii 50</button>
-          <a class="view-btn" id="full-list-link" target="_blank" rel="noopener">Lista completă ↗</a>
+          <a class="view-btn full-list-link" id="full-list-link" target="_blank" rel="noopener">Lista completă ↗</a>
         </div>
       </div>
       <p class="list-caption" id="list-caption"></p>
       <div id="dep-list"></div>
+      <div class="list-toolbar list-toolbar-bottom" id="list-toolbar-bottom">
+        <div class="view-toggle subset-toggle">
+          <button class="view-btn" data-subset="top">Top 50</button>
+          <button class="view-btn" data-subset="bottom">Ultimii 50</button>
+          <a class="view-btn full-list-link" target="_blank" rel="noopener">Lista completă ↗</a>
+        </div>
+      </div>
     </div>
 
     <div class="section">
@@ -402,6 +414,7 @@ async function load(){
   `;
 
   wireListToolbar();
+  syncToolbar();
   renderList();
   drawCharts(d.per_partid);
   if(typeof applyI18n==='function') applyI18n();
