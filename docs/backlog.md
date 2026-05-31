@@ -34,7 +34,7 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
   - Requires: age from deputat profile (birth_date), județ from deputat profile, pre-computed party/age/județ aggregates in the stats build step.
   - [ ] use `data/assets/geo/romania-counties.geojson` for choropleth județe comparison
 - [x] enhance avere.html with thumbnails for ppl and partide
-- [ ] 3rd lists view mode: bar chart (per category) matrix (one for each deputat)
+- [ ] 3rd lists view mode: bar chart (per category) matrix (one for each deputat) – LATER or SKIP alltogether
 - [x] party profile pages — `partid.html?id=PSD&leg=2024` built 2026-05-31
 
 
@@ -52,12 +52,14 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 - [ ] show cars, homes, terenuri as icons, one per each? - relative to suprafata or kph?
 - [x] **Remove dead CSS rules in deputati-avere.html and deputati-activitate.html** — done 2026-05-31; removed `.metric-select`, `.search-input`, `.party-chips`, `.party-chip` rules.
 - [ ] re-add sanctiune.html, vot.html and other pages found in https://github.com/Endimion2k/cdep-api-poc
+- [ ] make more static? we generate static but load data from json?! is this SEO friendly?
 
 
 ## Site consistency / front door
 
-- [ ] Top nav. Rename site title: Cdep stats. Normalize nav in all pages. Add link to cdep-api on all pages at the end. Remove language swticher border, add flag emoji for language switcher.
-- [ ] add top bar with - not official gov.ro site notice (one time / dismissable, save state to browser/cookies)
+- [x] Top nav. Rename site title: Cdep stats. Normalize nav in all pages. Add link to cdep-api on all pages at the end. Remove language swticher border, add flag emoji for language switcher.
+- [ ] add top bar with - not official gov.ro site notice (one time / dismissable, save state to browser/cookies): `Versiune alfa / preview. Acesta nu este un proiect oficial al Guvernului României. Date preluate de pe cdep.ro`. See https://ins.gov2.ro/
+
 - [ ] top nav dark background?
 - [ ] **Refactor the 16 copy-pasted root pages to a shared header/nav/footer** — nav drift (pages
   falling behind on links/labels) keeps recurring because each page hand-copies its `<nav>`. Extract

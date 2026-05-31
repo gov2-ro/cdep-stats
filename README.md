@@ -9,7 +9,7 @@ Dashboard de statistici și transparență parlamentară pentru Camera Deputați
 
 ## Secțiuni
 
-- **Deputați** — profile complete cu activitate, voturi, interpelări, declarații de avere; linkuri către profiluri monitorul.ai
+- **Deputați** — profile complete cu activitate, voturi, interpelări, declarații de avere; linkuri către profiluri [monitorul.ai](https://monitorul.ai/)
 - **Voturi** — defalcare nominală per deputat, agregare pe partide
 - **Interpelări** — 9.700+ întrebări și interpelări parlamentare (2024–2026)
 - **Proiecte legislative** — stadiu, timeline, amendamente, promulgare
