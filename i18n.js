@@ -417,7 +417,7 @@ function injectLangToggle() {
   const btn = document.createElement("button");
   btn.type = "button";
   btn.className = "lang-toggle";
-  btn.textContent = lang === "ro" ? "🇬🇧" : "🇷🇴";
+  btn.textContent = lang === "ro" ? "🇬🇧 EN" : "🇷🇴 RO";
   btn.setAttribute("aria-label", lang === "ro" ? "Switch to English" : "Schimbă în română");
   btn.title = btn.getAttribute("aria-label");
   btn.style.cssText =
