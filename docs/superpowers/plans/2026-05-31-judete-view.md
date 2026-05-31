@@ -1,0 +1,566 @@
+# Județe Comparison View (`judete.html`) — Implementation Plan
+
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+
+**Goal:** Create `judete.html` — a circle/table visualization where each shape = a județ, sized by selected metric (deputy count, activity, or wealth), with a click-to-expand deputy panel.
+
+**Architecture:** Self-contained HTML file. Loads 3 JSON files in parallel, joins on `cdep_idm` client-side, computes per-județ aggregates (n, dominant party, median metrics), then renders with the same circle-grid + table-toggle pattern used in `deputati-avere.html`. URL state via `pushState`/`applyURLState`. Deputy panel rendered inline below the grid.
+
+**Tech Stack:** Vanilla JS, inline CSS, no build step, no dependencies.
+
+---
+
+## File Map
+
+| File | Change |
+|---|---|
+| `judete.html` | Create: full județe comparison page |
+| `docs/activity-log.md` | New entry |
+
+---
+
+### Task 1: Create `judete.html`
+
+**Files:**
+- Create: `judete.html`
+
+No unit tests — verification is browser-based.
+
+- [ ] **Step 1: Create `judete.html`**
+
+Create `/Users/pax/devbox/gov2/cdep-api-poc/judete.html` with the following complete content:
+
+```html
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Județe — Camera Deputaților</title>
+<meta name="description" content="Comparație județe după activitate parlamentară și avere — Camera Deputaților 2024">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#fff;--bg2:#f8f8f6;--bg3:#f2f1ee;
+  --text:#1a1a1a;--text2:#555;--text3:#888;
+  --border:#e0deda;--border2:#ccc;
+  --green:#1D9E75;--green-bg:#EAF3DE;--green-text:#3B6D11;
+  --blue:#185FA5;--blue-bg:#E6F1FB;--blue-text:#185FA5;
+  --red-bg:#FCEBEB;--red-text:#A32D2D;
+  --radius:10px;--radius-sm:6px;
+  --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;}
+}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.header{border-bottom:1px solid var(--border);padding:16px 0}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:16px}
+.logo{font-size:15px;font-weight:600;color:var(--text);text-decoration:none}
+.logo span{color:var(--green)}
+.nav{margin-left:auto;display:flex;flex-wrap:wrap;gap:2px;align-items:center}
+.nav a{font-size:13px;padding:5px 10px;border-radius:var(--radius-sm);color:var(--text2);text-decoration:none}
+.nav a:hover{background:var(--bg2)}
+.nav a.active{color:var(--text);font-weight:600}
+.toolbar{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--border);padding:10px 0}
+.toolbar-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.view-toggle{display:flex;border:1px solid var(--border2);border-radius:var(--radius-sm);overflow:hidden;flex-shrink:0}
+.view-btn{padding:5px 12px;font-size:12px;border:none;background:var(--bg);color:var(--text2);cursor:pointer}
+.view-btn.active{background:var(--blue-bg);color:var(--blue-text);font-weight:600}
+.metric-btns{display:flex;border:1px solid var(--border2);border-radius:var(--radius-sm);overflow:hidden;flex-shrink:0}
+.metric-btn{padding:5px 10px;font-size:12px;border:none;background:var(--bg);color:var(--text2);cursor:pointer;white-space:nowrap;border-right:1px solid var(--border2)}
+.metric-btn:last-child{border-right:none}
+.metric-btn.active{background:var(--blue-bg);color:var(--blue-text);font-weight:600}
+.count-badge{font-size:12px;color:var(--text3);white-space:nowrap;margin-left:auto}
+@media(max-width:600px){
+  .metric-btns{flex-wrap:wrap;gap:4px;border:none}
+  .metric-btn{border-radius:var(--radius-sm);border:1px solid var(--border2)}
+}
+.main{max-width:1200px;margin:0 auto;padding:20px 24px}
+h1{font-size:22px;font-weight:600;margin-bottom:4px}
+.sub{color:var(--text3);font-size:13px;margin-bottom:20px}
+.circle-grid{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;padding:8px 0}
+.jud-item{display:flex;flex-direction:column;align-items:center;cursor:pointer;text-decoration:none;color:inherit}
+.jud-item:hover .jud-circle{opacity:0.82}
+.jud-item.selected .jud-circle{outline:3px solid var(--blue);outline-offset:3px}
+.jud-circle{border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff;flex-shrink:0;transition:width .2s,height .2s}
+.jud-name{font-size:9px;color:var(--text2);margin-top:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;line-height:1.3}
+.jud-value{font-size:8px;color:var(--text3);text-align:center;line-height:1.3}
+/* table */
+.dep-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.dep-table{width:100%;border-collapse:collapse;font-size:13px}
+.dep-table thead th{padding:9px 10px;background:var(--bg2);border-bottom:2px solid var(--border);font-weight:500;color:var(--text3);cursor:pointer;white-space:nowrap;user-select:none;text-align:left}
+.dep-table thead th.sort-active{color:var(--blue);border-bottom-color:var(--blue)}
+.dep-table thead th.sort-name{cursor:default;min-width:160px}
+.dep-table tbody tr{border-bottom:1px solid var(--border);cursor:pointer}
+.dep-table tbody tr:hover{background:var(--bg2)}
+.dep-table tbody tr.selected{background:var(--blue-bg)}
+.dep-table tbody td{padding:8px 10px;vertical-align:middle}
+/* panel */
+.judet-panel{margin-top:24px;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+.panel-hdr{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:var(--bg2);border-bottom:1px solid var(--border)}
+.panel-hdr h3{font-size:16px;font-weight:600}
+.panel-close{background:none;border:none;font-size:18px;cursor:pointer;color:var(--text3);padding:0 4px}
+.panel-close:hover{color:var(--text)}
+.panel-body{padding:16px}
+.panel-parties{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.panel-dep-row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border);text-decoration:none;color:inherit}
+.panel-dep-row:last-child{border-bottom:none}
+.panel-dep-row:hover{background:var(--bg2);margin:0 -16px;padding-left:16px;padding-right:16px}
+.loading{text-align:center;padding:60px 0;color:var(--text3)}
+.error{padding:24px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius);margin:20px 0}
+.footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
+.footer a{color:var(--text2)}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">cdep<span>-api</span> <em>stats</em></a>
+    <nav class="nav">
+      <a href="avere.html">Averi</a>
+      <a href="deputati-avere.html">Averi++</a>
+      <a href="deputati-activitate.html">Activitate</a>
+      <a href="interpelari-stats.html">Interpelări</a>
+      <a href="proiecte-stats.html">Proiecte</a>
+      <a href="judete.html" class="active">Județe</a>
+    </nav>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="toolbar-inner">
+    <div class="view-toggle">
+      <button class="view-btn active" id="btn-circles">⬤ Cercuri</button>
+      <button class="view-btn" id="btn-table">≡ Tabel</button>
+    </div>
+    <div class="metric-btns" id="metric-btns">
+      <button class="metric-btn active" data-metric="n">N dep.</button>
+      <button class="metric-btn" data-metric="med_sedinte">Ședințe</button>
+      <button class="metric-btn" data-metric="med_propuneri">Propuneri</button>
+      <button class="metric-btn" data-metric="med_venituri">Venituri</button>
+      <button class="metric-btn" data-metric="med_conturi">Conturi</button>
+    </div>
+    <span class="count-badge" id="count-badge"></span>
+    <div class="view-toggle" id="leg-toggle"></div>
+  </div>
+</div>
+
+<div class="main">
+  <h1>Județe — Camera Deputaților</h1>
+  <p class="sub" id="page-sub">Fiecare cerc = un județ · mărimea = metrica selectată</p>
+  <div id="circle-grid" class="circle-grid">
+    <div class="loading">Se încarcă...</div>
+  </div>
+  <div id="judet-panel" style="display:none"></div>
+</div>
+
+<footer class="footer">
+  <p>Date din <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API:
+  <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a> ·
+  <a href="index.html">Pagina principală</a></p>
+</footer>
+
+<script>
+function getParam(n){return new URL(location).searchParams.get(n);}
+const LEG=Number(getParam('leg')||2024);
+
+(function(){
+  document.getElementById('leg-toggle').innerHTML=[2024,2020].map(l=>
+    `<button class="view-btn${l===LEG?' active':''}" onclick="location.href='judete.html?leg=${l}'">${l}</button>`
+  ).join('');
+})();
+
+const PARTY_COLORS={
+  'PSD':'#185FA5','PNL':'#993C1D','USR':'#3B6D11','AUR':'#854F0B',
+  'UDMR':'#5F5E5A','SOS RO':'#A32D2D','UPR':'#553378','PMP':'#6D5A9E',
+  'Minoritati':'#5F5E5A','Neafiliat':'#777',
+};
+function partyColor(p){return PARTY_COLORS[p]||'#777';}
+
+const METRICS=[
+  {key:'n',            label:'N dep.',   fmt:v=>v+' dep.'},
+  {key:'med_sedinte',  label:'Ședințe',  fmt:v=>Math.round(v)+' șed.'},
+  {key:'med_propuneri',label:'Propuneri',fmt:v=>Math.round(v)+' prop.'},
+  {key:'med_venituri', label:'Venituri', fmt:v=>fmtRON(v)},
+  {key:'med_conturi',  label:'Conturi',  fmt:v=>fmtRON(v)},
+];
+
+function fmtRON(v){
+  if(!v)return'0 RON';
+  if(v>=1e6)return(v/1e6).toFixed(1).replace(/\.0$/,'')+'M RON';
+  if(v>=1e4)return Math.round(v/1e3)+'K RON';
+  return Math.round(v).toLocaleString('ro-RO')+' RON';
+}
+function fmtNum(v){return v==null?'—':Number(v).toLocaleString('ro-RO');}
+
+function median(arr){
+  const a=[...arr].filter(v=>v!=null).sort((a,b)=>a-b);
+  if(!a.length)return 0;
+  const m=Math.floor(a.length/2);
+  return a.length%2?a[m]:(a[m-1]+a[m])/2;
+}
+
+function initials(name){
+  const p=name.split(/[\s,]+/).filter(Boolean);
+  return p.length>=2?(p[0][0]+p[1][0]).toUpperCase():name.slice(0,2).toUpperCase();
+}
+
+function judAbbr(name){
+  const ABBR={'Bucureşti':'BUC','Diaspora':'DIA','Bistriţa-Năsăud':'BN','Satu-Mare':'SM',
+    'Caraş-Severin':'CS','Dâmboviţa':'DB','Călăraşi':'CL','Vâlcea':'VL',
+    'Brăila':'BR','Buzău':'BZ','Botoşani':'BT','Bacău':'BC','Braşov':'BV',
+    'Cluj':'CJ','Constanţa':'CT','Covasna':'CV','Dolj':'DJ','Galaţi':'GL',
+    'Giurgiu':'GR','Gorj':'GJ','Harghita':'HR','Hunedoara':'HD','Ialomiţa':'IL',
+    'Iaşi':'IS','Ilfov':'IF','Maramureş':'MM','Mehedinţi':'MH','Mureş':'MS',
+    'Neamţ':'NT','Olt':'OT','Prahova':'PH','Sibiu':'SB','Suceava':'SV',
+    'Sălaj':'SJ','Teleorman':'TR','Timiş':'TM','Tulcea':'TL','Vaslui':'VS',
+    'Vrancea':'VN','Alba':'AB','Arad':'AR','Argeş':'AG','Bihor':'BH',
+    'Hunedoara':'HD'};
+  return ABBR[name]||name.slice(0,3).toUpperCase();
+}
+
+let ALL_JUDETE=[]; // computed per-judet data
+let metric='n';
+let viewMode='circles';
+let sortKey='n'; let sortDir='desc';
+let selectedJudet=null;
+
+function circleSize(v,maxV){
+  if(!v||maxV<=0)return 24;
+  return Math.round(Math.max(24,Math.min(90,24+66*Math.sqrt(v/maxV))));
+}
+
+function metricFmt(key,v){
+  return(METRICS.find(m=>m.key===key)||METRICS[0]).fmt(v);
+}
+
+function render(){
+  document.getElementById('count-badge').textContent=ALL_JUDETE.length+' județe';
+  const mDef=METRICS.find(m=>m.key===metric);
+  document.getElementById('page-sub').textContent=viewMode==='table'
+    ?''
+    :`Fiecare cerc = un județ · ${mDef.label} · legislatura ${LEG}`;
+  const grid=document.getElementById('circle-grid');
+
+  if(viewMode==='table'){
+    renderTable(grid);
+    return;
+  }
+
+  const maxV=Math.max(1,...ALL_JUDETE.map(j=>j[metric]||0));
+  grid.innerHTML=ALL_JUDETE
+    .slice().sort((a,b)=>(b[metric]||0)-(a[metric]||0))
+    .map(j=>{
+      const sz=circleSize(j[metric]||0,maxV);
+      const color=partyColor(j.dominant_party);
+      const abbr=judAbbr(j.judet);
+      const fontSize=Math.max(8,Math.round(sz*0.28));
+      const isSelected=j.judet===selectedJudet;
+      return`<div class="jud-item${isSelected?' selected':''}" data-judet="${j.judet}" onclick="selectJudet('${j.judet.replace(/'/g,"\\'")}')">
+        <div class="jud-circle${isSelected?' selected':''}" style="width:${sz}px;height:${sz}px;background:${color};font-size:${fontSize}px">${abbr}</div>
+        <div class="jud-name" style="max-width:${sz+12}px">${j.judet}</div>
+        <div class="jud-value">${metricFmt(metric,j[metric])}</div>
+      </div>`;
+    }).join('');
+}
+
+function renderTable(grid){
+  const COLS=[
+    {key:'judet',     label:'Județ',    sortable:true,  fmt:(j)=>`<span style="font-weight:500">${j.judet}</span>`},
+    {key:'n',         label:'N dep.',   sortable:true,  fmt:(j)=>j.n},
+    {key:'dom',       label:'Partid',   sortable:false, fmt:(j)=>`<span style="padding:2px 8px;border-radius:3px;background:${partyColor(j.dominant_party)}22;color:${partyColor(j.dominant_party)};font-size:11px;font-weight:600">${j.dominant_party}</span>`},
+    {key:'med_sedinte',label:'Ședințe', sortable:true,  fmt:(j)=>Math.round(j.med_sedinte)},
+    {key:'med_propuneri',label:'Prop.', sortable:true,  fmt:(j)=>Math.round(j.med_propuneri)},
+    {key:'med_venituri',label:'Venituri',sortable:true, fmt:(j)=>fmtRON(j.med_venituri)},
+    {key:'med_conturi', label:'Conturi', sortable:true, fmt:(j)=>fmtRON(j.med_conturi)},
+  ];
+
+  const sorted=[...ALL_JUDETE].sort((a,b)=>{
+    const sk=sortKey;
+    const av=sk==='judet'?a.judet:(a[sk]||0);
+    const bv=sk==='judet'?b.judet:(b[sk]||0);
+    if(typeof av==='string') return sortDir==='asc'?av.localeCompare(bv):bv.localeCompare(av);
+    return sortDir==='asc'?av-bv:bv-av;
+  });
+
+  const headers=COLS.map(c=>{
+    const active=c.sortable&&c.key===sortKey;
+    const arrow=active?(sortDir==='desc'?' ↓':' ↑'):'';
+    return`<th class="${active?'sort-active':''} ${!c.sortable?'sort-name':''}" data-sort="${c.sortable?c.key:''}">${c.label}${arrow}</th>`;
+  }).join('');
+
+  const rows=sorted.map(j=>`<tr class="${j.judet===selectedJudet?'selected':''}" onclick="selectJudet('${j.judet.replace(/'/g,"\\'")}')">
+    ${COLS.map(c=>`<td>${c.fmt(j)}</td>`).join('')}
+  </tr>`).join('');
+
+  grid.innerHTML=`<div class="dep-table-wrap"><table class="dep-table">
+    <thead><tr>${headers}</tr></thead>
+    <tbody>${rows}</tbody>
+  </table></div>`;
+}
+
+function selectJudet(judet){
+  if(selectedJudet===judet){
+    selectedJudet=null;
+    document.getElementById('judet-panel').style.display='none';
+    render();
+    pushState();
+    return;
+  }
+  selectedJudet=judet;
+  renderPanel(judet);
+  render();
+  pushState();
+}
+
+function renderPanel(judet){
+  const jData=ALL_JUDETE.find(j=>j.judet===judet);
+  if(!jData){document.getElementById('judet-panel').style.display='none';return;}
+
+  const PARTY_COLORS_LOCAL=PARTY_COLORS;
+  const partyChips=Object.entries(jData.parties_map)
+    .sort((a,b)=>b[1]-a[1])
+    .map(([p,n])=>`<span style="padding:3px 10px;border-radius:12px;border:1px solid ${partyColor(p)}44;background:${partyColor(p)}11;color:${partyColor(p)};font-size:11px;font-weight:600">${p} ×${n}</span>`)
+    .join('');
+
+  const depRows=jData.deputies
+    .slice().sort((a,b)=>(b.activitate_sedinte||0)-(a.activitate_sedinte||0))
+    .map(d=>{
+      const color=partyColor(d.partid);
+      const ini=initials(d.name||'?');
+      const photoHtml=d.image
+        ?`<img src="${d.image}" alt="" onerror="this.style.display='none';this.nextSibling.style.display='flex'" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0"><div style="display:none;width:36px;height:36px;border-radius:50%;background:${color};align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;flex-shrink:0">${ini}</div>`
+        :`<div style="width:36px;height:36px;border-radius:50%;background:${color};display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;flex-shrink:0">${ini}</div>`;
+      const shortName=(d.name||'').split(',')[0].trim();
+      const sed=d.activitate_sedinte!=null?d.activitate_sedinte+' șed.':'—';
+      const ven=d.med_venituri_own!=null?fmtRON(d.med_venituri_own):'';
+      return`<a class="panel-dep-row" href="deputat.html?id=${d.cdep_idm}&leg=${LEG}">
+        ${photoHtml}
+        <div style="flex:1;min-width:0">
+          <div style="font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${shortName}</div>
+          <span style="font-size:10px;padding:1px 6px;border-radius:3px;background:${color}22;color:${color};font-weight:600">${d.partid}</span>
+        </div>
+        <div style="font-size:12px;color:var(--text3);white-space:nowrap;text-align:right">
+          <div>${sed}</div>
+          ${ven?`<div style="font-size:11px">${ven}</div>`:''}
+        </div>
+      </a>`;
+    }).join('');
+
+  const panel=document.getElementById('judet-panel');
+  panel.style.display='block';
+  panel.innerHTML=`<div class="judet-panel">
+    <div class="panel-hdr">
+      <h3>${judet} <span style="font-weight:400;color:var(--text3);font-size:14px">· ${jData.n} deputați</span></h3>
+      <button class="panel-close" onclick="selectJudet('${judet.replace(/'/g,"\\'")}')">×</button>
+    </div>
+    <div class="panel-body">
+      <div class="panel-parties">${partyChips}</div>
+      ${depRows}
+    </div>
+  </div>`;
+  panel.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+function pushState(){
+  const params=new URLSearchParams();
+  if(LEG!==2024)params.set('leg',LEG);
+  if(metric!=='n')params.set('metric',metric);
+  if(viewMode!=='circles')params.set('view',viewMode);
+  if(selectedJudet)params.set('judet',selectedJudet);
+  const qs=params.toString();
+  history.replaceState(null,'',qs?'?'+qs:location.pathname);
+}
+
+function applyURLState(){
+  const params=new URLSearchParams(location.search);
+  if(params.has('metric')){
+    const m=params.get('metric');
+    if(METRICS.some(x=>x.key===m)){
+      metric=m;
+      document.querySelectorAll('.metric-btn').forEach(b=>b.classList.toggle('active',b.dataset.metric===m));
+    }
+  }
+  if(params.get('view')==='table'){
+    viewMode='table';
+    document.getElementById('btn-table').classList.add('active');
+    document.getElementById('btn-circles').classList.remove('active');
+    document.getElementById('metric-btns').style.display='none';
+  }
+  if(params.has('judet')) selectedJudet=params.get('judet');
+}
+
+async function load(){
+  let depsResp,avereResp,activResp;
+  try{
+    [depsResp,avereResp,activResp]=await Promise.all([
+      fetch(`data/v1/deputati/legislatura-${LEG}.json`).then(r=>r.json()),
+      fetch(`data/v1/stats/avere-deputies-${LEG}.json`).then(r=>r.json()),
+      fetch(`data/v1/stats/activitate-deputies-${LEG}.json`).then(r=>r.json()),
+    ]);
+  }catch(e){
+    document.getElementById('circle-grid').innerHTML=`<div class="error">Nu pot încărca datele (${e.message}).</div>`;
+    return;
+  }
+
+  const LONG_DIASPORA='- Circumscriptia Electorala Pentru Cetatenii Români Cu Domiciliul În Afara Tarii';
+  const avByIdm=Object.fromEntries(avereResp.deputies.map(d=>[d.cdep_idm,d]));
+  const acByIdm=Object.fromEntries(activResp.deputies.map(d=>[d.cdep_idm,d]));
+
+  // Group deputies by judet
+  const judMap={};
+  for(const dep of depsResp.data){
+    let j=dep.judet||'Diaspora';
+    if(j===LONG_DIASPORA||j.startsWith('- Circumscriptia'))j='Diaspora';
+    if(!judMap[j])judMap[j]={judet:j,deps:[]};
+    const av=avByIdm[dep.cdep_idm]||{};
+    const ac=acByIdm[dep.cdep_idm]||{};
+    judMap[j].deps.push({
+      cdep_idm:dep.cdep_idm,
+      name:dep.name,
+      image:av.image||ac.image||null,
+      partid:av.partid||ac.partid||'Neafiliat',
+      activitate_sedinte:ac.activitate_sedinte??null,
+      activitate_propuneri_legislative:ac.activitate_propuneri_legislative??null,
+      venituri_ron:av.venituri_ron??null,
+      conturi_ron:av.conturi_ron??null,
+    });
+  }
+
+  // Compute per-judet aggregates
+  ALL_JUDETE=Object.values(judMap).map(({judet,deps})=>{
+    const partyCounts={};
+    deps.forEach(d=>{partyCounts[d.partid]=(partyCounts[d.partid]||0)+1;});
+    const dominant=Object.entries(partyCounts).sort((a,b)=>b[1]-a[1])[0]?.[0]||'Neafiliat';
+    return{
+      judet,
+      n:deps.length,
+      dominant_party:dominant,
+      parties_map:partyCounts,
+      med_sedinte:median(deps.map(d=>d.activitate_sedinte)),
+      med_propuneri:median(deps.map(d=>d.activitate_propuneri_legislative)),
+      med_venituri:median(deps.filter(d=>d.venituri_ron!=null).map(d=>d.venituri_ron)),
+      med_conturi:median(deps.filter(d=>d.conturi_ron!=null).map(d=>d.conturi_ron)),
+      deputies:deps,
+    };
+  }).sort((a,b)=>b.n-a.n);
+
+  applyURLState();
+  render();
+  if(selectedJudet)renderPanel(selectedJudet);
+}
+
+document.getElementById('metric-btns').addEventListener('click',e=>{
+  const btn=e.target.closest('.metric-btn');
+  if(!btn)return;
+  metric=btn.dataset.metric;
+  document.querySelectorAll('.metric-btn').forEach(b=>b.classList.toggle('active',b===btn));
+  render();
+  pushState();
+});
+
+document.getElementById('btn-circles').addEventListener('click',()=>{
+  if(viewMode==='circles')return;
+  viewMode='circles';
+  document.getElementById('btn-circles').classList.add('active');
+  document.getElementById('btn-table').classList.remove('active');
+  document.getElementById('metric-btns').style.display='';
+  render();
+  pushState();
+});
+
+document.getElementById('btn-table').addEventListener('click',()=>{
+  if(viewMode==='table')return;
+  viewMode='table';
+  document.getElementById('btn-table').classList.add('active');
+  document.getElementById('btn-circles').classList.remove('active');
+  document.getElementById('metric-btns').style.display='none';
+  render();
+  pushState();
+});
+
+document.getElementById('circle-grid').addEventListener('click',e=>{
+  const th=e.target.closest('[data-sort]');
+  if(!th||!th.dataset.sort)return;
+  const key=th.dataset.sort;
+  if(sortKey===key){sortDir=sortDir==='desc'?'asc':'desc';}
+  else{sortKey=key;sortDir='desc';}
+  render();
+});
+
+load();
+</script>
+</body>
+</html>
+```
+
+- [ ] **Step 2: Verify in browser**
+
+```bash
+python -m http.server 8000
+```
+
+Open `http://localhost:8000/judete.html`:
+- 44 circles render, sized by deputy count; București is largest
+- Dominant party colors show correctly (blue for PSD-dominant counties, etc.)
+- Abbreviated names visible inside circles (BUC, CJ, IS, etc.)
+- Click "Ședințe" metric button → circles resize by median ședințe
+- Click "Venituri" → circles resize, values shown as RON amounts
+- Click a circle (e.g., Cluj) → panel appears below grid with Cluj's deputies list
+- Panel shows party breakdown chips and deputy rows with ședințe + venituri
+- Each deputy row links to `deputat.html?id=...`
+- Click same circle again → panel closes
+- Switch to table view → 7-column sortable table
+- Click column header "N dep." → sorts descending; click again → ascending
+- URL `?metric=med_venituri&view=table` → loads in that state
+- Leg toggle 2020 → reloads
+- Mobile 375px: metric buttons wrap, horizontal scroll on table
+
+Kill server with Ctrl+C.
+
+- [ ] **Step 3: Commit**
+
+```bash
+git add judete.html
+git commit -m "feat: add județe comparison page (judete.html)"
+```
+
+---
+
+### Task 2: Activity log
+
+**Files:**
+- Modify: `docs/activity-log.md`
+
+- [ ] **Step 1: Add activity log entry**
+
+In `docs/activity-log.md`, add under the most recent section:
+
+```markdown
+### 2026-05-31 — Județe comparison page (judete.html)
+
+**What was done**
+- Created `judete.html`: circle/table visualization with one shape per județ. Metrics: N dep., median ședințe, median propuneri, median venituri RON, median conturi RON.
+- Data joined client-side from deputati + avere-deputies + activitate-deputies (all on `cdep_idm`).
+- Long diaspora string normalized to "Diaspora"; 44 judete total.
+- Circle color = dominant party; size ∝ selected metric.
+- Table view: 7 sortable columns (județ, n, dominant party, 4 median metrics).
+- Click on circle/table row opens inline deputy panel below grid: party breakdown chips + deputy rows sorted by ședințe.
+- URL state: metric, view, selected judet persisted via pushState.
+
+**Decisions**
+- Medians computed only over deputies with non-null values for that metric (avere data not available for all deputies).
+- Diaspora treated as a județ for display purposes (19 deputies in 2024).
+- `judAbbr()` maps known county names to 2-3 char codes for circle labels.
+```
+
+- [ ] **Step 2: Commit**
+
+```bash
+git add docs/activity-log.md
+git commit -m "docs: activity log for judete.html"
+```
