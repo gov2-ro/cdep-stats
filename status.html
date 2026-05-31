@@ -23,6 +23,7 @@ a{color:var(--green-text);text-decoration:none}a:hover{text-decoration:underline
 .header{border-bottom:1px solid var(--border);padding:16px 0}
 .header-inner{max-width:1100px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:16px}
 .logo{font-size:15px;font-weight:600}.logo span{color:var(--green)}
+.logo em{font-style:normal;color:var(--text2)}
 .nav{margin-left:auto;display:flex;flex-wrap:wrap;gap:2px;align-items:center}
 .nav a{font-size:13px;padding:5px 10px;border-radius:var(--radius-sm);color:var(--text2);text-decoration:none}
 .nav a:hover{background:var(--bg2)}
@@ -53,7 +54,7 @@ td.num{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--mono
 <body>
 <header class="header">
   <div class="header-inner">
-    <a href="index.html" class="logo">cdep<span>-api</span> <em>stats</em></a>
+    <a href="index.html" class="logo">Cdep<span> stats</span></a>
     <nav class="nav">
       <a href="avere.html">Averi</a>
       <a href="deputati-activitate.html">Activitate</a>
@@ -61,6 +62,7 @@ td.num{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--mono
       <a href="proiecte-stats.html">Proiecte</a>
       <a href="partide.html">Partide</a>
       <a href="judete.html">Județe</a>
+      <span style="margin-left:auto;font-size:13px;color:var(--text2)"><a href="https://endimion2k.github.io/cdep-api-poc" target="_blank" style="color:var(--blue)">cdep-api ↗</a></span>
       <span id="lang-toggle-slot" style="margin-left:4px;display:flex;align-items:center"></span>
     </nav>
   </div>

@@ -417,11 +417,11 @@ function injectLangToggle() {
   const btn = document.createElement("button");
   btn.type = "button";
   btn.className = "lang-toggle";
-  btn.textContent = lang === "ro" ? "EN" : "RO";
+  btn.textContent = lang === "ro" ? "🇬🇧" : "🇷🇴";
   btn.setAttribute("aria-label", lang === "ro" ? "Switch to English" : "Schimbă în română");
   btn.title = btn.getAttribute("aria-label");
   btn.style.cssText =
-    "background:transparent;border:1px solid currentColor;color:inherit;font-size:11px;font-weight:600;padding:4px 10px;border-radius:4px;cursor:pointer;font-family:inherit;letter-spacing:0.5px";
+    "background:transparent;border:none;color:inherit;font-size:14px;font-weight:600;padding:4px 8px;border-radius:4px;cursor:pointer;font-family:inherit;letter-spacing:0.5px";
   btn.addEventListener("click", () => {
     sessionStorage.setItem("i18n_transitioning", "1");
     document.body.style.transition = "opacity 0.25s ease";

@@ -6,7 +6,7 @@
 <title>Camera Deputaților — API Deschis · Proof of Concept</title>
 <meta name="description" content="Date deschise despre Camera Deputaților: avere, activitate, interpelări, proiecte · 2024">
 <meta property="og:type" content="website">
-<meta property="og:title" content="cdep-api stats">
+<meta property="og:title" content="Cdep stats">
 <meta property="og:description" content="Date deschise despre Camera Deputaților: avere, activitate, interpelări, proiecte · 2024">
 <meta property="og:url" content="https://endimion2k.github.io/cdep-api-poc/index.html">
 <meta property="og:image" content="https://endimion2k.github.io/cdep-api-poc/data/assets/og/index.png">
@@ -53,6 +53,7 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
 .header-inner{max-width:1100px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:16px}
 .logo{font-size:15px;font-weight:600;color:var(--text)}
 .logo span{color:var(--green)}
+.logo em{font-style:normal;color:var(--text2)}
 .badge{font-size:11px;padding:3px 8px;border-radius:4px;font-family:var(--mono);background:var(--green-bg);color:var(--green-text);font-weight:500}
 .nav{margin-left:auto;display:flex;gap:2px;align-items:center;flex-wrap:wrap}
 .nav a{font-size:13px;padding:6px 10px;border-radius:var(--radius-sm);color:var(--text2)}
@@ -132,18 +133,18 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
 <body>
 <a href="#main-content" class="skip-link">Sari la conținut</a>
 
-<header class="header" role="banner">
+<header class="header">
   <div class="header-inner">
-    <span class="logo" aria-label="cdep stats">cdep<span>-api</span> <em>stats</em></span>
-    <nav class="nav" role="navigation" aria-label="Navigație principală">
-      <a href="avere.html" data-i18n="nav_avere">Averi</a>
+    <a href="index.html" class="logo">Cdep<span> stats</span></a>
+    <nav class="nav">
+      <a href="avere.html">Averi</a>
       <a href="deputati-activitate.html">Activitate</a>
       <a href="interpelari-stats.html">Interpelări</a>
       <a href="proiecte-stats.html">Proiecte</a>
       <a href="partide.html">Partide</a>
       <a href="judete.html">Județe</a>
-      <span style="margin-left:auto;font-size:13px;color:var(--text2)">date:<a href="https://endimion2k.github.io/cdep-api-poc" target="_blank" style="color:var(--blue)">cdep-api ↗</a></span>
-      <span id="lang-toggle-slot" style="margin-left:6px;display:flex;align-items:center"></span>
+      <span style="margin-left:auto;font-size:13px;color:var(--text2)"><a href="https://endimion2k.github.io/cdep-api-poc" target="_blank" style="color:var(--blue)">cdep-api ↗</a></span>
+      <span id="lang-toggle-slot" style="margin-left:4px;display:flex;align-items:center"></span>
     </nav>
   </div>
 </header>

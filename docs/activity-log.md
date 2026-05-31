@@ -2,6 +2,25 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-05-31 — Normalize site nav, title, and language switcher
+
+**What was done**
+- Renamed site title from "cdep-api stats" to **Cdep stats** across all 16 HTML pages (logo markup
+  and og:title).
+- Normalized the nav bar across all pages: consistent logo link, 6 nav items (Averi/Activitate/
+  Interpelări/Proiecte/Partide/Județe), `cdep-api ↗` external link, language toggle slot.
+- Added full nav to `search.html` (was a minimal header with just lang toggle).
+- Added missing `lang-toggle-slot` and `<script src="i18n.js">` to `partid.html`.
+- Standardized `.header-inner` max-width to 1100px (was 1200px on 4 pages).
+- Removed commented-out search links, ARIA role attributes from index.html header.
+- Language switcher: removed border (`border:none`), replaced "EN"/"RO" text with 🇬🇧/🇷🇴 flag
+  emojis, bumped font-size to 14px for emoji readability.
+
+**Why**
+The nav had diverged across pages over time — inconsistent logo markup (span vs anchor), varying
+widths, missing i18n on one page, and the cdep-api link only on the homepage. Standardizing makes
+maintenance easier and gives users consistent navigation + a direct link to the data source.
+
 ### 2026-05-31 — CDEP → Monitorul.ai correspondence list
 
 **What was done**

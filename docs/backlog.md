@@ -41,7 +41,7 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 
 ## Site consistency / front door
 
-- [ ] Top nav. Rename site title: Cdep stats. Normalize nav in all pages. Add link to cdep-api on all pages at the end. Remove language swticher border, add flag emoji.
+- [ ] Top nav. Rename site title: Cdep stats. Normalize nav in all pages. Add link to cdep-api on all pages at the end. Remove language swticher border, add flag emoji for language switcher.
 - [ ] add top bar with - not official gov.ro site notice (one time / dismissable, save state to browser/cookies)
 - [ ] top nav dark background?
 - [ ] **Refactor the 16 copy-pasted root pages to a shared header/nav/footer** — nav drift (pages
