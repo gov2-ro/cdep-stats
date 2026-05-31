@@ -2,6 +2,20 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-05-31 — Party profile page (partid.html)
+
+**What was done**
+- Created `partid.html?id=PSD&leg=2024`: party profile showing activity aggregate cards (summed), wealth summary cards (median/total from avere-{leg}.json per_partid), conturi distribution box plot, and a full sortable deputies grid.
+- Deputies grid sortable by 5 metrics (Ședințe, Propuneri, Legi, Venituri, Conturi); each row links to `deputat.html`.
+- Added "Județe" nav link across all existing pages (anticipating judete.html).
+
+**Decisions**
+- Party codes match the `partid` field in stats JSON files (`PSD`, `SOS RO`, `Minoritati`, etc.) — URLs use these directly.
+- Full party name derived by joining on `cdep_idm` with deputati data (avoids fragile regex).
+- Box plot only shown when ≥5 data points.
+
+---
+
 ### 2026-05-30 — Toolbar redesign, URL state, OG meta tags
 
 **What was done**
