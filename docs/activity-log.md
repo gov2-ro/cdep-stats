@@ -2,6 +2,24 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-05-31 — Județe comparison page (judete.html)
+
+**What was done**
+- Created `judete.html`: circle/table visualization with one shape per județ. Metrics: N dep., median ședințe, median propuneri, median venituri RON, median conturi RON.
+- Data joined client-side from deputati + avere-deputies + activitate-deputies on `cdep_idm`.
+- Long diaspora string normalized to "Diaspora"; 44 județe total.
+- Circle color = dominant party; size ∝ selected metric.
+- Table view: 7 sortable columns (județ, n, dominant party, 4 median metrics).
+- Click on circle/table row opens inline deputy panel below grid: party breakdown chips + deputy rows sorted by ședințe.
+- URL state: metric, view, selected judet persisted via pushState.
+
+**Decisions**
+- Medians computed only over deputies with non-null values for that metric.
+- Diaspora treated as a județ for display (19 deputies in 2024).
+- `judAbbr()` maps county names to 2-3 char abbreviations for circle labels.
+
+---
+
 ### 2026-05-31 — Party profile page (partid.html)
 
 **What was done**
