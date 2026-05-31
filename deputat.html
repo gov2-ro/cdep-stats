@@ -358,7 +358,7 @@ async function loadDeputat() {
   document.getElementById('json-link').href = jsonUrl;
   document.getElementById('json-link').textContent = jsonUrl;
 
-  let dep, allInterpelari, allMotiuni, avereResp, avereCtx = null;
+  let dep, allInterpelari, allMotiuni, avereResp, avereCtx, monitorulUrl = null;
   try {
     const [depResp, intResp, motResp, avereJson, ctxJson, corrJson] = await Promise.all([
       fetch(jsonUrl).then(r => r.json()),
@@ -371,7 +371,7 @@ async function loadDeputat() {
     avereResp = avereJson;
     avereCtx = ctxJson?.deputies?.[String(parseInt(id))] ?? null;
     const idNum = parseInt(id);
-    const monitorulUrl = corrJson?.[`${idNum}_${leg}`]?.monitorul_url ?? null;
+    monitorulUrl = corrJson?.[`${idNum}_${leg}`]?.monitorul_url ?? null;
     dep = depResp.data.find(d => d.cdep_idm === idNum);
     allInterpelari = intResp?.data || [];
     allMotiuni = motResp?.data || [];
