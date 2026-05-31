@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Averi deputați — dashboard · Camera Deputaților</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="description" content="Top averi, venituri și datorii declarate · comparații pe partide · Camera Deputaților 2024">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Averi deputați — statistici">
+<meta property="og:description" content="Top averi, venituri și datorii declarate · comparații pe partide · Camera Deputaților 2024">
+<meta property="og:url" content="https://endimion2k.github.io/cdep-api-poc/avere.html">
+<meta property="og:image" content="https://endimion2k.github.io/cdep-api-poc/data/assets/og/avere.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#fff;--bg2:#f8f8f6;--bg3:#f2f1ee;
+  --text:#1a1a1a;--text2:#555;--text3:#888;
+  --border:#e0deda;--border2:#ccc;
+  --green:#1D9E75;--green-text:#3B6D11;
+  --blue:#185FA5;--blue-bg:#E6F1FB;--blue-text:#185FA5;
+  --red-bg:#FCEBEB;--red-text:#A32D2D;
+  --amber-bg:#FAEEDA;--amber-text:#854F0B;
+  --radius:10px;--radius-sm:6px;
+  --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --mono:'SF Mono','Fira Code','Consolas',monospace;
+}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;}
+}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.header{border-bottom:1px solid var(--border);padding:16px 0}
+.header-inner{max-width:1100px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:16px}
+.logo{font-size:15px;font-weight:600;color:var(--text);text-decoration:none}
+.logo span{color:var(--green)}
+.logo em{font-style:normal;color:var(--text2)}
+.nav{margin-left:auto;display:flex;flex-wrap:wrap;gap:2px;align-items:center}
+.nav a{font-size:13px;padding:5px 10px;border-radius:var(--radius-sm);color:var(--text2);text-decoration:none}
+.nav a:hover{background:var(--bg2)}
+.nav a.active{color:var(--text);font-weight:600}
+.container{max-width:1100px;margin:0 auto;padding:32px 24px}
+h1{font-size:26px;font-weight:600;margin-bottom:6px}
+.sub{color:var(--text3);font-size:13px;margin-bottom:24px}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:32px}
+.card{background:var(--bg2);border-radius:var(--radius);padding:16px;text-align:center}
+.card .num{font-size:24px;font-weight:600;margin-bottom:4px}
+.card .lbl{font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:.5px}
+
+.section{margin-bottom:36px}
+.section h2{font-size:18px;font-weight:600;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border)}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--text3)}
+td.num,th.num{text-align:right;font-family:var(--mono);white-space:nowrap}
+.rank{color:var(--text3);width:24px}
+.pill{font-size:11px;padding:2px 7px;border-radius:3px;background:var(--bg3);color:var(--text2)}
+.pos{color:var(--green-text)}.neg{color:var(--red-text)}
+
+.chart-wrap{background:var(--bg2);border-radius:var(--radius);padding:16px;margin-bottom:16px}
+.chart-wrap canvas{max-height:340px}
+
+.box-row{display:grid;grid-template-columns:90px 1fr 130px;gap:10px;align-items:center;font-size:13px;padding:5px 0}
+.box-track{position:relative;height:18px;background:var(--bg3);border-radius:3px}
+.box-iqr{position:absolute;top:2px;height:14px;background:var(--blue-bg);border:1px solid var(--blue);border-radius:2px}
+.box-median{position:absolute;top:0;width:2px;height:18px;background:var(--blue)}
+
+.note{background:var(--amber-bg);color:var(--amber-text);border-radius:var(--radius);padding:14px 16px;font-size:13px;line-height:1.5}
+.loading{text-align:center;padding:60px 0;color:var(--text3)}
+.view-toggle{display:inline-flex;border:1px solid var(--border2);border-radius:var(--radius-sm);overflow:hidden;vertical-align:middle}
+.view-btn{padding:5px 11px;font-size:12px;border:none;background:var(--bg);color:var(--text2);cursor:pointer;font-family:inherit}
+.view-btn.active{background:var(--blue-bg);color:var(--blue-text);font-weight:600}
+.error{padding:24px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius);margin:20px 0}
+.footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
+.footer a{color:var(--text2)}
+
+/* Deputy list — rendered by the shared module assets/avere-list.js */
+.list-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:12px}
+.list-toolbar-bottom{margin:14px 0 0;justify-content:flex-end}
+.metric-btns{display:flex;flex-wrap:wrap;gap:4px;flex-shrink:1;max-width:100%}
+.metric-btn{padding:5px 10px;font-size:12px;border:1px solid var(--border2);border-radius:var(--radius-sm);background:var(--bg);color:var(--text2);cursor:pointer;white-space:nowrap;font-family:inherit}
+.metric-btn.active{background:var(--blue-bg);color:var(--blue-text);font-weight:600;border-color:var(--blue-bg)}
+.subset-toggle .view-btn{text-decoration:none;display:inline-flex;align-items:center}
+.list-caption{font-size:12px;color:var(--text3);margin:0 0 12px}
+
+.circle-grid{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;padding:8px 0}
+.dep-item{display:flex;flex-direction:column;align-items:center;cursor:pointer;position:relative;text-decoration:none;color:inherit}
+.dep-item:hover .dep-circle{opacity:0.82}
+.dep-circle{border-radius:50%;overflow:visible;position:relative;flex-shrink:0;transition:width .25s,height .25s}
+.dep-circle-inner{width:100%;height:100%;border-radius:50%;overflow:hidden;position:relative}
+.dep-circle-inner img{width:100%;height:100%;object-fit:cover;display:block}
+.dep-initials{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff;border-radius:50%;font-size:inherit}
+.dep-badge{position:absolute;bottom:-1px;left:50%;transform:translateX(-50%);display:inline-flex;align-items:center;gap:2px;padding:1px 5px;border-radius:3px;font-size:9px;color:#fff;font-weight:700;white-space:nowrap;pointer-events:none;line-height:1.4}
+.dep-badge img{width:10px;height:10px;object-fit:contain;flex-shrink:0}
+.dep-name{font-size:9px;color:var(--text2);margin-top:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;line-height:1.3}
+.dep-value{font-size:8px;color:var(--text3);text-align:center;line-height:1.3}
+.dep-value b{color:var(--text2);font-weight:700}
+.mag-break{width:100%;height:0;border-top:1px dashed var(--border);margin:8px 0;opacity:.7}
+.dep-item.null-val .dep-circle-inner{opacity:0.4}
+.dep-item.null-val .dep-value{font-style:italic}
+.tooltip{position:fixed;z-index:100;background:rgba(0,0,0,.82);color:#fff;font-size:12px;padding:7px 10px;border-radius:6px;pointer-events:none;max-width:240px;line-height:1.5;display:none}
+
+.dep-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.dep-table{width:100%;border-collapse:collapse;font-size:12px;min-width:680px}
+.dep-table thead th{padding:9px 10px;background:var(--bg2);border-bottom:2px solid var(--border);font-weight:500;color:var(--text3);cursor:pointer;white-space:nowrap;user-select:none;text-align:left}
+.dep-table thead th.sort-active{color:var(--blue);border-bottom-color:var(--blue)}
+.dep-table thead th.sort-name{cursor:default;min-width:160px;position:sticky;left:0;z-index:1;background:var(--bg2)}
+.dep-table tbody tr{border-bottom:1px solid var(--border);cursor:pointer}
+.dep-table tbody tr:hover{background:var(--bg2)}
+.dep-table tbody td{padding:6px 10px;vertical-align:middle}
+.dep-table td.td-name{position:sticky;left:0;background:var(--bg);white-space:nowrap;z-index:1}
+.dep-table tbody tr:hover td.td-name{background:var(--bg2)}
+.bar-cell-val{font-size:11px;margin-bottom:3px;font-variant-numeric:tabular-nums}
+.bar-cell-track{height:3px;background:var(--bg3);border-radius:2px;width:80px}
+.bar-cell-fill{height:100%;border-radius:2px;opacity:0.75}
+.dep-table .null-val{color:var(--text3);font-style:italic;font-size:11px}
+@media(max-width:600px){
+  .list-toolbar{flex-direction:column;align-items:flex-start}
+  .metric-btns{flex-wrap:wrap;gap:4px;border:none;max-width:100%}
+  .metric-btn{border-radius:var(--radius-sm);border:1px solid var(--border2)}
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">CDEP<span> stats</span></a>
+    <nav class="nav">
+      <a href="avere.html" class="active">Averi</a>
+      <a href="deputati-activitate.html">Activitate</a>
+      <a href="interpelari-stats.html">Interpelări</a>
+      <a href="proiecte-stats.html">Proiecte</a>
+      <a href="partide.html">Partide</a>
+      <a href="judete.html">Județe</a>
+      <span style="margin-left:auto;font-size:13px;color:var(--text2)"><a href="https://endimion2k.github.io/cdep-api-poc" target="_blank" style="color:var(--blue)">cdep-api ↗</a></span>
+      <span id="lang-toggle-slot" style="margin-left:4px;display:flex;align-items:center"></span>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <div id="content"><div class="loading" data-i18n="loading">Se încarcă datele…</div></div>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<footer class="footer">
+  <p><span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API: <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a> ·
+  <span data-i18n="source">Sursă JSON</span>: <a id="json-link" href="#">/data/v1/stats/avere-2024.json</a> ·
+  <a href="index.html" data-i18n="page_main">Pagina principală</a></p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="assets/avere-list.js"></script>
+<script>
+function getParam(n){return new URL(location).searchParams.get(n);}
+
+// Formatare RON compactă: 384.5M, 1.2M, 45.300, 0
+function fmtRON(v){
+  if(v==null) return '–';
+  const a=Math.abs(v), s=v<0?'-':'';
+  if(a>=1e6) return s+(a/1e6).toFixed(a>=1e7?0:1)+'M';
+  if(a>=1e3) return s+Math.round(a).toLocaleString('ro-RO');
+  return s+Math.round(a);
+}
+
+// ── Deputy list (Top 50 / Bottom 50; full list opens deputati-avere.html) ──
+let LEG='2024', DEPUTIES=[], PARTIES={};
+let listMetric='conturi_ron', listView='table', listSubset='top';
+
+// Rankable metrics: 6 base + 3 mandate-evolution. `val(d)` is the ranking value
+// (always positive — higher = "more"; null = not applicable). The top list is
+// computed over the FULL dataset, so e.g. "Creștere conturi" surfaces the biggest
+// gainers across all deputies, not just whoever is in the current 50.
+const METRICS=[
+  {key:'venituri_ron',  label:'Venituri',         fmt:'venituri_ron', val:d=>d.venituri_ron},
+  {key:'conturi_ron',   label:'Conturi',          fmt:'conturi_ron',  val:d=>d.conturi_ron},
+  {key:'imobile_count', label:'Imobile',          fmt:'imobile_count',val:d=>d.imobile_count},
+  {key:'suprafata_mp',  label:'Suprafață',        fmt:'suprafata_mp', val:d=>d.suprafata_mp},
+  {key:'auto_count',    label:'Auto',             fmt:'auto_count',   val:d=>d.auto_count},
+  {key:'datorii_ron',   label:'Datorii',          fmt:'datorii_ron',  val:d=>d.datorii_ron},
+  {key:'crestere',      label:'Creștere conturi', fmt:'conturi_ron',  val:d=>(d.delta_conturi_ron!=null&&d.delta_conturi_ron>0?d.delta_conturi_ron:null)},
+  {key:'scadere',       label:'Scădere conturi',  fmt:'conturi_ron',  val:d=>(d.delta_conturi_ron!=null&&d.delta_conturi_ron<0?-d.delta_conturi_ron:null)},
+  {key:'imobile_noi',   label:'Imobile noi',      fmt:'imobile_count',val:d=>(d.delta_imobile!=null&&d.delta_imobile>0?d.delta_imobile:null)},
+];
+const METRIC_BY_KEY=Object.fromEntries(METRICS.map(m=>[m.key,m]));
+function activeMetric(){return METRIC_BY_KEY[listMetric]||METRICS[1];}
+
+// 50 deputies ranked over the whole dataset by the active metric (others excluded).
+function subsetDeps(){
+  const m=activeMetric();
+  const withVal=DEPUTIES.filter(d=>m.val(d)!=null);
+  withVal.sort((a,b)=>m.val(b)-m.val(a));
+  return listSubset==='bottom' ? withVal.slice(-50) : withVal.slice(0,50);
+}
+
+function syncFullListLink(){
+  // deputati-avere only understands the 6 base metrics in its URL state.
+  const base=AVERE.METRIC_KEYS.includes(listMetric)?listMetric:'conturi_ron';
+  const href=`deputati-avere.html?leg=${LEG}&metric=${base}&view=${listView}`;
+  document.querySelectorAll('.full-list-link').forEach(a=>{a.href=href;});
+}
+
+function renderList(){
+  const m=activeMetric();
+  const deps=subsetDeps();
+  // In table mode the metric pills are redundant — every metric is reachable by
+  // clicking a column header — so hide them; keep them for circle (single-metric) view.
+  document.getElementById('metric-btns').style.display=listView==='table'?'none':'';
+  const grid=document.getElementById('dep-list');
+  const nWithVal=DEPUTIES.filter(d=>m.val(d)!=null).length;
+  const cap=document.getElementById('list-caption');
+  if(cap)cap.textContent=`${listSubset==='top'?'Top 50':'Ultimii 50'} după ${m.label} · din ${nWithVal} deputați`;
+  if(listView==='table'){
+    // Order the visible 50 by the ranking value. The 'scadere' column holds
+    // negative numbers, so ascending = biggest drops first.
+    const neg=listMetric==='scadere';
+    const dir=neg?(listSubset==='bottom'?'desc':'asc'):(listSubset==='bottom'?'asc':'desc');
+    grid.innerHTML=AVERE.renderTable(deps,{parties:PARTIES,leg:LEG,sortKey:listMetric,sortDir:dir});
+  }else{
+    grid.innerHTML=AVERE.renderCircles(deps,{valueFn:m.val,fmtMetric:m.fmt,parties:PARTIES,leg:LEG});
+  }
+  syncFullListLink();
+}
+
+function syncToolbar(){
+  document.querySelectorAll('#metric-btns .metric-btn').forEach(b=>b.classList.toggle('active',b.dataset.metric===listMetric));
+  document.querySelectorAll('.subset-toggle [data-subset]').forEach(b=>b.classList.toggle('active',b.dataset.subset===listSubset));
+  // Bottom toolbar offers only the *other* option — hide whichever subset is active.
+  document.querySelectorAll('#list-toolbar-bottom [data-subset]').forEach(b=>{b.style.display=b.dataset.subset===listSubset?'none':'';});
+}
+
+function wireListToolbar(){
+  document.getElementById('btn-circles').addEventListener('click',()=>{
+    if(listView==='circles')return;
+    listView='circles';
+    document.getElementById('btn-circles').classList.add('active');
+    document.getElementById('btn-table').classList.remove('active');
+    renderList();
+  });
+  document.getElementById('btn-table').addEventListener('click',()=>{
+    if(listView==='table')return;
+    listView='table';
+    document.getElementById('btn-table').classList.add('active');
+    document.getElementById('btn-circles').classList.remove('active');
+    renderList();
+  });
+  document.getElementById('metric-btns').addEventListener('click',e=>{
+    const btn=e.target.closest('.metric-btn');
+    if(!btn)return;
+    listMetric=btn.dataset.metric;
+    syncToolbar();
+    renderList();
+  });
+  document.querySelectorAll('.subset-toggle [data-subset]').forEach(b=>{
+    b.addEventListener('click',()=>{
+      listSubset=b.dataset.subset;
+      syncToolbar();
+      renderList();
+    });
+  });
+  // Sortable table headers re-rank the FULL dataset by the clicked metric
+  // (not just the visible 50). Clicking the active column flips Top/Ultimii 50.
+  document.getElementById('dep-list').addEventListener('click',e=>{
+    const th=e.target.closest('[data-sort]');
+    if(!th)return;
+    const key=th.dataset.sort;
+    if(!METRIC_BY_KEY[key])return;
+    if(listMetric===key){listSubset=listSubset==='top'?'bottom':'top';}
+    else{listMetric=key;listSubset='top';}
+    syncToolbar();
+    renderList();
+  });
+}
+
+// Circle hover tooltip
+(function(){
+  const tip=document.getElementById('tooltip');
+  document.addEventListener('mouseover',e=>{
+    const item=e.target.closest('#dep-list .dep-item');
+    if(!item){tip.style.display='none';return;}
+    const raw=item.dataset.value;const v=raw===''?null:Number(raw);
+    tip.textContent=`${item.dataset.name} · ${item.dataset.partid} · ${AVERE.fmtVal(v,activeMetric().fmt)}`;
+    tip.style.display='block';
+  });
+  document.addEventListener('mousemove',e=>{tip.style.left=(e.clientX+14)+'px';tip.style.top=(e.clientY-32)+'px';});
+  document.addEventListener('mouseout',e=>{if(!e.target.closest('#dep-list .dep-item'))tip.style.display='none';});
+})();
+
+// Box-plot CSS pe lichidități per partid (q1–q3 + median), scală comună
+function boxPlots(perPartid){
+  const stats = perPartid.map(p=>{
+    const v=[...p.conturi_values].sort((a,b)=>a-b);
+    const q=(f)=>{const i=f*(v.length-1),lo=Math.floor(i);return v[lo]+(v[Math.min(lo+1,v.length-1)]-v[lo])*(i-lo);};
+    return {partid:p.partid, n:p.n, min:v[0], q1:q(.25), med:q(.5), q3:q(.75), max:v[v.length-1]};
+  });
+  const max = Math.max(...stats.map(s=>s.q3), 1); // scală până la q3 max (outlieri tăiați vizual)
+  const rows = stats.map(s=>{
+    const L=(x)=>Math.min(100,(x/max)*100);
+    return `<div class="box-row">
+      <div>${s.partid} <span style="color:var(--text3)">(${s.n})</span></div>
+      <div class="box-track">
+        <div class="box-iqr" style="left:${L(s.q1)}%;width:${Math.max(1,L(s.q3)-L(s.q1))}%"></div>
+        <div class="box-median" style="left:${L(s.med)}%"></div>
+      </div>
+      <div class="num" style="color:var(--text3)">med ${fmtRON(s.med)}</div>
+    </div>`;
+  }).join('');
+  return `<p style="font-size:12px;color:var(--text3);margin-bottom:8px">Interval q1–q3 (bară) + median (linie) al conturilor, per partid. Scală tăiată la q3 maxim pentru lizibilitate.</p>${rows}`;
+}
+
+let chart1, chart2;
+function drawCharts(perPartid){
+  const labels = perPartid.map(p=>p.partid);
+  const css = getComputedStyle(document.documentElement);
+  const txt = css.getPropertyValue('--text2').trim() || '#555';
+  const grid = css.getPropertyValue('--border').trim() || '#ddd';
+  const base = {responsive:true, plugins:{legend:{display:false}},
+    scales:{x:{ticks:{color:txt},grid:{display:false}},
+            y:{ticks:{color:txt,callback:v=>fmtRON(v)},grid:{color:grid}}}};
+  chart1 = new Chart(document.getElementById('c1'),{type:'bar',
+    data:{labels,datasets:[{label:'Median conturi',data:perPartid.map(p=>p.median_conturi),backgroundColor:'#185FA5'}]},
+    options:base});
+  chart2 = new Chart(document.getElementById('c2'),{type:'bar',
+    data:{labels,datasets:[{label:'Median venituri',data:perPartid.map(p=>p.median_venituri),backgroundColor:'#1D9E75'}]},
+    options:base});
+}
+
+async function load(){
+  const leg = getParam('leg') || '2024';
+  LEG = leg;
+  const url = `data/v1/stats/avere-${leg}.json`;
+  document.getElementById('json-link').href = url;
+  document.getElementById('json-link').textContent = '/'+url;
+  let d;
+  try{ d = await fetch(url).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}); }
+  catch(e){ document.getElementById('content').innerHTML=`<div class="error">Nu pot încărca ${url} (${e.message}). Rulează <code>python scripts/build_avere_stats.py --leg ${leg}</code>.</div>`; return; }
+
+  // Per-deputy list (Top/Bottom 50 + full list). Degrades gracefully if absent.
+  try{
+    const dep = await fetch(`data/v1/stats/avere-deputies-${leg}.json`).then(r=>r.ok?r.json():null);
+    DEPUTIES = dep?.deputies || [];
+    PARTIES = dep?.parties || {};
+  }catch(e){ DEPUTIES=[]; PARTIES={}; }
+
+  const c=d.cards;
+  const mbtns=METRICS
+    .map(m=>`<button class="metric-btn${m.key===listMetric?' active':''}" data-metric="${m.key}">${m.label}</button>`).join('');
+
+  document.getElementById('content').innerHTML = `
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:6px;flex-wrap:wrap">
+      <h1 style="margin:0">Averi deputați</h1>
+      <div class="view-toggle">
+        <button class="view-btn${leg==='2024'?' active':''}" onclick="location.href='avere.html?leg=2024'">2024</button>
+        <button class="view-btn${leg==='2020'?' active':''}" onclick="location.href='avere.html?leg=2020'">2020</button>
+      </div>
+    </div>
+    <p class="sub">Extras automat din declarațiile de avere ANI · ${c.n_deputati} deputați · ${c.n_cu_evolutie} cu ≥2 declarații (evoluție în mandat)</p>
+
+    <div class="cards">
+      <div class="card"><div class="num">${c.n_deputati}</div><div class="lbl">Deputați</div></div>
+      <div class="card"><div class="num">${fmtRON(c.median_conturi)}</div><div class="lbl">Median conturi</div></div>
+      <div class="card"><div class="num">${fmtRON(c.median_venituri)}</div><div class="lbl">Median venituri/an</div></div>
+      <div class="card"><div class="num">${c.n_cu_evolutie}</div><div class="lbl">Cu evoluție</div></div>
+    </div>
+
+    <div class="section">
+      <h2>Clasament deputați</h2>
+      <div class="list-toolbar">
+        <div class="view-toggle">
+          <button class="view-btn" id="btn-circles">⬤ Cercuri</button>
+          <button class="view-btn active" id="btn-table">≡ Tabel</button>
+        </div>
+        <div class="metric-btns" id="metric-btns">${mbtns}</div>
+        <div class="view-toggle subset-toggle">
+          <button class="view-btn active" data-subset="top">Top 50</button>
+          <button class="view-btn" data-subset="bottom">Ultimii 50</button>
+          <a class="view-btn full-list-link" id="full-list-link" target="_blank" rel="noopener">Lista completă ↗</a>
+        </div>
+      </div>
+      <p class="list-caption" id="list-caption"></p>
+      <div id="dep-list"></div>
+      <div class="list-toolbar list-toolbar-bottom" id="list-toolbar-bottom">
+        <div class="view-toggle subset-toggle">
+          <button class="view-btn" data-subset="top">Top 50</button>
+          <button class="view-btn" data-subset="bottom">Ultimii 50</button>
+          <a class="view-btn full-list-link" target="_blank" rel="noopener">Lista completă ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Comparație pe partide</h2>
+      <div class="chart-wrap"><strong style="font-size:13px;color:var(--text2)">Median conturi (RON)</strong><canvas id="c1"></canvas></div>
+      <div class="chart-wrap"><strong style="font-size:13px;color:var(--text2)">Median venituri anuale (RON)</strong><canvas id="c2"></canvas></div>
+    </div>
+
+    <div class="section">
+      <h2>Distribuția conturilor pe partide</h2>
+      ${boxPlots(d.per_partid)}
+    </div>
+
+    <div class="section">
+      <h2>Metodologie</h2>
+      <div class="note">${d.meta.caveats} <a href="${url}" style="color:inherit;text-decoration:underline">Descarcă datele agregate (JSON)</a>.</div>
+    </div>
+  `;
+
+  wireListToolbar();
+  syncToolbar();
+  renderList();
+  drawCharts(d.per_partid);
+  if(typeof applyI18n==='function') applyI18n();
+}
+load();
+</script>
+<script src="i18n.js"></script>
+</body>
+</html>

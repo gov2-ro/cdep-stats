@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profil partid — Camera Deputaților</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="description" content="Profil partid: statistici avere, activitate parlamentară, deputați.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#fff;--bg2:#f8f8f6;--bg3:#f2f1ee;
+  --text:#1a1a1a;--text2:#555;--text3:#888;
+  --border:#e0deda;--border2:#ccc;
+  --green:#1D9E75;--green-bg:#EAF3DE;--green-text:#3B6D11;
+  --blue:#185FA5;--blue-bg:#E6F1FB;--blue-text:#185FA5;
+  --red-bg:#FCEBEB;--red-text:#A32D2D;
+  --amber-bg:#FAEEDA;--amber-text:#854F0B;
+  --purple:#553378;--purple-bg:#EDE7F4;
+  --radius:10px;--radius-sm:6px;
+  --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --mono:'SF Mono','Fira Code','Consolas',monospace;
+}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;}
+}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.header{border-bottom:1px solid var(--border);padding:16px 0}
+.header-inner{max-width:1100px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:16px}
+.logo{font-size:15px;font-weight:600;color:var(--text);text-decoration:none}
+.logo span{color:var(--green)}
+.logo em{font-style:normal;color:var(--text2)}
+.nav{margin-left:auto;display:flex;flex-wrap:wrap;gap:2px;align-items:center}
+.nav a{font-size:13px;padding:5px 10px;border-radius:var(--radius-sm);color:var(--text2);text-decoration:none}
+.nav a:hover{background:var(--bg2)}
+.nav a.active{color:var(--text);font-weight:600}
+.container{max-width:1100px;margin:0 auto;padding:32px 24px}
+.profile{display:grid;grid-template-columns:140px 1fr;gap:32px;margin-bottom:32px}
+@media(max-width:700px){.profile{grid-template-columns:1fr}}
+.photo{width:140px;height:140px;background:var(--bg2);border-radius:var(--radius);overflow:hidden;display:flex;align-items:center;justify-content:center;color:#fff;font-size:36px;font-weight:700}
+.photo img{width:100%;height:100%;object-fit:contain}
+.profile-info h1{font-size:26px;font-weight:600;margin-bottom:8px}
+.profile-meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.tag{font-size:12px;padding:4px 10px;border-radius:4px;font-weight:500}
+.tag-party{background:var(--blue-bg);color:var(--blue-text)}
+.tag-judet{background:var(--green-bg);color:var(--green-text)}
+.tag-circ{background:var(--bg3);color:var(--text2)}
+.bio-row{font-size:14px;color:var(--text2);margin-bottom:6px}
+.bio-row strong{color:var(--text);font-weight:500}
+.activitate{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:16px}
+.act-card{background:var(--bg2);border-radius:var(--radius);padding:16px;text-align:center}
+.act-num{font-size:26px;font-weight:600;color:var(--text);margin-bottom:4px}
+.act-lbl{font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:0.6px}
+.section{margin-bottom:32px}
+.section h2{font-size:18px;font-weight:600;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.metric-btns{display:flex;border:1px solid var(--border2);border-radius:var(--radius-sm);overflow:hidden;flex-shrink:0;margin-bottom:14px}
+.metric-btn{padding:5px 12px;font-size:12px;border:none;background:var(--bg);color:var(--text2);cursor:pointer;white-space:nowrap;border-right:1px solid var(--border2)}
+.metric-btn:last-child{border-right:none}
+.metric-btn.active{background:var(--blue-bg);color:var(--blue-text);font-weight:600}
+.dep-mini-card{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--border);text-decoration:none;color:inherit}
+.dep-mini-card:last-child{border-bottom:none}
+.dep-mini-card:hover{background:var(--bg2);margin:0 -12px;padding-left:12px;padding-right:12px;border-radius:var(--radius-sm)}
+.loading{text-align:center;padding:60px 0;color:var(--text3);font-size:14px}
+.error{padding:24px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius);margin:20px 0}
+.footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
+.footer a{color:var(--text2)}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">CDEP<span> stats</span></a>
+    <nav class="nav">
+      <a href="avere.html">Averi</a>
+      <a href="deputati-activitate.html">Activitate</a>
+      <a href="interpelari-stats.html">Interpelări</a>
+      <a href="proiecte-stats.html">Proiecte</a>
+      <a href="partide.html">Partide</a>
+      <a href="judete.html">Județe</a>
+      <span style="margin-left:auto;font-size:13px;color:var(--text2)"><a href="https://endimion2k.github.io/cdep-api-poc" target="_blank" style="color:var(--blue)">cdep-api ↗</a></span>
+      <span id="lang-toggle-slot" style="margin-left:4px;display:flex;align-items:center"></span>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <div id="content">
+    <div class="loading">Se încarcă profilul partidului...</div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>Date din <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API:
+  <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a> ·
+  <a href="index.html">Pagina principală</a></p>
+</footer>
+
+<script>
+function getParam(n){return new URL(location).searchParams.get(n);}
+const PARTID=getParam('id')||'';
+const LEG=Number(getParam('leg')||2024);
+
+const PARTY_COLORS={
+  'PSD':'#185FA5','PNL':'#993C1D','USR':'#3B6D11','AUR':'#854F0B',
+  'UDMR':'#5F5E5A','SOS RO':'#A32D2D','UPR':'#553378','PMP':'#6D5A9E',
+  'Minoritati':'#5F5E5A','Neafiliat':'#777',
+};
+function partyColor(p){return PARTY_COLORS[p]||'#777';}
+
+function fmtRON(v){
+  if(v==null||v===0)return'0 RON';
+  if(v>=1e6)return(v/1e6).toFixed(1).replace(/\.0$/,'')+'M RON';
+  if(v>=1e4)return Math.round(v/1e3)+'K RON';
+  return Math.round(v).toLocaleString('ro-RO')+' RON';
+}
+function fmtMP(v){
+  if(v==null||v===0)return'0 m²';
+  if(v>=1e6)return(v/1e6).toFixed(1).replace(/\.0$/,'')+'M m²';
+  if(v>=1e4)return Math.round(v/1e3)+'K m²';
+  return Math.round(v).toLocaleString('ro-RO')+' m²';
+}
+function fmtNum(v){if(v==null)return'—';return Number(v).toLocaleString('ro-RO');}
+
+function initials(name){
+  const p=name.split(/[\s,]+/).filter(Boolean);
+  return p.length>=2?(p[0][0]+p[1][0]).toUpperCase():name.slice(0,2).toUpperCase();
+}
+
+function quantiles(arr){
+  const a=[...arr].filter(v=>v!=null).sort((a,b)=>a-b);
+  const n=a.length;
+  if(n<5)return null;
+  const med=n%2?a[Math.floor(n/2)]:(a[n/2-1]+a[n/2])/2;
+  return{min:a[0],q1:a[Math.floor(n*0.25)],med,q3:a[Math.floor(n*0.75)],max:a[n-1],n};
+}
+
+const SORT_METRICS=[
+  {key:'activitate_sedinte',               label:'Ședințe',  fmt:fmtNum},
+  {key:'activitate_propuneri_legislative', label:'Propuneri',fmt:fmtNum},
+  {key:'activitate_legi_promulgate',       label:'Legi',     fmt:fmtNum},
+  {key:'venituri_ron',                     label:'Venituri', fmt:fmtRON},
+  {key:'conturi_ron',                      label:'Conturi',  fmt:fmtRON},
+];
+let sortMetric='activitate_sedinte';
+let DEPS_DATA=[];
+
+function renderDepsGrid(){
+  const metricDef=SORT_METRICS.find(m=>m.key===sortMetric);
+  const color=partyColor(PARTID);
+  const deps=[...DEPS_DATA].sort((a,b)=>(b[sortMetric]??-1)-(a[sortMetric]??-1));
+  if(!deps.length)return'<p style="color:var(--text3);padding:20px 0">Niciun deputat cu date.</p>';
+  return deps.map(d=>{
+    const ini=initials(d.name||'?');
+    const photoHtml=d.image
+      ?`<img src="${d.image}" alt="" onerror="this.style.display='none';this.nextSibling.style.display='flex'" style="width:40px;height:40px;border-radius:50%;object-fit:cover;flex-shrink:0"><div style="display:none;width:40px;height:40px;border-radius:50%;background:${color};align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#fff;flex-shrink:0">${ini}</div>`
+      :`<div style="width:40px;height:40px;border-radius:50%;background:${color};display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#fff;flex-shrink:0">${ini}</div>`;
+    const val=d[sortMetric];
+    const valStr=val!=null?metricDef.fmt(val):'—';
+    const judetTag=d.judet?`<span style="font-size:10px;padding:1px 6px;border-radius:3px;background:var(--green-bg);color:var(--green-text)">${d.judet}</span>`:'';
+    return`<a class="dep-mini-card" href="deputat.html?id=${d.cdep_idm}&leg=${LEG}">
+      ${photoHtml}
+      <div style="flex:1;min-width:0">
+        <div style="font-size:13px;font-weight:500;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${(d.name||'').split(',')[0].trim()}</div>
+        ${judetTag?`<div style="margin-top:3px">${judetTag}</div>`:''}
+      </div>
+      <div style="font-size:12px;color:var(--blue);font-weight:600;white-space:nowrap">${valStr}</div>
+    </a>`;
+  }).join('');
+}
+
+function renderBoxPlot(values){
+  const q=quantiles(values||[]);
+  if(!q)return'';
+  const range=q.max-q.min||1;
+  const pct=v=>Math.max(0,Math.min(100,(v-q.min)/range*100)).toFixed(1);
+  const barLeft=pct(q.q1);
+  const barW=(pct(q.q3)-pct(q.q1));
+  const medLeft=pct(q.med);
+  return`<div class="section">
+    <h2>Distribuție conturi bancare <span style="font-weight:400;color:var(--text3);font-size:13px">· ${q.n} deputați cu declarație</span></h2>
+    <div style="margin:20px 0 10px;position:relative;height:20px;background:var(--bg3);border-radius:4px">
+      <div style="position:absolute;top:0;left:${barLeft}%;width:${barW}%;height:100%;background:var(--blue);opacity:0.3;border-radius:4px"></div>
+      <div style="position:absolute;top:-5px;left:${medLeft}%;width:2px;height:30px;background:var(--blue);border-radius:1px"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text3);flex-wrap:wrap;gap:4px">
+      <span>Min: ${fmtRON(q.min)}</span>
+      <span>Q1: ${fmtRON(q.q1)}</span>
+      <span>Median: ${fmtRON(q.med)}</span>
+      <span>Q3: ${fmtRON(q.q3)}</span>
+      <span>Max: ${fmtRON(q.max)}</span>
+    </div>
+  </div>`;
+}
+
+async function load(){
+  if(!PARTID){
+    showError('Parametru lipsă. Folosește URL: <code>partid.html?id=PSD</code>');
+    return;
+  }
+  let avereData,activData,avereAgg,depsResp;
+  try{
+    [avereData,activData,avereAgg,depsResp]=await Promise.all([
+      fetch(`data/v1/stats/avere-deputies-${LEG}.json`).then(r=>r.json()),
+      fetch(`data/v1/stats/activitate-deputies-${LEG}.json`).then(r=>r.json()),
+      fetch(`data/v1/stats/avere-${LEG}.json`).then(r=>r.json()).catch(()=>null),
+      fetch(`data/v1/deputati/legislatura-${LEG}.json`).then(r=>r.json()),
+    ]);
+  }catch(e){
+    showError('Eroare la încărcarea datelor: '+e.message);
+    return;
+  }
+
+  const PARTIES=avereData.parties||{};
+  const avereByIdm=Object.fromEntries(avereData.deputies.filter(d=>d.partid===PARTID).map(d=>[d.cdep_idm,d]));
+  const activByIdm=Object.fromEntries(activData.deputies.filter(d=>d.partid===PARTID).map(d=>[d.cdep_idm,d]));
+  const depsByIdm=Object.fromEntries(depsResp.data.map(d=>[d.cdep_idm,d]));
+
+  const allIdms=new Set([...Object.keys(avereByIdm),...Object.keys(activByIdm)].map(Number));
+  if(!allIdms.size){
+    showError(`Partidul «${PARTID}» nu a fost găsit în legislatura ${LEG}.`);
+    return;
+  }
+
+  DEPS_DATA=[...allIdms].map(idm=>{
+    const av=avereByIdm[idm]||{};
+    const ac=activByIdm[idm]||{};
+    const dep=depsByIdm[idm]||{};
+    return{cdep_idm:idm,name:av.name||ac.name||dep.name||String(idm),
+      image:av.image||ac.image||null,judet:dep.judet||'',...ac,...av};
+  });
+
+  const matchedDep=DEPS_DATA.map(d=>depsByIdm[d.cdep_idm]).find(d=>d?.current_party);
+  const fullName=matchedDep?.current_party||PARTID;
+  const group=matchedDep?.current_group||'';
+
+  const color=partyColor(PARTID);
+  const logo=PARTIES[PARTID];
+  const logoHtml=logo
+    ?`<img src="data/assets/imagini/partide/${logo}" alt="${PARTID}" onerror="this.style.display='none';this.nextSibling.style.display='flex'" style="width:140px;height:140px;object-fit:contain"><div style="display:none;width:140px;height:140px;border-radius:var(--radius);background:${color};align-items:center;justify-content:center;font-size:36px;font-weight:700;color:#fff">${PARTID}</div>`
+    :`<div style="width:140px;height:140px;border-radius:var(--radius);background:${color};display:flex;align-items:center;justify-content:center;font-size:36px;font-weight:700;color:#fff">${PARTID}</div>`;
+
+  const sum=key=>DEPS_DATA.reduce((s,d)=>s+(d[key]||0),0);
+
+  const perPartid=avereAgg?.per_partid?.find(p=>p.partid===PARTID);
+
+  const wealthHtml=perPartid?`
+    <div class="section">
+      <h2>Avere declarată <span style="font-weight:400;color:var(--text3);font-size:13px">· ${perPartid.n} deputați cu declarație</span></h2>
+      <div class="activitate">
+        <div class="act-card"><div class="act-num">${fmtRON(perPartid.median_conturi)}</div><div class="act-lbl">Median conturi</div></div>
+        <div class="act-card"><div class="act-num">${fmtRON(perPartid.median_venituri)}</div><div class="act-lbl">Median venituri</div></div>
+        <div class="act-card"><div class="act-num">${fmtRON(perPartid.median_datorii)}</div><div class="act-lbl">Median datorii</div></div>
+        <div class="act-card"><div class="act-num">${fmtNum(perPartid.total_imobile)}</div><div class="act-lbl">Total imobile</div></div>
+        <div class="act-card"><div class="act-num">${fmtMP(perPartid.total_suprafata_mp)}</div><div class="act-lbl">Suprafată totală</div></div>
+      </div>
+    </div>
+    ${renderBoxPlot(perPartid.conturi_values)}`:'';
+
+  const legToggleHtml=[2024,2020].map(l=>
+    `<a href="partid.html?id=${encodeURIComponent(PARTID)}&leg=${l}" style="padding:5px 10px;font-size:12px;border:1px solid var(--border2);border-radius:var(--radius-sm);background:${l===LEG?'var(--blue-bg)':'var(--bg)'};color:${l===LEG?'var(--blue)':'var(--text2)'};text-decoration:none">${l}</a>`
+  ).join('');
+
+  const sortBtnsHtml=`<div class="metric-btns" id="sort-btns">${
+    SORT_METRICS.map(m=>`<button class="metric-btn${m.key===sortMetric?' active':''}" data-metric="${m.key}">${m.label}</button>`).join('')
+  }</div>`;
+
+  document.title=`${fullName} — Camera Deputaților`;
+
+  document.getElementById('content').innerHTML=`
+    <div style="display:flex;justify-content:flex-end;margin-bottom:24px;gap:6px">${legToggleHtml}</div>
+    <div class="profile">
+      <div class="photo">${logoHtml}</div>
+      <div class="profile-info">
+        <h1>${fullName}</h1>
+        <div class="profile-meta">
+          <span class="tag" style="background:${color}22;color:${color}">${PARTID}</span>
+          <span class="tag tag-judet">${allIdms.size} deputați</span>
+          <span class="tag tag-circ">legislatura ${LEG}</span>
+        </div>
+        ${group?`<div class="bio-row"><strong>Grup parlamentar:</strong> ${group}</div>`:''}
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Activitate parlamentară <span style="font-weight:400;color:var(--text3);font-size:13px">· total în legislatura ${LEG}</span></h2>
+      <div class="activitate">
+        <div class="act-card"><div class="act-num">${fmtNum(sum('activitate_sedinte'))}</div><div class="act-lbl">Ședințe</div></div>
+        <div class="act-card"><div class="act-num">${fmtNum(sum('activitate_luari_cuvant'))}</div><div class="act-lbl">Luări cuvânt</div></div>
+        <div class="act-card"><div class="act-num">${fmtNum(sum('activitate_propuneri_legislative'))}</div><div class="act-lbl">Propuneri</div></div>
+        <div class="act-card"><div class="act-num">${fmtNum(sum('activitate_legi_promulgate'))}</div><div class="act-lbl">Legi</div></div>
+        <div class="act-card"><div class="act-num">${fmtNum(sum('activitate_intrebari_interpelari'))}</div><div class="act-lbl">Întrebări</div></div>
+        <div class="act-card"><div class="act-num">${fmtNum(sum('activitate_declaratii_politice'))}</div><div class="act-lbl">Declarații</div></div>
+      </div>
+    </div>
+
+    ${wealthHtml}
+
+    <div class="section">
+      <h2>Deputați (${allIdms.size})</h2>
+      ${sortBtnsHtml}
+      <div id="deps-grid"></div>
+    </div>
+  `;
+
+  document.getElementById('deps-grid').innerHTML=renderDepsGrid();
+
+  document.getElementById('sort-btns').addEventListener('click',e=>{
+    const btn=e.target.closest('.metric-btn');
+    if(!btn)return;
+    sortMetric=btn.dataset.metric;
+    document.querySelectorAll('#sort-btns .metric-btn').forEach(b=>b.classList.toggle('active',b===btn));
+    document.getElementById('deps-grid').innerHTML=renderDepsGrid();
+  });
+}
+
+function showError(msg){
+  document.getElementById('content').innerHTML=`<div class="error">${msg}</div>`;
+}
+
+load();
+</script>
+<script src="i18n.js"></script>
+</body>
+</html>

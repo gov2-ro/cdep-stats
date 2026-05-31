@@ -40,8 +40,11 @@ python scripts/build_web.py
 # Validate generated data
 PYTHONPATH=. python scripts/validate_data.py
 
-# Serve locally
+# Serve locally (HTML lives in web/, data in data/, assets in assets/)
+# web/data and web/assets are symlinks to ../data and ../assets (gitignored, local dev only)
+# If symlinks are missing: cd web && ln -sf ../data data && ln -sf ../assets assets && cd ..
 python -m http.server 8000
+# Then open: http://localhost:8000/web/
 ```
 
 ## Architecture
