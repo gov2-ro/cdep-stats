@@ -251,27 +251,26 @@ function wireListToolbar(){
     const btn=e.target.closest('.metric-btn');
     if(!btn)return;
     listMetric=btn.dataset.metric;
-    listSortKey=null;
-    document.querySelectorAll('#metric-btns .metric-btn').forEach(b=>b.classList.toggle('active',b===btn));
+    syncToolbar();
     renderList();
   });
   document.querySelectorAll('.subset-toggle [data-subset]').forEach(b=>{
     b.addEventListener('click',()=>{
       listSubset=b.dataset.subset;
-      listSortKey=null;
-      document.querySelectorAll('.subset-toggle [data-subset]').forEach(x=>x.classList.toggle('active',x===b));
+      syncToolbar();
       renderList();
     });
   });
-  // Sortable table headers (re-sorts the visible 50).
+  // Sortable table headers re-rank the FULL dataset by the clicked metric
+  // (not just the visible 50). Clicking the active column flips Top/Ultimii 50.
   document.getElementById('dep-list').addEventListener('click',e=>{
     const th=e.target.closest('[data-sort]');
     if(!th)return;
     const key=th.dataset.sort;
-    if(listSortKey===key){
-      if(listSortDir==='desc')listSortDir='asc';
-      else{listSortKey=null;listSortDir='desc';}
-    }else{listSortKey=key;listSortDir='desc';}
+    if(!METRIC_BY_KEY[key])return;
+    if(listMetric===key){listSubset=listSubset==='top'?'bottom':'top';}
+    else{listMetric=key;listSubset='top';}
+    syncToolbar();
     renderList();
   });
 }
@@ -283,7 +282,7 @@ function wireListToolbar(){
     const item=e.target.closest('#dep-list .dep-item');
     if(!item){tip.style.display='none';return;}
     const raw=item.dataset.value;const v=raw===''?null:Number(raw);
-    tip.textContent=`${item.dataset.name} · ${item.dataset.partid} · ${AVERE.fmtVal(v,listMetric)}`;
+    tip.textContent=`${item.dataset.name} · ${item.dataset.partid} · ${AVERE.fmtVal(v,activeMetric().fmt)}`;
     tip.style.display='block';
   });
   document.addEventListener('mousemove',e=>{tip.style.left=(e.clientX+14)+'px';tip.style.top=(e.clientY-32)+'px';});
@@ -347,8 +346,8 @@ async function load(){
   }catch(e){ DEPUTIES=[]; PARTIES={}; }
 
   const c=d.cards;
-  const mbtns=Object.entries(METRIC_LABELS)
-    .map(([k,l])=>`<button class="metric-btn${k===listMetric?' active':''}" data-metric="${k}">${l}</button>`).join('');
+  const mbtns=METRICS
+    .map(m=>`<button class="metric-btn${m.key===listMetric?' active':''}" data-metric="${m.key}">${m.label}</button>`).join('');
 
   document.getElementById('content').innerHTML = `
     <div style="display:flex;align-items:center;gap:12px;margin-bottom:6px;flex-wrap:wrap">

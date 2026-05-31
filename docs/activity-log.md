@@ -71,9 +71,19 @@ monitorul.ai profiles. The `idm_lookup` file specifically supports resolving cde
   pages now render from one source instead of diverging copies.
 
 **Decisions**
-- Top/Bottom 50 rank by the selected metric over deputies *with* a declaration (nulls excluded);
-  bottom view sorts ascending. The 3 evolution values are table-only columns (not in the metric
-  selector / circle sizing), matching the user's "keep these columns" intent.
+- **Ranking spans the full dataset, not the visible 50.** The old "Topuri" leaderboard ranked every
+  deputy per metric; an early version of the merged list only re-sorted the on-screen 50, which the
+  user rejected. The list now ranks all 332 deputies by the active metric and slices Top/Ultimii 50
+  from that. Clicking a sortable table header sets that column as the active metric (re-ranking the
+  whole dataset) and flips Top↔Ultimii on repeat clicks. Built on a `METRICS` registry of 9 rankable
+  metrics, each with a `val(d)` returning a positive magnitude (null = excluded); `scadere` returns
+  `-delta_conturi_ron` so biggest drops rank first.
+- The 3 evolution metrics (*Creștere conturi*, *Scădere conturi*, *Imobile noi în mandat*) are
+  therefore **first-class rankable metrics** — selectable in the metric bar and used for circle
+  sizing — in addition to being table columns. They're computed from `delta_conturi_ron` /
+  `delta_imobile` (sign-filtered), so only deputies with ≥2 declarations and a matching direction
+  appear in those rankings (75 / 22 / 9 deputies respectively for 2024).
+- Top/Bottom 50 rank over deputies *with* a value for the active metric (nulls excluded).
 - i18n stays light (footer/loading only), per the existing dashboard convention — the new toolbar
   labels are literal Romanian, like the metric buttons always were. Dropped the now-unused
   `card_averepp_desc` i18n key.
@@ -81,8 +91,12 @@ monitorul.ai profiles. The `idm_lookup` file specifically supports resolving cde
   pre-existing 404 on both pages.
 
 **Verification** — `pytest tests/test_build_avere_deputies.py` green (incl. new evolution-field
-test); `ruff` clean; `node --check assets/avere-list.js` OK. Browser: merged page renders with 0
-console errors, Top/Bottom 50 + metric switch + Cercuri/Tabel + column sort all work, `Lista
+test); `ruff` clean; `node --check` OK on both the inline `avere.html` script and
+`assets/avere-list.js`. Full-dataset ranking checked with a node simulation against the real
+`avere-deputies-2024.json`: conturi top = Becali George 32.1M (the corrected value, not the stale
+385M), and crestere/scadere/imobile_noi rank 75/22/9 deputies across the whole set; `renderTable`
+emits `data-sort="scadere"` for derived columns. Earlier browser pass (pre-ranking-rework): merged
+page rendered with 0 console errors, Top/Bottom 50 + metric switch + Cercuri/Tabel work, `Lista
 completă ↗` opens deputati-avere.html in the right state, 2024 & 2020 both load, no mobile overflow
 at 390px; `Averi++` gone from every nav.
 
