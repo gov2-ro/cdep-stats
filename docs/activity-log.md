@@ -2,6 +2,34 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-05-31 — CDEP → Monitorul.ai correspondence list
+
+**What was done**
+- Created a correspondence list mapping all cdep.ro deputies (786 unique, 1,050 entries across
+  legislatures 2016/2020/2024) to their monitorul.ai profiles.
+- The `monitorul_id` slug is derived algorithmically from the deputy name (lowercase → strip
+  diacritics → spaces→hyphens). Verified 50 random samples via `mcp__monitorul__search_persons`:
+  **86% exact match** (43/50). All 50 were found by search even when the slug differed.
+- 9 known mismatches fixed manually (name-order reversals, short forms, dropped middle names).
+- Three files written to `data/v1/correspondence/`:
+  - `monitorul_cdep.json` — full correspondence with metadata, all ID systems, verification status.
+  - `monitorul_cdep_lookup.json` — quick map `cdep_id → monitorul profile`.
+  - `monitorul_idm_lookup.json` — quick map `"{idm}_{leg}" → monitorul profile` for cdep.ro URL lookups.
+- Added `cdep_idm` (numerical cdep.ro ID), `cdep_url` (profile URL), `family_name`, and `given_name`
+  to each entry alongside the monitorul fields.
+
+**Why**
+The monitorul.ai MCP provides rich parliamentary speech data keyed by `person_id`. This
+correspondence bridges the two datasets, enabling cross-linking between cdep deputy pages and
+monitorul.ai profiles. The `idm_lookup` file specifically supports resolving cdep.ro URLs like
+`?idm=319&leg=2024` directly to monitorul profiles.
+
+**How to apply**
+- Use `monitorul_cdep_lookup.json` for `cdep_id → monitorul` lookups in the app.
+- Use `monitorul_idm_lookup.json` when starting from a cdep.ro URL.
+- To verify/fix entries: call `mcp__monitorul__search_persons(q="Deputy Name")` and take the first
+  non-"înlocuit"/"online" result's `person_id`.
+
 ### 2026-05-31 — Merge avere.html + deputati-avere.html into one wealth page
 
 **What was done**
