@@ -2,6 +2,21 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-01 — Fix missing i18n.js in web/ (profile_monitorul key rendered literally)
+
+**What was done**
+- `i18n.js` was deleted from the project root as part of the move to `web/` but was never added to
+  `web/`. The deployed site had an older `i18n.js` without the `profile_monitorul` key, so
+  `applyI18n()` replaced the element text with the bare key string instead of "Profil monitorul.ai".
+- Restored `web/i18n.js` from git HEAD (which includes both the RO and EN translations for
+  `profile_monitorul`).
+- Updated `scripts/build_web.py` to include `web/*.js` files in `deploy.zip` alongside `web/*.html`.
+
+**Why**
+The `profile_monitorul` key was added to `i18n.js` at the same commit as the monitorul.ai link
+feature (`6fc4a2dcb`). When `i18n.js` was removed from the root without being placed in `web/`, the
+fallback in `t(key)` kicked in — returning the key name itself when not found in the translation dict.
+
 ### 2026-06-01 — Create deployment folder structure for shared hosting
 
 **What was done**
