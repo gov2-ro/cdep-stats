@@ -42,7 +42,11 @@
 <footer class="footer">
   <span><span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API: <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a> · <span data-i18n="license">Licență</span>: Open Government License v3.0</span>
   ${extraHtml || ""}
-</footer>`;
+</footer>
+<!-- 100% privacy-first analytics -->
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
+`;
   }
 
   global.NAV = { renderHeader, renderFooter };
