@@ -22,15 +22,16 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 
 - [x] interpelari-stats.html is broken — fixed 2026-06-01
 
-- [ ] **[SYSTEMIC] Eliminate recurring "set properties of null" errors in page JS**
-  - Pattern repeats: interpelari-stats.html, avere.html, deputati-activitate.html all had dead code trying to set `.href`/`.textContent` on non-existent `#json-link` or `#leg-toggle` elements.
-  - Root cause: pages written with assumptions about DOM structure that later changed (or elements removed without updating JS).
-  - Solutions to implement (pick one or combine):
-    1. **Defensive checks**: Wrap all `document.getElementById().property = ...` in `if(el) { el.property = ... }` checks throughout pages.
-    2. **Consolidate metadata into nav.js**: Move "JSON link" + "leg toggle" into nav.js so all pages get consistent, working versions without code duplication.
-    3. **Linting rule**: Add ESLint rule to flag `getElementById(...).` without null check (catches at build time, not runtime).
-    4. **Template refactor**: Extract repeated header/footer/toggle patterns into HTML `<template>` tags or JS includes so they're defined once.
-  - High priority: this breaks pages silently (console errors, missing features) and recurs because the pattern isn't enforced.
+- [x] **[SYSTEMIC] Eliminate recurring "set properties of null" errors in page JS** — in progress
+  - **Completed:** Consolidated leg toggle into `NAV.renderLegToggle()` in nav.js (2026-06-01).
+    - Updated: interpelari-stats.html, avere.html, deputati-activitate.html, voturi.html
+    - Removed: dead code trying to access non-existent `#json-link` and hardcoded leg toggles
+    - Single source of truth for leg toggle logic (one place to fix, all pages inherit fix)
+  - **Still TODO:**
+    1. **Consolidate JSON link into nav.js**: Add `NAV.renderJsonLink(url)` and update footer to include it
+    2. **Defensive checks**: Add null checks to any remaining direct DOM manipulations (e.g., in avere-list.js, other modules)
+    3. **Linting rule**: Add ESLint rule to catch `getElementById(...).` without null check at build time
+  - Status: pattern broken, pages refactored; systemic solution in progress
 
 - [ ] **vot.html: cross-link to bill description from proiecte data**
   - Currently vot.html shows only `descriere` ("Vot final adoptare") — no semantic context for what was voted on.
