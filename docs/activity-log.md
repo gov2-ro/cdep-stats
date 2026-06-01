@@ -2,6 +2,31 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-01 — Build voturi.html (vote list) and vot.html (vote detail) pages
+
+**What was done**
+- Created `voturi.html`: paginated list of all votes from `data/v1/voturi/{leg}/_index.json` with 50 votes per page, sorted by date descending.
+  - Vote summary shows counts: pentru/contra/abțineri/nu_au_votat and links to detail page.
+  - Legislature toggle (2024/2020) to switch between legislatures: 885 votes in 2024, 3,617 in 2020.
+  - Full pagination with "Primă / Ultimă" and page number navigation.
+- Created `vot.html`: individual vote detail page showing every deputy's choice for a specific vote + party discipline analysis.
+  - Vote header shows: descriere (bill), timestamp, vote outcome (ADOPTAT/RESPINS based on >50% threshold).
+  - Summary cards: total votes (pentru/contra/abțineri/nu_au_votat).
+  - Party discipline table: per-party breakdown with "coeziune" % (% voting majority opinion within party).
+  - Full deputy roster: deputy name, party, vote choice (avec color badge: verde pentru, roșu împotrivă, ambra abținere, gri absent).
+  - Cross-links: voturi.html lists link to vot.html?leg={leg}&id={idv}, vot.html links back to voturi.html?leg={leg}.
+
+**Why**
+Both pages were removed from the original codebase because they bloated the deployment archive (4,500+ individual vote JSON files). The rsync deployment strategy (added to backlog) unblocks these pages — the data files stay on the server permanently, so serving them is now zero-cost. These pages provide high civic value: citizens can inspect individual votes, see how their deputies voted, and analyze party discipline/cohesion on specific bills.
+
+**Decisions**
+- Page limit: 50 votes per page for voturi.html — balances readability vs. one-page load time.
+- Party discipline metric: chose "coeziune %" = (majority_votes / total_votes) per party on that bill, which is simple and meaningful.
+- Vote outcome: >50% threshold (for/contre) determines ADOPTAT vs. RESPINS (not using prezenti as denominator to avoid skewing by absences).
+- Sorted descending by timestamp so newest votes appear first in the list.
+
+---
+
 ### 2026-06-01 — Fix interpelari-stats.html (broken party color mapping)
 
 **What was done**
