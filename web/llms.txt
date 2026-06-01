@@ -1,0 +1,39 @@
+# CDEP Stats — Camera Deputaților România
+
+Date publice despre activitatea parlamentară a Camerei Deputaților României, preluate din surse oficiale (cdep.ro) și puse la dispoziție în format JSON deschis.
+
+## Ce conține
+
+- **Deputați**: 335 deputați în legislatura 2024. Profil complet: partid, județ, comisii, activitate parlamentară (ședințe, luări de cuvânt, propuneri legislative, legi promulgate, interpelări).
+- **Averi**: Declarații de avere parsate din PDF-urile ANI. Conturi bancare, venituri, imobile, vehicule, plasamente, datorii — per deputat și agregate pe partid.
+- **Voturi**: 885 voturi (2024), 3617 (2020). Fiecare vot include distribuție nominală per deputat + coeziune de partid.
+- **Proiecte legislative**: 1700 proiecte (2024). Titlu, inițiator, stadiu (în lucru / adoptat / promulgat / respins), timeline procedural, amendamente.
+- **Interpelări**: 9758 interpelări și întrebări scrise (2024). Per deputat, per minister, rată răspuns.
+- **Comisii**: 37 comisii parlamentare permanente și speciale (2024). Componență completă cu rol per deputat.
+- **Moțiuni**: 162 moțiuni simple (1992–2024).
+- **Ordine de zi**: Agendele ședințelor plenare (2024).
+- **Declarații de interese**: Linkuri PDF ANI pentru toți deputații.
+
+## Date JSON
+
+Date disponibile la: `https://lab.gov2.ro/cdep/data/v1/`
+
+Structură:
+- `deputati/legislatura-{leg}.json` — toți deputații cu activitate agregată
+- `voturi/{leg}/_index.json` — index voturi cu totalizatoare
+- `voturi/{leg}/{id}.json` — vot individual cu voturi nominale
+- `proiecte/legislatura-{leg}/{an}.json` — proiecte pe an
+- `interpelari/legislatura-{leg}.json` — interpelări
+- `comisii/legislatura-{leg}.json` — comisii cu componență
+- `motiuni/legislatura-{leg}.json` — moțiuni
+- `declaratii-avere/legislatura-{leg}/{idm}.json` — declarație avere per deputat
+- `stats/home-{leg}.json` — numărători agregate
+- `stats/avere-{leg}.json` — statistici avere pe partide
+
+Legislature disponibile: 2024, 2020, 2016 (parțial).
+
+## Surse
+
+Date preluate din sursele publice ale Camerei Deputaților România (cdep.ro), conform Open Government License v3.0. Acesta nu este un proiect oficial al Guvernului României.
+
+Cod sursă: https://github.com/gov2-ro/cdep-stats

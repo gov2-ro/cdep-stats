@@ -97,5 +97,19 @@
     return html;
   }
 
-  global.NAV = { renderHeader, renderFooter, renderLegToggle, renderPageMeta };
+  function setPageMeta(title, description) {
+    if (title) {
+      document.title = title + ' — Camera Deputaților';
+      const ogTitle = document.querySelector('meta[property="og:title"]');
+      if (ogTitle) ogTitle.content = title;
+    }
+    if (description) {
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) metaDesc.content = description;
+      const ogDesc = document.querySelector('meta[property="og:description"]');
+      if (ogDesc) ogDesc.content = description;
+    }
+  }
+
+  global.NAV = { renderHeader, renderFooter, renderLegToggle, renderPageMeta, setPageMeta };
 })(window);

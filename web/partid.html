@@ -260,7 +260,7 @@ async function load(){
     SORT_METRICS.map(m=>`<button class="metric-btn${m.key===sortMetric?' active':''}" data-metric="${m.key}">${m.label}</button>`).join('')
   }</div>`;
 
-  document.title=`${fullName} — Camera Deputaților`;
+  NAV.setPageMeta(fullName, `${fullName} · ${allIdms.size} deputați în legislatura ${LEG} · activitate parlamentară și averi declarate`);
 
   document.getElementById('content').innerHTML=`
     <div style="display:flex;justify-content:flex-end;margin-bottom:24px;gap:6px">${legToggleHtml}</div>

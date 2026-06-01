@@ -151,6 +151,43 @@ function tipShort(t){
   return t||'?';
 }
 
+// --- Vote cross-link helpers ---
+function extractBillKey(nr){
+  const m = (nr||'').match(/(\d+\/\d{4})/);
+  return m ? m[1] : null;
+}
+
+function findMatchingVote(bill, votIdx){
+  if(!votIdx?.length) return null;
+  const key = extractBillKey(bill.nr_inregistrare) || extractBillKey(bill.nr_camera_deputati);
+  if(!key) return null;
+  return votIdx.find(v=>{
+    const d = v.descriere||'';
+    return d.includes(key) && (d.includes('final') || d.toLowerCase().includes('vot'));
+  }) || null;
+}
+
+function renderVoteLink(voteItem, leg){
+  if(!voteItem) return '';
+  const adopted = (voteItem.counts?.pentru||0) > (voteItem.counts?.contra||0);
+  const badge = adopted
+    ? `<span style="font-size:10px;padding:2px 7px;border-radius:3px;background:var(--green-bg);color:var(--green-text);font-weight:600">Adoptat</span>`
+    : `<span style="font-size:10px;padding:2px 7px;border-radius:3px;background:var(--red-bg);color:var(--red-text);font-weight:600">Respins</span>`;
+  const c = voteItem.counts||{};
+  return `<div style="margin-bottom:20px;padding:12px 14px;background:var(--bg2);border-radius:var(--radius);display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+    <div style="flex:1;min-width:0">
+      <div style="font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:.4px;margin-bottom:4px">Vot final în plen</div>
+      <a href="vot.html?id=${voteItem.cdep_idv}&leg=${leg}" style="font-size:13px;font-weight:500">${voteItem.descriere||'Vot final'} ↗</a>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center;flex-shrink:0">
+      ${badge}
+      <span style="font-size:12px;color:var(--green-text)">✓ ${c.pentru||0}</span>
+      <span style="font-size:12px;color:var(--red-text)">✗ ${c.contra||0}</span>
+      ${c.abtineri?`<span style="font-size:12px;color:var(--text3)">~ ${c.abtineri}</span>`:''}
+    </div>
+  </div>`;
+}
+
 // --- Detail view ---
 function renderTimeline(events){
   if(!events||!events.length) return '';
@@ -161,7 +198,7 @@ function renderTimeline(events){
   return`<div class="section"><h2>Calendar</h2><div class="timeline">${rows}</div></div>`;
 }
 
-function renderBillDetail(p){
+function renderBillDetail(p, voteItem=null){
   const stadiu = p.stadiu||'';
   const stadiuTagClass = stadiu==='promulgat'?'tag-stadiu-promulgat':stadiu==='adoptat'?'tag-stadiu-adoptat':stadiu==='respins'?'tag-stadiu-respins':'tag-stadiu-lucru';
   const tipTag = p.tip?`<span class="tag tag-tip">${tipShort(p.tip)}</span>`:'';
@@ -188,7 +225,7 @@ function renderBillDetail(p){
 
   const cdepLink = p.source_url?`<div class="meta-row"><a href="${p.source_url}" target="_blank" rel="noopener">Fișă completă pe cdep.ro ↗</a></div>`:'';
 
-  document.title = `${(p.titlu||'Proiect').slice(0,60)}… — Camera Deputaților`;
+  NAV.setPageMeta((p.titlu||'Proiect').slice(0,70), `${p.nr_inregistrare||''} · ${p.initiator||''} · stadiu: ${stadiuLabel(p.stadiu||'')} · Camera Deputaților`);
 
   return`
     <div class="bill-header">
@@ -202,6 +239,7 @@ function renderBillDetail(p){
       ${cdepLink}
     </div>
     ${votHtml}
+    ${renderVoteLink(voteItem, LEG)}
     ${renderTimeline(p.timeline)}
     ${docsHtml}
   `;
@@ -290,11 +328,13 @@ async function loadList(){
 
 async function loadDetail(idp){
   try{
-    const responses = await Promise.all(
-      yearFiles.map(y=>fetch(`data/v1/proiecte/legislatura-${LEG}/${y}.json`).then(r=>r.ok?r.json():null).catch(()=>null))
-    );
+    const [proiecteResps, votIdxResp] = await Promise.all([
+      Promise.all(yearFiles.map(y=>fetch(`data/v1/proiecte/legislatura-${LEG}/${y}.json`).then(r=>r.ok?r.json():null).catch(()=>null))),
+      fetch(`data/v1/voturi/${LEG}/_index.json`).then(r=>r.ok?r.json():null).catch(()=>null),
+    ]);
+    const votIdx = votIdxResp?.data || [];
     let bill = null;
-    for(const resp of responses){
+    for(const resp of proiecteResps){
       const items = resp?.data || (Array.isArray(resp) ? resp : []);
       bill = items.find(p=>String(p.cdep_idp)===String(idp));
       if(bill) break;
@@ -309,7 +349,8 @@ async function loadDetail(idp){
         </div>`;
       return;
     }
-    document.getElementById('content').innerHTML = renderBillDetail(bill);
+    const voteItem = findMatchingVote(bill, votIdx);
+    document.getElementById('content').innerHTML = renderBillDetail(bill, voteItem);
   }catch(e){
     document.getElementById('content').innerHTML=
       `<div class="error">Eroare: ${e.message}</div>`;

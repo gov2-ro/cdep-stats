@@ -163,6 +163,7 @@ async function load(){
     const v = d.data;
 
     document.getElementById('back-link').href = `voturi.html?leg=${LEG}`;
+    NAV.setPageMeta(v.descriere, `Vot Camera Deputaților · ${v.counts.pentru} pentru, ${v.counts.contra} contra · ${v.descriere}`);
 
     const passed = v.counts.pentru > (v.counts.prezenti / 2);
     const outcome = passed ? 'ADOPTAT' : 'RESPINS';

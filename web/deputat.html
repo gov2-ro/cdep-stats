@@ -408,9 +408,8 @@ async function loadDeputat() {
     return;
   }
 
-  document.title = `${dep.name} — Camera Deputaților`;
-
   const partid = partyShort(dep.current_party);
+  NAV.setPageMeta(dep.name, `Deputat ${partid} · ${dep.judet || ''} · Activitate, avere și voturi · Camera Deputaților`);
   const initials = (dep.name || '?').split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join('').toUpperCase();
   const photoBlock = dep.image
     ? `<img src="${dep.image}" alt="${dep.name}" onerror="this.parentNode.innerHTML='${initials}'">`

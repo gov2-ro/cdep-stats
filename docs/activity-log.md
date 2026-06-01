@@ -2,6 +2,20 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-01 — SEO, proiect↔vot cross-links, llms.txt, sitemap
+
+**What was done**
+- `CLAUDE.md` — added `build_proiecte_index.py`, `build_sitemap_xml.py`, and `deploy.sh` to commands.
+- `web/proiect.html` — detail view fetches voturi index in parallel; shows "Vot final în plen" card linking to `vot.html?id=...` when a matching vote is found. Match extracts `NNN/YYYY` from `nr_inregistrare`. Currently latent (voted bills are in `necunoscut.json` without `data_inregistrare_cd`), but code is correct.
+- `assets/nav.js` — added `NAV.setPageMeta(title, desc)`: updates `document.title`, `og:title`, `meta[name=description]`, `og:description` in one call.
+- `web/deputat.html`, `web/vot.html`, `web/partid.html`, `web/proiect.html` — all call `NAV.setPageMeta()` after data loads; social previews and JS crawlers now see specific titles instead of generic HTML defaults.
+- `scripts/build_sitemap_xml.py` — rewritten with correct base URL (`lab.gov2.ro/cdep`), all 14 static pages, 335 deputy profiles, 7 party profiles, 100 recent votes, 52 year-file bills → 504 URLs. Output: `web/sitemap.xml`.
+- `web/llms.txt` (new) — plain-text data overview for LLM crawlers: data types, JSON path structure, legislatures, license.
+
+**Decisions**
+- Sitemap goes to `web/sitemap.xml` (not repo root) so it's included in deploy via `build_web.py` without changes.
+- `llms.txt` follows emerging convention; lists data endpoints so AI assistants can cite the JSON API.
+
 ### 2026-06-01 — Cross-links, compact UI, deploy script
 
 **What was done**
