@@ -89,9 +89,14 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 - [x] OG info
   - [x] fix og:image
 - [x] move html files in folder, not root. — created `web/` deployment folder with build script (2026-06-01)
-- [ ] look into Declarații de interese
+- [x] look into Declarații de interese
 - [ ] show cars, homes, terenuri as icons, one per each? - relative to suprafata or kph?
+- [ ] ce fel de vehicole, șalupe, tractoare, motociclete?
+- [ ] car brands stats/charts, overall, per party, per judet, per age group?
+- [ ] ce înseamnă coloana partid în /interese?
 - [x] **Remove dead CSS rules in deputati-avere.html and deputati-activitate.html** — done 2026-05-31; removed `.metric-select`, `.search-input`, `.party-chips`, `.party-chip` rules.
+- [ ] cele mai preferate mărci de mașini / pe partid, pe județ, pe vârstă
+
 
 - [ ] make more static? we generate static but load data from json?! is this SEO friendly?
 - [ ] create llms.txt
