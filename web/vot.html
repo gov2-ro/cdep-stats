@@ -119,11 +119,47 @@ function getVoteClass(opt){
   return opt==='yes'?'vote-yes':opt==='no'?'vote-no':opt==='abstain'?'vote-abstain':'vote-absent';
 }
 
+function parseBillNr(desc){
+  const m = (desc||'').match(/PL[-\s]?[xX]?\s*(?:nr\.?\s*)?(\d+\/\d{4})/i);
+  return m ? m[1] : null;
+}
+
+function normNr(nr){
+  const m = (nr||'').match(/(\d+\/\d{4})/);
+  return m ? m[1] : null;
+}
+
+function buildBillLink(descriere, leg, indexData){
+  const key = parseBillNr(descriere);
+  if(!key) return '';
+  if(indexData){
+    const bill = indexData.find(p => normNr(p.nr_inregistrare) === key || normNr(p.nr_camera_deputati) === key);
+    if(bill){
+      const titlu = bill.titlu ? bill.titlu.slice(0,120)+(bill.titlu.length>120?'…':'') : key;
+      return `<div style="margin-bottom:20px;padding:12px 14px;background:var(--blue-bg);border-radius:var(--radius);border-left:3px solid var(--blue)">
+        <div style="font-size:11px;color:var(--blue-text);text-transform:uppercase;letter-spacing:.4px;margin-bottom:4px">Proiect de lege</div>
+        <a href="proiect.html?idp=${bill.cdep_idp}&leg=${leg}" style="font-size:13px;font-weight:500">${titlu}</a>
+        <span style="font-size:11px;color:var(--text3);margin-left:8px">${key}</span>
+      </div>`;
+    }
+  }
+  // Bill not in local index — link to cdep.ro
+  const cdepUrl = `https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&leg=${leg}&idp=`;
+  return `<div style="margin-bottom:20px;padding:10px 14px;background:var(--bg2);border-radius:var(--radius)">
+    <span style="font-size:12px;color:var(--text3)">Proiect ${key} · </span>
+    <a href="https://www.cdep.ro/pls/proiecte/upl_pck2015.cauta2015.page?cam=2&leg=${leg}&tip=&nr=${key.split('/')[0]}&an=${key.split('/')[1]}" target="_blank" rel="noopener" style="font-size:12px">Caută pe cdep.ro ↗</a>
+  </div>`;
+}
+
 async function load(){
   try{
-    const res = await fetch(DATA_URL);
-    if(!res.ok) throw new Error(res.statusText);
-    const d = await res.json();
+    const [voteRes, idxRes] = await Promise.all([
+      fetch(DATA_URL),
+      fetch(`data/v1/stats/proiecte-index-${LEG}.json`).catch(()=>null),
+    ]);
+    if(!voteRes.ok) throw new Error(voteRes.statusText);
+    const d = await voteRes.json();
+    const idxData = idxRes?.ok ? (await idxRes.json()).data : null;
     const v = d.data;
 
     document.getElementById('back-link').href = `voturi.html?leg=${LEG}`;
@@ -172,6 +208,7 @@ async function load(){
     ).join('');
 
     document.getElementById('content').innerHTML = `
+      ${buildBillLink(v.descriere, LEG, idxData)}
       <h1>${v.descriere}</h1>
       <p class="sub">${formatDate(v.timestamp)}</p>
 

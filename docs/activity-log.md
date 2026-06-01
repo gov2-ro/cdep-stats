@@ -2,6 +2,21 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-01 — Cross-links, compact UI, deploy script
+
+**What was done**
+- `scripts/build_proiecte_index.py` (new) — reads all proiecte files including `necunoscut.json` and emits `data/v1/stats/proiecte-index-{leg}.json` (846 KB for 2024, 1.9 MB for 2020): just `{cdep_idp, nr_inregistrare, nr_camera_deputati, titlu, stadiu, tip, source_url}` per bill. Separators compressed (no extra whitespace).
+- `web/vot.html` — bill cross-link: fetches the proiecte index in parallel with the vote data, parses bill number from `descriere` with regex, renders a blue callout card linking to `proiect.html?idp=...` if found locally, else a fallback link to cdep.ro search. Also fixed `index.html` vote links to use `cdep_idv` (numeric) not `v.id` (UUID).
+- `web/deputat.html` — each committee name is now a link to `comisii.html?leg=...`.
+- `web/partid.html` — compact deputy roster: photo 28×28 (was 40×40), padding 5px (was 10px), judet inline after name with "·" separator (was a second div row). Row height ~39px.
+- `web/index.html` — 6 new dash-cards (Voturi, Comisii, Moțiuni, Agendă, Interese, Legi); card grid compacted to `minmax(180px,1fr)` with 8px gap and 12px padding (was 220px/12px/16px).
+- `scripts/deploy.sh` (new) — two-pass rsync deploy replacing `build_web.py + scp+unzip`: pass 1 uses `--checksum` for stable/large dirs (voturi, declaratii-avere, proiecte); pass 2 uses `--delete` for HTML/assets/stats. Supports `DRY=1` dry-run.
+
+**Decisions**
+- Bill index is NOT included as a build step in a scraper chain — it reads existing `data/v1/proiecte/` files that are already on disk after `run_proiecte.py`. Run once after scraping, or add to refresh pipeline manually.
+- `necunoscut.json` stays excluded from deploy archive (too large) but IS read by `build_proiecte_index.py` at build time to populate the thin index.
+- `deploy.sh` is a standalone script, not wired into any CI yet — needs host credentials to run.
+
 ### 2026-06-01 — Nav overhaul + index.html polish
 
 **What was done**

@@ -90,12 +90,12 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
 .section-header h2{font-size:16px;font-weight:600}
 
 /* Dashboard entry cards */
-.dash-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-bottom:40px}
-.dash-card{display:block;border:1px solid var(--border);border-radius:var(--radius);padding:16px;background:var(--bg);text-decoration:none;color:inherit;transition:border-color .15s,transform .15s}
+.dash-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px;margin-bottom:32px}
+.dash-card{display:block;border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px;background:var(--bg);text-decoration:none;color:inherit;transition:border-color .15s,transform .15s}
 .dash-card:hover{border-color:var(--green);text-decoration:none;transform:translateY(-2px)}
-.dc-title{font-size:15px;font-weight:600;margin-bottom:5px;display:flex;align-items:center;gap:8px}
-.dc-ico{font-size:18px;line-height:1}
-.dc-desc{font-size:12.5px;color:var(--text2);line-height:1.5}
+.dc-title{font-size:13px;font-weight:600;margin-bottom:3px;display:flex;align-items:center;gap:6px}
+.dc-ico{font-size:16px;line-height:1}
+.dc-desc{font-size:11.5px;color:var(--text2);line-height:1.4}
 
 /* Demo cards (widgets) */
 .demo-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:40px}
@@ -176,6 +176,12 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
     <a class="dash-card" href="proiecte-stats.html"><div class="dc-title"><span class="dc-ico">📜</span> Proiecte</div><div class="dc-desc" data-i18n="card_proiecte_desc">Fluxul legislativ: înregistrate → adoptate → promulgate.</div></a>
     <a class="dash-card" href="partide.html"><div class="dc-title"><span class="dc-ico">🏛️</span> Partide</div><div class="dc-desc" data-i18n="card_partide_desc">Comparație între grupurile parlamentare.</div></a>
     <a class="dash-card" href="judete.html"><div class="dc-title"><span class="dc-ico">🗺️</span> Județe</div><div class="dc-desc" data-i18n="card_judete_desc">Deputați și averi, defalcate pe județ.</div></a>
+    <a class="dash-card" href="voturi.html"><div class="dc-title"><span class="dc-ico">🗳️</span> Voturi</div><div class="dc-desc">Toate voturile finale — rezultate și defalcare pe deputați.</div></a>
+    <a class="dash-card" href="comisii.html"><div class="dc-title"><span class="dc-ico">📋</span> Comisii</div><div class="dc-desc">Comisii parlamentare permanente și speciale — componență.</div></a>
+    <a class="dash-card" href="motiuni.html"><div class="dc-title"><span class="dc-ico">⚖️</span> Moțiuni</div><div class="dc-desc">Moțiuni simple 1992–2024 — inițiatori și rezultate.</div></a>
+    <a class="dash-card" href="ordine-zi.html"><div class="dc-title"><span class="dc-ico">📅</span> Agendă</div><div class="dc-desc">Ordinea de zi a ședințelor — ce se dezbate în plen.</div></a>
+    <a class="dash-card" href="interese.html"><div class="dc-title"><span class="dc-ico">📄</span> Interese</div><div class="dc-desc">Declarații de interese ale deputaților — PDF-uri ANI.</div></a>
+    <a class="dash-card" href="proiect.html"><div class="dc-title"><span class="dc-ico">📝</span> Legi</div><div class="dc-desc">Browser proiecte legislative cu dată înregistrare.</div></a>
   </div>
 
   <div class="demo-grid">
@@ -441,7 +447,7 @@ function renderVoturi(votes) {
     const c = v.counts;
     const adopted = c.pentru > c.contra;
     return `<div class="vote-row">
-      <div class="vote-title"><a href="vot.html?id=${v.id}&leg=2024" style="color:inherit">${v.descriere}</a></div>
+      <div class="vote-title"><a href="vot.html?id=${v.cdep_idv}&leg=2024" style="color:inherit">${v.descriere}</a></div>
       <div class="vote-meta">${fmtDate(v.timestamp)}</div>
       <div class="vote-nums">
         <span class="vnum vfor">✓ ${c.pentru}</span>

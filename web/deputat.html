@@ -440,7 +440,8 @@ async function loadDeputat() {
 
   const comisiiHtml = (dep.comisii || []).map(c => `
     <div class="list-item">
-      ${c.comisia} <span style="color:var(--text3)">(${c.tip})</span>
+      <a href="comisii.html?leg=${leg}" style="color:inherit">${c.comisia}</a>
+      <span style="color:var(--text3)"> (${c.tip})</span>
       ${c.rol && c.rol !== 'Membru' ? `<span class="rol">${c.rol}</span>` : ''}
     </div>
   `).join('') || '<div style="color:var(--text3);padding:14px 0">Nicio comisie listată.</div>';
