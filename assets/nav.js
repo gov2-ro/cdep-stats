@@ -33,7 +33,7 @@
     document.getElementById("site-header").innerHTML = `
 <style>
 /* nav layout — injected by nav.js, overrides per-page defaults */
-.header-inner{display:flex!important;flex-wrap:wrap!important;align-items:center!important;gap:2px!important;padding:6px 16px!important}
+.header-inner{display:flex!important;flex-wrap:wrap!important;align-items:center!important;justify-content:flex-start!important;gap:2px!important;padding:6px 16px!important}
 .logo{white-space:nowrap!important;flex-shrink:0;font-size:14px!important;margin-right:4px;padding:3px 6px!important;line-height:1.4}
 .nav{display:contents}
 .nav a{font-size:12px!important;padding:3px 7px!important;white-space:nowrap}
