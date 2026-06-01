@@ -32,22 +32,21 @@
     ).join("");
     document.getElementById("site-header").innerHTML = `
 <style>
-/* nav layout overrides — injected by nav.js, applies to all pages */
-.header-inner{flex-wrap:nowrap!important;gap:6px!important;padding:0 16px!important;align-items:center}
-.logo{white-space:nowrap;flex-shrink:0;font-size:14px!important;line-height:1.2}
-.nav{flex-wrap:nowrap!important;overflow-x:auto;-webkit-overflow-scrolling:touch;margin-left:0!important;flex:1;min-width:0;gap:0!important;scrollbar-width:none}
-.nav::-webkit-scrollbar{display:none}
-.nav a{font-size:12px!important;padding:4px 7px!important;flex-shrink:0}
-.nav>span{flex-shrink:0}
+/* nav layout — injected by nav.js */
+.header-inner{flex-wrap:nowrap!important;align-items:flex-start!important;gap:4px!important;padding:6px 16px!important}
+.logo{white-space:nowrap;flex-shrink:0;font-size:14px!important;line-height:1.6;padding-top:2px}
+.nav{flex:1;flex-wrap:wrap!important;overflow:visible!important;margin-left:0!important;gap:0!important;min-width:0;padding-top:2px}
+.nav a{font-size:12px!important;padding:3px 7px!important}
+.nav-right{flex-shrink:0;display:flex;align-items:center;gap:4px;padding-top:4px;white-space:nowrap}
 </style>
 <header class="header">
   <div class="header-inner">
     <a href="index.html" class="logo">CDEP<span> stats</span></a>
-    <nav class="nav">
-      ${links}
-      <span style="margin-left:auto;padding-left:6px;font-size:12px;white-space:nowrap"><a href="https://endimion2k.github.io/cdep-api-poc" target="_blank" style="color:rgba(255,255,255,.55)">cdep-api ↗</a></span>
-      <span id="lang-toggle-slot" style="display:flex;align-items:center;flex-shrink:0;padding-left:2px"></span>
-    </nav>
+    <nav class="nav">${links}</nav>
+    <div class="nav-right">
+      <a href="https://endimion2k.github.io/cdep-api-poc" target="_blank" style="font-size:12px;color:rgba(255,255,255,.55)">cdep-api ↗</a>
+      <span id="lang-toggle-slot" style="display:flex;align-items:center"></span>
+    </div>
   </div>
 </header>`;
   }
