@@ -179,9 +179,8 @@ const DATA_URL = `data/v1/stats/activitate-deputies-${LEG}.json`;
 
 // Leg toggle
 (function(){
-  document.getElementById('leg-toggle').innerHTML = [2024,2020].map(l =>
-    `<button class="view-btn${l===LEG?' active':''}" onclick="location.href='deputati-activitate.html?leg=${l}'">${l}</button>`
-  ).join('');
+  const toggleEl = document.getElementById('leg-toggle');
+  if(toggleEl) toggleEl.innerHTML = NAV.renderLegToggle(LEG, 'deputati-activitate.html');
 })();
 
 const METRIC_LABELS = {

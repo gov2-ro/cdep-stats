@@ -49,5 +49,23 @@
 `;
   }
 
-  global.NAV = { renderHeader, renderFooter };
+  function renderLegToggle(currentLeg, pageName, legislatures = [2024, 2020]) {
+    return legislatures.map(l =>
+      `<button class="view-btn${l === currentLeg ? ' active' : ''}" onclick="location.href='${pageName}?leg=${l}'">${l}</button>`
+    ).join('');
+  }
+
+  function renderPageMeta(config) {
+    const { jsonUrl, legislatures, currentLeg, pageName } = config;
+    let html = '';
+    if (legislatures && pageName) {
+      html += `<div class="view-toggle">${renderLegToggle(currentLeg, pageName, legislatures)}</div>`;
+    }
+    if (jsonUrl) {
+      html += `<span data-i18n="source">Sursă JSON</span>: <a href="${jsonUrl}">${jsonUrl}</a>`;
+    }
+    return html;
+  }
+
+  global.NAV = { renderHeader, renderFooter, renderLegToggle, renderPageMeta };
 })(window);

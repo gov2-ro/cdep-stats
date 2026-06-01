@@ -105,11 +105,6 @@ function getParam(n){return new URL(location).searchParams.get(n);}
 const LEG = Number(getParam('leg') || 2024);
 const DATA_URL = `data/v1/voturi/${LEG}/_index.json`;
 
-function legToggle(){
-  return [2024,2020].map(l=>
-    `<button class="view-btn${l===LEG?' active':''}" onclick="location.href='voturi.html?leg=${l}'">${l}</button>`
-  ).join('');
-}
 
 function formatDate(isoDate){
   const d = new Date(isoDate);
@@ -179,7 +174,7 @@ function render(){
   document.getElementById('content').innerHTML = `
     <div style="display:flex;align-items:center;gap:12px;margin-bottom:6px;flex-wrap:wrap">
       <h1 style="margin:0">Voturi — legislatura ${LEG}</h1>
-      <div class="view-toggle">${legToggle()}</div>
+      <div class="view-toggle">${NAV.renderLegToggle(LEG, 'voturi.html')}</div>
     </div>
     <p class="sub">${allVotes.length.toLocaleString('ro-RO')} voturi · date din cdep.ro</p>
     ${renderTable(pageVotes)}

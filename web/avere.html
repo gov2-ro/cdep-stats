@@ -356,10 +356,7 @@ async function load(){
   document.getElementById('content').innerHTML = `
     <div style="display:flex;align-items:center;gap:12px;margin-bottom:6px;flex-wrap:wrap">
       <h1 style="margin:0">Averi deputați</h1>
-      <div class="view-toggle">
-        <button class="view-btn${leg==='2024'?' active':''}" onclick="location.href='avere.html?leg=2024'">2024</button>
-        <button class="view-btn${leg==='2020'?' active':''}" onclick="location.href='avere.html?leg=2020'">2020</button>
-      </div>
+      <div class="view-toggle">${NAV.renderLegToggle(Number(leg), 'avere.html')}</div>
     </div>
     <p class="sub">Extras automat din declarațiile de avere ANI · ${c.n_deputati} deputați · ${c.n_cu_evolutie} cu ≥2 declarații (evoluție în mandat)</p>
 

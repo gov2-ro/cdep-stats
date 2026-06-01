@@ -122,12 +122,6 @@ const PARTY_COLORS = {
 };
 function partyColor(p){return PARTY_COLORS[p]||'#777';}
 
-function legToggle(){
-  return [2024,2020].map(l=>
-    `<button class="view-btn${l===LEG?' active':''}" onclick="location.href='interpelari-stats.html?leg=${l}'">${l}</button>`
-  ).join('');
-}
-
 function rateBar(rate){
   const color = rate>=80?'var(--green-text)':rate>=70?'var(--amber-text)':'var(--red-text)';
   return `<div class="rate-bar">
@@ -168,7 +162,7 @@ async function load(){
     document.getElementById('content').innerHTML = `
       <div style="display:flex;align-items:center;gap:12px;margin-bottom:6px;flex-wrap:wrap">
         <h1 style="margin:0">Interpelări — legislatura ${LEG}</h1>
-        <div class="view-toggle">${legToggle()}</div>
+        <div class="view-toggle">${NAV.renderLegToggle(LEG, 'interpelari-stats.html')}</div>
       </div>
       <p class="sub">${c.total.toLocaleString('ro-RO')} interpelări și întrebări scrise înregistrate · date din cdep.ro</p>
 
