@@ -52,6 +52,7 @@ STAGES = [
     ),
     ("doc-comisii", ["python", "scripts/run_doc_comisii.py", "--pages", "5", "--verbose"], False),
     # Derivate — rulate la urmă
+    ("proiecte-index", ["python", "scripts/build_proiecte_index.py", "--leg", "2024"], True),
     ("comisii", ["python", "scripts/build_comisii.py", "--leg", "2024"], True),
     ("avere-stats", ["python", "scripts/build_avere_stats.py", "--leg", "2024"], True),
     ("home-stats", ["python", "scripts/build_home_stats.py", "--leg", "2024"], True),

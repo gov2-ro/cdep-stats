@@ -32,7 +32,7 @@ python scripts/build_feeds.py --leg 2024 --per-type 15 --limit 60
 python scripts/build_declaratii_avere.py --leg 2024
 python scripts/build_avere_stats.py --leg 2024  # aggregate stats for the /avere.html dashboard
 python scripts/build_home_stats.py --leg 2024   # precomputed counts for index.html (avoids fetching ~18MB of raw files)
-python scripts/build_proiecte_index.py --leg 2024  # thin bill index (846 KB) used by vot.html for cross-linking
+python scripts/build_proiecte_index.py --leg 2024  # thin bill index + bill-vote-map; runs automatically via refresh_all.py
 python scripts/build_sitemap_xml.py             # regenerate web/sitemap.xml after data changes
 
 # Build deploy.zip (sources from web/*.html, assets/, data/v1/)
