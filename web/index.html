@@ -98,7 +98,7 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
 .dc-desc{font-size:12.5px;color:var(--text2);line-height:1.5}
 
 /* Demo cards (widgets) */
-.demo-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:40px}
+.demo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-bottom:40px}
 @media(max-width:700px){.demo-grid{grid-template-columns:1fr}}
 .demo-card{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:16px}
 .demo-card-title{font-size:11px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:.6px;margin-bottom:14px}
@@ -150,21 +150,7 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
 <a href="#main-content" class="skip-link">Sari la conținut</a>
 
 <div class="notice-bar hidden" id="notice-bar"><span class="notice-icon">⚠</span><span class="notice-text">Versiune alfa / preview. Acesta NU ESTE un proiect oficial al Guvernului României. Date preluate de pe <a href="https://cdep.ro" target="_blank" rel="noopener">cdep.ro</a>.</span><button class="notice-close" id="notice-close" aria-label="Închide">×</button></div>
-<header class="header">
-  <div class="header-inner">
-    <a href="index.html" class="logo">CDEP<span> stats</span></a>
-    <nav class="nav">
-      <a href="avere.html">Averi</a>
-      <a href="deputati-activitate.html">Activitate</a>
-      <a href="interpelari-stats.html">Interpelări</a>
-      <a href="proiecte-stats.html">Proiecte</a>
-      <a href="partide.html">Partide</a>
-      <a href="judete.html">Județe</a>
-      <span style="margin-left:auto;font-size:13px;color:var(--text2)"><a href="https://endimion2k.github.io/cdep-api-poc" target="_blank" style="color:var(--blue)">cdep-api ↗</a></span>
-      <span id="lang-toggle-slot" style="margin-left:4px;display:flex;align-items:center"></span>
-    </nav>
-  </div>
-</header>
+<div id="site-header"></div>
 
 <div class="stats-bar">
   <div class="stats-inner">
@@ -201,6 +187,10 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
       <div class="demo-card-title" data-i18n="home_indicators">Indicatori activitate</div>
       <div id="indicators"></div>
     </div>
+    <div class="demo-card">
+      <div class="demo-card-title" data-i18n="home_votes">Voturi recente</div>
+      <div id="vote-list"></div>
+    </div>
   </div>
 
   <div class="section-header"><h2 data-i18n="home_deputies">Caută un deputat</h2></div>
@@ -212,11 +202,7 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
   <div id="dep-list" class="dep-grid"></div>
 </main>
 
-<footer class="footer">
-  <div class="footer-inner">
-    <span><span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API: <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a> · <span data-i18n="license">Licență</span>: Open Government License v3.0</span>
-  </div>
-</footer>
+<div id="site-footer"></div>
 
 <script>
 // Mapare nume partid → abreviere + culori.
@@ -335,10 +321,11 @@ let DEPUTATI = [];
 let PROIECTE = null;
 
 async function loadData() {
-  const [home, dep, proiecte] = await Promise.all([
+  const [home, dep, proiecte, votIdx] = await Promise.all([
     fetch('data/v1/stats/home-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/deputati/legislatura-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/stats/proiecte-2024.json').then(r => r.json()).catch(() => null),
+    fetch('data/v1/voturi/2024/_index.json').then(r => r.json()).catch(() => null),
   ]);
   HOME = home;
   DEPUTATI = dep?.data || [];
@@ -347,6 +334,7 @@ async function loadData() {
   renderStats();
   renderParties();
   renderIndicators();
+  renderVoturi((votIdx?.data || []).filter(v => v.descriere.includes('Vot final')).slice(0, 8));
   renderFilters();
   renderDeps(DEPUTATI);
 }
@@ -425,6 +413,25 @@ function renderIndicators() {
 }
 
 
+function renderVoturi(votes) {
+  const el = document.getElementById('vote-list');
+  if (!el || !votes?.length) return;
+  el.innerHTML = votes.map(v => {
+    const c = v.counts;
+    const adopted = c.pentru > c.contra;
+    return `<div class="vote-row">
+      <div class="vote-title">${v.descriere}</div>
+      <div class="vote-meta">${fmtDate(v.timestamp)}</div>
+      <div class="vote-nums">
+        <span class="vnum vfor">✓ ${c.pentru}</span>
+        <span class="vnum vagainst">✗ ${c.contra}</span>
+        ${c.abtineri ? `<span class="vnum vabs">~ ${c.abtineri}</span>` : ""}
+        <span class="vnum ${adopted ? "vadopted" : "vagainst"}">${adopted ? "Adoptat" : "Respins"}</span>
+      </div>
+    </div>`;
+  }).join('');
+}
+
 function renderFilters() {
   const sel = document.getElementById('f-judet');
   if (sel) {
@@ -483,6 +490,8 @@ function filterDeps() {
 
 loadData();
 </script>
+<script src="assets/nav.js"></script>
+<script>NAV.renderHeader(); NAV.renderFooter();</script>
 <script src="i18n.js"></script>
 </body>
 </html>

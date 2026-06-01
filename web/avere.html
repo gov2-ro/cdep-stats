@@ -146,21 +146,7 @@ td.num,th.num{text-align:right;font-family:var(--mono);white-space:nowrap}
 <body>
 
 <div class="notice-bar hidden" id="notice-bar"><span class="notice-icon">⚠</span><span class="notice-text">Versiune alfa / preview. Acesta NU ESTE un proiect oficial al Guvernului României. Date preluate de pe <a href="https://cdep.ro" target="_blank" rel="noopener">cdep.ro</a>.</span><button class="notice-close" id="notice-close" aria-label="Închide">×</button></div>
-<header class="header">
-  <div class="header-inner">
-    <a href="index.html" class="logo">CDEP<span> stats</span></a>
-    <nav class="nav">
-      <a href="avere.html" class="active">Averi</a>
-      <a href="deputati-activitate.html">Activitate</a>
-      <a href="interpelari-stats.html">Interpelări</a>
-      <a href="proiecte-stats.html">Proiecte</a>
-      <a href="partide.html">Partide</a>
-      <a href="judete.html">Județe</a>
-      <span style="margin-left:auto;font-size:13px;color:var(--text2)"><a href="https://endimion2k.github.io/cdep-api-poc" target="_blank" style="color:var(--blue)">cdep-api ↗</a></span>
-      <span id="lang-toggle-slot" style="margin-left:4px;display:flex;align-items:center"></span>
-    </nav>
-  </div>
-</header>
+<div id="site-header"></div>
 
 <div class="container">
   <div id="content"><div class="loading" data-i18n="loading">Se încarcă datele…</div></div>
@@ -168,11 +154,7 @@ td.num,th.num{text-align:right;font-family:var(--mono);white-space:nowrap}
 
 <div class="tooltip" id="tooltip"></div>
 
-<footer class="footer">
-  <p><span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API: <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a> ·
-  <span data-i18n="source">Sursă JSON</span>: <a id="json-link" href="#">/data/v1/stats/avere-2024.json</a> ·
-  <a href="index.html" data-i18n="page_main">Pagina principală</a></p>
-</footer>
+<div id="site-footer"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script src="assets/avere-list.js"></script>
@@ -439,6 +421,13 @@ async function load(){
   if(typeof applyI18n==='function') applyI18n();
 }
 load();
+</script>
+<script src="assets/nav.js"></script>
+<script>
+NAV.renderHeader();
+const leg = new URL(location).searchParams.get('leg') || '2024';
+const jsonUrl = `data/v1/stats/avere-${leg}.json`;
+NAV.renderFooter(`<span data-i18n="source">Sursă JSON</span>: <a id="json-link" href="${jsonUrl}">${jsonUrl}</a>`);
 </script>
 <script src="i18n.js"></script>
 </body>

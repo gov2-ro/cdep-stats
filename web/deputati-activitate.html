@@ -129,21 +129,7 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
 <body>
 
 <div class="notice-bar hidden" id="notice-bar"><span class="notice-icon">⚠</span><span class="notice-text">Versiune alfa / preview. Acesta NU ESTE un proiect oficial al Guvernului României. Date preluate de pe <a href="https://cdep.ro" target="_blank" rel="noopener">cdep.ro</a>.</span><button class="notice-close" id="notice-close" aria-label="Închide">×</button></div>
-<header class="header">
-  <div class="header-inner">
-    <a href="index.html" class="logo">CDEP<span> stats</span></a>
-    <nav class="nav">
-      <a href="avere.html">Averi</a>
-      <a href="deputati-activitate.html" class="active">Activitate</a>
-      <a href="interpelari-stats.html">Interpelări</a>
-      <a href="proiecte-stats.html">Proiecte</a>
-      <a href="partide.html">Partide</a>
-      <a href="judete.html">Județe</a>
-      <span style="margin-left:auto;font-size:13px;color:var(--text2)"><a href="https://endimion2k.github.io/cdep-api-poc" target="_blank" style="color:var(--blue)">cdep-api ↗</a></span>
-      <span id="lang-toggle-slot" style="margin-left:4px;display:flex;align-items:center"></span>
-    </nav>
-  </div>
-</header>
+<div id="site-header"></div>
 
 <div class="toolbar">
   <div class="toolbar-inner">
@@ -184,11 +170,7 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
 
 <div class="tooltip" id="tooltip"></div>
 
-<footer class="footer">
-  <p><span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API: <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a> ·
-  <span data-i18n="source">Sursă JSON</span>: <a id="json-link" href="#">activitate-deputies.json</a> ·
-  <a href="index.html" data-i18n="page_main">Pagina principală</a></p>
-</footer>
+<div id="site-footer"></div>
 
 <script>
 function getParam(n){return new URL(location).searchParams.get(n);}
@@ -579,6 +561,13 @@ document.addEventListener('click',e=>{
 });
 
 load();
+</script>
+<script src="assets/nav.js"></script>
+<script>
+NAV.renderHeader();
+const leg = Number(new URL(location).searchParams.get('leg') || 2024);
+const jsonUrl = `data/v1/stats/activitate-deputies-${leg}.json`;
+NAV.renderFooter(`<span data-i18n="source">Sursă JSON</span>: <a href="${jsonUrl}">${jsonUrl}</a>`);
 </script>
 <script src="i18n.js"></script>
 </body>
