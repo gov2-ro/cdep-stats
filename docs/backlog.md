@@ -12,6 +12,18 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 - [ ] **Re-evaluate `proiect.html` (cele mai disputate proiecte widget) for the landing page**
   - `proiect.html` had no inbound nav links. The "Cele mai disputate proiecte" widget on `index.html` (top 5 by amendments) was removed along with it. `data/v1/proiecte/` and `data/v1/amendamente/` are excluded from the deploy archive but kept on disk. Revisit if a project detail page is worth wiring into the nav properly.
 
+- [ ] **Switch deploy to rsync — eliminate the scp+unzip bottleneck**
+  - Current flow: `build_web.py` produces a 347 MB zip of 5,286 files; `scp deploy.zip && unzip -o` is slow and re-transfers everything on every deploy.
+  - Fix: two-pass rsync. Pass 1 — stable/immutable data (`voturi/`, `declaratii-avere/`) with `--checksum` so only new files transfer after the first sync. Pass 2 — `web/*.html`, `assets/`, `data/v1/stats/`, and all small dirs (< 100 files) which are fast to zip or rsync whole.
+  - PHP is **not** needed for this; nginx static serving is fine. PHP would only be warranted if dynamic queries (search, filter) are added later.
+  - A `scripts/deploy.sh` wrapper would codify the two-pass logic.
+
+- [ ] re-add, reconsider sanctiune.html, vot.html and other pages found in https://github.com/Endimion2k/cdep-api-poc (motiune.html, voturi.html,  sanctiune.html, status.html)
+
+- [ ] interpelari-stats.html is broken
+
+
+
 ---
 
 ## PDF Parser — Known Limitations
@@ -51,7 +63,7 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 - [x] move html files in folder, not root. — created `web/` deployment folder with build script (2026-06-01)
 - [ ] show cars, homes, terenuri as icons, one per each? - relative to suprafata or kph?
 - [x] **Remove dead CSS rules in deputati-avere.html and deputati-activitate.html** — done 2026-05-31; removed `.metric-select`, `.search-input`, `.party-chips`, `.party-chip` rules.
-- [ ] re-add sanctiune.html, vot.html and other pages found in https://github.com/Endimion2k/cdep-api-poc
+
 - [ ] make more static? we generate static but load data from json?! is this SEO friendly?
 - [ ] create llms.txt
 - [ ] add filter by minoritati in party list / filters
@@ -70,7 +82,7 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
   proof of the shared-module approach; nav/header/footer are still copy-pasted.)
 - [ ] **Relink and restyle `search.html`** — currently orphaned (no nav links into it) and on the
   old design. Re-add it to the nav and bring it on-brand. Left out of the 2026-05-31 consistency
-  pass on purpose.
+  pass on purpose. much LATER. maybe
 - [ ] **`proiect.html` initiator → deputy profile links** — the initiator is a free-text blob with
   no IDs, so linking needs exact name→`cdep_idm` matching against deputati (fragile, risk of
   mislinks). Implement only if the match is provably clean; otherwise leave as text.

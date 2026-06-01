@@ -115,12 +115,10 @@ td.num,th.num{text-align:right;font-family:var(--mono)}
 function getParam(n){return new URL(location).searchParams.get(n);}
 const LEG = Number(getParam('leg') || 2024);
 const DATA_URL = `data/v1/stats/interpelari-${LEG}.json`;
-document.getElementById('json-link').href = DATA_URL;
-document.getElementById('json-link').textContent = `interpelari-${LEG}.json`;
 
 const PARTY_COLORS = {
   'PSD':'#185FA5','PNL':'#993C1D','USR':'#3B6D11','AUR':'#854F0B',
-  'UDMR':'#5F5E5A','SOSRO':'#A32D2D','POT':'#553378',
+  'UDMR':'#5F5E5A','SOS RO':'#A32D2D','POT':'#553378','Minoritati':'#666',
 };
 function partyColor(p){return PARTY_COLORS[p]||'#777';}
 
@@ -131,7 +129,7 @@ function legToggle(){
 }
 
 function rateBar(rate){
-  const color = rate>=90?'var(--green-text)':rate>=70?'var(--amber-text)':'var(--red-text)';
+  const color = rate>=80?'var(--green-text)':rate>=70?'var(--amber-text)':'var(--red-text)';
   return `<div class="rate-bar">
     <div class="bar-track"><div class="bar-fill" style="width:${rate}%;background:${rate>=80?'var(--green)':'var(--amber-text)'}"></div></div>
     <span style="color:${color};font-family:var(--mono);font-size:12px;min-width:38px;text-align:right">${rate}%</span>
