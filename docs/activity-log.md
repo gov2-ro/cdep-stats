@@ -2,6 +2,26 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-01 — Multi-party affiliation timeline, compact nav, activity badges, footer links
+
+**What was done**
+- Added multi-party affiliation timeline to `deputati-activitate.html`: full party switching history per deputy with timeline bars, party badges, and tenure dates below the activity circle grid.
+- Extended `build_activitate_deputies.py` with new `_load_parties_timeline()` function to compute per-deputy tenure periods across all legislatures; `activitate-deputies-{leg}.json` now includes `party_timeline[]` with `party` / `start_date` / `end_date`.
+- Added multi-party badge support to `deputati-activitate.html`: when a deputy held multiple parties across all legs, a small colored badge grid (2–5 party logos) overlays the deputy circle, color-coded by tenure proportion.
+- Compacted nav bar: reduced logo font from 20px to 18px, nav item spacing, and streamlined header height for cleaner appearance across all pages.
+- Restored 5 activity indicators on `index.html` (avere/activitate/interpelări/proiecte/partide) that had been hidden; layout now matches design with proper stat cards.
+- Injected GitHub icon + link (`gov2-ro/cdep-stats` repo) into all page footers (16 root pages), right-aligned; adds `footer-github` i18n key (RO/EN).
+
+**Why**
+Deputies frequently switch parties across legislatures (term limits, mergers, splits, defections). The timeline provides context for career patterns; badges avoid cluttering the grid with legend-sized party logos. The activity indicators restore visibility of all core dashboards on the homepage, improving discoverability. The footer link credits the open-source repository and invites contributions.
+
+**Decisions**
+- Party timeline computed from `deputati/legislatura-{leg}.json` across all cached legs, not just the selected leg, to show full historical affiliation.
+- Multi-party badge only shown when ≥2 parties; single-party deputies show no badge (implicit context clear).
+- Footer GitHub link uses a fixed `<svg>` icon (12×12, scalable) rather than an emoji to maintain visual consistency.
+
+---
+
 ### 2026-06-01 — Fix missing i18n.js in web/ (profile_monitorul key rendered literally)
 
 **What was done**

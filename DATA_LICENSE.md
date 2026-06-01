@@ -41,7 +41,7 @@ Conform [Regulamentului UE 2016/679 (GDPR)](https://eur-lex.europa.eu/eli/reg/20
 
 ### Drept de rectificare
 
-Orice deputat sau persoană publică care identifică o eroare factuală în datele expuse poate solicita rectificarea prin deschiderea unui [issue pe GitHub](https://github.com/Endimion2k/cdep-api-poc/issues) cu template-ul „data correction". Rectificările vor fi propagate la următoarea rulare a workflow-ului zilnic.
+Orice deputat sau persoană publică care identifică o eroare factuală în datele expuse poate solicita rectificarea prin deschiderea unui [issue pe GitHub](https://github.com/gov2-ro/cdep-stats/issues) cu template-ul „data correction". Rectificările vor fi propagate la următoarea rulare a workflow-ului zilnic.
 
 ## Licență
 

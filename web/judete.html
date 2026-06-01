@@ -19,8 +19,9 @@
   --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 }
 @media(prefers-color-scheme:dark){
-  :root{--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;}
+  :root:not(.light-mode){--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;}
 }
+:root.dark-mode{--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;}
 body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
@@ -30,9 +31,20 @@ a:hover{text-decoration:underline}
 .logo span{color:var(--green)}
 .logo em{font-style:normal;color:var(--text2)}
 .nav{margin-left:auto;display:flex;flex-wrap:wrap;gap:2px;align-items:center}
-.nav a{font-size:13px;padding:5px 10px;border-radius:var(--radius-sm);color:var(--text2);text-decoration:none}
+.nav a{white-space:nowrap;font-size:13px;padding:5px 10px;border-radius:var(--radius-sm);color:var(--text2);text-decoration:none}
 .nav a:hover{background:var(--bg2)}
 .nav a.active{color:var(--text);font-weight:600}
+@media(max-width:820px){
+  .header-inner{gap:12px;padding:0 16px}
+  .nav a{font-size:12px;padding:4px 8px}
+  .nav span:not(#lang-toggle-slot){display:none}
+}
+@media(max-width:620px){
+  .header-inner{flex-wrap:wrap;gap:8px}
+  .logo{flex:0 0 auto}
+  .nav{flex:0 1 auto;margin-left:0;overflow-x:auto;-webkit-overflow-scrolling:touch;min-width:0}
+  .nav a{font-size:11px;padding:3px 6px;flex-shrink:0}
+}
 .toolbar{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--border);padding:10px 0}
 .toolbar-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;flex-wrap:wrap;align-items:center;gap:10px}
 .view-toggle{display:flex;border:1px solid var(--border2);border-radius:var(--radius-sm);overflow:hidden;flex-shrink:0}
@@ -80,11 +92,11 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
 .error{padding:24px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius);margin:20px 0}
 .footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
 .footer a{color:var(--text2)}
-.header{background:#42133c;border-bottom-color:transparent}.logo{color:#fff}.logo span{color:#88dfc4}.nav a{color:rgba(255,255,255,.72)}.nav a:hover{background:rgba(255,255,255,.11);color:#fff}.nav a.active{color:#fff;background:rgba(255,255,255,.08)}.header .nav a[style*=color]{color:rgba(255,255,255,.85)!important}.notice-bar{display:flex;align-items:center;gap:8px;padding:7px 24px;background:rgba(250,204,21,.1);border-bottom:1px solid rgba(250,204,21,.2);font-size:12px;color:var(--text2)}.notice-bar a{color:inherit;text-decoration:underline;opacity:.85}.notice-icon{font-size:13px;opacity:.8;flex-shrink:0}.notice-text{flex:1}.notice-close{background:none;border:none;color:var(--text3);cursor:pointer;font-size:18px;padding:0 4px;line-height:1;flex-shrink:0}.notice-close:hover{color:var(--text)}.nav button{color:rgba(255,255,255,.72);background:transparent;border:none}.nav button:hover{background:rgba(255,255,255,.11);color:#fff}#lang-toggle-slot button,#lang-toggle-slot a{color:rgba(255,255,255,.72)!important}#lang-toggle-slot button:hover,#lang-toggle-slot a:hover{color:#fff!important}.notice-bar.hidden{display:none}</style>
+.header{background:#42133c;border-bottom-color:transparent}.logo{color:#fff}.logo span{color:#88dfc4}.nav a{white-space:nowrap;color:rgba(255,255,255,.72)}.nav a:hover{background:rgba(255,255,255,.11);color:#fff}.nav a.active{color:#fff;background:rgba(255,255,255,.08)}.header .nav a[style*=color]{color:rgba(255,255,255,.85)!important}.notice-bar{display:flex;align-items:center;gap:8px;padding:7px 24px;background:rgba(250,204,21,.1);border-bottom:1px solid rgba(250,204,21,.2);font-size:12px;color:var(--text2)}.notice-bar a{color:inherit;text-decoration:underline;opacity:.85}.notice-icon{font-size:13px;opacity:.8;flex-shrink:0}.notice-text{flex:1}.notice-close{background:none;border:none;color:var(--text3);cursor:pointer;font-size:18px;padding:0 4px;line-height:1;flex-shrink:0}.notice-close:hover{color:var(--text)}.nav button{color:rgba(255,255,255,.72);background:transparent;border:none}.nav button:hover{background:rgba(255,255,255,.11);color:#fff}#lang-toggle-slot button,#lang-toggle-slot a{color:rgba(255,255,255,.72)!important}#lang-toggle-slot button:hover,#lang-toggle-slot a:hover{color:#fff!important}.notice-bar.hidden{display:none}</style>
 </head>
 <body>
 
-<div class="notice-bar hidden" id="notice-bar"><span class="notice-icon">⚠</span><span class="notice-text">Versiune alfa / preview. Acesta nu este un proiect oficial al Guvernului României. Date preluate de pe <a href="https://cdep.ro" target="_blank" rel="noopener">cdep.ro</a>.</span><button class="notice-close" id="notice-close" aria-label="Închide">×</button></div>
+<div class="notice-bar hidden" id="notice-bar"><span class="notice-icon">⚠</span><span class="notice-text">Versiune alfa / preview. Acesta NU ESTE un proiect oficial al Guvernului României. Date preluate de pe <a href="https://cdep.ro" target="_blank" rel="noopener">cdep.ro</a>.</span><button class="notice-close" id="notice-close" aria-label="Închide">×</button></div>
 <header class="header">
   <div class="header-inner">
     <a href="index.html" class="logo">CDEP<span> stats</span></a>

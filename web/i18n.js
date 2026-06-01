@@ -133,9 +133,8 @@ const I18N = {
     stat_comisii: "Comisii",
     stat_sanctiuni: "Sancțiuni",
     // Home hub (index.html)
-    home_intro:
-      "Date deschise despre Camera Deputaților — explorează averi, activitate parlamentară, interpelări, proiecte de lege și voturi. Totul precalculat din surse publice.",
-    home_explore: "Explorează datele",
+    home_intro:"  ",
+    home_explore: " ",
     home_parties: "Distribuție mandate pe partide",
     home_indicators: "Indicatori activitate",
     home_votes: "Voturi recente",
@@ -313,8 +312,8 @@ const I18N = {
     stat_sanctiuni: "Sanctions",
     // Home hub (index.html)
     home_intro:
-      "Open data on the Romanian Chamber of Deputies — explore wealth, parliamentary activity, interpellations, bills and votes. All precomputed from public sources.",
-    home_explore: "Explore the data",
+      "",
+    home_explore: " ",
     home_parties: "Seats by party",
     home_indicators: "Activity indicators",
     home_votes: "Recent votes",
@@ -375,6 +374,7 @@ const I18N = {
 };
 
 const I18N_LANG_KEY = "cdep_lang";
+const THEME_KEY = "cdep_theme";
 
 function getLang() {
   return localStorage.getItem(I18N_LANG_KEY) || "ro";
@@ -387,6 +387,38 @@ function setLang(lang) {
   applyI18n();
   // Notifică pagini dinamice că s-a schimbat limba
   document.dispatchEvent(new CustomEvent("langchange", { detail: { lang } }));
+}
+
+// Theme management
+function getPreferredTheme() {
+  const stored = localStorage.getItem(THEME_KEY);
+  if (stored === "light" || stored === "dark") return stored;
+  // If no stored preference, use system preference
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
+function setTheme(theme) {
+  if (theme !== "light" && theme !== "dark") return;
+  localStorage.setItem(THEME_KEY, theme);
+  applyTheme(theme);
+  document.dispatchEvent(new CustomEvent("themechange", { detail: { theme } }));
+}
+
+function applyTheme(theme) {
+  if (theme === "dark") {
+    document.documentElement.classList.add("dark-mode");
+    document.documentElement.classList.remove("light-mode");
+  } else {
+    document.documentElement.classList.add("light-mode");
+    document.documentElement.classList.remove("dark-mode");
+  }
+  // Force reflow on Android to ensure CSS is applied
+  void document.documentElement.offsetHeight;
+}
+
+function toggleTheme() {
+  const current = getPreferredTheme();
+  setTheme(current === "light" ? "dark" : "light");
 }
 
 function t(key) {
@@ -423,8 +455,11 @@ function injectLangToggle() {
   btn.setAttribute("aria-label", lang === "ro" ? "Switch to English" : "Schimbă în română");
   btn.title = btn.getAttribute("aria-label");
   btn.style.cssText =
-    "background:transparent;border:none;color:inherit;font-size:14px;font-weight:600;padding:4px 8px;border-radius:4px;cursor:pointer;font-family:inherit;letter-spacing:0.5px";
-  btn.addEventListener("click", () => {
+    "background:transparent;border:none;color:inherit;font-size:14px;font-weight:600;padding:4px 8px;border-radius:4px;cursor:pointer;font-family:inherit;letter-spacing:0.5px;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent";
+
+  const switchLang = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
     sessionStorage.setItem("i18n_transitioning", "1");
     document.body.style.transition = "opacity 0.25s ease";
     document.body.style.opacity = "0";
@@ -432,8 +467,39 @@ function injectLangToggle() {
       setLang(lang === "ro" ? "en" : "ro");
       location.reload();
     }, 250);
-  });
+  };
+
+  btn.addEventListener("click", switchLang);
+  btn.addEventListener("touchend", switchLang);
   slot.appendChild(btn);
+}
+
+function injectThemeToggle() {
+  const slot = document.getElementById("lang-toggle-slot");
+  if (!slot) return;
+
+  const currentTheme = getPreferredTheme();
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "theme-toggle";
+  btn.setAttribute("aria-label", currentTheme === "light" ? "Schimbă la modul întunecat" : "Switch to light mode");
+  btn.title = btn.getAttribute("aria-label");
+  btn.innerHTML = currentTheme === "light" ? "🌙" : "☀️";
+  btn.style.cssText =
+    "background:transparent;border:none;color:inherit;font-size:16px;padding:4px 8px;border-radius:4px;cursor:pointer;font-family:inherit;display:flex;align-items:center;justify-content:center;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent";
+
+  const toggleTheme = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const newTheme = getPreferredTheme() === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    btn.innerHTML = newTheme === "light" ? "🌙" : "☀️";
+    btn.setAttribute("aria-label", newTheme === "light" ? "Schimbă la modul întunecat" : "Switch to light mode");
+  };
+
+  btn.addEventListener("click", toggleTheme);
+  btn.addEventListener("touchend", toggleTheme);
+  slot.insertBefore(btn, slot.firstChild);
 }
 
 function fadeInIfTransitioning() {
@@ -484,7 +550,9 @@ function initNoticeBar() {
 // Auto-init la load
 document.addEventListener("DOMContentLoaded", () => {
   document.documentElement.lang = getLang();
+  applyTheme(getPreferredTheme());
   applyI18n();
+  injectThemeToggle();
   injectLangToggle();
   fadeInIfTransitioning();
   initNoticeBar();
