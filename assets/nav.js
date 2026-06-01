@@ -4,6 +4,7 @@
   const NAV_LINKS = [
     { href: "avere.html", label: "Averi", keys: ["avere.html", "deputati-avere.html"] },
     { href: "deputati-activitate.html", label: "Activitate" },
+    { href: "comisii.html", label: "Comisii" },
     { href: "interpelari-stats.html", label: "Interpelări" },
     { href: "proiecte-stats.html", label: "Proiecte" },
     { href: "partide.html", label: "Partide" },

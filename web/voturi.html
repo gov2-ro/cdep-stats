@@ -96,6 +96,7 @@ a.vote-link{color:var(--blue)}
 
 <div id="site-footer"></div>
 
+<script src="assets/nav.js"></script>
 <script>
 const PAGE_SIZE = 50;
 let currentPage = 1;
@@ -198,7 +199,6 @@ async function load(){
 
 load();
 </script>
-<script src="assets/nav.js"></script>
 <script>
 NAV.renderHeader();
 const leg = Number(new URL(location).searchParams.get('leg') || 2024);

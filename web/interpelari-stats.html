@@ -111,6 +111,7 @@ td.num,th.num{text-align:right;font-family:var(--mono)}
 
 <div id="site-footer"></div>
 
+<script src="assets/nav.js"></script>
 <script>
 function getParam(n){return new URL(location).searchParams.get(n);}
 const LEG = Number(getParam('leg') || 2024);
@@ -214,7 +215,6 @@ async function load(){
 }
 load();
 </script>
-<script src="assets/nav.js"></script>
 <script>
 NAV.renderHeader();
 const leg = Number(new URL(location).searchParams.get('leg') || 2024);

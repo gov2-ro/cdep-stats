@@ -126,6 +126,7 @@ td.num,th.num{text-align:right;font-family:var(--mono)}
 
 <div id="site-footer"></div>
 
+<script src="assets/nav.js"></script>
 <script>
 function getParam(n){return new URL(location).searchParams.get(n);}
 const LEG = Number(getParam('leg') || 2024);
@@ -197,7 +198,7 @@ async function load(){
         <h1 style="margin:0">Proiecte legislative — legislatura ${LEG}</h1>
         <div class="view-toggle">${NAV.renderLegToggle(LEG, 'proiecte-stats.html')}</div>
       </div>
-      <p class="sub">${c.total.toLocaleString('ro-RO')} proiecte înregistrate · ${tipLL.toLocaleString('ro-RO')} proiecte de lege · ${tipPL.toLocaleString('ro-RO')} propuneri legislative</p>
+      <p class="sub">${c.total.toLocaleString('ro-RO')} proiecte înregistrate · ${tipLL.toLocaleString('ro-RO')} proiecte de lege · ${tipPL.toLocaleString('ro-RO')} propuneri legislative · <a href="proiect.html?leg=${LEG}">Explorează proiecte cu dată ↗</a></p>
 
       <div class="pipeline">
         <div class="pipe-stage pipe-in-lucru">
@@ -260,7 +261,6 @@ async function load(){
 }
 load();
 </script>
-<script src="assets/nav.js"></script>
 <script>
 NAV.renderHeader();
 const leg = Number(new URL(location).searchParams.get('leg') || 2024);

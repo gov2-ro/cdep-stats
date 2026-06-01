@@ -158,6 +158,7 @@ td.num,th.num{text-align:right;font-family:var(--mono);white-space:nowrap}
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script src="assets/avere-list.js"></script>
+<script src="assets/nav.js"></script>
 <script>
 function getParam(n){return new URL(location).searchParams.get(n);}
 
@@ -417,7 +418,6 @@ async function load(){
 }
 load();
 </script>
-<script src="assets/nav.js"></script>
 <script>
 NAV.renderHeader();
 const leg = new URL(location).searchParams.get('leg') || '2024';

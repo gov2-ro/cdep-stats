@@ -27,7 +27,8 @@ def create_archive():
     subprocess.run(
         ["zip", "-r", str(ARCHIVE), "assets/", "data/v1/",
          "-x", "data/v1/voturi/*",
-         "-x", "data/v1/proiecte/*",
+         "-x", "data/v1/proiecte/*/necunoscut.json",
+         "-x", "data/v1/proiecte/*/_index.json",
          "-x", "data/v1/amendamente/*"],
         cwd=ROOT, check=True,
     )

@@ -2,6 +2,21 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-01 — Five new pages: comisii, motiuni, interese, ordine-zi, proiect
+
+**What was done**
+- `web/comisii.html` — Parliamentary committees browser. Loads `data/v1/comisii/legislatura-{leg}.json`; lists all 37 committees (2024) grouped by type (permanente / speciale comune); accordion expand shows membership table with party pills and color-coded party distribution bar. Added "Comisii" to main nav in `assets/nav.js` (between Activitate and Interpelări). Legislature toggle 2024/2020/2016.
+- `web/motiuni.html` — Censure motions timeline 1992–2024. Loads all 9 legislature files in parallel; 162 motions total. Stat cards (total/respinse/adoptate/în procedură), filter buttons, chronological leg-group layout with status dot colors.
+- `web/interese.html` — Declarations of interest browser. Loads `data/v1/declaratii/legislatura-{leg}.json` (332 deputies for 2024); columns: deputy link, party pill, avere PDF, interese PDF. Live search + party dropdown filter. Legislature toggle 2024/2020.
+- `web/ordine-zi.html` — Session agendas. Loads `data/v1/ordine-zi/legislatura-{leg}.json` (19 sessions); accordion list sorted descending by date; most-recent session auto-expanded; each item shows description and PDF link if available.
+- `web/proiect.html` — Bill browser + detail page. Default mode: loads all year-specific proiecte files (`2024.json`, `2025.json`, `2026.json` for leg 2024) and shows 52 searchable/filterable bills. With `?idp=XX&leg=YYY`: shows individual bill detail (title, status, timeline, vote counts, document links). Added "Explorează proiecte cu dată ↗" link to `proiecte-stats.html` subtitle.
+- `scripts/build_web.py` — Changed proiecte exclusion from `data/v1/proiecte/*` to just `necunoscut.json` and `_index.json`; year-specific files (200KB for leg 2024) are now included in the deploy archive.
+
+**Decisions**
+- `necunoscut.json` excluded from deploy: 6.1MB for leg 2024, 15MB for leg 2020 — too large. Bills in those files (≈97% of total) show a fallback message with a cdep.ro link in detail mode. The year-specific files cover bills with a known registration date.
+- `avere rankings on deputat.html` was already implemented (skipped — `renderAvereRanking` + `avere-context-{leg}.json` wired in a previous session).
+- All pages verified with Playwright: 7/7 pass, zero JS console errors.
+
 ### 2026-06-01 — Build voturi.html (vote list) and vot.html (vote detail) pages
 
 **What was done**
