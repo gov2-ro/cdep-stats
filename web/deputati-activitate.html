@@ -177,9 +177,6 @@ function getParam(n){return new URL(location).searchParams.get(n);}
 const LEG = Number(getParam('leg') || 2024);
 const DATA_URL = `data/v1/stats/activitate-deputies-${LEG}.json`;
 
-document.getElementById('json-link').href = DATA_URL;
-document.getElementById('json-link').textContent = `activitate-deputies-${LEG}.json`;
-
 // Leg toggle
 (function(){
   document.getElementById('leg-toggle').innerHTML = [2024,2020].map(l =>

@@ -338,8 +338,6 @@ async function load(){
   const leg = getParam('leg') || '2024';
   LEG = leg;
   const url = `data/v1/stats/avere-${leg}.json`;
-  document.getElementById('json-link').href = url;
-  document.getElementById('json-link').textContent = '/'+url;
   let d;
   try{ d = await fetch(url).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}); }
   catch(e){ document.getElementById('content').innerHTML=`<div class="error">Nu pot încărca ${url} (${e.message}). Rulează <code>python scripts/build_avere_stats.py --leg ${leg}</code>.</div>`; return; }
