@@ -20,7 +20,15 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 
 - [ ] re-add, reconsider sanctiune.html, vot.html and other pages found in https://github.com/Endimion2k/cdep-api-poc (motiune.html, voturi.html,  sanctiune.html, status.html)
 
-- [ ] interpelari-stats.html is broken
+- [x] interpelari-stats.html is broken — fixed 2026-06-01
+
+- [ ] **vot.html: cross-link to bill description from proiecte data**
+  - Currently vot.html shows only `descriere` ("Vot final adoptare") — no semantic context for what was voted on.
+  - Should parse bill number from `descriere`, look up in `data/v1/proiecte/{leg}/_index.json`, and display full bill title (e.g., "Proiect de Lege pentru completarea art.16 alin.(3) din Legea nr.215/2016 privind ceremoniile oficiale").
+  - Requires bill number parsing + proiecte lookup during page load.
+
+- [ ] **voturi.html / vot.html: add "What's new" badge or visual indicator to nav**
+  - voturi.html and vot.html are newly unlocked pages (previously removed due to deploy size constraints). Consider marking them as "New" or highlighting them in the nav briefly to draw attention.
 
 
 
