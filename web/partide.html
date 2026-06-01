@@ -116,6 +116,7 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
 </div>
 
 <div id="site-footer"></div>
+<script src="assets/nav.js"></script>
 <script>
 function getParam(n){return new URL(location).searchParams.get(n);}
 const LEG=Number(getParam('leg')||2024);
@@ -372,7 +373,6 @@ document.getElementById('btn-avg').addEventListener('click',()=>{
 
 load();
 </script>
-<script src="assets/nav.js"></script>
 <script>NAV.renderHeader(); NAV.renderFooter();</script><script src="i18n.js"></script>
 </body>
 </html>
