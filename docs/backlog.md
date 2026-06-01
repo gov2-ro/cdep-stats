@@ -22,16 +22,19 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 
 - [x] interpelari-stats.html is broken — fixed 2026-06-01
 
-- [x] **[SYSTEMIC] Eliminate recurring "set properties of null" errors in page JS** — in progress
-  - **Completed:** Consolidated leg toggle into `NAV.renderLegToggle()` in nav.js (2026-06-01).
-    - Updated: interpelari-stats.html, avere.html, deputati-activitate.html, voturi.html
-    - Removed: dead code trying to access non-existent `#json-link` and hardcoded leg toggles
-    - Single source of truth for leg toggle logic (one place to fix, all pages inherit fix)
-  - **Still TODO:**
-    1. **Consolidate JSON link into nav.js**: Add `NAV.renderJsonLink(url)` and update footer to include it
-    2. **Defensive checks**: Add null checks to any remaining direct DOM manipulations (e.g., in avere-list.js, other modules)
-    3. **Linting rule**: Add ESLint rule to catch `getElementById(...).` without null check at build time
-  - Status: pattern broken, pages refactored; systemic solution in progress
+- [x] **[SYSTEMIC] Eliminate recurring "set properties of null" errors in page JS** — FIXED
+  - **Root cause:** Pages tried to set properties on non-existent DOM elements:
+    - `document.getElementById('json-link').href = ...` (element never existed)
+    - `document.getElementById('leg-toggle').innerHTML = ...` (inconsistent across pages)
+  - **Comprehensive fix (2026-06-01):**
+    1. Removed ALL `json-link` references (was dead code trying to update non-existent element)
+    2. Consolidated leg toggle to `NAV.renderLegToggle()` — single source of truth in nav.js
+    3. Updated 8 pages to use NAV function: interpelari-stats, avere, deputati-activitate, voturi, proiecte-stats, partide, judete, deputati-avere
+    4. Added null-checks on remaining `document.querySelector()` calls (e.g., back link in deputati-avere.html)
+  - **Still TODO (lower priority):**
+    - Consolidate JSON link into nav.js footer
+    - Add ESLint rule to catch unsafe `getElementById(...)` patterns at build time
+    - Review and add null-checks to other modules (avere-list.js, etc.) — these are less critical since they target elements that exist
 
 - [ ] **vot.html: cross-link to bill description from proiecte data**
   - Currently vot.html shows only `descriere` ("Vot final adoptare") — no semantic context for what was voted on.
