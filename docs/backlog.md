@@ -4,6 +4,12 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 
 ---
 
+## Cross-links
+
+- [ ] **Back-fill `data_inregistrare_cd` on necunoscut.json bills** — voted bills lack a registration date and land in `necunoscut.json`, so `proiect.html` can't show their full detail view. Running `run_proiecte.py` with a flag to re-scrape bill metadata and populate `data_inregistrare_cd` would move them into year files, making `proiect.html` detail + `proiect.html → vot.html` cross-link work for all voted bills. `bill-vote-map-{leg}.json` already has the 394 matched pairs for 2024; the cross-link fires as soon as the bill appears in a year file.
+
+---
+
 ## Deploy — Removed pages to revisit
 
 - [ ] **Re-evaluate `vot.html` (voturi recente widget) for the landing page**
@@ -90,6 +96,7 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 - [ ] make more static? we generate static but load data from json?! is this SEO friendly?
 - [ ] create llms.txt
 - [ ] add filter by minoritati in party list / filters
+- [ ] create api partide, or enhance with banipartide data? GET partide, GET partid
 
 
 ## Site consistency / front door

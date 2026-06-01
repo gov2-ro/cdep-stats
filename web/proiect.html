@@ -328,11 +328,10 @@ async function loadList(){
 
 async function loadDetail(idp){
   try{
-    const [proiecteResps, votIdxResp] = await Promise.all([
+    const [proiecteResps, voteMap] = await Promise.all([
       Promise.all(yearFiles.map(y=>fetch(`data/v1/proiecte/legislatura-${LEG}/${y}.json`).then(r=>r.ok?r.json():null).catch(()=>null))),
-      fetch(`data/v1/voturi/${LEG}/_index.json`).then(r=>r.ok?r.json():null).catch(()=>null),
+      fetch(`data/v1/stats/bill-vote-map-${LEG}.json`).then(r=>r.ok?r.json():null).catch(()=>null),
     ]);
-    const votIdx = votIdxResp?.data || [];
     let bill = null;
     for(const resp of proiecteResps){
       const items = resp?.data || (Array.isArray(resp) ? resp : []);
@@ -349,7 +348,7 @@ async function loadDetail(idp){
         </div>`;
       return;
     }
-    const voteItem = findMatchingVote(bill, votIdx);
+    const voteItem = voteMap?.[String(idp)] || null;
     document.getElementById('content').innerHTML = renderBillDetail(bill, voteItem);
   }catch(e){
     document.getElementById('content').innerHTML=
