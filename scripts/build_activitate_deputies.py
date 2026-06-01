@@ -18,6 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from _party_history import parse_group_history  # noqa: E402
 from schemas.common import Meta  # noqa: E402
 
 ALL_LEGS = [2024, 2020]
@@ -55,6 +56,21 @@ def _load_partid_map(root: Path, leg: int) -> dict[int, str]:
     return {d["cdep_idm"]: d.get("partid_short") or "Neafiliat" for d in data}
 
 
+def _load_group_histories(root: Path, leg: int) -> dict[int, list[dict]]:
+    """Returns {cdep_idm: partid_history} from deputati index."""
+    deputati_file = root / "data" / "v1" / "deputati" / f"legislatura-{leg}.json"
+    if not deputati_file.exists():
+        return {}
+    data = json.loads(deputati_file.read_text(encoding="utf-8")).get("data", [])
+    histories = {}
+    for d in data:
+        if "cdep_idm" in d:
+            history = parse_group_history(d.get("current_group"))
+            if history:
+                histories[d["cdep_idm"]] = history
+    return histories
+
+
 def build_leg(leg: int, root: Path = ROOT) -> int:
     deputati_file = root / "data" / "v1" / "deputati" / f"legislatura-{leg}.json"
     if not deputati_file.exists():
@@ -64,6 +80,7 @@ def build_leg(leg: int, root: Path = ROOT) -> int:
     deputati = json.loads(deputati_file.read_text(encoding="utf-8"))["data"]
     partid_map = _load_partid_map(root, leg)
     parties = _load_parties(root)
+    group_histories = _load_group_histories(root, leg)
 
     deputies = []
     for d in deputati:
@@ -73,6 +90,7 @@ def build_leg(leg: int, root: Path = ROOT) -> int:
             "cdep_idm": idm,
             "name": d.get("name") or d.get("deputat_nume") or "",
             "partid": partid,
+            "partid_history": group_histories.get(idm, []),
             "image": d.get("image", ""),
         }
         for f in ACTIVITY_FIELDS:
