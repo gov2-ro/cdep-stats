@@ -2,13 +2,18 @@
   "use strict";
 
   const NAV_LINKS = [
-    { href: "avere.html", label: "Averi", keys: ["avere.html", "deputati-avere.html"] },
+    { href: "avere.html",             label: "Averi",       keys: ["avere.html", "deputati-avere.html"] },
     { href: "deputati-activitate.html", label: "Activitate" },
-    { href: "comisii.html", label: "Comisii" },
+    { href: "comisii.html",           label: "Comisii" },
     { href: "interpelari-stats.html", label: "Interpelări" },
-    { href: "proiecte-stats.html", label: "Proiecte" },
-    { href: "partide.html", label: "Partide" },
-    { href: "judete.html", label: "Județe" },
+    { href: "voturi.html",            label: "Voturi",      keys: ["voturi.html", "vot.html"] },
+    { href: "proiecte-stats.html",    label: "Proiecte" },
+    { href: "proiect.html",           label: "Legi" },
+    { href: "motiuni.html",           label: "Moțiuni" },
+    { href: "ordine-zi.html",         label: "Agendă" },
+    { href: "interese.html",          label: "Interese" },
+    { href: "partide.html",           label: "Partide",     keys: ["partide.html", "partid.html"] },
+    { href: "judete.html",            label: "Județe" },
   ];
 
   function _activeHref() {
@@ -38,11 +43,28 @@
 </header>`;
   }
 
+  const FOOTER_LINKS = [
+    { href: "avere.html",             label: "Averi" },
+    { href: "deputati-activitate.html", label: "Activitate" },
+    { href: "comisii.html",           label: "Comisii" },
+    { href: "interpelari-stats.html", label: "Interpelări" },
+    { href: "voturi.html",            label: "Voturi" },
+    { href: "proiecte-stats.html",    label: "Proiecte" },
+    { href: "proiect.html",           label: "Legi" },
+    { href: "motiuni.html",           label: "Moțiuni" },
+    { href: "ordine-zi.html",         label: "Agendă" },
+    { href: "interese.html",          label: "Interese" },
+    { href: "partide.html",           label: "Partide" },
+    { href: "judete.html",            label: "Județe" },
+  ];
+
   function renderFooter(extraHtml) {
+    const pageLinks = FOOTER_LINKS.map(l => `<a href="${l.href}">${l.label}</a>`).join(" · ");
     document.getElementById("site-footer").innerHTML = `
 <footer class="footer">
+  <div style="margin-bottom:10px">${pageLinks}</div>
   <span><span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API: <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a> · <span data-i18n="license">Licență</span>: Open Government License v3.0</span>
-  ${extraHtml || ""}
+  ${extraHtml ? `<div style="margin-top:6px">${extraHtml}</div>` : ""}
 </footer>
 <!-- 100% privacy-first analytics -->
 <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
