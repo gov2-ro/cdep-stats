@@ -45,7 +45,7 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
   - [x] find URI correspondences
   - [x] Add contextual relevant links.
   - [ ] see if any pages from monitorul.ai are missing
-- [ ] cercuri in some views don't render right
+- [x] cercuri in some views don't render right
 - [x] OG info
   - [ ] fix og:image
 - [x] move html files in folder, not root. — created `web/` deployment folder with build script (2026-06-01)
@@ -53,15 +53,16 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 - [x] **Remove dead CSS rules in deputati-avere.html and deputati-activitate.html** — done 2026-05-31; removed `.metric-select`, `.search-input`, `.party-chips`, `.party-chip` rules.
 - [ ] re-add sanctiune.html, vot.html and other pages found in https://github.com/Endimion2k/cdep-api-poc
 - [ ] make more static? we generate static but load data from json?! is this SEO friendly?
+- [ ] create llms.txt
+- [ ] add filter by minoritati in party list / filters
 
 
 ## Site consistency / front door
 
 - [x] Top nav. Rename site title: Cdep stats. Normalize nav in all pages. Add link to cdep-api on all pages at the end. Remove language swticher border, add flag emoji for language switcher.
-- [ ] add top bar with - not official gov.ro site notice (one time / dismissable, save state to browser/cookies): `Versiune alfa / preview. Acesta nu este un proiect oficial al Guvernului României. Date preluate de pe cdep.ro`. See https://ins.gov2.ro/
-
-- [ ] top nav dark background?
-- [ ] **Refactor the 16 copy-pasted root pages to a shared header/nav/footer** — nav drift (pages
+- [x] add top bar with - not official gov.ro site notice (one time / dismissable, save state to browser/cookies): `Versiune alfa / preview. Acesta nu este un proiect oficial al Guvernului României. Date preluate de pe cdep.ro`. See https://ins.gov2.ro/
+- [x] top nav dark background?
+- [x] **Refactor the 16 copy-pasted root pages to a shared header/nav/footer** — nav drift (pages
   falling behind on links/labels) keeps recurring because each page hand-copies its `<nav>`. Extract
   to a shared `assets/nav.js` (or generate these pages like `pages/`) so header/nav/footer live in
   one place. This pass re-synced 5 pages by hand; the root cause remains. (2026-05-31: the
