@@ -2,6 +2,24 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-01 — Fix interpelari-stats.html (broken party color mapping)
+
+**What was done**
+- Fixed `interpelari-stats.html` page which was broken and not loading data correctly.
+- Removed two lines of dead code that referenced a non-existent `json-link` DOM element, causing JavaScript errors.
+- Updated `PARTY_COLORS` mapping: fixed 'SOSRO' → 'SOS RO' to match actual data in `interpelari-2024.json` and `interpelari-2020.json`.
+- Added 'Minoritati' party color (#666) to support the small minority party group in the stats breakdown.
+- Aligned `rateBar()` color threshold from >=90 to >=80 for consistency with the visual color fill bar logic.
+
+**Why**
+The page was in the backlog as "broken" — party name mismatch between the hardcoded color map and the actual JSON data caused undefined colors in the display, and dead code trying to update a missing element would throw JS errors in dev tools. These were lightweight fixes that unblock the page for use.
+
+**Decisions**
+- Kept the color threshold at >=80 (green) / >=70 (amber) / <70 (red) to align with the visual bar styling.
+- Did not add a separate page for interpellations list yet — that's a future task (Tier 2 brainstorm). This fix brings the stats page back online.
+
+---
+
 ### 2026-06-01 — Multi-party affiliation timeline, compact nav, activity badges, footer links
 
 **What was done**
