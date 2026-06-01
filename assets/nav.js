@@ -32,21 +32,20 @@
     ).join("");
     document.getElementById("site-header").innerHTML = `
 <style>
-/* nav layout — injected by nav.js */
-.header-inner{flex-wrap:nowrap!important;align-items:flex-start!important;gap:4px!important;padding:6px 16px!important}
-.logo{white-space:nowrap;flex-shrink:0;font-size:14px!important;line-height:1.6;padding-top:2px}
-.nav{flex:1;flex-wrap:wrap!important;overflow:visible!important;margin-left:0!important;gap:0!important;min-width:0;padding-top:2px}
-.nav a{font-size:12px!important;padding:3px 7px!important}
-.nav-right{flex-shrink:0;display:flex;align-items:center;gap:4px;padding-top:4px;white-space:nowrap}
+/* nav layout — injected by nav.js, overrides per-page defaults */
+.header-inner{display:flex!important;flex-wrap:wrap!important;align-items:center!important;gap:2px!important;padding:6px 16px!important}
+.logo{white-space:nowrap!important;flex-shrink:0;font-size:14px!important;margin-right:4px;padding:3px 6px!important;line-height:1.4}
+.nav{display:contents}
+.nav a{font-size:12px!important;padding:3px 7px!important;white-space:nowrap}
+#lang-toggle-slot{display:inline-flex!important;align-items:center}
+#lang-toggle-slot button,#lang-toggle-slot a{font-size:11px!important;padding:2px 4px!important}
 </style>
 <header class="header">
   <div class="header-inner">
     <a href="index.html" class="logo">CDEP<span> stats</span></a>
     <nav class="nav">${links}</nav>
-    <div class="nav-right">
-      <a href="https://endimion2k.github.io/cdep-api-poc" target="_blank" style="font-size:12px;color:rgba(255,255,255,.55)">cdep-api ↗</a>
-      <span id="lang-toggle-slot" style="display:flex;align-items:center"></span>
-    </div>
+    <a href="https://endimion2k.github.io/cdep-api-poc" target="_blank" style="font-size:11px;padding:2px 6px;border-radius:4px;white-space:nowrap;color:rgba(255,255,255,.5)">cdep-api ↗</a>
+    <span id="lang-toggle-slot" style="display:inline-flex;align-items:center"></span>
   </div>
 </header>`;
   }
