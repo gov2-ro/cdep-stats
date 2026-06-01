@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Camera Deputaților — API Deschis · Proof of Concept</title>
+<title>Statistici Camera deputaților</title>
 <meta name="description" content="Date deschise despre Camera Deputaților: avere, activitate, interpelări, proiecte · 2024">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Cdep stats">
+<meta property="og:title" content="CDEP stats">
 <meta property="og:description" content="Date deschise despre Camera Deputaților: avere, activitate, interpelări, proiecte · 2024">
-<meta property="og:url" content="https://endimion2k.github.io/cdep-api-poc/index.html">
-<meta property="og:image" content="https://endimion2k.github.io/cdep-api-poc/data/assets/og/index.png">
+<meta property="og:url" content="https://lab.gov2.ro/">
+<meta property="og:image" content="https://lab.gov2.ro/cdep/assets/screenshots/cdep-stats-0.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
@@ -32,11 +32,16 @@
   --mono:'SF Mono','Fira Code','Consolas',monospace;
 }
 @media(prefers-color-scheme:dark){
-  :root{
+  :root:not(.light-mode){
     --bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;
     --text:#e8e6e0;--text2:#aaa;--text3:#666;
     --border:#333;--border2:#444;
   }
+}
+:root.dark-mode{
+  --bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;
+  --text:#e8e6e0;--text2:#aaa;--text3:#666;
+  --border:#333;--border2:#444;
 }
 body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
 a{color:var(--blue);text-decoration:none}
@@ -56,9 +61,20 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
 .logo em{font-style:normal;color:var(--text2)}
 .badge{font-size:11px;padding:3px 8px;border-radius:4px;font-family:var(--mono);background:var(--green-bg);color:var(--green-text);font-weight:500}
 .nav{margin-left:auto;display:flex;gap:2px;align-items:center;flex-wrap:wrap}
-.nav a{font-size:13px;padding:6px 10px;border-radius:var(--radius-sm);color:var(--text2)}
+.nav a{font-size:13px;padding:6px 10px;border-radius:var(--radius-sm);color:var(--text2);white-space:nowrap}
 .nav a:hover{background:var(--bg2);text-decoration:none}
 .nav a.active{color:var(--text);font-weight:500}
+@media(max-width:820px){
+  .header-inner{gap:12px;padding:0 16px}
+  .nav a{font-size:12px;padding:4px 8px}
+  .nav span:not(#lang-toggle-slot){display:none}
+}
+@media(max-width:620px){
+  .header-inner{flex-wrap:wrap;gap:8px}
+  .logo{flex:0 0 auto}
+  .nav{flex:0 1 auto;margin-left:0;overflow-x:auto;-webkit-overflow-scrolling:touch;min-width:0}
+  .nav a{font-size:11px;padding:3px 6px;flex-shrink:0}
+}
 
 /* Stats bar */
 .stats-bar{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:16px 0}
@@ -133,7 +149,7 @@ button,a[role="button"]{min-height:44px} /* Touch target minimum */
 <body>
 <a href="#main-content" class="skip-link">Sari la conținut</a>
 
-<div class="notice-bar hidden" id="notice-bar"><span class="notice-icon">⚠</span><span class="notice-text">Versiune alfa / preview. Acesta nu este un proiect oficial al Guvernului României. Date preluate de pe <a href="https://cdep.ro" target="_blank" rel="noopener">cdep.ro</a>.</span><button class="notice-close" id="notice-close" aria-label="Închide">×</button></div>
+<div class="notice-bar hidden" id="notice-bar"><span class="notice-icon">⚠</span><span class="notice-text">Versiune alfa / preview. Acesta NU ESTE un proiect oficial al Guvernului României. Date preluate de pe <a href="https://cdep.ro" target="_blank" rel="noopener">cdep.ro</a>.</span><button class="notice-close" id="notice-close" aria-label="Închide">×</button></div>
 <header class="header">
   <div class="header-inner">
     <a href="index.html" class="logo">CDEP<span> stats</span></a>
@@ -230,6 +246,71 @@ function partyMeta(name) {
   const n = normRo(name);
   for (const p of PARTY_INFO) if (n.includes(p.test)) return p;
   return NEAF;
+}
+
+function groupLabelToShort(label) {
+  const n = normRo(label);
+  // Try exact short code matches first (group names often contain them directly)
+  if (n.includes(' aur') || n.includes('aur ')) return 'AUR';
+  if (n.includes('sos')) return 'S.O.S.';
+  if (n.includes('social democrat')) return 'PSD';
+  if (n.includes('national liberal')) return 'PNL';
+  if (n.includes('salvati romania')) return 'USR';
+  if (n.includes('unirea romanilor')) return 'AUR';
+  if (n.includes('democrata maghiara')) return 'UDMR';
+  if (n.includes('oamenilor tineri') || n.includes(' pot') || n.includes('pot ')) return 'POT';
+  if (n.includes('deputati neafiliat') || n.includes('neafiliat')) return 'Neaf.';
+  // Fallback
+  return 'Neaf.';
+}
+
+function partyMetaByShort(short) {
+  if (short === 'Neaf.') return {short:'Neaf.', color:'#888', bg:'#eee'};
+  for (const p of PARTY_INFO) {
+    if (p.short === short || p.short.replace(/\./g, '') === short.replace(/\./g, '')) {
+      return p;
+    }
+  }
+  return NEAF;
+}
+
+function parseGroupHistory(text) {
+  if (!text) return [];
+  const entries = [];
+  // Split on segment boundaries: "Grupul parlamentar" or "Deputaţi"
+  const segments = text.split(/(?=Grupul parlamentar|Deputaţi\s)/);
+  for (const seg of segments) {
+    if (!seg.trim()) continue;
+    // Extract from_date: "din {date}"
+    const fromMatch = seg.match(/din\s+([\w\.\s]+?\d{4})/);
+    const from_date = fromMatch ? fromMatch[1].trim() : null;
+    // Extract until_date: "până în {date}"
+    const untilMatch = seg.match(/până\s+în\s+([\w\.\s]+?\d{4})/);
+    const until_date = untilMatch ? untilMatch[1].trim() : null;
+    // Extract label
+    let label = '';
+    if (seg.startsWith('Grupul parlamentar')) {
+      const labelMatch = seg.match(/Grupul parlamentar\s+(.+?)(?:\s*-\s*(?:membru|afiliat)|$)/);
+      label = labelMatch ? ('Grupul parlamentar ' + labelMatch[1].trim()) : seg.split('-')[0].trim();
+    } else if (seg.startsWith('Deputaţi')) {
+      label = 'Deputaţi neafiliaţi';
+    } else {
+      label = seg.split('-')[0].trim();
+    }
+    // Use group-aware label-to-short mapping
+    const short = groupLabelToShort(label);
+    entries.push({
+      short: short,
+      label: label,
+      from_date: from_date,
+      until_date: until_date,
+    });
+  }
+  // Mark current: last entry with no until_date
+  if (entries.length > 0 && entries[entries.length - 1].until_date === null) {
+    entries[entries.length - 1].current = true;
+  }
+  return entries;
 }
 
 function initials(name) {
@@ -366,18 +447,25 @@ function renderDeps(list) {
   }
   const sorted = [...list].sort((a, b) => (a.name || '').localeCompare(b.name || '', 'ro')).slice(0, 24);
   el.innerHTML = sorted.map(d => {
-    const p = partyMeta(d.current_party);
+    const hist = parseGroupHistory(d.current_group) || [];
+    const p = hist.length > 0 ? partyMetaByShort(hist[hist.length - 1].short) : partyMeta(d.current_party);
     const ini = initials(d.name || '');
     const photo = d.image
       ? `<img src="${d.image}" alt="" loading="lazy" onerror="this.style.display='none'">`
       : '';
+    // Render all badges
+    const badges = hist.map(h => {
+      const pm = partyMetaByShort(h.short);
+      const strike = h.current ? '' : 'text-decoration:line-through;opacity:0.55;';
+      return `<span class="pbadge" style="background:${pm.bg};color:${pm.color};${strike}">${pm.short}</span>`;
+    }).join('');
     return `<a href="deputat.html?id=${d.cdep_idm}" class="dep-row" style="text-decoration:none;color:inherit">
       <div class="avatar" style="background:${p.bg};color:${p.color}">${photo || ini}</div>
       <div class="dep-info">
         <div class="dep-name">${d.name || '?'}</div>
         <div class="dep-meta">${d.judet || ''} · circ. ${d.circumscriptie || '-'}</div>
       </div>
-      <span class="pbadge" style="background:${p.bg};color:${p.color}">${p.short}</span>
+      <div style="display:flex;gap:4px;flex-wrap:wrap">${badges || '<span class="pbadge" style="background:#eee;color:#888">Neaf.</span>'}</div>
     </a>`;
   }).join('');
 }

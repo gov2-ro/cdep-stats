@@ -93,7 +93,7 @@ a:hover{text-decoration:underline}
 </head>
 <body>
 
-<div class="notice-bar hidden" id="notice-bar"><span class="notice-icon">⚠</span><span class="notice-text">Versiune alfa / preview. Acesta nu este un proiect oficial al Guvernului României. Date preluate de pe <a href="https://cdep.ro" target="_blank" rel="noopener">cdep.ro</a>.</span><button class="notice-close" id="notice-close" aria-label="Închide">×</button></div>
+<div class="notice-bar hidden" id="notice-bar"><span class="notice-icon">⚠</span><span class="notice-text">Versiune alfa / preview. Acesta NU ESTE un proiect oficial al Guvernului României. Date preluate de pe <a href="https://cdep.ro" target="_blank" rel="noopener">cdep.ro</a>.</span><button class="notice-close" id="notice-close" aria-label="Închide">×</button></div>
 <header class="header">
   <div class="header-inner">
     <a href="index.html" class="logo">CDEP<span> stats</span></a>
@@ -147,6 +147,48 @@ function partyShort(name) {
   const n = normRo(name);
   for (const p of PARTY_INFO) if (n.includes(p.test)) return p.short;
   return name.length > 20 ? name.slice(0, 20) + '…' : name;
+}
+
+function groupLabelToShort(label) {
+  const n = normRo(label);
+  if (n.includes(' aur') || n.includes('aur ')) return 'AUR';
+  if (n.includes('sos')) return 'S.O.S.';
+  if (n.includes('social democrat')) return 'PSD';
+  if (n.includes('national liberal')) return 'PNL';
+  if (n.includes('salvati romania')) return 'USR';
+  if (n.includes('unirea romanilor')) return 'AUR';
+  if (n.includes('democrata maghiara')) return 'UDMR';
+  if (n.includes('oamenilor tineri') || n.includes(' pot') || n.includes('pot ')) return 'POT';
+  if (n.includes('deputati neafiliat') || n.includes('neafiliat')) return 'Neaf.';
+  return 'Neaf.';
+}
+
+function parseGroupHistory(text) {
+  if (!text) return [];
+  const entries = [];
+  const segments = text.split(/(?=Grupul parlamentar|Deputaţi\s)/);
+  for (const seg of segments) {
+    if (!seg.trim()) continue;
+    const fromMatch = seg.match(/din\s+([\w\.\s]+?\d{4})/);
+    const from_date = fromMatch ? fromMatch[1].trim() : null;
+    const untilMatch = seg.match(/până\s+în\s+([\w\.\s]+?\d{4})/);
+    const until_date = untilMatch ? untilMatch[1].trim() : null;
+    let label = '';
+    if (seg.startsWith('Grupul parlamentar')) {
+      const labelMatch = seg.match(/Grupul parlamentar\s+(.+?)(?:\s*-\s*(?:membru|afiliat)|$)/);
+      label = labelMatch ? ('Grupul parlamentar ' + labelMatch[1].trim()) : seg.split('-')[0].trim();
+    } else if (seg.startsWith('Deputaţi')) {
+      label = 'Deputaţi neafiliaţi';
+    } else {
+      label = seg.split('-')[0].trim();
+    }
+    const short = groupLabelToShort(label);
+    entries.push({ short, label, from_date, until_date });
+  }
+  if (entries.length > 0 && entries[entries.length - 1].until_date === null) {
+    entries[entries.length - 1].current = true;
+  }
+  return entries;
 }
 
 function fmtRON(v) {
@@ -394,12 +436,18 @@ async function loadDeputat() {
     ? `<img src="${dep.image}" alt="${dep.name}" onerror="this.parentNode.innerHTML='${initials}'">`
     : initials;
 
-  const pid = PARTID_ID[partid];
-  const partyTag = pid
-    ? `<a class="tag tag-party" style="text-decoration:none" href="partid.html?id=${encodeURIComponent(pid)}&leg=${leg}">${partid}</a>`
-    : `<span class="tag tag-party">${partid}</span>`;
+  // Multi-badge party history
+  const hist = parseGroupHistory(dep.current_group) || [];
+  const partyBadges = hist.map(h => {
+    const strike = h.current ? '' : 'text-decoration:line-through;opacity:0.55;';
+    const pid = PARTID_ID[h.short];
+    return pid
+      ? `<a class="tag tag-party" style="text-decoration:none;${strike}" href="partid.html?id=${encodeURIComponent(pid)}&leg=${leg}">${h.short}</a>`
+      : `<span class="tag tag-party" style="${strike}">${h.short}</span>`;
+  }).join('');
+
   const tags = [
-    partyTag,
+    partyBadges || `<span class="tag tag-party">Neaf.</span>`,
     dep.judet ? `<a class="tag tag-judet" style="text-decoration:none" href="judete.html">${dep.judet}</a>` : '',
     dep.circumscriptie ? `<span class="tag tag-circ">circ. ${dep.circumscriptie}</span>` : '',
     dep.group_role && dep.group_role !== 'Membru' ? `<span class="tag tag-rol">${dep.group_role}</span>` : '',

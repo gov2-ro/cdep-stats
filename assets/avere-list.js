@@ -34,6 +34,35 @@
     return l && l !== "lipsa.jpg" ? l : null;
   }
 
+  // Render all party history badges. d.partid_history is an array of
+  // { short, label, from_date, until_date, current }, or fall back to d.partid
+  function partyBadges(d, style, parties) {
+    parties = parties || {};
+    const hist = d.partid_history || [{ short: d.partid, current: true }];
+    if (!hist.length) return '';
+
+    // For circles with limited space, show only last 2 entries (current + 1 prior)
+    let toShow = hist;
+    if (style === 'circle' && hist.length > 2) {
+      toShow = hist.slice(-2);
+    }
+
+    return toShow.map((h) => {
+      const color = partyColor(h.short);
+      const strike = !h.current ? 'text-decoration:line-through;opacity:0.5;' : '';
+      const logo = logoOf(parties, h.short);
+
+      if (style === 'circle') {
+        return `<span class="dep-badge" style="background:${color};${strike}">${h.short}</span>`;
+      }
+      // table style
+      const badgeImg = logo
+        ? `<img src="data/assets/imagini/partide/${logo}" onerror="this.style.display='none'" style="width:10px;height:10px;object-fit:contain;margin-right:2px;vertical-align:middle">`
+        : "";
+      return `<span style="font-size:10px;padding:1px 5px;border-radius:3px;background:${color}22;color:${color};${strike}">${badgeImg}${h.short}</span>`;
+    }).join(' ');
+  }
+
   const MONEY_METRICS = new Set([
     "venituri_ron", "conturi_ron", "datorii_ron", "delta_conturi_ron",
   ]);
@@ -165,9 +194,7 @@
       const photoHtml = d.image
         ? `<img src="${d.image}" alt="" onerror="this.style.display='none';this.nextSibling.style.display='flex'" style="width:28px;height:28px;border-radius:50%;object-fit:cover;flex-shrink:0"><div style="display:none;width:28px;height:28px;border-radius:50%;background:${color};align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff;flex-shrink:0">${ini}</div>`
         : `<div style="width:28px;height:28px;border-radius:50%;background:${color};display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff;flex-shrink:0">${ini}</div>`;
-      const badgeImg = logo
-        ? `<img src="data/assets/imagini/partide/${logo}" onerror="this.style.display='none'" style="width:10px;height:10px;object-fit:contain;margin-right:2px;vertical-align:middle">`
-        : "";
+      const badgesHtml = partyBadges(d, 'table', parties);
 
       const cells = COLUMNS.map((c) => {
         const v = colVal(d, c);
@@ -189,7 +216,7 @@
             ${photoHtml}
             <div>
               <div style="font-size:12px;color:var(--text);font-weight:500">${shortName}</div>
-              <span style="font-size:10px;padding:1px 5px;border-radius:3px;background:${color}22;color:${color}">${badgeImg}${d.partid}</span>
+              <div style="display:flex;gap:4px;flex-wrap:wrap">${badgesHtml}</div>
             </div>
           </div>
         </td>${cells}
@@ -243,17 +270,15 @@
 
       const sz = circleSize(v, maxV);
       const isNull = v == null;
-      const color = partyColor(d.partid);
-      const logo = logoOf(parties, d.partid);
+      // Use current party (last in history) for circle background
+      const hist = d.partid_history || [{ short: d.partid, current: true }];
+      const currentParty = hist.length ? hist[hist.length - 1].short : d.partid;
+      const color = partyColor(currentParty);
       const showBadge = sz >= 14;
       const detailUrl = `deputat.html?id=${d.cdep_idm}&leg=${leg}`;
       const fontSize = Math.max(8, Math.round(sz * 0.3));
 
-      const badgeHtml = showBadge
-        ? logo
-          ? `<span class="dep-badge" style="background:${color}"><img src="data/assets/imagini/partide/${logo}" onerror="this.style.display='none'" alt="">${d.partid}</span>`
-          : `<span class="dep-badge" style="background:${color}">${d.partid}</span>`
-        : "";
+      const badgeHtml = showBadge ? partyBadges(d, 'circle', parties) : "";
 
       const circleInner = d.image
         ? `<img src="${d.image}" alt="${d.name.replace(/"/g, "&quot;")}"
@@ -281,7 +306,7 @@
   }
 
   global.AVERE = {
-    PARTY_COLORS, partyColor, logoOf,
+    PARTY_COLORS, partyColor, logoOf, partyBadges,
     fmtVal, fmtValHtml, magGroup, circleSize, initials,
     METRIC_KEYS, COLUMNS, colVal, fmtCol,
     renderTable, renderCircles,

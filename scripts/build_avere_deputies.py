@@ -20,6 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from _party_history import parse_group_history  # noqa: E402
 from schemas.common import Meta  # noqa: E402
 
 ALL_LEGS = [2024, 2020]
@@ -57,6 +58,21 @@ def _load_images(root: Path, leg: int) -> dict[int, str]:
     return {d["cdep_idm"]: d.get("image", "") for d in data if "cdep_idm" in d}
 
 
+def _load_deputy_groups(root: Path, leg: int) -> dict[int, list[dict]]:
+    """Returnează {cdep_idm: partid_history} din indexul de deputați."""
+    deputati_file = root / "data" / "v1" / "deputati" / f"legislatura-{leg}.json"
+    if not deputati_file.exists():
+        return {}
+    data = json.loads(deputati_file.read_text(encoding="utf-8")).get("data", [])
+    groups = {}
+    for d in data:
+        if "cdep_idm" in d:
+            history = parse_group_history(d.get("current_group"))
+            if history:
+                groups[d["cdep_idm"]] = history
+    return groups
+
+
 def _load_parties(root: Path) -> dict[str, str]:
     """Returnează {partid_short: logo_filename} din legenda-partide.csv."""
     csv_file = root / "data" / "assets" / "legenda-partide.csv"
@@ -85,6 +101,7 @@ def build_leg(leg: int, root: Path = ROOT) -> int:
     extras = _load_detail_extras(root, leg)
     images = _load_images(root, leg)
     parties = _load_parties(root)
+    group_histories = _load_deputy_groups(root, leg)
 
     deputies = []
     for d in avere_index:
@@ -98,6 +115,7 @@ def build_leg(leg: int, root: Path = ROOT) -> int:
                 "cdep_idm": idm,
                 "name": d["deputat_nume"],
                 "partid": d.get("partid_short") or "Neafiliat",
+                "partid_history": group_histories.get(idm, []),
                 "image": images.get(idm, ""),
                 "venituri_ron": d.get("ultima_venituri_ron") if has_decl else None,
                 "conturi_ron": d.get("ultima_conturi_ron") if has_decl else None,

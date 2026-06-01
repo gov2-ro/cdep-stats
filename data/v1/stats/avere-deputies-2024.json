@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-31T13:20:34.880365Z",
+    "generated_at": "2026-06-01T10:06:37.425943Z",
     "source_url": "https://endimion2k.github.io/cdep-api-poc/data/v1/declaratii-avere/legislatura-2024.json",
     "scraper_version": "0.1.0",
     "count": 332
@@ -331,6 +331,15 @@
       "cdep_idm": 11,
       "name": "Artimon Dan-Cătălin",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ArtimonDanCatalin.JPG",
       "venituri_ron": 27446.0,
       "conturi_ron": 0.0,
@@ -345,6 +354,15 @@
       "cdep_idm": 13,
       "name": "Avrămescu Ştefăniţă-Alin",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/AvramescuStefanitaAlin.JPG",
       "venituri_ron": 92905.0,
       "conturi_ron": 0.0,
@@ -359,6 +377,15 @@
       "cdep_idm": 15,
       "name": "Badea Nelu-Valentin",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BadeaNeluValentin.JPG",
       "venituri_ron": 319362.0,
       "conturi_ron": 0.0,
@@ -373,6 +400,15 @@
       "cdep_idm": 16,
       "name": "Badiu Georgel",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BadiuGeorgel.JPG",
       "venituri_ron": 362084.0,
       "conturi_ron": 212290.0,
@@ -387,6 +423,15 @@
       "cdep_idm": 20,
       "name": "Barstan Tiberiu-Claudiu",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BarstanTiberiuClaudiu.JPG",
       "venituri_ron": 176540.5,
       "conturi_ron": 0.0,
@@ -401,6 +446,15 @@
       "cdep_idm": 27,
       "name": "Biro Daniel-Răzvan",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BiroDanielRazvan.JPG",
       "venituri_ron": 130891.0,
       "conturi_ron": 105305.5,
@@ -415,6 +469,15 @@
       "cdep_idm": 33,
       "name": "Bordian Alexandru",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BordianAlexandru.JPG",
       "venituri_ron": 88315.0,
       "conturi_ron": 0.0,
@@ -429,6 +492,15 @@
       "cdep_idm": 35,
       "name": "Boşutar Tiberiu-Nicolae",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BosutarTiberiuNicolae.JPG",
       "venituri_ron": 3042.0,
       "conturi_ron": 0.0,
@@ -443,6 +515,15 @@
       "cdep_idm": 38,
       "name": "Bruynseels Ramona-Ioana",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BruynseelsRamonaIoana.JPG",
       "venituri_ron": 1848761.4000000001,
       "conturi_ron": 2639839.25,
@@ -457,6 +538,15 @@
       "cdep_idm": 47,
       "name": "Butură Cristina-Irina",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ButuraCristinaIrina.JPG",
       "venituri_ron": 98802.0,
       "conturi_ron": 0.0,
@@ -471,6 +561,15 @@
       "cdep_idm": 60,
       "name": "Ciornei Daniel-Cătălin",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CiorneiDanielCatalin.JPG",
       "venituri_ron": 148259.45649999997,
       "conturi_ron": 129952.072,
@@ -485,6 +584,15 @@
       "cdep_idm": 72,
       "name": "Coleşa Ilie-Alin",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ColesaIlieAlin.JPG",
       "venituri_ron": 234000.0,
       "conturi_ron": 194957.5,
@@ -499,6 +607,15 @@
       "cdep_idm": 74,
       "name": "Coman Dragoş-Florin",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ComanDragosFlorin.JPG",
       "venituri_ron": 950157.0,
       "conturi_ron": 0.0,
@@ -513,6 +630,22 @@
       "cdep_idm": 75,
       "name": "Constantinescu Andra-Claudia",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": "sep. 2025",
+          "current": false
+        },
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": "sep. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ConstantinescuAndraClaudia.JPG",
       "venituri_ron": 90147.0,
       "conturi_ron": 0.0,
@@ -527,6 +660,15 @@
       "cdep_idm": 78,
       "name": "Corendea Cosmin-Ioan",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CorendeaCosminIoan.JPG",
       "venituri_ron": 0.0,
       "conturi_ron": 0.0,
@@ -541,6 +683,15 @@
       "cdep_idm": 68,
       "name": "Cîrligea Florin-Eugen",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CirligeaFlorinEugen.JPG",
       "venituri_ron": 1910925.0,
       "conturi_ron": 726250.0,
@@ -555,6 +706,15 @@
       "cdep_idm": 69,
       "name": "Cîrligeanu Ariadna-Elena",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CirligeanuAriadnaElena.JPG",
       "venituri_ron": 56100.0,
       "conturi_ron": 0.0,
@@ -569,6 +729,15 @@
       "cdep_idm": 89,
       "name": "Dascălu Cristina-Emanuela",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/DascaluCristinaEmanuela.JPG",
       "venituri_ron": 155424.0,
       "conturi_ron": 190427.8025,
@@ -583,6 +752,15 @@
       "cdep_idm": 91,
       "name": "Doboş Elena",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/DobosElena.JPG",
       "venituri_ron": 36000.0,
       "conturi_ron": 0.0,
@@ -597,6 +775,15 @@
       "cdep_idm": 99,
       "name": "Enache Diana",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/EnacheDiana.JPG",
       "venituri_ron": 231174.0,
       "conturi_ron": 39525.0,
@@ -611,6 +798,15 @@
       "cdep_idm": 100,
       "name": "Enache Mihai-Adrian",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/EnacheMihaiAdrian.JPG",
       "venituri_ron": 231174.0,
       "conturi_ron": 39525.0,
@@ -625,6 +821,15 @@
       "cdep_idm": 108,
       "name": "Florea Gabriel-Florinel",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/FloreaGabrielFlorinel.JPG",
       "venituri_ron": 61461.0,
       "conturi_ron": 0.0,
@@ -639,6 +844,15 @@
       "cdep_idm": 119,
       "name": "Gheorghe Ionel",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GheorgheIonel.JPG",
       "venituri_ron": 427996.0,
       "conturi_ron": 0.0,
@@ -653,6 +867,15 @@
       "cdep_idm": 120,
       "name": "Gheorghe Mihai-Claudiu",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GheorgheMihaiClaudiu.JPG",
       "venituri_ron": 101545.0,
       "conturi_ron": 0.0,
@@ -667,6 +890,15 @@
       "cdep_idm": 123,
       "name": "Gherasim Laura",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GherasimLaura.JPG",
       "venituri_ron": 3520375.0,
       "conturi_ron": 190300.0,
@@ -681,6 +913,15 @@
       "cdep_idm": 134,
       "name": "Grosu Veronica",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GrosuVeronica.JPG",
       "venituri_ron": 265854.0,
       "conturi_ron": 11108.0,
@@ -695,6 +936,15 @@
       "cdep_idm": 136,
       "name": "Gurlui Silviu-Octavian",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GurluiSilviuOctavian.JPG",
       "venituri_ron": 219068.74,
       "conturi_ron": 0.0,
@@ -709,6 +959,22 @@
       "cdep_idm": 137,
       "name": "Guşă Andrei-Cosmin",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": "iun. 2025",
+          "current": false
+        },
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": "sep. 2025",
+          "until_date": "sep. 2025",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GusaAndreiCosmin.JPG",
       "venituri_ron": 78003.0,
       "conturi_ron": 1146000.0,
@@ -723,6 +989,15 @@
       "cdep_idm": 142,
       "name": "Hristu Cosmin",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/HristuCosmin.JPG",
       "venituri_ron": 117989.0,
       "conturi_ron": 0.0,
@@ -737,6 +1012,15 @@
       "cdep_idm": 144,
       "name": "Iagăr Monica",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/IagarMonica.JPG",
       "venituri_ron": 224296.0,
       "conturi_ron": 0.0,
@@ -751,6 +1035,15 @@
       "cdep_idm": 154,
       "name": "Iosub Cosmin-Teodor",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/IosubCosminTeodor.JPG",
       "venituri_ron": 30589.0,
       "conturi_ron": 0.0,
@@ -765,6 +1058,15 @@
       "cdep_idm": 162,
       "name": "Koler Eduard-Virgil",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/KolerEduardVirgil.JPG",
       "venituri_ron": 516660.0,
       "conturi_ron": 40000.0,
@@ -779,6 +1081,15 @@
       "cdep_idm": 173,
       "name": "Lovin Ramona",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/LovinRamona.JPG",
       "venituri_ron": 172363.0,
       "conturi_ron": 0.0,
@@ -793,6 +1104,15 @@
       "cdep_idm": 185,
       "name": "Matieş Călin-Gheorghe",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MatiesCalinGheorghe.JPG",
       "venituri_ron": 196827.0,
       "conturi_ron": 36488.0,
@@ -807,6 +1127,15 @@
       "cdep_idm": 188,
       "name": "Miclău Samuel-Virgil",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MiclauSamuelVirgil.JPG",
       "venituri_ron": 50650.0,
       "conturi_ron": 34000.0,
@@ -821,6 +1150,15 @@
       "cdep_idm": 193,
       "name": "Mihăescu Mugur",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MihaescuMugur.JPG",
       "venituri_ron": 67000.0,
       "conturi_ron": 75762.2,
@@ -835,6 +1173,15 @@
       "cdep_idm": 200,
       "name": "Mitrea Dumitrina",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MitreaDumitrina.JPG",
       "venituri_ron": 178631.0,
       "conturi_ron": 0.0,
@@ -849,6 +1196,15 @@
       "cdep_idm": 210,
       "name": "Muncaciu Sorin-Titus",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MuncaciuSorinTitus.JPG",
       "venituri_ron": 316521.0,
       "conturi_ron": 656410.0,
@@ -863,6 +1219,15 @@
       "cdep_idm": 211,
       "name": "Munteanu Valeriu",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MunteanuValeriu.JPG",
       "venituri_ron": 23320.0,
       "conturi_ron": 0.0,
@@ -877,6 +1242,15 @@
       "cdep_idm": 212,
       "name": "Murad Mohammad",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MuradMohammad.JPG",
       "venituri_ron": 3281065.0,
       "conturi_ron": 78210.297,
@@ -891,6 +1265,15 @@
       "cdep_idm": 215,
       "name": "Muşat Doru-Lucian",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MusatDoruLucian.JPG",
       "venituri_ron": 7416.0,
       "conturi_ron": 0.0,
@@ -905,6 +1288,15 @@
       "cdep_idm": 201,
       "name": "Mîndrescu Nicolae",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MindrescuNicolae.JPG",
       "venituri_ron": 298376.0,
       "conturi_ron": 2254231.45,
@@ -919,6 +1311,15 @@
       "cdep_idm": 224,
       "name": "Neamţu George-Mihail",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NeamtuGeorgeMihail.JPG",
       "venituri_ron": 26725.0,
       "conturi_ron": 22713.0,
@@ -933,6 +1334,15 @@
       "cdep_idm": 227,
       "name": "Negoescu Mihai-Bogdan",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NegoescuMihaiBogdan.JPG",
       "venituri_ron": 62084.0,
       "conturi_ron": 0.0,
@@ -947,6 +1357,15 @@
       "cdep_idm": 228,
       "name": "Negrea Petru-Gabriel",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NegreaPetruGabriel.JPG",
       "venituri_ron": 107328.0,
       "conturi_ron": 0.0,
@@ -961,6 +1380,15 @@
       "cdep_idm": 230,
       "name": "Oancea Silviu-Florin",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/OanceaSilviuFlorin.JPG",
       "venituri_ron": 1496159.0,
       "conturi_ron": 304791.5,
@@ -975,6 +1403,15 @@
       "cdep_idm": 235,
       "name": "Paraschiv Ciprian-Constantin",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ParaschivCiprianConstantin.JPG",
       "venituri_ron": 1229044.0,
       "conturi_ron": 0.0,
@@ -989,6 +1426,15 @@
       "cdep_idm": 238,
       "name": "Pascariu Mihai-Cosmin",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PascariuMihaiCosmin.JPG",
       "venituri_ron": 83240.0,
       "conturi_ron": 40679.36,
@@ -1003,6 +1449,15 @@
       "cdep_idm": 255,
       "name": "Popescu Antonio-Gabi",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PopescuAntonioGabi.JPG",
       "venituri_ron": 37800.0,
       "conturi_ron": 0.0,
@@ -1017,6 +1472,15 @@
       "cdep_idm": 256,
       "name": "Popovici Florin-Cornel",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PopoviciFlorinCornel.JPG",
       "venituri_ron": 226968.0,
       "conturi_ron": 136350.0,
@@ -1031,6 +1495,15 @@
       "cdep_idm": 258,
       "name": "Priescu Ionelia-Florenţa",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PriescuIoneliaFlorenta.JPG",
       "venituri_ron": 114080.85,
       "conturi_ron": 67778.245,
@@ -1045,6 +1518,15 @@
       "cdep_idm": 261,
       "name": "Puşcaşu Lucian-Florin",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PuscasuLucianFlorin.JPG",
       "venituri_ron": 269539.0,
       "conturi_ron": 0.0,
@@ -1059,6 +1541,15 @@
       "cdep_idm": 262,
       "name": "Puşcaşu Petre",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PuscasuPetre.JPG",
       "venituri_ron": 185443.0,
       "conturi_ron": 41872.064,
@@ -1073,6 +1564,15 @@
       "cdep_idm": 240,
       "name": "Păunescu Silviu-Titus",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR Vicelider - până în feb. 2025",
+          "from_date": null,
+          "until_date": "feb. 2025",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PaunescuSilviuTitus.JPG",
       "venituri_ron": 134330.0,
       "conturi_ron": 0.0,
@@ -1087,6 +1587,15 @@
       "cdep_idm": 263,
       "name": "Radu Fabian-Cristian",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/RaduFabianCristian.JPG",
       "venituri_ron": 140824.0,
       "conturi_ron": 0.0,
@@ -1101,6 +1610,15 @@
       "cdep_idm": 279,
       "name": "Simion George-Nicolae",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/SimionGeorgeNicolae.JPG",
       "venituri_ron": 166004.0,
       "conturi_ron": 250050.0,
@@ -1115,6 +1633,15 @@
       "cdep_idm": 298,
       "name": "Tanasă Dan",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/TanasaDan.JPG",
       "venituri_ron": 200730.0,
       "conturi_ron": 87282.0,
@@ -1129,6 +1656,15 @@
       "cdep_idm": 301,
       "name": "Tilea Dumitru",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/TileaDumitru.JPG",
       "venituri_ron": 71900.0,
       "conturi_ron": 92200.0,
@@ -1143,6 +1679,15 @@
       "cdep_idm": 315,
       "name": "Vadim-Tudor Lidia",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/VadimTudorLidia.JPG",
       "venituri_ron": 0.0,
       "conturi_ron": 0.0,
@@ -1157,6 +1702,15 @@
       "cdep_idm": 321,
       "name": "Velcescu Florin-Bogdan",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/VelcescuFlorinBogdan.JPG",
       "venituri_ron": 90853.0,
       "conturi_ron": 0.0,
@@ -1171,6 +1725,15 @@
       "cdep_idm": 325,
       "name": "Vulpoiu Dorel",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/VulpoiuDorel.JPG",
       "venituri_ron": 24000.0,
       "conturi_ron": 0.0,
@@ -1185,6 +1748,15 @@
       "cdep_idm": 296,
       "name": "Şerban Gianina",
       "partid": "AUR",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/SerbanGianina.JPG",
       "venituri_ron": 383823.0,
       "conturi_ron": 77661.65,
@@ -1199,6 +1771,15 @@
       "cdep_idm": 6,
       "name": "Amet Varol",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/AmetVarol.JPG",
       "venituri_ron": 187516.0,
       "conturi_ron": 0.0,
@@ -1213,6 +1794,15 @@
       "cdep_idm": 37,
       "name": "Bouda Ştefan",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BoudaStefan.JPG",
       "venituri_ron": 19439.0,
       "conturi_ron": 0.0,
@@ -1227,6 +1817,15 @@
       "cdep_idm": 83,
       "name": "Crîstici Ognean",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CristiciOgnean.JPG",
       "venituri_ron": 234063.0,
       "conturi_ron": 13472.0,
@@ -1241,6 +1840,15 @@
       "cdep_idm": 105,
       "name": "Feodor Silviu",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/FeodorSilviu.JPG",
       "venituri_ron": 131412.0,
       "conturi_ron": 0.0,
@@ -1255,6 +1863,15 @@
       "cdep_idm": 107,
       "name": "Firczak Iulius Marian",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/FirczakIuliusMarian.JPG",
       "venituri_ron": 163019.0,
       "conturi_ron": 36900.0,
@@ -1269,6 +1886,15 @@
       "cdep_idm": 112,
       "name": "Ganţ Ovidiu Victor",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GantOvidiuVictor.JPG",
       "venituri_ron": 224298.0,
       "conturi_ron": 1234393.9875,
@@ -1283,6 +1909,15 @@
       "cdep_idm": 122,
       "name": "Ghera Giureci-Slobodan",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GheraGiureciSlobodan.JPG",
       "venituri_ron": 144071.0,
       "conturi_ron": 949104.5,
@@ -1297,6 +1932,15 @@
       "cdep_idm": 146,
       "name": "Ibram Iusein",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/IbramIusein.JPG",
       "venituri_ron": 244836.0,
       "conturi_ron": 0.0,
@@ -1311,6 +1955,15 @@
       "cdep_idm": 171,
       "name": "Longher Ghervazen",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/LongherGhervazen.JPG",
       "venituri_ron": 221045.0,
       "conturi_ron": 24000.0,
@@ -1325,6 +1978,15 @@
       "cdep_idm": 187,
       "name": "Merka Adrian-Miroslav",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MerkaAdrianMiroslav.JPG",
       "venituri_ron": 396852.0,
       "conturi_ron": 151388.0,
@@ -1339,6 +2001,15 @@
       "cdep_idm": 216,
       "name": "Nacov Gheorghe",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NacovGheorghe.JPG",
       "venituri_ron": 134916.0,
       "conturi_ron": 51000.0,
@@ -1353,6 +2024,15 @@
       "cdep_idm": 233,
       "name": "Pambuccian Varujan",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PambuccianVarujan.JPG",
       "venituri_ron": 219568.0,
       "conturi_ron": 9971.0,
@@ -1367,6 +2047,15 @@
       "cdep_idm": 241,
       "name": "Petreţchi Nicolae-Miroslav",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PetretchiNicolaeMiroslav.JPG",
       "venituri_ron": 215419.0,
       "conturi_ron": 3524.6800000000003,
@@ -1381,6 +2070,15 @@
       "cdep_idm": 239,
       "name": "Păun Nicolae",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PaunNicolae.JPG",
       "venituri_ron": 176537.0,
       "conturi_ron": 13600.14,
@@ -1395,6 +2093,15 @@
       "cdep_idm": 282,
       "name": "Stancu Ionel",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/StancuIonel.JPG",
       "venituri_ron": 238420.0,
       "conturi_ron": 0.0,
@@ -1409,6 +2116,15 @@
       "cdep_idm": 286,
       "name": "Stoica Bogdan-Alin",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/StoicaBogdanAlin.JPG",
       "venituri_ron": 187183.22,
       "conturi_ron": 191917.0,
@@ -1423,6 +2139,15 @@
       "cdep_idm": 322,
       "name": "Vexler Silviu",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/VexlerSilviu.JPG",
       "venituri_ron": 562595.0,
       "conturi_ron": 38026.5,
@@ -1437,6 +2162,15 @@
       "cdep_idm": 331,
       "name": "Zisopol Dragoş Gabriel",
       "partid": "Minoritati",
+      "partid_history": [
+        {
+          "short": "Minorități",
+          "label": "Grupul parlamentar al minorităţilor naţionale",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ZisopolDragosGabriel.JPG",
       "venituri_ron": 260412.0,
       "conturi_ron": 621174.7135,
@@ -1451,6 +2185,15 @@
       "cdep_idm": 2,
       "name": "Afloarei Sorin-Alexandru",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": null,
       "venituri_ron": 295997.0,
       "conturi_ron": 189701.3,
@@ -1465,6 +2208,15 @@
       "cdep_idm": 7,
       "name": "Andrei Alexandru-Ioan",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/AndreiAlexandruIoan.JPG",
       "venituri_ron": 364851.0,
       "conturi_ron": 370463.3,
@@ -1479,6 +2231,15 @@
       "cdep_idm": 9,
       "name": "Andronache Gabriel",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/AndronacheGabriel.JPG",
       "venituri_ron": 145712.0,
       "conturi_ron": 213237.0,
@@ -1493,6 +2254,15 @@
       "cdep_idm": 14,
       "name": "Baciu Romică-Andrei",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BaciuRomicaAndrei.JPG",
       "venituri_ron": 257575.0,
       "conturi_ron": 1225208.7,
@@ -1507,6 +2277,15 @@
       "cdep_idm": 17,
       "name": "Balan Ioan",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BalanIoan.JPG",
       "venituri_ron": 447818.0,
       "conturi_ron": 82000.0,
@@ -1521,6 +2300,15 @@
       "cdep_idm": 30,
       "name": "Bode Lucian Nicolae",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BodeLucianNicolae.JPG",
       "venituri_ron": 441996.0,
       "conturi_ron": 74592.4,
@@ -1535,6 +2323,15 @@
       "cdep_idm": 31,
       "name": "Bogdan Ionel-Ovidiu",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BogdanIonelOvidiu.JPG",
       "venituri_ron": 338899.0,
       "conturi_ron": 89630.5,
@@ -1549,6 +2346,15 @@
       "cdep_idm": 43,
       "name": "Buican Cristian",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BuicanCristian.JPG",
       "venituri_ron": 153312.0,
       "conturi_ron": 34500.0,
@@ -1563,6 +2369,15 @@
       "cdep_idm": 46,
       "name": "Burduja Sebastian-Ioan",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BurdujaSebastianIoan.JPG",
       "venituri_ron": 884953.0,
       "conturi_ron": 535348.75,
@@ -1577,6 +2392,15 @@
       "cdep_idm": 49,
       "name": "Cadar Răzvan-Olimpiu",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CadarRazvanOlimpiu.JPG",
       "venituri_ron": 232459.12,
       "conturi_ron": 0.0,
@@ -1591,6 +2415,15 @@
       "cdep_idm": 56,
       "name": "Ciobanu Adrian-Virgil",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CiobanuAdrianVirgil.JPG",
       "venituri_ron": 207924.0,
       "conturi_ron": 289179.74000000005,
@@ -1605,6 +2438,15 @@
       "cdep_idm": 57,
       "name": "Ciobotaru Dragoş-Fănică",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CiobotaruDragosFanica.JPG",
       "venituri_ron": 223979.0,
       "conturi_ron": 157402.0,
@@ -1619,6 +2461,15 @@
       "cdep_idm": 79,
       "name": "Cotinescu Ilie-Aurelian",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CotinescuIlieAurelian.JPG",
       "venituri_ron": 118914.0,
       "conturi_ron": 0.0,
@@ -1633,6 +2484,15 @@
       "cdep_idm": 81,
       "name": "Cozma Adrian-Felician",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CozmaAdrianFelician.JPG",
       "venituri_ron": 438852.0,
       "conturi_ron": 307685.85,
@@ -1647,6 +2507,15 @@
       "cdep_idm": 84,
       "name": "Cruşoveanu Marian",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CrusoveanuMarian.JPG",
       "venituri_ron": 12149641.18,
       "conturi_ron": 2559899.014,
@@ -1661,6 +2530,15 @@
       "cdep_idm": 88,
       "name": "Culeafă Mihai",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CuleafaMihai.JPG",
       "venituri_ron": 1013954.0,
       "conturi_ron": 6925000.0,
@@ -1675,6 +2553,15 @@
       "cdep_idm": 66,
       "name": "Cîmpean Ovidiu-Vasile",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CimpeanOvidiuVasile.JPG",
       "venituri_ron": 562570.05,
       "conturi_ron": 30815.0,
@@ -1689,6 +2576,15 @@
       "cdep_idm": 92,
       "name": "Dobre Ciprian-Minodor",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/DobreCiprianMinodor.JPG",
       "venituri_ron": 0.0,
       "conturi_ron": 0.0,
@@ -1703,6 +2599,15 @@
       "cdep_idm": 104,
       "name": "Fechet Mircea",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/FechetMircea.JPG",
       "venituri_ron": 182051.0,
       "conturi_ron": 96505.74,
@@ -1717,6 +2622,15 @@
       "cdep_idm": 110,
       "name": "Gal Călin-Graţian",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GalCalinGratian.JPG",
       "venituri_ron": 308832.0,
       "conturi_ron": 55236.0,
@@ -1731,6 +2645,15 @@
       "cdep_idm": 118,
       "name": "Gheorghe Andrei Daniel",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GheorgheAndreiDaniel.JPG",
       "venituri_ron": 215839.0,
       "conturi_ron": 1987.56,
@@ -1745,6 +2668,15 @@
       "cdep_idm": 129,
       "name": "Gorghiu Alina-Ştefania",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GorghiuAlinaStefania.JPG",
       "venituri_ron": 1974797.3,
       "conturi_ron": 2577539.9705,
@@ -1759,6 +2691,15 @@
       "cdep_idm": 143,
       "name": "Huţucă Bogdan-Iulian",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/HutucaBogdanIulian.JPG",
       "venituri_ron": 255765.35,
       "conturi_ron": 410772.55,
@@ -1773,6 +2714,15 @@
       "cdep_idm": 153,
       "name": "Iordache Ion",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/IordacheIon.JPG",
       "venituri_ron": 2022830.0,
       "conturi_ron": 3091541.59,
@@ -1787,6 +2737,29 @@
       "cdep_idm": 158,
       "name": "Jianu Iosif-Florin",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": "mai 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "mai 2025",
+          "until_date": "iun. 2025",
+          "current": false
+        },
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": "iun. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/JianuIosifFlorin.JPG",
       "venituri_ron": 168937.0,
       "conturi_ron": 0.0,
@@ -1801,6 +2774,15 @@
       "cdep_idm": 182,
       "name": "Matei Aneta",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MateiAneta.JPG",
       "venituri_ron": 556053.0,
       "conturi_ron": 251022.06,
@@ -1815,6 +2797,15 @@
       "cdep_idm": 199,
       "name": "Mititelu Eduard-Tatian",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MititeluEduardTatian.JPG",
       "venituri_ron": 340131.52499999997,
       "conturi_ron": 489316.99799999996,
@@ -1829,6 +2820,15 @@
       "cdep_idm": 203,
       "name": "Mocanu Adrian",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MocanuAdrian.JPG",
       "venituri_ron": 1332652.0,
       "conturi_ron": 62000.0,
@@ -1843,6 +2843,36 @@
       "cdep_idm": 204,
       "name": "Moiseev Alexandrin",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": "feb. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "feb. 2025",
+          "until_date": "iun. 2025",
+          "current": false
+        },
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": "iun. 2025",
+          "until_date": "mai 2026",
+          "current": false
+        },
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": "mai 2026",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MoiseevAlexandrin.JPG",
       "venituri_ron": 210915.0,
       "conturi_ron": 5903.0,
@@ -1857,6 +2887,15 @@
       "cdep_idm": 205,
       "name": "Moisin Radu-Marin",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MoisinRaduMarin.JPG",
       "venituri_ron": 966030.91,
       "conturi_ron": 341681.988,
@@ -1871,6 +2910,15 @@
       "cdep_idm": 208,
       "name": "Moş Patricia-Simina-Arina",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MosPatriciaSiminaArina.JPG",
       "venituri_ron": 342975.0,
       "conturi_ron": 0.0,
@@ -1885,6 +2933,15 @@
       "cdep_idm": 214,
       "name": "Muraru Iulian-Alexandru",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MuraruIulianAlexandru.JPG",
       "venituri_ron": 200335.0,
       "conturi_ron": 166260.4575,
@@ -1899,6 +2956,29 @@
       "cdep_idm": 221,
       "name": "Neacşu Andreea-Firuţa",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": "iun. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "iun. 2025",
+          "until_date": "sep. 2025",
+          "current": false
+        },
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": "sep. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NeacsuAndreeaFiruta.JPG",
       "venituri_ron": 66919.0,
       "conturi_ron": 0.0,
@@ -1913,6 +2993,22 @@
       "cdep_idm": 223,
       "name": "Neagu Petre-Emanoil",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": "apr. 2026",
+          "current": false
+        },
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": "apr. 2026",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NeaguPetreEmanoil.JPG",
       "venituri_ron": 338239.45,
       "conturi_ron": 66020.0,
@@ -1927,6 +3023,15 @@
       "cdep_idm": 332,
       "name": "Năcuţă Sorin",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NacutaSorin.JPG",
       "venituri_ron": 216056.0,
       "conturi_ron": 0.0,
@@ -1941,6 +3046,15 @@
       "cdep_idm": 232,
       "name": "Oprea Octavian",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/OpreaOctavian.JPG",
       "venituri_ron": 128846.0,
       "conturi_ron": 0.0,
@@ -1955,6 +3069,15 @@
       "cdep_idm": 234,
       "name": "Pandea Ciprian",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PandeaCiprian.JPG",
       "venituri_ron": 1265205.0,
       "conturi_ron": 347342.58,
@@ -1969,6 +3092,15 @@
       "cdep_idm": 243,
       "name": "Pirtea Marilen - Gabriel",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PirteaMarilenGabriel.JPG",
       "venituri_ron": 761735.0,
       "conturi_ron": 894791.611,
@@ -1983,6 +3115,15 @@
       "cdep_idm": 244,
       "name": "Pistru-Popa Simona-Geanina",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PistruPopaSimonaGeanina.JPG",
       "venituri_ron": 938989.0,
       "conturi_ron": 75476.0,
@@ -1997,6 +3138,15 @@
       "cdep_idm": 249,
       "name": "Popa Alexandru",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PopaAlexandru.JPG",
       "venituri_ron": 1022189.0,
       "conturi_ron": 0.0,
@@ -2011,6 +3161,15 @@
       "cdep_idm": 259,
       "name": "Prişcă Răzvan Sorin",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PriscaRazvanSorin.JPG",
       "venituri_ron": 311374.0,
       "conturi_ron": 95421.81,
@@ -2025,6 +3184,15 @@
       "cdep_idm": 271,
       "name": "Roman Florin-Claudiu",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/RomanFlorinClaudiu.JPG",
       "venituri_ron": 566061.0,
       "conturi_ron": 477744.492,
@@ -2039,6 +3207,15 @@
       "cdep_idm": 272,
       "name": "Roşca Mircea",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/RoscaMircea.JPG",
       "venituri_ron": 239793.0,
       "conturi_ron": 151500.0,
@@ -2053,6 +3230,15 @@
       "cdep_idm": 273,
       "name": "Rusu Sebastian-Mihai",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/RusuSebastianMihai.JPG",
       "venituri_ron": 1029318.0,
       "conturi_ron": 93000.0,
@@ -2067,6 +3253,15 @@
       "cdep_idm": 276,
       "name": "Scarlat George",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ScarlatGeorge.JPG",
       "venituri_ron": 1197147.0,
       "conturi_ron": 112447.0,
@@ -2081,6 +3276,15 @@
       "cdep_idm": 278,
       "name": "Sighiartău Robert-Ionatan",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/SighiartauRobertIonatan.JPG",
       "venituri_ron": 1061225.0,
       "conturi_ron": 57320.0,
@@ -2095,6 +3299,15 @@
       "cdep_idm": 288,
       "name": "Stoica Ştefan-Bucur",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/StoicaStefanBucur.JPG",
       "venituri_ron": 181934.0,
       "conturi_ron": 316185.58,
@@ -2109,6 +3322,15 @@
       "cdep_idm": 289,
       "name": "Stroe Ionuţ-Marian",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/StroeIonutMarian.JPG",
       "venituri_ron": 490580.0,
       "conturi_ron": 763542.61,
@@ -2123,6 +3345,15 @@
       "cdep_idm": 283,
       "name": "Stănescu Vetuţa",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/StanescuVetuta.JPG",
       "venituri_ron": 500349.0,
       "conturi_ron": 405902.1875,
@@ -2137,6 +3368,29 @@
       "cdep_idm": 300,
       "name": "Teslariu Andrei-Ionuţ",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": "mar. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "mar. 2025",
+          "until_date": "mai 2025",
+          "current": false
+        },
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": "mai 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/TeslariuAndreiIonut.JPG",
       "venituri_ron": 170901.0,
       "conturi_ron": 0.0,
@@ -2151,6 +3405,15 @@
       "cdep_idm": 308,
       "name": "Turcan Raluca",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/TurcanRaluca.JPG",
       "venituri_ron": 766202.0,
       "conturi_ron": 2675853.2,
@@ -2165,6 +3428,15 @@
       "cdep_idm": 320,
       "name": "Vela Ion-Marcel",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/VelaIonMarcel.JPG",
       "venituri_ron": 339423.0,
       "conturi_ron": 509282.95,
@@ -2179,6 +3451,15 @@
       "cdep_idm": 295,
       "name": "Şerban George Cătălin",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/SerbanGeorgeCatalin.JPG",
       "venituri_ron": 2215056.0,
       "conturi_ron": 11412104.8,
@@ -2193,6 +3474,15 @@
       "cdep_idm": 297,
       "name": "Ştirbu Gigel-Sorinel",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/StirbuGigelSorinel.JPG",
       "venituri_ron": 740686.0,
       "conturi_ron": 30737.0,
@@ -2207,6 +3497,15 @@
       "cdep_idm": 311,
       "name": "Ţiplea Dumitru",
       "partid": "PNL",
+      "partid_history": [
+        {
+          "short": "PNL",
+          "label": "Grupul parlamentar al Partidului Naţional Liberal",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/TipleaDumitru.JPG",
       "venituri_ron": 440442.0,
       "conturi_ron": 572528.0700000001,
@@ -2221,6 +3520,15 @@
       "cdep_idm": 1,
       "name": "Adomnicăi Mirela Elena",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/AdomnicaiMirelaElena.JPG",
       "venituri_ron": 283031.0,
       "conturi_ron": 0.0,
@@ -2235,6 +3543,29 @@
       "cdep_idm": 8,
       "name": "Andrei Cosmin",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": "feb. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "feb. 2025",
+          "until_date": "iun. 2025",
+          "current": false
+        },
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": "iun. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/AndreiCosmin.JPG",
       "venituri_ron": 314588.0,
       "conturi_ron": 19528.67,
@@ -2249,6 +3580,29 @@
       "cdep_idm": 10,
       "name": "Andruşcă Lucian-Nicolae",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": "mai 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "mai 2025",
+          "until_date": "iun. 2025",
+          "current": false
+        },
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": "iun. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/AndruscaLucianNicolae.JPG",
       "venituri_ron": 183504.0,
       "conturi_ron": 0.0,
@@ -2263,6 +3617,15 @@
       "cdep_idm": 18,
       "name": "Bara Nicolae-Adrian",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BaraNicolaeAdrian.JPG",
       "venituri_ron": 363232.0,
       "conturi_ron": 0.0,
@@ -2277,6 +3640,15 @@
       "cdep_idm": 19,
       "name": "Barbu Florin-Ionuţ",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BarbuFlorinIonut.JPG",
       "venituri_ron": 333898.0,
       "conturi_ron": 0.0,
@@ -2291,6 +3663,15 @@
       "cdep_idm": 24,
       "name": "Bejinariu Eugen",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BejinariuEugen.JPG",
       "venituri_ron": 404464.0,
       "conturi_ron": 2353434.35,
@@ -2305,6 +3686,15 @@
       "cdep_idm": 32,
       "name": "Bogdănel Lucian-Gabriel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BogdanelLucianGabriel.JPG",
       "venituri_ron": 201248.0,
       "conturi_ron": 139651.0,
@@ -2319,6 +3709,15 @@
       "cdep_idm": 34,
       "name": "Borş George-Mădălin",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BorsGeorgeMadalin.JPG",
       "venituri_ron": 58180.0,
       "conturi_ron": 0.0,
@@ -2333,6 +3732,15 @@
       "cdep_idm": 39,
       "name": "Bucur Ariana-Oana",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BucurArianaOana.JPG",
       "venituri_ron": 143537.0,
       "conturi_ron": 0.0,
@@ -2347,6 +3755,15 @@
       "cdep_idm": 40,
       "name": "Bucura-Oprescu Simona",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BucuraOprescuSimona.JPG",
       "venituri_ron": 330903.0,
       "conturi_ron": 0.0,
@@ -2361,6 +3778,15 @@
       "cdep_idm": 41,
       "name": "Budacă Vasile",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BudacaVasile.JPG",
       "venituri_ron": 229944.0,
       "conturi_ron": 0.0,
@@ -2375,6 +3801,15 @@
       "cdep_idm": 42,
       "name": "Budăi Marius-Constantin",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BudaiMariusConstantin.JPG",
       "venituri_ron": 422291.0,
       "conturi_ron": 219179.16,
@@ -2389,6 +3824,29 @@
       "cdep_idm": 22,
       "name": "Băişanu Ştefan-Alexandru",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": "feb. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "feb. 2025",
+          "until_date": "iun. 2025",
+          "current": false
+        },
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": "iun. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BaisanuStefanAlexandru.JPG",
       "venituri_ron": 184704.0,
       "conturi_ron": 322795.95,
@@ -2403,6 +3861,15 @@
       "cdep_idm": 53,
       "name": "Chilat Crina-Fiorela",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ChilatCrinaFiorela.JPG",
       "venituri_ron": 601326.0,
       "conturi_ron": 304876.61,
@@ -2417,6 +3884,15 @@
       "cdep_idm": 54,
       "name": "Chirilă Virgil Alin",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ChirilaVirgilAlin.JPG",
       "venituri_ron": 155712.0,
       "conturi_ron": 144157.4315,
@@ -2431,6 +3907,15 @@
       "cdep_idm": 58,
       "name": "Ciocan Doiniţa",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CiocanDoinita.JPG",
       "venituri_ron": 342749.0,
       "conturi_ron": 18443.82,
@@ -2445,6 +3930,15 @@
       "cdep_idm": 59,
       "name": "Ciolacu Ion-Marcel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CiolacuIonMarcel.JPG",
       "venituri_ron": 344376.0,
       "conturi_ron": 792289.9005,
@@ -2459,6 +3953,15 @@
       "cdep_idm": 61,
       "name": "Ciortea Răzvan-Iulian",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CiorteaRazvanIulian.JPG",
       "venituri_ron": 231927.0,
       "conturi_ron": 742587.5,
@@ -2473,6 +3976,15 @@
       "cdep_idm": 63,
       "name": "Ciucă Liviu-Bogdan",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": "sep. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CiucaLiviuBogdan.JPG",
       "venituri_ron": 1214258.0,
       "conturi_ron": 247836.0,
@@ -2487,6 +3999,15 @@
       "cdep_idm": 64,
       "name": "Ciunt Ionel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CiuntIonel.JPG",
       "venituri_ron": 383305.0,
       "conturi_ron": 260518.0,
@@ -2501,6 +4022,15 @@
       "cdep_idm": 71,
       "name": "Cojocaru Petru-Bogdan",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CojocaruPetruBogdan.JPG",
       "venituri_ron": 1267397.0,
       "conturi_ron": 281852.15,
@@ -2515,6 +4045,15 @@
       "cdep_idm": 76,
       "name": "Constantinescu Sergiu-Mircea",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ConstantinescuSergiuMircea.JPG",
       "venituri_ron": 204121.0,
       "conturi_ron": 3723342.35,
@@ -2529,6 +4068,15 @@
       "cdep_idm": 80,
       "name": "Cotîrleţ Paul-Claudiu",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CotirletPaulClaudiu.JPG",
       "venituri_ron": 186999.0,
       "conturi_ron": 100000.0,
@@ -2543,6 +4091,15 @@
       "cdep_idm": 51,
       "name": "Câciu Adrian",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CaciuAdrian.JPG",
       "venituri_ron": 176455.0,
       "conturi_ron": 481000.0,
@@ -2557,6 +4114,22 @@
       "cdep_idm": 65,
       "name": "Cîmpan Cristian-Emanuel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": "apr. 2026",
+          "current": false
+        },
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": "apr. 2026",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CimpanCristianEmanuel.JPG",
       "venituri_ron": 35836.0,
       "conturi_ron": 0.0,
@@ -2571,6 +4144,15 @@
       "cdep_idm": 93,
       "name": "Dolineaschi Andrei",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/DolineaschiAndrei.JPG",
       "venituri_ron": 363216.0,
       "conturi_ron": 95824.75,
@@ -2585,6 +4167,15 @@
       "cdep_idm": 95,
       "name": "Drinceanu Vlad-Florentin",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/DrinceanuVladFlorentin.JPG",
       "venituri_ron": 211067.0,
       "conturi_ron": 190000.0,
@@ -2599,6 +4190,15 @@
       "cdep_idm": 97,
       "name": "Dunava Costel Neculai",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/DunavaCostelNeculai.JPG",
       "venituri_ron": 249375.0,
       "conturi_ron": 373574.187,
@@ -2613,6 +4213,15 @@
       "cdep_idm": 102,
       "name": "Ene Gabriela-Corina",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/EneGabrielaCorina.JPG",
       "venituri_ron": 448038.0,
       "conturi_ron": 0.0,
@@ -2627,6 +4236,15 @@
       "cdep_idm": 106,
       "name": "Fifor Mihai-Viorel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/FiforMihaiViorel.JPG",
       "venituri_ron": 452370.0,
       "conturi_ron": 22880.25,
@@ -2641,6 +4259,15 @@
       "cdep_idm": 109,
       "name": "Furtună Mirela",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/FurtunaMirela.JPG",
       "venituri_ron": 536264.0,
       "conturi_ron": 1907527.5835,
@@ -2655,6 +4282,15 @@
       "cdep_idm": 115,
       "name": "Gavrilescu Graţiela Leocadia",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": "sep. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GavrilescuGratielaLeocadia.JPG",
       "venituri_ron": 468470.0,
       "conturi_ron": 180000.0,
@@ -2669,6 +4305,15 @@
       "cdep_idm": 116,
       "name": "Geamănu Aurora-Adela",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GeamanuAuroraAdela.JPG",
       "venituri_ron": 105660.0,
       "conturi_ron": 0.0,
@@ -2683,6 +4328,15 @@
       "cdep_idm": 117,
       "name": "Georgescu Gheorghe-Daniel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GeorgescuGheorgheDaniel.JPG",
       "venituri_ron": 390324.0,
       "conturi_ron": 307260.45,
@@ -2697,6 +4351,15 @@
       "cdep_idm": 124,
       "name": "Ghigiu Alexandru-Mihai",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GhigiuAlexandruMihai.JPG",
       "venituri_ron": 695088.0,
       "conturi_ron": 1111293.0,
@@ -2711,6 +4374,15 @@
       "cdep_idm": 127,
       "name": "Gliga Dumitriţa",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GligaDumitrita.JPG",
       "venituri_ron": 1594208.34,
       "conturi_ron": 0.0,
@@ -2725,6 +4397,15 @@
       "cdep_idm": 130,
       "name": "Govor Mircea-Vasile",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GovorMirceaVasile.JPG",
       "venituri_ron": 400091.0,
       "conturi_ron": 239848.52000000002,
@@ -2739,6 +4420,15 @@
       "cdep_idm": 131,
       "name": "Grindeanu Sorin-Mihai",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GrindeanuSorinMihai.JPG",
       "venituri_ron": 299065.0,
       "conturi_ron": 256610.55,
@@ -2753,6 +4443,15 @@
       "cdep_idm": 138,
       "name": "Hagiu Augustin-Florin",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/HagiuAugustinFlorin.JPG",
       "venituri_ron": 246929.0,
       "conturi_ron": 0.0,
@@ -2767,6 +4466,15 @@
       "cdep_idm": 141,
       "name": "Holban Georgeta-Carmen",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/HolbanGeorgetaCarmen.JPG",
       "venituri_ron": 531099.0,
       "conturi_ron": 34796.0,
@@ -2781,6 +4489,15 @@
       "cdep_idm": 145,
       "name": "Iancu Marius-Ionel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/IancuMariusIonel.JPG",
       "venituri_ron": 222794.0,
       "conturi_ron": 30643.4,
@@ -2795,6 +4512,15 @@
       "cdep_idm": 147,
       "name": "Intotero Natalia-Elena",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/IntoteroNataliaElena.JPG",
       "venituri_ron": 449326.0,
       "conturi_ron": 567253.334,
@@ -2809,6 +4535,15 @@
       "cdep_idm": 156,
       "name": "Isac Marius-Adrian",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/IsacMariusAdrian.JPG",
       "venituri_ron": 1138346.0,
       "conturi_ron": 650414.75,
@@ -2823,6 +4558,15 @@
       "cdep_idm": 157,
       "name": "Ivan Bogdan-Gruia",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/IvanBogdanGruia.JPG",
       "venituri_ron": 227616.0,
       "conturi_ron": 39348.0,
@@ -2837,6 +4581,15 @@
       "cdep_idm": 170,
       "name": "Lipă Elisabeta",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/LipaElisabeta.JPG",
       "venituri_ron": 597335.0,
       "conturi_ron": 272170.194,
@@ -2851,6 +4604,15 @@
       "cdep_idm": 174,
       "name": "Lungu Romeo-Daniel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/LunguRomeoDaniel.JPG",
       "venituri_ron": 421779.0,
       "conturi_ron": 179967.0,
@@ -2865,6 +4627,15 @@
       "cdep_idm": 168,
       "name": "Lăpuşan Remus-Gabriel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/LapusanRemusGabriel.JPG",
       "venituri_ron": 947383.68,
       "conturi_ron": 1192555.75,
@@ -2879,6 +4650,15 @@
       "cdep_idm": 177,
       "name": "Manole Petre-Florin",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat Vicelider - până în sep. 2025",
+          "from_date": null,
+          "until_date": "sep. 2025",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ManolePetreFlorin.JPG",
       "venituri_ron": 259210.0,
       "conturi_ron": 79490.0,
@@ -2893,6 +4673,15 @@
       "cdep_idm": 178,
       "name": "Manta Claudiu",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MantaClaudiu.JPG",
       "venituri_ron": 641289.0,
       "conturi_ron": 198057.0,
@@ -2907,6 +4696,15 @@
       "cdep_idm": 179,
       "name": "Marinescu Radu",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MarinescuRadu.JPG",
       "venituri_ron": 698042.0,
       "conturi_ron": 136067.1,
@@ -2921,6 +4719,15 @@
       "cdep_idm": 184,
       "name": "Matichescu Mirela-Florenţa",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MatichescuMirelaFlorenta.JPG",
       "venituri_ron": 616155.0,
       "conturi_ron": 5755.3,
@@ -2935,6 +4742,15 @@
       "cdep_idm": 190,
       "name": "Mihalcea Ioan",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MihalceaIoan.JPG",
       "venituri_ron": 774859.0,
       "conturi_ron": 1783527.8905,
@@ -2949,6 +4765,15 @@
       "cdep_idm": 191,
       "name": "Mihalcea Remus-Gabriel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MihalceaRemusGabriel.JPG",
       "venituri_ron": 6616188.0,
       "conturi_ron": 72318.0,
@@ -2963,6 +4788,15 @@
       "cdep_idm": 192,
       "name": "Mihalcea Silvia-Claudia",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MihalceaSilviaClaudia.JPG",
       "venituri_ron": 141482.0,
       "conturi_ron": 18212.88,
@@ -2977,6 +4811,15 @@
       "cdep_idm": 194,
       "name": "Mihuţi Bogdan-Florian",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MihutiBogdanFlorian.JPG",
       "venituri_ron": 68130.0,
       "conturi_ron": 34226.0,
@@ -2991,6 +4834,15 @@
       "cdep_idm": 196,
       "name": "Mina Marian",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MinaMarian.JPG",
       "venituri_ron": 152508.0,
       "conturi_ron": 0.0,
@@ -3005,6 +4857,15 @@
       "cdep_idm": 197,
       "name": "Mircea Florin",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": "noi. 2025",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MirceaFlorin.JPG",
       "venituri_ron": 299719.0,
       "conturi_ron": 316681.6695,
@@ -3019,6 +4880,15 @@
       "cdep_idm": 207,
       "name": "Morar Lucian-Ioan-Titus",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MorarLucianIoanTitus.JPG",
       "venituri_ron": 209685.0,
       "conturi_ron": 51072.0,
@@ -3033,6 +4903,15 @@
       "cdep_idm": 202,
       "name": "Mîndroc Cătălin-Viorel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MindrocCatalinViorel.JPG",
       "venituri_ron": 199668.0,
       "conturi_ron": 0.0,
@@ -3047,6 +4926,15 @@
       "cdep_idm": 186,
       "name": "Mărgărit Mitică-Marius",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MargaritMiticaMarius.JPG",
       "venituri_ron": 1287331.0,
       "conturi_ron": 0.0,
@@ -3061,6 +4949,15 @@
       "cdep_idm": 219,
       "name": "Nassar Rodica",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NassarRodica.JPG",
       "venituri_ron": 869840.0,
       "conturi_ron": 910996.1,
@@ -3075,6 +4972,15 @@
       "cdep_idm": 222,
       "name": "Neacşu Marian",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NeacsuMarian.JPG",
       "venituri_ron": 477225.0,
       "conturi_ron": 511733.15,
@@ -3089,6 +4995,15 @@
       "cdep_idm": 225,
       "name": "Neaţă Eugen",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NeataEugen.JPG",
       "venituri_ron": 392337.0,
       "conturi_ron": 0.0,
@@ -3103,6 +5018,15 @@
       "cdep_idm": 226,
       "name": "Neculaescu Laurenţiu Adrian",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NeculaescuLaurentiuAdrian.JPG",
       "venituri_ron": 255706.0,
       "conturi_ron": 0.0,
@@ -3117,6 +5041,15 @@
       "cdep_idm": 242,
       "name": "Peţa-Ştefănescu Eliza-Mădălina",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PetaStefanescuElizaMadalina.JPG",
       "venituri_ron": 138256.0,
       "conturi_ron": 0.0,
@@ -3131,6 +5064,29 @@
       "cdep_idm": 246,
       "name": "Plopeanu Rodica",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": "iun. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "iun. 2025",
+          "until_date": "mai 2026",
+          "current": false
+        },
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": "mai 2026",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PlopeanuRodica.JPG",
       "venituri_ron": 35950.0,
       "conturi_ron": 1042640.5,
@@ -3145,6 +5101,15 @@
       "cdep_idm": 248,
       "name": "Ponta Victor-Viorel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PontaVictorViorel.JPG",
       "venituri_ron": 259295.0,
       "conturi_ron": 670232.5499999999,
@@ -3159,6 +5124,29 @@
       "cdep_idm": 251,
       "name": "Popa Dorin",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": "mai 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "mai 2025",
+          "until_date": "iun. 2025",
+          "current": false
+        },
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": "iun. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PopaDorin.JPG",
       "venituri_ron": 23420.0,
       "conturi_ron": 83167.13699999999,
@@ -3173,6 +5161,15 @@
       "cdep_idm": 252,
       "name": "Popa George-Adrian",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PopaGeorgeAdrian.JPG",
       "venituri_ron": 206479.0,
       "conturi_ron": 8566.0,
@@ -3187,6 +5184,15 @@
       "cdep_idm": 253,
       "name": "Popa Maricel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PopaMaricel.JPG",
       "venituri_ron": 650168.0,
       "conturi_ron": 188701.87,
@@ -3201,6 +5207,15 @@
       "cdep_idm": 254,
       "name": "Popa Ştefan-Ovidiu",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat Vicelider - până în dec. 2024",
+          "from_date": null,
+          "until_date": "dec. 2024",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PopaStefanOvidiu.JPG",
       "venituri_ron": 398130.0,
       "conturi_ron": 967578.9824999999,
@@ -3215,6 +5230,15 @@
       "cdep_idm": 264,
       "name": "Rafila Alexandru",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/RafilaAlexandru.JPG",
       "venituri_ron": 443395.0,
       "conturi_ron": 3793258.85,
@@ -3229,6 +5253,15 @@
       "cdep_idm": 268,
       "name": "Rinder Ana-Smaranda",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/RinderAnaSmaranda.JPG",
       "venituri_ron": 227797.0,
       "conturi_ron": 84987.158,
@@ -3243,6 +5276,15 @@
       "cdep_idm": 270,
       "name": "Rogobete Alexandru-Florin",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/RogobeteAlexandruFlorin.JPG",
       "venituri_ron": 231532.0,
       "conturi_ron": 41160.0,
@@ -3257,6 +5299,15 @@
       "cdep_idm": 265,
       "name": "Răducanu Sebastian",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/RaducanuSebastian.JPG",
       "venituri_ron": 518360.0,
       "conturi_ron": 15697.15,
@@ -3271,6 +5322,15 @@
       "cdep_idm": 274,
       "name": "Samoilă Ion",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/SamoilaIon.JPG",
       "venituri_ron": 420743.0,
       "conturi_ron": 232000.0,
@@ -3285,6 +5345,15 @@
       "cdep_idm": 275,
       "name": "Sandu Viorica",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/SanduViorica.JPG",
       "venituri_ron": 265668.0,
       "conturi_ron": 185500.0,
@@ -3299,6 +5368,15 @@
       "cdep_idm": 281,
       "name": "Solomon Adrian",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/SolomonAdrian.JPG",
       "venituri_ron": 148584.0,
       "conturi_ron": 0.0,
@@ -3313,6 +5391,15 @@
       "cdep_idm": 284,
       "name": "Stoenică Irina-Florentina",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/StoenicaIrinaFlorentina.JPG",
       "venituri_ron": 126886.0,
       "conturi_ron": 0.0,
@@ -3327,6 +5414,15 @@
       "cdep_idm": 290,
       "name": "Suciu Vasile-Daniel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/SuciuVasileDaniel.JPG",
       "venituri_ron": 501751.0,
       "conturi_ron": 151648.0,
@@ -3341,6 +5437,29 @@
       "cdep_idm": 292,
       "name": "Szőke Ecaterina-Mariana",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": "feb. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "feb. 2025",
+          "until_date": "iun. 2025",
+          "current": false
+        },
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": "iun. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/SzokeEcaterinaMariana.JPG",
       "venituri_ron": 96708.0,
       "conturi_ron": 284604.8915,
@@ -3355,6 +5474,15 @@
       "cdep_idm": 303,
       "name": "Toader Bogdan-Andrei",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ToaderBogdanAndrei.JPG",
       "venituri_ron": 227520.0,
       "conturi_ron": 40000.0,
@@ -3369,6 +5497,15 @@
       "cdep_idm": 305,
       "name": "Toma Ilie",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/TomaIlie.JPG",
       "venituri_ron": 215970.0,
       "conturi_ron": 287688.55,
@@ -3383,6 +5520,15 @@
       "cdep_idm": 306,
       "name": "Tomoescu Ion-Alin",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/TomoescuIonAlin.JPG",
       "venituri_ron": 462226.0,
       "conturi_ron": 0.0,
@@ -3397,6 +5543,15 @@
       "cdep_idm": 307,
       "name": "Trif Bogdan Gheorghe",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/TrifBogdanGheorghe.JPG",
       "venituri_ron": 242018.0,
       "conturi_ron": 0.0,
@@ -3411,6 +5566,15 @@
       "cdep_idm": 309,
       "name": "Tuşa Adriana Diana",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/TusaAdrianaDiana.JPG",
       "venituri_ron": 5278316.0,
       "conturi_ron": 2680554.38,
@@ -3425,6 +5589,15 @@
       "cdep_idm": 302,
       "name": "Tîlvăr Angel",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/TilvarAngel.JPG",
       "venituri_ron": 254782.0,
       "conturi_ron": 310456.221,
@@ -3439,6 +5612,15 @@
       "cdep_idm": 324,
       "name": "Vulpescu Ioan",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/VulpescuIoan.JPG",
       "venituri_ron": 153597.0,
       "conturi_ron": 0.0,
@@ -3453,6 +5635,15 @@
       "cdep_idm": 326,
       "name": "Vuşcan Voicu",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/VuscanVoicu.JPG",
       "venituri_ron": 1427820.0,
       "conturi_ron": 1373488.0,
@@ -3467,6 +5658,15 @@
       "cdep_idm": 327,
       "name": "Weber Mihai",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/WeberMihai.JPG",
       "venituri_ron": 1657280.25,
       "conturi_ron": 1377326.8365,
@@ -3481,6 +5681,15 @@
       "cdep_idm": 294,
       "name": "Şerban Ciprian-Constantin",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat Lider - până în dec. 2024",
+          "from_date": null,
+          "until_date": "dec. 2024",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/SerbanCiprianConstantin2025.JPG",
       "venituri_ron": 153580.0,
       "conturi_ron": 0.0,
@@ -3495,6 +5704,15 @@
       "cdep_idm": 310,
       "name": "Ţintă Ştefan",
       "partid": "PSD",
+      "partid_history": [
+        {
+          "short": "PSD",
+          "label": "Grupul parlamentar al Partidului Social Democrat",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/TintaStefan.JPG",
       "venituri_ron": 1003214.0,
       "conturi_ron": 5900.0,
@@ -3509,6 +5727,15 @@
       "cdep_idm": 21,
       "name": "Baş Ana-Marcela",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BasAnaMarcela.JPG",
       "venituri_ron": 73373.0,
       "conturi_ron": 0.0,
@@ -3523,6 +5750,15 @@
       "cdep_idm": 50,
       "name": "Caragaţă Florin",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România Vicelider - până în feb. 2026",
+          "from_date": null,
+          "until_date": "feb. 2026",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CaragataFlorin.JPG",
       "venituri_ron": 205917.0,
       "conturi_ron": 54000.0,
@@ -3537,6 +5773,15 @@
       "cdep_idm": 67,
       "name": "Cîmpianu Andreea-Petronela",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România Vicelider - până în mar. 2025",
+          "from_date": null,
+          "until_date": "mar. 2025",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CimpianuAndreeaPetronela.JPG",
       "venituri_ron": 25250.0,
       "conturi_ron": 82626.95,
@@ -3551,6 +5796,15 @@
       "cdep_idm": 128,
       "name": "Goidescu Ionel",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GoidescuIonel.JPG",
       "venituri_ron": 25422.0,
       "conturi_ron": 0.0,
@@ -3565,6 +5819,15 @@
       "cdep_idm": 148,
       "name": "Ion Nicolae-Mirel",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/IonNicolaeMirel.JPG",
       "venituri_ron": 203849.0,
       "conturi_ron": 259940.852,
@@ -3579,6 +5842,15 @@
       "cdep_idm": 152,
       "name": "Ionescu Tudor",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/IonescuTudor.JPG",
       "venituri_ron": 118600.0,
       "conturi_ron": 454595.95,
@@ -3593,6 +5865,15 @@
       "cdep_idm": 169,
       "name": "Lăzăroi Ioan",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România Vicelider - până în mar. 2025",
+          "from_date": null,
+          "until_date": "mar. 2025",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/LazaroiIoan.JPG",
       "venituri_ron": 82232.0,
       "conturi_ron": 0.0,
@@ -3607,6 +5888,15 @@
       "cdep_idm": 175,
       "name": "Macovei Ilie Simona-Elena",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MacoveiIlieSimonaElena.JPG",
       "venituri_ron": 48504.0,
       "conturi_ron": 0.0,
@@ -3621,6 +5911,15 @@
       "cdep_idm": 218,
       "name": "Nagy Vasile",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NagyVasile.JPG",
       "venituri_ron": 131412.0,
       "conturi_ron": 728725.65,
@@ -3635,6 +5934,15 @@
       "cdep_idm": 231,
       "name": "Oltenaşu Sorin-George",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/OltenasuSorinGeorge.JPG",
       "venituri_ron": 269198.0,
       "conturi_ron": 0.0,
@@ -3649,6 +5957,15 @@
       "cdep_idm": 237,
       "name": "Pascalini Nini-Alexandru",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PascaliniNiniAlexandru.JPG",
       "venituri_ron": 478056.0,
       "conturi_ron": 0.0,
@@ -3663,6 +5980,15 @@
       "cdep_idm": 304,
       "name": "Toader Elena-Laura",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ToaderElenaLaura.JPG",
       "venituri_ron": 102015.0,
       "conturi_ron": 95350.0,
@@ -3677,6 +6003,15 @@
       "cdep_idm": 319,
       "name": "Vedinaş Verginia",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/VedinasVerginia.JPG",
       "venituri_ron": 784330.0,
       "conturi_ron": 1016470.85,
@@ -3691,6 +6026,15 @@
       "cdep_idm": 323,
       "name": "Vidra Vlad-Andrei",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/VidraVladAndrei.JPG",
       "venituri_ron": 36686.0,
       "conturi_ron": 60200.0,
@@ -3705,6 +6049,15 @@
       "cdep_idm": 312,
       "name": "Ţiu Mihai-Adrian",
       "partid": "SOS RO",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/TiuMihaiAdrian.JPG",
       "venituri_ron": 288483.0,
       "conturi_ron": 49300.0,
@@ -3719,6 +6072,15 @@
       "cdep_idm": 25,
       "name": "Bende Sándor",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BendeSandor.JPG",
       "venituri_ron": 331423.0,
       "conturi_ron": 295945.846,
@@ -3733,6 +6095,15 @@
       "cdep_idm": 28,
       "name": "Biró Rozália-Ibolya",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BiroRozaliaIbolya.JPG",
       "venituri_ron": 933295.0,
       "conturi_ron": 253281.7,
@@ -3747,6 +6118,15 @@
       "cdep_idm": 87,
       "name": "Csoma Botond",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CsomaBotond.JPG",
       "venituri_ron": 170256.0,
       "conturi_ron": 66048.1335,
@@ -3761,6 +6141,15 @@
       "cdep_idm": 85,
       "name": "Csép Éva-Andrea",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CsepEvaAndrea.JPG",
       "venituri_ron": 335135.0,
       "conturi_ron": 193491.52,
@@ -3775,6 +6164,15 @@
       "cdep_idm": 111,
       "name": "Gál Károly",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GalKaroly.JPG",
       "venituri_ron": 210071.0,
       "conturi_ron": 41948.089,
@@ -3789,6 +6187,15 @@
       "cdep_idm": 139,
       "name": "Hajdu Gábor",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/HajduGabor.JPG",
       "venituri_ron": 131412.0,
       "conturi_ron": 168473.34999999998,
@@ -3803,6 +6210,15 @@
       "cdep_idm": 160,
       "name": "Kelemen Hunor",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/KelemenHunor.JPG",
       "venituri_ron": 555244.0,
       "conturi_ron": 848549.049,
@@ -3817,6 +6233,15 @@
       "cdep_idm": 161,
       "name": "Kolcsár Anquetil-Károly",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/KolcsarAnquetilKaroly.JPG",
       "venituri_ron": 1058498.0,
       "conturi_ron": 1742724.6,
@@ -3831,6 +6256,15 @@
       "cdep_idm": 165,
       "name": "Kulcsár-Terza József-György",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/KulcsarTerzaJozsefGyorgy.JPG",
       "venituri_ron": 367763.0,
       "conturi_ron": 0.0,
@@ -3845,6 +6279,15 @@
       "cdep_idm": 159,
       "name": "Kántor Boglárka",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/KantorBoglarka.JPG",
       "venituri_ron": 193604.0,
       "conturi_ron": 45619.0,
@@ -3859,6 +6302,15 @@
       "cdep_idm": 163,
       "name": "Könczei Csaba",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/KonczeiCsaba.JPG",
       "venituri_ron": 227525.0,
       "conturi_ron": 142754.0,
@@ -3873,6 +6325,15 @@
       "cdep_idm": 166,
       "name": "Ladányi László-Zsolt",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/LadanyiLaszloZsolt.JPG",
       "venituri_ron": 134328.0,
       "conturi_ron": 0.0,
@@ -3887,6 +6348,15 @@
       "cdep_idm": 176,
       "name": "Magyar Loránd-Bálint",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MagyarLorandBalint.JPG",
       "venituri_ron": 530627.0,
       "conturi_ron": 0.0,
@@ -3901,6 +6371,15 @@
       "cdep_idm": 180,
       "name": "Markó Attila-Gábor",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MarkoAttilaGabor.JPG",
       "venituri_ron": 42338.0,
       "conturi_ron": 0.0,
@@ -3915,6 +6394,15 @@
       "cdep_idm": 195,
       "name": "Miklós Zoltán",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MiklosZoltan.JPG",
       "venituri_ron": 0.0,
       "conturi_ron": 0.0,
@@ -3929,6 +6417,15 @@
       "cdep_idm": 206,
       "name": "Molnar Andrei",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MolnarAndrei.JPG",
       "venituri_ron": 406536.0,
       "conturi_ron": 66485.0,
@@ -3943,6 +6440,15 @@
       "cdep_idm": 217,
       "name": "Nagy Szabolcs",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NagySzabolcs.JPG",
       "venituri_ron": 248900.0,
       "conturi_ron": 119070.0,
@@ -3957,6 +6463,15 @@
       "cdep_idm": 277,
       "name": "Seres Dénes",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/SeresDenes.JPG",
       "venituri_ron": 382358.0,
       "conturi_ron": 243716.334,
@@ -3971,6 +6486,15 @@
       "cdep_idm": 291,
       "name": "Szabó Ödön",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/SzaboOdon.JPG",
       "venituri_ron": 233861.0,
       "conturi_ron": 641598.7155,
@@ -3985,6 +6509,15 @@
       "cdep_idm": 316,
       "name": "Vass Levente",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/VassLevente.JPG",
       "venituri_ron": 224036.29,
       "conturi_ron": 0.0,
@@ -3999,6 +6532,15 @@
       "cdep_idm": 329,
       "name": "Zahoranszki Brigitta-Eva",
       "partid": "UDMR",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ZahoranszkiBrigittaEva.JPG",
       "venituri_ron": 281452.0,
       "conturi_ron": 64764.0,
@@ -4013,6 +6555,15 @@
       "cdep_idm": 52,
       "name": "Cernit Maria",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CernitMaria.JPG",
       "venituri_ron": 326700.0,
       "conturi_ron": 0.0,
@@ -4027,6 +6578,15 @@
       "cdep_idm": 55,
       "name": "Chiriţă Răzvan-Mirel",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT Vicelider - până în noi. 2025",
+          "from_date": null,
+          "until_date": "noi. 2025",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ChiritaRazvanMirel.JPG",
       "venituri_ron": 36150.0,
       "conturi_ron": 53789.420000000006,
@@ -4041,6 +6601,15 @@
       "cdep_idm": 77,
       "name": "Corcheş Codruţa-Maria",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CorchesCodrutaMaria.JPG",
       "venituri_ron": 28681.0,
       "conturi_ron": 0.0,
@@ -4055,6 +6624,29 @@
       "cdep_idm": 86,
       "name": "Csillag Andrei",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": "mai 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "mai 2025",
+          "until_date": "apr. 2026",
+          "current": false
+        },
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": "apr. 2026",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CsillagAndrei.JPG",
       "venituri_ron": 454917.19999999995,
       "conturi_ron": 0.0,
@@ -4069,6 +6661,15 @@
       "cdep_idm": 113,
       "name": "Gavrilă Anamaria",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT Lider - până în noi. 2025",
+          "from_date": null,
+          "until_date": "noi. 2025",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GavrilaAnamaria.JPG",
       "venituri_ron": 139318.0,
       "conturi_ron": 534704.0,
@@ -4083,6 +6684,15 @@
       "cdep_idm": 114,
       "name": "Gavrilă Bianca-Eugenia",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GavrilaBiancaEugenia.JPG",
       "venituri_ron": 314175.65,
       "conturi_ron": 0.0,
@@ -4097,6 +6707,15 @@
       "cdep_idm": 132,
       "name": "Grofu Daniel",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GrofuDaniel.JPG",
       "venituri_ron": 114036.0,
       "conturi_ron": 100000.0,
@@ -4111,6 +6730,29 @@
       "cdep_idm": 135,
       "name": "Groza Călin-Florin",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": "mai 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "mai 2025",
+          "until_date": "apr. 2026",
+          "current": false
+        },
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": "apr. 2026",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GrozaCalinFlorin.JPG",
       "venituri_ron": 55800.0,
       "conturi_ron": 0.0,
@@ -4125,6 +6767,15 @@
       "cdep_idm": 155,
       "name": "Irimia Ancuţa-Florina",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/IrimiaAncutaFlorina.JPG",
       "venituri_ron": 66788.0,
       "conturi_ron": 0.0,
@@ -4139,6 +6790,15 @@
       "cdep_idm": 164,
       "name": "Kroncsiş Sebastian-Andrei",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/KroncsisSebastianAndrei.JPG",
       "venituri_ron": 167859.55,
       "conturi_ron": 0.0,
@@ -4153,6 +6813,15 @@
       "cdep_idm": 183,
       "name": "Matei Sergiu-Lucian",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MateiSergiuLucian.JPG",
       "venituri_ron": 240480.0,
       "conturi_ron": 0.0,
@@ -4167,6 +6836,15 @@
       "cdep_idm": 229,
       "name": "Nicolae Dan-Mihai",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NicolaeDanMihai.JPG",
       "venituri_ron": 136100.0,
       "conturi_ron": 0.0,
@@ -4181,6 +6859,15 @@
       "cdep_idm": 250,
       "name": "Popa Cristian-Alexandru",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PopaCristianAlexandru.JPG",
       "venituri_ron": 0.0,
       "conturi_ron": 0.0,
@@ -4195,6 +6882,15 @@
       "cdep_idm": 257,
       "name": "Porumboiu Gabriela",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PorumboiuGabriela.JPG",
       "venituri_ron": 152925.0,
       "conturi_ron": 0.0,
@@ -4209,6 +6905,29 @@
       "cdep_idm": 245,
       "name": "Pîclişan Gheorghe-Petru",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": "mai 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "mai 2025",
+          "until_date": "apr. 2026",
+          "current": false
+        },
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": "apr. 2026",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PiclisanGheorghePetru.JPG",
       "venituri_ron": 138055.2315,
       "conturi_ron": 13434.785,
@@ -4223,6 +6942,15 @@
       "cdep_idm": 266,
       "name": "Răducea Gheorghe-Valentin",
       "partid": "UPR",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/RaduceaGheorgheValentin.JPG",
       "venituri_ron": 307173.0,
       "conturi_ron": 0.0,
@@ -4237,6 +6965,15 @@
       "cdep_idm": 4,
       "name": "Alecsandru Marius-Nicolae",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/AlecsandruMariusNicolae.JPG",
       "venituri_ron": 119520.0,
       "conturi_ron": 0.0,
@@ -4251,6 +6988,15 @@
       "cdep_idm": 12,
       "name": "Atanasiu Corina",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/AtanasiuCorina.JPG",
       "venituri_ron": 477387.73299999995,
       "conturi_ron": 393828.3945,
@@ -4265,6 +7011,15 @@
       "cdep_idm": 26,
       "name": "Berescu Monica-Elena",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BerescuMonicaElena.JPG",
       "venituri_ron": 1720926.0,
       "conturi_ron": 10487101.9025,
@@ -4279,6 +7034,15 @@
       "cdep_idm": 29,
       "name": "Blaga Daniel-Codruţ",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BlagaDanielCodrut.JPG",
       "venituri_ron": 169351.0,
       "conturi_ron": 559567.85,
@@ -4293,6 +7057,15 @@
       "cdep_idm": 36,
       "name": "Botez Mihai-Cătălin",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România Vicelider - până în feb. 2026",
+          "from_date": null,
+          "until_date": "feb. 2026",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BotezMihaiCatalin.JPG",
       "venituri_ron": 131412.0,
       "conturi_ron": 46578.3,
@@ -4307,6 +7080,15 @@
       "cdep_idm": 44,
       "name": "Bulai Iulian",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BulaiIulian.JPG",
       "venituri_ron": 153156.0,
       "conturi_ron": 0.0,
@@ -4321,6 +7103,15 @@
       "cdep_idm": 45,
       "name": "Bulearcă Marius-Felix",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BulearcaMariusFelix.JPG",
       "venituri_ron": 401858.0,
       "conturi_ron": 207050.0,
@@ -4335,6 +7126,15 @@
       "cdep_idm": 48,
       "name": "Buzoianu Diana-Anda",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BuzoianuDianaAnda.JPG",
       "venituri_ron": 137256.0,
       "conturi_ron": 187932.41,
@@ -4349,6 +7149,15 @@
       "cdep_idm": 73,
       "name": "Coliban Allen",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ColibanAllen.JPG",
       "venituri_ron": 229036.0,
       "conturi_ron": 114647.273,
@@ -4363,6 +7172,15 @@
       "cdep_idm": 82,
       "name": "Cristian Brian",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CristianBrian.JPG",
       "venituri_ron": 138913.0,
       "conturi_ron": 37610.995,
@@ -4377,6 +7195,15 @@
       "cdep_idm": 90,
       "name": "Dimitriu Alexandru-Paul",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/DimitriuAlexandruPaul.JPG",
       "venituri_ron": 802330.45,
       "conturi_ron": 7533.52,
@@ -4391,6 +7218,15 @@
       "cdep_idm": 96,
       "name": "Drulă Cătălin",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/DrulaCatalin.JPG",
       "venituri_ron": 203880.0,
       "conturi_ron": 2323602.3,
@@ -4405,6 +7241,15 @@
       "cdep_idm": 94,
       "name": "Drăgoescu Cezar-Mihail",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România Vicelider - până în feb. 2026",
+          "from_date": null,
+          "until_date": "feb. 2026",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/DragoescuCezarMihail.JPG",
       "venituri_ron": 145936.0,
       "conturi_ron": 0.0,
@@ -4419,6 +7264,15 @@
       "cdep_idm": 98,
       "name": "Echert Adrian",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/EchertAdrian.JPG",
       "venituri_ron": 376383.0,
       "conturi_ron": 115575.05,
@@ -4433,6 +7287,15 @@
       "cdep_idm": 121,
       "name": "Gheorghiu Andrei-Florin",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GheorghiuAndreiFlorin.JPG",
       "venituri_ron": 204890.0,
       "conturi_ron": 43500.0,
@@ -4447,6 +7310,15 @@
       "cdep_idm": 125,
       "name": "Gima George",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GimaGeorge.JPG",
       "venituri_ron": 172604.0,
       "conturi_ron": 190191.4,
@@ -4461,6 +7333,15 @@
       "cdep_idm": 126,
       "name": "Giurgiu Adrian",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România Vicelider - până în feb. 2026",
+          "from_date": null,
+          "until_date": "feb. 2026",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GiurgiuAdrian1.JPG",
       "venituri_ron": 146016.0,
       "conturi_ron": 110631.9,
@@ -4475,6 +7356,15 @@
       "cdep_idm": 140,
       "name": "Hangan Pollyanna-Hanellore",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/HanganPollyannaHanellore.JPG",
       "venituri_ron": 162858.8,
       "conturi_ron": 28425.0,
@@ -4489,6 +7379,15 @@
       "cdep_idm": 149,
       "name": "Ion Stelian-Cristian",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/IonStelianCristian.JPG",
       "venituri_ron": 142169.0,
       "conturi_ron": 144878.5,
@@ -4503,6 +7402,15 @@
       "cdep_idm": 167,
       "name": "Lazăr Teodor",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/LazarTeodor.JPG",
       "venituri_ron": 194459.0,
       "conturi_ron": 253200.0,
@@ -4517,6 +7425,15 @@
       "cdep_idm": 172,
       "name": "Lőrincz Ştefan-Iulian",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România Secretar - până în feb. 2026",
+          "from_date": null,
+          "until_date": "feb. 2026",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/LorinczStefanIulian.JPG",
       "venituri_ron": 134230.0,
       "conturi_ron": 90776.3785,
@@ -4531,6 +7448,15 @@
       "cdep_idm": 181,
       "name": "Marussi George-Nicolae",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MarussiGeorgeNicolae.JPG",
       "venituri_ron": 525718.0,
       "conturi_ron": 1293888.4,
@@ -4545,6 +7471,15 @@
       "cdep_idm": 189,
       "name": "Mihaiu Radu-Nicolae",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MihaiuRaduNicolae.JPG",
       "venituri_ron": 365357.0,
       "conturi_ron": 580429.0,
@@ -4559,6 +7494,15 @@
       "cdep_idm": 198,
       "name": "Miruţă Radu-Dinel",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MirutaRaduDinel.JPG",
       "venituri_ron": 484554.0,
       "conturi_ron": 2889160.1445,
@@ -4573,6 +7517,15 @@
       "cdep_idm": 209,
       "name": "Moşteanu Liviu-Ionuţ",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România Lider - până în iun. 2025",
+          "from_date": null,
+          "until_date": "iun. 2025",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MosteanuLiviuIonut.JPG",
       "venituri_ron": 311393.0,
       "conturi_ron": 408474.6,
@@ -4587,6 +7540,15 @@
       "cdep_idm": 213,
       "name": "Murariu Oana",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România Vicelider - până în feb. 2026",
+          "from_date": null,
+          "until_date": "feb. 2026",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/MurariuOana.JPG",
       "venituri_ron": 174246.0,
       "conturi_ron": 120774.7575,
@@ -4601,6 +7563,15 @@
       "cdep_idm": 220,
       "name": "Năsui Claudiu-Iulius-Gavril",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/NasuiClaudiuIuliusGavril.JPG",
       "venituri_ron": 211462.96899999998,
       "conturi_ron": 92557.7375,
@@ -4615,6 +7586,15 @@
       "cdep_idm": 236,
       "name": "Paraschivescu Ovidiu-Romulus",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ParaschivescuOvidiuRomulus.JPG",
       "venituri_ron": 578760.0,
       "conturi_ron": 173454.35,
@@ -4629,6 +7609,15 @@
       "cdep_idm": 247,
       "name": "Plujar Andrei George",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PlujarAndreiGeorge.JPG",
       "venituri_ron": 85128.0,
       "conturi_ron": 0.0,
@@ -4643,6 +7632,15 @@
       "cdep_idm": 260,
       "name": "Prună Cristina-Mădălina",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România Vicelider - până în feb. 2026",
+          "from_date": null,
+          "until_date": "feb. 2026",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/PrunaCristinaMadalina.JPG",
       "venituri_ron": 141072.785,
       "conturi_ron": 525879.245,
@@ -4657,6 +7655,15 @@
       "cdep_idm": 267,
       "name": "Rigman Ciprian-Doru",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/RigmanCiprianDoru.JPG",
       "venituri_ron": 324319.0,
       "conturi_ron": 55034.0,
@@ -4671,6 +7678,15 @@
       "cdep_idm": 269,
       "name": "Rodeanu Bogdan-Ionel",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/RodeanuBogdanIonel.JPG",
       "venituri_ron": 164256.0,
       "conturi_ron": 27829.25,
@@ -4685,6 +7701,15 @@
       "cdep_idm": 285,
       "name": "Stoica Alin-Bogdan",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/StoicaAlinBogdan.JPG",
       "venituri_ron": 331711.0,
       "conturi_ron": 615745.2925,
@@ -4699,6 +7724,15 @@
       "cdep_idm": 287,
       "name": "Stoica Diana",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România Vicelider - până în feb. 2026 Lideră - din feb. 2026",
+          "from_date": "feb. 2026",
+          "until_date": "feb. 2026",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/StoicaDiana.JPG",
       "venituri_ron": 137330.0,
       "conturi_ron": 79882.0,
@@ -4713,6 +7747,15 @@
       "cdep_idm": 299,
       "name": "Tanasă Ştefan",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/TanasaStefan.JPG",
       "venituri_ron": 0.0,
       "conturi_ron": 0.0,
@@ -4727,6 +7770,15 @@
       "cdep_idm": 314,
       "name": "Ungureanu Emanuel-Dumitru",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România Vicelider - până în feb. 2026",
+          "from_date": null,
+          "until_date": "feb. 2026",
+          "current": false
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/UngureanuEmanuelDumitru.JPG",
       "venituri_ron": 636756.0,
       "conturi_ron": 20792.69,
@@ -4741,6 +7793,15 @@
       "cdep_idm": 317,
       "name": "Văduva Dumitru",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/VaduvaDumitru.JPG",
       "venituri_ron": 440672.0,
       "conturi_ron": 373180.45,
@@ -4755,6 +7816,15 @@
       "cdep_idm": 328,
       "name": "Wiener Adrian",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/WienerAdrian.JPG",
       "venituri_ron": 219628.0,
       "conturi_ron": 96927.837,
@@ -4769,6 +7839,15 @@
       "cdep_idm": 293,
       "name": "Şendroiu Vlad-Ioan",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/SendroiuVladIoan.JPG",
       "venituri_ron": 208253.0,
       "conturi_ron": 29677.0,
@@ -4783,6 +7862,15 @@
       "cdep_idm": 313,
       "name": "Ţoiu Oana-Silvia",
       "partid": "USR",
+      "partid_history": [
+        {
+          "short": "USR",
+          "label": "Grupul parlamentar al Uniunii Salvaţi România",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ToiuOanaSilvia.JPG",
       "venituri_ron": 650249.0,
       "conturi_ron": 123379.95,
@@ -4797,6 +7885,22 @@
       "cdep_idm": 3,
       "name": "Albu Dumitriţa",
       "partid": "Neafiliat",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": "mai 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "mai 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/AlbuDumitrita.JPG",
       "venituri_ron": 900177.8015,
       "conturi_ron": 0.0,
@@ -4811,6 +7915,22 @@
       "cdep_idm": 5,
       "name": "Alecu Robert",
       "partid": "Neafiliat",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": "apr. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "apr. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/AlecuRobert.JPG",
       "venituri_ron": 86649.0,
       "conturi_ron": 57483.3,
@@ -4825,6 +7945,22 @@
       "cdep_idm": 23,
       "name": "Becali George",
       "partid": "Neafiliat",
+      "partid_history": [
+        {
+          "short": "AUR",
+          "label": "Grupul parlamentar AUR",
+          "from_date": null,
+          "until_date": "mar. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "mar. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/BecaliGeorge.JPG",
       "venituri_ron": 80666.0,
       "conturi_ron": 32100000.0,
@@ -4839,6 +7975,22 @@
       "cdep_idm": 62,
       "name": "Ciubuc Ciprian",
       "partid": "Neafiliat",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": "iun. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "iun. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CiubucCiprian.JPG",
       "venituri_ron": 252217.0,
       "conturi_ron": 0.0,
@@ -4853,6 +8005,22 @@
       "cdep_idm": 70,
       "name": "Coarnă Dumitru",
       "partid": "Neafiliat",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": "mar. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "mar. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/CoarnaDumitru.JPG",
       "venituri_ron": 389299.0,
       "conturi_ron": 136000.0,
@@ -4867,6 +8035,22 @@
       "cdep_idm": 101,
       "name": "Enachi Raisa",
       "partid": "Neafiliat",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": "aug. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "aug. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/EnachiRaisa.JPG",
       "venituri_ron": 136222.0,
       "conturi_ron": 0.0,
@@ -4881,6 +8065,22 @@
       "cdep_idm": 103,
       "name": "Făget Mădălin-Laurenţiu",
       "partid": "Neafiliat",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": "iun. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "iun. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/FagetMadalinLaurentiu.JPG",
       "venituri_ron": 103164.0,
       "conturi_ron": 0.0,
@@ -4895,6 +8095,15 @@
       "cdep_idm": 133,
       "name": "Grosaru Ioana",
       "partid": "Neafiliat",
+      "partid_history": [
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": null,
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/GrosaruIoana.JPG",
       "venituri_ron": 195816.0,
       "conturi_ron": 1248494.62,
@@ -4909,6 +8118,22 @@
       "cdep_idm": 150,
       "name": "Ionescu Monica",
       "partid": "Neafiliat",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": "feb. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "feb. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/IonescuMonica.JPG",
       "venituri_ron": 521769.6000000001,
       "conturi_ron": 0.0,
@@ -4923,6 +8148,22 @@
       "cdep_idm": 151,
       "name": "Ionescu Radu-Mihail",
       "partid": "Neafiliat",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": "feb. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "feb. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/IonescuRaduMihail.JPG",
       "venituri_ron": 524869.6000000001,
       "conturi_ron": 0.0,
@@ -4937,6 +8178,22 @@
       "cdep_idm": 280,
       "name": "Simu Aurora-Tasica",
       "partid": "Neafiliat",
+      "partid_history": [
+        {
+          "short": "POT",
+          "label": "Grupul parlamentar POT",
+          "from_date": null,
+          "until_date": "mai 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "mai 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/SimuAuroraTasica.JPG",
       "venituri_ron": 365304.0,
       "conturi_ron": 0.0,
@@ -4951,6 +8208,22 @@
       "cdep_idm": 318,
       "name": "Vârgă Mariana",
       "partid": "Neafiliat",
+      "partid_history": [
+        {
+          "short": "SOS",
+          "label": "Grupul parlamentar SOS România",
+          "from_date": null,
+          "until_date": "iun. 2025",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "iun. 2025",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/VargaMariana.JPG",
       "venituri_ron": 1189132.0,
       "conturi_ron": 0.0,
@@ -4965,6 +8238,22 @@
       "cdep_idm": 330,
       "name": "Zakarias Zoltán",
       "partid": "Neafiliat",
+      "partid_history": [
+        {
+          "short": "Altul",
+          "label": "Grupul parlamentar al Uniunii Democrate Maghiare din România",
+          "from_date": null,
+          "until_date": "apr. 2026",
+          "current": false
+        },
+        {
+          "short": "Neafiliat",
+          "label": "Deputaţi neafiliaţi",
+          "from_date": "apr. 2026",
+          "until_date": null,
+          "current": true
+        }
+      ],
       "image": "https://www.cdep.ro/parlamentari/l2024/ZakariasZoltan.JPG",
       "venituri_ron": 131265.0,
       "conturi_ron": 155639.55,
