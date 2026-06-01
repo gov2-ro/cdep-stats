@@ -176,6 +176,7 @@ h1{font-size:22px;font-weight:600;margin-bottom:4px}
 
 <div id="site-footer"></div>
 
+<script src="assets/nav.js"></script>
 <script src="assets/avere-list.js"></script>
 <script>
 function getParam(n){return new URL(location).searchParams.get(n);}
@@ -194,7 +195,8 @@ const DATA_URL = `data/v1/stats/avere-deputies-${LEG}.json`;
     footerLink.href = `data/v1/stats/avere-deputies-${LEG}.json`;
     footerLink.textContent = `avere-deputies-${LEG}.json`;
   }
-  document.querySelector('footer a[href^="avere.html"]').href = `avere.html?leg=${LEG}`;
+  const footerBackLink = document.querySelector('footer a[href^="avere.html"]');
+  if(footerBackLink) footerBackLink.href = `avere.html?leg=${LEG}`;
 })();
 
 let ALL=[],PARTIES={},activeParties=new Set(),metric='venituri_ron';
@@ -416,7 +418,6 @@ document.addEventListener('click',e=>{
 
 load();
 </script>
-<script src="assets/nav.js"></script>
 <script>
 NAV.renderHeader();
 const leg = new URL(location).searchParams.get('leg') || '2024';
