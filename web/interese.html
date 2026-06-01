@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Declarații de interese — Camera Deputaților</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<meta name="description" content="Declarații de interese ale deputaților Camerei Deputaților.">
+<meta name="description" content="Companii, funcții de partid și contracte publice declarate de deputații Camerei Deputaților.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Declarații de interese — Camera Deputaților">
-<meta property="og:description" content="Declarații de interese ale deputaților Camerei Deputaților.">
+<meta property="og:description" content="Companii, funcții de partid și contracte publice declarate de deputați.">
 <meta property="og:url" content="https://lab.gov2.ro/cdep/interese.html">
 <meta property="og:image" content="https://lab.gov2.ro/cdep/assets/screenshots/cdep-stats-5.png">
 <meta property="og:image:width" content="1200">
@@ -44,48 +44,47 @@ a:hover{text-decoration:underline}
 .nav a{white-space:nowrap;font-size:13px;padding:5px 10px;border-radius:var(--radius-sm);color:var(--text2);text-decoration:none}
 .nav a:hover{background:var(--bg2)}
 .nav a.active{color:var(--text);font-weight:600}
-@media(max-width:820px){
-  .header-inner{gap:12px;padding:0 16px}
-  .nav a{font-size:12px;padding:4px 8px}
-  .nav span:not(#lang-toggle-slot){display:none}
-}
-@media(max-width:620px){
-  .header-inner{flex-wrap:wrap;gap:8px}
-  .logo{flex:0 0 auto}
-  .nav{flex:0 1 auto;margin-left:0;overflow-x:auto;-webkit-overflow-scrolling:touch;min-width:0}
-  .nav a{font-size:11px;padding:3px 6px;flex-shrink:0}
-}
+@media(max-width:820px){.header-inner{gap:12px;padding:0 16px}.nav a{font-size:12px;padding:4px 8px}.nav span:not(#lang-toggle-slot){display:none}}
+@media(max-width:620px){.header-inner{flex-wrap:wrap;gap:8px}.logo{flex:0 0 auto}.nav{flex:0 1 auto;margin-left:0;overflow-x:auto;-webkit-overflow-scrolling:touch;min-width:0}.nav a{font-size:11px;padding:3px 6px;flex-shrink:0}}
 .container{max-width:1100px;margin:0 auto;padding:28px 24px}
 h1{font-size:24px;font-weight:600;margin-bottom:4px}
-.sub{color:var(--text3);font-size:13px;margin-bottom:24px}
-
-.view-toggle{display:inline-flex;border:1px solid var(--border2);border-radius:var(--radius-sm);overflow:hidden;vertical-align:middle}
-.view-btn{padding:4px 11px;font-size:12px;border:none;background:var(--bg);color:var(--text2);cursor:pointer}
-.view-btn.active{background:var(--blue-bg);color:var(--blue-text);font-weight:600}
-
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-bottom:24px}
+.sub{color:var(--text3);font-size:13px;margin-bottom:20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-bottom:22px}
 .card{background:var(--bg2);border-radius:var(--radius);padding:16px;text-align:center}
 .card .num{font-size:22px;font-weight:600;margin-bottom:4px}
 .card .lbl{font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:.5px}
-.card .num.good{color:var(--green-text)}
-.card .num.warn{color:var(--amber-text)}
-
-.search-bar{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.card .num.hi{color:var(--amber-text)}
+.toolbar{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap;align-items:center}
 .search-input{flex:1;min-width:160px;padding:7px 12px;border:1px solid var(--border2);border-radius:var(--radius-sm);font-size:13px;background:var(--bg);color:var(--text);outline:none}
 .search-input:focus{border-color:var(--blue)}
 .party-filter{padding:6px 10px;border:1px solid var(--border2);border-radius:var(--radius-sm);font-size:13px;background:var(--bg);color:var(--text);cursor:pointer;outline:none}
-
-table{width:100%;border-collapse:collapse;font-size:13px}
+.filter-btns{display:flex;border:1px solid var(--border2);border-radius:var(--radius-sm);overflow:hidden}
+.filter-btn{padding:5px 11px;font-size:12px;border:none;background:var(--bg);color:var(--text2);cursor:pointer;font-family:inherit;white-space:nowrap}
+.filter-btn.active{background:var(--blue-bg);color:var(--blue-text);font-weight:600}
+.result-count{font-size:12px;color:var(--text3);margin-bottom:8px}
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;font-size:13px;min-width:640px}
 th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border)}
-th{font-size:10px;text-transform:uppercase;letter-spacing:.4px;color:var(--text3);white-space:nowrap}
-td.num,th.num{text-align:right}
+th{font-size:10px;text-transform:uppercase;letter-spacing:.4px;color:var(--text3);white-space:nowrap;cursor:pointer;user-select:none;background:var(--bg2)}
+th:hover{color:var(--text)}
+th.sort-active{color:var(--blue)}
+th.no-sort{cursor:default}
+td.num,th.num{text-align:right;font-family:var(--mono)}
+tbody tr:hover{background:var(--bg2)}
 .pill{font-size:10px;padding:2px 7px;border-radius:3px;background:var(--bg3);color:var(--text2);white-space:nowrap;font-weight:500}
-.missing{color:var(--amber-text);font-style:italic;font-size:12px}
-
+.badge{font-size:10px;padding:2px 6px;border-radius:3px;white-space:nowrap;font-weight:500}
+.badge-yes{background:var(--green-bg);color:var(--green-text)}
+.badge-contract{background:var(--amber-bg);color:var(--amber-text)}
+.dash{color:var(--text3)}
+.approx{font-size:10px;vertical-align:super;color:var(--amber-text);margin-left:1px;cursor:help}
 .loading{text-align:center;padding:60px 0;color:var(--text3)}
 .error{padding:20px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius);margin:20px 0}
+.note{background:var(--amber-bg);color:var(--amber-text);border-radius:var(--radius);padding:12px 16px;font-size:13px;margin-bottom:20px}
 .footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
 .footer a{color:var(--text2)}
+.view-toggle{display:inline-flex;border:1px solid var(--border2);border-radius:var(--radius-sm);overflow:hidden;vertical-align:middle}
+.view-btn{padding:4px 11px;font-size:12px;border:none;background:var(--bg);color:var(--text2);cursor:pointer;font-family:inherit}
+.view-btn.active{background:var(--blue-bg);color:var(--blue-text);font-weight:600}
 .header{background:#42133c;border-bottom-color:transparent}.logo{color:#fff}.logo span{color:#88dfc4}.nav a{white-space:nowrap;color:rgba(255,255,255,.72)}.nav a:hover{background:rgba(255,255,255,.11);color:#fff}.nav a.active{color:#fff;background:rgba(255,255,255,.08)}.header .nav a[style*=color]{color:rgba(255,255,255,.85)!important}.notice-bar{display:flex;align-items:center;gap:8px;padding:7px 24px;background:rgba(250,204,21,.1);border-bottom:1px solid rgba(250,204,21,.2);font-size:12px;color:var(--text2)}.notice-bar a{color:inherit;text-decoration:underline;opacity:.85}.notice-icon{font-size:13px;opacity:.8;flex-shrink:0}.notice-text{flex:1}.notice-close{background:none;border:none;color:var(--text3);cursor:pointer;font-size:18px;padding:0 4px;line-height:1;flex-shrink:0}.notice-close:hover{color:var(--text)}.nav button{color:rgba(255,255,255,.72);background:transparent;border:none}.nav button:hover{background:rgba(255,255,255,.11);color:#fff}#lang-toggle-slot button,#lang-toggle-slot a{color:rgba(255,255,255,.72)!important}#lang-toggle-slot button:hover,#lang-toggle-slot a:hover{color:#fff!important}.notice-bar.hidden{display:none}
 </style>
 </head>
@@ -95,7 +94,7 @@ td.num,th.num{text-align:right}
 <div id="site-header"></div>
 
 <div class="container">
-  <div id="content"><div class="loading" data-i18n="loading">Se încarcă…</div></div>
+  <div id="content"><div class="loading">Se încarcă…</div></div>
 </div>
 
 <div id="site-footer"></div>
@@ -104,7 +103,7 @@ td.num,th.num{text-align:right}
 <script>
 function getParam(n){return new URL(location).searchParams.get(n);}
 const LEG = Number(getParam('leg') || 2024);
-const DATA_URL = `data/v1/declaratii/legislatura-${LEG}.json`;
+const DATA_URL = `data/v1/declaratii-interese/legislatura-${LEG}.json`;
 
 const PARTY_COLORS = {
   'PSD':'#185FA5','PNL':'#993C1D','USR':'#3B6D11','AUR':'#854F0B',
@@ -112,65 +111,110 @@ const PARTY_COLORS = {
 };
 function partyColor(p){return PARTY_COLORS[p]||'#777';}
 
-let ALL_DATA = [];
-let searchQuery = '';
-let selectedParty = '';
-
-function latestDate(entries){
-  if(!entries||!entries.length) return null;
-  return entries.reduce((best,e)=>(!best||e.data>best)?e.data:best, null);
+function fmtRON(v){
+  if(v==null||v===0) return null;
+  const a=Math.abs(v),s=v<0?'-':'';
+  if(a>=1e6) return s+(a/1e6).toFixed(a>=10e6?1:2)+'M';
+  if(a>=1e3) return s+Math.round(a).toLocaleString('ro-RO');
+  return s+Math.round(a);
 }
 
-function filteredData(){
-  return ALL_DATA.filter(d=>{
-    if(selectedParty && d.partid_short !== selectedParty) return false;
-    if(searchQuery){
-      const q = searchQuery.toLowerCase();
-      if(!(d.deputat_nume||'').toLowerCase().includes(q)) return false;
+let ALL = [];
+let sortKey = 'contracte_ron', sortDir = 'desc';
+let filterParty = '', filterSubset = 'all', searchQ = '';
+
+function filtered(){
+  return ALL.filter(d=>{
+    if(filterParty && d.partid_short !== filterParty) return false;
+    if(filterSubset === 'companii' && !d.ultima_nr_companii) return false;
+    if(filterSubset === 'contracte' && !d.ultima_are_contracte_publice) return false;
+    if(searchQ){
+      if(!(d.deputat_nume||'').toLowerCase().includes(searchQ.toLowerCase())) return false;
     }
     return true;
   });
 }
 
+function sortVal(d){
+  if(sortKey==='nume') return (d.deputat_nume||'').toLowerCase();
+  if(sortKey==='partid') return d.partid_short||'';
+  if(sortKey==='companii') return d.ultima_nr_companii||0;
+  if(sortKey==='partid_fn') return d.ultima_are_functie_partid?1:0;
+  if(sortKey==='contracte_ron') return d.ultima_contracte_total_ron||0;
+  if(sortKey==='data') return d.ultima_data||'';
+  return 0;
+}
+
+function sorted(data){
+  return [...data].sort((a,b)=>{
+    const va=sortVal(a),vb=sortVal(b);
+    if(typeof va==='string') return sortDir==='asc'?va.localeCompare(vb,'ro'):vb.localeCompare(va,'ro');
+    return sortDir==='asc'?va-vb:vb-va;
+  });
+}
+
+function thArrow(key){
+  if(sortKey!==key) return '';
+  return sortDir==='asc' ? ' ↑' : ' ↓';
+}
+
 function renderTable(data){
-  if(!data.length) return '<p style="color:var(--text3);padding:16px 0">Niciun rezultat.</p>';
-  const rows = data.map(d=>{
+  const rows = sorted(data).map((d,i)=>{
     const p = d.partid_short||'?';
-    const avereList = d.avere||[];
-    const intereseList = d.interese||[];
-    const latestAvere = latestDate(avereList);
-    const latestInterese = latestDate(intereseList);
-    const avereLink = avereList.length
-      ?`<a href="${avereList[avereList.length-1].url}" target="_blank" rel="noopener">${latestAvere||'PDF'} ↗</a>`
-      :`<span class="missing">lipsă</span>`;
-    const intereseLink = intereseList.length
-      ?`<a href="${intereseList[intereseList.length-1].url}" target="_blank" rel="noopener">${latestInterese||'PDF'} ↗</a>`
-      :`<span class="missing">lipsă</span>`;
     const depLink = `deputat.html?id=${d.cdep_idm}&leg=${LEG}`;
-    return`<tr>
+    const compCell = d.ultima_nr_companii
+      ? `<span class="badge badge-yes">${d.ultima_nr_companii} compani${d.ultima_nr_companii===1?'e':'i'}</span>`
+      : `<span class="dash">—</span>`;
+    const partidCell = d.ultima_are_functie_partid
+      ? `<span class="badge badge-yes">da</span>`
+      : `<span class="dash">—</span>`;
+    const ron = fmtRON(d.ultima_contracte_total_ron);
+    const contractCell = d.ultima_are_contracte_publice
+      ? `<span class="badge badge-contract">${ron||'0'} RON</span>`
+      : `<span class="dash">—</span>`;
+    const dataCell = d.ultima_data
+      ? `<span style="color:var(--text3);font-size:12px">${d.ultima_data}</span>`
+      : `<span class="dash">—</span>`;
+    return `<tr>
+      <td style="color:var(--text3);width:32px;font-size:11px">${i+1}</td>
       <td><a href="${depLink}">${d.deputat_nume}</a></td>
       <td><span class="pill" style="background:${partyColor(p)}22;color:${partyColor(p)}">${p}</span></td>
-      <td>${avereLink}</td>
-      <td>${intereseLink}</td>
+      <td>${compCell}</td>
+      <td>${partidCell}</td>
+      <td class="num">${contractCell}</td>
+      <td>${dataCell}</td>
     </tr>`;
   }).join('');
-  return`<table>
+
+  return `<div class="table-wrap"><table>
     <thead><tr>
-      <th>Deputat</th>
-      <th>Partid</th>
-      <th>Declarație avere</th>
-      <th>Declarație interese</th>
+      <th class="no-sort" style="width:32px">#</th>
+      <th data-col="nume" class="${sortKey==='nume'?'sort-active':''}">Deputat${thArrow('nume')}</th>
+      <th data-col="partid" class="${sortKey==='partid'?'sort-active':''}">Partid${thArrow('partid')}</th>
+      <th data-col="companii" class="${sortKey==='companii'?'sort-active':''}">§1 Companii${thArrow('companii')}</th>
+      <th data-col="partid_fn" class="${sortKey==='partid_fn'?'sort-active':''}">§4 Partid${thArrow('partid_fn')}</th>
+      <th data-col="contracte_ron" class="num ${sortKey==='contracte_ron'?'sort-active':''}">§5 Contracte publice${thArrow('contracte_ron')}</th>
+      <th data-col="data" class="${sortKey==='data'?'sort-active':''}">Ultima decl.${thArrow('data')}</th>
     </tr></thead>
-    <tbody>${rows}</tbody>
-  </table>`;
+    <tbody>${rows||'<tr><td colspan="7" style="color:var(--text3);padding:24px 10px">Niciun rezultat.</td></tr>'}</tbody>
+  </table></div>`;
 }
 
 function render(){
-  const data = filteredData();
-  const el = document.getElementById('table-wrap');
-  if(el) el.innerHTML = renderTable(data);
-  const cnt = document.getElementById('result-count');
-  if(cnt) cnt.textContent = `${data.length} din ${ALL_DATA.length} deputați`;
+  const data = filtered();
+  document.getElementById('result-count').textContent =
+    `${data.length} din ${ALL.length} deputați`;
+  document.getElementById('table-wrap').innerHTML = renderTable(data);
+
+  // Wire column header clicks
+  document.querySelectorAll('th[data-col]').forEach(th=>{
+    th.addEventListener('click',()=>{
+      const col = th.dataset.col;
+      if(sortKey===col) sortDir = sortDir==='asc'?'desc':'asc';
+      else { sortKey=col; sortDir = col==='nume'||col==='partid'?'asc':'desc'; }
+      render();
+    });
+  });
 }
 
 async function load(){
@@ -178,50 +222,72 @@ async function load(){
     const res = await fetch(DATA_URL);
     if(!res.ok) throw new Error(res.statusText);
     const d = await res.json();
-    ALL_DATA = d.data;
-    ALL_DATA.sort((a,b)=>(a.deputat_nume||'').localeCompare(b.deputat_nume||'','ro'));
+    ALL = d.data;
 
-    const total = ALL_DATA.length;
-    const cuInterese = ALL_DATA.filter(d=>d.interese?.length>0).length;
-    const cuAvere = ALL_DATA.filter(d=>d.avere?.length>0).length;
-    const fara = ALL_DATA.filter(d=>!d.interese?.length||!d.avere?.length).length;
+    const n = ALL.length;
+    const nComp  = ALL.filter(x=>x.ultima_nr_companii>0).length;
+    const nPartid = ALL.filter(x=>x.ultima_are_functie_partid).length;
+    const nContr  = ALL.filter(x=>x.ultima_are_contracte_publice).length;
+    const totalContr = ALL.reduce((s,x)=>s+(x.ultima_contracte_total_ron||0),0);
 
-    const parties = [...new Set(ALL_DATA.map(d=>d.partid_short).filter(Boolean))].sort();
-    const partyOptions = parties.map(p=>`<option value="${p}">${p}</option>`).join('');
+    const parties = [...new Set(ALL.map(d=>d.partid_short).filter(Boolean))].sort();
+    const partyOpts = parties.map(p=>`<option value="${p}">${p}</option>`).join('');
+    const genAt = d.meta?.generated_at ? new Date(d.meta.generated_at).toLocaleDateString('ro-RO') : '';
 
     document.getElementById('content').innerHTML = `
       <div style="display:flex;align-items:center;gap:12px;margin-bottom:6px;flex-wrap:wrap">
-        <h1 style="margin:0">Declarații de interese — legislatura ${LEG}</h1>
+        <h1 style="margin:0">Declarații de interese — ${LEG}</h1>
         <div class="view-toggle">${NAV.renderLegToggle(LEG,'interese.html',[2024,2020])}</div>
       </div>
-      <p class="sub">${total} deputați · declarații depuse la Agenția Națională de Integritate</p>
+      <p class="sub">Extras automat din PDF-uri ANI · ${n} deputați procesați${genAt?' · actualizat '+genAt:''}</p>
+
       <div class="cards">
-        <div class="card"><div class="num">${total}</div><div class="lbl">Deputați</div></div>
-        <div class="card"><div class="num good">${cuInterese}</div><div class="lbl">Cu decl. interese</div></div>
-        <div class="card"><div class="num good">${cuAvere}</div><div class="lbl">Cu decl. avere</div></div>
-        <div class="card"><div class="num warn">${fara}</div><div class="lbl">Lipsuri</div></div>
+        <div class="card"><div class="num">${n}</div><div class="lbl">Deputați</div></div>
+        <div class="card"><div class="num">${nComp}</div><div class="lbl">Cu companii §1</div></div>
+        <div class="card"><div class="num">${nPartid}</div><div class="lbl">Funcție de partid §4</div></div>
+        <div class="card"><div class="num hi">${nContr}</div><div class="lbl">Contracte publice §5</div></div>
+        <div class="card"><div class="num hi">${fmtRON(totalContr)||'0'}</div><div class="lbl">Total contracte RON</div></div>
       </div>
-      <div class="search-bar">
-        <input class="search-input" id="search-input" placeholder="Caută deputat…" oninput="searchQuery=this.value;render()">
-        <select class="party-filter" id="party-filter" onchange="selectedParty=this.value;render()">
-          <option value="">Toate partidele</option>
-          ${partyOptions}
+
+      <div class="toolbar">
+        <input class="search-input" id="search" placeholder="Caută deputat…" oninput="searchQ=this.value;render()">
+        <select class="party-filter" onchange="filterParty=this.value;render()">
+          <option value="">Toate partidele</option>${partyOpts}
         </select>
+        <div class="filter-btns">
+          <button class="filter-btn active" data-subset="all" onclick="setSubset('all',this)">Toți</button>
+          <button class="filter-btn" data-subset="companii" onclick="setSubset('companii',this)">Cu companii</button>
+          <button class="filter-btn" data-subset="contracte" onclick="setSubset('contracte',this)">Cu contracte</button>
+        </div>
       </div>
-      <div style="font-size:12px;color:var(--text3);margin-bottom:8px" id="result-count"></div>
+      <p class="result-count" id="result-count"></p>
       <div id="table-wrap"></div>
+
+      <p style="margin-top:20px;font-size:12px;color:var(--text3)">
+        §1 = asociat/acționar · §4 = funcție în partid · §5 = contracte cu instituții publice (titular/soț/rude).
+        Valorile marcate cu ⚠ sunt reconstituite parțial din cauza fragmentării în PDF.
+        <a href="${DATA_URL}">JSON index</a>
+      </p>
     `;
     render();
   }catch(e){
-    document.getElementById('content').innerHTML=
-      `<div class="error">Nu pot încărca ${DATA_URL} (${e.message}).</div>`;
+    document.getElementById('content').innerHTML =
+      `<div class="error">Nu pot încărca datele procesate (${e.message}).<br>
+      Rulează: <code>python scripts/build_declaratii_interese.py --leg ${LEG}</code></div>`;
   }
 }
+
+function setSubset(s, btn){
+  filterSubset = s;
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.toggle('active', b===btn));
+  render();
+}
+
 load();
 </script>
 <script>
 NAV.renderHeader();
-NAV.renderFooter(`<span data-i18n="source">Sursă JSON</span>: <a href="${DATA_URL}">${DATA_URL}</a>`);
+NAV.renderFooter(`<span>Sursă JSON</span>: <a href="${DATA_URL}">${DATA_URL}</a>`);
 </script>
 <script src="i18n.js"></script>
 </body>
