@@ -131,9 +131,8 @@ function getParam(n){return new URL(location).searchParams.get(n);}
 const LEG=Number(getParam('leg')||2024);
 
 (function(){
-  document.getElementById('leg-toggle').innerHTML=[2024,2020].map(l=>
-    `<button class="view-btn${l===LEG?' active':''}" onclick="location.href='judete.html?leg=${l}'">${l}</button>`
-  ).join('');
+  const toggleEl = document.getElementById('leg-toggle');
+  if(toggleEl) toggleEl.innerHTML = NAV.renderLegToggle(LEG, 'judete.html');
 })();
 
 const PARTY_COLORS={

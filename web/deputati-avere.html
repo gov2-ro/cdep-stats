@@ -184,16 +184,16 @@ const DATA_URL = `data/v1/stats/avere-deputies-${LEG}.json`;
 
 // Leg toggle
 (function(){
-  const legs = [2024, 2020];
-  document.getElementById('leg-toggle').innerHTML = legs.map(l =>
-    `<button class="view-btn${l===LEG?' active':''}" onclick="location.href='deputati-avere.html?leg=${l}'">${l}</button>`
-  ).join('');
-  // Update back link and footer to carry leg
-  document.querySelector('a[href="avere.html"]').href = `avere.html?leg=${LEG}`;
-  document.querySelector('footer a[href^="data/v1/stats/avere-deputies"]').href =
-    `data/v1/stats/avere-deputies-${LEG}.json`;
-  document.querySelector('footer a[href^="data/v1/stats/avere-deputies"]').textContent =
-    `avere-deputies-${LEG}.json`;
+  const toggleEl = document.getElementById('leg-toggle');
+  if(toggleEl) toggleEl.innerHTML = NAV.renderLegToggle(LEG, 'deputati-avere.html');
+  // Update back link to carry leg
+  const backLink = document.querySelector('a[href="avere.html"]');
+  if(backLink) backLink.href = `avere.html?leg=${LEG}`;
+  const footerLink = document.querySelector('footer a[href^="data/v1/stats/avere-deputies"]');
+  if(footerLink) {
+    footerLink.href = `data/v1/stats/avere-deputies-${LEG}.json`;
+    footerLink.textContent = `avere-deputies-${LEG}.json`;
+  }
   document.querySelector('footer a[href^="avere.html"]').href = `avere.html?leg=${LEG}`;
 })();
 

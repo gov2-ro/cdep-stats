@@ -380,8 +380,6 @@ async function loadDeputat() {
   }
 
   const jsonUrl = `data/v1/deputati/legislatura-${leg}.json`;
-  document.getElementById('json-link').href = jsonUrl;
-  document.getElementById('json-link').textContent = jsonUrl;
 
   let dep, allInterpelari, allMotiuni, avereResp, avereCtx, monitorulUrl = null;
   try {

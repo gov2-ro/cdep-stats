@@ -130,8 +130,6 @@ td.num,th.num{text-align:right;font-family:var(--mono)}
 function getParam(n){return new URL(location).searchParams.get(n);}
 const LEG = Number(getParam('leg') || 2024);
 const DATA_URL = `data/v1/stats/proiecte-${LEG}.json`;
-document.getElementById('json-link').href = DATA_URL;
-document.getElementById('json-link').textContent = `proiecte-${LEG}.json`;
 
 const PARTY_COLORS = {
   'PSD':'#185FA5','PNL':'#993C1D','USR':'#3B6D11','AUR':'#854F0B',
@@ -180,10 +178,6 @@ async function load(){
     const tipPL = d.by_tip['propunere_legislativa'] || 0;
     const tipLL = d.by_tip['proiect_lege'] || 0;
 
-    const legToggle = [2024,2020].map(l=>
-      `<button class="view-btn${l===LEG?' active':''}" onclick="location.href='proiecte-stats.html?leg=${l}'">${l}</button>`
-    ).join('');
-
     // Party table
     const partyRows = d.per_partid.map((p,i)=>`<tr>
       <td class="num" style="color:var(--text3);font-size:11px">${i+1}</td>
@@ -201,7 +195,7 @@ async function load(){
     document.getElementById('content').innerHTML = `
       <div style="display:flex;align-items:center;gap:12px;margin-bottom:6px;flex-wrap:wrap">
         <h1 style="margin:0">Proiecte legislative — legislatura ${LEG}</h1>
-        <div class="view-toggle">${legToggle}</div>
+        <div class="view-toggle">${NAV.renderLegToggle(LEG, 'proiecte-stats.html')}</div>
       </div>
       <p class="sub">${c.total.toLocaleString('ro-RO')} proiecte înregistrate · ${tipLL.toLocaleString('ro-RO')} proiecte de lege · ${tipPL.toLocaleString('ro-RO')} propuneri legislative</p>
 
