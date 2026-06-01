@@ -29,15 +29,24 @@
     const active = _activeHref();
     const links = NAV_LINKS.map(l =>
       `<a href="${l.href}"${l.href === active ? ' class="active"' : ""}>${l.label}</a>`
-    ).join("\n      ");
+    ).join("");
     document.getElementById("site-header").innerHTML = `
+<style>
+/* nav layout overrides — injected by nav.js, applies to all pages */
+.header-inner{flex-wrap:nowrap!important;gap:6px!important;padding:0 16px!important;align-items:center}
+.logo{white-space:nowrap;flex-shrink:0;font-size:14px!important;line-height:1.2}
+.nav{flex-wrap:nowrap!important;overflow-x:auto;-webkit-overflow-scrolling:touch;margin-left:0!important;flex:1;min-width:0;gap:0!important;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav a{font-size:12px!important;padding:4px 7px!important;flex-shrink:0}
+.nav>span{flex-shrink:0}
+</style>
 <header class="header">
   <div class="header-inner">
     <a href="index.html" class="logo">CDEP<span> stats</span></a>
     <nav class="nav">
       ${links}
-      <span style="margin-left:auto;font-size:13px;color:var(--text2)"><a href="https://endimion2k.github.io/cdep-api-poc" target="_blank" style="color:var(--blue)">cdep-api ↗</a></span>
-      <span id="lang-toggle-slot" style="margin-left:4px;display:flex;align-items:center"></span>
+      <span style="margin-left:auto;padding-left:6px;font-size:12px;white-space:nowrap"><a href="https://endimion2k.github.io/cdep-api-poc" target="_blank" style="color:rgba(255,255,255,.55)">cdep-api ↗</a></span>
+      <span id="lang-toggle-slot" style="display:flex;align-items:center;flex-shrink:0;padding-left:2px"></span>
     </nav>
   </div>
 </header>`;
