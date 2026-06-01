@@ -461,7 +461,7 @@ function renderInterese(interese) {
 
   const jsonUrl = `data/v1/deputati/legislatura-${leg}.json`;
 
-  let dep, allInterpelari, allMotiuni, avereResp, avereCtx, monitorulUrl = null;
+  let dep, allInterpelari, allMotiuni, avereResp, avereCtx, intereseResp, monitorulUrl = null;
   try {
     const [depResp, intResp, motResp, avereJson, ctxJson, corrJson, intereseJson] = await Promise.all([
       fetch(jsonUrl).then(r => r.json()),
@@ -473,6 +473,7 @@ function renderInterese(interese) {
       fetch(`data/v1/declaratii-interese/legislatura-${leg}/${parseInt(id)}.json`).then(r => r.json()).catch(() => null),
     ]);
     avereResp = avereJson;
+    intereseResp = intereseJson;
     avereCtx = ctxJson?.deputies?.[String(parseInt(id))] ?? null;
     const idNum = parseInt(id);
     monitorulUrl = corrJson?.[`${idNum}_${leg}`]?.monitorul_url ?? null;
@@ -570,7 +571,7 @@ function renderInterese(interese) {
         </a>
       </div>
     </div>
-    ${renderInterese(intereseJson)}
+    ${renderInterese(intereseResp)}
     ${renderAvere(avereResp, avereCtx)}
   `;
   if (typeof applyI18n === 'function') applyI18n();
