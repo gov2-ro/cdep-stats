@@ -2,6 +2,20 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-01 — Nav overhaul + index.html polish
+
+**What was done**
+- `assets/nav.js` — all 12 pages now in top nav and footer sitemap. Nav restructured so all items (logo, links, cdep-api, dark/lang toggle) are a single inline flow using `display:contents` on `<nav>` and `flex-wrap:wrap` on `.header-inner`. Logo is single-line. `justify-content:flex-start` prevents last-row items from spreading. Injected CSS from `renderHeader()` so all pages pick up changes without touching individual HTML files.
+- `assets/nav.js` — `vot.html` highlights "Voturi", `partid.html` highlights "Partide" (active-link fix).
+- `web/index.html` party bars — changed bar fill from pastel `p.bg` to party color at 33% opacity (`color+'55'`). UDMR and Neaf bars were nearly invisible before.
+- `web/index.html` voturi recente — vote titles are now links to `vot.html?id=...&leg=2024`.
+- `web/index.html` — new "Agendă parlamentară" column (4th demo-card) alongside "Voturi recente": loads most-recent session from `data/v1/ordine-zi/legislatura-2024.json`, shows 7 agenda items truncated at 110 chars, links to `ordine-zi.html`.
+
+**Decisions**
+- CSS injected from `nav.js` rather than editing 17 HTML files; uses `!important` to override per-page defaults.
+- `display:contents` on `<nav>` makes links direct flex children of `.header-inner` so they wrap in the same flow as logo and toolbar.
+- Agenda widget loads on every index.html visit (not precomputed) since ordine-zi.json is small (19 sessions, ~150KB).
+
 ### 2026-06-01 — Five new pages: comisii, motiuni, interese, ordine-zi, proiect
 
 **What was done**
