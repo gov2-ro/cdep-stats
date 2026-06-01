@@ -76,6 +76,12 @@ BENEFICIAR_RE = re.compile(
     r"\b(?:SC|SRL|SA|RA|SNC|SCS|CABINET INDIVIDUAL|PFA|ASOCIATIA|FUNDATIA)\b",
     re.IGNORECASE,
 )
+# Split-value detection: a line ending with "NNNN.N" or "NNNN.NN" (large number with
+# short decimal but no currency unit) signals that pdfplumber column-merging cut the
+# value across lines.  The continuation digit(s) appear before RON on another line.
+_SPLIT_NUM_RE = re.compile(r"\b(\d{4,}\.\d{1,2})\s*$", re.MULTILINE)
+_SHORT_RON_RE = re.compile(r"\b(\d{1,3})\s*RON\b", re.IGNORECASE)
+
 # Lines to strip before emptiness check in §5 blocks:
 #   - footnote markers "1)", "2)"
 #   - table-header continuation lines starting with "/" ("/ Persoană fizică...")
@@ -278,6 +284,43 @@ def _parse_partide(sec4: str) -> list[str]:
     return results
 
 
+# ── §5 helpers ────────────────────────────────────────────────────────────────
+
+
+def _detect_split_value(raw_block: str, joined: str) -> tuple[bool, float | None]:
+    """Detect a column-split monetary value and attempt reconstruction.
+
+    When pdfplumber merges table columns, a value like 3 757 804,94 RON may appear
+    as "3757804.9" at the end of one line and "4 RON" somewhere later.  The tell is a
+    large number with only 1–2 decimal digits at the end of a line (no currency unit).
+
+    Returns (is_split, reconstructed_value_or_None).
+    The reconstructed value is a best-effort concatenation; it can still be wrong
+    when multiple contracts are present in the same sub-section block.
+    """
+    m_frag = _SPLIT_NUM_RE.search(raw_block)
+    if not m_frag:
+        return False, None
+
+    frag = m_frag.group(1)  # e.g. "3757804.9"
+
+    # Try to find the short continuation digit(s) before RON in the joined text
+    m_short = _SHORT_RON_RE.search(joined)
+    if not m_short:
+        return True, None  # split detected but can't reconstruct
+
+    cont = m_short.group(1)  # e.g. "4"
+    try:
+        reconstructed = float(frag + cont)
+        # Sanity: reconstructed must be larger than the fragment alone
+        if reconstructed > float(frag):
+            return True, reconstructed
+    except ValueError:
+        pass
+
+    return True, None
+
+
 # ── §5 parser ─────────────────────────────────────────────────────────────────
 
 
@@ -323,7 +366,8 @@ def _parse_contracte(sec5: str) -> list[dict]:
         joined = " ".join(block_body_clean.split())
         val_matches = list(VALOARE_RON_RE.finditer(joined))
         valoare_ron: float | None = None
-        # Sum all values in this sub-block (multiple contracts possible)
+        valoare_aproximativa = False
+        # Sum all RON values found in joined text
         total = 0.0
         for vm in val_matches:
             v = _parse_amount(vm.group(1))
@@ -331,6 +375,14 @@ def _parse_contracte(sec5: str) -> list[dict]:
                 total += v
         if total > 0:
             valoare_ron = total
+
+        # Detect and attempt to fix column-split values
+        is_split, reconstructed = _detect_split_value(block_body_clean, joined)
+        if is_split:
+            valoare_aproximativa = True
+            if reconstructed is not None:
+                # Replace the naive sum with the reconstructed value
+                valoare_ron = reconstructed
 
         # Try to extract beneficiary name (first SRL/SA/CABINET/PFA match)
         beneficiar_denumire: str | None = None
@@ -372,6 +424,7 @@ def _parse_contracte(sec5: str) -> list[dict]:
                 "institutie_contractanta": None,  # too scrambled to parse reliably
                 "tip_contract": tip_contract,
                 "valoare_ron": valoare_ron,
+                "valoare_aproximativa": valoare_aproximativa,
                 "data_incheiere": data_incheiere.isoformat()
                 if data_incheiere
                 else None,

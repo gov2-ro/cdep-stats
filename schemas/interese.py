@@ -38,6 +38,11 @@ class InteresContract(BaseModel):
     institutie_contractanta: str | None = None
     tip_contract: str | None = None
     valoare_ron: float | None = None
+    valoare_aproximativa: bool = Field(
+        default=False,
+        description="True când valoarea a fost reconstituită dintr-un număr fragmentat "
+        "pe mai multe coloane de tabel (limitare pdfplumber). Valoarea poate fi inexactă.",
+    )
     data_incheiere: date | None = None
 
 

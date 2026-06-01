@@ -5,6 +5,7 @@ from __future__ import annotations
 import pytest
 
 from parsers.interese_pdf import (
+    _detect_split_value,
     _parse_companii,
     _parse_conducere,
     _parse_asociatii_profesionale,
@@ -75,6 +76,22 @@ SC EURO INVEST SRL COMPANIA NATIONALA LICITATIE CONTRACT DE 11.11.2021 3757804.9
 36 LUNI
 DE INVESTITII PUBLICA LUCRARI
 Gogosari - Giurgiu
+Rude de gradul I
+- - - - - - -
+Societăţi comerciale
+- - - - - - -
+"""
+
+SEC5_SPLIT = """5. Contracte...
+5.1 Beneficiarul
+Soţ/soţie
+SC EURO INVEST SRL COMPANIA NATIONALA LICITATIE CONTRAC 11.11.202 3757804.9
+36 LUNI
+NATIONALA
+Gogosari - Giurgiu DE INVESTITII
+T DE
+ROMANIA STRADA JIANCA CAMIN PUBLICA 1 4 RON
+LUCRARI
 Rude de gradul I
 - - - - - - -
 Societăţi comerciale
@@ -284,6 +301,50 @@ def test_parse_contracte_total_ron():
     rows = _parse_contracte(SEC5_WITH_CONTRACTS)
     total = sum(r["valoare_ron"] for r in rows if r.get("valoare_ron"))
     assert total == pytest.approx(3757804.94, rel=0.01)
+
+
+def test_parse_contracte_no_split_flag_when_clean():
+    rows = _parse_contracte(SEC5_WITH_CONTRACTS)
+    assert all(not r["valoare_aproximativa"] for r in rows)
+
+
+# ── Split-value detection ─────────────────────────────────────────────────────
+
+
+def test_detect_split_value_found():
+    raw = "SC EURO INVEST SRL LICITATIE 3757804.9\n36 LUNI\nCAMIN PUBLICA 1 4 RON\n"
+    joined = "SC EURO INVEST SRL LICITATIE 3757804.9 36 LUNI CAMIN PUBLICA 1 4 RON"
+    is_split, reconstructed = _detect_split_value(raw, joined)
+    assert is_split is True
+    assert reconstructed == pytest.approx(3757804.94, rel=0.01)
+
+
+def test_detect_split_value_not_found_when_intact():
+    raw = "SC EURO INVEST SRL LICITATIE 3757804.94 RON\n"
+    joined = "SC EURO INVEST SRL LICITATIE 3757804.94 RON"
+    is_split, reconstructed = _detect_split_value(raw, joined)
+    assert is_split is False
+    assert reconstructed is None
+
+
+def test_detect_split_value_no_false_positive_on_year():
+    raw = "CONTRACT INCHEIAT IN DATA DE 11.11.2021\n"
+    joined = "CONTRACT INCHEIAT IN DATA DE 11.11.2021"
+    is_split, _ = _detect_split_value(raw, joined)
+    assert is_split is False
+
+
+def test_parse_contracte_flags_split_value():
+    rows = _parse_contracte(SEC5_SPLIT)
+    sot_rows = [r for r in rows if r["beneficiar_tip"] == "sot_sotie"]
+    assert len(sot_rows) > 0
+    assert sot_rows[0]["valoare_aproximativa"] is True
+
+
+def test_parse_contracte_reconstructs_split_value():
+    rows = _parse_contracte(SEC5_SPLIT)
+    sot_rows = [r for r in rows if r["beneficiar_tip"] == "sot_sotie"]
+    assert sot_rows[0]["valoare_ron"] == pytest.approx(3757804.94, rel=0.01)
 
 
 # ── Full parse_pdf (synthetic text, mocking pdfplumber) ──────────────────────
