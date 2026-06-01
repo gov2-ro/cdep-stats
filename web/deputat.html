@@ -379,17 +379,98 @@ async function loadDeputat() {
     return;
   }
 
+function renderInterese(interese) {
+  if (!interese?.data?.declaratii?.length) return '';
+  const dep = interese.data;
+  const decl = dep.declaratii[dep.declaratii.length - 1];
+
+  const fmtRONi = v => v != null && v > 0
+    ? (v >= 1e6 ? (v / 1e6).toFixed(2) + 'M' : Math.round(v).toLocaleString('ro-RO')) + ' RON'
+    : null;
+
+  const tipLabel = { titular: 'Titular', sot_sotie: 'Soț/soție', rude: 'Rude gr. I', societate_comerciala: 'Societate comercială' };
+
+  // Cards
+  const cards = [
+    { num: dep.ultima_nr_companii || 0, lbl: '§1 Companii / asociații' },
+    { num: dep.ultima_are_functie_partid ? 'da' : '—', lbl: '§4 Funcție în partid' },
+    { num: fmtRONi(dep.ultima_contracte_total_ron) || '—', lbl: '§5 Contracte publice' },
+  ].map(c => `<div class="act-card"><div class="act-num">${c.num}</div><div class="act-lbl">${c.lbl}</div></div>`).join('');
+
+  const pdfLinks = dep.declaratii.map(d =>
+    `<a href="${d.pdf_url}" target="_blank" rel="noopener">PDF ${d.data_depunere || ''} ↗</a>`
+  ).join(' · ');
+
+  // §1 Companii
+  let sec1 = '';
+  if (decl.companii?.length) {
+    const rows = decl.companii.map(c => {
+      const sub = [c.calitate, c.nr_titluri != null ? c.nr_titluri + (c.tip_titluri ? ' ' + c.tip_titluri : '') : null, fmtRONi(c.valoare_ron)].filter(Boolean).join(' · ');
+      return `<div class="list-item"><strong>${c.denumire}</strong>${sub ? `<span style="color:var(--text3);margin-left:8px;font-size:13px">${sub}</span>` : ''}</div>`;
+    }).join('');
+    sec1 = `<div class="section"><h2>§1 Asociat / acționar (${decl.companii.length})</h2>${rows}</div>`;
+  }
+
+  // §2 Conducere
+  let sec2 = '';
+  if (decl.conducere?.length) {
+    const rows = decl.conducere.map(c => {
+      const sub = [c.calitate_conducere, fmtRONi(c.valoare_beneficii_ron) ? fmtRONi(c.valoare_beneficii_ron) + ' beneficii' : null].filter(Boolean).join(' · ');
+      return `<div class="list-item"><strong>${c.denumire}</strong>${sub ? `<span style="color:var(--text3);margin-left:8px;font-size:13px">${sub}</span>` : ''}</div>`;
+    }).join('');
+    sec2 = `<div class="section"><h2>§2 Organe de conducere (${decl.conducere.length})</h2>${rows}</div>`;
+  }
+
+  // §3 Asociații profesionale
+  const sec3 = decl.asociatii_profesionale_raw
+    ? `<div class="section"><h2>§3 Asociații profesionale</h2><div class="list-item" style="color:var(--text2)">${decl.asociatii_profesionale_raw}</div></div>`
+    : '';
+
+  // §4 Partide
+  let sec4 = '';
+  if (decl.partide_raw?.length) {
+    const rows = decl.partide_raw.map(p => `<div class="list-item">${p}</div>`).join('');
+    sec4 = `<div class="section"><h2>§4 Funcții în partide</h2>${rows}</div>`;
+  }
+
+  // §5 Contracte
+  let sec5 = '';
+  if (decl.contracte?.length) {
+    const rows = decl.contracte.map(c => {
+      const approx = c.valoare_aproximativa ? ' <span style="color:var(--amber-text);font-size:11px" title="Valoare reconstituită parțial din PDF fragmentat">⚠ aproximativ</span>' : '';
+      const val = fmtRONi(c.valoare_ron);
+      const sub = [(tipLabel[c.beneficiar_tip] || c.beneficiar_tip), c.tip_contract, val ? val + approx : null].filter(Boolean).join(' · ');
+      return `<div class="list-item"><strong>${c.beneficiar_denumire || '—'}</strong><span style="color:var(--text3);margin-left:8px;font-size:13px">${sub}</span></div>`;
+    }).join('');
+    sec5 = `<div class="section"><h2>§5 Contracte cu instituții publice (${decl.contracte.length})</h2>${rows}</div>`;
+  }
+
+  if (!sec1 && !sec2 && !sec3 && !sec4 && !sec5) {
+    return `<div class="section">
+      <h2>Declarație de interese · <span style="font-weight:400;font-size:14px;color:var(--text3)">${decl.data_depunere || ''} · ${pdfLinks}</span></h2>
+      <p style="color:var(--text3);font-size:14px">Toate secțiunile sunt goale — deputatul nu a declarat interese de raportat.</p>
+    </div>`;
+  }
+
+  return `<div class="section">
+    <h2>Declarație de interese · <span style="font-weight:400;font-size:14px;color:var(--text3)">${decl.data_depunere || ''} · ${pdfLinks}</span></h2>
+    <div class="activitate" style="margin-bottom:20px">${cards}</div>
+    ${sec1}${sec2}${sec3}${sec4}${sec5}
+  </div>`;
+}
+
   const jsonUrl = `data/v1/deputati/legislatura-${leg}.json`;
 
   let dep, allInterpelari, allMotiuni, avereResp, avereCtx, monitorulUrl = null;
   try {
-    const [depResp, intResp, motResp, avereJson, ctxJson, corrJson] = await Promise.all([
+    const [depResp, intResp, motResp, avereJson, ctxJson, corrJson, intereseJson] = await Promise.all([
       fetch(jsonUrl).then(r => r.json()),
       fetch(`data/v1/interpelari/legislatura-${leg}.json`).then(r => r.json()).catch(() => null),
       fetch(`data/v1/motiuni/legislatura-${leg}.json`).then(r => r.json()).catch(() => null),
       fetch(`data/v1/declaratii-avere/legislatura-${leg}/${parseInt(id)}.json`).then(r => r.json()).catch(() => null),
       fetch(`data/v1/stats/avere-context-${leg}.json`).then(r => r.json()).catch(() => null),
       fetch(`data/v1/correspondence/monitorul_idm_lookup.json`).then(r => r.json()).catch(() => null),
+      fetch(`data/v1/declaratii-interese/legislatura-${leg}/${parseInt(id)}.json`).then(r => r.json()).catch(() => null),
     ]);
     avereResp = avereJson;
     avereCtx = ctxJson?.deputies?.[String(parseInt(id))] ?? null;
@@ -489,6 +570,7 @@ async function loadDeputat() {
         </a>
       </div>
     </div>
+    ${renderInterese(intereseJson)}
     ${renderAvere(avereResp, avereCtx)}
   `;
   if (typeof applyI18n === 'function') applyI18n();

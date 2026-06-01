@@ -52,10 +52,29 @@ SEC4_ENTRY_RE = re.compile(r"^4\.\d+\s+(.+)", re.MULTILINE)
 CALITATE_SEC1_RE = re.compile(
     r"\b(Asociat|Ac[tţ]ionar|Fondator|Membru)\b", re.IGNORECASE
 )
+# §2 roles — ordered from specific to generic in _ROLE_PRIORITY.
+# We find ALL matches and keep the most specific one (e.g. prefer "Presedinte"
+# over "Altele" when the form writes "Altele Presedinte").
 CALITATE_SEC2_RE = re.compile(
-    r"\b(Administrator|Pre[şș]edinte|Vicepre[şș]edinte|Cenzor|Fondator|Altele)\b",
+    r"\b(Administrator|Pre[şșs]edinte|Vicepre[şșs]edinte|Cenzor|Fondator|Lichidator|"
+    r"Reprezentant\s+[Ll]egal|Asociat\s+[Uu]nic|Altele|Asociat|Membre?)\b",
     re.IGNORECASE,
 )
+_ROLE_PRIORITY: dict[str, int] = {
+    "presedinte": 8,
+    "vicepresedinte": 8,
+    "administrator": 7,
+    "cenzor": 7,
+    "lichidator": 7,
+    "fondator": 7,
+    "reprezentant legal": 6,
+    "asociat unic": 5,
+    "altele": 2,
+    "asociat": 2,
+    "membre": 1,
+    "membrul": 1,
+    "membru": 1,
+}
 NR_TITLURI_RE = re.compile(
     r"\b(\d+)\s+(?:Păr[tţ]i\s+sociale|Ac[tţ]iuni|Parti\s+sociale)\b", re.IGNORECASE
 )
@@ -79,7 +98,7 @@ BENEFICIAR_RE = re.compile(
 # Split-value detection: a line ending with "NNNN.N" or "NNNN.NN" (large number with
 # short decimal but no currency unit) signals that pdfplumber column-merging cut the
 # value across lines.  The continuation digit(s) appear before RON on another line.
-_SPLIT_NUM_RE = re.compile(r"\b(\d{4,}\.\d{1,2})\s*$", re.MULTILINE)
+_SPLIT_NUM_RE = re.compile(r"\b(\d{4,}\.\d{1})\s*$", re.MULTILINE)
 _SHORT_RON_RE = re.compile(r"\b(\d{1,3})\s*RON\b", re.IGNORECASE)
 
 # Lines to strip before emptiness check in §5 blocks:
@@ -230,8 +249,13 @@ def _parse_conducere(sec2: str) -> list[dict]:
         if not first_line:
             continue
 
-        cal_m = CALITATE_SEC2_RE.search(block)
-        calitate = cal_m.group(1).capitalize() if cal_m else None
+        # Find ALL role keywords; keep the most specific (highest priority)
+        all_roles = CALITATE_SEC2_RE.findall(block)
+        calitate = (
+            max(all_roles, key=lambda r: _ROLE_PRIORITY.get(r.lower(), 0))
+            if all_roles
+            else None
+        )
 
         val_matches = list(VALOARE_RON_RE.finditer(block))
         valoare: float | None = None
@@ -406,16 +430,29 @@ def _parse_contracte(sec5: str) -> list[dict]:
 
         # Contract type hint
         tip_contract: str | None = None
-        if re.search(r"LUCRARI|LUCRĂRI", block_body_clean, re.IGNORECASE):
+        bc = block_body_clean
+        if re.search(r"LUCRARI|LUCRĂRI|EXECU[TŢ]IE\s+LUCRARI", bc, re.IGNORECASE):
             tip_contract = "lucrari"
-        elif re.search(
-            r"ASISTEN[TŢ][AĂ]\s+JURIDIC[AĂ]", block_body_clean, re.IGNORECASE
-        ):
+        elif re.search(r"ASISTEN[TŢ][AĂ]\s+JURIDIC[AĂ]", bc, re.IGNORECASE):
             tip_contract = "asistenta_juridica"
-        elif re.search(r"CONSULTAN[TŢ][AĂ]", block_body_clean, re.IGNORECASE):
+        elif re.search(r"ASISTEN[TŢ][AĂ]\s+TEHNIC[AĂ]", bc, re.IGNORECASE):
+            tip_contract = "asistenta_tehnica"
+        elif re.search(r"CONSULTAN[TŢ][AĂ]", bc, re.IGNORECASE):
             tip_contract = "consultanta"
-        elif re.search(r"FURNIZARE", block_body_clean, re.IGNORECASE):
+        elif re.search(r"PROIECTAR", bc, re.IGNORECASE):
+            tip_contract = "proiectare"
+        elif re.search(r"FURNIZARE", bc, re.IGNORECASE):
             tip_contract = "furnizare"
+        elif re.search(r"FINAN[TŢ]ARE|NERAMBURSABIL", bc, re.IGNORECASE):
+            tip_contract = "finantare"
+        elif re.search(r"COLABORARE", bc, re.IGNORECASE):
+            tip_contract = "colaborare"
+        elif re.search(
+            r"PRESTARI?\s+SERVICII?|PRESTARE\s+SERVICII?|SERVICII|CATERING",
+            bc,
+            re.IGNORECASE,
+        ):
+            tip_contract = "servicii"
 
         results.append(
             {

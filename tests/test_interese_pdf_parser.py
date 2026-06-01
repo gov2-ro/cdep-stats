@@ -44,6 +44,16 @@ NR. 14, IMOBILUL LOTUL 2/2, AP.8
 Sector 1 Bucuresti Preşedinte 0 RON
 """
 
+SEC2_ALTELE_PRESEDINTE = """2. Calitatea de membru în organele de conducere...
+1.1 Comunitatea Rusilor Lipoveni
+din Romania - Sectorul 1 Altele Presedinte - RON
+"""
+
+SEC2_ASOCIAT_UNIC = """2. Calitatea de membru în organele de conducere...
+1.1 S.C. EDIFICIA SERV S.R.L. -
+Predeal Brasov Asociat Unic Asociat Unic 0 RON
+"""
+
 SEC2_EMPTY = """2. Calitatea de membru în organele de conducere...
 - - -
 """
@@ -214,7 +224,20 @@ def test_parse_conducere_calitate():
     rows = _parse_conducere(SEC2_BASIC)
     calitati = {(r["calitate_conducere"] or "").lower() for r in rows}
     assert "administrator" in calitati
-    assert any("edinte" in c for c in calitati)  # matches Pre[şș]edinte
+    assert any("edinte" in c for c in calitati)  # matches Pre[şșs]edinte
+
+
+def test_parse_conducere_altele_presedinte():
+    # "Altele Presedinte" — must prefer Presedinte over Altele
+    rows = _parse_conducere(SEC2_ALTELE_PRESEDINTE)
+    assert len(rows) == 1
+    assert "presedinte" in (rows[0]["calitate_conducere"] or "").lower()
+
+
+def test_parse_conducere_asociat_unic():
+    rows = _parse_conducere(SEC2_ASOCIAT_UNIC)
+    assert len(rows) == 1
+    assert "asociat unic" in (rows[0]["calitate_conducere"] or "").lower()
 
 
 def test_parse_conducere_valoare():
@@ -330,6 +353,14 @@ def test_detect_split_value_not_found_when_intact():
 def test_detect_split_value_no_false_positive_on_year():
     raw = "CONTRACT INCHEIAT IN DATA DE 11.11.2021\n"
     joined = "CONTRACT INCHEIAT IN DATA DE 11.11.2021"
+    is_split, _ = _detect_split_value(raw, joined)
+    assert is_split is False
+
+
+def test_detect_split_value_no_false_positive_on_two_decimal_amount():
+    # 352796.04 RON is complete (2 decimal digits); must not be flagged as split
+    raw = "SC HIDRO INDUSTRIAL SRL Licitatie 352796.04\n36 luni RON\n"
+    joined = "SC HIDRO INDUSTRIAL SRL Licitatie 352796.04 36 luni RON"
     is_split, _ = _detect_split_value(raw, joined)
     assert is_split is False
 

@@ -77,6 +77,18 @@ tbody tr:hover{background:var(--bg2)}
 .badge-contract{background:var(--amber-bg);color:var(--amber-text)}
 .dash{color:var(--text3)}
 .approx{font-size:10px;vertical-align:super;color:var(--amber-text);margin-left:1px;cursor:help}
+tbody tr.clickable{cursor:pointer}
+tbody tr.clickable:hover td{background:var(--bg2)}
+tbody tr.expanded td{background:var(--blue-bg)!important}
+tr.detail-row td{padding:0;border-bottom:2px solid var(--blue)}
+.detail-panel{padding:16px 20px;background:var(--bg2);display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;font-size:12px}
+.detail-section h3{font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--text3);margin-bottom:8px;font-weight:600}
+.detail-section ul{list-style:none;display:flex;flex-direction:column;gap:5px}
+.detail-section li{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);padding:7px 10px;line-height:1.4}
+.detail-section li .main{font-weight:500;color:var(--text)}
+.detail-section li .sub{color:var(--text3);font-size:11px}
+.detail-section li .ron{color:var(--amber-text);font-size:11px}
+.detail-loading{color:var(--text3);padding:16px 20px;font-size:12px}
 .loading{text-align:center;padding:60px 0;color:var(--text3)}
 .error{padding:20px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius);margin:20px 0}
 .note{background:var(--amber-bg);color:var(--amber-text);border-radius:var(--radius);padding:12px 16px;font-size:13px;margin-bottom:20px}
@@ -122,6 +134,8 @@ function fmtRON(v){
 let ALL = [];
 let sortKey = 'contracte_ron', sortDir = 'desc';
 let filterParty = '', filterSubset = 'all', searchQ = '';
+const detailCache = {};   // idm → parsed detail data
+let expandedIdm = null;
 
 function filtered(){
   return ALL.filter(d=>{
@@ -158,6 +172,117 @@ function thArrow(key){
   return sortDir==='asc' ? ' ↑' : ' ↓';
 }
 
+// ── Detail panel ──────────────────────────────────────────────────────────────
+
+function renderDetail(dep){
+  // Use the last declaration (most recent)
+  const decl = (dep.declaratii||[]).at(-1);
+  if(!decl) return '<div class="detail-loading">Nicio declarație parsată.</div>';
+
+  const sections = [];
+
+  // §1 Companii
+  if(decl.companii?.length){
+    const items = decl.companii.map(c=>`<li>
+      <div class="main">${c.denumire}</div>
+      <div class="sub">${c.calitate}${c.nr_titluri!=null?' · '+c.nr_titluri+(c.tip_titluri?' '+c.tip_titluri:''):''}${c.valoare_ron!=null?` <span class="ron">· ${c.valoare_ron.toLocaleString('ro-RO')} RON</span>`:''}</div>
+    </li>`).join('');
+    sections.push(`<div class="detail-section">
+      <h3>§1 Asociat / acționar</h3>
+      <ul>${items}</ul>
+    </div>`);
+  }
+
+  // §2 Conducere
+  if(decl.conducere?.length){
+    const items = decl.conducere.map(c=>`<li>
+      <div class="main">${c.denumire}</div>
+      <div class="sub">${c.calitate_conducere||'—'}${c.valoare_beneficii_ron!=null?` <span class="ron">· ${c.valoare_beneficii_ron.toLocaleString('ro-RO')} RON beneficii</span>`:''}</div>
+    </li>`).join('');
+    sections.push(`<div class="detail-section">
+      <h3>§2 Organe de conducere</h3>
+      <ul>${items}</ul>
+    </div>`);
+  }
+
+  // §3 Asociații profesionale
+  if(decl.asociatii_profesionale_raw){
+    sections.push(`<div class="detail-section">
+      <h3>§3 Asociații profesionale</h3>
+      <ul><li><div class="main">${decl.asociatii_profesionale_raw}</div></li></ul>
+    </div>`);
+  }
+
+  // §4 Partide
+  if(decl.partide_raw?.length){
+    const items = decl.partide_raw.map(p=>`<li><div class="main">${p}</div></li>`).join('');
+    sections.push(`<div class="detail-section">
+      <h3>§4 Funcții în partide</h3>
+      <ul>${items}</ul>
+    </div>`);
+  }
+
+  // §5 Contracte
+  if(decl.contracte?.length){
+    const tipLabel = {titular:'Titular',sot_sotie:'Soț/soție',rude:'Rude gr. I',societate_comerciala:'Societate comercială'};
+    const items = decl.contracte.map(c=>{
+      const approx = c.valoare_aproximativa ? ' <span class="approx" title="Valoare reconstituită parțial din PDF fragmentat">⚠</span>' : '';
+      const valStr = c.valoare_ron!=null ? `${c.valoare_ron.toLocaleString('ro-RO')} RON${approx}` : '—';
+      return `<li>
+        <div class="main">${c.beneficiar_denumire||'(neidentificat)'}</div>
+        <div class="sub">${tipLabel[c.beneficiar_tip]||c.beneficiar_tip}${c.tip_contract?' · '+c.tip_contract:''} <span class="ron">· ${valStr}</span></div>
+      </li>`;
+    }).join('');
+    sections.push(`<div class="detail-section">
+      <h3>§5 Contracte cu instituții publice</h3>
+      <ul>${items}</ul>
+    </div>`);
+  }
+
+  if(!sections.length){
+    sections.push(`<div class="detail-section" style="color:var(--text3)">Toate secțiunile sunt goale (declarație fără interese de raportat).</div>`);
+  }
+
+  const pdfLinks = (dep.declaratii||[]).map(d=>
+    `<a href="${d.pdf_url}" target="_blank" rel="noopener" style="font-size:11px">PDF ${d.data_depunere||''} ↗</a>`
+  ).join(' · ');
+
+  return `<div class="detail-panel">${sections.join('')}
+    ${pdfLinks?`<div class="detail-section" style="grid-column:1/-1;border-top:1px solid var(--border);padding-top:10px;margin-top:4px">${pdfLinks}</div>`:''}
+  </div>`;
+}
+
+async function toggleDetail(tr, idm){
+  const isOpen = tr.classList.contains('expanded');
+  // Close any open detail row
+  document.querySelectorAll('tr.expanded').forEach(r=>r.classList.remove('expanded'));
+  document.querySelectorAll('tr.detail-row').forEach(r=>r.remove());
+  if(isOpen){ expandedIdm=null; return; }
+
+  expandedIdm = idm;
+  tr.classList.add('expanded');
+  const detailTr = document.createElement('tr');
+  detailTr.className = 'detail-row';
+  detailTr.innerHTML = `<td colspan="7"><div class="detail-loading">Se încarcă detaliile…</div></td>`;
+  tr.after(detailTr);
+
+  if(!detailCache[idm]){
+    try{
+      const url = `data/v1/declaratii-interese/legislatura-${LEG}/${idm}.json`;
+      const r = await fetch(url);
+      if(!r.ok) throw new Error(r.statusText);
+      detailCache[idm] = (await r.json()).data;
+    }catch(e){
+      detailTr.querySelector('td').innerHTML =
+        `<div class="detail-loading" style="color:var(--red-text)">Eroare: ${e.message}</div>`;
+      return;
+    }
+  }
+  detailTr.querySelector('td').innerHTML = renderDetail(detailCache[idm]);
+}
+
+// ── Table ─────────────────────────────────────────────────────────────────────
+
 function renderTable(data){
   const rows = sorted(data).map((d,i)=>{
     const p = d.partid_short||'?';
@@ -175,9 +300,10 @@ function renderTable(data){
     const dataCell = d.ultima_data
       ? `<span style="color:var(--text3);font-size:12px">${d.ultima_data}</span>`
       : `<span class="dash">—</span>`;
-    return `<tr>
+    const isExp = expandedIdm===d.cdep_idm;
+    return `<tr class="clickable${isExp?' expanded':''}" data-idm="${d.cdep_idm}">
       <td style="color:var(--text3);width:32px;font-size:11px">${i+1}</td>
-      <td><a href="${depLink}">${d.deputat_nume}</a></td>
+      <td><a href="${depLink}" onclick="event.stopPropagation()">${d.deputat_nume}</a></td>
       <td><span class="pill" style="background:${partyColor(p)}22;color:${partyColor(p)}">${p}</span></td>
       <td>${compCell}</td>
       <td>${partidCell}</td>
@@ -193,7 +319,7 @@ function renderTable(data){
       <th data-col="partid" class="${sortKey==='partid'?'sort-active':''}">Partid${thArrow('partid')}</th>
       <th data-col="companii" class="${sortKey==='companii'?'sort-active':''}">§1 Companii${thArrow('companii')}</th>
       <th data-col="partid_fn" class="${sortKey==='partid_fn'?'sort-active':''}">§4 Partid${thArrow('partid_fn')}</th>
-      <th data-col="contracte_ron" class="num ${sortKey==='contracte_ron'?'sort-active':''}">§5 Contracte publice${thArrow('contracte_ron')}</th>
+      <th data-col="contracte_ron" class="num ${sortKey==='contracte_ron'?'sort-active':''}">§5 Contracte${thArrow('contracte_ron')}</th>
       <th data-col="data" class="${sortKey==='data'?'sort-active':''}">Ultima decl.${thArrow('data')}</th>
     </tr></thead>
     <tbody>${rows||'<tr><td colspan="7" style="color:var(--text3);padding:24px 10px">Niciun rezultat.</td></tr>'}</tbody>
@@ -206,13 +332,21 @@ function render(){
     `${data.length} din ${ALL.length} deputați`;
   document.getElementById('table-wrap').innerHTML = renderTable(data);
 
-  // Wire column header clicks
+  // Column sort
   document.querySelectorAll('th[data-col]').forEach(th=>{
     th.addEventListener('click',()=>{
       const col = th.dataset.col;
       if(sortKey===col) sortDir = sortDir==='asc'?'desc':'asc';
       else { sortKey=col; sortDir = col==='nume'||col==='partid'?'asc':'desc'; }
       render();
+    });
+  });
+
+  // Row expand
+  document.querySelectorAll('tr.clickable').forEach(tr=>{
+    tr.addEventListener('click', e=>{
+      if(e.target.closest('a')) return;
+      toggleDetail(tr, Number(tr.dataset.idm));
     });
   });
 }
