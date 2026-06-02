@@ -240,6 +240,19 @@ def test_referenced_acts_ccr() -> None:
     assert ccr.year is None
 
 
+def test_referenced_acts_oug_without_guvernului() -> None:
+    # "a Guvernului" is optional — cdep.ro sometimes omits it
+    text = "modificarea şi completarea Ordonanţei de urgenţă nr.24/2008 privind asistenţa socială"
+    acts = extract_referenced_acts(text)
+    assert any(a.act_type == "OUG" and a.nr == "24" and a.year == 2008 for a in acts)
+
+
+def test_referenced_acts_lege_lowercase() -> None:
+    text = "pentru completarea legea nr.226/2023 privind X"
+    acts = extract_referenced_acts(text)
+    assert any(a.act_type == "Lege" and a.nr == "226" and a.year == 2023 for a in acts)
+
+
 def test_referenced_acts_deduplication() -> None:
     text = "Legii nr.24/2017 ... completarea Legii nr.24/2017"
     acts = extract_referenced_acts(text)
@@ -341,18 +354,51 @@ def test_subject_proiect_lege() -> None:
     subj = extract_subject(text, "proiect_lege")
     assert subj is not None
     assert "(PL-x" not in subj
-    assert "aprobarea" in subj
+    assert "aprobarea" not in subj   # verb phrase stripped
+    assert "restituire" in subj      # topical term kept
 
 
 def test_subject_strips_law_category() -> None:
     text = (
         "Proiectul de Lege pentru modificarea şi completarea Legii nr.24/2017 "
+        "privind emitenţii de instrumente financiare şi operaţiuni de piaţă "
         "(PL-x 569/2024) - lege ordinară -Adoptat de Senat"
     )
     subj = extract_subject(text, "proiect_lege")
     assert subj is not None
+    assert "instrumente financiare" in subj   # topical phrase
+    assert "modificarea" not in subj          # verb stripped
     assert "lege ordinară" not in subj
     assert "Adoptat" not in subj
+
+
+def test_subject_bill_without_privind_clause() -> None:
+    # When the descriere is cut short and has no "privind" clause after act nr → None
+    text = "Proiectul de Lege pentru modificarea Legii nr.24/2017 (PL-x 569/2024)"
+    subj = extract_subject(text, "proiect_lege")
+    assert subj is None  # no topic clause available
+
+
+def test_subject_propunere_legislativa() -> None:
+    text = (
+        "Propunerea legislativă pentru completarea Legii nr.165/2018 "
+        "privind acordarea biletelor de valoare (Pl-x 342/2023)"
+    )
+    subj = extract_subject(text, "propunere_legislativa")
+    assert subj is not None
+    assert "acordarea biletelor de valoare" in subj
+    assert "completarea" not in subj
+
+
+def test_subject_oug_without_guvernului() -> None:
+    text = (
+        "Proiectul de Lege pentru modificarea şi completarea Ordonanţei de urgenţă "
+        "nr.24/2008 privind asistenţa socială (PL-x 201/2025)"
+    )
+    subj = extract_subject(text, "proiect_lege")
+    assert subj is not None
+    assert "asistenţa socială" in subj or "asistența socială" in subj
+    assert "modificarea" not in subj
 
 
 def test_subject_informare_casete_none() -> None:
@@ -392,8 +438,10 @@ def test_integration_proiect_lege_full() -> None:
     assert any(a.act_type == "OUG" and a.nr == "57" and a.year == 2023 for a in ent.referenced_acts)
     assert len(ent.commissions) == 1
     assert "muncă" in ent.commissions[0]
+    # subject = topical noun phrase (verb+act stripped)
     assert ent.subject is not None
     assert "salarizarea" in ent.subject
+    assert "aprobarea" not in ent.subject  # verb phrase stripped
 
 
 def test_integration_motiune_cenzura() -> None:

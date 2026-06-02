@@ -93,7 +93,7 @@ def extract_item_type(plain_text: str) -> str | None:
 
 # (pattern, slug) — matched against text with item-type prefix stripped, normalized
 _ACTION_PATTERNS: list[tuple[str, str]] = [
-    (r"privind aprobarea Ordonanței de urgență a Guvernului", "aprobare_oug"),
+    (r"privind aprobarea Ordonanței de urgență", "aprobare_oug"),   # "a Guvernului" optional
     (r"privind aprobarea Ordonanței Guvernului", "aprobare_og"),
     (r"(?:pentru|privind) modificarea și completarea", "modificare_si_completare"),
     (r"(?:pentru|privind) modificarea anexei", "modificare_anexa"),
@@ -191,8 +191,9 @@ def extract_senate_date(plain_text: str) -> date | None:
 
 # (pattern, act_type, has_year_group)
 # Patterns handle all grammatical forms: nom. (Legea), gen./dat. (Legii), indef. (Lege)
+# OUG: "a Guvernului" is optional — cdep.ro sometimes omits it
 _ACT_PATTERNS: list[tuple[str, str, bool]] = [
-    (r"Ordonanț(?:a|ei?|[ăe])\s+de\s+urgență\s+a\s+Guvernului\s+nr\.(\d+)/(\d{4})", "OUG", True),
+    (r"Ordonanț(?:a|ei?|[ăe])\s+de\s+urgență(?:\s+a\s+Guvernului)?\s+nr\.(\d+)/(\d{4})", "OUG", True),
     (r"Ordonanț(?:a|ei?|[ăe])\s+Guvernului\s+nr\.(\d+)/(\d{4})", "OG", True),
     (r"Leg(?:ea|ii?|e)\s+nr\.(\d+)/(\d{4})", "Lege", True),
     (r"Hotărâr(?:ea|ii?|e)\s+Parlamentului\s+României\s+nr\.(\d+)/(\d{4})", "HotarareParlament", True),
@@ -276,8 +277,7 @@ def extract_initiator(plain_text: str) -> tuple[str | None, int | None, str | No
 # Subject
 # ---------------------------------------------------------------------------
 
-_SUBJECT_PREFIX_TEXT = {
-    **_ITEM_TYPE_PREFIX_TEXT,
+_SUBJECT_PREFIX_TEXT: dict[str, str] = {
     "motiune_simpla": "Dezbaterea moțiunii simple",
     "motiune_cenzura": "Dezbaterea și votul asupra moțiunii de cenzură",
     "informare": "Informare",
@@ -297,22 +297,65 @@ _REG_NR_PAT = re.compile(
     r"\s*\((?:PL-x|PH\s*CD|PHCD|MS|MC|LP|BP|B)\s*\d+/\d+\)", re.IGNORECASE
 )
 
+# Bill item types — for these we extract the topical noun phrase specifically
+_BILL_TYPES = frozenset({"proiect_lege", "propunere_legislativa", "reexaminare", "proiect_hotarare"})
+
+# Regex strip patterns for bill-type prefixes (handle case and spelling variants)
+_BILL_PREFIX_RE: dict[str, re.Pattern[str]] = {
+    "proiect_lege": re.compile(r"^proiectul(?:\s+de\s+lege|\s+legii)\s*", re.IGNORECASE),
+    "proiect_hotarare": re.compile(r"^proiectul\s+de\s+hot[ăa]r[âa]?re\s*", re.IGNORECASE),
+    "propunere_legislativa": re.compile(r"^propunere[a]?\s+legislativ[ăa]\s*", re.IGNORECASE),
+    "reexaminare": re.compile(r"^reexaminarea\s*", re.IGNORECASE),
+}
+
 
 def extract_subject(plain_text: str, item_type: str | None) -> str | None:
+    """Extract the topical noun phrase — what the item is substantively about.
+
+    For legislative bills: strips verb and act-reference clauses, returns the
+    'privind X' (subject matter) clause that follows the last act number.
+    For other items: returns the cleaned first-line description.
+    """
     if item_type in _NO_SUBJECT_TYPES:
         return None
     norm = _normalize_ro(plain_text).strip()
+
     # Strip item-type prefix
-    if item_type in _SUBJECT_PREFIX_TEXT:
+    if item_type in _BILL_PREFIX_RE:
+        norm = _BILL_PREFIX_RE[item_type].sub("", norm).lstrip(" ,\n")
+    elif item_type in _SUBJECT_PREFIX_TEXT:
         prefix = _normalize_ro(_SUBJECT_PREFIX_TEXT[item_type])
-        if norm.startswith(prefix):
-            norm = norm[len(prefix):].lstrip(" ,\n")
-    # Cut at registration number "(PL-x 123/2024)"
-    norm = _REG_NR_PAT.sub("", norm, count=1)
-    # Cut at law category marker " - lege organică/ordinară"
+        norm = re.sub(r"^" + re.escape(prefix) + r"\s*", "", norm, flags=re.IGNORECASE).lstrip(" ,\n")
+
+    # Cut at registration number and law category marker; take first line
+    norm = _REG_NR_PAT.sub("", norm).strip()
     norm = re.sub(r"\s*-\s*lege\s+(?:organic[ăa]|ordinar[ăa]).*$", "", norm, flags=re.DOTALL | re.IGNORECASE)
-    # Take only the first line (procedural metadata follows on subsequent lines)
     norm = norm.split("\n")[0].strip().rstrip(".")
+    if not norm:
+        return None
+
+    if item_type in _BILL_TYPES:
+        # Find the last act number (nr.X/YYYY) — the topic follows it
+        last_act: re.Match[str] | None = None
+        for m in re.finditer(r"\bnr\.\d+/\d{4}\b", norm, re.IGNORECASE):
+            last_act = m
+        if last_act:
+            remainder = norm[last_act.end():].strip().lstrip(",;")
+            # "privind X" clause
+            m_p = re.search(r"\bprivind\s+(.+)$", remainder, re.IGNORECASE)
+            if m_p:
+                return m_p.group(1).strip().rstrip(".")
+            # "pentru X" clause (e.g. OUG approved "pentru stabilirea unor măsuri...")
+            m_pt = re.search(r"\bpentru\s+(.+)$", remainder, re.IGNORECASE)
+            if m_pt:
+                return m_pt.group(1).strip().rstrip(".")
+            # Act referenced but no descriptive clause in this excerpt
+            return None
+        # No act reference — strip leading preposition, rest is the topic
+        m_v = re.search(r"^(?:privind|pentru|referitoare\s+la)\s+", norm, re.IGNORECASE)
+        if m_v:
+            return norm[m_v.end():].strip().rstrip(".")
+
     return norm or None
 
 
