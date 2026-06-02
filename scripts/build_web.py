@@ -16,7 +16,11 @@ def create_archive():
         ARCHIVE.unlink()
 
     # Root HTML + JS files from web/ land at archive root (strip web/ prefix)
-    root_files = sorted(WEB.glob("*.html")) + sorted(WEB.glob("*.js"))
+    root_files = (
+        sorted(WEB.glob("*.html"))
+        + sorted(WEB.glob("*.js"))
+        + sorted(WEB.glob("*.txt"))
+    )
     if root_files:
         subprocess.run(
             ["zip", "-j", str(ARCHIVE)] + [str(f) for f in root_files],
