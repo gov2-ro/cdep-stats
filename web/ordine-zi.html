@@ -59,6 +59,12 @@ a:hover{text-decoration:underline}
 h1{font-size:24px;font-weight:600;margin-bottom:4px}
 .sub{color:var(--text3);font-size:13px;margin-bottom:24px}
 
+/* view toggle */
+.view-tabs{display:flex;gap:2px;background:var(--bg3);border-radius:var(--radius-sm);padding:2px;flex-shrink:0}
+.view-tab{padding:4px 14px;border-radius:4px;font-size:13px;cursor:pointer;border:none;background:none;color:var(--text2);font-family:var(--font)}
+.view-tab.active{background:var(--bg);color:var(--text);font-weight:600;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+
+/* list view */
 .session-list{display:flex;flex-direction:column;gap:10px}
 .session-card{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
 .session-header{display:flex;align-items:center;gap:10px;padding:12px 16px;cursor:pointer;user-select:none;background:var(--bg2)}
@@ -72,7 +78,7 @@ h1{font-size:24px;font-weight:600;margin-bottom:4px}
 .session-body{display:none;padding:16px;border-top:1px solid var(--border)}
 .session-card.open .session-body{display:block}
 
-.item-list{display:flex;flex-direction:column;gap:0}
+/* items */
 .item-row{display:flex;align-items:flex-start;gap:8px;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px;flex-wrap:wrap}
 .item-row:last-child{border-bottom:none}
 .item-main{display:flex;align-items:flex-start;gap:8px;width:100%}
@@ -92,6 +98,31 @@ h1{font-size:24px;font-weight:600;margin-bottom:4px}
 .doc-date{color:var(--text3);white-space:nowrap;min-width:80px;flex-shrink:0;font-family:var(--mono);font-size:11px}
 .doc-title{flex:1;color:var(--text2)}
 .doc-src{font-size:10px;color:var(--text3);flex-shrink:0}
+
+/* calendar view */
+.cal-wrap{max-width:680px}
+.cal-nav{display:flex;align-items:center;gap:0;margin-bottom:12px;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+.cal-btn{background:var(--bg2);border:none;border-right:1px solid var(--border);cursor:pointer;padding:8px 18px;font-size:20px;color:var(--text2);line-height:1;flex-shrink:0}
+.cal-btn:last-child{border-right:none;border-left:1px solid var(--border)}
+.cal-btn:hover{background:var(--bg3);color:var(--text)}
+.cal-title{flex:1;text-align:center;font-size:16px;font-weight:600;padding:8px 0}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:3px}
+.cal-hdr{margin-bottom:4px}
+.cal-hdr > div{text-align:center;font-size:11px;font-weight:600;color:var(--text3);padding:4px 0;text-transform:uppercase}
+.cal-day{border-radius:var(--radius-sm);min-height:58px;padding:6px 4px;display:flex;flex-direction:column;align-items:center;gap:3px;text-decoration:none!important}
+.cal-dn{font-size:13px;color:var(--text2);line-height:1;font-variant-numeric:tabular-nums}
+.cal-si{font-size:10px;color:var(--text3);text-align:center;line-height:1.3}
+.cal-sess{background:var(--blue-bg);cursor:pointer}
+.cal-sess:hover{background:var(--blue)}
+.cal-sess:hover .cal-dn,.cal-sess:hover .cal-si{color:#fff}
+.cal-sess .cal-dn{color:var(--text);font-weight:600}
+.cal-sess .cal-si{color:var(--blue-text)}
+.cal-cont{background:var(--bg2);border:1px dashed var(--border2)}
+.cal-cont .cal-dn{color:var(--text2)}
+.cal-cont .cal-si{color:var(--text3)}
+.cal-cont:hover{background:var(--blue-bg)}
+.cal-today .cal-dn{color:var(--blue);font-weight:700}
+@media(max-width:500px){.cal-day{min-height:44px;padding:4px 2px}.cal-si{display:none}}
 
 .loading{text-align:center;padding:60px 0;color:var(--text3)}
 .error{padding:20px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius);margin:20px 0}
@@ -117,9 +148,16 @@ function getParam(n){return new URL(location).searchParams.get(n);}
 const LEG = Number(getParam('leg') || 2024);
 const DATA_URL = `data/v1/ordine-zi/legislatura-${LEG}.json`;
 
+const MONTHS_RO = ['Ianuarie','Februarie','Martie','Aprilie','Mai','Iunie',
+                   'Iulie','August','Septembrie','Octombrie','Noiembrie','Decembrie'];
+const DAYS_RO = ['Lu','Ma','Mi','Jo','Vi','Sâ','Du'];
+let allSessions = [], sessMap = {}, calYear = 0, calMonth = 0;
+const TODAY = new Date().toISOString().slice(0,10);
+
+/* ── shared item/docs rendering ── */
+
 function toggleCard(header){
-  const card = header.closest('.session-card');
-  card.classList.toggle('open');
+  header.closest('.session-card').classList.toggle('open');
 }
 
 function toggleDocs(btn){
@@ -131,17 +169,16 @@ function toggleDocs(btn){
 function renderDocs(docs){
   if(!docs||!docs.length) return '';
   const rows = docs.map(d=>{
-    const date = d.data || '';
     const pdf = d.pdf_url ? `<a href="${d.pdf_url}" target="_blank" rel="noopener" style="font-size:11px;flex-shrink:0">PDF ↗</a>` : '';
     const src = d.sursa==='caseta' ? '<span class="doc-src">caseta</span>' : '';
-    return`<div class="doc-row"><span class="doc-date">${date}</span><span class="doc-title">${d.titlu}</span>${src}${pdf}</div>`;
+    return`<div class="doc-row"><span class="doc-date">${d.data||''}</span><span class="doc-title">${d.titlu}</span>${src}${pdf}</div>`;
   }).join('');
   return`<div class="docs-list">${rows}</div>`;
 }
 
 function renderItems(items){
   if(!items||!items.length) return '<p style="color:var(--text3);font-size:13px">Niciun punct pe ordinea de zi.</p>';
-  return items.map((it,i)=>{
+  return items.map(it=>{
     const pos = it.pozitie!=null ? String(it.pozitie) : '–';
     const pdf = it.doc_pdf_url ? `<a class="item-pdf" href="${it.doc_pdf_url}" target="_blank" rel="noopener">PDF ↗</a>` : '';
     const nr = it.nr_inregistrare ? `<div style="color:var(--text3);font-size:11px;margin-top:2px">${it.nr_inregistrare}</div>` : '';
@@ -161,51 +198,121 @@ function renderItems(items){
 }
 
 function renderSession(s){
-  const date = s.session_date||'';
   const dateEnd = s.session_date_end && s.session_date_end!==s.session_date ? ` – ${s.session_date_end}` : '';
   const itemCount = (s.items||[]).length;
   const pdf = s.pdf_url ? `<a href="${s.pdf_url}" target="_blank" rel="noopener" style="font-size:12px">PDF ↗</a>` : '';
   const src = s.source_url ? `<a class="src-link" href="${s.source_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">cdep.ro ↗</a>` : '';
+  const sesLink = `<a class="src-link" href="sesiune.html?leg=${LEG}&date=${s.session_date}" onclick="event.stopPropagation()">detalii ↗</a>`;
   return`<div class="session-card" id="s-${s.id}">
     <div class="session-header" onclick="toggleCard(this)">
-      <div class="session-date">${date}${dateEnd}</div>
+      <div class="session-date">${s.session_date||''}${dateEnd}</div>
       <div class="session-title-text">${s.titlu||''}</div>
       <div class="session-meta">
         <span class="pill">${itemCount} puncte</span>
-        ${pdf}
-        ${src}
+        ${pdf}${src}${sesLink}
         <span class="chevron">▶</span>
       </div>
     </div>
-    <div class="session-body">
-      ${renderItems(s.items)}
-    </div>
+    <div class="session-body">${renderItems(s.items)}</div>
   </div>`;
 }
+
+/* ── calendar view ── */
+
+function renderCalendarView(){
+  const first = new Date(calYear, calMonth-1, 1).getDay();
+  const dim = new Date(calYear, calMonth, 0).getDate();
+  const offset = (first+6)%7;
+  let cells = `<div class="cal-day" style="min-height:0"></div>`.repeat(offset);
+  for(let d=1; d<=dim; d++){
+    const ds = `${calYear}-${String(calMonth).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+    const s = sessMap[ds];
+    const isToday = ds===TODAY;
+    if(s){
+      const isEnd = s.session_date!==ds;
+      const n = (s.items||[]).length;
+      const cls = `cal-day cal-sess${isEnd?' cal-cont':''}${isToday?' cal-today':''}`;
+      cells += `<a class="${cls}" href="sesiune.html?leg=${LEG}&date=${s.session_date}">
+        <span class="cal-dn">${d}</span>
+        <span class="cal-si">${isEnd?'cont.':n+' pct.'}</span>
+      </a>`;
+    } else {
+      cells += `<div class="cal-day${isToday?' cal-today':''}"><span class="cal-dn">${d}</span></div>`;
+    }
+  }
+  return `<div class="cal-wrap">
+    <div class="cal-nav">
+      <button class="cal-btn" onclick="calAdj(-1)">‹</button>
+      <span class="cal-title">${MONTHS_RO[calMonth-1]} ${calYear}</span>
+      <button class="cal-btn" onclick="calAdj(1)">›</button>
+    </div>
+    <div class="cal-grid cal-hdr">${DAYS_RO.map(d=>`<div>${d}</div>`).join('')}</div>
+    <div class="cal-grid">${cells}</div>
+  </div>`;
+}
+
+function calAdj(dir){
+  calMonth += dir;
+  if(calMonth<1){calMonth=12;calYear--;}
+  if(calMonth>12){calMonth=1;calYear++;}
+  document.getElementById('sessions').innerHTML = renderCalendarView();
+}
+
+/* ── view toggle ── */
+
+function setView(v, push=true){
+  if(push) history.replaceState({},'',(v==='list'?`?leg=${LEG}`:`?leg=${LEG}&view=calendar`));
+  document.querySelectorAll('.view-tab').forEach(t=>t.classList.toggle('active',t.dataset.view===v));
+  const el = document.getElementById('sessions');
+  if(v==='calendar'){
+    el.innerHTML = renderCalendarView();
+  } else {
+    el.innerHTML = `<div class="session-list">${allSessions.map(renderSession).join('')}</div>`;
+    el.querySelector('.session-card')?.classList.add('open');
+  }
+}
+
+/* ── load ── */
 
 async function load(){
   try{
     const res = await fetch(DATA_URL);
     if(!res.ok) throw new Error(res.statusText);
     const d = await res.json();
-    const items = d.data;
-    items.sort((a,b)=>(b.session_date||'').localeCompare(a.session_date||''));
+    allSessions = d.data;
+    allSessions.sort((a,b)=>(b.session_date||'').localeCompare(a.session_date||''));
 
-    const totalItems = items.reduce((s,sess)=>s+(sess.items||[]).length,0);
+    sessMap = {};
+    allSessions.forEach(s=>{
+      sessMap[s.session_date] = s;
+      if(s.session_date_end && s.session_date_end!==s.session_date && !sessMap[s.session_date_end])
+        sessMap[s.session_date_end] = s;
+    });
+
+    // Default calendar to most recent session's month
+    if(allSessions.length){
+      const d0 = new Date(allSessions[0].session_date+'T00:00:00');
+      calYear = d0.getFullYear(); calMonth = d0.getMonth()+1;
+    } else {
+      const now = new Date(); calYear = now.getFullYear(); calMonth = now.getMonth()+1;
+    }
+
+    const totalItems = allSessions.reduce((s,sess)=>s+(sess.items||[]).length,0);
+    const view = getParam('view')==='calendar' ? 'calendar' : 'list';
 
     document.getElementById('content').innerHTML = `
       <div style="display:flex;align-items:center;gap:12px;margin-bottom:6px;flex-wrap:wrap">
         <h1 style="margin:0">Ordinea de zi — legislatura ${LEG}</h1>
+        <div class="view-tabs">
+          <button class="view-tab" data-view="list" onclick="setView('list')">Listă</button>
+          <button class="view-tab" data-view="calendar" onclick="setView('calendar')">Calendar</button>
+        </div>
         <div class="view-toggle">${NAV.renderLegToggle(LEG,'ordine-zi.html',[2024])}</div>
       </div>
-      <p class="sub">${items.length} ședințe · ${totalItems} puncte totale · Camera Deputaților</p>
-      <div class="session-list" id="sessions">
-        ${items.map(renderSession).join('')}
-      </div>
+      <p class="sub">${allSessions.length} ședințe · ${totalItems} puncte totale · Camera Deputaților</p>
+      <div id="sessions"></div>
     `;
-    if(items.length > 0){
-      document.querySelector('.session-card').classList.add('open');
-    }
+    setView(view, false);
   }catch(e){
     document.getElementById('content').innerHTML=
       `<div class="error">Nu pot încărca ${DATA_URL} (${e.message}).<br>Asigură-te că <code>data/v1/ordine-zi/legislatura-${LEG}.json</code> există.</div>`;
