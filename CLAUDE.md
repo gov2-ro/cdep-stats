@@ -40,6 +40,12 @@ python scripts/build_web.py
 # Or deploy via rsync (faster, checksum-based for large dirs):
 # ./scripts/deploy.sh user@host:/path/to/public_html
 
+# N-gram analysis: discover formulaic patterns in agenda descriptions (no new deps)
+PYTHONPATH=. python scripts/analyze_ngrams.py --leg 2024              # bigrams
+PYTHONPATH=. python scripts/analyze_ngrams.py --leg 2024 --ngram 3    # trigrams
+PYTHONPATH=. python scripts/analyze_ngrams.py --leg 2024 --words      # single-word topical frequencies
+PYTHONPATH=. python scripts/analyze_ngrams.py --leg 2024 --compare    # diff extracted vs. unextracted
+
 # Validate generated data
 PYTHONPATH=. python scripts/validate_data.py
 

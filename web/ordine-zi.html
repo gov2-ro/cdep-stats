@@ -415,7 +415,12 @@ async function load(){
       if(s.session_date_end&&s.session_date_end!==s.session_date&&!sessMap[s.session_date_end])
         sessMap[s.session_date_end]=s;
     });
-    sessYears=[...new Set(Object.keys(sessMap).map(d=>+d.slice(0,4)))].sort();
+    const _dataYears=[...new Set(Object.keys(sessMap).map(d=>+d.slice(0,4)))];
+    const _curYear=new Date().getFullYear();
+    sessYears=[];
+    for(let y=LEG;y<=_curYear;y++) sessYears.push(y);
+    _dataYears.forEach(y=>{if(!sessYears.includes(y)) sessYears.push(y);});
+    sessYears.sort((a,b)=>a-b);
 
     // Init state from URL
     const urlYear=Number(getParam('year'));

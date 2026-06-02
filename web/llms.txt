@@ -1,39 +1,119 @@
 # CDEP Stats — Camera Deputaților România
 
-Date publice despre activitatea parlamentară a Camerei Deputaților României, preluate din surse oficiale (cdep.ro) și puse la dispoziție în format JSON deschis.
+Site: https://lab.gov2.ro/cdep/
+Source: https://github.com/gov2-ro/cdep-stats
+License: Open Government License v3.0
+Data origin: www.cdep.ro (public data of the Romanian Chamber of Deputies)
 
-## Ce conține
+This is NOT an official Government of Romania project.
 
-- **Deputați**: 335 deputați în legislatura 2024. Profil complet: partid, județ, comisii, activitate parlamentară (ședințe, luări de cuvânt, propuneri legislative, legi promulgate, interpelări).
-- **Averi**: Declarații de avere parsate din PDF-urile ANI. Conturi bancare, venituri, imobile, vehicule, plasamente, datorii — per deputat și agregate pe partid.
-- **Voturi**: 885 voturi (2024), 3617 (2020). Fiecare vot include distribuție nominală per deputat + coeziune de partid.
-- **Proiecte legislative**: 1700 proiecte (2024). Titlu, inițiator, stadiu (în lucru / adoptat / promulgat / respins), timeline procedural, amendamente.
-- **Interpelări**: 9758 interpelări și întrebări scrise (2024). Per deputat, per minister, rată răspuns.
-- **Comisii**: 37 comisii parlamentare permanente și speciale (2024). Componență completă cu rol per deputat.
-- **Moțiuni**: 162 moțiuni simple (1992–2024).
-- **Ordine de zi**: Agendele ședințelor plenare (2024).
-- **Declarații de interese**: Linkuri PDF ANI pentru toți deputații.
+## Page index
 
-## Date JSON
+### Landing & dashboards
 
-Date disponibile la: `https://lab.gov2.ro/cdep/data/v1/`
+| Page | URL | Params | Description |
+|---|---|---|---|
+| Home | `index.html` | — | Precomputed counts, recent votes, top deputies. Loads `data/v1/stats/home-2024.json`. |
+| Wealth dashboard | `avere.html` | `?leg=2024` | Top wealth, income, debt; party breakdowns. |
+| County comparison | `judete.html` | `?leg=2024` | Choropleth map + rankings per județ: activity, wealth, attendance. |
+| Party comparison | `partide.html` | `?leg=2024` | Side-by-side party stats: wealth, activity, attendance. |
 
-Structură:
-- `deputati/legislatura-{leg}.json` — toți deputații cu activitate agregată
-- `voturi/{leg}/_index.json` — index voturi cu totalizatoare
-- `voturi/{leg}/{id}.json` — vot individual cu voturi nominale
-- `proiecte/legislatura-{leg}/{an}.json` — proiecte pe an
-- `interpelari/legislatura-{leg}.json` — interpelări
-- `comisii/legislatura-{leg}.json` — comisii cu componență
-- `motiuni/legislatura-{leg}.json` — moțiuni
-- `declaratii-avere/legislatura-{leg}/{idm}.json` — declarație avere per deputat
-- `stats/home-{leg}.json` — numărători agregate
-- `stats/avere-{leg}.json` — statistici avere pe partide
+### Deputies
 
-Legislature disponibile: 2024, 2020, 2016 (parțial).
+| Page | URL | Params | Description |
+|---|---|---|---|
+| Deputy profile | `deputat.html` | `?id={cdep_idm}&leg=2024` | Full profile: party, county, commissions, activity (sessions, speeches, bills, promulgated laws, interpellations), wealth summary, interests. Links to `vot.html` for votes. |
+| Activity viz | `deputati-activitate.html` | `?leg=2024` | Bubble chart: each deputy as a circle sized by activity (attendance, bills, interpellations). |
+| Wealth viz | `deputati-avere.html` | `?leg=2024` | Bubble chart: each deputy as a circle sized by declared wealth, income, properties, debt. |
+| Interests | `interese.html` | `?leg=2024` | Declarații de interese: companies, party roles, public contracts. |
 
-## Surse
+### Legislative activity
 
-Date preluate din sursele publice ale Camerei Deputaților România (cdep.ro), conform Open Government License v3.0. Acesta nu este un proiect oficial al Guvernului României.
+| Page | URL | Params | Description |
+|---|---|---|---|
+| Bills stats | `proiecte-stats.html` | `?leg=2024` | Aggregate bill statistics: by status, initiator, timeline. |
+| Bill detail | `proiect.html` | `?idp={idp}&leg=2024` | Single bill: title, initiator, status (in progress / adopted / promulgated / rejected), procedural timeline, amendments, cross-link to final vote. |
+| Agenda calendar | `ordine-zi.html` | `?leg=2024[&year=YYYY]` | Calendar view of plenary sessions with entity badges (law type, urgency, commissions) and filter bar (Toate / Proiecte lege / Hotărâri / Moțiuni / Procedural). |
+| Session detail | `sesiune.html` | `?date=YYYY-MM-DD&leg=2024` | Single plenary session: full agenda with entity tags, commission chips, document links. |
+| Votes list | `voturi.html` | `?leg=2024` | All votes for a legislature. |
+| Vote detail | `vot.html` | `?id={cdep_idv}&leg=2024` | Single vote: description, nominal breakdown per deputy, party cohesion. Cross-link to bill via `bill-vote-map`. |
+| Motions | `motiuni.html` | — | 162 simple motions (1992–2024). |
 
-Cod sursă: https://github.com/gov2-ro/cdep-stats
+### Other
+
+| Page | URL | Params | Description |
+|---|---|---|---|
+| Commissions | `comisii.html` | `?leg=2024` | 37 permanent and special commissions with membership and party distribution. |
+| Interpellations | `interpelari-stats.html` | `?leg=2024` | 9,758 interpellations and written questions: per deputy, per ministry, response rate. |
+| Party profile | `partid.html` | `?id={party_slug}&leg=2024` | Single party: wealth stats, activity stats, deputy roster. |
+
+## Cross-links between pages
+
+- `index.html` → `deputat.html?id={cdep_idm}`, `vot.html?id={cdep_idv}&leg=2024`
+- `deputat.html` → `vot.html?id={cdep_idv}&leg=2024` (per vote), `partid.html?id={slug}&leg=2024`
+- `proiect.html` → `vot.html?id={cdep_idv}&leg=2024` (final vote, via `bill-vote-map`)
+- `partid.html` → `deputat.html?id={cdep_idm}` (per deputy in roster)
+- `ordine-zi.html` → `sesiune.html?date={date}&leg=2024` (click a session day)
+- `sesiune.html` → `proiect.html?idp={idp}&leg=2024` (per agenda item with idp)
+- `judete.html` → `deputat.html?id={cdep_idm}` (per deputy in county detail)
+
+## Data files (JSON)
+
+All data served from `/cdep/data/v1/`. Legislature values: `2024`, `2020`, `2016` (partial).
+
+### Deputies
+- `deputati/legislatura-{leg}.json` — all deputies with aggregated activity
+
+### Votes
+- `voturi/{leg}/_index.json` — vote index with totals
+- `voturi/{leg}/{cdep_idv}.json` — single vote with nominal breakdown
+
+### Bills
+- `proiecte/legislatura-{leg}/{year}.json` — bills by year
+- `stats/bill-vote-map-{leg}.json` — bill→vote cross-reference (pre-joined at build time)
+- `stats/proiecte-{leg}.json` — aggregate bill stats
+- `stats/proiecte-index-{leg}.json` — thin bill index
+
+### Wealth & interests
+- `declaratii-avere/legislatura-{leg}/{cdep_idm}.json` — wealth declaration per deputy
+- `declaratii-interese/legislatura-{leg}/{cdep_idm}.json` — interest declaration per deputy
+- `declaratii-interese/legislatura-{leg}.json` — index
+- `stats/avere-{leg}.json` — aggregate wealth stats by party
+- `stats/avere-deputies-{leg}.json` — per-deputy wealth stats
+- `stats/avere-context-{leg}.json` — contextual aggregates (national avg, etc.)
+
+### Activity
+- `stats/activitate-deputies-{leg}.json` — per-deputy activity stats
+- `stats/interpelari-{leg}.json` — aggregate interpellation stats
+
+### Other
+- `comisii/legislatura-{leg}.json` — commissions with membership
+- `interpelari/legislatura-{leg}.json` — interpellations
+- `motiuni/legislatura-{leg}.json` — motions
+- `ordine-zi/legislatura-{leg}.json` — plenary agendas with extracted entities
+- `stats/home-{leg}.json` — precomputed counts for landing page
+- `correspondence/monitorul_idm_lookup.json` — cdep_idm → monitorul.ai ID mapping
+- `feed.json`, `feed.atom` — activity feeds
+
+## Entity extraction (ordine-zi)
+
+Agenda items in `ordine-zi/legislatura-{leg}.json` include an `entities` field with:
+- `item_type` — document type (30 values: proiect_lege, proiect_hotarare, propunere_legislativa, reexaminare, motiune_simpla, …)
+- `action` — legislative verb (aprobare_oug, modificare_si_completare, completare, …)
+- `law_category` — lege_organica / lege_ordinara
+- `flags` — procedural indicators (procedura_urgenta, camera_decizionala, rezerva_raport, …)
+- `referenced_acts` — OUG, OG, Lege, Hotarare, CCR with nr/year
+- `commissions` — parliamentary commissions mentioned
+- `initiator_group`, `initiator_count`, `initiator_type` — for motions
+- `subject` — topical noun phrase (what the item is about)
+- `senate_adoption_date` — date adopted by Senate
+
+Extraction is pure regex (`scrapers/entities_ordine_zi.py`). See `docs/ordine-zi-entity-analysis.md` for full taxonomy and n-gram analysis.
+
+## Build pipeline
+
+1. Scrapers fetch raw data from cdep.ro: `run_deputati.py`, `run_voturi.py`, `run_interpelari.py`
+2. Derived builds aggregate and cross-reference: `build_comisii.py`, `build_amendamente.py`, `build_feeds.py`, `build_declaratii_avere.py`, `build_avere_stats.py`, `build_home_stats.py`, `build_proiecte_index.py`, `build_ordine_zi_entities.py`
+3. Validation: `validate_data.py`
+4. Analysis: `analyze_ngrams.py` — n-gram frequency analysis for pattern discovery
+5. Deploy: `build_web.py` produces `deploy.zip`; `deploy.sh` for rsync
