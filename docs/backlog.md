@@ -42,10 +42,9 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
     - Add ESLint rule to catch unsafe `getElementById(...)` patterns at build time
     - Review and add null-checks to other modules (avere-list.js, etc.) — these are less critical since they target elements that exist
 
-- [ ] **vot.html: cross-link to bill description from proiecte data**
-  - Currently vot.html shows only `descriere` ("Vot final adoptare") — no semantic context for what was voted on.
-  - Should parse bill number from `descriere`, look up in `data/v1/proiecte/{leg}/_index.json`, and display full bill title (e.g., "Proiect de Lege pentru completarea art.16 alin.(3) din Legea nr.215/2016 privind ceremoniile oficiale").
-  - Requires bill number parsing + proiecte lookup during page load.
+- [x] **vot.html: cross-link to bill description from proiecte data** — done 2026-06-03
+  - PL-x votes: 475/619 matched to `proiecte-index-2024.json` (title + link to `proiect.html`); 144 from prior legislatures get cdep.ro search fallback.
+  - PH CD votes (125): extended `parseBillRef()` to detect hotărâre pattern and show cdep.ro fallback.
 
 - [ ] **voturi.html / vot.html: add "What's new" badge or visual indicator to nav**
   - voturi.html and vot.html are newly unlocked pages (previously removed due to deploy size constraints). Consider marking them as "New" or highlighting them in the nav briefly to draw attention.

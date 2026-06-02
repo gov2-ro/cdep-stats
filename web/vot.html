@@ -119,9 +119,15 @@ function getVoteClass(opt){
   return opt==='yes'?'vote-yes':opt==='no'?'vote-no':opt==='abstain'?'vote-abstain':'vote-absent';
 }
 
-function parseBillNr(desc){
-  const m = (desc||'').match(/PL[-\s]?[xX]?\s*(?:nr\.?\s*)?(\d+\/\d{4})/i);
-  return m ? m[1] : null;
+function parseBillRef(desc){
+  const s = desc || '';
+  // PL-x / PL / PLx — proiect de lege
+  let m = s.match(/PL[-\s]?[xX]?\s*(?:nr\.?\s*)?(\d+\/\d{4})/i);
+  if(m) return {type:'PL', nr:m[1]};
+  // PH CD / PHCD — proiect hotărâre Camera Deputaților
+  m = s.match(/PH\s?CD\s*(?:nr\.?\s*)?(\d+\/\d{4})/i);
+  if(m) return {type:'PHCD', nr:m[1]};
+  return null;
 }
 
 function normNr(nr){
@@ -130,23 +136,27 @@ function normNr(nr){
 }
 
 function buildBillLink(descriere, leg, indexData){
-  const key = parseBillNr(descriere);
-  if(!key) return '';
-  if(indexData){
+  const ref = parseBillRef(descriere);
+  if(!ref) return '';
+  const {type, nr: key} = ref;
+
+  if(type === 'PL' && indexData){
     const bill = indexData.find(p => normNr(p.nr_inregistrare) === key || normNr(p.nr_camera_deputati) === key);
     if(bill){
       const titlu = bill.titlu ? bill.titlu.slice(0,120)+(bill.titlu.length>120?'…':'') : key;
+      const tipLabel = bill.tip === 'propunere_legislativa' ? 'Propunere legislativă' : 'Proiect de lege';
       return `<div style="margin-bottom:20px;padding:12px 14px;background:var(--blue-bg);border-radius:var(--radius);border-left:3px solid var(--blue)">
-        <div style="font-size:11px;color:var(--blue-text);text-transform:uppercase;letter-spacing:.4px;margin-bottom:4px">Proiect de lege</div>
+        <div style="font-size:11px;color:var(--blue-text);text-transform:uppercase;letter-spacing:.4px;margin-bottom:4px">${tipLabel}</div>
         <a href="proiect.html?idp=${bill.cdep_idp}&leg=${leg}" style="font-size:13px;font-weight:500">${titlu}</a>
         <span style="font-size:11px;color:var(--text3);margin-left:8px">${key}</span>
       </div>`;
     }
   }
-  // Bill not in local index — link to cdep.ro
-  const cdepUrl = `https://www.cdep.ro/pls/proiecte/upl_pck2015.proiect?cam=2&leg=${leg}&idp=`;
+
+  // Hotărâre Camera Deputaților or bill not in local index — link to cdep.ro
+  const typeLabel = type === 'PHCD' ? 'Hotărâre Camera Deputaților' : `Proiect ${key}`;
   return `<div style="margin-bottom:20px;padding:10px 14px;background:var(--bg2);border-radius:var(--radius)">
-    <span style="font-size:12px;color:var(--text3)">Proiect ${key} · </span>
+    <span style="font-size:12px;color:var(--text3)">${typeLabel} · </span>
     <a href="https://www.cdep.ro/pls/proiecte/upl_pck2015.cauta2015.page?cam=2&leg=${leg}&tip=&nr=${key.split('/')[0]}&an=${key.split('/')[1]}" target="_blank" rel="noopener" style="font-size:12px">Caută pe cdep.ro ↗</a>
   </div>`;
 }
