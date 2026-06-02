@@ -6,6 +6,8 @@ from datetime import date
 
 from pydantic import BaseModel, Field, HttpUrl
 
+from schemas.ordine_zi_entities import OrdineZiItemEntities
+
 
 class DocOrdineZiItem(BaseModel):
     """Un document asociat unui punct de pe ordinea de zi (din more_docs_pl)."""
@@ -41,6 +43,9 @@ class OrdineZiItem(BaseModel):
     )
     docs: list[DocOrdineZiItem] = Field(
         default_factory=list, description="Documente asociate din more_docs_pl (fisa PL + caseta)."
+    )
+    entities: OrdineZiItemEntities | None = Field(
+        default=None, description="Entități extrase din câmpul descriere (populate de build_ordine_zi_entities.py)."
     )
 
 

@@ -97,6 +97,8 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 - [x] **Remove dead CSS rules in deputati-avere.html and deputati-activitate.html** — done 2026-05-31; removed `.metric-select`, `.search-input`, `.party-chips`, `.party-chip` rules.
 - [ ] cele mai preferate mărci de mașini / pe partid, pe județ, pe vârstă
 
+- [ ] when/if json gets too large, go duckdb smth?
+
 
 - [ ] make more static? we generate static but load data from json?! is this SEO friendly?
 - [ ] create llms.txt

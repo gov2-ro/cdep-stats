@@ -27,7 +27,7 @@
   --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
   --mono:'SF Mono','Fira Code','Consolas',monospace;
 }
-@media(prefers-color-scheme:dark){:root:not(.light-mode){--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;}}
+@media(prefers-color-scheme:dark){:root:not(.light-mode){--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;.bge-org{background:#4c1d9533;color:#c4b5fd}.bge-ord{background:#1e3a8a33;color:#93c5fd}.bge-urg{background:#7f1d1d33;color:#fca5a5}.bge-cam{background:#0c4a6e33;color:#7dd3fc}.bge-pri{background:#14532d33;color:#86efac}.bge-rez{background:#78350f33;color:#fde68a}}}
 :root.dark-mode{--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;}
 body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.5;font-size:14px}
 a{color:var(--blue);text-decoration:none}
@@ -119,6 +119,24 @@ h1{font-size:20px;font-weight:600}
 
 .loading{text-align:center;padding:50px 0;color:var(--text3)}
 .error{padding:12px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius-sm);margin:12px 0}
+
+/* ── entity metadata ── */
+.item-meta{display:flex;flex-wrap:wrap;gap:4px;align-items:center;width:100%;padding:2px 0 2px 26px}
+.bge{display:inline-block;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:600;letter-spacing:.2px;white-space:nowrap}
+.bge-org{background:#ede9fe;color:#6d28d9}
+.bge-ord{background:#dbeafe;color:#1d4ed8}
+.bge-urg{background:#fee2e2;color:#b91c1c}
+.bge-cam{background:#e0f2fe;color:#0369a1}
+.bge-pri{background:#dcfce7;color:#166534}
+.bge-rez{background:#fef3c7;color:#92400e}
+.item-comm{font-size:9px;color:var(--text3);display:flex;flex-wrap:wrap;gap:1px;align-items:center}
+.item-comm-name{white-space:nowrap}
+.item-comm-sep{color:var(--border2);margin:0 1px}
+/* filter bar inside session detail */
+.det-filter{display:flex;gap:3px;flex-wrap:wrap;padding:5px 11px;border-bottom:1px solid var(--border);background:var(--bg2)}
+.flt-btn{font-size:10px;padding:2px 8px;border-radius:3px;border:1px solid var(--border);background:none;cursor:pointer;color:var(--text2);font-family:var(--font)}
+.flt-btn:hover{background:var(--bg3)}
+.flt-btn.active{background:var(--blue);color:#fff;border-color:var(--blue)}
 .footer{border-top:1px solid var(--border);padding:14px 20px;margin-top:36px;font-size:12px;color:var(--text3);text-align:center}
 .footer a{color:var(--text2)}
 .header{background:#42133c;border-bottom-color:transparent}.logo{color:#fff}.logo span{color:#88dfc4}.nav a{white-space:nowrap;color:rgba(255,255,255,.72)}.nav a:hover{background:rgba(255,255,255,.11);color:#fff}.nav a.active{color:#fff;background:rgba(255,255,255,.08)}.header .nav a[style*=color]{color:rgba(255,255,255,.85)!important}.notice-bar{display:flex;align-items:center;gap:8px;padding:6px 20px;background:rgba(250,204,21,.1);border-bottom:1px solid rgba(250,204,21,.2);font-size:12px;color:var(--text2)}.notice-bar a{color:inherit;text-decoration:underline;opacity:.85}.notice-icon{font-size:13px;opacity:.8;flex-shrink:0}.notice-text{flex:1}.notice-close{background:none;border:none;color:var(--text3);cursor:pointer;font-size:18px;padding:0 4px;line-height:1;flex-shrink:0}.notice-close:hover{color:var(--text)}.nav button{color:rgba(255,255,255,.72);background:transparent;border:none}.nav button:hover{background:rgba(255,255,255,.11);color:#fff}#lang-toggle-slot button,#lang-toggle-slot a{color:rgba(255,255,255,.72)!important}#lang-toggle-slot button:hover,#lang-toggle-slot a:hover{color:#fff!important}.notice-bar.hidden{display:none}
@@ -150,6 +168,51 @@ const TODAY = new Date().toISOString().slice(0,10);
 let allSessions=[], sessMap={}, sessYears=[];
 let selectedYear=0, selectedDate=null;
 
+/* ─── entity filter ─── */
+
+let currentFilter='all';
+
+const FILTER_SETS={
+  bills:new Set(['proiect_lege','propunere_legislativa','reexaminare']),
+  hotarari:new Set(['proiect_hotarare']),
+  motions:new Set(['motiune_simpla','motiune_cenzura','angajare_raspundere']),
+  procedural:new Set([
+    'informare','informare_casete','prezentare','alocutiuni','alocutiune',
+    'interventie','moment_reculegere','mesaj','declaratie','dezbateri_politice',
+    'dezbateri','alegere','numire','constituire','vacantare','solicitare',
+    'sedinta_solemna','vot','raport',
+  ]),
+};
+
+function setFilter(f){
+  currentFilter=f;
+  document.querySelectorAll('.flt-btn').forEach(b=>b.classList.toggle('active',b.dataset.type===f));
+  const s=sessMap[selectedDate];
+  if(s) document.querySelector('.det-body').innerHTML=renderItems(s.items);
+}
+
+function renderEntityMeta(it){
+  const ent=it.entities;
+  if(!ent) return '';
+  const parts=[];
+  if(ent.law_category==='lege_organica') parts.push('<span class="bge bge-org">lege organică</span>');
+  else if(ent.law_category==='lege_ordinara') parts.push('<span class="bge bge-ord">lege ordinară</span>');
+  if(ent.flags?.includes('procedura_urgenta'))     parts.push('<span class="bge bge-urg">urgență</span>');
+  if(ent.flags?.includes('prioritate_legislativa')) parts.push('<span class="bge bge-pri">prioritate</span>');
+  if(ent.flags?.includes('camera_decizionala'))     parts.push('<span class="bge bge-cam">cam. dec.</span>');
+  if(ent.flags?.includes('rezerva_raport'))         parts.push('<span class="bge bge-rez">rezervă raport</span>');
+  if(ent.commissions?.length){
+    const comms=ent.commissions
+      .map(c=>`<span class="item-comm-name">${c}</span>`)
+      .join('<span class="item-comm-sep"> · </span>');
+    parts.push(`<span class="item-comm">${comms}</span>`);
+  }
+  if(it.idp) parts.push(
+    `<a class="ext-btn" href="proiect.html?id=${it.idp}&leg=${LEG}" `+
+    `style="font-size:9px" title="Detalii proiect">proiect →</a>`);
+  return parts.length?`<div class="item-meta">${parts.join('')}</div>`:'';
+}
+
 /* ─── item / docs rendering ─── */
 
 function toggleDocs(btn){
@@ -168,18 +231,24 @@ function renderDocs(docs){
 }
 
 function renderItems(items){
-  if(!items||!items.length) return '<p style="color:var(--text3);font-size:11px;padding:4px 0">Niciun punct.</p>';
-  return items.map(it=>{
+  if(!items?.length) return '<p style="color:var(--text3);font-size:11px;padding:4px 0">Niciun punct.</p>';
+  let list=items;
+  if(currentFilter!=='all'){
+    const types=FILTER_SETS[currentFilter];
+    list=items.filter(it=>types?.has(it.entities?.item_type));
+  }
+  if(!list.length) return '<p style="color:var(--text3);font-size:11px;padding:4px 0">Niciun punct pentru filtrul ales.</p>';
+  return list.map(it=>{
     const pos=it.pozitie!=null?String(it.pozitie):'–';
     const pdf=it.doc_pdf_url?`<a class="item-pdf" href="${it.doc_pdf_url}" target="_blank" rel="noopener">PDF ↗</a>`:'';
     const nr=it.nr_inregistrare?`<div style="color:var(--text3);font-size:10px;margin-top:1px">${it.nr_inregistrare}</div>`:'';
-    const hasDocs=it.docs&&it.docs.length;
+    const hasDocs=it.docs?.length;
     const tog=hasDocs?`<button class="docs-toggle" onclick="toggleDocs(this)" data-count="${it.docs.length}">documente (${it.docs.length}) ▼</button>`:'';
     return`<div class="item-row"><div class="item-main">
       <span class="item-pos">${pos}.</span>
       <span class="item-desc">${it.descriere||'—'}${nr}</span>
       ${tog}${pdf}
-    </div>${renderDocs(it.docs)}</div>`;
+    </div>${renderEntityMeta(it)}${renderDocs(it.docs)}</div>`;
   }).join('');
 }
 
@@ -257,6 +326,7 @@ function renderDetail(){
   if(!el) return;
   const s=selectedDate?sessMap[selectedDate]:null;
   if(!s){el.style.display='none';return;}
+  currentFilter='all';
   el.style.display='block';
   const dateEnd=s.session_date_end&&s.session_date_end!==s.session_date?` – ${s.session_date_end}`:'';
   const n=(s.items||[]).length;
@@ -271,6 +341,13 @@ function renderDetail(){
       <div class="det-meta">${app}<span class="pill">${n} pct.</span>${pdf}${src}${pg}</div>
     </div>
     <button class="det-close" onclick="closeDetail()" title="Închide">×</button>
+  </div>
+  <div class="det-filter">
+    <button class="flt-btn active" data-type="all" onclick="setFilter('all')">Toate</button>
+    <button class="flt-btn" data-type="bills" onclick="setFilter('bills')">Proiecte lege</button>
+    <button class="flt-btn" data-type="hotarari" onclick="setFilter('hotarari')">Hotărâri</button>
+    <button class="flt-btn" data-type="motions" onclick="setFilter('motions')">Moțiuni</button>
+    <button class="flt-btn" data-type="procedural" onclick="setFilter('procedural')">Procedural</button>
   </div>
   <div class="det-body">${renderItems(s.items)}</div>`;
 }

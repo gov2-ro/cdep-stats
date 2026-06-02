@@ -13,6 +13,7 @@ Dashboard de statistici și transparență parlamentară pentru Camera Deputați
 - **Voturi** — defalcare nominală per deputat, agregare pe partide
 - **Interpelări** — 9.700+ întrebări și interpelări parlamentare (2024–2026)
 - **Proiecte legislative** — stadiu, timeline, amendamente, promulgare
+- **Ordinea de zi** — ședințele plenului Camera Deputaților cu clasificare automată pe tip (proiecte de lege, hotărâri, moțiuni) și extragere de entități (categorie lege, comisii, acte normative referențiate, indicatori procedurali)
 - **Comisii** — componență și conducere
 - **Declarații de avere** — sumar și delta față de declarația anterioară
 

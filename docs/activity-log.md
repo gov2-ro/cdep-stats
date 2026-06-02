@@ -2,6 +2,22 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-02 — Entity extraction for ordine-zi agenda items
+
+**What was done**
+- `schemas/ordine_zi_entities.py` (new) — Pydantic models: `OrdineZiItemEntities`, `ReferencedAct`.
+- `schemas/ordine_zi.py` — added `entities: OrdineZiItemEntities | None` field to `OrdineZiItem`.
+- `scrapers/entities_ordine_zi.py` (new) — pure regex extraction of: `item_type` (30 prefixes, 0% unknown on 2910 real items), `action`, `law_category`, `flags`, `senate_adoption_date`, `referenced_acts` (OUG/OG/Lege/HotarareParlament/HotarareCamDepuati/CCR), `commissions`, `initiator_group/count/type`, `subject`.
+- `scripts/build_ordine_zi_entities.py` (new) — CLI build step: `python scripts/build_ordine_zi_entities.py --leg 2024`; enriches items in-place in the existing JSON; supports `--dry-run` for inspection.
+- `tests/test_ordine_zi_entities.py` (new) — 62 tests covering all extractors and 4 integration cases.
+- Ran enrichment: `data/v1/ordine-zi/legislatura-2024.json` now has `entities` on all 2910 items.
+
+**Decisions**
+- Pure regex (no LLM) because Romanian parliamentary language is highly formulaic.
+- Inline enrichment (entities added to existing JSON) rather than a parallel file.
+- `law_category` uses raw HTML as source (the category tag is bold in the source HTML), other extractors use plain text.
+- Handles both old (cedilla ş/ţ) and new (comma-below ș/ț) Romanian diacritic encodings via `_normalize_ro()`.
+
 ### 2026-06-01 — SEO, proiect↔vot cross-links, llms.txt, sitemap
 
 **What was done**
