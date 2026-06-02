@@ -207,6 +207,44 @@ let listInstits = new Set();
 let listYear = 0;
 let searchTimer = null;
 
+// ── URL persistence ──
+function getQueryParams() {
+  const p = new URL(location).searchParams;
+  return {
+    q: p.get('q') || '',
+    type: p.get('type') || 'all',
+    lawcat: p.get('lawcat') || '',
+    action: p.get('action') || '',
+    flags: p.getAll('flags') || [],
+    acts: p.getAll('acts') || [],
+    comms: p.getAll('comms') || [],
+    instits: p.getAll('instits') || [],
+    year: p.get('year') ? +p.get('year') : 0,
+  };
+}
+
+function pushQueryParams() {
+  const u = new URL(location);
+  u.searchParams.set('q', listQ);
+  u.searchParams.set('type', listItemType);
+  u.searchParams.set('lawcat', listLawCat);
+  u.searchParams.set('action', listAction);
+  u.searchParams.set('year', listYear);
+
+  // remove old params
+  Array.from(u.searchParams.keys()).forEach(k => {
+    if(['flags','acts','comms','instits'].includes(k)) u.searchParams.delete(k);
+  });
+
+  // add multi-value params
+  Array.from(listFlags).forEach(f => u.searchParams.append('flags', f));
+  Array.from(listActTypes).forEach(a => u.searchParams.append('acts', a));
+  Array.from(listCommSlugs).forEach(c => u.searchParams.append('comms', c));
+  Array.from(listInstits).forEach(i => u.searchParams.append('instits', i));
+
+  history.replaceState({}, '', u.toString());
+}
+
 // ── filter definitions ──
 const FILTER_SETS = {
   bills:      new Set(['proiect_lege','propunere_legislativa','reexaminare']),
@@ -333,20 +371,21 @@ function renderFilterUI() {
 }
 
 // ── filter setters ──
-function setItemType(f) { listItemType=f; renderList(); }
-function setLawCat(c) { listLawCat=c; renderList(); }
-function setAction(a) { listAction=a; renderList(); }
-function setYear(y) { listYear=y; renderList(); }
-function toggleFlag(s) { if(listFlags.has(s)) listFlags.delete(s); else listFlags.add(s); renderList(); }
-function toggleActType(t) { if(listActTypes.has(t)) listActTypes.delete(t); else listActTypes.add(t); renderList(); }
-function toggleCommSlug(s) { if(listCommSlugs.has(s)) listCommSlugs.delete(s); else listCommSlugs.add(s); renderList(); }
-function toggleInstit(i) { if(listInstits.has(i)) listInstits.delete(i); else listInstits.add(i); renderList(); }
+function setItemType(f) { listItemType=f; renderFilterUI(); renderList(); pushQueryParams(); }
+function setLawCat(c) { listLawCat=c; renderFilterUI(); renderList(); pushQueryParams(); }
+function setAction(a) { listAction=a; renderFilterUI(); renderList(); pushQueryParams(); }
+function setYear(y) { listYear=y; renderFilterUI(); renderList(); pushQueryParams(); }
+function toggleFlag(s) { if(listFlags.has(s)) listFlags.delete(s); else listFlags.add(s); renderFilterUI(); renderList(); pushQueryParams(); }
+function toggleActType(t) { if(listActTypes.has(t)) listActTypes.delete(t); else listActTypes.add(t); renderFilterUI(); renderList(); pushQueryParams(); }
+function toggleCommSlug(s) { if(listCommSlugs.has(s)) listCommSlugs.delete(s); else listCommSlugs.add(s); renderFilterUI(); renderList(); pushQueryParams(); }
+function toggleInstit(i) { if(listInstits.has(i)) listInstits.delete(i); else listInstits.add(i); renderFilterUI(); renderList(); pushQueryParams(); }
 
 function clearFilters() {
   listQ = ''; document.getElementById('search-input').value = '';
   listItemType = 'all'; listLawCat = ''; listAction = ''; listFlags.clear(); listActTypes.clear(); listCommSlugs.clear(); listInstits.clear(); listYear = 0;
   renderFilterUI();
   renderList();
+  pushQueryParams();
 }
 
 // ── apply filters ──
@@ -505,7 +544,10 @@ document.addEventListener('DOMContentLoaded', () => {
   searchInput.addEventListener('input', (e) => {
     listQ = e.target.value;
     clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => renderList(), 250);
+    searchTimer = setTimeout(() => {
+      renderList();
+      pushQueryParams();
+    }, 250);
   });
 
   const actionSelect = document.getElementById('action-select');
@@ -538,6 +580,22 @@ async function load() {
 
     const total = allItems.length;
     document.getElementById('subtitle').innerHTML = `${total} puncte · Camera Deputaților`;
+
+    // restore state from URL
+    const params = getQueryParams();
+    listQ = params.q;
+    listItemType = params.type;
+    listLawCat = params.lawcat;
+    listAction = params.action;
+    listFlags = new Set(params.flags);
+    listActTypes = new Set(params.acts);
+    listCommSlugs = new Set(params.comms);
+    listInstits = new Set(params.instits);
+    listYear = params.year;
+
+    // update search input
+    document.getElementById('search-input').value = listQ;
+    document.getElementById('action-select').value = listAction;
 
     renderFilterUI();
     renderList();
