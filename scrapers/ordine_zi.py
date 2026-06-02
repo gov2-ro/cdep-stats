@@ -34,6 +34,29 @@ def _session_id(cam: int, session_date: date) -> str:
     return hashlib.sha256(f"{cam}|{session_date.isoformat()}".encode()).hexdigest()[:16]
 
 
+def _clean_descriere_html(raw: str) -> str:
+    """Keep only b/i/br tags from raw inner HTML, normalised to lowercase."""
+    # Normalise <B>, <I>, <BR> (and closing forms) to lowercase
+    text = re.sub(
+        r"<(/?)(b|i|br)\b([^>]*)>",
+        lambda m: f"<{m.group(1)}{m.group(2).lower()}{m.group(3).strip()}>",
+        raw,
+        flags=re.IGNORECASE,
+    )
+    # Drop all other tags
+    text = re.sub(r"<(?!/?(?:b|i|br)\b)[^>]+>", "", text)
+    # Remove content-free wrappers
+    text = re.sub(r"<b>\s*</b>", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"<i>\s*</i>", "", text, flags=re.IGNORECASE)
+    # Strip leading/trailing whitespace and stray <br>
+    text = text.strip()
+    text = re.sub(r"^(<br\s*/?>|\s)+", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"(<br\s*/?>|\s)+$", "", text, flags=re.IGNORECASE)
+    # Collapse 3+ consecutive <br> to 2
+    text = re.sub(r"(<br>){3,}", "<br><br>", text, flags=re.IGNORECASE)
+    return text[:2000]
+
+
 def _parse_iso_date(s: str | None) -> date | None:
     """DD.MM.YYYY sau DD-MM-YYYY sau DD/MM/YYYY → date."""
     if not s:
@@ -204,9 +227,8 @@ def parse_session(session_date: date, legislatura: int, cam: int = 2) -> OrdineZ
                 if nr_text and nr_text != "-":
                     nr_inregistrare = nr_text
 
-            # Col 2: descriere (text + tags <b>, <i>, <br>)
-            descriere = " ".join(p.strip() for p in cells[2].css("::text").getall() if p.strip())
-            descriere = re.sub(r"\s+", " ", descriere).strip()
+            # Col 2: descriere — preserve <b>/<i>/<br> markup from source
+            descriere = _clean_descriere_html("".join(cells[2].xpath("node()").getall()))
             if not descriere:
                 continue
 
@@ -227,7 +249,7 @@ def parse_session(session_date: date, legislatura: int, cam: int = 2) -> OrdineZ
                     pozitie=pozitie,
                     nr_inregistrare=nr_inregistrare,
                     idp=idp,
-                    descriere=descriere[:1000],
+                    descriere=descriere,
                     doc_pdf_url=doc_pdf_url,
                     ozitm=ozitm,
                 )

@@ -22,7 +22,7 @@ class OrdineZiItem(BaseModel):
         default=None,
         description="Cdep_idp pentru cross-link cu /proiecte endpoint. None dacă nu e proiect.",
     )
-    descriere: str = Field(description="Textul descriptiv al punctului.")
+    descriere: str = Field(description="Textul descriptiv al punctului (poate conține markup HTML: <b>, <i>, <br>).")
     doc_pdf_url: HttpUrl | None = Field(
         default=None, description="Link PDF cu textul punctului (alocuțiune, comunicare etc.)."
     )
