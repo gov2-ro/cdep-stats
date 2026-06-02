@@ -70,6 +70,16 @@ th{font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--text3
 td.num,th.num{text-align:right;font-family:var(--mono)}
 .rank{color:var(--text3);width:22px;font-size:11px}
 a.vote-link{color:var(--blue)}
+.vote-badge{display:inline-block;padding:2px 6px;border-radius:3px;font-size:11px;font-weight:600}
+.vote-passed{background:rgba(29,158,117,.1);color:var(--green-text)}
+.vote-failed{background:rgba(163,45,45,.1);color:var(--red-text)}
+
+.stats-bar{display:flex;gap:16px;flex-wrap:wrap;padding:14px;background:var(--bg2);border-radius:var(--radius-sm);margin-bottom:16px;border:1px solid var(--border)}
+.stat-item{display:flex;flex-direction:column;gap:2px;min-width:120px}
+.stat-label{font-size:10px;text-transform:uppercase;letter-spacing:.4px;color:var(--text3);font-weight:600}
+.stat-value{font-size:18px;font-weight:700;color:var(--text)}
+.stat-passed .stat-value{color:var(--green-text)}
+.stat-failed .stat-value{color:var(--red-text)}
 
 .pagination{display:flex;align-items:center;gap:8px;justify-content:center;margin-top:32px;flex-wrap:wrap}
 .page-btn{padding:6px 10px;font-size:12px;border:1px solid var(--border2);background:var(--bg);color:var(--text2);border-radius:var(--radius-sm);cursor:pointer}
@@ -115,16 +125,41 @@ function formatDate(isoDate){
 function voteRow(v, idx){
   const total = v.counts.prezenti;
   const passed = v.counts.pentru > (total/2);
-  const passClass = passed ? 'good' : '';
+  const badge = passed ? '<span class="vote-badge vote-passed">Adoptat</span>' : '<span class="vote-badge vote-failed">Respins</span>';
   return `<tr>
     <td class="num">${idx}</td>
     <td><a href="vot.html?leg=${LEG}&id=${v.cdep_idv}" class="vote-link">${v.descriere}</a></td>
     <td>${formatDate(v.timestamp)}</td>
-    <td class="num"><strong class="${passClass}" style="color:var(--green-text)">${v.counts.pentru}</strong> / ${v.counts.prezenti}</td>
+    <td class="num"><strong style="color:${passed?'var(--green-text)':'var(--red-text)'}">${v.counts.pentru}</strong> / ${v.counts.prezenti}</td>
     <td class="num">${v.counts.contra}</td>
     <td class="num">${v.counts.abtineri}</td>
     <td class="num">${v.counts.nu_au_votat}</td>
+    <td>${badge}</td>
   </tr>`;
+}
+
+function renderStatsBar(){
+  const total = allVotes.length;
+  const passed = allVotes.filter(v => v.counts.pentru > (v.counts.prezenti/2)).length;
+  const failed = total - passed;
+  const passRate = total > 0 ? Math.round((passed / total) * 100) : 0;
+
+  return `<div class="stats-bar">
+    <div class="stat-item">
+      <div class="stat-label">Total voturi</div>
+      <div class="stat-value">${total.toLocaleString('ro-RO')}</div>
+    </div>
+    <div class="stat-item stat-passed">
+      <div class="stat-label">Adoptate</div>
+      <div class="stat-value">${passed.toLocaleString('ro-RO')}</div>
+      <div style="font-size:10px;color:var(--text3)">${passRate}%</div>
+    </div>
+    <div class="stat-item stat-failed">
+      <div class="stat-label">Respinse</div>
+      <div class="stat-value">${failed.toLocaleString('ro-RO')}</div>
+      <div style="font-size:10px;color:var(--text3)">${100-passRate}%</div>
+    </div>
+  </div>`;
 }
 
 function renderTable(votes){
@@ -136,6 +171,7 @@ function renderTable(votes){
     <th class="num">Contra</th>
     <th class="num">Abțineri</th>
     <th class="num">Nu au votat</th>
+    <th>Status</th>
   </tr></thead>`;
   const body = votes.map((v,i)=>voteRow(v, (currentPage-1)*PAGE_SIZE + i + 1)).join('');
   return `<table>${header}<tbody>${body}</tbody></table>`;
@@ -177,7 +213,8 @@ function render(){
       <h1 style="margin:0">Voturi — legislatura ${LEG}</h1>
       <div class="view-toggle">${NAV.renderLegToggle(LEG, 'voturi.html')}</div>
     </div>
-    <p class="sub">${allVotes.length.toLocaleString('ro-RO')} voturi · date din cdep.ro</p>
+    <p class="sub">date din cdep.ro</p>
+    ${renderStatsBar()}
     ${renderTable(pageVotes)}
     ${renderPagination()}
   `;
