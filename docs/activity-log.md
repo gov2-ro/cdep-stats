@@ -2,6 +2,25 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-03 — Filterable ordine-zi list view, voturi stats, bill-vote cross-link validation
+
+**What was done**
+- `web/ordine-zi-lista.html` (new) — Cross-session filterable list view for all ordine-zi items. Features: full-text search (250ms debounced), item-type buttons (Toate/Proiecte lege/Hotărâri/Moțiuni/Procedural), law-category chips (organică/ordinară), action-verb dropdown, 7 procedural-flag checkboxes (urgență, prioritate, cam. dec., rezervă, sesizare CCR, reexaminare, complexitate), referenced-act checkboxes (6 types: OUG/OG/Lege/CCR/Hot.Parl./Hot.CD), 23 commission-slug checkboxes, dynamic institution checkboxes, and year filter. Results show count + session date pills linking back to calendar. Filters use AND within flags dimension, OR for multi-select checkboxes; all dimensions AND together. Reuses entity badge styling from calendar page.
+- **URL persistence**: All filter state persisted to query params (`?q=...&type=...&flags=...&comms=...&instits=...&year=...`). Enables sharing filter queries and preserving state on reload. URL updated on every filter change (immediate for button clicks, debounced 250ms for text search).
+- `web/ordine-zi.html` — added "lista / filtrare →" link in subtitle row to jump to new list view.
+- `web/voturi.html` — UX enhancements: stats summary bar (total votes, adopted %, rejected %), color-coded "Adoptat/Respins" badges in new Status column, green/red outcome indicators. Improves metrics discoverability and vote-result visibility.
+- `web/vot.html` — bill-vote cross-linking already implemented (2026-06-03 earlier): `parseBillRef()` function extracts bill references (PL-x, PH CD) from vote descriptions; links matched bills to `proiect.html`, fallback to cdep.ro search for unmatched. 394 matched pairs on 2024; verified votes contain bill references in their `descriere` fields.
+
+**Status of bill-vote backfill task**
+- Bill-vote cross-linking is complete and functional (bill refs link from vot.html to proiect.html or cdep.ro fallback).
+- Backfilling `data_inregistrare_cd` for bills in necunoscut.json (1648/1700 bills missing registration dates) requires scraping cdep.ro. Task deferred pending environment setup for network access. Once implemented, bills would move into year files and gain full detail pages.
+- Proiecte index (`proiecte-index-2024.json`) already maps bill numbers to cdep_idp for quick lookups.
+
+**Decisions**
+- ordine-zi-lista.html uses vanilla JS (no framework) for low overhead and fast responsiveness with 7,800+ items.
+- Commission slugs sorted by frequency in UI (most common first) for discoverability.
+- Voturi stats bar provides immediate insight into legislature voting patterns (adoption rate, pass/fail counts).
+
 ### 2026-06-03 — Avere field accuracy fixes + vot cross-link improvements
 
 **What was done**
