@@ -69,8 +69,8 @@
     const pageLinks = FOOTER_LINKS.map(l => `<a href="${l.href}">${l.label}</a>`).join(" · ");
     document.getElementById("site-footer").innerHTML = `
 <footer class="footer">
-  <div style="margin-bottom:10px">${pageLinks}</div>
-  <span><span data-i18n="data_from">Date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via CDEP API: <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k/cdep-api-poc</a> · <span data-i18n="license">Licență</span>: Open Government License v3.0</span>
+  ${pageLinks} &emsp; &middot; &emsp; 
+  <span><span data-i18n="license">licență</span>: <em>Open Government License v3.0</em>   &middot;   <span data-i18n="data_from">date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via: <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k<b>/cdep-api-poc</b></a>  &middot;   vezi și: <a href="https://monitorul.ai/" target="_blank"><b>monitorul.ai</b>↗</a></span>
   ${extraHtml ? `<div style="margin-top:6px">${extraHtml}</div>` : ""}
 </footer>
 <!-- 100% privacy-first analytics -->
