@@ -7,10 +7,12 @@ import re
 import pytest
 
 from parsers.avere_pdf import (
+    _cota_to_float,
     _parse_imobile_details,
     _parse_vehicule,
     _parse_conturi_detaliate,
     _parse_plasamente,
+    _parse_venituri_titular,
     _scan_amounts,
     extract_section,
     MARKERS,
@@ -78,6 +80,21 @@ Depozit bancar sau
 CEC TG JIU, echivalente RON 2022 787012
 Fonduri de investiţii
 NN ASIGURARI, RON 2014 49355
+"""
+
+SEC_VENITURI = """VII. Venituri ale declarantului și ale membrilor...
+1.1.
+Camera Deputatilor 120000 RON
+1.2.
+SC Companie SRL 45000 RON
+1.3.
+- - -
+2.1.
+- - -
+3.1.
+Contract chirie 24000 RON
+3.2.
+Contract chirie 24000 RON
 """
 
 SEC_PLASAMENTE_EMPTY = """2. Plasamente, investiţii directe...
@@ -157,20 +174,23 @@ def test_imobile_judet():
 
 
 def test_imobile_aggregates_sum():
+    # Aggregates are cota-adjusted; all test fixtures have cota_parte=1/2
     rows, agg = _parse_imobile_details(SEC_TERENURI, SEC_CLADIRI)
-    total_from_agg = sum(agg.values())
-    total_from_rows = sum(r["suprafata_mp"] for r in rows if r["suprafata_mp"])
-    assert abs(total_from_agg - total_from_rows) < 1.0
+    total_raw = sum(r["suprafata_mp"] for r in rows if r["suprafata_mp"])
+    total_adj = sum(agg.values())
+    assert abs(total_adj - total_raw / 2) < 1.0
 
 
 def test_imobile_suprafata_forestier():
+    # 284354 m² at cota 1/2 → 142177.0
     _, agg = _parse_imobile_details(SEC_TERENURI, "")
-    assert agg["suprafata_forestier_mp"] == pytest.approx(284354.0)
+    assert agg["suprafata_forestier_mp"] == pytest.approx(284354.0 / 2)
 
 
 def test_imobile_suprafata_cladiri():
+    # (229 + 273) m² at cota 1/2 → 251.0
     _, agg = _parse_imobile_details("", SEC_CLADIRI)
-    assert agg["suprafata_cladiri_mp"] == pytest.approx(229.0 + 273.0)
+    assert agg["suprafata_cladiri_mp"] == pytest.approx((229.0 + 273.0) / 2)
 
 
 def test_imobile_empty_sections():
@@ -337,3 +357,48 @@ def test_an_prima_proprietate_empty():
     ani = [r["an_dobandirii"] for r in rows if r.get("an_dobandirii")]
     result = min(ani) if ani else None
     assert result is None
+
+
+# ── _cota_to_float ────────────────────────────────────────────────────────────
+
+def test_cota_half():
+    assert _cota_to_float("1/2") == pytest.approx(0.5)
+
+
+def test_cota_three_quarters():
+    assert _cota_to_float("3/4") == pytest.approx(0.75)
+
+
+def test_cota_full():
+    assert _cota_to_float("1/1") == pytest.approx(1.0)
+
+
+def test_cota_none():
+    assert _cota_to_float(None) == pytest.approx(1.0)
+
+
+def test_cota_unparseable():
+    assert _cota_to_float("cota") == pytest.approx(1.0)
+
+
+# ── _parse_venituri_titular ───────────────────────────────────────────────────
+
+def test_venituri_titular_excludes_sotie():
+    # 120000 RON (1.1 titular) + 24000 RON (3.1 chirie titular) = 144000
+    # Excludes 45000 (1.2 sotie) and second 24000 (3.2 sotie chirie)
+    total = _parse_venituri_titular(SEC_VENITURI)
+    assert total == pytest.approx(144000.0)
+
+
+def test_venituri_titular_empty():
+    assert _parse_venituri_titular("") == pytest.approx(0.0)
+
+
+def test_venituri_titular_no_markers():
+    # Falls back to 0 when section has no X.1. sub-section markers
+    assert _parse_venituri_titular("VII. Venituri\nCamera 120000 RON\n") == pytest.approx(0.0)
+
+
+def test_venituri_titular_only_1_1():
+    text = "1.1.\nCamera Deputatilor 95000 RON\n1.2.\nSocie 30000 RON\n"
+    assert _parse_venituri_titular(text) == pytest.approx(95000.0)

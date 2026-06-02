@@ -255,8 +255,8 @@ function renderAvere(avere, ctx = null) {
     { num: fmtRON(decl.total_active_monetare_ron), lbl: 'Total active' },
     { num: fmtRON(decl.avere_neta_ron), lbl: 'Avere netă', red: (decl.avere_neta_ron || 0) < 0 },
     { num: (decl.terenuri_count || 0) + (decl.cladiri_count || 0), lbl: 'Nr. imobile' },
-    { num: fmtMP(decl.suprafata_total_mp), lbl: 'Suprafață totală' },
-    { num: fmtRON(decl.venituri_anuale_ron), lbl: 'Venituri anuale' },
+    { num: fmtMP(decl.suprafata_total_mp), lbl: 'Suprafață (cotă)' },
+    { num: fmtRON(decl.venituri_titular_ron || decl.venituri_anuale_ron), lbl: decl.venituri_titular_ron ? 'Venituri titular' : 'Venituri anuale' },
     { num: fmtRON(decl.conturi_total_ron), lbl: 'Conturi bancare' },
     ...((decl.bijuterii_total_ron || 0) > 0 ? [{ num: fmtRON(decl.bijuterii_total_ron), lbl: 'Bijuterii / artă' }] : []),
     { num: decl.auto_count || 0, lbl: 'Vehicule' },
@@ -291,13 +291,14 @@ function renderAvere(avere, ctx = null) {
     necunoscuta: 'Imobile — categorie necunoscută',
   };
   let sec2 = '';
+  function cotaFrac(s){ const m=s&&s.match(/^(\d+)\/(\d+)$/); return m?+m[1]/+m[2]:1; }
   if (nrImobile > 0) {
     const catMap = {};
     for (const im of (decl.imobile_detaliate || [])) {
       const cat = im.categorie || 'necunoscuta';
       if (!catMap[cat]) catMap[cat] = { count: 0, mp: 0 };
       catMap[cat].count++;
-      catMap[cat].mp += im.suprafata_mp || 0;
+      catMap[cat].mp += (im.suprafata_mp || 0) * cotaFrac(im.cota_parte);
     }
     const imRows = Object.entries(catMap)
       .sort((a, b) => b[1].mp - a[1].mp)

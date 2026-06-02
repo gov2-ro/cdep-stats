@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-30T12:20:46.500385Z",
+    "generated_at": "2026-06-02T21:23:29.425946Z",
     "source_url": "https://endimion2k.github.io/cdep-api-poc/data/v1/declaratii-avere/legislatura-2024.json",
     "scraper_version": "0.1.0",
     "count": 332,
@@ -13,7 +13,7 @@
         "active_pct": 0,
         "venituri_pct": 5,
         "imobile_pct": 24,
-        "suprafata_pct": 19,
+        "suprafata_pct": 14,
         "datorii_pct": 13,
         "active_rank": 256,
         "venituri_rank": 317
@@ -38,7 +38,7 @@
         "active_pct": 0,
         "venituri_pct": 14,
         "imobile_pct": 57,
-        "suprafata_pct": 60,
+        "suprafata_pct": 53,
         "datorii_pct": 48,
         "active_rank": 256,
         "venituri_rank": 285
@@ -68,7 +68,7 @@
         "active_pct": 0,
         "venituri_pct": 62,
         "imobile_pct": 49,
-        "suprafata_pct": 81,
+        "suprafata_pct": 85,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 125
@@ -98,7 +98,7 @@
         "active_pct": 50,
         "venituri_pct": 67,
         "imobile_pct": 57,
-        "suprafata_pct": 52,
+        "suprafata_pct": 43,
         "datorii_pct": null,
         "active_rank": 165,
         "venituri_rank": 110
@@ -128,7 +128,7 @@
         "active_pct": 46,
         "venituri_pct": 34,
         "imobile_pct": 78,
-        "suprafata_pct": 83,
+        "suprafata_pct": 86,
         "datorii_pct": 17,
         "active_rank": 174,
         "venituri_rank": 218
@@ -158,7 +158,7 @@
         "active_pct": 41,
         "venituri_pct": 19,
         "imobile_pct": 49,
-        "suprafata_pct": 31,
+        "suprafata_pct": 33,
         "datorii_pct": 98,
         "active_rank": 197,
         "venituri_rank": 269
@@ -218,7 +218,7 @@
         "active_pct": 48,
         "venituri_pct": 2,
         "imobile_pct": 84,
-        "suprafata_pct": 93,
+        "suprafata_pct": 95,
         "datorii_pct": 42,
         "active_rank": 171,
         "venituri_rank": 326
@@ -248,7 +248,7 @@
         "active_pct": 99,
         "venituri_pct": 97,
         "imobile_pct": 92,
-        "suprafata_pct": 68,
+        "suprafata_pct": 71,
         "datorii_pct": null,
         "active_rank": 3,
         "venituri_rank": 10
@@ -278,7 +278,7 @@
         "active_pct": 0,
         "venituri_pct": 15,
         "imobile_pct": 36,
-        "suprafata_pct": 20,
+        "suprafata_pct": 22,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 283
@@ -308,7 +308,7 @@
         "active_pct": 45,
         "venituri_pct": 27,
         "imobile_pct": 24,
-        "suprafata_pct": 44,
+        "suprafata_pct": 39,
         "datorii_pct": 90,
         "active_rank": 183,
         "venituri_rank": 242
@@ -368,7 +368,7 @@
         "active_pct": 0,
         "venituri_pct": 90,
         "imobile_pct": 36,
-        "suprafata_pct": 67,
+        "suprafata_pct": 70,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 32
@@ -398,7 +398,7 @@
         "active_pct": 27,
         "venituri_pct": 14,
         "imobile_pct": 36,
-        "suprafata_pct": 61,
+        "suprafata_pct": 64,
         "datorii_pct": 46,
         "active_rank": 242,
         "venituri_rank": 287
@@ -458,7 +458,7 @@
         "active_pct": 99,
         "venituri_pct": 97,
         "imobile_pct": 70,
-        "suprafata_pct": 80,
+        "suprafata_pct": 84,
         "datorii_pct": 74,
         "active_rank": 2,
         "venituri_rank": 9
@@ -518,7 +518,7 @@
         "active_pct": 45,
         "venituri_pct": 30,
         "imobile_pct": 14,
-        "suprafata_pct": 17,
+        "suprafata_pct": 20,
         "datorii_pct": null,
         "active_rank": 182,
         "venituri_rank": 234
@@ -668,7 +668,7 @@
         "active_pct": 67,
         "venituri_pct": 74,
         "imobile_pct": 14,
-        "suprafata_pct": 80,
+        "suprafata_pct": 84,
         "datorii_pct": null,
         "active_rank": 110,
         "venituri_rank": 87
@@ -698,7 +698,7 @@
         "active_pct": 0,
         "venituri_pct": 15,
         "imobile_pct": 24,
-        "suprafata_pct": 40,
+        "suprafata_pct": 45,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 282
@@ -728,7 +728,7 @@
         "active_pct": 89,
         "venituri_pct": 99,
         "imobile_pct": 95,
-        "suprafata_pct": 92,
+        "suprafata_pct": 91,
         "datorii_pct": null,
         "active_rank": 35,
         "venituri_rank": 4
@@ -758,7 +758,7 @@
         "active_pct": 51,
         "venituri_pct": 57,
         "imobile_pct": 89,
-        "suprafata_pct": 80,
+        "suprafata_pct": 75,
         "datorii_pct": null,
         "active_rank": 164,
         "venituri_rank": 142
@@ -788,7 +788,7 @@
         "active_pct": 46,
         "venituri_pct": 45,
         "imobile_pct": 36,
-        "suprafata_pct": 26,
+        "suprafata_pct": 27,
         "datorii_pct": 85,
         "active_rank": 174,
         "venituri_rank": 183
@@ -848,7 +848,7 @@
         "active_pct": 0,
         "venituri_pct": 17,
         "imobile_pct": 49,
-        "suprafata_pct": 40,
+        "suprafata_pct": 44,
         "datorii_pct": 78,
         "active_rank": 256,
         "venituri_rank": 275
@@ -878,7 +878,7 @@
         "active_pct": 0,
         "venituri_pct": 47,
         "imobile_pct": 57,
-        "suprafata_pct": 56,
+        "suprafata_pct": 61,
         "datorii_pct": 37,
         "active_rank": 256,
         "venituri_rank": 176
@@ -938,7 +938,7 @@
         "active_pct": 94,
         "venituri_pct": 80,
         "imobile_pct": 36,
-        "suprafata_pct": 77,
+        "suprafata_pct": 79,
         "datorii_pct": 97,
         "active_rank": 21,
         "venituri_rank": 67
@@ -998,7 +998,7 @@
         "active_pct": 62,
         "venituri_pct": 38,
         "imobile_pct": 95,
-        "suprafata_pct": 94,
+        "suprafata_pct": 91,
         "datorii_pct": null,
         "active_rank": 125,
         "venituri_rank": 205
@@ -1058,7 +1058,7 @@
         "active_pct": 91,
         "venituri_pct": 10,
         "imobile_pct": 49,
-        "suprafata_pct": 65,
+        "suprafata_pct": 68,
         "datorii_pct": null,
         "active_rank": 29,
         "venituri_rank": 298
@@ -1118,7 +1118,7 @@
         "active_pct": 83,
         "venituri_pct": 62,
         "imobile_pct": 36,
-        "suprafata_pct": 37,
+        "suprafata_pct": 36,
         "datorii_pct": null,
         "active_rank": 57,
         "venituri_rank": 126
@@ -1148,7 +1148,7 @@
         "active_pct": 46,
         "venituri_pct": 3,
         "imobile_pct": 57,
-        "suprafata_pct": 52,
+        "suprafata_pct": 57,
         "datorii_pct": 39,
         "active_rank": 174,
         "venituri_rank": 323
@@ -1178,7 +1178,7 @@
         "active_pct": 96,
         "venituri_pct": 98,
         "imobile_pct": 36,
-        "suprafata_pct": 79,
+        "suprafata_pct": 82,
         "datorii_pct": 99,
         "active_rank": 12,
         "venituri_rank": 5
@@ -1238,7 +1238,7 @@
         "active_pct": 98,
         "venituri_pct": 59,
         "imobile_pct": 84,
-        "suprafata_pct": 86,
+        "suprafata_pct": 90,
         "datorii_pct": null,
         "active_rank": 8,
         "venituri_rank": 135
@@ -1298,7 +1298,7 @@
         "active_pct": 81,
         "venituri_pct": 9,
         "imobile_pct": 96,
-        "suprafata_pct": 95,
+        "suprafata_pct": 96,
         "datorii_pct": null,
         "active_rank": 64,
         "venituri_rank": 301
@@ -1358,7 +1358,7 @@
         "active_pct": 86,
         "venituri_pct": 96,
         "imobile_pct": 64,
-        "suprafata_pct": 41,
+        "suprafata_pct": 36,
         "datorii_pct": 84,
         "active_rank": 45,
         "venituri_rank": 14
@@ -1388,7 +1388,7 @@
         "active_pct": 0,
         "venituri_pct": 94,
         "imobile_pct": 36,
-        "suprafata_pct": 36,
+        "suprafata_pct": 33,
         "datorii_pct": 69,
         "active_rank": 256,
         "venituri_rank": 20
@@ -1418,7 +1418,7 @@
         "active_pct": 28,
         "venituri_pct": 12,
         "imobile_pct": 14,
-        "suprafata_pct": 23,
+        "suprafata_pct": 24,
         "datorii_pct": null,
         "active_rank": 239,
         "venituri_rank": 291
@@ -1478,7 +1478,7 @@
         "active_pct": 75,
         "venituri_pct": 48,
         "imobile_pct": 64,
-        "suprafata_pct": 94,
+        "suprafata_pct": 95,
         "datorii_pct": 66,
         "active_rank": 84,
         "venituri_rank": 174
@@ -1508,7 +1508,7 @@
         "active_pct": 31,
         "venituri_pct": 17,
         "imobile_pct": 70,
-        "suprafata_pct": 82,
+        "suprafata_pct": 77,
         "datorii_pct": 4,
         "active_rank": 228,
         "venituri_rank": 276
@@ -1568,7 +1568,7 @@
         "active_pct": 31,
         "venituri_pct": 36,
         "imobile_pct": 57,
-        "suprafata_pct": 67,
+        "suprafata_pct": 71,
         "datorii_pct": 82,
         "active_rank": 229,
         "venituri_rank": 212
@@ -1688,7 +1688,7 @@
         "active_pct": 38,
         "venituri_pct": 39,
         "imobile_pct": 24,
-        "suprafata_pct": 24,
+        "suprafata_pct": 25,
         "datorii_pct": 92,
         "active_rank": 207,
         "venituri_rank": 202
@@ -1718,7 +1718,7 @@
         "active_pct": 66,
         "venituri_pct": 11,
         "imobile_pct": 88,
-        "suprafata_pct": 70,
+        "suprafata_pct": 73,
         "datorii_pct": null,
         "active_rank": 114,
         "venituri_rank": 296
@@ -1778,7 +1778,7 @@
         "active_pct": 0,
         "venituri_pct": 14,
         "imobile_pct": 49,
-        "suprafata_pct": 63,
+        "suprafata_pct": 67,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 286
@@ -1808,7 +1808,7 @@
         "active_pct": 0,
         "venituri_pct": 3,
         "imobile_pct": 36,
-        "suprafata_pct": 41,
+        "suprafata_pct": 45,
         "datorii_pct": 51,
         "active_rank": 256,
         "venituri_rank": 321
@@ -1838,7 +1838,7 @@
         "active_pct": 67,
         "venituri_pct": 70,
         "imobile_pct": 70,
-        "suprafata_pct": 75,
+        "suprafata_pct": 78,
         "datorii_pct": null,
         "active_rank": 108,
         "venituri_rank": 100
@@ -1868,7 +1868,7 @@
         "active_pct": 0,
         "venituri_pct": 37,
         "imobile_pct": 57,
-        "suprafata_pct": 58,
+        "suprafata_pct": 54,
         "datorii_pct": 12,
         "active_rank": 256,
         "venituri_rank": 209
@@ -1893,7 +1893,7 @@
         "active_pct": 0,
         "venituri_pct": 2,
         "imobile_pct": 24,
-        "suprafata_pct": 42,
+        "suprafata_pct": 37,
         "datorii_pct": 17,
         "active_rank": 256,
         "venituri_rank": 324
@@ -1918,7 +1918,7 @@
         "active_pct": 24,
         "venituri_pct": 52,
         "imobile_pct": 98,
-        "suprafata_pct": 87,
+        "suprafata_pct": 85,
         "datorii_pct": 38,
         "active_rank": 251,
         "venituri_rank": 160
@@ -1943,7 +1943,7 @@
         "active_pct": 0,
         "venituri_pct": 20,
         "imobile_pct": 76,
-        "suprafata_pct": 75,
+        "suprafata_pct": 78,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 264
@@ -1968,7 +1968,7 @@
         "active_pct": 28,
         "venituri_pct": 30,
         "imobile_pct": 36,
-        "suprafata_pct": 30,
+        "suprafata_pct": 31,
         "datorii_pct": 62,
         "active_rank": 240,
         "venituri_rank": 231
@@ -1993,7 +1993,7 @@
         "active_pct": 86,
         "venituri_pct": 47,
         "imobile_pct": 64,
-        "suprafata_pct": 61,
+        "suprafata_pct": 59,
         "datorii_pct": null,
         "active_rank": 48,
         "venituri_rank": 175
@@ -2018,7 +2018,7 @@
         "active_pct": 81,
         "venituri_pct": 26,
         "imobile_pct": 57,
-        "suprafata_pct": 41,
+        "suprafata_pct": 35,
         "datorii_pct": null,
         "active_rank": 62,
         "venituri_rank": 246
@@ -2043,7 +2043,7 @@
         "active_pct": 0,
         "venituri_pct": 53,
         "imobile_pct": 36,
-        "suprafata_pct": 49,
+        "suprafata_pct": 53,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 155
@@ -2063,7 +2063,7 @@
         "active_pct": 26,
         "venituri_pct": 46,
         "imobile_pct": 14,
-        "suprafata_pct": 29,
+        "suprafata_pct": 23,
         "datorii_pct": null,
         "active_rank": 246,
         "venituri_rank": 180
@@ -2088,7 +2088,7 @@
         "active_pct": 55,
         "venituri_pct": 71,
         "imobile_pct": 93,
-        "suprafata_pct": 77,
+        "suprafata_pct": 80,
         "datorii_pct": 95,
         "active_rank": 149,
         "venituri_rank": 96
@@ -2113,7 +2113,7 @@
         "active_pct": 29,
         "venituri_pct": 22,
         "imobile_pct": 24,
-        "suprafata_pct": 29,
+        "suprafata_pct": 30,
         "datorii_pct": null,
         "active_rank": 235,
         "venituri_rank": 260
@@ -2138,7 +2138,7 @@
         "active_pct": 24,
         "venituri_pct": 45,
         "imobile_pct": 24,
-        "suprafata_pct": 24,
+        "suprafata_pct": 25,
         "datorii_pct": null,
         "active_rank": 253,
         "venituri_rank": 182
@@ -2163,7 +2163,7 @@
         "active_pct": 23,
         "venituri_pct": 44,
         "imobile_pct": 24,
-        "suprafata_pct": 37,
+        "suprafata_pct": 43,
         "datorii_pct": 58,
         "active_rank": 255,
         "venituri_rank": 187
@@ -2213,7 +2213,7 @@
         "active_pct": 32,
         "venituri_pct": 52,
         "imobile_pct": 36,
-        "suprafata_pct": 48,
+        "suprafata_pct": 52,
         "datorii_pct": null,
         "active_rank": 225,
         "venituri_rank": 159
@@ -2263,7 +2263,7 @@
         "active_pct": 37,
         "venituri_pct": 83,
         "imobile_pct": 76,
-        "suprafata_pct": 81,
+        "suprafata_pct": 84,
         "datorii_pct": null,
         "active_rank": 208,
         "venituri_rank": 56
@@ -2288,7 +2288,7 @@
         "active_pct": 74,
         "venituri_pct": 57,
         "imobile_pct": 97,
-        "suprafata_pct": 84,
+        "suprafata_pct": 82,
         "datorii_pct": null,
         "active_rank": 86,
         "venituri_rank": 144
@@ -2313,7 +2313,7 @@
         "active_pct": 68,
         "venituri_pct": 59,
         "imobile_pct": 14,
-        "suprafata_pct": 14,
+        "suprafata_pct": 15,
         "datorii_pct": null,
         "active_rank": 107,
         "venituri_rank": 136
@@ -2343,7 +2343,7 @@
         "active_pct": 76,
         "venituri_pct": 68,
         "imobile_pct": 95,
-        "suprafata_pct": 94,
+        "suprafata_pct": 93,
         "datorii_pct": 52,
         "active_rank": 81,
         "venituri_rank": 107
@@ -2373,7 +2373,7 @@
         "active_pct": 51,
         "venituri_pct": 26,
         "imobile_pct": 49,
-        "suprafata_pct": 22,
+        "suprafata_pct": 23,
         "datorii_pct": null,
         "active_rank": 163,
         "venituri_rank": 245
@@ -2403,7 +2403,7 @@
         "active_pct": 93,
         "venituri_pct": 56,
         "imobile_pct": 36,
-        "suprafata_pct": 33,
+        "suprafata_pct": 36,
         "datorii_pct": null,
         "active_rank": 22,
         "venituri_rank": 147
@@ -2433,7 +2433,7 @@
         "active_pct": 61,
         "venituri_pct": 76,
         "imobile_pct": 64,
-        "suprafata_pct": 51,
+        "suprafata_pct": 56,
         "datorii_pct": 78,
         "active_rank": 130,
         "venituri_rank": 81
@@ -2463,7 +2463,7 @@
         "active_pct": 60,
         "venituri_pct": 75,
         "imobile_pct": 36,
-        "suprafata_pct": 42,
+        "suprafata_pct": 46,
         "datorii_pct": 72,
         "active_rank": 134,
         "venituri_rank": 83
@@ -2493,7 +2493,7 @@
         "active_pct": 59,
         "venituri_pct": 65,
         "imobile_pct": 24,
-        "suprafata_pct": 50,
+        "suprafata_pct": 55,
         "datorii_pct": 80,
         "active_rank": 136,
         "venituri_rank": 116
@@ -2523,7 +2523,7 @@
         "active_pct": 66,
         "venituri_pct": 29,
         "imobile_pct": 14,
-        "suprafata_pct": 19,
+        "suprafata_pct": 21,
         "datorii_pct": 72,
         "active_rank": 113,
         "venituri_rank": 237
@@ -2553,7 +2553,7 @@
         "active_pct": 74,
         "venituri_pct": 89,
         "imobile_pct": 64,
-        "suprafata_pct": 89,
+        "suprafata_pct": 92,
         "datorii_pct": 96,
         "active_rank": 85,
         "venituri_rank": 37
@@ -2583,7 +2583,7 @@
         "active_pct": 0,
         "venituri_pct": 51,
         "imobile_pct": 36,
-        "suprafata_pct": 23,
+        "suprafata_pct": 24,
         "datorii_pct": 80,
         "active_rank": 256,
         "venituri_rank": 163
@@ -2613,7 +2613,7 @@
         "active_pct": 61,
         "venituri_pct": 42,
         "imobile_pct": 84,
-        "suprafata_pct": 76,
+        "suprafata_pct": 79,
         "datorii_pct": null,
         "active_rank": 129,
         "venituri_rank": 194
@@ -2643,7 +2643,7 @@
         "active_pct": 41,
         "venituri_pct": 46,
         "imobile_pct": 78,
-        "suprafata_pct": 85,
+        "suprafata_pct": 81,
         "datorii_pct": 10,
         "active_rank": 195,
         "venituri_rank": 178
@@ -2673,7 +2673,7 @@
         "active_pct": 0,
         "venituri_pct": 18,
         "imobile_pct": 36,
-        "suprafata_pct": 67,
+        "suprafata_pct": 70,
         "datorii_pct": 84,
         "active_rank": 256,
         "venituri_rank": 273
@@ -2703,7 +2703,7 @@
         "active_pct": 63,
         "venituri_pct": 74,
         "imobile_pct": 88,
-        "suprafata_pct": 91,
+        "suprafata_pct": 94,
         "datorii_pct": 75,
         "active_rank": 123,
         "venituri_rank": 86
@@ -2733,7 +2733,7 @@
         "active_pct": 99,
         "venituri_pct": 100,
         "imobile_pct": 98,
-        "suprafata_pct": 93,
+        "suprafata_pct": 95,
         "datorii_pct": null,
         "active_rank": 4,
         "venituri_rank": 1
@@ -2793,7 +2793,7 @@
         "active_pct": 77,
         "venituri_pct": 83,
         "imobile_pct": 14,
-        "suprafata_pct": 20,
+        "suprafata_pct": 22,
         "datorii_pct": 66,
         "active_rank": 78,
         "venituri_rank": 57
@@ -2853,7 +2853,7 @@
         "active_pct": 62,
         "venituri_pct": 35,
         "imobile_pct": 36,
-        "suprafata_pct": 26,
+        "suprafata_pct": 27,
         "datorii_pct": 39,
         "active_rank": 127,
         "venituri_rank": 215
@@ -2883,7 +2883,7 @@
         "active_pct": 42,
         "venituri_pct": 61,
         "imobile_pct": 86,
-        "suprafata_pct": 65,
+        "suprafata_pct": 64,
         "datorii_pct": null,
         "active_rank": 193,
         "venituri_rank": 131
@@ -2913,7 +2913,7 @@
         "active_pct": 48,
         "venituri_pct": 44,
         "imobile_pct": 36,
-        "suprafata_pct": 47,
+        "suprafata_pct": 50,
         "datorii_pct": 61,
         "active_rank": 173,
         "venituri_rank": 186
@@ -2943,7 +2943,7 @@
         "active_pct": 97,
         "venituri_pct": 98,
         "imobile_pct": 36,
-        "suprafata_pct": 57,
+        "suprafata_pct": 61,
         "datorii_pct": 34,
         "active_rank": 10,
         "venituri_rank": 8
@@ -2973,7 +2973,7 @@
         "active_pct": 77,
         "venituri_pct": 55,
         "imobile_pct": 64,
-        "suprafata_pct": 86,
+        "suprafata_pct": 89,
         "datorii_pct": null,
         "active_rank": 77,
         "venituri_rank": 148
@@ -3033,7 +3033,7 @@
         "active_pct": 0,
         "venituri_pct": 32,
         "imobile_pct": 57,
-        "suprafata_pct": 39,
+        "suprafata_pct": 44,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 227
@@ -3063,7 +3063,7 @@
         "active_pct": 61,
         "venituri_pct": 83,
         "imobile_pct": 70,
-        "suprafata_pct": 78,
+        "suprafata_pct": 82,
         "datorii_pct": 23,
         "active_rank": 128,
         "venituri_rank": 58
@@ -3093,7 +3093,7 @@
         "active_pct": 79,
         "venituri_pct": 66,
         "imobile_pct": 36,
-        "suprafata_pct": 53,
+        "suprafata_pct": 58,
         "datorii_pct": null,
         "active_rank": 70,
         "venituri_rank": 114
@@ -3153,7 +3153,7 @@
         "active_pct": 23,
         "venituri_pct": 43,
         "imobile_pct": 14,
-        "suprafata_pct": 18,
+        "suprafata_pct": 20,
         "datorii_pct": 49,
         "active_rank": 254,
         "venituri_rank": 190
@@ -3183,7 +3183,7 @@
         "active_pct": 74,
         "venituri_pct": 91,
         "imobile_pct": 78,
-        "suprafata_pct": 56,
+        "suprafata_pct": 60,
         "datorii_pct": 31,
         "active_rank": 87,
         "venituri_rank": 31
@@ -3213,7 +3213,7 @@
         "active_pct": 36,
         "venituri_pct": 66,
         "imobile_pct": 64,
-        "suprafata_pct": 59,
+        "suprafata_pct": 37,
         "datorii_pct": 33,
         "active_rank": 212,
         "venituri_rank": 112
@@ -3243,7 +3243,7 @@
         "active_pct": 95,
         "venituri_pct": 39,
         "imobile_pct": 57,
-        "suprafata_pct": 39,
+        "suprafata_pct": 34,
         "datorii_pct": 93,
         "active_rank": 16,
         "venituri_rank": 203
@@ -3303,7 +3303,7 @@
         "active_pct": 30,
         "venituri_pct": 65,
         "imobile_pct": 70,
-        "suprafata_pct": 88,
+        "suprafata_pct": 92,
         "datorii_pct": 73,
         "active_rank": 231,
         "venituri_rank": 117
@@ -3333,7 +3333,7 @@
         "active_pct": 46,
         "venituri_pct": 45,
         "imobile_pct": 24,
-        "suprafata_pct": 23,
+        "suprafata_pct": 24,
         "datorii_pct": 64,
         "active_rank": 174,
         "venituri_rank": 184
@@ -3393,7 +3393,7 @@
         "active_pct": 87,
         "venituri_pct": 94,
         "imobile_pct": 24,
-        "suprafata_pct": 30,
+        "suprafata_pct": 32,
         "datorii_pct": 68,
         "active_rank": 43,
         "venituri_rank": 19
@@ -3423,7 +3423,7 @@
         "active_pct": 92,
         "venituri_pct": 87,
         "imobile_pct": 83,
-        "suprafata_pct": 80,
+        "suprafata_pct": 77,
         "datorii_pct": null,
         "active_rank": 28,
         "venituri_rank": 43
@@ -3453,7 +3453,7 @@
         "active_pct": 32,
         "venituri_pct": 90,
         "imobile_pct": 70,
-        "suprafata_pct": 74,
+        "suprafata_pct": 77,
         "datorii_pct": 90,
         "active_rank": 226,
         "venituri_rank": 34
@@ -3543,7 +3543,7 @@
         "active_pct": 72,
         "venituri_pct": 83,
         "imobile_pct": 24,
-        "suprafata_pct": 59,
+        "suprafata_pct": 63,
         "datorii_pct": null,
         "active_rank": 94,
         "venituri_rank": 55
@@ -3573,7 +3573,7 @@
         "active_pct": 39,
         "venituri_pct": 52,
         "imobile_pct": 36,
-        "suprafata_pct": 52,
+        "suprafata_pct": 54,
         "datorii_pct": 54,
         "active_rank": 201,
         "venituri_rank": 158
@@ -3603,7 +3603,7 @@
         "active_pct": 42,
         "venituri_pct": 92,
         "imobile_pct": 70,
-        "suprafata_pct": 79,
+        "suprafata_pct": 83,
         "datorii_pct": 6,
         "active_rank": 192,
         "venituri_rank": 27
@@ -3633,7 +3633,7 @@
         "active_pct": 88,
         "venituri_pct": 93,
         "imobile_pct": 70,
-        "suprafata_pct": 97,
+        "suprafata_pct": 98,
         "datorii_pct": null,
         "active_rank": 41,
         "venituri_rank": 22
@@ -3663,7 +3663,7 @@
         "active_pct": 57,
         "venituri_pct": 92,
         "imobile_pct": 24,
-        "suprafata_pct": 46,
+        "suprafata_pct": 50,
         "datorii_pct": 79,
         "active_rank": 142,
         "venituri_rank": 25
@@ -3693,7 +3693,7 @@
         "active_pct": 90,
         "venituri_pct": 35,
         "imobile_pct": 70,
-        "suprafata_pct": 90,
+        "suprafata_pct": 93,
         "datorii_pct": 68,
         "active_rank": 32,
         "venituri_rank": 216
@@ -3753,7 +3753,7 @@
         "active_pct": 75,
         "venituri_pct": 79,
         "imobile_pct": 78,
-        "suprafata_pct": 69,
+        "suprafata_pct": 63,
         "datorii_pct": null,
         "active_rank": 82,
         "venituri_rank": 69
@@ -3813,7 +3813,7 @@
         "active_pct": 93,
         "venituri_pct": 87,
         "imobile_pct": 49,
-        "suprafata_pct": 66,
+        "suprafata_pct": 69,
         "datorii_pct": 2,
         "active_rank": 24,
         "venituri_rank": 42
@@ -3843,7 +3843,7 @@
         "active_pct": 80,
         "venituri_pct": 65,
         "imobile_pct": 57,
-        "suprafata_pct": 66,
+        "suprafata_pct": 69,
         "datorii_pct": 4,
         "active_rank": 67,
         "venituri_rank": 115
@@ -3873,7 +3873,7 @@
         "active_pct": 98,
         "venituri_pct": 98,
         "imobile_pct": 78,
-        "suprafata_pct": 44,
+        "suprafata_pct": 48,
         "datorii_pct": null,
         "active_rank": 7,
         "venituri_rank": 6
@@ -3903,7 +3903,7 @@
         "active_pct": 57,
         "venituri_pct": 87,
         "imobile_pct": 64,
-        "suprafata_pct": 55,
+        "suprafata_pct": 59,
         "datorii_pct": 45,
         "active_rank": 143,
         "venituri_rank": 44
@@ -3933,7 +3933,7 @@
         "active_pct": 86,
         "venituri_pct": 74,
         "imobile_pct": 70,
-        "suprafata_pct": 78,
+        "suprafata_pct": 74,
         "datorii_pct": null,
         "active_rank": 47,
         "venituri_rank": 85
@@ -3963,7 +3963,7 @@
         "active_pct": 0,
         "venituri_pct": 58,
         "imobile_pct": 14,
-        "suprafata_pct": 16,
+        "suprafata_pct": 19,
         "datorii_pct": 38,
         "active_rank": 256,
         "venituri_rank": 138
@@ -4023,7 +4023,7 @@
         "active_pct": 0,
         "venituri_pct": 36,
         "imobile_pct": 24,
-        "suprafata_pct": 50,
+        "suprafata_pct": 54,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 214
@@ -4053,7 +4053,7 @@
         "active_pct": 36,
         "venituri_pct": 67,
         "imobile_pct": 70,
-        "suprafata_pct": 58,
+        "suprafata_pct": 52,
         "datorii_pct": null,
         "active_rank": 214,
         "venituri_rank": 108
@@ -4083,7 +4083,7 @@
         "active_pct": 0,
         "venituri_pct": 64,
         "imobile_pct": 24,
-        "suprafata_pct": 45,
+        "suprafata_pct": 39,
         "datorii_pct": 49,
         "active_rank": 256,
         "venituri_rank": 119
@@ -4113,7 +4113,7 @@
         "active_pct": 95,
         "venituri_pct": 72,
         "imobile_pct": 92,
-        "suprafata_pct": 87,
+        "suprafata_pct": 81,
         "datorii_pct": null,
         "active_rank": 15,
         "venituri_rank": 92
@@ -4143,7 +4143,7 @@
         "active_pct": 38,
         "venituri_pct": 39,
         "imobile_pct": 14,
-        "suprafata_pct": 14,
+        "suprafata_pct": 16,
         "datorii_pct": null,
         "active_rank": 205,
         "venituri_rank": 201
@@ -4203,7 +4203,7 @@
         "active_pct": 46,
         "venituri_pct": 26,
         "imobile_pct": 97,
-        "suprafata_pct": 45,
+        "suprafata_pct": 30,
         "datorii_pct": 39,
         "active_rank": 174,
         "venituri_rank": 247
@@ -4263,7 +4263,7 @@
         "active_pct": 0,
         "venituri_pct": 49,
         "imobile_pct": 14,
-        "suprafata_pct": 17,
+        "suprafata_pct": 14,
         "datorii_pct": 61,
         "active_rank": 256,
         "venituri_rank": 168
@@ -4293,7 +4293,7 @@
         "active_pct": 61,
         "venituri_pct": 73,
         "imobile_pct": 24,
-        "suprafata_pct": 36,
+        "suprafata_pct": 42,
         "datorii_pct": null,
         "active_rank": 131,
         "venituri_rank": 88
@@ -4323,7 +4323,7 @@
         "active_pct": 80,
         "venituri_pct": 36,
         "imobile_pct": 83,
-        "suprafata_pct": 92,
+        "suprafata_pct": 94,
         "datorii_pct": 55,
         "active_rank": 65,
         "venituri_rank": 213
@@ -4353,7 +4353,7 @@
         "active_pct": 63,
         "venituri_pct": 84,
         "imobile_pct": 91,
-        "suprafata_pct": 95,
+        "suprafata_pct": 91,
         "datorii_pct": 1,
         "active_rank": 124,
         "venituri_rank": 52
@@ -4383,7 +4383,7 @@
         "active_pct": 68,
         "venituri_pct": 30,
         "imobile_pct": 91,
-        "suprafata_pct": 73,
+        "suprafata_pct": 76,
         "datorii_pct": 56,
         "active_rank": 106,
         "venituri_rank": 233
@@ -4413,7 +4413,7 @@
         "active_pct": 73,
         "venituri_pct": 66,
         "imobile_pct": 88,
-        "suprafata_pct": 61,
+        "suprafata_pct": 59,
         "datorii_pct": 48,
         "active_rank": 91,
         "venituri_rank": 113
@@ -4443,7 +4443,7 @@
         "active_pct": 78,
         "venituri_pct": 67,
         "imobile_pct": 49,
-        "suprafata_pct": 40,
+        "suprafata_pct": 45,
         "datorii_pct": 3,
         "active_rank": 72,
         "venituri_rank": 111
@@ -4473,7 +4473,7 @@
         "active_pct": 84,
         "venituri_pct": 51,
         "imobile_pct": 49,
-        "suprafata_pct": 22,
+        "suprafata_pct": 16,
         "datorii_pct": null,
         "active_rank": 54,
         "venituri_rank": 164
@@ -4503,7 +4503,7 @@
         "active_pct": 67,
         "venituri_pct": 94,
         "imobile_pct": 93,
-        "suprafata_pct": 83,
+        "suprafata_pct": 86,
         "datorii_pct": 74,
         "active_rank": 109,
         "venituri_rank": 21
@@ -4533,7 +4533,7 @@
         "active_pct": 59,
         "venituri_pct": 70,
         "imobile_pct": 24,
-        "suprafata_pct": 58,
+        "suprafata_pct": 51,
         "datorii_pct": 50,
         "active_rank": 137,
         "venituri_rank": 101
@@ -4563,7 +4563,7 @@
         "active_pct": 60,
         "venituri_pct": 95,
         "imobile_pct": 49,
-        "suprafata_pct": 51,
+        "suprafata_pct": 55,
         "datorii_pct": 17,
         "active_rank": 133,
         "venituri_rank": 18
@@ -4623,7 +4623,7 @@
         "active_pct": 73,
         "venituri_pct": 36,
         "imobile_pct": 24,
-        "suprafata_pct": 46,
+        "suprafata_pct": 49,
         "datorii_pct": null,
         "active_rank": 89,
         "venituri_rank": 211
@@ -4683,7 +4683,7 @@
         "active_pct": 0,
         "venituri_pct": 5,
         "imobile_pct": 36,
-        "suprafata_pct": 44,
+        "suprafata_pct": 47,
         "datorii_pct": 4,
         "active_rank": 256,
         "venituri_rank": 314
@@ -4713,7 +4713,7 @@
         "active_pct": 34,
         "venituri_pct": 67,
         "imobile_pct": 14,
-        "suprafata_pct": 17,
+        "suprafata_pct": 20,
         "datorii_pct": 3,
         "active_rank": 218,
         "venituri_rank": 109
@@ -4743,7 +4743,7 @@
         "active_pct": 55,
         "venituri_pct": 43,
         "imobile_pct": 36,
-        "suprafata_pct": 58,
+        "suprafata_pct": 52,
         "datorii_pct": 67,
         "active_rank": 151,
         "venituri_rank": 189
@@ -4773,7 +4773,7 @@
         "active_pct": 84,
         "venituri_pct": 54,
         "imobile_pct": 89,
-        "suprafata_pct": 90,
+        "suprafata_pct": 83,
         "datorii_pct": 92,
         "active_rank": 52,
         "venituri_rank": 152
@@ -4803,7 +4803,7 @@
         "active_pct": 0,
         "venituri_pct": 76,
         "imobile_pct": 24,
-        "suprafata_pct": 23,
+        "suprafata_pct": 19,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 80
@@ -4833,7 +4833,7 @@
         "active_pct": 26,
         "venituri_pct": 77,
         "imobile_pct": 14,
-        "suprafata_pct": 16,
+        "suprafata_pct": 18,
         "datorii_pct": 62,
         "active_rank": 247,
         "venituri_rank": 78
@@ -4863,7 +4863,7 @@
         "active_pct": 91,
         "venituri_pct": 82,
         "imobile_pct": 84,
-        "suprafata_pct": 63,
+        "suprafata_pct": 66,
         "datorii_pct": null,
         "active_rank": 30,
         "venituri_rank": 60
@@ -4893,7 +4893,7 @@
         "active_pct": 52,
         "venituri_pct": 77,
         "imobile_pct": 97,
-        "suprafata_pct": 88,
+        "suprafata_pct": 87,
         "datorii_pct": 28,
         "active_rank": 158,
         "venituri_rank": 75
@@ -4923,7 +4923,7 @@
         "active_pct": 0,
         "venituri_pct": 16,
         "imobile_pct": 49,
-        "suprafata_pct": 76,
+        "suprafata_pct": 72,
         "datorii_pct": 56,
         "active_rank": 256,
         "venituri_rank": 279
@@ -4953,7 +4953,7 @@
         "active_pct": 92,
         "venituri_pct": 70,
         "imobile_pct": 88,
-        "suprafata_pct": 90,
+        "suprafata_pct": 93,
         "datorii_pct": null,
         "active_rank": 27,
         "venituri_rank": 98
@@ -4983,7 +4983,7 @@
         "active_pct": 85,
         "venituri_pct": 86,
         "imobile_pct": 24,
-        "suprafata_pct": 26,
+        "suprafata_pct": 27,
         "datorii_pct": 36,
         "active_rank": 51,
         "venituri_rank": 46
@@ -5013,7 +5013,7 @@
         "active_pct": 91,
         "venituri_pct": 96,
         "imobile_pct": 83,
-        "suprafata_pct": 77,
+        "suprafata_pct": 80,
         "datorii_pct": null,
         "active_rank": 31,
         "venituri_rank": 13
@@ -5073,7 +5073,7 @@
         "active_pct": 58,
         "venituri_pct": 60,
         "imobile_pct": 64,
-        "suprafata_pct": 70,
+        "suprafata_pct": 73,
         "datorii_pct": 64,
         "active_rank": 139,
         "venituri_rank": 134
@@ -5103,7 +5103,7 @@
         "active_pct": 0,
         "venituri_pct": 54,
         "imobile_pct": 49,
-        "suprafata_pct": 35,
+        "suprafata_pct": 41,
         "datorii_pct": 26,
         "active_rank": 256,
         "venituri_rank": 154
@@ -5133,7 +5133,7 @@
         "active_pct": 52,
         "venituri_pct": 82,
         "imobile_pct": 78,
-        "suprafata_pct": 73,
+        "suprafata_pct": 75,
         "datorii_pct": 58,
         "active_rank": 160,
         "venituri_rank": 61
@@ -5163,7 +5163,7 @@
         "active_pct": 44,
         "venituri_pct": 46,
         "imobile_pct": 96,
-        "suprafata_pct": 86,
+        "suprafata_pct": 90,
         "datorii_pct": 28,
         "active_rank": 186,
         "venituri_rank": 179
@@ -5193,7 +5193,7 @@
         "active_pct": 80,
         "venituri_pct": 76,
         "imobile_pct": 78,
-        "suprafata_pct": 83,
+        "suprafata_pct": 80,
         "datorii_pct": 33,
         "active_rank": 66,
         "venituri_rank": 79
@@ -5223,7 +5223,7 @@
         "active_pct": 75,
         "venituri_pct": 93,
         "imobile_pct": 84,
-        "suprafata_pct": 78,
+        "suprafata_pct": 75,
         "datorii_pct": 83,
         "active_rank": 83,
         "venituri_rank": 24
@@ -5283,7 +5283,7 @@
         "active_pct": 70,
         "venituri_pct": 84,
         "imobile_pct": 57,
-        "suprafata_pct": 85,
+        "suprafata_pct": 87,
         "datorii_pct": null,
         "active_rank": 100,
         "venituri_rank": 53
@@ -5313,7 +5313,7 @@
         "active_pct": 44,
         "venituri_pct": 73,
         "imobile_pct": 36,
-        "suprafata_pct": 34,
+        "suprafata_pct": 31,
         "datorii_pct": 57,
         "active_rank": 187,
         "venituri_rank": 89
@@ -5343,7 +5343,7 @@
         "active_pct": 94,
         "venituri_pct": 90,
         "imobile_pct": 93,
-        "suprafata_pct": 95,
+        "suprafata_pct": 96,
         "datorii_pct": null,
         "active_rank": 20,
         "venituri_rank": 33
@@ -5373,7 +5373,7 @@
         "active_pct": 85,
         "venituri_pct": 56,
         "imobile_pct": 24,
-        "suprafata_pct": 34,
+        "suprafata_pct": 38,
         "datorii_pct": null,
         "active_rank": 49,
         "venituri_rank": 146
@@ -5403,7 +5403,7 @@
         "active_pct": 79,
         "venituri_pct": 85,
         "imobile_pct": 70,
-        "suprafata_pct": 52,
+        "suprafata_pct": 56,
         "datorii_pct": 60,
         "active_rank": 69,
         "venituri_rank": 49
@@ -5433,7 +5433,7 @@
         "active_pct": 38,
         "venituri_pct": 86,
         "imobile_pct": 36,
-        "suprafata_pct": 27,
+        "suprafata_pct": 29,
         "datorii_pct": 54,
         "active_rank": 206,
         "venituri_rank": 45
@@ -5463,7 +5463,7 @@
         "active_pct": 79,
         "venituri_pct": 85,
         "imobile_pct": 70,
-        "suprafata_pct": 56,
+        "suprafata_pct": 49,
         "datorii_pct": null,
         "active_rank": 71,
         "venituri_rank": 51
@@ -5493,7 +5493,7 @@
         "active_pct": 95,
         "venituri_pct": 88,
         "imobile_pct": 86,
-        "suprafata_pct": 72,
+        "suprafata_pct": 65,
         "datorii_pct": null,
         "active_rank": 18,
         "venituri_rank": 41
@@ -5523,7 +5523,7 @@
         "active_pct": 87,
         "venituri_pct": 99,
         "imobile_pct": 24,
-        "suprafata_pct": 45,
+        "suprafata_pct": 48,
         "datorii_pct": 99,
         "active_rank": 44,
         "venituri_rank": 2
@@ -5553,7 +5553,7 @@
         "active_pct": 25,
         "venituri_pct": 25,
         "imobile_pct": 36,
-        "suprafata_pct": 31,
+        "suprafata_pct": 32,
         "datorii_pct": 87,
         "active_rank": 249,
         "venituri_rank": 249
@@ -5613,7 +5613,7 @@
         "active_pct": 27,
         "venituri_pct": 28,
         "imobile_pct": 36,
-        "suprafata_pct": 33,
+        "suprafata_pct": 37,
         "datorii_pct": 25,
         "active_rank": 241,
         "venituri_rank": 240
@@ -5643,7 +5643,7 @@
         "active_pct": 65,
         "venituri_pct": 60,
         "imobile_pct": 70,
-        "suprafata_pct": 54,
+        "suprafata_pct": 47,
         "datorii_pct": null,
         "active_rank": 117,
         "venituri_rank": 133
@@ -5673,7 +5673,7 @@
         "active_pct": 55,
         "venituri_pct": 42,
         "imobile_pct": 57,
-        "suprafata_pct": 77,
+        "suprafata_pct": 80,
         "datorii_pct": null,
         "active_rank": 148,
         "venituri_rank": 192
@@ -5703,7 +5703,7 @@
         "active_pct": 0,
         "venituri_pct": 39,
         "imobile_pct": 57,
-        "suprafata_pct": 75,
+        "suprafata_pct": 73,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 204
@@ -5763,7 +5763,7 @@
         "active_pct": 88,
         "venituri_pct": 89,
         "imobile_pct": 57,
-        "suprafata_pct": 73,
+        "suprafata_pct": 74,
         "datorii_pct": null,
         "active_rank": 40,
         "venituri_rank": 38
@@ -5793,7 +5793,7 @@
         "active_pct": 87,
         "venituri_pct": 78,
         "imobile_pct": 36,
-        "suprafata_pct": 53,
+        "suprafata_pct": 58,
         "datorii_pct": null,
         "active_rank": 42,
         "venituri_rank": 74
@@ -5823,7 +5823,7 @@
         "active_pct": 58,
         "venituri_pct": 71,
         "imobile_pct": 57,
-        "suprafata_pct": 50,
+        "suprafata_pct": 42,
         "datorii_pct": 9,
         "active_rank": 140,
         "venituri_rank": 97
@@ -5853,7 +5853,7 @@
         "active_pct": 0,
         "venituri_pct": 55,
         "imobile_pct": 14,
-        "suprafata_pct": 19,
+        "suprafata_pct": 21,
         "datorii_pct": 42,
         "active_rank": 256,
         "venituri_rank": 149
@@ -5913,7 +5913,7 @@
         "active_pct": 84,
         "venituri_pct": 6,
         "imobile_pct": 36,
-        "suprafata_pct": 45,
+        "suprafata_pct": 48,
         "datorii_pct": null,
         "active_rank": 53,
         "venituri_rank": 313
@@ -5943,7 +5943,7 @@
         "active_pct": 82,
         "venituri_pct": 56,
         "imobile_pct": 36,
-        "suprafata_pct": 32,
+        "suprafata_pct": 33,
         "datorii_pct": null,
         "active_rank": 60,
         "venituri_rank": 145
@@ -5973,7 +5973,7 @@
         "active_pct": 33,
         "venituri_pct": 3,
         "imobile_pct": 24,
-        "suprafata_pct": 57,
+        "suprafata_pct": 61,
         "datorii_pct": null,
         "active_rank": 222,
         "venituri_rank": 322
@@ -6003,7 +6003,7 @@
         "active_pct": 49,
         "venituri_pct": 41,
         "imobile_pct": 36,
-        "suprafata_pct": 28,
+        "suprafata_pct": 30,
         "datorii_pct": 71,
         "active_rank": 169,
         "venituri_rank": 195
@@ -6033,7 +6033,7 @@
         "active_pct": 77,
         "venituri_pct": 86,
         "imobile_pct": 84,
-        "suprafata_pct": 91,
+        "suprafata_pct": 89,
         "datorii_pct": 1,
         "active_rank": 75,
         "venituri_rank": 48
@@ -6093,7 +6093,7 @@
         "active_pct": 96,
         "venituri_pct": 75,
         "imobile_pct": 57,
-        "suprafata_pct": 64,
+        "suprafata_pct": 68,
         "datorii_pct": null,
         "active_rank": 13,
         "venituri_rank": 82
@@ -6123,7 +6123,7 @@
         "active_pct": 33,
         "venituri_pct": 49,
         "imobile_pct": 57,
-        "suprafata_pct": 32,
+        "suprafata_pct": 35,
         "datorii_pct": 63,
         "active_rank": 221,
         "venituri_rank": 170
@@ -6183,7 +6183,7 @@
         "active_pct": 52,
         "venituri_pct": 80,
         "imobile_pct": 24,
-        "suprafata_pct": 38,
+        "suprafata_pct": 43,
         "datorii_pct": 94,
         "active_rank": 161,
         "venituri_rank": 66
@@ -6213,7 +6213,7 @@
         "active_pct": 65,
         "venituri_pct": 73,
         "imobile_pct": 64,
-        "suprafata_pct": 74,
+        "suprafata_pct": 77,
         "datorii_pct": null,
         "active_rank": 115,
         "venituri_rank": 90
@@ -6243,7 +6243,7 @@
         "active_pct": 57,
         "venituri_pct": 57,
         "imobile_pct": 70,
-        "suprafata_pct": 62,
+        "suprafata_pct": 65,
         "datorii_pct": 53,
         "active_rank": 144,
         "venituri_rank": 143
@@ -6273,7 +6273,7 @@
         "active_pct": 29,
         "venituri_pct": 27,
         "imobile_pct": 70,
-        "suprafata_pct": 43,
+        "suprafata_pct": 45,
         "datorii_pct": 70,
         "active_rank": 236,
         "venituri_rank": 241
@@ -6303,7 +6303,7 @@
         "active_pct": 0,
         "venituri_pct": 18,
         "imobile_pct": 24,
-        "suprafata_pct": 37,
+        "suprafata_pct": 42,
         "datorii_pct": 86,
         "active_rank": 256,
         "venituri_rank": 271
@@ -6333,7 +6333,7 @@
         "active_pct": 69,
         "venituri_pct": 80,
         "imobile_pct": 64,
-        "suprafata_pct": 62,
+        "suprafata_pct": 65,
         "datorii_pct": 65,
         "active_rank": 104,
         "venituri_rank": 68
@@ -6363,7 +6363,7 @@
         "active_pct": 60,
         "venituri_pct": 14,
         "imobile_pct": 24,
-        "suprafata_pct": 32,
+        "suprafata_pct": 34,
         "datorii_pct": 89,
         "active_rank": 132,
         "venituri_rank": 284
@@ -6393,7 +6393,7 @@
         "active_pct": 36,
         "venituri_pct": 48,
         "imobile_pct": 89,
-        "suprafata_pct": 87,
+        "suprafata_pct": 83,
         "datorii_pct": 22,
         "active_rank": 211,
         "venituri_rank": 173
@@ -6423,7 +6423,7 @@
         "active_pct": 71,
         "venituri_pct": 44,
         "imobile_pct": 36,
-        "suprafata_pct": 64,
+        "suprafata_pct": 67,
         "datorii_pct": null,
         "active_rank": 96,
         "venituri_rank": 185
@@ -6453,7 +6453,7 @@
         "active_pct": 0,
         "venituri_pct": 77,
         "imobile_pct": 49,
-        "suprafata_pct": 61,
+        "suprafata_pct": 64,
         "datorii_pct": 52,
         "active_rank": 256,
         "venituri_rank": 76
@@ -6483,7 +6483,7 @@
         "active_pct": 0,
         "venituri_pct": 53,
         "imobile_pct": 14,
-        "suprafata_pct": 20,
+        "suprafata_pct": 22,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 156
@@ -6513,7 +6513,7 @@
         "active_pct": 96,
         "venituri_pct": 99,
         "imobile_pct": 78,
-        "suprafata_pct": 59,
+        "suprafata_pct": 46,
         "datorii_pct": null,
         "active_rank": 14,
         "venituri_rank": 3
@@ -6573,7 +6573,7 @@
         "active_pct": 46,
         "venituri_pct": 29,
         "imobile_pct": 24,
-        "suprafata_pct": 21,
+        "suprafata_pct": 23,
         "datorii_pct": 67,
         "active_rank": 174,
         "venituri_rank": 235
@@ -6603,7 +6603,7 @@
         "active_pct": 97,
         "venituri_pct": 95,
         "imobile_pct": 57,
-        "suprafata_pct": 85,
+        "suprafata_pct": 88,
         "datorii_pct": null,
         "active_rank": 11,
         "venituri_rank": 15
@@ -6633,7 +6633,7 @@
         "active_pct": 88,
         "venituri_pct": 96,
         "imobile_pct": 64,
-        "suprafata_pct": 96,
+        "suprafata_pct": 97,
         "datorii_pct": 36,
         "active_rank": 39,
         "venituri_rank": 12
@@ -6663,7 +6663,7 @@
         "active_pct": 32,
         "venituri_pct": 29,
         "imobile_pct": 49,
-        "suprafata_pct": 25,
+        "suprafata_pct": 17,
         "datorii_pct": 24,
         "active_rank": 227,
         "venituri_rank": 236
@@ -6693,7 +6693,7 @@
         "active_pct": 90,
         "venituri_pct": 91,
         "imobile_pct": 70,
-        "suprafata_pct": 69,
+        "suprafata_pct": 72,
         "datorii_pct": 0,
         "active_rank": 34,
         "venituri_rank": 30
@@ -6723,7 +6723,7 @@
         "active_pct": 0,
         "venituri_pct": 11,
         "imobile_pct": 49,
-        "suprafata_pct": 68,
+        "suprafata_pct": 72,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 295
@@ -6813,7 +6813,7 @@
         "active_pct": 83,
         "venituri_pct": 4,
         "imobile_pct": 14,
-        "suprafata_pct": 22,
+        "suprafata_pct": 18,
         "datorii_pct": 22,
         "active_rank": 55,
         "venituri_rank": 319
@@ -6843,7 +6843,7 @@
         "active_pct": 58,
         "venituri_pct": 40,
         "imobile_pct": 86,
-        "suprafata_pct": 72,
+        "suprafata_pct": 67,
         "datorii_pct": 14,
         "active_rank": 138,
         "venituri_rank": 200
@@ -6873,7 +6873,7 @@
         "active_pct": 70,
         "venituri_pct": 17,
         "imobile_pct": 36,
-        "suprafata_pct": 67,
+        "suprafata_pct": 63,
         "datorii_pct": null,
         "active_rank": 101,
         "venituri_rank": 274
@@ -6903,7 +6903,7 @@
         "active_pct": 0,
         "venituri_pct": 12,
         "imobile_pct": 36,
-        "suprafata_pct": 70,
+        "suprafata_pct": 64,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 292
@@ -6933,7 +6933,7 @@
         "active_pct": 0,
         "venituri_pct": 8,
         "imobile_pct": 36,
-        "suprafata_pct": 82,
+        "suprafata_pct": 85,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 307
@@ -6963,7 +6963,7 @@
         "active_pct": 89,
         "venituri_pct": 20,
         "imobile_pct": 36,
-        "suprafata_pct": 39,
+        "suprafata_pct": 34,
         "datorii_pct": null,
         "active_rank": 38,
         "venituri_rank": 264
@@ -7023,7 +7023,7 @@
         "active_pct": 0,
         "venituri_pct": 78,
         "imobile_pct": 36,
-        "suprafata_pct": 55,
+        "suprafata_pct": 61,
         "datorii_pct": 2,
         "active_rank": 256,
         "venituri_rank": 72
@@ -7053,7 +7053,7 @@
         "active_pct": 34,
         "venituri_pct": 15,
         "imobile_pct": 49,
-        "suprafata_pct": 55,
+        "suprafata_pct": 58,
         "datorii_pct": null,
         "active_rank": 219,
         "venituri_rank": 281
@@ -7083,7 +7083,7 @@
         "active_pct": 83,
         "venituri_pct": 88,
         "imobile_pct": 76,
-        "suprafata_pct": 46,
+        "suprafata_pct": 49,
         "datorii_pct": null,
         "active_rank": 56,
         "venituri_rank": 40
@@ -7143,7 +7143,7 @@
         "active_pct": 59,
         "venituri_pct": 59,
         "imobile_pct": 83,
-        "suprafata_pct": 89,
+        "suprafata_pct": 86,
         "datorii_pct": 79,
         "active_rank": 135,
         "venituri_rank": 137
@@ -7173,7 +7173,7 @@
         "active_pct": 62,
         "venituri_pct": 64,
         "imobile_pct": 36,
-        "suprafata_pct": 69,
+        "suprafata_pct": 53,
         "datorii_pct": null,
         "active_rank": 126,
         "venituri_rank": 121
@@ -7203,7 +7203,7 @@
         "active_pct": 76,
         "venituri_pct": 89,
         "imobile_pct": 96,
-        "suprafata_pct": 99,
+        "suprafata_pct": 97,
         "datorii_pct": 30,
         "active_rank": 80,
         "venituri_rank": 35
@@ -7233,7 +7233,7 @@
         "active_pct": 39,
         "venituri_pct": 32,
         "imobile_pct": 57,
-        "suprafata_pct": 53,
+        "suprafata_pct": 57,
         "datorii_pct": 60,
         "active_rank": 204,
         "venituri_rank": 225
@@ -7293,7 +7293,7 @@
         "active_pct": 54,
         "venituri_pct": 42,
         "imobile_pct": 84,
-        "suprafata_pct": 63,
+        "suprafata_pct": 55,
         "datorii_pct": 37,
         "active_rank": 154,
         "venituri_rank": 191
@@ -7323,7 +7323,7 @@
         "active_pct": 78,
         "venituri_pct": 20,
         "imobile_pct": 64,
-        "suprafata_pct": 64,
+        "suprafata_pct": 68,
         "datorii_pct": 93,
         "active_rank": 73,
         "venituri_rank": 264
@@ -7353,7 +7353,7 @@
         "active_pct": 83,
         "venituri_pct": 82,
         "imobile_pct": 76,
-        "suprafata_pct": 74,
+        "suprafata_pct": 76,
         "datorii_pct": null,
         "active_rank": 58,
         "venituri_rank": 59
@@ -7383,7 +7383,7 @@
         "active_pct": 92,
         "venituri_pct": 92,
         "imobile_pct": 98,
-        "suprafata_pct": 91,
+        "suprafata_pct": 89,
         "datorii_pct": 81,
         "active_rank": 25,
         "venituri_rank": 26
@@ -7413,7 +7413,7 @@
         "active_pct": 0,
         "venituri_pct": 69,
         "imobile_pct": 24,
-        "suprafata_pct": 28,
+        "suprafata_pct": 30,
         "datorii_pct": 7,
         "active_rank": 256,
         "venituri_rank": 104
@@ -7443,7 +7443,7 @@
         "active_pct": 29,
         "venituri_pct": 37,
         "imobile_pct": 24,
-        "suprafata_pct": 31,
+        "suprafata_pct": 29,
         "datorii_pct": null,
         "active_rank": 237,
         "venituri_rank": 208
@@ -7473,7 +7473,7 @@
         "active_pct": 39,
         "venituri_pct": 48,
         "imobile_pct": 14,
-        "suprafata_pct": 17,
+        "suprafata_pct": 15,
         "datorii_pct": 15,
         "active_rank": 203,
         "venituri_rank": 172
@@ -7503,7 +7503,7 @@
         "active_pct": 0,
         "venituri_pct": 21,
         "imobile_pct": 36,
-        "suprafata_pct": 48,
+        "suprafata_pct": 40,
         "datorii_pct": 26,
         "active_rank": 256,
         "venituri_rank": 262
@@ -7533,7 +7533,7 @@
         "active_pct": 49,
         "venituri_pct": 81,
         "imobile_pct": 36,
-        "suprafata_pct": 71,
+        "suprafata_pct": 66,
         "datorii_pct": 63,
         "active_rank": 168,
         "venituri_rank": 62
@@ -7563,7 +7563,7 @@
         "active_pct": 0,
         "venituri_pct": 7,
         "imobile_pct": 57,
-        "suprafata_pct": 64,
+        "suprafata_pct": 67,
         "datorii_pct": 75,
         "active_rank": 256,
         "venituri_rank": 308
@@ -7653,7 +7653,7 @@
         "active_pct": 65,
         "venituri_pct": 54,
         "imobile_pct": 24,
-        "suprafata_pct": 54,
+        "suprafata_pct": 58,
         "datorii_pct": null,
         "active_rank": 116,
         "venituri_rank": 153
@@ -7683,7 +7683,7 @@
         "active_pct": 56,
         "venituri_pct": 69,
         "imobile_pct": 86,
-        "suprafata_pct": 71,
+        "suprafata_pct": 62,
         "datorii_pct": null,
         "active_rank": 147,
         "venituri_rank": 102
@@ -7713,7 +7713,7 @@
         "active_pct": 81,
         "venituri_pct": 51,
         "imobile_pct": 49,
-        "suprafata_pct": 38,
+        "suprafata_pct": 31,
         "datorii_pct": 10,
         "active_rank": 63,
         "venituri_rank": 162
@@ -7743,7 +7743,7 @@
         "active_pct": 72,
         "venituri_pct": 47,
         "imobile_pct": 92,
-        "suprafata_pct": 89,
+        "suprafata_pct": 92,
         "datorii_pct": 77,
         "active_rank": 92,
         "venituri_rank": 177
@@ -7773,7 +7773,7 @@
         "active_pct": 30,
         "venituri_pct": 58,
         "imobile_pct": 89,
-        "suprafata_pct": 97,
+        "suprafata_pct": 92,
         "datorii_pct": null,
         "active_rank": 232,
         "venituri_rank": 139
@@ -7803,7 +7803,7 @@
         "active_pct": 0,
         "venituri_pct": 63,
         "imobile_pct": 57,
-        "suprafata_pct": 81,
+        "suprafata_pct": 66,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 123
@@ -7833,7 +7833,7 @@
         "active_pct": 40,
         "venituri_pct": 6,
         "imobile_pct": 24,
-        "suprafata_pct": 34,
+        "suprafata_pct": 39,
         "datorii_pct": 70,
         "active_rank": 200,
         "venituri_rank": 311
@@ -7893,7 +7893,7 @@
         "active_pct": 0,
         "venituri_pct": 77,
         "imobile_pct": 14,
-        "suprafata_pct": 47,
+        "suprafata_pct": 40,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 77
@@ -7923,7 +7923,7 @@
         "active_pct": 73,
         "venituri_pct": 24,
         "imobile_pct": 76,
-        "suprafata_pct": 83,
+        "suprafata_pct": 87,
         "datorii_pct": 16,
         "active_rank": 90,
         "venituri_rank": 252
@@ -7953,7 +7953,7 @@
         "active_pct": 0,
         "venituri_pct": 61,
         "imobile_pct": 14,
-        "suprafata_pct": 18,
+        "suprafata_pct": 21,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 128
@@ -7983,7 +7983,7 @@
         "active_pct": 35,
         "venituri_pct": 17,
         "imobile_pct": 24,
-        "suprafata_pct": 25,
+        "suprafata_pct": 26,
         "datorii_pct": 8,
         "active_rank": 216,
         "venituri_rank": 277
@@ -8013,7 +8013,7 @@
         "active_pct": 0,
         "venituri_pct": 8,
         "imobile_pct": 78,
-        "suprafata_pct": 86,
+        "suprafata_pct": 78,
         "datorii_pct": 17,
         "active_rank": 256,
         "venituri_rank": 305
@@ -8043,7 +8043,7 @@
         "active_pct": 0,
         "venituri_pct": 10,
         "imobile_pct": 14,
-        "suprafata_pct": 38,
+        "suprafata_pct": 33,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 300
@@ -8133,7 +8133,7 @@
         "active_pct": 0,
         "venituri_pct": 22,
         "imobile_pct": 57,
-        "suprafata_pct": 82,
+        "suprafata_pct": 69,
         "datorii_pct": 21,
         "active_rank": 256,
         "venituri_rank": 259
@@ -8193,7 +8193,7 @@
         "active_pct": 0,
         "venituri_pct": 28,
         "imobile_pct": 14,
-        "suprafata_pct": 15,
+        "suprafata_pct": 18,
         "datorii_pct": 14,
         "active_rank": 256,
         "venituri_rank": 239
@@ -8253,7 +8253,7 @@
         "active_pct": 0,
         "venituri_pct": 60,
         "imobile_pct": 49,
-        "suprafata_pct": 49,
+        "suprafata_pct": 52,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 132
@@ -8283,7 +8283,7 @@
         "active_pct": 0,
         "venituri_pct": 18,
         "imobile_pct": 49,
-        "suprafata_pct": 21,
+        "suprafata_pct": 17,
         "datorii_pct": 30,
         "active_rank": 256,
         "venituri_rank": 272
@@ -8313,7 +8313,7 @@
         "active_pct": 69,
         "venituri_pct": 78,
         "imobile_pct": 36,
-        "suprafata_pct": 43,
+        "suprafata_pct": 47,
         "datorii_pct": 21,
         "active_rank": 103,
         "venituri_rank": 73
@@ -8343,7 +8343,7 @@
         "active_pct": 98,
         "venituri_pct": 97,
         "imobile_pct": 78,
-        "suprafata_pct": 70,
+        "suprafata_pct": 62,
         "datorii_pct": null,
         "active_rank": 6,
         "venituri_rank": 11
@@ -8373,7 +8373,7 @@
         "active_pct": 82,
         "venituri_pct": 32,
         "imobile_pct": 64,
-        "suprafata_pct": 71,
+        "suprafata_pct": 73,
         "datorii_pct": null,
         "active_rank": 61,
         "venituri_rank": 226
@@ -8433,7 +8433,7 @@
         "active_pct": 0,
         "venituri_pct": 28,
         "imobile_pct": 78,
-        "suprafata_pct": 76,
+        "suprafata_pct": 79,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 238
@@ -8463,7 +8463,7 @@
         "active_pct": 50,
         "venituri_pct": 72,
         "imobile_pct": 57,
-        "suprafata_pct": 79,
+        "suprafata_pct": 83,
         "datorii_pct": null,
         "active_rank": 167,
         "venituri_rank": 93
@@ -8523,7 +8523,7 @@
         "active_pct": 54,
         "venituri_pct": 49,
         "imobile_pct": 14,
-        "suprafata_pct": 14,
+        "suprafata_pct": 17,
         "datorii_pct": 8,
         "active_rank": 152,
         "venituri_rank": 169
@@ -8583,7 +8583,7 @@
         "active_pct": 64,
         "venituri_pct": 88,
         "imobile_pct": 64,
-        "suprafata_pct": 36,
+        "suprafata_pct": 41,
         "datorii_pct": 45,
         "active_rank": 118,
         "venituri_rank": 39
@@ -8613,7 +8613,7 @@
         "active_pct": 98,
         "venituri_pct": 40,
         "imobile_pct": 14,
-        "suprafata_pct": 51,
+        "suprafata_pct": 56,
         "datorii_pct": null,
         "active_rank": 5,
         "venituri_rank": 199
@@ -8643,7 +8643,7 @@
         "active_pct": 0,
         "venituri_pct": 27,
         "imobile_pct": 76,
-        "suprafata_pct": 43,
+        "suprafata_pct": 38,
         "datorii_pct": 87,
         "active_rank": 256,
         "venituri_rank": 244
@@ -8673,7 +8673,7 @@
         "active_pct": 37,
         "venituri_pct": 69,
         "imobile_pct": 49,
-        "suprafata_pct": 39,
+        "suprafata_pct": 36,
         "datorii_pct": null,
         "active_rank": 210,
         "venituri_rank": 103
@@ -8703,7 +8703,7 @@
         "active_pct": 28,
         "venituri_pct": 41,
         "imobile_pct": 14,
-        "suprafata_pct": 15,
+        "suprafata_pct": 14,
         "datorii_pct": null,
         "active_rank": 238,
         "venituri_rank": 197
@@ -8733,7 +8733,7 @@
         "active_pct": 52,
         "venituri_pct": 33,
         "imobile_pct": 36,
-        "suprafata_pct": 28,
+        "suprafata_pct": 29,
         "datorii_pct": 46,
         "active_rank": 159,
         "venituri_rank": 222
@@ -8763,7 +8763,7 @@
         "active_pct": 50,
         "venituri_pct": 27,
         "imobile_pct": 89,
-        "suprafata_pct": 65,
+        "suprafata_pct": 44,
         "datorii_pct": 31,
         "active_rank": 166,
         "venituri_rank": 243
@@ -8793,7 +8793,7 @@
         "active_pct": 33,
         "venituri_pct": 30,
         "imobile_pct": 64,
-        "suprafata_pct": 47,
+        "suprafata_pct": 50,
         "datorii_pct": null,
         "active_rank": 224,
         "venituri_rank": 232
@@ -8823,7 +8823,7 @@
         "active_pct": 64,
         "venituri_pct": 25,
         "imobile_pct": 14,
-        "suprafata_pct": 19,
+        "suprafata_pct": 16,
         "datorii_pct": null,
         "active_rank": 120,
         "venituri_rank": 248
@@ -8853,7 +8853,7 @@
         "active_pct": 67,
         "venituri_pct": 38,
         "imobile_pct": 99,
-        "suprafata_pct": 93,
+        "suprafata_pct": 90,
         "datorii_pct": null,
         "active_rank": 111,
         "venituri_rank": 207
@@ -8913,7 +8913,7 @@
         "active_pct": 89,
         "venituri_pct": 81,
         "imobile_pct": 70,
-        "suprafata_pct": 66,
+        "suprafata_pct": 70,
         "datorii_pct": 51,
         "active_rank": 37,
         "venituri_rank": 63
@@ -8943,7 +8943,7 @@
         "active_pct": 76,
         "venituri_pct": 68,
         "imobile_pct": 36,
-        "suprafata_pct": 33,
+        "suprafata_pct": 37,
         "datorii_pct": 10,
         "active_rank": 79,
         "venituri_rank": 105
@@ -8973,7 +8973,7 @@
         "active_pct": 93,
         "venituri_pct": 79,
         "imobile_pct": 70,
-        "suprafata_pct": 54,
+        "suprafata_pct": 51,
         "datorii_pct": null,
         "active_rank": 23,
         "venituri_rank": 71
@@ -9003,7 +9003,7 @@
         "active_pct": 80,
         "venituri_pct": 61,
         "imobile_pct": 64,
-        "suprafata_pct": 29,
+        "suprafata_pct": 26,
         "datorii_pct": null,
         "active_rank": 68,
         "venituri_rank": 129
@@ -9033,7 +9033,7 @@
         "active_pct": 37,
         "venituri_pct": 33,
         "imobile_pct": 89,
-        "suprafata_pct": 84,
+        "suprafata_pct": 81,
         "datorii_pct": null,
         "active_rank": 209,
         "venituri_rank": 221
@@ -9063,7 +9063,7 @@
         "active_pct": 70,
         "venituri_pct": 43,
         "imobile_pct": 36,
-        "suprafata_pct": 27,
+        "suprafata_pct": 28,
         "datorii_pct": null,
         "active_rank": 98,
         "venituri_rank": 188
@@ -9093,7 +9093,7 @@
         "active_pct": 43,
         "venituri_pct": 84,
         "imobile_pct": 78,
-        "suprafata_pct": 72,
+        "suprafata_pct": 74,
         "datorii_pct": 83,
         "active_rank": 188,
         "venituri_rank": 54
@@ -9123,7 +9123,7 @@
         "active_pct": 0,
         "venituri_pct": 13,
         "imobile_pct": 14,
-        "suprafata_pct": 24,
+        "suprafata_pct": 20,
         "datorii_pct": 44,
         "active_rank": 256,
         "venituri_rank": 290
@@ -9153,7 +9153,7 @@
         "active_pct": 72,
         "venituri_pct": 25,
         "imobile_pct": 14,
-        "suprafata_pct": 15,
+        "suprafata_pct": 17,
         "datorii_pct": null,
         "active_rank": 93,
         "venituri_rank": 250
@@ -9183,7 +9183,7 @@
         "active_pct": 30,
         "venituri_pct": 63,
         "imobile_pct": 24,
-        "suprafata_pct": 30,
+        "suprafata_pct": 28,
         "datorii_pct": 24,
         "active_rank": 233,
         "venituri_rank": 124
@@ -9213,7 +9213,7 @@
         "active_pct": 26,
         "venituri_pct": 31,
         "imobile_pct": 70,
-        "suprafata_pct": 92,
+        "suprafata_pct": 70,
         "datorii_pct": 50,
         "active_rank": 245,
         "venituri_rank": 230
@@ -9243,7 +9243,7 @@
         "active_pct": 73,
         "venituri_pct": 64,
         "imobile_pct": 14,
-        "suprafata_pct": 18,
+        "suprafata_pct": 15,
         "datorii_pct": null,
         "active_rank": 88,
         "venituri_rank": 120
@@ -9273,7 +9273,7 @@
         "active_pct": 40,
         "venituri_pct": 23,
         "imobile_pct": 14,
-        "suprafata_pct": 21,
+        "suprafata_pct": 23,
         "datorii_pct": null,
         "active_rank": 198,
         "venituri_rank": 256
@@ -9303,7 +9303,7 @@
         "active_pct": 0,
         "venituri_pct": 0,
         "imobile_pct": 14,
-        "suprafata_pct": 68,
+        "suprafata_pct": 71,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 327
@@ -9333,7 +9333,7 @@
         "active_pct": 51,
         "venituri_pct": 85,
         "imobile_pct": 57,
-        "suprafata_pct": 48,
+        "suprafata_pct": 51,
         "datorii_pct": 77,
         "active_rank": 162,
         "venituri_rank": 50
@@ -9363,7 +9363,7 @@
         "active_pct": 77,
         "venituri_pct": 75,
         "imobile_pct": 24,
-        "suprafata_pct": 42,
+        "suprafata_pct": 46,
         "datorii_pct": 28,
         "active_rank": 76,
         "venituri_rank": 84
@@ -9393,7 +9393,7 @@
         "active_pct": 44,
         "venituri_pct": 45,
         "imobile_pct": 49,
-        "suprafata_pct": 49,
+        "suprafata_pct": 42,
         "datorii_pct": 57,
         "active_rank": 185,
         "venituri_rank": 181
@@ -9423,7 +9423,7 @@
         "active_pct": 33,
         "venituri_pct": 42,
         "imobile_pct": 24,
-        "suprafata_pct": 42,
+        "suprafata_pct": 26,
         "datorii_pct": 69,
         "active_rank": 223,
         "venituri_rank": 193
@@ -9453,7 +9453,7 @@
         "active_pct": 43,
         "venituri_pct": 86,
         "imobile_pct": 49,
-        "suprafata_pct": 35,
+        "suprafata_pct": 40,
         "datorii_pct": null,
         "active_rank": 189,
         "venituri_rank": 47
@@ -9483,7 +9483,7 @@
         "active_pct": 0,
         "venituri_pct": 89,
         "imobile_pct": 36,
-        "suprafata_pct": 30,
+        "suprafata_pct": 32,
         "datorii_pct": 89,
         "active_rank": 256,
         "venituri_rank": 36
@@ -9573,7 +9573,7 @@
         "active_pct": 0,
         "venituri_pct": 55,
         "imobile_pct": 64,
-        "suprafata_pct": 73,
+        "suprafata_pct": 76,
         "datorii_pct": 23,
         "active_rank": 256,
         "venituri_rank": 151
@@ -9603,7 +9603,7 @@
         "active_pct": 42,
         "venituri_pct": 70,
         "imobile_pct": 78,
-        "suprafata_pct": 84,
+        "suprafata_pct": 86,
         "datorii_pct": 35,
         "active_rank": 194,
         "venituri_rank": 99
@@ -9633,7 +9633,7 @@
         "active_pct": 0,
         "venituri_pct": 22,
         "imobile_pct": 24,
-        "suprafata_pct": 33,
+        "suprafata_pct": 35,
         "datorii_pct": null,
         "active_rank": 256,
         "venituri_rank": 258
@@ -9663,7 +9663,7 @@
         "active_pct": 66,
         "venituri_pct": 16,
         "imobile_pct": 14,
-        "suprafata_pct": 16,
+        "suprafata_pct": 19,
         "datorii_pct": 13,
         "active_rank": 112,
         "venituri_rank": 280
@@ -9693,7 +9693,7 @@
         "active_pct": 92,
         "venituri_pct": 38,
         "imobile_pct": 24,
-        "suprafata_pct": 36,
+        "suprafata_pct": 41,
         "datorii_pct": null,
         "active_rank": 26,
         "venituri_rank": 206
@@ -9778,7 +9778,7 @@
         "active_pct": 0,
         "venituri_pct": 68,
         "imobile_pct": 24,
-        "suprafata_pct": 35,
+        "suprafata_pct": 39,
         "datorii_pct": 76,
         "active_rank": 256,
         "venituri_rank": 106
@@ -9808,7 +9808,7 @@
         "active_pct": 0,
         "venituri_pct": 93,
         "imobile_pct": 98,
-        "suprafata_pct": 96,
+        "suprafata_pct": 94,
         "datorii_pct": 27,
         "active_rank": 256,
         "venituri_rank": 23
@@ -9838,7 +9838,7 @@
         "active_pct": 41,
         "venituri_pct": 19,
         "imobile_pct": 91,
-        "suprafata_pct": 92,
+        "suprafata_pct": 88,
         "datorii_pct": 16,
         "active_rank": 196,
         "venituri_rank": 268

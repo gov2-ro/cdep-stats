@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-30T12:20:46.453987Z",
+    "generated_at": "2026-06-02T21:23:29.425946Z",
     "source_url": "https://endimion2k.github.io/cdep-api-poc/data/v1/declaratii-avere/legislatura-2024.json",
     "scraper_version": "0.1.0",
     "count": 332,
@@ -388,7 +388,7 @@
         "value": 85,
         "n_declaratii": 2,
         "detail_url": "declaratii-avere/legislatura-2024/153.json",
-        "suprafata_mp": 12197569.0
+        "suprafata_mp": 6098784.5
       },
       {
         "cdep_idm": 88,
@@ -397,7 +397,7 @@
         "value": 46,
         "n_declaratii": 3,
         "detail_url": "declaratii-avere/legislatura-2024/88.json",
-        "suprafata_mp": 162513.0
+        "suprafata_mp": 139628.7
       },
       {
         "cdep_idm": 167,
@@ -406,7 +406,7 @@
         "value": 41,
         "n_declaratii": 2,
         "detail_url": "declaratii-avere/legislatura-2024/167.json",
-        "suprafata_mp": 71465.0
+        "suprafata_mp": 29369.5
       },
       {
         "cdep_idm": 228,
@@ -424,7 +424,7 @@
         "value": 34,
         "n_declaratii": 1,
         "detail_url": "declaratii-avere/legislatura-2024/318.json",
-        "suprafata_mp": 148147.0
+        "suprafata_mp": 60848.0
       },
       {
         "cdep_idm": 83,
@@ -433,7 +433,7 @@
         "value": 30,
         "n_declaratii": 2,
         "detail_url": "declaratii-avere/legislatura-2024/83.json",
-        "suprafata_mp": 32136.0
+        "suprafata_mp": 16068.0
       },
       {
         "cdep_idm": 84,
@@ -442,7 +442,7 @@
         "value": 28,
         "n_declaratii": 3,
         "detail_url": "declaratii-avere/legislatura-2024/84.json",
-        "suprafata_mp": 70979.8
+        "suprafata_mp": 68527.3
       },
       {
         "cdep_idm": 161,
@@ -451,7 +451,7 @@
         "value": 28,
         "n_declaratii": 1,
         "detail_url": "declaratii-avere/legislatura-2024/161.json",
-        "suprafata_mp": 48843.9
+        "suprafata_mp": 26729.9
       },
       {
         "cdep_idm": 39,
@@ -460,7 +460,7 @@
         "value": 26,
         "n_declaratii": 3,
         "detail_url": "declaratii-avere/legislatura-2024/39.json",
-        "suprafata_mp": 985.0
+        "suprafata_mp": 195.0
       },
       {
         "cdep_idm": 115,
@@ -469,7 +469,7 @@
         "value": 26,
         "n_declaratii": 2,
         "detail_url": "declaratii-avere/legislatura-2024/115.json",
-        "suprafata_mp": 36802.8
+        "suprafata_mp": 20156.4
       },
       {
         "cdep_idm": 331,
@@ -478,7 +478,7 @@
         "value": 25,
         "n_declaratii": 2,
         "detail_url": "declaratii-avere/legislatura-2024/331.json",
-        "suprafata_mp": 21164.3
+        "suprafata_mp": 12488.3
       },
       {
         "cdep_idm": 145,
@@ -496,7 +496,7 @@
         "value": 22,
         "n_declaratii": 1,
         "detail_url": "declaratii-avere/legislatura-2024/28.json",
-        "suprafata_mp": 366045.4
+        "suprafata_mp": 184192.2
       },
       {
         "cdep_idm": 227,
@@ -505,7 +505,7 @@
         "value": 21,
         "n_declaratii": 1,
         "detail_url": "declaratii-avere/legislatura-2024/227.json",
-        "suprafata_mp": 102805.0
+        "suprafata_mp": 102720.9
       },
       {
         "cdep_idm": 7,
@@ -514,7 +514,7 @@
         "value": 20,
         "n_declaratii": 1,
         "detail_url": "declaratii-avere/legislatura-2024/7.json",
-        "suprafata_mp": 89897.0
+        "suprafata_mp": 44157.8
       }
     ],
     "delta_crestere": [
@@ -845,7 +845,7 @@
       "median_venituri": 322745.5,
       "median_datorii": 127125.0,
       "total_imobile": 546,
-      "total_suprafata_mp": 951494.7,
+      "total_suprafata_mp": 741324.1,
       "conturi_values": [
         0.0,
         19528.67,
@@ -949,7 +949,7 @@
       "median_venituri": 144541.73,
       "median_datorii": 64650.0,
       "total_imobile": 300,
-      "total_suprafata_mp": 902007.6,
+      "total_suprafata_mp": 802445.6,
       "conturi_values": [
         0.0,
         0.0,
@@ -1023,7 +1023,7 @@
       "median_venituri": 342975.0,
       "median_datorii": 150000.0,
       "total_imobile": 441,
-      "total_suprafata_mp": 14682680.9,
+      "total_suprafata_mp": 8136002.3,
       "conturi_values": [
         189701.3,
         370463.3,
@@ -1090,7 +1090,7 @@
       "median_venituri": 204385.0,
       "median_datorii": 0.0,
       "total_imobile": 202,
-      "total_suprafata_mp": 213357.9,
+      "total_suprafata_mp": 103392.3,
       "conturi_values": [
         0.0,
         393828.39,
@@ -1142,7 +1142,7 @@
       "median_venituri": 248900.0,
       "median_datorii": 75000.0,
       "total_imobile": 159,
-      "total_suprafata_mp": 835174.1,
+      "total_suprafata_mp": 382153.5,
       "conturi_values": [
         295945.85,
         253281.7,
@@ -1175,7 +1175,7 @@
       "median_venituri": 217493.5,
       "median_datorii": 0.0,
       "total_imobile": 132,
-      "total_suprafata_mp": 136518.7,
+      "total_suprafata_mp": 96424.7,
       "conturi_values": [
         0.0,
         0.0,
@@ -1205,7 +1205,7 @@
       "median_venituri": 138686.62,
       "median_datorii": 0.0,
       "total_imobile": 40,
-      "total_suprafata_mp": 79562.5,
+      "total_suprafata_mp": 38337.3,
       "conturi_values": [
         0.0,
         53789.42,
@@ -1233,7 +1233,7 @@
       "median_venituri": 118600.0,
       "median_datorii": 0.0,
       "total_imobile": 65,
-      "total_suprafata_mp": 304135.0,
+      "total_suprafata_mp": 276188.3,
       "conturi_values": [
         0.0,
         54000.0,
@@ -1260,7 +1260,7 @@
       "median_venituri": 252217.0,
       "median_datorii": 78100.0,
       "total_imobile": 109,
-      "total_suprafata_mp": 1001056.7,
+      "total_suprafata_mp": 799034.1,
       "conturi_values": [
         0.0,
         57483.3,

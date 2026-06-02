@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-05-31T23:58:48.176277Z",
+    "generated_at": "2026-06-02T21:23:34.044898Z",
     "source_url": "https://endimion2k.github.io/cdep-api-poc/data/v1/stats/home-2024.json",
     "scraper_version": "0.1.0",
-    "count": 13072,
+    "count": 13209,
     "legislatura": 2024
   },
   "counts": {
@@ -13,7 +13,7 @@
     "interpelari": 9758,
     "comisii": 37,
     "motiuni": 6,
-    "ordine_zi": 19,
+    "ordine_zi": 156,
     "declaratii_avere": 332
   },
   "indicators": {

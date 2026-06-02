@@ -55,15 +55,16 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 
 ## PDF Parser — Known Limitations
 
-- [ ] **`venituri_anuale_ron` double-counts income from co-owned properties**
-  - ANI declarations require both spouses to list the same jointly-owned properties under sections 3.1 and 3.2 (cedarea folosinței). The parser sums all `amount RON/EUR` hits in section VII without deduplication, so rental income from shared plots appears twice. Venituri also include income for spouse, children, and other family members, plus one-off entries (real estate sales, dividends from family SRL) that inflate the annual figure. The field name `venituri_anuale_ron` is misleading — it is the total household sum, not the personal income of the titular.
-  - Fix would require parsing by sub-section (1.1/1.2/1.3, 3.1/3.2, etc.) and choosing a clear semantic for the field (titular-only vs. household).
-  - Audit case: Iordache Ion (leg-2024 idm=153) — stored 2,022,830 RON; titular-only ≈ 1,500,000 RON.
+- [x] **`venituri_anuale_ron` double-counts income from co-owned properties** — partially fixed 2026-06-03
+  - Added `venituri_titular_ron` field (parsed from section VII X.1. subsections only) to `AvereDeclaratie`.
+  - `venituri_anuale_ron` unchanged (household total, kept for backward compatibility).
+  - `deputat.html` shows `venituri_titular_ron` when available, falls back to `venituri_anuale_ron`.
+  - Field will populate on next PDF parse run (pdfplumber required); existing data has `venituri_titular_ron=0`.
+  - [ ] Update aggregate rankings in `build_avere_stats.py` to use `venituri_titular_ron` once data is populated.
 
-- [ ] **`suprafata_total_mp` ignores `cota-parte` (ownership share)**
-  - The parser sums the full declared area for every imobil without applying the `Cota-parte` column. For properties co-owned by spouses at 1/2 share, the stored value is 2× the actual personal share. The cota-parte fraction also varies (1/3, 1/4, etc.).
-  - Fix would require parsing the `Cota-parte` column per row and multiplying each area by the fraction before summing.
-  - Audit case: Iordache Ion (leg-2024 idm=153) — all 73 terenuri + 10 cladiri are at 1/2; stored 10,858,310 m², actual personal share ≈ 5,429,155 m².
+- [x] **`suprafata_total_mp` ignores `cota-parte` (ownership share)** — fixed 2026-06-03
+  - Parser now multiplies each property area by its cota fraction before aggregating.
+  - Post-processed 131 existing deputy files. Iordache Ion: 10,858,310 m² → ~5,429,155 m². Enache Mihai-Adrian: 2,686 m² → 1,992 m².
 
 
 ## Profile pages

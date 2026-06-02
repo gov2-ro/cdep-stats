@@ -93,7 +93,10 @@ class AvereDeclaratie(BaseModel):
 
     # VII. Venituri
     venituri_anuale_ron: float = Field(
-        default=0.0, description="Suma veniturilor anuale (titular + familie)"
+        default=0.0, description="Suma veniturilor anuale (titular + familie, poate fi dublu-contorizat)"
+    )
+    venituri_titular_ron: float = Field(
+        default=0.0, description="Venituri doar ale titularului (subsecțiunile X.1. din VII)"
     )
 
     # Detail lists

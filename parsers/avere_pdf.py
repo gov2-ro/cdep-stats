@@ -140,10 +140,24 @@ def _detect_mod_dobandire(block: str) -> str | None:
     return None
 
 
+def _cota_to_float(cota: str | None) -> float:
+    """Convert '3/4' → 0.75. Returns 1.0 for None or unparseable values."""
+    if not cota:
+        return 1.0
+    m = re.match(r"^(\d+)/(\d+)$", cota.strip())
+    if m:
+        num, den = int(m.group(1)), int(m.group(2))
+        return num / den if den else 1.0
+    return 1.0
+
+
 def _parse_imobile_details(
     sec_terenuri: str, sec_cladiri: str
 ) -> tuple[list[dict], dict[str, float]]:
-    """Parse per-row imobile details. Returns (rows_as_dicts, suprafata_by_category)."""
+    """Parse per-row imobile details. Returns (rows_as_dicts, suprafata_by_category).
+
+    Aggregate values are cota-parte adjusted (e.g. 1000 m² at 1/2 → 500 m²).
+    """
     from schemas.avere import AvereImobil
 
     CAT_TO_FIELD = {
@@ -206,14 +220,37 @@ def _parse_imobile_details(
                 ).model_dump()
             )
 
-            # Aggregate
+            # Aggregate — apply cota fraction so partial ownership isn't overstated
+            adjusted = suprafata * _cota_to_float(cota)
             if tip == "cladire":
-                aggregates["suprafata_cladiri_mp"] += suprafata
+                aggregates["suprafata_cladiri_mp"] += adjusted
             else:
                 field = CAT_TO_FIELD.get(categorie, "suprafata_alte_mp")
-                aggregates[field] += suprafata
+                aggregates[field] += adjusted
 
     return rows, aggregates
+
+
+def _parse_venituri_titular(sec_venituri: str) -> float:
+    """Extract only the declarant's own income from section VII.
+
+    Splits at sub-section markers (X.1., X.2., X.3.) and sums only the
+    X.1. (Titular) blocks, skipping soț/soție (X.2.) and copii (X.3.).
+    This avoids double-counting co-owned rental income and excludes
+    spouse/dependent income from the total.
+    """
+    total = 0.0
+    # Split on "X.1." / "X.2." / "X.3." markers (single digit each side)
+    parts = re.split(r"\b([1-9]\.[1-3]\.)", sec_venituri)
+    # With a capturing group, parts alternate: text, marker, text, marker, ...
+    i = 1
+    while i + 1 < len(parts):
+        marker = parts[i]
+        content = parts[i + 1]
+        if marker.endswith(".1."):  # titular subsection
+            total += _scan_amounts(content, threshold=100)
+        i += 2
+    return total
 
 
 def _parse_vehicule(sec_mobile: str) -> list[dict]:
@@ -381,6 +418,7 @@ def parse_pdf(pdf_path: Path) -> dict:
         "terenuri_count": 0,
         "cladiri_count": 0,
         "suprafata_total_mp": 0.0,
+        "venituri_titular_ron": 0.0,
         "suprafata_agricol_mp": 0.0,
         "suprafata_forestier_mp": 0.0,
         "suprafata_intravilan_mp": 0.0,
@@ -433,18 +471,14 @@ def parse_pdf(pdf_path: Path) -> dict:
     sec_terenuri = extract_section(sec_imobile, "1. Terenuri", ["2. Clădiri", "II. Bunuri mobile"])
     sec_cladiri = extract_section(sec_imobile, "2. Clădiri", ["II. Bunuri mobile"])
 
-    teren_matches = list(RE_MP.finditer(sec_terenuri))
-    cladire_matches = list(RE_MP.finditer(sec_cladiri))
-    result["terenuri_count"] = len(teren_matches)
-    result["cladiri_count"] = len(cladire_matches)
-    for m in teren_matches + cladire_matches:
-        mp = _parse_amount(m.group(1))
-        if mp and mp > 5:
-            result["suprafata_total_mp"] += mp
+    result["terenuri_count"] = len(list(RE_MP.finditer(sec_terenuri)))
+    result["cladiri_count"] = len(list(RE_MP.finditer(sec_cladiri)))
 
     imobile_rows, suprafata_cats = _parse_imobile_details(sec_terenuri, sec_cladiri)
     result["imobile_detaliate"] = imobile_rows
     result.update(suprafata_cats)
+    # suprafata_total_mp is the cota-adjusted sum across all categories
+    result["suprafata_total_mp"] = sum(suprafata_cats.values())
 
     # ── II. Bunuri mobile ─────────────────────────────────────────────────────
     sec_mobile = extract_section(full_text, "II. Bunuri mobile", MARKERS)
@@ -492,6 +526,7 @@ def parse_pdf(pdf_path: Path) -> dict:
         num = _parse_amount(m.group(1))
         if num and num > 100:
             result["venituri_anuale_ron"] += normalize_to_ron(num, m.group(2))
+    result["venituri_titular_ron"] = _parse_venituri_titular(sec_venituri)
 
     # ── Derived aggregates ────────────────────────────────────────────────────
     result["total_active_monetare_ron"] = (
