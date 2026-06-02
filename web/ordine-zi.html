@@ -442,7 +442,7 @@ async function load(){
         <h1>Ordinea de zi — legislatura ${LEG}</h1>
         <div>${NAV.renderLegToggle(LEG,'ordine-zi.html',[2024])}</div>
       </div>
-      <p class="sub">${allSessions.length} ședințe · ${total} puncte · Camera Deputaților</p>
+      <p class="sub">${allSessions.length} ședințe · ${total} puncte · Camera Deputaților · <a href="ordine-zi-lista.html?leg=${LEG}" style="color:var(--blue)">lista / filtrare →</a></p>
       <div class="year-nav" id="year-nav">
         ${sessYears.map(y=>`<button class="year-tab${y===selectedYear?' active':''}" data-year="${y}" onclick="setYear(${y})">${y}</button>`).join('')}
       </div>
