@@ -70,3 +70,10 @@ class OrdineZiItemEntities(BaseModel):
         default=None,
         description="Subiectul principal al punctului (text curat fără metadata procedurală).",
     )
+    institutions: list[str] = Field(
+        default_factory=list,
+        description=(
+            "Instituții menționate explicit: UE (Comisia Europeană, Parlamentul European, "
+            "Comitetul Regiunilor, CESE, Consiliul UE) și române (BNR, CSM, CCR, Curtea de Conturi)."
+        ),
+    )

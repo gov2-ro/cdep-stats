@@ -69,9 +69,8 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 
 ## Profile pages
 
-- [ ] **Avere comparison / rankings on deputy profile page**
-  - Add a contextual rankings section to the deputat avere profile: how does this deputy rank vs. national average, vs. party average, vs. same age cohort, vs. same județ. Show percentile for key metrics: total_active_monetare_ron, suprafata_total_mp, nr_imobile, venituri_anuale_ron.
-  - Requires: age from deputat profile (birth_date), județ from deputat profile, pre-computed party/age/județ aggregates in the stats build step.
+- [x] **Avere comparison / rankings on deputy profile page** — done (shipped in prior session)
+  - `renderAvereRanking(ctx)` in `deputat.html`: 5 metric bars (active, venituri, imobile, suprafata, datorii) + party/age/județ comparison chips. Data from `avere-context-{leg}.json`.
   - [ ] use `data/assets/geo/romania-counties.geojson` for choropleth județe comparison
 - [x] enhance avere.html with thumbnails for ppl and partide
 - [ ] 3rd lists view mode: bar chart (per category) matrix (one for each deputat) – LATER or SKIP alltogether
@@ -108,7 +107,7 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 - [ ] cele mai preferate mărci de mașini / pe partid, pe județ, pe vârstă
 
 - [ ] when/if json gets too large, go duckdb smth?
-
+- [ ] make a list of scraped targets, the fetched fields, and target files.
 
 - [ ] make more static? we generate static but load data from json?! is this SEO friendly?
 - [ ] create llms.txt

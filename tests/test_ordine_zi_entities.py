@@ -12,6 +12,7 @@ from scrapers.entities_ordine_zi import (
     extract_entities,
     extract_flags,
     extract_initiator,
+    extract_institutions,
     extract_item_type,
     extract_law_category,
     extract_referenced_acts,
@@ -475,3 +476,69 @@ def test_integration_dezbateri_politice() -> None:
     ent = extract_entities(html)
     assert ent.item_type == "dezbateri_politice"
     assert ent.initiator_group == "AUR"
+
+
+# ---------------------------------------------------------------------------
+# extract_institutions
+# ---------------------------------------------------------------------------
+
+def test_institutions_eu_comisie():
+    text = "Proiectul de Hotărâre privind adoptarea opiniei referitoare la Comunicarea Comisiei Europene"
+    assert "Comisia Europeană" in extract_institutions(text)
+
+def test_institutions_eu_multiple():
+    text = ("Comunicarea Comisiei Europene către Parlamentul European, Consiliul UE, "
+            "Comitetul Economic şi Social European şi Comitetul Regiunilor")
+    inst = extract_institutions(text)
+    assert "Comisia Europeană" in inst
+    assert "Parlamentul European" in inst
+    assert "Comitetul Regiunilor" in inst
+    assert "CESE" in inst
+    assert "Consiliul UE" in inst
+
+def test_institutions_bnr():
+    text = "Proiectul de Lege privind statutul Bancii Nationale a Romaniei"
+    assert "BNR" in extract_institutions(text)
+
+def test_institutions_csm():
+    text = "Propunere legislativă privind organizarea Consiliului Superior al Magistraturii"
+    assert "CSM" in extract_institutions(text)
+
+def test_institutions_none():
+    text = "Proiectul de Lege pentru modificarea Codului fiscal"
+    assert extract_institutions(text) == []
+
+def test_institutions_in_entities():
+    html = ("Proiectul de Hotărâre privind adoptarea opiniei referitoare la "
+            "Comunicarea Comisiei Europene și a Parlamentului European privind strategia digitală")
+    ent = extract_entities(html)
+    assert "Comisia Europeană" in ent.institutions
+    assert "Parlamentul European" in ent.institutions
+
+# ---------------------------------------------------------------------------
+# Extended action patterns
+# ---------------------------------------------------------------------------
+
+def test_action_prorogare():
+    text = "Proiectul de Lege privind prorogarea termenului prevăzut la art.5"
+    assert extract_action(text, "proiect_lege") == "prorogare"
+
+def test_action_ratificare():
+    text = "Proiectul de Lege privind ratificarea Acordului dintre România și Franța"
+    assert extract_action(text, "proiect_lege") == "ratificare"
+
+def test_action_adoptare_opinie():
+    text = "Proiectul de Hotărâre privind adoptarea opiniei referitoare la Comunicarea Comisiei"
+    assert extract_action(text, "proiect_hotarare") == "adoptare_opinie"
+
+# ---------------------------------------------------------------------------
+# Extended flag patterns
+# ---------------------------------------------------------------------------
+
+def test_flag_sesizare_neconstitutionalitate():
+    text = "Sesizare de neconstituționalitate a Legii nr.50/2020"
+    assert "sesizare_neconstitutionalitate" in extract_flags(text)
+
+def test_flag_cerere_reexaminare():
+    text = "Reexaminarea cererii de reexaminare a Legii nr.100/2024"
+    assert "cerere_reexaminare" in extract_flags(text)

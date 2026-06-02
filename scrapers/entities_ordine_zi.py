@@ -107,6 +107,11 @@ _ACTION_PATTERNS: list[tuple[str, str]] = [
     (r"privind revocarea", "revocare"),
     (r"privind vacantarea", "vacantare_act"),
     (r"privind transmiterea", "transmitere"),
+    (r"privind prorogarea", "prorogare"),
+    (r"privind ratificarea", "ratificare"),
+    (r"privind instituirea", "instituire"),
+    (r"privind declararea", "declarare"),
+    (r"privind adoptarea\s+opiniei", "adoptare_opinie"),
 ]
 
 # Item types where action extraction makes sense (legislative bill types)
@@ -161,6 +166,9 @@ _FLAG_PATTERNS: list[tuple[str, str]] = [
     (r"Vot\s+secret\s+cu\s+bile", "vot_secret_bile"),
     (r"Vot\s+deschis\s+electronic", "vot_deschis_electronic"),
     (r"condi[tț]iile\s+articolului\s+115", "adoptat_art115"),
+    (r"Sesizare\s+de\s+neconstitu[tț]ionalitate", "sesizare_neconstitutionalitate"),
+    (r"cerer(?:ea|ii|e)\s+de\s+reexaminare", "cerere_reexaminare"),
+    (r"complex(?:itate)?\s+deosebit[ăa]", "complexitate_deosebita"),
 ]
 
 
@@ -360,6 +368,61 @@ def extract_subject(plain_text: str, item_type: str | None) -> str | None:
 
 
 # ---------------------------------------------------------------------------
+# Institutions
+# ---------------------------------------------------------------------------
+
+# (label, pattern) — order matters for labelling; most specific first
+_INSTITUTION_PATTERNS: list[tuple[str, str]] = [
+    # EU institutions — handle both nominative and genitive Romanian forms
+    ("Comisia Europeană",
+     r"Comisi(?:a|ei)\s+Europe(?:an(?:[aă])?|ne)"),
+    ("Parlamentul European",
+     r"Parlamentul(?:ui)?\s+European"),
+    ("Comitetul Regiunilor",
+     r"Comitetul(?:ui)?\s+Regiunilor"),
+    ("CESE",
+     r"Comitetul(?:ui)?\s+Economic\s+[șsş]i\s+Social\s+European"),
+    ("Consiliul UE",
+     r"Consiliul(?:ui)?\s+(?:Uniunii\s+Europene|UE)\b"),
+    ("Curtea de Justiție UE",
+     r"Curtea\s+de\s+Justi[tț]ie\s+(?:a\s+)?Uniunii\s+Europene"),
+    ("Banca Centrală Europeană",
+     r"B[aă]nc(?:a|ii)\s+Central(?:[aă]|e)\s+European(?:[aă]|e)"),
+    # Romanian national institutions — nominative + genitive + no-diacritics
+    ("BNR",
+     r"B[aă]nc(?:a|ii)\s+Na[tț]ional(?:[aă]|e)\s+a\s+Rom[aâ]niei|BNR\b"),
+    ("CSM",
+     r"Consiliul(?:ui)?\s+Superior\s+al\s+Magistraturii|CSM\b"),
+    ("CCR",
+     r"Curtea\s+Constitu[tț]ional(?:[aă]|e)\s+a\s+Rom[aâ]niei|CCR\b"),
+    ("Curtea de Conturi",
+     r"Curtea\s+de\s+Conturi\b"),
+    ("Consiliul Concurenței",
+     r"Consiliul(?:ui)?\s+Concuren[tț]ei"),
+    ("Consiliul Fiscal",
+     r"Consiliul(?:ui)?\s+Fiscal\b"),
+    ("Consiliul Legislativ",
+     r"Consiliul(?:ui)?\s+Legislativ\b"),
+    ("CES România",
+     r"Consiliul(?:ui)?\s+Economic\s+[șsş]i\s+Social\b(?!\s+European)"),
+    ("ANCOM",                r"\bANCOM\b"),
+    ("ANPC",                 r"\bANPC\b"),
+    ("Loteria Română",       r"Loteria\s+Rom[aâ]n(?:[aă])?"),
+]
+
+_INSTITUTION_RE: list[tuple[str, re.Pattern[str]]] = [
+    (label, re.compile(pat, re.IGNORECASE))
+    for label, pat in _INSTITUTION_PATTERNS
+]
+
+
+def extract_institutions(plain_text: str) -> list[str]:
+    """Return deduplicated list of institution labels found in the text."""
+    norm = _normalize_ro(plain_text)
+    return [label for label, rx in _INSTITUTION_RE if rx.search(norm)]
+
+
+# ---------------------------------------------------------------------------
 # Top-level extractor
 # ---------------------------------------------------------------------------
 
@@ -377,6 +440,7 @@ def extract_entities(descriere: str) -> OrdineZiItemEntities:
         senate_adoption_date=extract_senate_date(plain),
         referenced_acts=extract_referenced_acts(plain),
         commissions=extract_commissions(plain),
+        institutions=extract_institutions(plain),
         initiator_group=group,
         initiator_count=count,
         initiator_type=itype,

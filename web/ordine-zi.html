@@ -202,6 +202,12 @@ function renderEntityMeta(it){
   if(ent.flags?.includes('prioritate_legislativa')) parts.push('<span class="bge bge-pri">prioritate</span>');
   if(ent.flags?.includes('camera_decizionala'))     parts.push('<span class="bge bge-cam">cam. dec.</span>');
   if(ent.flags?.includes('rezerva_raport'))         parts.push('<span class="bge bge-rez">rezervă raport</span>');
+  if(ent.institutions?.length){
+    const inst=ent.institutions
+      .map(i=>`<span class="item-comm-name">${i}</span>`)
+      .join('<span class="item-comm-sep"> · </span>');
+    parts.push(`<span class="item-comm" style="color:var(--blue)">${inst}</span>`);
+  }
   if(ent.commissions?.length){
     const comms=ent.commissions
       .map(c=>`<span class="item-comm-name">${c}</span>`)

@@ -6,7 +6,7 @@
     { href: "deputati-activitate.html", label: "Activitate" },
     { href: "comisii.html",           label: "Comisii" },
     { href: "interpelari-stats.html", label: "Interpelări" },
-    { href: "voturi.html",            label: "Voturi",      keys: ["voturi.html", "vot.html"] },
+    { href: "voturi.html",            label: "Voturi",      keys: ["voturi.html", "vot.html"], badge: "nou" },
     { href: "proiecte-stats.html",    label: "Proiecte" },
     { href: "proiect.html",           label: "Legi" },
     { href: "motiuni.html",           label: "Moțiuni" },
@@ -27,9 +27,10 @@
 
   function renderHeader() {
     const active = _activeHref();
-    const links = NAV_LINKS.map(l =>
-      `<a href="${l.href}"${l.href === active ? ' class="active"' : ""}>${l.label}</a>`
-    ).join("");
+    const links = NAV_LINKS.map(l => {
+      const badge = l.badge ? `<span class="nav-badge">${l.badge}</span>` : '';
+      return `<a href="${l.href}"${l.href === active ? ' class="active"' : ""}>${l.label}${badge}</a>`;
+    }).join("");
     document.getElementById("site-header").innerHTML = `
 <style>
 /* nav layout — injected by nav.js, overrides per-page defaults */
@@ -37,6 +38,7 @@
 .logo{white-space:nowrap!important;flex-shrink:0;font-size:14px!important;margin-right:4px;padding:3px 6px!important;line-height:1.4}
 .nav{display:contents}
 .nav a{font-size:12px!important;padding:3px 7px!important;white-space:nowrap}
+.nav-badge{background:#dc2626;color:#fff;font-size:8px;font-weight:700;letter-spacing:.2px;padding:1px 3px;border-radius:3px;margin-left:3px;vertical-align:middle;line-height:1;display:inline-block}
 #lang-toggle-slot{display:inline-flex!important;align-items:center}
 #lang-toggle-slot button,#lang-toggle-slot a{font-size:11px!important;padding:2px 4px!important}
 </style>
