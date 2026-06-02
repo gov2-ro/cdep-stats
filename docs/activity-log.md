@@ -2,6 +2,23 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-03 — Avere field accuracy fixes + vot cross-link improvements
+
+**What was done**
+- `parsers/avere_pdf.py` — `_cota_to_float()` helper; `_parse_imobile_details` now multiplies each property area by its cota-parte fraction before aggregating (was silently doubling areas for co-owned properties). `suprafata_total_mp` derived from sum of cota-adjusted per-category aggregates.
+- `parsers/avere_pdf.py` — `_parse_venituri_titular()` (new): splits section VII at X.1./X.2./X.3. subsection markers and sums only X.1. (titular) blocks, avoiding double-counted co-owned rental income and excluding spouse/dependent income. Stored as `venituri_titular_ron` (new field).
+- `schemas/avere.py` — added `venituri_titular_ron: float` to `AvereDeclaratie`.
+- Post-processed 131 existing deputy JSON files with the cota fix. Notable correction: Iordache Ion 10,858,310 m² → 5,429,155 m²; Enache Mihai-Adrian 2,686 m² → 1,992 m².
+- Rebuilt `avere-2024.json`, `avere-context-2024.json`, `home-2024.json` stats files.
+- `tests/test_avere_pdf_parser.py` — updated 3 cota-related tests; added 9 new tests (`_cota_to_float`, `_parse_venituri_titular`). 43 total, all pass.
+- `web/deputat.html` — suprafata card labelled "Suprafață (cotă)"; category breakdown uses cota-adjusted areas; income card shows "Venituri titular" when `venituri_titular_ron` is non-zero, else falls back to household total.
+- `web/vot.html` — `parseBillNr` replaced by `parseBillRef({type,nr})`: now handles `PH CD`/`PHCD` (proiecte hotărâre) votes (125 of 885) which previously got no link; they now get a cdep.ro fallback. Bill type label distinguishes `propunere_legislativa` from `proiect_lege`.
+
+**Decisions**
+- `venituri_anuale_ron` left unchanged (household total, backward-compatible); `venituri_titular_ron` is additive. On next PDF parse run (GitHub Actions), it will be populated; UI degrades gracefully until then.
+- Rankings in `build_avere_stats.py` still use `ultima_venituri_ron` (household total) — updating to use titular-only income is a follow-up task in backlog.
+- Suprafata post-processing script run inline (not committed as a script) since it's a one-time migration.
+
 ### 2026-06-02 — Entity extraction for ordine-zi agenda items
 
 **What was done**
