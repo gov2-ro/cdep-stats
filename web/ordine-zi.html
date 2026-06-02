@@ -73,8 +73,9 @@ h1{font-size:24px;font-weight:600;margin-bottom:4px}
 .session-card.open .session-body{display:block}
 
 .item-list{display:flex;flex-direction:column;gap:0}
-.item-row{display:flex;align-items:flex-start;gap:8px;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px}
+.item-row{display:flex;align-items:flex-start;gap:8px;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px;flex-wrap:wrap}
 .item-row:last-child{border-bottom:none}
+.item-main{display:flex;align-items:flex-start;gap:8px;width:100%}
 .item-pos{font-size:11px;color:var(--text3);min-width:24px;flex-shrink:0;padding-top:2px;font-family:var(--mono)}
 .item-desc{flex:1;line-height:1.45;color:var(--text)}
 .item-pdf{font-size:11px;flex-shrink:0;white-space:nowrap;padding-top:2px}
@@ -82,6 +83,15 @@ h1{font-size:24px;font-weight:600;margin-bottom:4px}
 .item-desc i{color:var(--text2);font-size:12px}
 .src-link{font-size:11px;color:var(--text3);padding:2px 6px;border-radius:3px;border:1px solid var(--border);white-space:nowrap}
 .src-link:hover{color:var(--text2);text-decoration:none!important;border-color:var(--border2)}
+.docs-toggle{font-size:11px;color:var(--text3);background:none;border:none;cursor:pointer;padding:3px 0 0;white-space:nowrap;font-family:var(--font)}
+.docs-toggle:hover{color:var(--blue)}
+.docs-list{display:none;width:100%;padding:6px 0 2px 32px}
+.docs-list.open{display:block}
+.doc-row{display:flex;align-items:baseline;gap:8px;padding:3px 0;font-size:12px;border-bottom:1px dotted var(--border)}
+.doc-row:last-child{border-bottom:none}
+.doc-date{color:var(--text3);white-space:nowrap;min-width:80px;flex-shrink:0;font-family:var(--mono);font-size:11px}
+.doc-title{flex:1;color:var(--text2)}
+.doc-src{font-size:10px;color:var(--text3);flex-shrink:0}
 
 .loading{text-align:center;padding:60px 0;color:var(--text3)}
 .error{padding:20px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius);margin:20px 0}
@@ -112,16 +122,40 @@ function toggleCard(header){
   card.classList.toggle('open');
 }
 
+function toggleDocs(btn){
+  const list = btn.closest('.item-row').querySelector('.docs-list');
+  const open = list.classList.toggle('open');
+  btn.textContent = open ? 'documente ▲' : `documente (${btn.dataset.count}) ▼`;
+}
+
+function renderDocs(docs){
+  if(!docs||!docs.length) return '';
+  const rows = docs.map(d=>{
+    const date = d.data || '';
+    const pdf = d.pdf_url ? `<a href="${d.pdf_url}" target="_blank" rel="noopener" style="font-size:11px;flex-shrink:0">PDF ↗</a>` : '';
+    const src = d.sursa==='caseta' ? '<span class="doc-src">caseta</span>' : '';
+    return`<div class="doc-row"><span class="doc-date">${date}</span><span class="doc-title">${d.titlu}</span>${src}${pdf}</div>`;
+  }).join('');
+  return`<div class="docs-list">${rows}</div>`;
+}
+
 function renderItems(items){
   if(!items||!items.length) return '<p style="color:var(--text3);font-size:13px">Niciun punct pe ordinea de zi.</p>';
   return items.map((it,i)=>{
     const pos = it.pozitie!=null ? String(it.pozitie) : '–';
     const pdf = it.doc_pdf_url ? `<a class="item-pdf" href="${it.doc_pdf_url}" target="_blank" rel="noopener">PDF ↗</a>` : '';
     const nr = it.nr_inregistrare ? `<div style="color:var(--text3);font-size:11px;margin-top:2px">${it.nr_inregistrare}</div>` : '';
+    const docsHtml = renderDocs(it.docs);
+    const docsToggle = (it.docs&&it.docs.length)
+      ? `<button class="docs-toggle" onclick="toggleDocs(this)" data-count="${it.docs.length}">documente (${it.docs.length}) ▼</button>`
+      : '';
     return`<div class="item-row">
-      <span class="item-pos">${pos}.</span>
-      <span class="item-desc">${it.descriere||'—'}${nr}</span>
-      ${pdf}
+      <div class="item-main">
+        <span class="item-pos">${pos}.</span>
+        <span class="item-desc">${it.descriere||'—'}${nr}</span>
+        ${docsToggle}${pdf}
+      </div>
+      ${docsHtml}
     </div>`;
   }).join('');
 }

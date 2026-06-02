@@ -15,18 +15,21 @@ import calendar
 import hashlib
 import logging
 import re
+import shutil
+import sys
 from datetime import date
 from urllib.parse import urljoin
 
 from parsel import Selector
 
-from schemas.ordine_zi import OrdineZi, OrdineZiItem
+from schemas.ordine_zi import DocOrdineZiItem, OrdineZi, OrdineZiItem
 from scrapers._http import get
 
 logger = logging.getLogger(__name__)
 
 BASE = "https://www.cdep.ro"
 LIST_URL = BASE + "/ords/pls/caseta/ecaseta2015.zile_ordinezi?lu={mm}&an={yyyy}"
+DOCS_URL = BASE + "/ords/pls/caseta/ecaseta2015.more_docs_pl?ozitm={ozitm}&npl=1"
 DETAIL_URL = BASE + "/ords/pls/caseta/ecaseta2015.OrdineZi?dat={yyyymmdd}"
 
 
@@ -147,6 +150,50 @@ def list_session_dates_for_month(year: int, month: int) -> list[date]:
     return sorted(out)
 
 
+def fetch_item_docs(ozitm: int) -> list[DocOrdineZiItem]:
+    """Fetch documente asociate unui punct (more_docs_pl)."""
+    url = DOCS_URL.format(ozitm=ozitm)
+    try:
+        r = get(url)
+        r.raise_for_status()
+    except Exception as e:
+        logger.warning(f"  docs ozitm={ozitm}: {e}")
+        return []
+
+    sel = Selector(text=r.text)
+    docs: list[DocOrdineZiItem] = []
+
+    # Outer table has 2 data cells: fisa_pl (td[0]) and caseta (td[2], after spacer)
+    inner_tables = sel.css("table > tr > td > table")
+    sursa_labels = ["fisa_pl", "caseta"]
+
+    for inner_table, sursa in zip(inner_tables, sursa_labels):
+        for tr in inner_table.css("tr"):
+            cells = tr.css("td")
+            # Skip header/separator rows (single cell spanning all columns)
+            if not cells or cells[0].attrib.get("colspan"):
+                continue
+            if len(cells) < 2:
+                continue
+
+            date_raw = cells[0].css("::text").get("").strip().strip("\xa0")
+            titlu = " ".join(t.strip() for t in cells[1].css("::text").getall() if t.strip())
+            if not titlu:
+                continue
+
+            pdf_href = cells[2].css("a::attr(href)").get() if len(cells) > 2 else None
+            docs.append(
+                DocOrdineZiItem(
+                    data=_parse_iso_date(date_raw) if date_raw else None,
+                    titlu=titlu,
+                    pdf_url=urljoin(BASE, pdf_href) if pdf_href else None,
+                    sursa=sursa,
+                )
+            )
+
+    return docs
+
+
 def parse_session(session_date: date, legislatura: int, cam: int = 2) -> OrdineZi | None:
     """Fetch + parse ordinea de zi pentru o zi specifică."""
     ymd = session_date.strftime("%Y%m%d")
@@ -244,6 +291,7 @@ def parse_session(session_date: date, legislatura: int, cam: int = 2) -> OrdineZ
                     ozitm = int(m_oz.group(1))
                     break
 
+            item_docs = fetch_item_docs(ozitm) if ozitm else []
             items.append(
                 OrdineZiItem(
                     pozitie=pozitie,
@@ -252,6 +300,7 @@ def parse_session(session_date: date, legislatura: int, cam: int = 2) -> OrdineZ
                     descriere=descriere,
                     doc_pdf_url=doc_pdf_url,
                     ozitm=ozitm,
+                    docs=item_docs,
                 )
             )
         break  # un singur tabel cu acest header
@@ -298,15 +347,24 @@ def scrape_year(
     )
 
     results: list[OrdineZi] = []
+    total = len(new_dates)
+    tty = total > 0 and sys.stderr.isatty()
     for i, d in enumerate(new_dates, 1):
+        if tty:
+            cols = shutil.get_terminal_size((80, 24)).columns
+            pct = i * 100 // total
+            bar = "=" * (pct // 5) + "-" * (20 - pct // 5)
+            line = f"  [{bar}] {i}/{total}  {d}"
+            sys.stderr.write(f"\r\033[K{line[:cols - 1]}")
+            sys.stderr.flush()
         try:
             ord_z = parse_session(d, legislatura=legislatura, cam=cam)
             if ord_z:
                 results.append(ord_z)
-                if i % 10 == 0:
-                    logger.info(f"  [{i}/{len(new_dates)}] processed")
         except Exception as e:
             logger.warning(f"  {d}: {e}")
+    if tty:
+        sys.stderr.write("\n")
 
     logger.info(f"year={year}: {len(results)} parsed successfully")
     return results
