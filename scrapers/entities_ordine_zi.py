@@ -230,6 +230,33 @@ def extract_referenced_acts(plain_text: str) -> list[ReferencedAct]:
 # ---------------------------------------------------------------------------
 
 
+# Commission slug mapping: (fragment in normalized commission name, slug)
+_COMMISSION_SLUG_MAP: list[tuple[str, str]] = [
+    ("juridic", "juridica"),
+    ("constituționalitate", "constitutionalitate"),
+    ("buget", "buget_finante"),
+    ("muncă", "munca"),
+    ("sănătate", "sanatate"),
+    ("învățământ", "invatamant"),
+    ("economică", "economica"),
+    ("industrii", "industrii"),
+    ("agricultură", "agricultura"),
+    ("mediu", "mediu"),
+    ("transporturi", "transporturi"),
+    ("apărare", "aparare"),
+    ("politică externă", "politica_externa"),
+    ("administrație publică", "administratie_publica"),
+    ("drepturile omului", "drepturile_omului"),
+    ("egalitate", "egalitate"),
+    ("tineretul", "tineret"),
+    ("cultură", "cultura"),
+    ("tehnologia informației", "it_comunicatii"),
+    ("știință", "stiinta"),
+    ("violenței domestice", "violenta_domestica"),
+    ("specială comună", "speciala_comuna"),
+]
+
+
 def extract_commissions(plain_text: str) -> list[str]:
     """Extract commission names from 'Raport [comun] - Comisia X [și Comisia Y]' patterns."""
     norm = _normalize_ro(plain_text)
@@ -247,6 +274,15 @@ def extract_commissions(plain_text: str) -> list[str]:
             if p:
                 commissions.append(p)
     return commissions
+
+
+def normalize_commission_slug(name: str) -> str | None:
+    """Map a commission name to its slug. Returns None if no match found."""
+    norm = _normalize_ro(name.lower())
+    for fragment, slug in _COMMISSION_SLUG_MAP:
+        if fragment in norm:
+            return slug
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -408,6 +444,13 @@ _INSTITUTION_PATTERNS: list[tuple[str, str]] = [
     ("ANCOM",                r"\bANCOM\b"),
     ("ANPC",                 r"\bANPC\b"),
     ("Loteria Română",       r"Loteria\s+Rom[aâ]n(?:[aă])?"),
+    # Specialized bodies
+    ("Inspecția Muncii",
+     r"Inspecți(?:a|ei)\s+Muncii"),
+    ("Academia de Științe Agricole",
+     r"Academi(?:a|ei)\s+de\s+[Șș]tiin[țt]e\s+Agricole(?:\s+[șs]i\s+Silvice)?|ASAS\b"),
+    ("RA-APPS",
+     r"Regia\s+Autonom[aă]\s+Administrați(?:a|ei)\s+Patrimoniului\s+Protocolului\s+de\s+Stat|RA-APPS\b"),
 ]
 
 _INSTITUTION_RE: list[tuple[str, re.Pattern[str]]] = [
@@ -432,6 +475,8 @@ def extract_entities(descriere: str) -> OrdineZiItemEntities:
     plain = _strip_html(descriere)
     item_type = extract_item_type(plain)
     group, count, itype = extract_initiator(plain)
+    commissions = extract_commissions(plain)
+    commission_slugs = [s for c in commissions if (s := normalize_commission_slug(c)) is not None]
     return OrdineZiItemEntities(
         item_type=item_type,
         action=extract_action(plain, item_type),
@@ -439,7 +484,8 @@ def extract_entities(descriere: str) -> OrdineZiItemEntities:
         flags=extract_flags(plain),
         senate_adoption_date=extract_senate_date(plain),
         referenced_acts=extract_referenced_acts(plain),
-        commissions=extract_commissions(plain),
+        commissions=commissions,
+        commission_slugs=commission_slugs,
         institutions=extract_institutions(plain),
         initiator_group=group,
         initiator_count=count,

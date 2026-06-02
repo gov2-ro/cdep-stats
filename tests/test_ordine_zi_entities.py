@@ -18,6 +18,7 @@ from scrapers.entities_ordine_zi import (
     extract_referenced_acts,
     extract_senate_date,
     extract_subject,
+    normalize_commission_slug,
 )
 
 
@@ -542,3 +543,61 @@ def test_flag_sesizare_neconstitutionalitate():
 def test_flag_cerere_reexaminare():
     text = "Reexaminarea cererii de reexaminare a Legii nr.100/2024"
     assert "cerere_reexaminare" in extract_flags(text)
+
+# ---------------------------------------------------------------------------
+# New specialized bodies
+# ---------------------------------------------------------------------------
+
+def test_institution_inspectia_muncii():
+    text = "Proiectul de Lege referitoare la raportul Inspecției Muncii"
+    assert "Inspecția Muncii" in extract_institutions(text)
+
+def test_institution_inspectia_muncii_nominative():
+    text = "Avizul Inspecția Muncii privind normele de securitate"
+    assert "Inspecția Muncii" in extract_institutions(text)
+
+def test_institution_academia_stiinte_agricole():
+    text = "Proiectul de Lege adoptat pe recomandarea Academiei de Științe Agricole și Silvice"
+    assert "Academia de Științe Agricole" in extract_institutions(text)
+
+def test_institution_academia_asas():
+    text = "Conformitate cu opinia ASAS"
+    assert "Academia de Științe Agricole" in extract_institutions(text)
+
+def test_institution_ra_apps():
+    text = "Proiectul de Hotărâre referitor la Administrația Patrimoniului Protocolului de Stat RA-APPS"
+    assert "RA-APPS" in extract_institutions(text)
+
+def test_institution_ra_apps_full():
+    text = "Aprobarea Regia Autonomă Administrația Patrimoniului Protocolului de Stat"
+    assert "RA-APPS" in extract_institutions(text)
+
+# ---------------------------------------------------------------------------
+# Commission slug normalization
+# ---------------------------------------------------------------------------
+
+def test_commission_slug_juridica():
+    assert normalize_commission_slug("Comisia juridică, de disciplină și imunități") == "juridica"
+
+def test_commission_slug_buget():
+    assert normalize_commission_slug("Comisia pentru buget, finanțe și bănci") == "buget_finante"
+
+def test_commission_slug_munca():
+    assert normalize_commission_slug("Comisia pentru muncă și protecție socială") == "munca"
+
+def test_commission_slug_sanatate():
+    assert normalize_commission_slug("Comisia pentru sănătate și familie") == "sanatate"
+
+def test_commission_slug_agricultura():
+    assert normalize_commission_slug("Comisia pentru agricultură, silvicultură, industrie alimentară") == "agricultura"
+
+def test_commission_slug_none():
+    assert normalize_commission_slug("Comisia pentru ceva necunoscut") is None
+
+def test_commission_slugs_in_entities():
+    html = ("Proiectul de Lege pentru modificarea Codului penal - lege organică - "
+            "Raport comun - Comisia juridică, de disciplină și imunități și Comisia pentru cultură, arte și mijloace de informare în masă")
+    ent = extract_entities(html)
+    assert "juridica" in ent.commission_slugs
+    assert "cultura" in ent.commission_slugs
+    assert len(ent.commission_slugs) == 2

@@ -2,19 +2,20 @@
   "use strict";
 
   const NAV_LINKS = [
-    { href: "avere.html",             label: "Averi",       keys: ["avere.html", "deputati-avere.html"] },
+    { href: "ordine-zi.html",         label: "Agendă" },
     { href: "deputati-activitate.html", label: "Activitate" },
-    { href: "comisii.html",           label: "Comisii" },
     { href: "interpelari-stats.html", label: "Interpelări" },
-    { href: "voturi.html",            label: "Voturi",      keys: ["voturi.html", "vot.html"], badge: "nou" },
+    { href: "voturi.html",            label: "Voturi",      keys: ["voturi.html", "vot.html"]},
     { href: "proiecte-stats.html",    label: "Proiecte" },
     { href: "proiect.html",           label: "Legi" },
     { href: "motiuni.html",           label: "Moțiuni" },
-    { href: "ordine-zi.html",         label: "Agendă" },
+    { href: "avere.html",             label: "Averi",       keys: ["avere.html", "deputati-avere.html"] },
     { href: "interese.html",          label: "Interese" },
+    { href: "comisii.html",           label: "Comisii" },
     { href: "partide.html",           label: "Partide",     keys: ["partide.html", "partid.html"] },
     { href: "judete.html",            label: "Județe" },
   ];
+  //     { href: "voturi.html",            label: "Voturi",      keys: ["voturi.html", "vot.html"], badge: "nou" },
 
   function _activeHref() {
     const file = window.location.pathname.split("/").pop() || "index.html";

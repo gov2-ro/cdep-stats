@@ -1,0 +1,102 @@
+Category,Entity / Term,Regex Rule
+Action Verbs,Approve,(?i)aprobarea
+Action Verbs,Complete,(?i)completarea
+Action Verbs,Declare,(?i)declararea
+Action Verbs,Establish,(?i)instituirea|înfiinţarea
+Action Verbs,Institutionalization,(?i)instituirea
+Action Verbs,Modify,(?i)modificarea
+Action Verbs,Prorogation (Extension),(?i)prorogarea\s+termenului
+Action Verbs,Ratify,(?i)ratificarea
+Constitutional Refs,Constitution Article,"(?i)art\.\s*\d+(\s+alin\.\s*\(\d+\))?\s+din\s+Constituţi(a|e)"
+Government Acts,Emergency Ordinance (OUG),"(?i)Ordonanţ(a|ei)\s+de\s+urgenţă\s+a\s+Guvernului\s+nr\.\s*\d+(\/\d{4})?|OUG\s+nr\.\s*\d+(\/\d{4})?"
+Government Acts,Government Ordinance (OG),"(?i)Ordonanţ(a|ei)\s+Guvernului\s+nr\.\s*\d+(\/\d{4})?|OG\s+nr\.\s*\d+(\/\d{4})?"
+International Institutions,Committee of the Regions,(?i)Comitetul\s+Regiunilor
+International Institutions,European Central Bank,(?i)Banca\s+Centrală\s+Europeană
+International Institutions,European Commission,(?i)Comisia\s+Europeană|Comisiei
+Judicial Acts,Constitutional Court Decision (DCC),"(?i)Decizi(a|ei)\s+(Curţii\s+Constituţionale\s+)?nr\.\s*\d+(\s+din\s+[^,\n]+)?|DCC\s+nr\.\s*\d+"
+Legal Subjects,Civil Status Acts,(?i)actele\s+de\s+stare\s+civilă
+Legal Subjects,Cybersecurity,(?i)securitatea\s+cibernetică
+Legal Subjects,Energy Efficiency,(?i)eficiența\s+energetică
+Legal Subjects,Gambling,(?i)jocurilor\s+de\s+noroc
+Legislative Acts,Administrative Code,(?i)Codul\s+Administrativ
+Legislative Acts,Civil Procedure Code,(?i)Codul\s+de\s+procedură\s+civilă
+Legislative Acts,Criminal Code,(?i)Codul\s+penal
+Legislative Acts,Decision / Opinion,(?i)PHCD\s+\d+/\d{4}
+Legislative Acts,Decision of the Constitutional Court (DCC),(?i)Decizi(a|ei)\s+Curții\s+Constituționale|DCC
+Legislative Acts,Draft Law / Proposal,(?i)Pl-x\s+\d+/\d{4}
+Legislative Acts,Emergency Ordinance,(?i)Ordonanţa\s+de\s+urgenţă\s+a\s+Guvernului|OUG
+Legislative Acts,Fiscal Code,(?i)Codul\s+fiscal
+Legislative Acts,Fiscal Procedure Code,(?i)Codul\s+de\s+procedură\s+fiscală
+Legislative Acts,Government Ordinance,(?i)Ordonanţa\s+Guvernului|OG
+Legislative Acts,Labor Code,(?i)Codul\s+muncii
+Legislative Acts,Ordinary Law,(?i)lege\s+ordinară
+Legislative Acts,Organic Law,(?i)lege\s+organică
+Legislative Identifiers,PHCD (Chamber Decision Registration),"(?i)PHCD\s+\d+/\d{4}"
+Legislative Identifiers,Pl-x (Draft Law Registration),"(?i)PL-x\s+\d+/\d{4}"
+National Institutions,ANCOM / ANPC,(?i)ANCOM|ANPC
+National Institutions,Chamber of Deputies,(?i)Camera\s+Deputaţilor
+National Institutions,Competition Council,(?i)Consiliul\s+Concurenței
+National Institutions,Constitutional Court (CCR),(?i)Curtea\s+Constituţională|DCC
+National Institutions,Economic and Social Council (CES),(?i)Consiliul\s+Economic\s+şi\s+Social|CES
+National Institutions,Fiscal Council,(?i)Consiliul\s+Fiscal
+National Institutions,Government of Romania,(?i)Guvernul\s+României
+National Institutions,Labor Inspection,(?i)Inspecți(ei|a)\s+Muncii
+National Institutions,Legislative Council,(?i)Consiliul\s+Legislativ
+National Institutions,Loteria Română,(?i)Loteria\s+Română
+National Institutions,National Agency of Public Servants,(?i)Agenți(a|ei)\s+Național(ă|e)\s+a\s+Funcționarilor\s+Publici
+National Institutions,National Bank (BNR),(?i)Banca\s+Naţională\s+a\s+României|BNR
+National Institutions,Senate,(?i)Senat(ul)?
+National Institutions,Superior Council of Magistracy (CSM),(?i)Consiliul\s+Superior\s+al\s+Magistraturii|CSM
+Parliamentary Commissions,Agriculture & Forestry,"(?i)Comisia\s+pentru\s+agricultură(,\s+silvicultură,\s+industrie\s+alimentară\s+şi\s+servicii\s+specifice)?"
+Parliamentary Commissions,Budget & Finance,"(?i)Comisia\s+pentru\s+buget(,\s+finanţe\s+şi\s+bănci)?"
+Parliamentary Commissions,Constitutionality,"(?i)Comisia\s+pentru\s+constituţionalitate"
+Parliamentary Commissions,Constitutionality,(?i)Comisia\s+pentru\s+constituționalitate
+Parliamentary Commissions,Culture & Media,"(?i)Comisia\s+pentru\s+cultură(,\s+arte\s+și\s+mijloace\s+de\s+informare\s+în\s+masă)?"
+Parliamentary Commissions,Defense / National Security,"(?i)Comisia\s+pentru\s+apărare(,\s+ordine\s+publică\s+şi\s+siguranţă\s+naţională)?"
+Parliamentary Commissions,Economic Policy,"(?i)Comisia\s+pentru\s+politică\s+economică(,\s+reformă\s+şi\s+privatizare)?"
+Parliamentary Commissions,Education,(?i)Comisia\s+pentru\s+învăţământ
+Parliamentary Commissions,Environment,(?i)Comisia\s+pentru\s+mediu(\s+şi\s+echilibru\s+ecologic)?
+Parliamentary Commissions,Equality of Opportunity,"(?i)Comisia\s+pentru\s+egalitatea\s+de\s+şanse(,\s+pentru\s+femei\s+şi\s+bărbaţi)?"
+Parliamentary Commissions,Foreign Policy,(?i)Comisia\s+pentru\s+politică\s+externă
+Parliamentary Commissions,Health & Family,(?i)Comisia\s+pentru\s+sănătate(\s+şi\s+familie)?
+Parliamentary Commissions,Human Rights,"(?i)Comisia\s+pentru\s+drepturile\s+omului(,\s+culte\s+şi\s+problemele\s+minorităţilor\s+naţionale)?"
+Parliamentary Commissions,Industries & Services,(?i)Comisia\s+pentru\s+industrii(\s+şi\s+servicii)?
+Parliamentary Commissions,IT & Communications,(?i)Comisia\s+pentru\s+tehnologia\s+informaţiei(\s+şi\s+comunicaţiilor)?
+Parliamentary Commissions,Joint Special Commission,(?i)Comisia\s+specială\s+comună
+Parliamentary Commissions,Labor & Social Protection,(?i)Comisia\s+pentru\s+muncă(\s+şi\s+protecţie\s+socială)?
+Parliamentary Commissions,Legal / Juridical,"(?i)Comisia\s+juridică(,\s+de\s+disciplină\s+şi\s+imunităţi)?"
+Parliamentary Commissions,Public Administration,(?i)Comisia\s+pentru\s+administraţie\s+publică
+Parliamentary Commissions,Science & Technology,(?i)Comisia\s+(pentru\s+)?știință\s+și\s+tehnologie
+Parliamentary Commissions,Special Domestic Violence Commission,"(?i)Comisia\s+specială\s+comună\s+.+\s+violenţei\s+domestice"
+Parliamentary Commissions,Transport & Infrastructure,"(?i)Comisia\s+pentru\s+transporturi\s+şi\s+infrastructură"
+Parliamentary Commissions,Youth & Sport,(?i)Comisia\s+pentru\s+tineret\s+și\s+sport
+People & Geography,Ankara / Sarajevo,(?i)Ankara|Sarajevo
+People & Geography,Apuseni Mountains,(?i)Munții\s+Apuseni
+People & Geography,Bosnia and Herzegovina,(?i)Bosni(ei|a)\s+și\s+Herțegovina
+People & Geography,Bulgaria / Bulgarian Language,(?i)Bulgar(e|ia)
+People & Geography,Danube Delta,(?i)Delta\s+Dunării
+People & Geography,Gheorghe Nacov,(?i)Gheorghe\s+Nacov
+People & Geography,Ilfov / Voluntari,(?i)Voluntari|județul\s+Ilfov
+People & Geography,Ioana Grosaru,(?i)Ioana\s+Grosaru
+People & Geography,Italy,(?i)Republicii\s+Italiene
+People & Geography,President of Romania,(?i)Preşedintele\s+României
+People & Geography,Traian Vuia,(?i)Traian\s+Vuia
+People & Geography,Voluntari,(?i)Voluntari
+Primary Legislation,Law Number (Legea nr. xxx),"(?i)Leg(ea|ii)\s+nr\.\s*\d+(\/\d{4})?"
+Procedural Refs,Rules of Procedure Article,"(?i)art\.\s*\d+\s+din\s+Regulamentul\s+Camerei\s+Deputaţilor"
+Procedural Status,Adopted,(?i)Adoptat(ă)?
+Procedural Status,Complexity Extension,(?i)legilor\s+de\s+complexitate\s+deosebită
+Procedural Status,Decisional Chamber,(?i)Cameră\s+decizională
+Procedural Status,Distributed,(?i)distribuit(-\d{2}\.\d{2}\.\d{4})?
+Procedural Status,Emergency Procedure,(?i)Procedură\s+de\s+urgenţă
+Procedural Status,Legislative Priority,(?i)Prioritate\s+legislativă
+Procedural Status,Re-examination Request,(?i)cerer(e|ii)\s+de\s+reexaminare
+Procedural Status,Re-examined,(?i)Reexaminat(ă)?
+Procedural Status,Rejected,(?i)Respins(ă)?|Respingere
+Procedural Status,Returned to Commission,(?i)Retrimisă\s+la\s+comisie
+Procedural Status,Unconstitutionality Challenge,(?i)Sesizare\s+de\s+neconstituționalitate
+Procedural Status,Under Reserve (Report),(?i)sub\s+rezerva\s+depunerii\s+raportului
+Publication,Official Gazette,"(?i)Monitorul\s+Oficial\s+al\s+României"
+Specialized Bodies,Academia de Ştiinţe Agricole,"(?i)Academi(a|ei)\s+de\s+Ştiinţe\s+Agricole\s+şi\s+Silvice"
+Specialized Bodies,Inspecţia Muncii,"(?i)Inspecţi(a|ei)\s+Muncii"
+Specialized Bodies,RA-APPS (Protocol Administration),"(?i)Regia\s+Autonomă\s+Administraţia\s+Patrimoniului\s+Protocolului\s+de\s+Stat|RA-APPS"

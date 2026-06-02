@@ -56,6 +56,9 @@ class OrdineZiItemEntities(BaseModel):
     commissions: list[str] = Field(
         default_factory=list, description="Comisiile menționate în secțiunea Raport/Raport comun."
     )
+    commission_slugs: list[str] = Field(
+        default_factory=list, description="Slugs normalizate ale comisiilor (ex. 'juridica', 'buget_finante')."
+    )
     initiator_group: str | None = Field(
         default=None, description="Grupul parlamentar inițiator (ex. 'AUR', 'S.O.S. - România')."
     )
