@@ -6,6 +6,17 @@ from datetime import date
 
 from pydantic import BaseModel, Field, HttpUrl
 
+from schemas.ordine_zi_entities import OrdineZiItemEntities
+
+
+class DocOrdineZiItem(BaseModel):
+    """Un document asociat unui punct de pe ordinea de zi (din more_docs_pl)."""
+
+    data: date | None = Field(default=None, description="Data documentului.")
+    titlu: str = Field(description="Denumirea documentului.")
+    pdf_url: HttpUrl | None = Field(default=None, description="Link PDF la document.")
+    sursa: str = Field(default="fisa_pl", description='"fisa_pl" sau "caseta".')
+
 
 class OrdineZiItem(BaseModel):
     """Un punct de pe ordinea de zi."""
@@ -22,13 +33,19 @@ class OrdineZiItem(BaseModel):
         default=None,
         description="Cdep_idp pentru cross-link cu /proiecte endpoint. None dacă nu e proiect.",
     )
-    descriere: str = Field(description="Textul descriptiv al punctului.")
+    descriere: str = Field(description="Textul descriptiv al punctului (poate conține markup HTML: <b>, <i>, <br>).")
     doc_pdf_url: HttpUrl | None = Field(
         default=None, description="Link PDF cu textul punctului (alocuțiune, comunicare etc.)."
     )
     ozitm: int | None = Field(
         default=None,
         description="ID intern cdep.ro pentru documentele asociate (`more_docs_pl?ozitm=N`).",
+    )
+    docs: list[DocOrdineZiItem] = Field(
+        default_factory=list, description="Documente asociate din more_docs_pl (fisa PL + caseta)."
+    )
+    entities: OrdineZiItemEntities | None = Field(
+        default=None, description="Entități extrase din câmpul descriere (populate de build_ordine_zi_entities.py)."
     )
 
 

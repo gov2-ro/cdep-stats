@@ -20,23 +20,20 @@
   --bg:#fff;--bg2:#f8f8f6;--bg3:#f2f1ee;
   --text:#1a1a1a;--text2:#555;--text3:#888;
   --border:#e0deda;--border2:#ccc;
-  --green:#1D9E75;--green-bg:#EAF3DE;--green-text:#3B6D11;
+  --green:#1D9E75;
   --blue:#185FA5;--blue-bg:#E6F1FB;--blue-text:#185FA5;
   --red-bg:#FCEBEB;--red-text:#A32D2D;
-  --amber-bg:#FAEEDA;--amber-text:#854F0B;
   --radius:10px;--radius-sm:6px;
   --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
   --mono:'SF Mono','Fira Code','Consolas',monospace;
 }
-@media(prefers-color-scheme:dark){
-  :root:not(.light-mode){--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;}
-}
+@media(prefers-color-scheme:dark){:root:not(.light-mode){--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;.bge-org{background:#4c1d9533;color:#c4b5fd}.bge-ord{background:#1e3a8a33;color:#93c5fd}.bge-urg{background:#7f1d1d33;color:#fca5a5}.bge-cam{background:#0c4a6e33;color:#7dd3fc}.bge-pri{background:#14532d33;color:#86efac}.bge-rez{background:#78350f33;color:#fde68a}}}
 :root.dark-mode{--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;}
-body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.5;font-size:14px}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
 .header{border-bottom:1px solid var(--border);padding:8px 0}
-.header-inner{max-width:1100px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:16px}
+.header-inner{max-width:1100px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:16px}
 .logo{font-size:15px;font-weight:600;color:var(--text);text-decoration:none}
 .logo span{color:var(--green)}
 .logo em{font-style:normal;color:var(--text2)}
@@ -44,46 +41,106 @@ a:hover{text-decoration:underline}
 .nav a{white-space:nowrap;font-size:13px;padding:5px 10px;border-radius:var(--radius-sm);color:var(--text2);text-decoration:none}
 .nav a:hover{background:var(--bg2)}
 .nav a.active{color:var(--text);font-weight:600}
-@media(max-width:820px){
-  .header-inner{gap:12px;padding:0 16px}
-  .nav a{font-size:12px;padding:4px 8px}
-  .nav span:not(#lang-toggle-slot){display:none}
-}
-@media(max-width:620px){
-  .header-inner{flex-wrap:wrap;gap:8px}
-  .logo{flex:0 0 auto}
-  .nav{flex:0 1 auto;margin-left:0;overflow-x:auto;-webkit-overflow-scrolling:touch;min-width:0}
-  .nav a{font-size:11px;padding:3px 6px;flex-shrink:0}
-}
-.container{max-width:1100px;margin:0 auto;padding:28px 24px}
-h1{font-size:24px;font-weight:600;margin-bottom:4px}
-.sub{color:var(--text3);font-size:13px;margin-bottom:24px}
+@media(max-width:820px){.header-inner{gap:12px;padding:0 14px}.nav a{font-size:12px;padding:4px 8px}.nav span:not(#lang-toggle-slot){display:none}}
+@media(max-width:620px){.header-inner{flex-wrap:wrap;gap:8px}.logo{flex:0 0 auto}.nav{flex:0 1 auto;margin-left:0;overflow-x:auto;min-width:0}.nav a{font-size:11px;padding:3px 6px;flex-shrink:0}}
+.container{max-width:1100px;margin:0 auto;padding:16px 20px}
+h1{font-size:20px;font-weight:600}
+.sub{color:var(--text3);font-size:12px;margin-bottom:14px}
 
-.session-list{display:flex;flex-direction:column;gap:10px}
-.session-card{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
-.session-header{display:flex;align-items:center;gap:10px;padding:12px 16px;cursor:pointer;user-select:none;background:var(--bg2)}
-.session-header:hover{background:var(--bg3)}
-.session-date{font-size:14px;font-weight:600;min-width:130px;flex-shrink:0}
-.session-title-text{flex:1;font-size:13px;color:var(--text2);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.session-meta{display:flex;gap:8px;align-items:center;flex-shrink:0}
-.pill{font-size:10px;padding:2px 7px;border-radius:3px;background:var(--bg3);color:var(--text2);white-space:nowrap;font-weight:500}
-.chevron{font-size:11px;color:var(--text3);transition:transform 0.15s;flex-shrink:0}
-.session-card.open .chevron{transform:rotate(90deg)}
-.session-body{display:none;padding:16px;border-top:1px solid var(--border)}
-.session-card.open .session-body{display:block}
+/* ── year nav ── */
+.year-nav{display:flex;gap:4px;margin-bottom:12px;align-items:center;flex-wrap:wrap}
+.year-tab{padding:3px 14px;border-radius:var(--radius-sm);border:1px solid var(--border);background:none;cursor:pointer;font-size:13px;font-weight:600;color:var(--text2);font-family:var(--font)}
+.year-tab:hover:not(.active){background:var(--bg3)}
+.year-tab.active{background:var(--blue);color:#fff;border-color:var(--blue)}
 
-.item-list{display:flex;flex-direction:column;gap:0}
-.item-row{display:flex;align-items:flex-start;gap:8px;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px}
+/* ── full calendar grid ── */
+.cal-full{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:6px 14px;margin-bottom:0}
+.cal-month-block{}
+.cal-month-title{font-size:11px;font-weight:600;color:var(--text2);margin-bottom:3px}
+.cdg{display:grid;grid-template-columns:repeat(7,1fr);gap:1px}
+.cdg-hdr>div{font-size:9px;font-weight:600;color:var(--text3);text-align:center;padding:1px 0 3px}
+.cd{font-size:11px;text-align:center;padding:3px 1px;border-radius:3px;color:var(--text3);line-height:1.3;display:block;text-decoration:none!important;cursor:default}
+.cd-s{background:var(--blue-bg);color:var(--blue)!important;font-weight:600;cursor:pointer}
+.cd-s:hover{background:var(--blue);color:#fff!important}
+.cd-cont{background:var(--bg3);color:var(--text2)!important;cursor:pointer}
+.cd-cont:hover{background:var(--blue-bg);color:var(--blue)!important}
+.cd-today{outline:2px solid var(--blue);outline-offset:-1px;border-radius:3px}
+.cd-sel{background:var(--blue)!important;color:#fff!important;outline:none}
+
+/* ── mobile date strip ── */
+.date-strip{display:none;flex-direction:column;gap:1px;margin-bottom:10px}
+.ds-item{display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:var(--radius-sm);font-size:12px;text-decoration:none!important;color:var(--text2)}
+.ds-item:hover{background:var(--bg2)}
+.ds-item.active{background:var(--blue-bg);color:var(--blue)}
+.ds-item.active .ds-date{color:var(--blue);font-weight:700}
+.ds-date{font-family:var(--mono);font-size:11px;color:var(--text3);min-width:82px;flex-shrink:0}
+.ds-title{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px}
+.ds-n{font-size:10px;color:var(--text3);flex-shrink:0}
+.ds-more{font-size:11px;color:var(--text3);padding:4px 8px;text-align:center}
+.ds-more a{color:var(--blue)}
+
+@media(max-width:640px){
+  .cal-full{display:none}
+  .cal-full.expanded{display:grid}
+  .date-strip{display:flex}
+}
+
+/* ── inline session detail ── */
+.det-panel{margin-top:12px;border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden;display:none}
+.det-head{background:var(--bg2);padding:8px 11px;display:flex;align-items:flex-start;gap:8px;border-bottom:1px solid var(--border)}
+.det-info{flex:1;min-width:0}
+.det-date{font-size:12px;font-weight:700;font-family:var(--mono);color:var(--text);margin-bottom:2px}
+.det-tit{font-size:12px;color:var(--text2);line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.det-meta{display:flex;gap:5px;align-items:center;flex-wrap:wrap;margin-top:5px}
+.det-close{background:none;border:none;cursor:pointer;font-size:18px;color:var(--text3);line-height:1;flex-shrink:0;padding:0 0 0 4px}
+.det-close:hover{color:var(--text)}
+.det-body{padding:6px 11px}
+.ext-btn{font-size:10px;color:var(--text3);padding:1px 6px;border-radius:3px;border:1px solid var(--border);white-space:nowrap}
+.ext-btn:hover{color:var(--text2);text-decoration:none!important;border-color:var(--border2)}
+
+/* ── items ── */
+.item-row{display:flex;align-items:flex-start;gap:6px;padding:5px 0;border-bottom:1px solid var(--border);font-size:12px;flex-wrap:wrap}
 .item-row:last-child{border-bottom:none}
-.item-pos{font-size:11px;color:var(--text3);min-width:24px;flex-shrink:0;padding-top:2px;font-family:var(--mono)}
-.item-desc{flex:1;line-height:1.45;color:var(--text)}
-.item-pdf{font-size:11px;flex-shrink:0;white-space:nowrap;padding-top:2px}
+.item-main{display:flex;align-items:flex-start;gap:6px;width:100%}
+.item-pos{font-size:10px;color:var(--text3);min-width:20px;flex-shrink:0;padding-top:2px;font-family:var(--mono)}
+.item-desc{flex:1;line-height:1.4;color:var(--text)}
+.item-desc b{font-weight:600}
+.item-desc i{color:var(--text2);font-size:11px}
+.item-pdf{font-size:10px;flex-shrink:0;white-space:nowrap;padding-top:1px}
+.docs-toggle{font-size:10px;color:var(--text3);background:none;border:none;cursor:pointer;padding:2px 0 0;white-space:nowrap;font-family:var(--font)}
+.docs-toggle:hover{color:var(--blue)}
+.docs-list{display:none;width:100%;padding:4px 0 2px 26px}
+.docs-list.open{display:block}
+.doc-row{display:flex;align-items:baseline;gap:6px;padding:2px 0;font-size:11px;border-bottom:1px dotted var(--border)}
+.doc-row:last-child{border-bottom:none}
+.doc-date{color:var(--text3);white-space:nowrap;min-width:76px;flex-shrink:0;font-family:var(--mono);font-size:10px}
+.doc-title{flex:1;color:var(--text2)}
+.doc-src{font-size:9px;color:var(--text3);flex-shrink:0}
 
-.loading{text-align:center;padding:60px 0;color:var(--text3)}
-.error{padding:20px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius);margin:20px 0}
-.footer{border-top:1px solid var(--border);padding:20px 24px;margin-top:48px;font-size:12px;color:var(--text3);text-align:center}
+.loading{text-align:center;padding:50px 0;color:var(--text3)}
+.error{padding:12px;background:var(--red-bg);color:var(--red-text);border-radius:var(--radius-sm);margin:12px 0}
+
+/* ── entity metadata ── */
+.item-meta{display:flex;flex-wrap:wrap;gap:4px;align-items:center;width:100%;padding:2px 0 2px 26px}
+.bge{display:inline-block;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:600;letter-spacing:.2px;white-space:nowrap}
+.bge-org{background:#ede9fe;color:#6d28d9}
+.bge-ord{background:#dbeafe;color:#1d4ed8}
+.bge-urg{background:#fee2e2;color:#b91c1c}
+.bge-cam{background:#e0f2fe;color:#0369a1}
+.bge-pri{background:#dcfce7;color:#166534}
+.bge-rez{background:#fef3c7;color:#92400e}
+.item-subject{font-size:10px;color:var(--text2);padding:2px 0 1px 26px;font-style:italic;line-height:1.4}
+.item-comm{font-size:9px;color:var(--text3);display:flex;flex-wrap:wrap;gap:1px;align-items:center}
+.item-comm-name{white-space:nowrap}
+.item-comm-sep{color:var(--border2);margin:0 1px}
+/* filter bar inside session detail */
+.det-filter{display:flex;gap:3px;flex-wrap:wrap;padding:5px 11px;border-bottom:1px solid var(--border);background:var(--bg2)}
+.flt-btn{font-size:10px;padding:2px 8px;border-radius:3px;border:1px solid var(--border);background:none;cursor:pointer;color:var(--text2);font-family:var(--font)}
+.flt-btn:hover{background:var(--bg3)}
+.flt-btn.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+.footer{border-top:1px solid var(--border);padding:14px 20px;margin-top:36px;font-size:12px;color:var(--text3);text-align:center}
 .footer a{color:var(--text2)}
-.header{background:#42133c;border-bottom-color:transparent}.logo{color:#fff}.logo span{color:#88dfc4}.nav a{white-space:nowrap;color:rgba(255,255,255,.72)}.nav a:hover{background:rgba(255,255,255,.11);color:#fff}.nav a.active{color:#fff;background:rgba(255,255,255,.08)}.header .nav a[style*=color]{color:rgba(255,255,255,.85)!important}.notice-bar{display:flex;align-items:center;gap:8px;padding:7px 24px;background:rgba(250,204,21,.1);border-bottom:1px solid rgba(250,204,21,.2);font-size:12px;color:var(--text2)}.notice-bar a{color:inherit;text-decoration:underline;opacity:.85}.notice-icon{font-size:13px;opacity:.8;flex-shrink:0}.notice-text{flex:1}.notice-close{background:none;border:none;color:var(--text3);cursor:pointer;font-size:18px;padding:0 4px;line-height:1;flex-shrink:0}.notice-close:hover{color:var(--text)}.nav button{color:rgba(255,255,255,.72);background:transparent;border:none}.nav button:hover{background:rgba(255,255,255,.11);color:#fff}#lang-toggle-slot button,#lang-toggle-slot a{color:rgba(255,255,255,.72)!important}#lang-toggle-slot button:hover,#lang-toggle-slot a:hover{color:#fff!important}.notice-bar.hidden{display:none}
+.header{background:#42133c;border-bottom-color:transparent}.logo{color:#fff}.logo span{color:#88dfc4}.nav a{white-space:nowrap;color:rgba(255,255,255,.72)}.nav a:hover{background:rgba(255,255,255,.11);color:#fff}.nav a.active{color:#fff;background:rgba(255,255,255,.08)}.header .nav a[style*=color]{color:rgba(255,255,255,.85)!important}.notice-bar{display:flex;align-items:center;gap:8px;padding:6px 20px;background:rgba(250,204,21,.1);border-bottom:1px solid rgba(250,204,21,.2);font-size:12px;color:var(--text2)}.notice-bar a{color:inherit;text-decoration:underline;opacity:.85}.notice-icon{font-size:13px;opacity:.8;flex-shrink:0}.notice-text{flex:1}.notice-close{background:none;border:none;color:var(--text3);cursor:pointer;font-size:18px;padding:0 4px;line-height:1;flex-shrink:0}.notice-close:hover{color:var(--text)}.nav button{color:rgba(255,255,255,.72);background:transparent;border:none}.nav button:hover{background:rgba(255,255,255,.11);color:#fff}#lang-toggle-slot button,#lang-toggle-slot a{color:rgba(255,255,255,.72)!important}#lang-toggle-slot button:hover,#lang-toggle-slot a:hover{color:#fff!important}.notice-bar.hidden{display:none}
 </style>
 </head>
 <body>
@@ -103,72 +160,297 @@ function getParam(n){return new URL(location).searchParams.get(n);}
 const LEG = Number(getParam('leg') || 2024);
 const DATA_URL = `data/v1/ordine-zi/legislatura-${LEG}.json`;
 
-function toggleCard(header){
-  const card = header.closest('.session-card');
-  card.classList.toggle('open');
+const MONTHS_RO = ['Ianuarie','Februarie','Martie','Aprilie','Mai','Iunie',
+                   'Iulie','August','Septembrie','Octombrie','Noiembrie','Decembrie'];
+const DAYS_RO = ['L','M','M','J','V','S','D'];
+const pad = n => String(n).padStart(2,'0');
+const TODAY = new Date().toISOString().slice(0,10);
+
+let allSessions=[], sessMap={}, sessYears=[];
+let selectedYear=0, selectedDate=null;
+
+/* ─── entity filter ─── */
+
+let currentFilter='all';
+
+const FILTER_SETS={
+  bills:new Set(['proiect_lege','propunere_legislativa','reexaminare']),
+  hotarari:new Set(['proiect_hotarare']),
+  motions:new Set(['motiune_simpla','motiune_cenzura','angajare_raspundere']),
+  procedural:new Set([
+    'informare','informare_casete','prezentare','alocutiuni','alocutiune',
+    'interventie','moment_reculegere','mesaj','declaratie','dezbateri_politice',
+    'dezbateri','alegere','numire','constituire','vacantare','solicitare',
+    'sedinta_solemna','vot','raport',
+  ]),
+};
+
+function setFilter(f){
+  currentFilter=f;
+  document.querySelectorAll('.flt-btn').forEach(b=>b.classList.toggle('active',b.dataset.type===f));
+  const s=sessMap[selectedDate];
+  if(s) document.querySelector('.det-body').innerHTML=renderItems(s.items);
+}
+
+function renderEntityMeta(it){
+  const ent=it.entities;
+  if(!ent) return '';
+  const parts=[];
+  if(ent.law_category==='lege_organica') parts.push('<span class="bge bge-org">lege organică</span>');
+  else if(ent.law_category==='lege_ordinara') parts.push('<span class="bge bge-ord">lege ordinară</span>');
+  if(ent.flags?.includes('procedura_urgenta'))     parts.push('<span class="bge bge-urg">urgență</span>');
+  if(ent.flags?.includes('prioritate_legislativa')) parts.push('<span class="bge bge-pri">prioritate</span>');
+  if(ent.flags?.includes('camera_decizionala'))     parts.push('<span class="bge bge-cam">cam. dec.</span>');
+  if(ent.flags?.includes('rezerva_raport'))         parts.push('<span class="bge bge-rez">rezervă raport</span>');
+  if(ent.commissions?.length){
+    const comms=ent.commissions
+      .map(c=>`<span class="item-comm-name">${c}</span>`)
+      .join('<span class="item-comm-sep"> · </span>');
+    parts.push(`<span class="item-comm">${comms}</span>`);
+  }
+  if(it.idp) parts.push(
+    `<a class="ext-btn" href="proiect.html?id=${it.idp}&leg=${LEG}" `+
+    `style="font-size:9px" title="Detalii proiect">proiect →</a>`);
+  const metaRow=parts.length?`<div class="item-meta">${parts.join('')}</div>`:'';
+  const subj=ent.subject
+    ?`<div class="item-subject">${ent.subject}</div>`
+    :'';
+  return metaRow+subj;
+}
+
+/* ─── item / docs rendering ─── */
+
+function toggleDocs(btn){
+  const list=btn.closest('.item-row').querySelector('.docs-list');
+  const open=list.classList.toggle('open');
+  btn.textContent=open?'documente ▲':`documente (${btn.dataset.count}) ▼`;
+}
+
+function renderDocs(docs){
+  if(!docs||!docs.length) return '';
+  return`<div class="docs-list">${docs.map(d=>{
+    const pdf=d.pdf_url?`<a href="${d.pdf_url}" target="_blank" rel="noopener" style="font-size:10px;flex-shrink:0">PDF ↗</a>`:'';
+    const src=d.sursa==='caseta'?'<span class="doc-src">caseta</span>':'';
+    return`<div class="doc-row"><span class="doc-date">${d.data||''}</span><span class="doc-title">${d.titlu}</span>${src}${pdf}</div>`;
+  }).join('')}</div>`;
 }
 
 function renderItems(items){
-  if(!items||!items.length) return '<p style="color:var(--text3);font-size:13px">Niciun punct pe ordinea de zi.</p>';
-  return items.map((it,i)=>{
-    const pos = it.pozitie!=null ? String(it.pozitie) : String(i+1);
-    const pdf = it.doc_pdf_url ? `<a class="item-pdf" href="${it.doc_pdf_url}" target="_blank" rel="noopener">PDF ↗</a>` : '';
-    const nr = it.nr_inregistrare ? `<span style="color:var(--text3);font-size:11px"> · ${it.nr_inregistrare}</span>` : '';
-    return`<div class="item-row">
+  if(!items?.length) return '<p style="color:var(--text3);font-size:11px;padding:4px 0">Niciun punct.</p>';
+  let list=items;
+  if(currentFilter!=='all'){
+    const types=FILTER_SETS[currentFilter];
+    list=items.filter(it=>types?.has(it.entities?.item_type));
+  }
+  if(!list.length) return '<p style="color:var(--text3);font-size:11px;padding:4px 0">Niciun punct pentru filtrul ales.</p>';
+  return list.map(it=>{
+    const pos=it.pozitie!=null?String(it.pozitie):'–';
+    const pdf=it.doc_pdf_url?`<a class="item-pdf" href="${it.doc_pdf_url}" target="_blank" rel="noopener">PDF ↗</a>`:'';
+    const nr=it.nr_inregistrare?`<div style="color:var(--text3);font-size:10px;margin-top:1px">${it.nr_inregistrare}</div>`:'';
+    const hasDocs=it.docs?.length;
+    const tog=hasDocs?`<button class="docs-toggle" onclick="toggleDocs(this)" data-count="${it.docs.length}">documente (${it.docs.length}) ▼</button>`:'';
+    return`<div class="item-row"><div class="item-main">
       <span class="item-pos">${pos}.</span>
       <span class="item-desc">${it.descriere||'—'}${nr}</span>
-      ${pdf}
-    </div>`;
+      ${tog}${pdf}
+    </div>${renderEntityMeta(it)}${renderDocs(it.docs)}</div>`;
   }).join('');
 }
 
-function renderSession(s){
-  const date = s.session_date||'';
-  const dateEnd = s.session_date_end && s.session_date_end!==s.session_date ? ` – ${s.session_date_end}` : '';
-  const itemCount = (s.items||[]).length;
-  const pdf = s.pdf_url ? `<a href="${s.pdf_url}" target="_blank" rel="noopener" style="font-size:12px">PDF ↗</a>` : '';
-  return`<div class="session-card" id="s-${s.id}">
-    <div class="session-header" onclick="toggleCard(this)">
-      <div class="session-date">${date}${dateEnd}</div>
-      <div class="session-title-text">${s.titlu||''}</div>
-      <div class="session-meta">
-        <span class="pill">${itemCount} puncte</span>
-        ${pdf}
-        <span class="chevron">▶</span>
-      </div>
-    </div>
-    <div class="session-body">
-      ${renderItems(s.items)}
-    </div>
+/* ─── calendar: month block ─── */
+
+function renderMonth(y, m){
+  const first=new Date(y,m-1,1).getDay(), dim=new Date(y,m,0).getDate();
+  const off=(first+6)%7;
+  let cells='<div></div>'.repeat(off);
+  for(let d=1;d<=dim;d++){
+    const ds=`${y}-${pad(m)}-${pad(d)}`;
+    const s=sessMap[ds];
+    const tc=ds===TODAY?' cd-today':'';
+    const sc=s&&s.session_date===selectedDate?' cd-sel':'';
+    if(s){
+      const isEnd=s.session_date!==ds;
+      const n=(s.items||[]).length;
+      const cls=`cd${isEnd?' cd-cont':' cd-s'}${tc}${sc}`;
+      cells+=`<a class="${cls}" href="sesiune.html?leg=${LEG}&date=${s.session_date}"
+        onclick="selectSession('${s.session_date}');return false"
+        title="${isEnd?'continuare':n+' pct. · '+s.session_date}">${d}</a>`;
+    } else {
+      cells+=`<div class="cd${tc}">${d}</div>`;
+    }
+  }
+  return`<div class="cal-month-block">
+    <div class="cal-month-title">${MONTHS_RO[m-1]}</div>
+    <div class="cdg cdg-hdr">${DAYS_RO.map(x=>`<div>${x}</div>`).join('')}</div>
+    <div class="cdg">${cells}</div>
   </div>`;
 }
 
+function renderYearCal(y){
+  return Array.from({length:12},(_,i)=>renderMonth(y,i+1)).join('');
+}
+
+/* ─── mobile date strip ─── */
+
+function renderDateStrip(){
+  const el=document.getElementById('date-strip');
+  if(!el) return;
+  const allDates=Object.keys(sessMap).sort();
+  let show;
+  if(selectedDate&&allDates.includes(selectedDate)){
+    const idx=allDates.indexOf(selectedDate);
+    show=allDates.slice(Math.max(0,idx-5), idx+6);
+  } else {
+    show=allDates.filter(d=>d.startsWith(selectedYear+'-'));
+    if(!show.length) show=allDates.slice(0,11);
+  }
+  const hasMore=allDates.length>show.length;
+  el.innerHTML=show.map(d=>{
+    const s=sessMap[d]; if(!s) return '';
+    const isSel=s.session_date===selectedDate;
+    const isEnd=s.session_date!==d;
+    const n=(s.items||[]).length;
+    return`<a class="ds-item${isSel?' active':''}" href="sesiune.html?leg=${LEG}&date=${s.session_date}"
+      onclick="selectSession('${s.session_date}');return false">
+      <span class="ds-date">${d}</span>
+      <span class="ds-title">${isEnd?'(continuare)':(s.titlu||'').slice(0,50)}</span>
+      <span class="ds-n">${isEnd?'':n+' pct.'}</span>
+    </a>`;
+  }).join('')+(hasMore?`<div class="ds-more"><a href="#" onclick="expandCal();return false">Calendar complet ↗</a></div>`:'');
+}
+
+function expandCal(){
+  document.getElementById('cal-grid').classList.add('expanded');
+  document.querySelector('.ds-more')?.remove();
+}
+
+/* ─── inline session detail ─── */
+
+function renderDetail(){
+  const el=document.getElementById('session-detail');
+  if(!el) return;
+  const s=selectedDate?sessMap[selectedDate]:null;
+  if(!s){el.style.display='none';return;}
+  currentFilter='all';
+  el.style.display='block';
+  const dateEnd=s.session_date_end&&s.session_date_end!==s.session_date?` – ${s.session_date_end}`:'';
+  const n=(s.items||[]).length;
+  const pdf=s.pdf_url?`<a class="ext-btn" href="${s.pdf_url}" target="_blank" rel="noopener">PDF ↗</a>`:'';
+  const src=s.source_url?`<a class="ext-btn" href="${s.source_url}" target="_blank" rel="noopener">cdep.ro ↗</a>`:'';
+  const pg=`<a class="ext-btn" href="sesiune.html?leg=${LEG}&date=${s.session_date}" target="_blank">pagina ↗</a>`;
+  const app=s.data_aprobare?`<span style="font-size:10px;color:var(--text3)">Aprobată: ${s.data_aprobare}</span>`:'';
+  el.innerHTML=`<div class="det-head">
+    <div class="det-info">
+      <div class="det-date">${s.session_date}${dateEnd}</div>
+      <div class="det-tit">${s.titlu||''}</div>
+      <div class="det-meta">${app}<span class="pill">${n} pct.</span>${pdf}${src}${pg}</div>
+    </div>
+    <button class="det-close" onclick="closeDetail()" title="Închide">×</button>
+  </div>
+  <div class="det-filter">
+    <button class="flt-btn active" data-type="all" onclick="setFilter('all')">Toate</button>
+    <button class="flt-btn" data-type="bills" onclick="setFilter('bills')">Proiecte lege</button>
+    <button class="flt-btn" data-type="hotarari" onclick="setFilter('hotarari')">Hotărâri</button>
+    <button class="flt-btn" data-type="motions" onclick="setFilter('motions')">Moțiuni</button>
+    <button class="flt-btn" data-type="procedural" onclick="setFilter('procedural')">Procedural</button>
+  </div>
+  <div class="det-body">${renderItems(s.items)}</div>`;
+}
+
+function closeDetail(){
+  selectedDate=null;
+  document.getElementById('session-detail').style.display='none';
+  document.getElementById('cal-grid').innerHTML=renderYearCal(selectedYear);
+  renderDateStrip();
+  pushUrl();
+}
+
+/* ─── year nav ─── */
+
+function setYear(y){
+  selectedYear=y;
+  if(selectedDate&&!selectedDate.startsWith(y+'-')) {selectedDate=null;}
+  document.querySelectorAll('.year-tab').forEach(t=>t.classList.toggle('active',+t.dataset.year===y));
+  document.getElementById('cal-grid').innerHTML=renderYearCal(y);
+  renderDateStrip();
+  renderDetail();
+  pushUrl();
+}
+
+function pushUrl(){
+  let u=`?leg=${LEG}&year=${selectedYear}`;
+  if(selectedDate) u+=`&date=${selectedDate}`;
+  history.replaceState({},'',(u));
+}
+
+/* ─── select / scroll ─── */
+
+function selectSession(date){
+  selectedDate=date;
+  const y=+date.slice(0,4);
+  if(y!==selectedYear){
+    selectedYear=y;
+    document.querySelectorAll('.year-tab').forEach(t=>t.classList.toggle('active',+t.dataset.year===y));
+  }
+  document.getElementById('cal-grid').innerHTML=renderYearCal(selectedYear);
+  renderDateStrip();
+  renderDetail();
+  pushUrl();
+  requestAnimationFrame(()=>document.getElementById('session-detail')
+    ?.scrollIntoView({behavior:'smooth',block:'nearest'}));
+}
+
+/* ─── load ─── */
+
 async function load(){
   try{
-    const res = await fetch(DATA_URL);
+    const res=await fetch(DATA_URL);
     if(!res.ok) throw new Error(res.statusText);
-    const d = await res.json();
-    const items = d.data;
-    items.sort((a,b)=>(b.session_date||'').localeCompare(a.session_date||''));
+    const d=await res.json();
+    allSessions=d.data;
+    allSessions.sort((a,b)=>(b.session_date||'').localeCompare(a.session_date||''));
+    sessMap={};
+    allSessions.forEach(s=>{
+      sessMap[s.session_date]=s;
+      if(s.session_date_end&&s.session_date_end!==s.session_date&&!sessMap[s.session_date_end])
+        sessMap[s.session_date_end]=s;
+    });
+    const _dataYears=[...new Set(Object.keys(sessMap).map(d=>+d.slice(0,4)))];
+    const _curYear=new Date().getFullYear();
+    sessYears=[];
+    for(let y=LEG;y<=_curYear;y++) sessYears.push(y);
+    _dataYears.forEach(y=>{if(!sessYears.includes(y)) sessYears.push(y);});
+    sessYears.sort((a,b)=>a-b);
 
-    const totalItems = items.reduce((s,sess)=>s+(sess.items||[]).length,0);
+    // Init state from URL
+    const urlYear=Number(getParam('year'));
+    const urlDate=getParam('date')||null;
+    selectedDate=urlDate&&sessMap[urlDate]?urlDate:null;
+    selectedYear=sessYears.includes(urlYear)?urlYear
+      :(selectedDate?+selectedDate.slice(0,4):sessYears[sessYears.length-1]);
 
-    document.getElementById('content').innerHTML = `
-      <div style="display:flex;align-items:center;gap:12px;margin-bottom:6px;flex-wrap:wrap">
-        <h1 style="margin:0">Ordinea de zi — legislatura ${LEG}</h1>
-        <div class="view-toggle">${NAV.renderLegToggle(LEG,'ordine-zi.html',[2024])}</div>
+    const total=allSessions.reduce((s,x)=>s+(x.items||[]).length,0);
+
+    document.getElementById('content').innerHTML=`
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:3px;flex-wrap:wrap">
+        <h1>Ordinea de zi — legislatura ${LEG}</h1>
+        <div>${NAV.renderLegToggle(LEG,'ordine-zi.html',[2024])}</div>
       </div>
-      <p class="sub">${items.length} ședințe · ${totalItems} puncte totale · Camera Deputaților</p>
-      <div class="session-list" id="sessions">
-        ${items.map(renderSession).join('')}
+      <p class="sub">${allSessions.length} ședințe · ${total} puncte · Camera Deputaților</p>
+      <div class="year-nav" id="year-nav">
+        ${sessYears.map(y=>`<button class="year-tab${y===selectedYear?' active':''}" data-year="${y}" onclick="setYear(${y})">${y}</button>`).join('')}
       </div>
-    `;
-    if(items.length > 0){
-      document.querySelector('.session-card').classList.add('open');
-    }
+      <div class="date-strip" id="date-strip"></div>
+      <div class="cal-full" id="cal-grid"></div>
+      <div class="det-panel" id="session-detail"></div>`;
+
+    document.getElementById('cal-grid').innerHTML=renderYearCal(selectedYear);
+    renderDateStrip();
+    renderDetail();
+
   }catch(e){
     document.getElementById('content').innerHTML=
-      `<div class="error">Nu pot încărca ${DATA_URL} (${e.message}).<br>Asigură-te că <code>data/v1/ordine-zi/legislatura-${LEG}.json</code> există.</div>`;
+      `<div class="error">Nu pot încărca ${DATA_URL}: ${e.message}</div>`;
   }
 }
 load();
