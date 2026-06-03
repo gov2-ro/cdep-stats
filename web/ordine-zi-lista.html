@@ -68,7 +68,7 @@ h1{font-size:20px;font-weight:600;display:flex;align-items:center;gap:12px;flex-
 .chip-check{display:inline-flex;align-items:center;gap:3px;padding:3px 6px;border:1px solid var(--border);border-radius:3px;font-size:9px;cursor:pointer;color:var(--text2);user-select:none;white-space:nowrap;width:100%}
 .chip-check:hover{background:var(--bg3)}
 .chip-check.active{background:var(--blue);color:#fff;border-color:var(--blue)}
-.chip-check input{display:none}
+.chip-check input{margin:0;width:13px;height:13px;flex-shrink:0;cursor:pointer;accent-color:var(--blue)}
 .chip-label{flex:1}
 .chip-count-badge{font-size:8px;opacity:.7;color:currentColor}
 .reset-btn{font-size:10px;padding:4px 8px;border-radius:3px;border:1px solid var(--border);background:var(--red-bg);color:var(--red-text);cursor:pointer;font-family:var(--font);font-weight:600;width:100%;margin-top:8px}
@@ -248,27 +248,29 @@ function getDistinctValues(){
   return {acts,actions,comms,instits};
 }
 
-// ── helper: count matching items for filter option ──
+// ── helper: count items matching all current filters + this option ──
 function countForFilter(dimension,value){
   let count=0;
-  for(const {it} of allItems){
+  for(const {s,it} of allItems){
+    // apply all current filters
+    if(listItemType!=='all'){const types=FILTER_SETS[listItemType];if(!types?.has(it.entities?.item_type))continue;}
+    if(listQ){const q=listQ.toLowerCase(),desc=(it.descriere||'').toLowerCase(),subj=(it.entities?.subject||'').toLowerCase(),regNr=(it.nr_inregistrare||'').toLowerCase();if(!desc.includes(q)&&!subj.includes(q)&&!regNr.includes(q))continue;}
+    if(listLawCat){if(it.entities?.law_category!==listLawCat)continue;}
+    if(listAction){if(it.entities?.action!==listAction)continue;}
+    if(listFlags.size>0){const itemFlags=new Set(it.entities?.flags||[]);let allMatch=true;for(const f of listFlags){if(!itemFlags.has(f)){allMatch=false;break;}}if(!allMatch)continue;}
+    if(listActTypes.size>0){const itemActs=new Set(it.entities?.referenced_acts?.map(a=>a.act_type)||[]);let hasAny=false;for(const t of listActTypes){if(itemActs.has(t)){hasAny=true;break;}}if(!hasAny)continue;}
+    if(listCommSlugs.size>0){const itemComms=new Set(it.entities?.commission_slugs||[]);let hasAny=false;for(const c of listCommSlugs){if(itemComms.has(c)){hasAny=true;break;}}if(!hasAny)continue;}
+    if(listInstits.size>0){const itemInstits=new Set(it.entities?.institutions||[]);let hasAny=false;for(const i of listInstits){if(itemInstits.has(i)){hasAny=true;break;}}if(!hasAny)continue;}
+    if(listYear>0){if(+s.session_date.slice(0,4)!==listYear)continue;}
+    // now check if this item has the specific option for the dimension
     let match=false;
-    if(dimension==='item_type'){
-      const types=FILTER_SETS[value];
-      match=types?.has(it.entities?.item_type);
-    }else if(dimension==='law_cat'){
-      match=it.entities?.law_category===value;
-    }else if(dimension==='action'){
-      match=it.entities?.action===value;
-    }else if(dimension==='flag'){
-      match=it.entities?.flags?.includes(value);
-    }else if(dimension==='act_type'){
-      match=it.entities?.referenced_acts?.some(a=>a.act_type===value);
-    }else if(dimension==='commission'){
-      match=it.entities?.commission_slugs?.includes(value);
-    }else if(dimension==='institution'){
-      match=it.entities?.institutions?.includes(value);
-    }
+    if(dimension==='item_type'){const types=FILTER_SETS[value];match=types?.has(it.entities?.item_type);}
+    else if(dimension==='law_cat'){match=it.entities?.law_category===value;}
+    else if(dimension==='action'){match=it.entities?.action===value;}
+    else if(dimension==='flag'){match=it.entities?.flags?.includes(value);}
+    else if(dimension==='act_type'){match=it.entities?.referenced_acts?.some(a=>a.act_type===value);}
+    else if(dimension==='commission'){match=it.entities?.commission_slugs?.includes(value);}
+    else if(dimension==='institution'){match=it.entities?.institutions?.includes(value);}
     if(match)count++;
   }
   return count;

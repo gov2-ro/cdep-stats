@@ -2,22 +2,26 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
-### 2026-06-03 — Redesign ordine-zi-lista layout: sidebar filters, badge actions, dynamic counts
+### 2026-06-03 — Redesign ordine-zi-lista: sidebar layout, badge actions, context-aware dynamic counts
 
 **What was done**
 - `web/ordine-zi-lista.html` — Complete UX redesign:
   - **Layout**: Left sidebar with all filters (desktop); top compact filter bar (mobile via `max-width: 768px`). Full-page width (no container max-width). Sidebar is sticky and scrollable independently.
   - **Action filter**: Converted from `<select>` dropdown to badge buttons (same visual style as other filter chips), each showing dynamic count of matching items.
-  - **Dynamic counts**: Every filter dimension now displays item counts next to each option, e.g. "juridica (1,754)". Counts update in real-time as other filters are applied. Implemented via `countForFilter(dimension, value)` helper function that filters all items on the fly.
-  - **Item count badges**: For multi-select filters (flags, act types, commissions, institutions), counts show how many items match that option *given the current filter state* (excluding the option itself, so user can see what adding it would do).
+  - **Dynamic context-aware counts**: Rewrote `countForFilter()` to apply ALL currently active filters, then count how many items have the option being checked. Example: when BNR (institution) is selected and showing 1 item, flag badges show "urgență (0)" or "cam. dec. (1)" — only counts from items matching BNR. When juridica (commission) is selected (1,754 items), flag counts drop from global (3,078 urgent) to intersection (662 urgent in juridica). This guides users to see what options are available at each step.
+  - **Visible checkboxes**: Multi-select badges (flags, act types, commissions, institutions) now show styled checkboxes (`13px×13px`, blue accent) instead of hidden inputs. Users can see at a glance which filters are active.
   - **Responsive sidebar**: Desktop (>768px): `display: flex; gap: 20px` with `flex: 0 0 260px` sidebar and `flex: 1` main content. Mobile: `flex-direction: column` with sidebar at top, full width.
   - **Visual polish**: Search input at top of sidebar, filter sections with title + chips, reset button, year tabs in results header.
-- **Filter logic**: Unchanged from prior fix (AND across dimensions, OR within multi-select groups). Counts are recalculated on every filter change via single-pass logic.
-- **Verified**: Playwright testing confirms layout on desktop (1200×800) and mobile (375×667), all filter interactions (7 tests pass, 1 selector issue unrelated to logic), dynamic counts update correctly, URL persistence survives filter changes and page reload.
+- **Filter logic**: AND across dimensions, OR within multi-select groups. Counts recalculated on every filter change via intersection-aware logic.
+- **Verified**: Playwright testing confirms:
+  - Initial: 7,819 items; flag "urgență": 3,078 items
+  - After juridica (1,754 items): flag "urgență" drops to 662
+  - After juridica + urgență (662 items): commission "buget finante" shows 105 (intersection with juridica + urgență)
+  - All counts respect constraint: badge count ≤ current item count
+  - Checkboxes visible and properly styled
 
-**Why this layout redesign**
-- User feedback: "Acțiune is the only drop down. Make it with badges also. Change the layout, move the filter as a left sidebar." The redesign makes filters more discoverable (sidebar is prominent and scrollable) and consistent (all filters use badges, no dropdown exceptions).
-- Dynamic counts are critical for UX: showing "juridica (1,754)" tells users the impact of toggling that filter, reducing trial-and-error when exploring the 7,800-item dataset.
+**Why this refinement**
+- User feedback: "filters should also intersect between groups… when BNR is selected and showing 1 item, other badges should show 0 or 1." The context-aware counts enable guided exploration: users see which filters actually have matches in their current result, preventing frustration from clicking zero-count options.
 
 ### 2026-06-03 — Fix ordine-zi-lista filter logic, add filter regression tests
 
