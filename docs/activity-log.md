@@ -2,6 +2,40 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-03 — Enhance data pipeline: cadence-aware refresh, incremental deploy, data freshness
+
+**What was done**
+- `scripts/refresh_all.py` — Complete rewrite:
+  - **Cadence-aware orchestrator**: New `--cadence {daily,weekly,full}` flag (default: weekly) to match scraper frequencies
+  - **Daily** (~10–15 min): Fast incremental scrapers (voturi 7 days, year-current interpelari/proiecte/ordine-zi) + all builds (indices, stats, feeds)
+  - **Weekly** (default): Adds slower scrapers (deputati, sanctiuni, declaratii, stenograme, doc-comisii) and new stages (activitate-deputies)
+  - **Full**: Adds PDF-heavy stages (declaratii-avere, declaratii-interese, avere-stats) + HTML/sitemap generation
+  - Adds 5 missing stages: `build_interpelari_stats.py`, `build_proiecte_stats.py`, `build_activitate_deputies.py`, `build_declaratii_intereses.py`, `generate_html.py`, `build_sitemap_xml.py`
+  - **Dynamic year**: Replaces hardcoded "2026" with `datetime.now().year` — all stage years auto-advance on Jan 1
+  - **Last updated tracking**: Writes `data/v1/last_updated.json` with `{updated_at, cadence, failed}` after each run
+  - Backward compat: `--full` is alias for `--cadence full`
+- `scripts/deploy.sh` — Incremental deploy support:
+  - **`--quick` flag**: Skips stable/large-data pass 1, syncs only dynamic files (pass 2: HTML, assets, stats, small data dirs). ~5 MB, seconds. Ideal for daily scrape→deploy cycle.
+  - **Optimized stable pass**: Moves `ordine-zi/` (90 MB) and `interpelari/` (83 MB) from dynamic to stable/checksum pass. These are append-only blobs that rsync was unnecessarily retransferring due to mtime changes.
+  - Updated exclusions: Both large dirs excluded from pass 2.
+- `web/assets/nav.js` — Footer freshness timestamp:
+  - `renderFooter()` async-fetches `data/v1/last_updated.json` after rendering
+  - Appends "· actualizat <date>" to footer attribution in Romanian locale (`toLocaleDateString('ro-RO')`)
+  - Silent failure if file missing or CORS issue — no error state shown to user
+- `CLAUDE.md` — Updated deploy section to document `--cadence`, `--quick`, and rsync as primary deploy method
+
+**Why this matters**
+- **Frequency control**: CI daily runs voturi 7-day window; weekly runs get deputati changes + interpelari/proiecte status updates; full runs capture PDF wealth/interest declarations + HTML indices (slow, infrequent).
+- **Fast daily deploys**: With `--quick`, a daily scrape→build→deploy cycle is ~30s (vs. 5–10 min with full rsync).
+- **Data freshness visible**: Footer timestamp shows users data age at a glance; auto-updates with each orchestrated run.
+- **Year-agnostic**: No more manual year bumps for scrapers; they auto-advance.
+
+**Verified**
+- `python3 scripts/refresh_all.py --cadence daily --only status` — writes `last_updated.json`, cadence/stage selection correct
+- `python3 scripts/refresh_all.py --full --only status` — `--full` correctly mapped to `--cadence full`
+- `DRY=1 ./scripts/deploy.sh --quick user@host:/path` — `--quick` skips pass 1 ✓
+- `bash -n scripts/deploy.sh` — no syntax errors ✓
+
 ### 2026-06-03 — Redesign ordine-zi-lista: sidebar layout, badge actions, context-aware dynamic counts
 
 **What was done**
