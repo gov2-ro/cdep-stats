@@ -331,34 +331,45 @@ let DEPUTATI = [];
 let PROIECTE = null;
 
 async function loadData() {
-  const [home, dep, proiecte, votIdx, ordineZi] = await Promise.all([
+  const [home, depSlim, proiecte, votIdx, agendaLatest] = await Promise.all([
     fetch('data/v1/stats/home-2024.json').then(r => r.json()).catch(() => null),
-    fetch('data/v1/deputati/legislatura-2024.json').then(r => r.json()).catch(() => null),
+    fetch('data/v1/stats/home-deputati-slim-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/stats/proiecte-2024.json').then(r => r.json()).catch(() => null),
     fetch('data/v1/voturi/2024/_index.json').then(r => r.json()).catch(() => null),
-    fetch('data/v1/ordine-zi/legislatura-2024.json').then(r => r.json()).catch(() => null),
+    fetch('data/v1/stats/home-agenda-latest-2024.json').then(r => r.json()).catch(() => null),
   ]);
   HOME = home;
-  DEPUTATI = dep?.data || [];
+  DEPUTATI = depSlim?.data || [];
   PROIECTE = proiecte;
 
   renderStats();
   renderParties();
   renderIndicators();
   renderVoturi((votIdx?.data || []).filter(v => v.descriere.includes('Vot final')).slice(0, 8));
-  renderAgenda(ordineZi);
+  renderAgenda(agendaLatest);
   renderFilters();
   renderDeps(DEPUTATI);
 }
 
 function renderAgenda(data) {
   const el = document.getElementById('agenda-list');
-  if (!el || !data?.data?.length) return;
-  const sessions = [...data.data].sort((a, b) => (b.session_date || '').localeCompare(a.session_date || ''));
-  const latest = sessions[0];
-  if (!latest) return;
-  const items = (latest.items || []).filter(it => it.descriere && it.descriere.length > 10).slice(0, 7);
-  const dateStr = latest.session_date || '';
+  if (!el) return;
+
+  // data can be either full ordine-zi (array) or slim (single session object)
+  let session = null;
+  if (data?.data?.items) {
+    // Slim format: home-agenda-latest-2024.json
+    session = data.data;
+  } else if (Array.isArray(data?.data)) {
+    // Full format: ordine-zi/legislatura-2024.json (fallback)
+    const sessions = [...data.data].sort((a, b) => (b.session_date || '').localeCompare(a.session_date || ''));
+    session = sessions[0];
+  }
+
+  if (!session?.items?.length) return;
+
+  const items = session.items.filter(it => it.descriere && it.descriere.length > 10);
+  const dateStr = session.session_date || '';
   el.innerHTML = `<div style="font-size:11px;color:var(--text3);margin-bottom:8px">${dateStr} · <a href="ordine-zi.html" style="font-size:11px">Toate ședințele →</a></div>` +
     items.map(it => {
       const desc = it.descriere.length > 110 ? it.descriere.slice(0, 110) + '…' : it.descriere;

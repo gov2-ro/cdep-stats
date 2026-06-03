@@ -39,6 +39,7 @@ STAGES = [
     ("proiecte-index", ["python3", "scripts/build_proiecte_index.py", "--leg", "2024"], "daily"),
     ("comisii", ["python3", "scripts/build_comisii.py", "--leg", "2024"], "daily"),
     ("home-stats", ["python3", "scripts/build_home_stats.py", "--leg", "2024"], "daily"),
+    ("home-slims", ["python3", "scripts/build_home_slims.py"], "daily"),
     ("amendamente", ["python3", "scripts/build_amendamente.py", "--leg", "2024"], "daily"),
     ("feeds", ["python3", "scripts/build_feeds.py", "--leg", "2024", "--per-type", "15"], "daily"),
     ("split_files", ["python3", "scripts/split_by_year.py", "--leg", "2024"], "daily"),
