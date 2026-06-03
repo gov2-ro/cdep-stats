@@ -54,16 +54,16 @@
   }
 
   const FOOTER_LINKS = [
-    { href: "avere.html",             label: "Averi" },
+    { href: "ordine-zi.html",         label: "Agendă" },
     { href: "deputati-activitate.html", label: "Activitate" },
-    { href: "comisii.html",           label: "Comisii" },
     { href: "interpelari-stats.html", label: "Interpelări" },
     { href: "voturi.html",            label: "Voturi" },
     { href: "proiecte-stats.html",    label: "Proiecte" },
     { href: "proiect.html",           label: "Legi" },
     { href: "motiuni.html",           label: "Moțiuni" },
-    { href: "ordine-zi.html",         label: "Agendă" },
+    { href: "avere.html",             label: "Averi" },
     { href: "interese.html",          label: "Interese" },
+    { href: "comisii.html",           label: "Comisii" },
     { href: "partide.html",           label: "Partide" },
     { href: "judete.html",            label: "Județe" },
   ];

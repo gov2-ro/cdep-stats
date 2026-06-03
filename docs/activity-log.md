@@ -2,6 +2,23 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-03 — Redesign ordine-zi-lista layout: sidebar filters, badge actions, dynamic counts
+
+**What was done**
+- `web/ordine-zi-lista.html` — Complete UX redesign:
+  - **Layout**: Left sidebar with all filters (desktop); top compact filter bar (mobile via `max-width: 768px`). Full-page width (no container max-width). Sidebar is sticky and scrollable independently.
+  - **Action filter**: Converted from `<select>` dropdown to badge buttons (same visual style as other filter chips), each showing dynamic count of matching items.
+  - **Dynamic counts**: Every filter dimension now displays item counts next to each option, e.g. "juridica (1,754)". Counts update in real-time as other filters are applied. Implemented via `countForFilter(dimension, value)` helper function that filters all items on the fly.
+  - **Item count badges**: For multi-select filters (flags, act types, commissions, institutions), counts show how many items match that option *given the current filter state* (excluding the option itself, so user can see what adding it would do).
+  - **Responsive sidebar**: Desktop (>768px): `display: flex; gap: 20px` with `flex: 0 0 260px` sidebar and `flex: 1` main content. Mobile: `flex-direction: column` with sidebar at top, full width.
+  - **Visual polish**: Search input at top of sidebar, filter sections with title + chips, reset button, year tabs in results header.
+- **Filter logic**: Unchanged from prior fix (AND across dimensions, OR within multi-select groups). Counts are recalculated on every filter change via single-pass logic.
+- **Verified**: Playwright testing confirms layout on desktop (1200×800) and mobile (375×667), all filter interactions (7 tests pass, 1 selector issue unrelated to logic), dynamic counts update correctly, URL persistence survives filter changes and page reload.
+
+**Why this layout redesign**
+- User feedback: "Acțiune is the only drop down. Make it with badges also. Change the layout, move the filter as a left sidebar." The redesign makes filters more discoverable (sidebar is prominent and scrollable) and consistent (all filters use badges, no dropdown exceptions).
+- Dynamic counts are critical for UX: showing "juridica (1,754)" tells users the impact of toggling that filter, reducing trial-and-error when exploring the 7,800-item dataset.
+
 ### 2026-06-03 — Fix ordine-zi-lista filter logic, add filter regression tests
 
 **What was done**

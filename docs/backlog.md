@@ -87,6 +87,20 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
   - Caveats: the CSV regexes need cleanup before use — inconsistent diacritics (cedilla `ş`/`ţ` vs. comma-below `ș`/`ț`), missing `\b` word boundaries, some duplicates, and row 15 (`Comisiei` under European Commission) would false-match every Romanian commission genitive.
   - See also: `docs/ordine-zi-entity-analysis.md` for full n-gram analysis and existing taxonomy comparison.
 
+## Ordine de Zi — List View Enhancements
+
+- [ ] **Enhance ordine-zi-lista.html with UX & query features**
+  - **URL persistence**: Save filter state to `?q=...&type=bills&flags=urgenta,prioritate&year=2024` so filters survive page reload and can be shared.
+  - **Saved queries / favorites**: Let user bookmark/name a filter preset ("Urgent bills from juridica commission") and recall it from a dropdown.
+  - **Column toggles**: Render as table option (columns for type, action, law_category, flags, commissions) with resizable/sticky header for long lists.
+  - **Sorting**: Allow sort by session date, position, item type (currently sorted as displayed).
+  - **CSV export**: "Export results as CSV" button for use in external tools (data analysis, monitoring).
+  - **Bulk actions**: Mark/flag items for follow-up or export a subset of filtered results.
+  - **Mobile layout**: Filter bar collapses into a modal/drawer to free space on small screens.
+  - **Performance**: For very large filter results (1000+), consider pagination or virtual scrolling to keep DOM light.
+  - **Refinement**: Suggest related filters (e.g. "X% of results are from juridica commission — filter by it?") to help users narrow down.
+  - Context: The current implementation is a working MVP; these enhancements add power-user and discoverability features.
+
 ## Misc
 
 - [x] replace cdep link from /pls/parlam/structura2015.mp?idm={ID}&cam=2&leg=2024 to /ords/pls/parlam/structura2015.mp?idm={ID}&leg=2024
@@ -99,6 +113,7 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
   - [x] fix og:image
 - [x] move html files in folder, not root. — created `web/` deployment folder with build script (2026-06-01)
 - [x] look into Declarații de interese
+- [ ] daily scraper - deploy script that only adds novelty? – generally make deploy smarter
 - [ ] show cars, homes, terenuri as icons, one per each? - relative to suprafata or kph?
 - [ ] ce fel de vehicole, șalupe, tractoare, motociclete?
 - [ ] car brands stats/charts, overall, per party, per judet, per age group?

@@ -25,54 +25,63 @@
   --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
   --mono:'SF Mono','Fira Code','Consolas',monospace;
 }
-@media(prefers-color-scheme:dark){:root:not(.light-mode){--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;.bge-org{background:#4c1d9533;color:#c4b5fd}.bge-ord{background:#1e3a8a33;color:#93c5fd}.bge-urg{background:#7f1d1d33;color:#fca5a5}.bge-cam{background:#0c4a6e33;color:#7dd3fc}.bge-pri{background:#14532d33;color:#86efac}.bge-rez{background:#78350f33;color:#fde68a}}}
+@media(prefers-color-scheme:dark){:root:not(.light-mode){--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;}}
 :root.dark-mode{--bg:#1a1a1a;--bg2:#232323;--bg3:#2a2a2a;--text:#e8e6e0;--text2:#aaa;--text3:#666;--border:#333;--border2:#444;}
-body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.5;font-size:14px}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.5;font-size:14px;margin:0}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
-.header{border-bottom:1px solid var(--border);padding:8px 0}
-.header-inner{max-width:1100px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:16px}
-.logo{font-size:15px;font-weight:600;color:var(--text);text-decoration:none}
-.logo span{color:var(--green)}
-.logo em{font-style:normal;color:var(--text2)}
+.header{border-bottom:1px solid var(--border);padding:8px 0;background:#42133c;border-bottom-color:transparent}
+.header-inner{max-width:none;padding:0 20px;display:flex;align-items:center;gap:16px}
+.logo{font-size:15px;font-weight:600;color:#fff;text-decoration:none}
+.logo span{color:#88dfc4}
+.logo em{font-style:normal;color:rgba(255,255,255,.72)}
 .nav{margin-left:auto;display:flex;flex-wrap:wrap;gap:2px;align-items:center}
-.nav a{white-space:nowrap;font-size:13px;padding:5px 10px;border-radius:var(--radius-sm);color:var(--text2);text-decoration:none}
-.nav a:hover{background:var(--bg2)}
-.nav a.active{color:var(--text);font-weight:600}
+.nav a{white-space:nowrap;font-size:13px;padding:5px 10px;border-radius:var(--radius-sm);color:rgba(255,255,255,.72);text-decoration:none}
+.nav a:hover{background:rgba(255,255,255,.11);color:#fff}
+.nav a.active{color:#fff;background:rgba(255,255,255,.08)}
 @media(max-width:820px){.header-inner{gap:12px;padding:0 14px}.nav a{font-size:12px;padding:4px 8px}.nav span:not(#lang-toggle-slot){display:none}}
 @media(max-width:620px){.header-inner{flex-wrap:wrap;gap:8px}.logo{flex:0 0 auto}.nav{flex:0 1 auto;margin-left:0;overflow-x:auto;min-width:0}.nav a{font-size:11px;padding:3px 6px;flex-shrink:0}}
-.container{max-width:1100px;margin:0 auto;padding:16px 20px}
-h1{font-size:20px;font-weight:600;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+
+/* ── page layout: sidebar + main ── */
+.page-wrapper{display:flex;gap:20px;padding:16px 20px;min-height:calc(100vh - 64px)}
+.sidebar{flex:0 0 260px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:12px;overflow-y:auto;max-height:calc(100vh - 64px - 32px);position:sticky;top:16px}
+.main{flex:1;min-width:0}
+
+h1{font-size:20px;font-weight:600;display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:8px}
 .page-nav{display:flex;gap:8px;align-items:center;margin-left:auto}
 .page-nav a{font-size:12px;color:var(--text2);padding:3px 8px;border-radius:var(--radius-sm);border:1px solid var(--border);text-decoration:none}
 .page-nav a:hover{background:var(--bg2);color:var(--text)}
-.sub{color:var(--text3);font-size:12px;margin-bottom:14px}
+.sub{color:var(--text3);font-size:12px;margin-bottom:6px}
 
-/* ── filter panel ── */
-.filter-panel{border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px 14px;margin-bottom:12px;background:var(--bg2)}
-.filter-row{display:flex;gap:8px;align-items:flex-start;flex-wrap:wrap;margin-bottom:8px}
-.filter-row:last-child{margin-bottom:0}
-.filter-label{font-size:10px;color:var(--text3);padding-top:4px;white-space:nowrap;flex-shrink:0}
-.filter-chips{display:flex;flex-wrap:wrap;gap:3px}
-.chip-btn{font-size:10px;padding:2px 8px;border-radius:3px;border:1px solid var(--border);background:none;cursor:pointer;color:var(--text2);font-family:var(--font)}
+/* ── filter sections ── */
+.filter-section{margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--border)}
+.filter-section:last-child{border-bottom:none}
+.filter-title{font-size:11px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:.4px;margin-bottom:6px}
+.search-input{width:100%;border:1px solid var(--border);border-radius:var(--radius-sm);padding:6px 8px;font-size:12px;background:var(--bg);color:var(--text);font-family:var(--font);margin-bottom:8px}
+.search-input::placeholder{color:var(--text3)}
+.search-input:focus{outline:none;border-color:var(--blue);background:var(--bg)}
+.filter-chips{display:flex;flex-wrap:wrap;gap:2px;max-height:120px;overflow-y:auto}
+.chip-btn{font-size:9px;padding:3px 7px;border-radius:3px;border:1px solid var(--border);background:none;cursor:pointer;color:var(--text2);font-family:var(--font);white-space:nowrap;display:flex;align-items:center;gap:2px}
 .chip-btn:hover{background:var(--bg3)}
 .chip-btn.active{background:var(--blue);color:#fff;border-color:var(--blue)}
-.chip-check{display:inline-flex;align-items:center;gap:3px;padding:1px 6px;border:1px solid var(--border);border-radius:3px;font-size:9px;cursor:pointer;color:var(--text2);user-select:none}
+.chip-count{font-size:8px;color:currentColor;opacity:.7}
+.chip-check{display:inline-flex;align-items:center;gap:3px;padding:3px 6px;border:1px solid var(--border);border-radius:3px;font-size:9px;cursor:pointer;color:var(--text2);user-select:none;white-space:nowrap;width:100%}
 .chip-check:hover{background:var(--bg3)}
 .chip-check.active{background:var(--blue);color:#fff;border-color:var(--blue)}
 .chip-check input{display:none}
-.search-input{border:1px solid var(--border2);border-radius:var(--radius-sm);padding:4px 10px;font-size:12px;background:var(--bg);color:var(--text);width:260px;font-family:var(--font)}
-.search-input::placeholder{color:var(--text3)}
-.search-input:focus{outline:none;border-color:var(--blue);background:var(--bg)}
-.reset-btn{font-size:10px;padding:2px 8px;border-radius:3px;border:1px solid var(--border);background:var(--red-bg);color:var(--red-text);cursor:pointer;font-family:var(--font);font-weight:600}
+.chip-label{flex:1}
+.chip-count-badge{font-size:8px;opacity:.7;color:currentColor}
+.reset-btn{font-size:10px;padding:4px 8px;border-radius:3px;border:1px solid var(--border);background:var(--red-bg);color:var(--red-text);cursor:pointer;font-family:var(--font);font-weight:600;width:100%;margin-top:8px}
 .reset-btn:hover{opacity:.8}
 
-/* ── results bar ── */
-.results-bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;flex-wrap:wrap;gap:6px;font-size:12px;color:var(--text2)}
-.results-count{flex:0 0 auto}
-.year-chips{display:flex;gap:2px}
+/* ── results ── */
+.results-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px}
+.results-count{font-size:12px;color:var(--text2)}
+.year-chips{display:flex;gap:2px;flex-wrap:wrap}
+.year-btn{font-size:10px;padding:3px 8px;border-radius:3px;border:1px solid var(--border);background:none;cursor:pointer;color:var(--text2);font-family:var(--font)}
+.year-btn:hover{background:var(--bg2)}
+.year-btn.active{background:var(--blue);color:#fff;border-color:var(--blue)}
 
-/* ── item list ── */
 #results-list{margin-top:6px}
 .list-item-row{display:flex;align-items:flex-start;gap:6px;padding:7px 0;border-bottom:1px solid var(--border);font-size:12px;flex-wrap:wrap}
 .list-item-row:last-child{border-bottom:none}
@@ -94,7 +103,6 @@ h1{font-size:20px;font-weight:600;display:flex;align-items:center;gap:12px;flex-
 .doc-title{flex:1;color:var(--text2)}
 .doc-src{font-size:9px;color:var(--text3);flex-shrink:0}
 
-/* ── entity metadata ── */
 .item-meta{display:flex;flex-wrap:wrap;gap:4px;align-items:center;width:100%;padding:2px 0 2px 26px}
 .bge{display:inline-block;padding:1px 5px;border-radius:3px;font-size:9px;font-weight:600;letter-spacing:.2px;white-space:nowrap}
 .bge-org{background:#ede9fe;color:#6d28d9}
@@ -113,7 +121,14 @@ h1{font-size:20px;font-weight:600;display:flex;align-items:center;gap:12px;flex-
 
 .footer{border-top:1px solid var(--border);padding:14px 20px;margin-top:36px;font-size:12px;color:var(--text3);text-align:center}
 .footer a{color:var(--text2)}
-.header{background:#42133c;border-bottom-color:transparent}.logo{color:#fff}.logo span{color:#88dfc4}.nav a{white-space:nowrap;color:rgba(255,255,255,.72)}.nav a:hover{background:rgba(255,255,255,.11);color:#fff}.nav a.active{color:#fff;background:rgba(255,255,255,.08)}.header .nav a[style*=color]{color:rgba(255,255,255,.85)!important}.notice-bar{display:flex;align-items:center;gap:8px;padding:6px 20px;background:rgba(250,204,21,.1);border-bottom:1px solid rgba(250,204,21,.2);font-size:12px;color:var(--text2)}.notice-bar a{color:inherit;text-decoration:underline;opacity:.85}.notice-icon{font-size:13px;opacity:.8;flex-shrink:0}.notice-text{flex:1}.notice-close{background:none;border:none;color:var(--text3);cursor:pointer;font-size:18px;padding:0 4px;line-height:1;flex-shrink:0}.notice-close:hover{color:var(--text)}.nav button{color:rgba(255,255,255,.72);background:transparent;border:none}.nav button:hover{background:rgba(255,255,255,.11);color:#fff}#lang-toggle-slot button,#lang-toggle-slot a{color:rgba(255,255,255,.72)!important}#lang-toggle-slot button:hover,#lang-toggle-slot a:hover{color:#fff!important}.notice-bar.hidden{display:none}
+
+/* ── mobile layout ── */
+@media(max-width:768px){
+  .page-wrapper{flex-direction:column;gap:12px;padding:12px}
+  .sidebar{flex:0 0 auto;max-height:none;position:static}
+  .filter-chips{max-height:none}
+  .search-input{font-size:14px}
+}
 </style>
 </head>
 <body>
@@ -121,68 +136,65 @@ h1{font-size:20px;font-weight:600;display:flex;align-items:center;gap:12px;flex-
 <div class="notice-bar hidden" id="notice-bar"><span class="notice-icon">⚠</span><span class="notice-text">Versiune alfa / preview. Acesta NU ESTE un proiect oficial al Guvernului României. Date preluate de pe <a href="https://cdep.ro" target="_blank" rel="noopener">cdep.ro</a>.</span><button class="notice-close" id="notice-close" aria-label="Închide">×</button></div>
 <div id="site-header"></div>
 
-<div class="container">
-  <h1>
-    <span>Lista / Filtrare — legislatura <span id="leg-year">2024</span></span>
-    <div class="page-nav" id="leg-toggle"></div>
-    <a href="ordine-zi.html?leg=2024" class="page-nav" style="border:none;padding:0;margin-left:auto">← Calendar</a>
-  </h1>
-  <p class="sub" id="subtitle"></p>
+<div class="page-wrapper">
+  <!-- Left Sidebar: Filters -->
+  <div class="sidebar" id="sidebar">
+    <input type="text" class="search-input" id="search-input" placeholder="🔍 căutare">
 
-  <div class="filter-panel">
-    <!-- Row 1: search + item type -->
-    <div class="filter-row">
-      <input type="text" class="search-input" id="search-input" placeholder="🔍 căutare (descriere, subiect)">
-      <span class="filter-label">Tipul:</span>
+    <div class="filter-section">
+      <div class="filter-title">Tipul</div>
       <div class="filter-chips" id="item-type-chips"></div>
     </div>
 
-    <!-- Row 2: law category + action -->
-    <div class="filter-row">
-      <span class="filter-label">Lege:</span>
+    <div class="filter-section">
+      <div class="filter-title">Lege</div>
       <div class="filter-chips" id="law-cat-chips"></div>
-      <span class="filter-label">Acțiune:</span>
-      <select id="action-select" style="font-size:10px;padding:2px 6px;border:1px solid var(--border);border-radius:3px;background:var(--bg);color:var(--text);font-family:var(--font)">
-        <option value="">Toate</option>
-      </select>
     </div>
 
-    <!-- Row 3: flags (checkboxes) -->
-    <div class="filter-row">
-      <span class="filter-label">Indicatori:</span>
+    <div class="filter-section">
+      <div class="filter-title">Acțiune</div>
+      <div class="filter-chips" id="action-chips"></div>
+    </div>
+
+    <div class="filter-section">
+      <div class="filter-title">Indicatori</div>
       <div class="filter-chips" id="flags-chips"></div>
     </div>
 
-    <!-- Row 4: referenced acts -->
-    <div class="filter-row">
-      <span class="filter-label">Acte ref.:</span>
+    <div class="filter-section">
+      <div class="filter-title">Acte ref.</div>
       <div class="filter-chips" id="act-types-chips"></div>
     </div>
 
-    <!-- Row 5: commissions -->
-    <div class="filter-row">
-      <span class="filter-label">Comisii:</span>
+    <div class="filter-section">
+      <div class="filter-title">Comisii</div>
       <div class="filter-chips" id="comm-chips"></div>
     </div>
 
-    <!-- Row 6: institutions -->
-    <div class="filter-row">
-      <span class="filter-label">Instituții:</span>
+    <div class="filter-section">
+      <div class="filter-title">Instituții</div>
       <div class="filter-chips" id="instit-chips"></div>
     </div>
 
-    <!-- Reset -->
-    <div class="filter-row">
-      <button class="reset-btn" onclick="clearFilters()">Resetează filtrele</button>
+    <button class="reset-btn" onclick="clearFilters()">Resetează</button>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <h1>
+      <span>Lista / Filtrare — legislatura <span id="leg-year">2024</span></span>
+      <div class="page-nav" id="leg-toggle"></div>
+      <a href="ordine-zi.html?leg=2024" class="page-nav" style="border:none;padding:0;margin-left:auto">← Calendar</a>
+    </h1>
+    <p class="sub" id="subtitle"></p>
+
+    <div class="results-header">
+      <span class="results-count" id="results-count"></span>
+      <div class="year-chips" id="year-chips"></div>
     </div>
-  </div>
 
-  <div class="results-bar">
-    <span class="results-count" id="results-count"></span>
-    <div class="year-chips" id="year-chips"></div>
+    <div id="results-list"><div class="loading">Se încarcă…</div></div>
   </div>
-
-  <div id="results-list"><div class="loading">Se încarcă…</div></div>
 </div>
 
 <div id="site-footer"></div>
@@ -207,44 +219,6 @@ let listInstits = new Set();
 let listYear = 0;
 let searchTimer = null;
 
-// ── URL persistence ──
-function getQueryParams() {
-  const p = new URL(location).searchParams;
-  return {
-    q: p.get('q') || '',
-    type: p.get('type') || 'all',
-    lawcat: p.get('lawcat') || '',
-    action: p.get('action') || '',
-    flags: p.getAll('flags') || [],
-    acts: p.getAll('acts') || [],
-    comms: p.getAll('comms') || [],
-    instits: p.getAll('instits') || [],
-    year: p.get('year') ? +p.get('year') : 0,
-  };
-}
-
-function pushQueryParams() {
-  const u = new URL(location);
-  u.searchParams.set('q', listQ);
-  u.searchParams.set('type', listItemType);
-  u.searchParams.set('lawcat', listLawCat);
-  u.searchParams.set('action', listAction);
-  u.searchParams.set('year', listYear);
-
-  // remove old params
-  Array.from(u.searchParams.keys()).forEach(k => {
-    if(['flags','acts','comms','instits'].includes(k)) u.searchParams.delete(k);
-  });
-
-  // add multi-value params
-  Array.from(listFlags).forEach(f => u.searchParams.append('flags', f));
-  Array.from(listActTypes).forEach(a => u.searchParams.append('acts', a));
-  Array.from(listCommSlugs).forEach(c => u.searchParams.append('comms', c));
-  Array.from(listInstits).forEach(i => u.searchParams.append('instits', i));
-
-  history.replaceState({}, '', u.toString());
-}
-
 // ── filter definitions ──
 const FILTER_SETS = {
   bills:      new Set(['proiect_lege','propunere_legislativa','reexaminare']),
@@ -256,374 +230,206 @@ const FILTER_SETS = {
                       'sedinta_solemna','vot','raport']),
 };
 
-const ITEM_TYPE_LABELS = {
-  all: 'Toate',
-  bills: 'Proiecte lege',
-  hotarari: 'Hotărâri',
-  motions: 'Moțiuni',
-  procedural: 'Procedural',
-};
+const ITEM_TYPE_LABELS = {all:'Toate',bills:'Proiecte lege',hotarari:'Hotărâri',motions:'Moțiuni',procedural:'Procedural'};
+const FLAG_LABELS = {procedura_urgenta:'urgență',prioritate_legislativa:'prioritate',camera_decizionala:'cam. dec.',rezerva_raport:'rezervă raport',sesizare_neconstitutionalitate:'sesizare CCR',cerere_reexaminare:'reexaminare',complexitate_deosebita:'complexitate'};
+const ACT_TYPE_LABELS = {OUG:'OUG',OG:'OG',Lege:'Lege',CCR:'CCR',HotarareParlament:'Hot. Parl.',HotarareCamDepuati:'Hot. CD'};
 
-const FLAG_LABELS = {
-  procedura_urgenta: 'urgență',
-  prioritate_legislativa: 'prioritate',
-  camera_decizionala: 'cam. dec.',
-  rezerva_raport: 'rezervă raport',
-  sesizare_neconstitutionalitate: 'sesizare CCR',
-  cerere_reexaminare: 'reexaminare',
-  complexitate_deosebita: 'complexitate',
-};
-
-const ACT_TYPE_LABELS = {
-  OUG: 'OUG',
-  OG: 'OG',
-  Lege: 'Lege',
-  CCR: 'CCR',
-  HotarareParlament: 'Hot. Parl.',
-  HotarareCamDepuati: 'Hot. CD',
-};
-
-// ── helper: get all distinct values from data ──
-function getDistinctValues() {
-  const acts = new Set();
-  const actions = new Set();
-  const comms = new Set();
-  const instits = new Set();
-
-  allItems.forEach(({it}) => {
-    if(it.entities) {
-      it.entities.referenced_acts?.forEach(a => acts.add(a.act_type));
-      if(it.entities.action) actions.add(it.entities.action);
-      it.entities.commission_slugs?.forEach(c => comms.add(c));
-      it.entities.institutions?.forEach(i => instits.add(i));
+// ── helper: get distinct values ──
+function getDistinctValues(){
+  const acts=new Set(),actions=new Set(),comms=new Set(),instits=new Set();
+  allItems.forEach(({it})=>{
+    if(it.entities){
+      it.entities.referenced_acts?.forEach(a=>acts.add(a.act_type));
+      if(it.entities.action)actions.add(it.entities.action);
+      it.entities.commission_slugs?.forEach(c=>comms.add(c));
+      it.entities.institutions?.forEach(i=>instits.add(i));
     }
   });
+  return {acts,actions,comms,instits};
+}
 
-  return {acts, actions, comms, instits};
+// ── helper: count matching items for filter option ──
+function countForFilter(dimension,value){
+  let count=0;
+  for(const {it} of allItems){
+    let match=false;
+    if(dimension==='item_type'){
+      const types=FILTER_SETS[value];
+      match=types?.has(it.entities?.item_type);
+    }else if(dimension==='law_cat'){
+      match=it.entities?.law_category===value;
+    }else if(dimension==='action'){
+      match=it.entities?.action===value;
+    }else if(dimension==='flag'){
+      match=it.entities?.flags?.includes(value);
+    }else if(dimension==='act_type'){
+      match=it.entities?.referenced_acts?.some(a=>a.act_type===value);
+    }else if(dimension==='commission'){
+      match=it.entities?.commission_slugs?.includes(value);
+    }else if(dimension==='institution'){
+      match=it.entities?.institutions?.includes(value);
+    }
+    if(match)count++;
+  }
+  return count;
 }
 
 // ── render filter UI ──
-function renderFilterUI() {
-  const {acts, actions, comms, instits} = getDistinctValues();
+function renderFilterUI(){
+  const {acts,actions,comms,instits}=getDistinctValues();
 
   // item type
-  document.getElementById('item-type-chips').innerHTML = Object.entries(ITEM_TYPE_LABELS)
-    .map(([k,v]) => `<button class="chip-btn${listItemType===k?' active':''}" data-type="${k}" onclick="setItemType('${k}')">${v}</button>`)
-    .join('');
+  document.getElementById('item-type-chips').innerHTML=Object.entries(ITEM_TYPE_LABELS)
+    .map(([k,v])=>{
+      const cnt=k==='all'?allItems.length:countForFilter('item_type',k);
+      return `<button class="chip-btn${listItemType===k?' active':''}" data-type="${k}" onclick="setItemType('${k}')">${v} <span class="chip-count">${cnt}</span></button>`;
+    }).join('');
 
   // law category
-  document.getElementById('law-cat-chips').innerHTML = `
-    <button class="chip-btn${listLawCat===''?' active':''}" onclick="setLawCat('')">Toate</button>
-    <button class="chip-btn${listLawCat==='lege_organica'?' active':''}" onclick="setLawCat('lege_organica')">Organică</button>
-    <button class="chip-btn${listLawCat==='lege_ordinara'?' active':''}" onclick="setLawCat('lege_ordinara')">Ordinară</button>
+  document.getElementById('law-cat-chips').innerHTML=`
+    <button class="chip-btn${listLawCat===''?' active':''}" onclick="setLawCat('')">Toate <span class="chip-count">${allItems.length}</span></button>
+    <button class="chip-btn${listLawCat==='lege_organica'?' active':''}" onclick="setLawCat('lege_organica')">Organică <span class="chip-count">${countForFilter('law_cat','lege_organica')}</span></button>
+    <button class="chip-btn${listLawCat==='lege_ordinara'?' active':''}" onclick="setLawCat('lege_ordinara')">Ordinară <span class="chip-count">${countForFilter('law_cat','lege_ordinara')}</span></button>
   `;
 
-  // action (select)
-  const actSelect = document.getElementById('action-select');
-  const actOpts = [''].concat(Array.from(actions).sort());
-  actSelect.innerHTML = actOpts.map(a => {
-    const label = a ? a.replace(/_/g, ' ') : 'Toate';
-    return `<option value="${a}"${listAction===a?' selected':''}>${label}</option>`;
-  }).join('');
+  // action (now badges instead of select)
+  document.getElementById('action-chips').innerHTML=[''].concat(Array.from(actions).sort())
+    .map(a=>{
+      const label=a?a.replace(/_/g,' '):'Toate';
+      const cnt=a?countForFilter('action',a):allItems.length;
+      return `<button class="chip-btn${listAction===a?' active':''}" onclick="setAction('${a}')">${label} <span class="chip-count">${cnt}</span></button>`;
+    }).join('');
 
   // flags
-  document.getElementById('flags-chips').innerHTML = Object.entries(FLAG_LABELS)
-    .map(([k,v]) => `<label class="chip-check${listFlags.has(k)?' active':''}" onclick="event.stopPropagation(); toggleFlag('${k}'); return false;">
-      <input type="checkbox"${listFlags.has(k)?' checked':''} onchange="return false;">
-      <span>${v}</span>
-    </label>`)
-    .join('');
+  document.getElementById('flags-chips').innerHTML=Object.entries(FLAG_LABELS)
+    .map(([k,v])=>{
+      const cnt=countForFilter('flag',k);
+      return `<label class="chip-check${listFlags.has(k)?' active':''}" onclick="event.stopPropagation(); toggleFlag('${k}'); return false;">
+        <input type="checkbox"${listFlags.has(k)?' checked':''} onchange="return false;">
+        <span class="chip-label">${v} <span class="chip-count-badge">${cnt}</span></span>
+      </label>`;
+    }).join('');
 
   // act types
-  document.getElementById('act-types-chips').innerHTML = Array.from(acts).sort()
-    .map(a => `<label class="chip-check${listActTypes.has(a)?' active':''}" onclick="event.stopPropagation(); toggleActType('${a}'); return false;">
-      <input type="checkbox"${listActTypes.has(a)?' checked':''} onchange="return false;">
-      <span>${ACT_TYPE_LABELS[a]||a}</span>
-    </label>`)
-    .join('');
+  document.getElementById('act-types-chips').innerHTML=Array.from(acts).sort()
+    .map(a=>{
+      const cnt=countForFilter('act_type',a);
+      return `<label class="chip-check${listActTypes.has(a)?' active':''}" onclick="event.stopPropagation(); toggleActType('${a}'); return false;">
+        <input type="checkbox"${listActTypes.has(a)?' checked':''} onchange="return false;">
+        <span class="chip-label">${ACT_TYPE_LABELS[a]||a} <span class="chip-count-badge">${cnt}</span></span>
+      </label>`;
+    }).join('');
 
   // commissions
-  const commOrder = ['juridica','buget_finante','munca','sanatate','agricultura','mediu','transporturi',
-                     'aparare','politica_externa','administratie_publica','drepturile_omului','egalitate',
-                     'invatamant','economica','industrii','constitutionalitate','cultura','it_comunicatii',
-                     'stiinta','tineret','speciala_comuna'];
-  const commSorted = commOrder.filter(c => comms.has(c)).concat(Array.from(comms).filter(c => !commOrder.includes(c)));
-  document.getElementById('comm-chips').innerHTML = commSorted
-    .map(c => `<label class="chip-check${listCommSlugs.has(c)?' active':''}" onclick="event.stopPropagation(); toggleCommSlug('${c}'); return false;">
-      <input type="checkbox"${listCommSlugs.has(c)?' checked':''} onchange="return false;">
-      <span>${c.replace(/_/g, ' ')}</span>
-    </label>`)
-    .join('');
+  const commOrder=['juridica','buget_finante','munca','sanatate','agricultura','mediu','transporturi','aparare','politica_externa','administratie_publica','drepturile_omului','egalitate','invatamant','economica','industrii','constitutionalitate','cultura','it_comunicatii','stiinta','tineret','speciala_comuna'];
+  const commSorted=commOrder.filter(c=>comms.has(c)).concat(Array.from(comms).filter(c=>!commOrder.includes(c)));
+  document.getElementById('comm-chips').innerHTML=commSorted
+    .map(c=>{
+      const cnt=countForFilter('commission',c);
+      return `<label class="chip-check${listCommSlugs.has(c)?' active':''}" onclick="event.stopPropagation(); toggleCommSlug('${c}'); return false;">
+        <input type="checkbox"${listCommSlugs.has(c)?' checked':''} onchange="return false;">
+        <span class="chip-label">${c.replace(/_/g,' ')} <span class="chip-count-badge">${cnt}</span></span>
+      </label>`;
+    }).join('');
 
   // institutions
-  document.getElementById('instit-chips').innerHTML = Array.from(instits).sort()
-    .map(i => `<label class="chip-check${listInstits.has(i)?' active':''}" onclick="event.stopPropagation(); toggleInstit('${i}'); return false;">
-      <input type="checkbox"${listInstits.has(i)?' checked':''} onchange="return false;">
-      <span>${i}</span>
-    </label>`)
-    .join('');
+  document.getElementById('instit-chips').innerHTML=Array.from(instits).sort()
+    .map(i=>{
+      const cnt=countForFilter('institution',i);
+      return `<label class="chip-check${listInstits.has(i)?' active':''}" onclick="event.stopPropagation(); toggleInstit('${i}'); return false;">
+        <input type="checkbox"${listInstits.has(i)?' checked':''} onchange="return false;">
+        <span class="chip-label">${i} <span class="chip-count-badge">${cnt}</span></span>
+      </label>`;
+    }).join('');
 
   // year chips
-  document.getElementById('year-chips').innerHTML = ['0'].concat(allYears).map(y => {
-    const label = y==='0' ? 'Toți ani' : y;
-    return `<button class="chip-btn${listYear===+y?' active':''}" onclick="setYear(${y})">${label}</button>`;
+  document.getElementById('year-chips').innerHTML=['0'].concat(allYears).map(y=>{
+    const label=y==='0'?'Toți ani':y;
+    return `<button class="year-btn${listYear===+y?' active':''}" onclick="setYear(${y})">${label}</button>`;
   }).join('');
 }
 
 // ── filter setters ──
-function setItemType(f) { listItemType=f; renderFilterUI(); renderList(); pushQueryParams(); }
-function setLawCat(c) { listLawCat=c; renderFilterUI(); renderList(); pushQueryParams(); }
-function setAction(a) { listAction=a; renderFilterUI(); renderList(); pushQueryParams(); }
-function setYear(y) { listYear=y; renderFilterUI(); renderList(); pushQueryParams(); }
-function toggleFlag(s) { if(listFlags.has(s)) listFlags.delete(s); else listFlags.add(s); renderFilterUI(); renderList(); pushQueryParams(); }
-function toggleActType(t) { if(listActTypes.has(t)) listActTypes.delete(t); else listActTypes.add(t); renderFilterUI(); renderList(); pushQueryParams(); }
-function toggleCommSlug(s) { if(listCommSlugs.has(s)) listCommSlugs.delete(s); else listCommSlugs.add(s); renderFilterUI(); renderList(); pushQueryParams(); }
-function toggleInstit(i) { if(listInstits.has(i)) listInstits.delete(i); else listInstits.add(i); renderFilterUI(); renderList(); pushQueryParams(); }
+function setItemType(f){listItemType=f;renderFilterUI();renderList();pushQueryParams();}
+function setLawCat(c){listLawCat=c;renderFilterUI();renderList();pushQueryParams();}
+function setAction(a){listAction=a;renderFilterUI();renderList();pushQueryParams();}
+function setYear(y){listYear=y;renderFilterUI();renderList();pushQueryParams();}
+function toggleFlag(s){if(listFlags.has(s))listFlags.delete(s);else listFlags.add(s);renderFilterUI();renderList();pushQueryParams();}
+function toggleActType(t){if(listActTypes.has(t))listActTypes.delete(t);else listActTypes.add(t);renderFilterUI();renderList();pushQueryParams();}
+function toggleCommSlug(s){if(listCommSlugs.has(s))listCommSlugs.delete(s);else listCommSlugs.add(s);renderFilterUI();renderList();pushQueryParams();}
+function toggleInstit(i){if(listInstits.has(i))listInstits.delete(i);else listInstits.add(i);renderFilterUI();renderList();pushQueryParams();}
 
-function clearFilters() {
-  listQ = ''; document.getElementById('search-input').value = '';
-  listItemType = 'all'; listLawCat = ''; listAction = ''; listFlags.clear(); listActTypes.clear(); listCommSlugs.clear(); listInstits.clear(); listYear = 0;
-  renderFilterUI();
-  renderList();
-  pushQueryParams();
+function clearFilters(){
+  listQ='';document.getElementById('search-input').value='';
+  listItemType='all';listLawCat='';listAction='';listFlags.clear();listActTypes.clear();listCommSlugs.clear();listInstits.clear();listYear=0;
+  renderFilterUI();renderList();pushQueryParams();
 }
 
 // ── apply filters ──
-function applyFilters() {
-  return allItems.filter(({s, it}) => {
-    // Item type (item_type is AND within the dimension -- single select)
-    if(listItemType !== 'all') {
-      const types = FILTER_SETS[listItemType];
-      if(!types?.has(it.entities?.item_type)) return false;
-    }
-
-    // Text search (AND with other filters)
-    if(listQ) {
-      const q = listQ.toLowerCase();
-      const desc = (it.descriere||'').toLowerCase();
-      const subj = (it.entities?.subject||'').toLowerCase();
-      const regNr = (it.nr_inregistrare||'').toLowerCase();
-      if(!desc.includes(q) && !subj.includes(q) && !regNr.includes(q)) return false;
-    }
-
-    // Law category (single select)
-    if(listLawCat) {
-      if(it.entities?.law_category !== listLawCat) return false;
-    }
-
-    // Action (single select)
-    if(listAction) {
-      if(it.entities?.action !== listAction) return false;
-    }
-
-    // Procedural flags (AND: ALL selected flags must match)
-    if(listFlags.size > 0) {
-      const itemFlags = new Set(it.entities?.flags||[]);
-      for(const f of listFlags) {
-        if(!itemFlags.has(f)) return false;
-      }
-    }
-
-    // Act types (OR: at least ONE must match)
-    if(listActTypes.size > 0) {
-      const itemActs = new Set(it.entities?.referenced_acts?.map(a => a.act_type)||[]);
-      let hasAny = false;
-      for(const t of listActTypes) {
-        if(itemActs.has(t)) {
-          hasAny = true;
-          break;
-        }
-      }
-      if(!hasAny) return false;
-    }
-
-    // Commission slugs (OR: at least ONE must match)
-    if(listCommSlugs.size > 0) {
-      const itemComms = new Set(it.entities?.commission_slugs||[]);
-      let hasAny = false;
-      for(const c of listCommSlugs) {
-        if(itemComms.has(c)) {
-          hasAny = true;
-          break;
-        }
-      }
-      if(!hasAny) return false;
-    }
-
-    // Institutions (OR: at least ONE must match)
-    if(listInstits.size > 0) {
-      const itemInstits = new Set(it.entities?.institutions||[]);
-      let hasAny = false;
-      for(const i of listInstits) {
-        if(itemInstits.has(i)) {
-          hasAny = true;
-          break;
-        }
-      }
-      if(!hasAny) return false;
-    }
-
-    // Year (single select)
-    if(listYear > 0) {
-      if(+s.session_date.slice(0,4) !== listYear) return false;
-    }
-
+function applyFilters(){
+  return allItems.filter(({s,it})=>{
+    if(listItemType!=='all'){const types=FILTER_SETS[listItemType];if(!types?.has(it.entities?.item_type))return false;}
+    if(listQ){const q=listQ.toLowerCase(),desc=(it.descriere||'').toLowerCase(),subj=(it.entities?.subject||'').toLowerCase(),regNr=(it.nr_inregistrare||'').toLowerCase();if(!desc.includes(q)&&!subj.includes(q)&&!regNr.includes(q))return false;}
+    if(listLawCat){if(it.entities?.law_category!==listLawCat)return false;}
+    if(listAction){if(it.entities?.action!==listAction)return false;}
+    if(listFlags.size>0){const itemFlags=new Set(it.entities?.flags||[]);for(const f of listFlags){if(!itemFlags.has(f))return false;}}
+    if(listActTypes.size>0){const itemActs=new Set(it.entities?.referenced_acts?.map(a=>a.act_type)||[]);let hasAny=false;for(const t of listActTypes){if(itemActs.has(t)){hasAny=true;break;}}if(!hasAny)return false;}
+    if(listCommSlugs.size>0){const itemComms=new Set(it.entities?.commission_slugs||[]);let hasAny=false;for(const c of listCommSlugs){if(itemComms.has(c)){hasAny=true;break;}}if(!hasAny)return false;}
+    if(listInstits.size>0){const itemInstits=new Set(it.entities?.institutions||[]);let hasAny=false;for(const i of listInstits){if(itemInstits.has(i)){hasAny=true;break;}}if(!hasAny)return false;}
+    if(listYear>0){if(+s.session_date.slice(0,4)!==listYear)return false;}
     return true;
   });
 }
 
-// ── render entity metadata (reuse from ordine-zi.html) ──
-function renderEntityMeta(it) {
+// ── render entity metadata ──
+function renderEntityMeta(it){
   const ent=it.entities;
-  if(!ent) return '';
+  if(!ent)return'';
   const parts=[];
-  if(ent.law_category==='lege_organica') parts.push('<span class="bge bge-org">lege organică</span>');
-  else if(ent.law_category==='lege_ordinara') parts.push('<span class="bge bge-ord">lege ordinară</span>');
-  if(ent.flags?.includes('procedura_urgenta'))     parts.push('<span class="bge bge-urg">urgență</span>');
-  if(ent.flags?.includes('prioritate_legislativa')) parts.push('<span class="bge bge-pri">prioritate</span>');
-  if(ent.flags?.includes('camera_decizionala'))     parts.push('<span class="bge bge-cam">cam. dec.</span>');
-  if(ent.flags?.includes('rezerva_raport'))         parts.push('<span class="bge bge-rez">rezervă raport</span>');
-  if(ent.institutions?.length){
-    const inst=ent.institutions
-      .map(i=>`<span class="item-comm-name">${i}</span>`)
-      .join('<span class="item-comm-sep"> · </span>');
-    parts.push(`<span class="item-comm" style="color:var(--blue)">${inst}</span>`);
-  }
-  if(ent.commissions?.length){
-    const comms=ent.commissions
-      .map(c=>`<span class="item-comm-name">${c}</span>`)
-      .join('<span class="item-comm-sep"> · </span>');
-    parts.push(`<span class="item-comm">${comms}</span>`);
-  }
-  if(it.idp) parts.push(
-    `<a class="ext-btn" href="proiect.html?id=${it.idp}&leg=${LEG}" `+
-    `style="font-size:9px" title="Detalii proiect">proiect →</a>`);
+  if(ent.law_category==='lege_organica')parts.push('<span class="bge bge-org">lege organică</span>');
+  else if(ent.law_category==='lege_ordinara')parts.push('<span class="bge bge-ord">lege ordinară</span>');
+  if(ent.flags?.includes('procedura_urgenta'))parts.push('<span class="bge bge-urg">urgență</span>');
+  if(ent.flags?.includes('prioritate_legislativa'))parts.push('<span class="bge bge-pri">prioritate</span>');
+  if(ent.flags?.includes('camera_decizionala'))parts.push('<span class="bge bge-cam">cam. dec.</span>');
+  if(ent.flags?.includes('rezerva_raport'))parts.push('<span class="bge bge-rez">rezervă raport</span>');
+  if(ent.institutions?.length){const inst=ent.institutions.map(i=>`<span class="item-comm-name">${i}</span>`).join('<span class="item-comm-sep"> · </span>');parts.push(`<span class="item-comm" style="color:var(--blue)">${inst}</span>`);}
+  if(ent.commissions?.length){const comms=ent.commissions.map(c=>`<span class="item-comm-name">${c}</span>`).join('<span class="item-comm-sep"> · </span>');parts.push(`<span class="item-comm">${comms}</span>`);}
+  if(it.idp)parts.push(`<a class="ext-btn" href="proiect.html?id=${it.idp}&leg=${LEG}" style="font-size:9px" title="Detalii proiect">proiect →</a>`);
   const metaRow=parts.length?`<div class="item-meta">${parts.join('')}</div>`:'';
-  const subj=ent.subject
-    ?`<div class="item-subject">${ent.subject}</div>`
-    :'';
+  const subj=ent.subject?`<div class="item-subject">${ent.subject}</div>`:'';
   return metaRow+subj;
 }
 
 // ── render docs ──
-function toggleDocs(btn){
-  const list=btn.closest('.list-item-row').querySelector('.docs-list');
-  const open=list.classList.toggle('open');
-  btn.textContent=open?'documente ▲':`documente (${btn.dataset.count}) ▼`;
-}
-
-function renderDocs(docs){
-  if(!docs||!docs.length) return '';
-  return`<div class="docs-list">${docs.map(d=>{
-    const pdf=d.pdf_url?`<a href="${d.pdf_url}" target="_blank" rel="noopener" style="font-size:10px;flex-shrink:0">PDF ↗</a>`:'';
-    const src=d.sursa==='caseta'?'<span class="doc-src">caseta</span>':'';
-    return`<div class="doc-row"><span class="doc-date">${d.data||''}</span><span class="doc-title">${d.titlu}</span>${src}${pdf}</div>`;
-  }).join('')}</div>`;
-}
-
-// ── render single item ──
-function renderListItem({s, it}) {
-  const pos=it.pozitie!=null?String(it.pozitie):'–';
-  const pdf=it.doc_pdf_url?`<a class="item-pdf" href="${it.doc_pdf_url}" target="_blank" rel="noopener">PDF ↗</a>`:'';
-  const nr=it.nr_inregistrare?`<div style="color:var(--text3);font-size:10px;margin-top:1px">${it.nr_inregistrare}</div>`:'';
-  const hasDocs=it.docs?.length;
-  const tog=hasDocs?`<button class="docs-toggle" onclick="toggleDocs(this)" data-count="${it.docs.length}">documente (${it.docs.length}) ▼</button>`:'';
-  return`<div class="list-item-row">
-    <a class="sess-pill" href="ordine-zi.html?leg=${LEG}&date=${s.session_date}" title="Mergi la calendar">${s.session_date} ↗</a>
-    <div class="list-item-main">
-      <span class="item-pos">${pos}.</span>
-      <span class="item-desc">${it.descriere||'—'}${nr}</span>
-      ${tog}${pdf}
-    </div>${renderEntityMeta(it)}${renderDocs(it.docs)}</div>`;
-}
+function toggleDocs(btn){const list=btn.closest('.list-item-row').querySelector('.docs-list');const open=list.classList.toggle('open');btn.textContent=open?'documente ▲':`documente (${btn.dataset.count}) ▼`;}
+function renderDocs(docs){if(!docs||!docs.length)return'';return`<div class="docs-list">${docs.map(d=>{const pdf=d.pdf_url?`<a href="${d.pdf_url}" target="_blank" rel="noopener" style="font-size:10px;flex-shrink:0">PDF ↗</a>`:'';const src=d.sursa==='caseta'?'<span class="doc-src">caseta</span>':'';return`<div class="doc-row"><span class="doc-date">${d.data||''}</span><span class="doc-title">${d.titlu}</span>${src}${pdf}</div>`;}).join('')}</div>`;}
 
 // ── render list ──
-function renderList() {
-  const filtered = applyFilters();
-  const count = filtered.length;
-  document.getElementById('results-count').textContent = `${count} puncte`;
-
-  if(!count) {
-    document.getElementById('results-list').innerHTML = '<p style="color:var(--text3);font-size:11px;padding:4px 0">Niciun punct pentru filtrele selectate.</p>';
-    return;
-  }
-
-  document.getElementById('results-list').innerHTML = filtered.map(renderListItem).join('');
+function renderListItem({s,it}){
+  const pos=it.pozitie!=null?String(it.pozitie):'–';const pdf=it.doc_pdf_url?`<a class="item-pdf" href="${it.doc_pdf_url}" target="_blank" rel="noopener">PDF ↗</a>`:'';const nr=it.nr_inregistrare?`<div style="color:var(--text3);font-size:10px;margin-top:1px">${it.nr_inregistrare}</div>`:'';const hasDocs=it.docs?.length;const tog=hasDocs?`<button class="docs-toggle" onclick="toggleDocs(this)" data-count="${it.docs.length}">documente (${it.docs.length}) ▼</button>`:'';
+  return`<div class="list-item-row"><a class="sess-pill" href="ordine-zi.html?leg=${LEG}&date=${s.session_date}" title="Mergi la calendar">${s.session_date} ↗</a><div class="list-item-main"><span class="item-pos">${pos}.</span><span class="item-desc">${it.descriere||'—'}${nr}</span>${tog}${pdf}</div>${renderEntityMeta(it)}${renderDocs(it.docs)}</div>`;
 }
+
+function renderList(){
+  const filtered=applyFilters();const count=filtered.length;
+  document.getElementById('results-count').textContent=`${count} puncte`;
+  if(!count){document.getElementById('results-list').innerHTML='<p style="color:var(--text3);font-size:11px;padding:4px 0">Niciun punct pentru filtrele selectate.</p>';return;}
+  document.getElementById('results-list').innerHTML=filtered.map(renderListItem).join('');
+}
+
+// ── URL persistence ──
+function getQueryParams(){const p=new URL(location).searchParams;return{q:p.get('q')||'',type:p.get('type')||'all',lawcat:p.get('lawcat')||'',action:p.get('action')||'',flags:p.getAll('flags')||[],acts:p.getAll('acts')||[],comms:p.getAll('comms')||[],instits:p.getAll('instits')||[],year:p.get('year')?+p.get('year'):0};}
+function pushQueryParams(){const u=new URL(location);u.searchParams.set('q',listQ);u.searchParams.set('type',listItemType);u.searchParams.set('lawcat',listLawCat);u.searchParams.set('action',listAction);u.searchParams.set('year',listYear);Array.from(u.searchParams.keys()).forEach(k=>{if(['flags','acts','comms','instits'].includes(k))u.searchParams.delete(k);});Array.from(listFlags).forEach(f=>u.searchParams.append('flags',f));Array.from(listActTypes).forEach(a=>u.searchParams.append('acts',a));Array.from(listCommSlugs).forEach(c=>u.searchParams.append('comms',c));Array.from(listInstits).forEach(i=>u.searchParams.append('instits',i));history.replaceState({},'',(u.toString()));}
 
 // ── search handler (debounced) ──
-document.addEventListener('DOMContentLoaded', () => {
-  const searchInput = document.getElementById('search-input');
-  searchInput.addEventListener('input', (e) => {
-    listQ = e.target.value;
-    clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => {
-      renderList();
-      pushQueryParams();
-    }, 250);
-  });
-
-  const actionSelect = document.getElementById('action-select');
-  actionSelect.addEventListener('change', (e) => {
-    setAction(e.target.value);
-  });
-});
+document.addEventListener('DOMContentLoaded',()=>{const searchInput=document.getElementById('search-input');searchInput.addEventListener('input',e=>{listQ=e.target.value;clearTimeout(searchTimer);searchTimer=setTimeout(()=>{renderList();pushQueryParams();},250);});});
 
 // ── load data ──
-async function load() {
-  try {
-    const res = await fetch(DATA_URL);
-    if(!res.ok) throw new Error(res.statusText);
-    const d = await res.json();
-
-    // flatten sessions → items
-    allItems = [];
-    const yearsSet = new Set();
-    d.data.forEach(s => {
-      yearsSet.add(+s.session_date.slice(0,4));
-      (s.items||[]).forEach(it => {
-        allItems.push({s, it});
-      });
-    });
-
-    allYears = Array.from(yearsSet).sort((a,b) => a-b);
-
-    document.getElementById('leg-year').textContent = LEG;
-    document.getElementById('leg-toggle').innerHTML = NAV.renderLegToggle(LEG, 'ordine-zi-lista.html', [2024]);
-
-    const total = allItems.length;
-    document.getElementById('subtitle').innerHTML = `${total} puncte · Camera Deputaților`;
-
-    // restore state from URL
-    const params = getQueryParams();
-    listQ = params.q;
-    listItemType = params.type;
-    listLawCat = params.lawcat;
-    listAction = params.action;
-    listFlags = new Set(params.flags);
-    listActTypes = new Set(params.acts);
-    listCommSlugs = new Set(params.comms);
-    listInstits = new Set(params.instits);
-    listYear = params.year;
-
-    // update search input
-    document.getElementById('search-input').value = listQ;
-    document.getElementById('action-select').value = listAction;
-
-    renderFilterUI();
-    renderList();
-
-  } catch(e) {
-    document.getElementById('results-list').innerHTML = `<div class="error">Nu pot încărca ${DATA_URL}: ${e.message}</div>`;
-  }
-}
-
+async function load(){
+  try{const res=await fetch(DATA_URL);if(!res.ok)throw new Error(res.statusText);const d=await res.json();allItems=[];const yearsSet=new Set();d.data.forEach(s=>{yearsSet.add(+s.session_date.slice(0,4));(s.items||[]).forEach(it=>{allItems.push({s,it});});});allYears=Array.from(yearsSet).sort((a,b)=>a-b);document.getElementById('leg-year').textContent=LEG;document.getElementById('leg-toggle').innerHTML=NAV.renderLegToggle(LEG,'ordine-zi-lista.html',[2024]);const total=allItems.length;document.getElementById('subtitle').innerHTML=`${total} puncte · Camera Deputaților`;const params=getQueryParams();listQ=params.q;listItemType=params.type;listLawCat=params.lawcat;listAction=params.action;listFlags=new Set(params.flags);listActTypes=new Set(params.acts);listCommSlugs=new Set(params.comms);listInstits=new Set(params.instits);listYear=params.year;document.getElementById('search-input').value=listQ;renderFilterUI();renderList();}catch(e){document.getElementById('results-list').innerHTML=`<div class="error">Nu pot încărca ${DATA_URL}: ${e.message}</div>`;}}
 load();
 </script>
-<script>
-NAV.renderHeader();
-NAV.renderFooter(`<span data-i18n="source">Sursă JSON</span>: <a href="${DATA_URL}">${DATA_URL}</a>`);
-</script>
+<script>NAV.renderHeader();NAV.renderFooter(`<span data-i18n="source">Sursă JSON</span>: <a href="${DATA_URL}">${DATA_URL}</a>`);</script>
 <script src="i18n.js"></script>
 </body>
 </html>
