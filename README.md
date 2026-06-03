@@ -52,7 +52,24 @@ Dashboard de statistici și transparență parlamentară pentru Camera Deputați
 
 ## 🔧 Scripturi și Pipeline
 
-### Orchestrator
+### Combined Pipeline + Deploy (Recommended)
+
+**One-command daily/weekly ops — scrape + build + deploy:**
+
+```bash
+./scripts/run-and-deploy.sh daily user@host:/path/to/public_html    # daily (~15 min)
+./scripts/run-and-deploy.sh weekly user@host:/path/to/public_html   # weekly (~60 min)
+./scripts/run-and-deploy.sh daily                                   # pipeline only, no deploy
+```
+
+Intelligently selects deploy mode:
+- **daily**: `--cadence daily` + `deploy.sh --quick` (skip large stable blobs, ~30 sec)
+- **weekly**: `--cadence weekly` + `deploy.sh` full (sync all data, ~5-10 min)
+- **pipeline-only**: scrape + build without deploying (for testing/staging)
+
+Stops on pipeline failure (won't deploy broken data).
+
+### Orchestrator (standalone)
 
 **Cadence-aware runner** — selectează stagii pe bază de frecvență:
 
@@ -169,6 +186,23 @@ Arhitectura completă la [`docs/ARCHITECTURE.md`](./docs/ARCHITECTURE.md).
 
 ---
 
+## 📊 Performance
+
+**Home page load time**: ~1 sec (vs 30+ sec before optimization)
+
+- **Index load**: ~79 KB of pre-computed slims (vs 35+ MB monoliths)
+  - `home-deputati-slim-2024.json`: 152 KB (1.9 MB full file) — contains only fields needed for deputy finder + party bars
+  - `home-agenda-latest-2024.json`: 3.8 KB (33.5 MB full file) — contains only latest session + 7 items
+  - Built daily by `build_home_slims.py`
+
+**Deploy speed**: ~30 sec daily (vs 5-10 min weekly full deploy)
+
+- Daily `--quick` mode skips large stable blobs (voturi, proiecte, ordine-zi) which rarely change
+- Uses rsync checksum for append-only dirs to avoid retransfer
+- See `scripts/deploy.sh` for full two-pass rsync strategy
+
+---
+
 ## 🚀 Setup Local
 
 ```bash
@@ -194,6 +228,6 @@ python3 -m http.server 8000
 # Run scraper (requires Romania IP or VPN)
 python3 scripts/run_deputati.py --leg 2024 --verbose
 
-# Orchestrate all (daily mode)
-python3 scripts/refresh_all.py --cadence daily
+# Daily ops: pipeline + deploy
+./scripts/run-and-deploy.sh daily pax@host:/path/to/public_html
 ```

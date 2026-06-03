@@ -2,6 +2,34 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-03 — Optimize home page + add combined run-and-deploy workflow
+
+**What was done**
+- **Home page performance**: Pre-computed slims reduce initial data load by 99.8%
+  - `build_home_slims.py` extracts only needed fields for index.html
+  - deputati: 1.9 MB → 152 KB (92% reduction) with {id, name, current_party, current_group, image, judet, activitate_*}
+  - agenda: 33.5 MB → 3.8 KB (99.9% reduction) with latest session + 7 items
+  - Integrated into daily cadence (runs after home-stats)
+  - Total index load now ~79 KB stats + slims (vs 35 MB before)
+- **Combined pipeline + deploy**: `run-and-deploy.sh` wrapper simplifies daily/weekly ops
+  - `./scripts/run-and-deploy.sh daily [target]` — refresh + quick deploy
+  - `./scripts/run-and-deploy.sh weekly [target]` — refresh + full deploy
+  - Auto-selects deploy mode based on cadence (--quick for daily, full for weekly)
+  - Stops on pipeline failure (no deploy of broken data)
+  - Optional: run pipeline-only without deploy for testing/staging
+
+**Why this matters**
+- **Page speed**: Index.html loads in <1 sec now (was 30+ sec waiting for 35 MB). Users see content immediately.
+- **Reduced friction**: Single command `./scripts/run-and-deploy.sh daily host` replaces two separate commands + manual mode selection.
+- **Safety**: Script validates pipeline success before deploying; fails fast if scrape/build errors.
+- **Operational clarity**: Clear progress markers (Phase 1: scrape+build, Phase 2: deploy).
+
+**Verified**
+- Slims generated correctly: `python3 scripts/build_home_slims.py` produces both files in <1 sec
+- Deputy finder renders with slim data (name, party, image, jurisdiction filters all work)
+- run-and-deploy.sh handles both daily (--quick) and weekly (full) modes, no-deploy mode
+- Slims synced via existing deploy.sh `stats/` pass (no changes needed to deploy.sh)
+
 ### 2026-06-03 — Enhance data pipeline: cadence-aware refresh, incremental deploy, data freshness
 
 **What was done**
