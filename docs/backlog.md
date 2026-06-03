@@ -154,8 +154,9 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 - [ ] cele mai preferate mărci de mașini / pe partid, pe județ, pe vârstă
 
 - [ ] when/if json gets too large, go duckdb smth?
-- [ ] make a list of scraped targets, the fetched fields, and target files.
-
+- [ ] make a list of scraped targets, the fetched fields, and target files. Covered partly or completely in README?
+- [ ] what is the first data load of index.html? could we make it lighter? 
+- [ ] add nicer loader, include data file size?
 - [ ] make more static? we generate static but load data from json?! is this SEO friendly?
 - [ ] create llms.txt
 - [ ] add filter by minoritati in party list / filters
