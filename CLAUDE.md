@@ -25,12 +25,18 @@ python scripts/run_deputati.py --leg 2024 --verbose
 python scripts/run_voturi.py --days 7 --leg 2024 --verbose
 python scripts/run_interpelari.py --year 2026 --verbose
 
-# Orchestrate all scrapers + builds (cadence-aware, dynamic year)
-python scripts/refresh_all.py                  # weekly (default: daily + weekly stages)
-python scripts/refresh_all.py --cadence daily  # fast daily run (~10-15 min, no PDF parsing)
-python scripts/refresh_all.py --cadence full   # full refetch + PDFs + HTML/sitemap generation
-python scripts/refresh_all.py --skip-voturi    # omit slow voturi scraper
-python scripts/refresh_all.py --only interpelari proiecte  # selective run
+# **Recommended: Combined pipeline + deploy in one command**
+./scripts/run-and-deploy.sh daily user@host:/path/to/public_html    # daily scrape + quick deploy (~15 min)
+./scripts/run-and-deploy.sh weekly user@host:/path/to/public_html   # weekly scrape + full deploy (~60 min)
+./scripts/run-and-deploy.sh daily                                   # scrape + build only (no deploy)
+
+# Or run separately:
+# Orchestrate scrapers + builds (cadence-aware, dynamic year)
+python3 scripts/refresh_all.py                  # weekly (default: daily + weekly stages)
+python3 scripts/refresh_all.py --cadence daily  # fast daily run (~10-15 min, no PDF parsing)
+python3 scripts/refresh_all.py --cadence full   # full refetch + PDFs + HTML/sitemap generation
+python3 scripts/refresh_all.py --skip-voturi    # omit slow voturi scraper
+python3 scripts/refresh_all.py --only interpelari proiecte  # selective run
 
 # Deploy to production
 ./scripts/deploy.sh user@host:/path/to/public_html     # full deploy (all data, ~5-10 min)
