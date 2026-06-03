@@ -4,6 +4,38 @@ Known issues and future improvements. Use `- [ ]` checkboxes; add enough context
 
 ---
 
+## Pipeline & Deploy (Active)
+
+- [ ] **Split ordine-zi monolith into modular CSV/JSON files** (37.5% size reduction candidate)
+  - **Problem**: `data/v1/ordine-zi/legislatura-2024.json` is 33.54 MB, blocks initial page load
+  - **Proposal**: Split into `sesiuni.csv` (0.02 MB) + `items.csv` (3.93 MB) + `docs.csv` (11.86 MB) + `entities.json` (5.15 MB) = 20.95 MB (37.5% reduction, zero data loss).
+  - **Web UX**: Load sesiuni + entities on initial page (~5 MB), lazy-load items/docs on session click
+  - **Implementation notes**:
+    - `scripts/split_ordine_zi.py` and `scripts/merge_ordine_zi.py` already exist and tested (`docs/ordine-zi-split.md`)
+    - Add `split_ordine_zi.py` to daily cadence in `refresh_all.py` (after `run_ordine_zi.py`)
+    - Update `ordine-zi.html` to lazy-load CSV/JSON instead of monolith
+    - Keep merge script as recovery utility
+    - Phase in: generate split files alongside monolith during transition period
+
+- [ ] **Deploy safety & documentation improvements**
+  - **Problem**: `deploy.sh` had unsafe `--delete` with partial exclusions on `data/v1/`, which could delete managed files
+  - **Status**: FIXED in commit b617dca7d (removed --delete from Pass 2 data/v1 sync, only use on stats/)
+  - **TODO**: 
+    - Document deploy.sh behavior in CLAUDE.md with examples
+    - Add deploy.sh dry-run to CI or pre-deploy checklist (at least once per release)
+    - Test both full + --quick modes against staging server
+    - Consider adding file count/size validation post-deploy (sanity check that key files exist)
+
+- [ ] **Large data dir optimization** — move `interpelari/` and `ordine-zi/` to yearly splits
+  - **Problem**: `interpelari/legislatura-2024.json` is 83 MB; current split_by_year only handles interpelari/proiecte at year level
+  - **Similar to**: `split_by_year.py` optimization that reduced `proiecte/` load from 21 MB to ~3 MB/year
+  - **Implementation notes**:
+    - Extend `split_by_year.py` to also split `interpelari/legislatura-2024.json` and `ordine-zi/legislatura-2024.json` by year
+    - This pairs well with the ordine-zi split proposal above (split monolith, then year-split the split)
+    - Would reduce `ordine-zi` mobile load from 34 MB to ~5 MB/year (2024: 4 MB, 2023: 2 MB, etc.)
+
+---
+
 ## Cross-links
 
 - [ ] **Back-fill `data_inregistrare_cd` on necunoscut.json bills** — voted bills lack a registration date and land in `necunoscut.json`, so `proiect.html` can't show their full detail view. Running `run_proiecte.py` with a flag to re-scrape bill metadata and populate `data_inregistrare_cd` would move them into year files, making `proiect.html` detail + `proiect.html → vot.html` cross-link work for all voted bills. `bill-vote-map-{leg}.json` already has the 394 matched pairs for 2024; the cross-link fires as soon as the bill appears in a year file.
