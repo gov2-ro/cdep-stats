@@ -8,7 +8,7 @@ Dashboard de statistici și transparență parlamentară pentru Camera Deputați
 
 ---
 
-## 🌐 Pagini și Funcționalități
+## 🌐 Pagini și funcționalități
 
 ### Analitice
 | Pagină | URL | Descriere |
@@ -40,7 +40,15 @@ Dashboard de statistici și transparență parlamentară pentru Camera Deputați
 | **Feed Atom** | `feed.atom` | Ultimele 60 vot, proiecte, interpelări, sanțiuni (15 fiecare) |
 | **Feed JSON** | `feed.json` | Formatul JSON Feed v1.1 |
 
----
+## Screenshots
+
+![statistici deputați](docs/reference/screenshots/cdep-stats-0.png)
+![avere deputați](docs/reference/screenshots/cdep-stats-1.png)
+![avere deputați 2](docs/reference/screenshots/cdep-stats-2.png)
+![activitate](docs/reference/screenshots/cdep-stats-3.png)
+![proiecte](docs/reference/screenshots/cdep-stats-4.png)
+![interpelări](docs/reference/screenshots/cdep-stats-5.png)
+
 
 ## 🔧 Scripturi și Pipeline
 
@@ -189,12 +197,3 @@ python3 scripts/run_deputati.py --leg 2024 --verbose
 # Orchestrate all (daily mode)
 python3 scripts/refresh_all.py --cadence daily
 ```
-
----
-
-![statistici deputați](docs/reference/screenshots/cdep-stats-0.png)
-![avere deputați](docs/reference/screenshots/cdep-stats-1.png)
-![avere deputați 2](docs/reference/screenshots/cdep-stats-2.png)
-![activitate](docs/reference/screenshots/cdep-stats-3.png)
-![proiecte](docs/reference/screenshots/cdep-stats-4.png)
-![interpelări](docs/reference/screenshots/cdep-stats-5.png)
