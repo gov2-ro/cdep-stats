@@ -21,11 +21,15 @@ def build_deputati_slim() -> None:
     with open(src) as f:
         data = json.load(f)
 
-    # Extract only fields needed for home page: party bars + indicators
+    # Extract only fields needed for home page: party bars + indicators + deputy finder
     slim = [
         {
             "id": d.get("cdep_idm"),
+            "name": d.get("name"),
             "current_party": d.get("current_party"),
+            "current_group": d.get("current_group"),
+            "image": d.get("image"),
+            "judet": d.get("judet"),
             "activitate_legi_promulgate": d.get("activitate_legi_promulgate", 0),
             "activitate_intrebari_interpelari": d.get("activitate_intrebari_interpelari", 0),
             "activitate_propuneri_legislative": d.get("activitate_propuneri_legislative", 0),
