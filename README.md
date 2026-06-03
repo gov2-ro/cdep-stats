@@ -48,6 +48,8 @@ Dashboard de statistici și transparență parlamentară pentru Camera Deputați
 ![activitate](docs/reference/screenshots/cdep-stats-3.png)
 ![proiecte](docs/reference/screenshots/cdep-stats-4.png)
 ![interpelări](docs/reference/screenshots/cdep-stats-5.png)
+![agendă](docs/reference/screenshots/cdep-stats-agenda-2.png)
+![voturi](docs/reference/screenshots/cdep-stats-voturi.png)
 
 
 ## 🔧 Scripturi și Pipeline
