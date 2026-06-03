@@ -2,6 +2,20 @@
 
 Chronological record of meaningful work. Newest entries on top within each section.
 
+### 2026-06-03 — Fix ordine-zi-lista filter logic, add filter regression tests
+
+**What was done**
+- **Critical bug fix**: `applyFilters()` logic had subtle bugs causing incorrect filter combinations. Rewrote as single-pass filter with explicit early-return:
+  - **Within dimensions** (commissions, act types, institutions): OR logic — selecting more shows more items
+  - **Across dimensions** (item_type + commissions + flags + etc.): AND logic — each added filter narrows results
+  - Verified with manual testing: 1 commission (1,754) + 2 commissions (3,676) + 8 commissions (5,464) ✓
+  - Verified AND: bills (6,708) + juridica (1,754) ✓; flags (3,078) + 2 flags AND (152) ✓
+- `tests/test_ordine_zi_lista_filters.py` (new) — Playwright-based regression tests for all filter combinations (WIP, requires Playwright installation in test environment).
+- Fixed checkbox event handlers to prevent state desync (earlier fix).
+
+**Root cause**
+User reported: selecting more commissions decreased item count (wrong). Root cause was that the filter logic wasn't clearly combining dimensions. The rewrite makes it explicit: every non-false return accumulates AND conditions across all active filters.
+
 ### 2026-06-03 — Filterable ordine-zi list view, voturi stats, bill-vote cross-link validation
 
 **What was done**
