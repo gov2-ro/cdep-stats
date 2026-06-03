@@ -74,8 +74,9 @@ else
 fi
 
 echo "=== Pass 2: dynamic files (HTML, assets, stats, small data) ==="
-# Sync web/ root (HTML, JS, txt files)
+# Sync web/ root (HTML, JS, txt files) — exclude local dev symlinks
 rsync "${RSYNC_FLAGS[@]}" \
+  --exclude='data' --exclude='assets' \
   "$ROOT/web/" "$TARGET/"
 
 # Sync stats/ with --delete (small, fully managed)
