@@ -390,73 +390,86 @@ function clearFilters() {
 
 // ── apply filters ──
 function applyFilters() {
-  let list = allItems;
+  return allItems.filter(({s, it}) => {
+    // Item type (item_type is AND within the dimension -- single select)
+    if(listItemType !== 'all') {
+      const types = FILTER_SETS[listItemType];
+      if(!types?.has(it.entities?.item_type)) return false;
+    }
 
-  // item type filter
-  if(listItemType !== 'all') {
-    const types = FILTER_SETS[listItemType];
-    list = list.filter(({it}) => types?.has(it.entities?.item_type));
-  }
-
-  // text search (debounced in input handler)
-  if(listQ) {
-    const q = listQ.toLowerCase();
-    list = list.filter(({it}) => {
+    // Text search (AND with other filters)
+    if(listQ) {
+      const q = listQ.toLowerCase();
       const desc = (it.descriere||'').toLowerCase();
       const subj = (it.entities?.subject||'').toLowerCase();
       const regNr = (it.nr_inregistrare||'').toLowerCase();
-      return desc.includes(q) || subj.includes(q) || regNr.includes(q);
-    });
-  }
+      if(!desc.includes(q) && !subj.includes(q) && !regNr.includes(q)) return false;
+    }
 
-  // law category
-  if(listLawCat) {
-    list = list.filter(({it}) => it.entities?.law_category === listLawCat);
-  }
+    // Law category (single select)
+    if(listLawCat) {
+      if(it.entities?.law_category !== listLawCat) return false;
+    }
 
-  // action
-  if(listAction) {
-    list = list.filter(({it}) => it.entities?.action === listAction);
-  }
+    // Action (single select)
+    if(listAction) {
+      if(it.entities?.action !== listAction) return false;
+    }
 
-  // flags (AND: all selected must match)
-  if(listFlags.size > 0) {
-    list = list.filter(({it}) => {
-      const flags = new Set(it.entities?.flags||[]);
-      return Array.from(listFlags).every(f => flags.has(f));
-    });
-  }
+    // Procedural flags (AND: ALL selected flags must match)
+    if(listFlags.size > 0) {
+      const itemFlags = new Set(it.entities?.flags||[]);
+      for(const f of listFlags) {
+        if(!itemFlags.has(f)) return false;
+      }
+    }
 
-  // act types (OR: at least one selected)
-  if(listActTypes.size > 0) {
-    list = list.filter(({it}) => {
-      const acts = new Set(it.entities?.referenced_acts?.map(a => a.act_type)||[]);
-      return Array.from(listActTypes).some(t => acts.has(t));
-    });
-  }
+    // Act types (OR: at least ONE must match)
+    if(listActTypes.size > 0) {
+      const itemActs = new Set(it.entities?.referenced_acts?.map(a => a.act_type)||[]);
+      let hasAny = false;
+      for(const t of listActTypes) {
+        if(itemActs.has(t)) {
+          hasAny = true;
+          break;
+        }
+      }
+      if(!hasAny) return false;
+    }
 
-  // commission slugs (OR: at least one selected)
-  if(listCommSlugs.size > 0) {
-    list = list.filter(({it}) => {
-      const comms = new Set(it.entities?.commission_slugs||[]);
-      return Array.from(listCommSlugs).some(c => comms.has(c));
-    });
-  }
+    // Commission slugs (OR: at least ONE must match)
+    if(listCommSlugs.size > 0) {
+      const itemComms = new Set(it.entities?.commission_slugs||[]);
+      let hasAny = false;
+      for(const c of listCommSlugs) {
+        if(itemComms.has(c)) {
+          hasAny = true;
+          break;
+        }
+      }
+      if(!hasAny) return false;
+    }
 
-  // institutions (OR: at least one selected)
-  if(listInstits.size > 0) {
-    list = list.filter(({it}) => {
-      const instits = new Set(it.entities?.institutions||[]);
-      return Array.from(listInstits).some(i => instits.has(i));
-    });
-  }
+    // Institutions (OR: at least ONE must match)
+    if(listInstits.size > 0) {
+      const itemInstits = new Set(it.entities?.institutions||[]);
+      let hasAny = false;
+      for(const i of listInstits) {
+        if(itemInstits.has(i)) {
+          hasAny = true;
+          break;
+        }
+      }
+      if(!hasAny) return false;
+    }
 
-  // year
-  if(listYear > 0) {
-    list = list.filter(({s}) => +s.session_date.slice(0,4) === listYear);
-  }
+    // Year (single select)
+    if(listYear > 0) {
+      if(+s.session_date.slice(0,4) !== listYear) return false;
+    }
 
-  return list;
+    return true;
+  });
 }
 
 // ── render entity metadata (reuse from ordine-zi.html) ──
