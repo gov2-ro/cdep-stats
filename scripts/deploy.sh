@@ -73,26 +73,28 @@ else
   echo ""
 fi
 
-echo "=== Pass 2: dynamic files (HTML, assets, stats, small data, last_updated) ==="
-rsync "${RSYNC_FLAGS[@]}" --delete \
-  --exclude='data/v1/voturi/' \
-  --exclude='data/v1/declaratii-avere/' \
-  --exclude='data/v1/proiecte/' \
-  --exclude='data/v1/ordine-zi/' \
-  --exclude='data/v1/interpelari/' \
-  --exclude='data/v1/amendamente/' \
+echo "=== Pass 2: dynamic files (HTML, assets, stats, small data) ==="
+# Sync web/ root (HTML, JS, txt files)
+rsync "${RSYNC_FLAGS[@]}" \
   "$ROOT/web/" "$TARGET/"
 
+# Sync stats/ with --delete (small, fully managed)
 rsync "${RSYNC_FLAGS[@]}" --delete \
-  --exclude='voturi/' \
-  --exclude='declaratii-avere/' \
-  --exclude='proiecte/' \
-  --exclude='ordine-zi/' \
-  --exclude='interpelari/' \
-  --exclude='amendamente/' \
-  "$ROOT/data/v1/" "$TARGET/data/v1/"
+  "$ROOT/data/v1/stats/" "$TARGET/data/v1/stats/"
 
-rsync "${RSYNC_FLAGS[@]}" --delete \
+# Sync small/dynamic data dirs (no --delete — don't remove files we're not syncing)
+for dir in deputati comisii declaratii declaratii-interese motiuni stenograme doc-comisii correspondence; do
+  if [[ -d "$ROOT/data/v1/$dir" ]]; then
+    rsync "${RSYNC_FLAGS[@]}" "$ROOT/data/v1/$dir/" "$TARGET/data/v1/$dir/"
+  fi
+done
+
+# Sync last_updated.json (updated every run)
+rsync "${RSYNC_FLAGS[@]}" \
+  "$ROOT/data/v1/last_updated.json" "$TARGET/data/v1/" 2>/dev/null || true
+
+# Sync assets/
+rsync "${RSYNC_FLAGS[@]}" \
   "$ROOT/assets/" "$TARGET/assets/"
 
 echo ""
