@@ -328,16 +328,16 @@ function renderFilterUI() {
 
   // flags
   document.getElementById('flags-chips').innerHTML = Object.entries(FLAG_LABELS)
-    .map(([k,v]) => `<label class="chip-check${listFlags.has(k)?' active':''}" onclick="toggleFlag('${k}')">
-      <input type="checkbox"${listFlags.has(k)?' checked':''}>
+    .map(([k,v]) => `<label class="chip-check${listFlags.has(k)?' active':''}" onclick="event.stopPropagation(); toggleFlag('${k}'); return false;">
+      <input type="checkbox"${listFlags.has(k)?' checked':''} onchange="return false;">
       <span>${v}</span>
     </label>`)
     .join('');
 
   // act types
   document.getElementById('act-types-chips').innerHTML = Array.from(acts).sort()
-    .map(a => `<label class="chip-check${listActTypes.has(a)?' active':''}" onclick="toggleActType('${a}')">
-      <input type="checkbox"${listActTypes.has(a)?' checked':''}>
+    .map(a => `<label class="chip-check${listActTypes.has(a)?' active':''}" onclick="event.stopPropagation(); toggleActType('${a}'); return false;">
+      <input type="checkbox"${listActTypes.has(a)?' checked':''} onchange="return false;">
       <span>${ACT_TYPE_LABELS[a]||a}</span>
     </label>`)
     .join('');
@@ -349,16 +349,16 @@ function renderFilterUI() {
                      'stiinta','tineret','speciala_comuna'];
   const commSorted = commOrder.filter(c => comms.has(c)).concat(Array.from(comms).filter(c => !commOrder.includes(c)));
   document.getElementById('comm-chips').innerHTML = commSorted
-    .map(c => `<label class="chip-check${listCommSlugs.has(c)?' active':''}" onclick="toggleCommSlug('${c}')">
-      <input type="checkbox"${listCommSlugs.has(c)?' checked':''}>
+    .map(c => `<label class="chip-check${listCommSlugs.has(c)?' active':''}" onclick="event.stopPropagation(); toggleCommSlug('${c}'); return false;">
+      <input type="checkbox"${listCommSlugs.has(c)?' checked':''} onchange="return false;">
       <span>${c.replace(/_/g, ' ')}</span>
     </label>`)
     .join('');
 
   // institutions
   document.getElementById('instit-chips').innerHTML = Array.from(instits).sort()
-    .map(i => `<label class="chip-check${listInstits.has(i)?' active':''}" onclick="toggleInstit('${i}')">
-      <input type="checkbox"${listInstits.has(i)?' checked':''}>
+    .map(i => `<label class="chip-check${listInstits.has(i)?' active':''}" onclick="event.stopPropagation(); toggleInstit('${i}'); return false;">
+      <input type="checkbox"${listInstits.has(i)?' checked':''} onchange="return false;">
       <span>${i}</span>
     </label>`)
     .join('');
