@@ -72,14 +72,31 @@
     const pageLinks = FOOTER_LINKS.map(l => `<a href="${l.href}">${l.label}</a>`).join(" · ");
     document.getElementById("site-footer").innerHTML = `
 <footer class="footer">
-  ${pageLinks} &emsp; &middot; &emsp; 
-  <span><span data-i18n="license">licență</span>: <em>Open Government License v3.0</em>   &middot;   <span data-i18n="data_from">date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via: <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k<b>/cdep-api-poc</b></a>  &middot;   vezi și: <a href="https://monitorul.ai/" target="_blank"><b>monitorul.ai</b>↗</a></span>
+  ${pageLinks} &emsp; &middot; &emsp;
+  <span id="footer-attribution"><span data-i18n="license">licență</span>: <em>Open Government License v3.0</em>   &middot;   <span data-i18n="data_from">date din</span> <a href="https://cdep.ro" target="_blank">cdep.ro</a>, via: <a href="https://github.com/Endimion2k/cdep-api-poc" target="_blank">Endimion2k<b>/cdep-api-poc</b></a>  &middot;   vezi și: <a href="https://monitorul.ai/" target="_blank"><b>monitorul.ai</b>↗</a></span>
   ${extraHtml ? `<div style="margin-top:6px">${extraHtml}</div>` : ""}
 </footer>
 <!-- 100% privacy-first analytics -->
 <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
 `;
+
+    fetch("data/v1/last_updated.json")
+      .then(r => r.json())
+      .then(d => {
+        if (d?.updated_at) {
+          const span = document.getElementById("footer-attribution");
+          if (span) {
+            const date = new Date(d.updated_at).toLocaleDateString('ro-RO', {
+              day: 'numeric',
+              month: 'short',
+              year: 'numeric'
+            });
+            span.innerHTML += `   &middot;   actualizat <strong>${date}</strong>`;
+          }
+        }
+      })
+      .catch(() => {});
   }
 
   function renderLegToggle(currentLeg, pageName, legislatures = [2024, 2020]) {

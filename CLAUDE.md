@@ -25,20 +25,19 @@ python scripts/run_deputati.py --leg 2024 --verbose
 python scripts/run_voturi.py --days 7 --leg 2024 --verbose
 python scripts/run_interpelari.py --year 2026 --verbose
 
-# Derived/aggregated builds (run after scrapers)
-python scripts/build_comisii.py --leg 2024
-python scripts/build_amendamente.py --leg 2024
-python scripts/build_feeds.py --leg 2024 --per-type 15 --limit 60
-python scripts/build_declaratii_avere.py --leg 2024
-python scripts/build_avere_stats.py --leg 2024  # aggregate stats for the /avere.html dashboard
-python scripts/build_home_stats.py --leg 2024   # precomputed counts for index.html (avoids fetching ~18MB of raw files)
-python scripts/build_proiecte_index.py --leg 2024  # thin bill index + bill-vote-map; runs automatically via refresh_all.py
-python scripts/build_sitemap_xml.py             # regenerate web/sitemap.xml after data changes
+# Orchestrate all scrapers + builds (cadence-aware, dynamic year)
+python scripts/refresh_all.py                  # weekly (default: daily + weekly stages)
+python scripts/refresh_all.py --cadence daily  # fast daily run (~10-15 min, no PDF parsing)
+python scripts/refresh_all.py --cadence full   # full refetch + PDFs + HTML/sitemap generation
+python scripts/refresh_all.py --skip-voturi    # omit slow voturi scraper
+python scripts/refresh_all.py --only interpelari proiecte  # selective run
 
-# Build deploy.zip (sources from web/*.html, assets/, data/v1/)
+# Deploy to production
+./scripts/deploy.sh user@host:/path/to/public_html     # full deploy (all data, ~5-10 min)
+./scripts/deploy.sh --quick user@host:/path/to/public_html  # fast daily sync (~30s, stats/HTML/data only)
+
+# OR: Build deploy.zip for scp-based deploy (if rsync not available on target)
 python scripts/build_web.py
-# Or deploy via rsync (faster, checksum-based for large dirs):
-# ./scripts/deploy.sh user@host:/path/to/public_html
 
 # N-gram analysis: discover formulaic patterns in agenda descriptions (no new deps)
 PYTHONPATH=. python scripts/analyze_ngrams.py --leg 2024              # bigrams
